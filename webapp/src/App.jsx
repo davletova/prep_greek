@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const CONTENT_URL = "/content/hello.json";
+const CONTENT_URL = `${import.meta.env.BASE_URL}content/hello.json`;
 
 export default function App() {
   const [message, setMessage] = useState("Загрузка...");
