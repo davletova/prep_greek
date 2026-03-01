@@ -130,6 +130,18 @@ export default function App() {
               </div>
               <span className="card-button__chevron">›</span>
             </button>
+
+            <button className="card-button" type="button">
+              <div className="card-button__text">
+                <span className="card-button__title">
+                  Контекстные правила чтения
+                </span>
+                <span className="card-button__subtitle">
+                  Дифтонги и сочетания букв
+                </span>
+              </div>
+              <span className="card-button__chevron">›</span>
+            </button>
           </main>
         </>
       ) : (
