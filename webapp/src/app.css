@@ -194,20 +194,9 @@ body {
   gap: 16px;
 }
 
-.alphabet-card:nth-child(4n + 1) {
-  background: #e9f2ff;
-}
-
-.alphabet-card:nth-child(4n + 2) {
-  background: #fde6f0;
-}
-
-.alphabet-card:nth-child(4n + 3) {
-  background: #fff3d1;
-}
-
-.alphabet-card:nth-child(4n + 4) {
-  background: #e8f7e4;
+.alphabet-card {
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.06);
 }
 
 .alphabet-card__letters {
@@ -256,7 +245,7 @@ body {
 
 .alphabet-card__play {
   border: none;
-  background: rgba(255, 255, 255, 0.7);
+  background: #ffffff;
   border-radius: 999px;
   width: 36px;
   height: 36px;
@@ -264,6 +253,7 @@ body {
   font-weight: 600;
   color: #2a3b59;
   cursor: pointer;
+  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.12);
 }
 
 .alphabet__nav {
