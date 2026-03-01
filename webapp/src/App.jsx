@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 
 const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
+const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
 const PAGE_SIZE = 5;
 
 export default function App() {
@@ -8,6 +9,9 @@ export default function App() {
   const [alphabet, setAlphabet] = useState(null);
   const [alphabetError, setAlphabetError] = useState("");
   const [pageIndex, setPageIndex] = useState(0);
+  const [diphthongs, setDiphthongs] = useState(null);
+  const [diphthongsError, setDiphthongsError] = useState("");
+  const [diphthongIndex, setDiphthongIndex] = useState(0);
 
   useEffect(() => {
     if (window.Telegram?.WebApp?.ready) {
@@ -34,6 +38,26 @@ export default function App() {
         setAlphabetError(err.message);
       });
   }, [screen, alphabet, alphabetError]);
+
+  useEffect(() => {
+    if (screen !== "diphthongs" || diphthongs || diphthongsError) {
+      return;
+    }
+
+    fetch(DIPHTHONGS_URL)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status}`);
+        }
+        return res.json();
+      })
+      .then((data) => {
+        setDiphthongs(data);
+      })
+      .catch((err) => {
+        setDiphthongsError(err.message);
+      });
+  }, [screen, diphthongs, diphthongsError]);
 
   const letters = alphabet?.letters ?? [];
   const pages = useMemo(() => {
@@ -68,6 +92,11 @@ export default function App() {
   const handleOpenAlphabet = () => {
     setScreen("alphabet");
     setPageIndex(0);
+  };
+
+  const handleOpenDiphthongs = () => {
+    setScreen("diphthongs");
+    setDiphthongIndex(0);
   };
 
   const handleExit = () => {
@@ -107,6 +136,31 @@ export default function App() {
     window.speechSynthesis.speak(utterance);
   };
 
+  const handleSpeakText = (text) => {
+    if (!("speechSynthesis" in window)) {
+      alert("Озвучка не поддерживается в этом браузере.");
+      return;
+    }
+
+    if (!text) {
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "el-GR";
+
+    const voices = window.speechSynthesis.getVoices();
+    const greekVoice = voices.find((voice) =>
+      voice.lang?.toLowerCase().startsWith("el")
+    );
+    if (greekVoice) {
+      utterance.voice = greekVoice;
+    }
+
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  };
+
   return (
     <div className="app">
       {screen === "home" ? (
@@ -131,7 +185,11 @@ export default function App() {
               <span className="card-button__chevron">›</span>
             </button>
 
-            <button className="card-button" type="button">
+            <button
+              className="card-button"
+              type="button"
+              onClick={handleOpenDiphthongs}
+            >
               <div className="card-button__text">
                 <span className="card-button__title">
                   Контекстные правила чтения
@@ -144,7 +202,7 @@ export default function App() {
             </button>
           </main>
         </>
-      ) : (
+      ) : screen === "alphabet" ? (
         <>
           <header className="app__header app__header--compact">
             <div>
@@ -233,6 +291,78 @@ export default function App() {
                 Вперед
               </button>
             </div>
+          </main>
+        </>
+      ) : (
+        <>
+          <header className="app__header app__header--compact">
+            <div>
+              <h1 className="app__title app__title--small">
+                Контекстные правила чтения
+              </h1>
+            </div>
+            <button
+              className="close-button"
+              type="button"
+              onClick={handleExit}
+              aria-label="Закрыть"
+            >
+              ×
+            </button>
+          </header>
+
+          <main className="diphthong">
+            {diphthongsError ? (
+              <div className="alphabet__error">
+                Не удалось загрузить дифтонги: {diphthongsError}
+              </div>
+            ) : (
+              (() => {
+                const item = diphthongs?.items?.[diphthongIndex];
+                if (!item) {
+                  return (
+                    <div className="alphabet__error">
+                      Нет данных для отображения.
+                    </div>
+                  );
+                }
+
+                return (
+                  <>
+                    <section className="diphthong__hero">
+                      <h2 className="diphthong__title">{item.diphthong}</h2>
+                      <p className="diphthong__subtitle">{item.sound_ru}</p>
+                    </section>
+
+                    <section className="diphthong__examples">
+                      <h3 className="diphthong__label">Примеры</h3>
+                      <div className="diphthong__list">
+                        {item.examples?.map((example, index) => (
+                          <div className="example-card" key={index}>
+                            <div className="example-card__text">
+                              <span className="example-card__word">
+                                {example.word}
+                              </span>
+                              <span className="example-card__translation">
+                                {example.ru}
+                              </span>
+                            </div>
+                            <button
+                              className="alphabet-card__play"
+                              type="button"
+                              aria-label={`Озвучить ${example.word}`}
+                              onClick={() => handleSpeakText(example.word)}
+                            >
+                              ▶
+                            </button>
+                          </div>
+                        ))}
+                      </div>
+                    </section>
+                  </>
+                );
+              })()
+            )}
           </main>
         </>
       )}
