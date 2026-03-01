@@ -59,6 +59,31 @@ export default function App() {
     setPageIndex((prev) => Math.min(totalPages - 1, prev + 1));
   };
 
+  const handleSpeak = (letter) => {
+    if (!("speechSynthesis" in window)) {
+      alert("Озвучка не поддерживается в этом браузере.");
+      return;
+    }
+
+    if (!letter?.name) {
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(letter.name);
+    utterance.lang = "el-GR";
+
+    const voices = window.speechSynthesis.getVoices();
+    const greekVoice = voices.find((voice) =>
+      voice.lang?.toLowerCase().startsWith("el")
+    );
+    if (greekVoice) {
+      utterance.voice = greekVoice;
+    }
+
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+  };
+
   return (
     <div className="app">
       {screen === "home" ? (
@@ -134,6 +159,7 @@ export default function App() {
                       className="alphabet-card__play"
                       type="button"
                       aria-label={`Озвучить ${letter.name}`}
+                      onClick={() => handleSpeak(letter)}
                     >
                       ▶
                     </button>

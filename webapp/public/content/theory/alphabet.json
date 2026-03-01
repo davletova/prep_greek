@@ -3,7 +3,7 @@
   "letters": [
     { "upper": "Α", "lower": "α", "name": "άλφα", "sound_ru": "[а]" },
     { "upper": "Β", "lower": "β", "name": "βήτα", "sound_ru": "[в]" },
-    { "upper": "Γ", "lower": "γ", "name": "γάμμα", "sound_ru": "[г]" },
+    { "upper": "Γ", "lower": "γ", "name": "γάμμα", "sound_ru": "звонкое [х]" },
     { "upper": "Δ", "lower": "δ", "name": "δέλτα", "sound_ru": "межзубное [з]" },
     { "upper": "Ε", "lower": "ε", "name": "έψιλον", "sound_ru": "[э]" },
     { "upper": "Ζ", "lower": "ζ", "name": "ζήτα", "sound_ru": "[з]" },
