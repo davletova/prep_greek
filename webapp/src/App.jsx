@@ -36,11 +36,34 @@ export default function App() {
   }, [screen, alphabet, alphabetError]);
 
   const letters = alphabet?.letters ?? [];
-  const totalPages = Math.max(1, Math.ceil(letters.length / PAGE_SIZE));
-  const pageLetters = useMemo(() => {
-    const start = pageIndex * PAGE_SIZE;
-    return letters.slice(start, start + PAGE_SIZE);
-  }, [letters, pageIndex]);
+  const pages = useMemo(() => {
+    if (!letters.length) {
+      return [];
+    }
+
+    const sigmaIndex = letters.findIndex((item) => item.upper === "Σ");
+    if (sigmaIndex === -1) {
+      const chunks = [];
+      for (let i = 0; i < letters.length; i += PAGE_SIZE) {
+        chunks.push(letters.slice(i, i + PAGE_SIZE));
+      }
+      return chunks;
+    }
+
+    const first = letters.slice(0, 15);
+    const sigmaPage = letters.slice(15, 19);
+    const last = letters.slice(19);
+    return [
+      first.slice(0, 5),
+      first.slice(5, 10),
+      first.slice(10, 15),
+      sigmaPage,
+      last
+    ].filter((page) => page.length > 0);
+  }, [letters]);
+
+  const totalPages = Math.max(1, pages.length || 1);
+  const pageLetters = pages[pageIndex] ?? [];
 
   const handleOpenAlphabet = () => {
     setScreen("alphabet");
@@ -143,26 +166,38 @@ export default function App() {
               <div className="alphabet__cards">
                 {pageLetters.map((letter) => (
                   <article className="alphabet-card" key={letter.upper}>
-                    <div className="alphabet-card__letters">
-                      <span>{letter.upper}</span>
-                      <span>{letter.lower}</span>
+                    <div className="alphabet-card__row">
+                      <div className="alphabet-card__letters">
+                        <span>{letter.upper}</span>
+                        <span>{letter.lower}</span>
+                      </div>
+                      <div className="alphabet-card__meta">
+                        <span className="alphabet-card__name">
+                          {letter.name}
+                        </span>
+                        <span className="alphabet-card__sound">
+                          {letter.sound_ru}
+                        </span>
+                      </div>
+                      <button
+                        className="alphabet-card__play"
+                        type="button"
+                        aria-label={`Озвучить ${letter.name}`}
+                        onClick={() => handleSpeak(letter)}
+                      >
+                        ▶
+                      </button>
                     </div>
-                    <div className="alphabet-card__meta">
-                      <span className="alphabet-card__name">
-                        {letter.name}
-                      </span>
-                      <span className="alphabet-card__sound">
-                        {letter.sound_ru}
-                      </span>
-                    </div>
-                    <button
-                      className="alphabet-card__play"
-                      type="button"
-                      aria-label={`Озвучить ${letter.name}`}
-                      onClick={() => handleSpeak(letter)}
-                    >
-                      ▶
-                    </button>
+                    {letter.note ? (
+                      <div className="alphabet-card__note">
+                        <span>{letter.note}</span>
+                        {letter.example ? (
+                          <span className="alphabet-card__example">
+                            {letter.example}
+                          </span>
+                        ) : null}
+                      </div>
+                    ) : null}
                   </article>
                 ))}
               </div>

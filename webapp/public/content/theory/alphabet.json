@@ -18,7 +18,13 @@
     { "upper": "Ο", "lower": "ο", "name": "όμικρον", "sound_ru": "[о]" },
     { "upper": "Π", "lower": "π", "name": "πι", "sound_ru": "[п]" },
     { "upper": "Ρ", "lower": "ρ", "name": "ρω", "sound_ru": "[р]" },
-    { "upper": "Σ", "lower": "σ", "name": "σίγμα", "sound_ru": "[с]" },
+    {
+      "upper": "Σ",
+      "lower": "σ ς",
+      "name": "σίγμα",
+      "sound_ru": "[с]",
+      "note": "σ — в начале/середине, ς — в конце слова"
+    },
     { "upper": "Τ", "lower": "τ", "name": "ταυ", "sound_ru": "[т]" },
     { "upper": "Υ", "lower": "υ", "name": "ύψιλον", "sound_ru": "[и]" },
     { "upper": "Φ", "lower": "φ", "name": "φι", "sound_ru": "[ф]" },
