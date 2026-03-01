@@ -344,6 +344,11 @@ body {
   box-shadow: 0 4px 10px rgba(22, 35, 66, 0.06);
 }
 
+.example-card .alphabet-card__play {
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.12);
+}
+
 .example-card__text {
   display: flex;
   flex-direction: column;
