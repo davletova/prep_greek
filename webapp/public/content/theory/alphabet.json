@@ -1,0 +1,29 @@
+{
+  "title": "Греческий алфавит",
+  "letters": [
+    { "upper": "Α", "lower": "α", "name": "Альфа", "sound_ru": "[а]" },
+    { "upper": "Β", "lower": "β", "name": "Вита", "sound_ru": "[в]" },
+    { "upper": "Γ", "lower": "γ", "name": "Гамма", "sound_ru": "[г]" },
+    { "upper": "Δ", "lower": "δ", "name": "Дельта", "sound_ru": "межзубное [з]" },
+    { "upper": "Ε", "lower": "ε", "name": "Эпсилон", "sound_ru": "[э]" },
+    { "upper": "Ζ", "lower": "ζ", "name": "Зита", "sound_ru": "[з]" },
+    { "upper": "Η", "lower": "η", "name": "Ита", "sound_ru": "[и]" },
+    { "upper": "Θ", "lower": "θ", "name": "Тета", "sound_ru": "межзубное [с]" },
+    { "upper": "Ι", "lower": "ι", "name": "Йота", "sound_ru": "[и]" },
+    { "upper": "Κ", "lower": "κ", "name": "Каппа", "sound_ru": "[к]" },
+    { "upper": "Λ", "lower": "λ", "name": "Лямбда", "sound_ru": "[л]" },
+    { "upper": "Μ", "lower": "μ", "name": "Ми", "sound_ru": "[м]" },
+    { "upper": "Ν", "lower": "ν", "name": "Ни", "sound_ru": "[н]" },
+    { "upper": "Ξ", "lower": "ξ", "name": "Кси", "sound_ru": "[кс]" },
+    { "upper": "Ο", "lower": "ο", "name": "Омикрон", "sound_ru": "[о]" },
+    { "upper": "Π", "lower": "π", "name": "Пи", "sound_ru": "[п]" },
+    { "upper": "Ρ", "lower": "ρ", "name": "Ро", "sound_ru": "[р]" },
+    { "upper": "Σ", "lower": "σ", "name": "Сигма", "sound_ru": "[с]" },
+    { "upper": "Τ", "lower": "τ", "name": "Тау", "sound_ru": "[т]" },
+    { "upper": "Υ", "lower": "υ", "name": "Ипсилон", "sound_ru": "[и]" },
+    { "upper": "Φ", "lower": "φ", "name": "Фи", "sound_ru": "[ф]" },
+    { "upper": "Χ", "lower": "χ", "name": "Хи", "sound_ru": "[х]" },
+    { "upper": "Ψ", "lower": "ψ", "name": "Пси", "sound_ru": "[пс]" },
+    { "upper": "Ω", "lower": "ω", "name": "Омега", "sound_ru": "[о]" }
+  ]
+}
