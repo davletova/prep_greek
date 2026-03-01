@@ -326,6 +326,13 @@ body {
   gap: 10px;
 }
 
+.diphthong__nav {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
 .example-card {
   display: flex;
   align-items: center;

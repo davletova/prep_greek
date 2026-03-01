@@ -111,6 +111,14 @@ export default function App() {
     setPageIndex((prev) => Math.min(totalPages - 1, prev + 1));
   };
 
+  const handlePrevDiphthong = () => {
+    setDiphthongIndex((prev) => Math.max(0, prev - 1));
+  };
+
+  const handleNextDiphthong = (max) => {
+    setDiphthongIndex((prev) => Math.min(max - 1, prev + 1));
+  };
+
   const handleSpeak = (letter) => {
     if (!("speechSynthesis" in window)) {
       alert("Озвучка не поддерживается в этом браузере.");
@@ -319,6 +327,7 @@ export default function App() {
             ) : (
               (() => {
                 const item = diphthongs?.items?.[diphthongIndex];
+                const diphthongCount = diphthongs?.items?.length ?? 0;
                 if (!item) {
                   return (
                     <div className="alphabet__error">
@@ -359,6 +368,25 @@ export default function App() {
                         ))}
                       </div>
                     </section>
+
+                    <div className="diphthong__nav">
+                      <button
+                        className="nav-button"
+                        type="button"
+                        onClick={handlePrevDiphthong}
+                        disabled={diphthongIndex === 0}
+                      >
+                        Назад
+                      </button>
+                      <button
+                        className="nav-button nav-button--primary"
+                        type="button"
+                        onClick={() => handleNextDiphthong(diphthongCount)}
+                        disabled={diphthongIndex >= diphthongCount - 1}
+                      >
+                        Вперед
+                      </button>
+                    </div>
                   </>
                 );
               })()
