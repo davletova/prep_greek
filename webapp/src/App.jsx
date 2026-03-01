@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 
 const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
-const PAGE_SIZE = 6;
+const PAGE_SIZE = 5;
 
 export default function App() {
   const [screen, setScreen] = useState("home");
