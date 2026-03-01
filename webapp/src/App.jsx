@@ -10,19 +10,16 @@ export default function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <p className="app__eyebrow">Мини‑приложение</p>
-        <h1 className="app__title">Греческий алфавит</h1>
-        <p className="app__subtitle">
-          Начните с базовых букв и их произношения.
-        </p>
+        <h1 className="app__title">Справочник</h1>
+        <p className="app__subtitle">Буквы и базовые звуки</p>
       </header>
 
       <main className="app__content">
         <button className="card-button" type="button">
           <div className="card-button__text">
-            <span className="card-button__title">Изучить алфавит</span>
+            <span className="card-button__title">Греческий алфавит</span>
             <span className="card-button__subtitle">
-              Переход к карточкам букв
+              Основа чтения по-гречески
             </span>
           </div>
           <span className="card-button__chevron">›</span>
