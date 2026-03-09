@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 24px 12px 32px;
+  padding: 24px 12px 96px;
   gap: 28px;
 }
 
@@ -376,6 +376,39 @@ body {
   opacity: 0.5;
   cursor: not-allowed;
   box-shadow: none;
+}
+
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 10px 16px 18px;
+  background: rgba(248, 251, 255, 0.95);
+  border-top: 1px solid rgba(109, 124, 153, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.tabbar__item {
+  display: grid;
+  place-items: center;
+  color: #4a5c82;
+  padding: 8px 0;
+  border-radius: 14px;
+  background: transparent;
+}
+
+.tabbar__icon {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 @media (min-width: 480px) {
