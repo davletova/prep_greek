@@ -6,6 +6,7 @@ const PAGE_SIZE = 5;
 
 export default function App() {
   const [screen, setScreen] = useState("home");
+  const [tab, setTab] = useState("theory");
   const [alphabet, setAlphabet] = useState(null);
   const [alphabetError, setAlphabetError] = useState("");
   const [pageIndex, setPageIndex] = useState(0);
@@ -172,44 +173,67 @@ export default function App() {
   return (
     <div className="app">
       {screen === "home" ? (
-        <>
-          <header className="app__header">
-            <h1 className="app__title">Справочник</h1>
-            <p className="app__subtitle">Буквы и базовые звуки</p>
-          </header>
+        tab === "practice" ? (
+          <>
+            <header className="app__header">
+              <h1 className="app__title">Практика</h1>
+              <p className="app__subtitle">Тренировки и упражнения</p>
+            </header>
 
-          <main className="app__content">
-            <button
-              className="card-button"
-              type="button"
-              onClick={handleOpenAlphabet}
-            >
-              <div className="card-button__text">
-                <span className="card-button__title">Греческий алфавит</span>
-                <span className="card-button__subtitle">
-                  Основа чтения по-гречески
-                </span>
-              </div>
-              <span className="card-button__chevron">›</span>
-            </button>
+            <main className="app__content">
+              <button className="card-button" type="button">
+                <div className="card-button__text">
+                  <span className="card-button__title">Словарь</span>
+                  <span className="card-button__subtitle">
+                    Выберите правильный перевод из 4 вариантов
+                  </span>
+                </div>
+                <span className="card-button__chevron">›</span>
+              </button>
+            </main>
+          </>
+        ) : (
+          <>
+            <header className="app__header">
+              <h1 className="app__title">Справочник</h1>
+              <p className="app__subtitle">Буквы и базовые звуки</p>
+            </header>
 
-            <button
-              className="card-button"
-              type="button"
-              onClick={handleOpenDiphthongs}
-            >
-              <div className="card-button__text">
-                <span className="card-button__title">
-                  Контекстные правила чтения
-                </span>
-                <span className="card-button__subtitle">
-                  Дифтонги и сочетания букв
-                </span>
-              </div>
-              <span className="card-button__chevron">›</span>
-            </button>
-          </main>
-        </>
+            <main className="app__content">
+              <button
+                className="card-button"
+                type="button"
+                onClick={handleOpenAlphabet}
+              >
+                <div className="card-button__text">
+                  <span className="card-button__title">
+                    Греческий алфавит
+                  </span>
+                  <span className="card-button__subtitle">
+                    Основа чтения по-гречески
+                  </span>
+                </div>
+                <span className="card-button__chevron">›</span>
+              </button>
+
+              <button
+                className="card-button"
+                type="button"
+                onClick={handleOpenDiphthongs}
+              >
+                <div className="card-button__text">
+                  <span className="card-button__title">
+                    Контекстные правила чтения
+                  </span>
+                  <span className="card-button__subtitle">
+                    Дифтонги и сочетания букв
+                  </span>
+                </div>
+                <span className="card-button__chevron">›</span>
+              </button>
+            </main>
+          </>
+        )
       ) : screen === "alphabet" ? (
         <>
           <header className="app__header app__header--compact">
@@ -395,19 +419,33 @@ export default function App() {
         </>
       )}
       <nav className="tabbar" aria-label="Основная навигация">
-        <div className="tabbar__item" aria-hidden="true">
+        <button
+          className={`tabbar__item ${
+            tab === "theory" ? "tabbar__item--active" : ""
+          }`}
+          type="button"
+          onClick={() => setTab("theory")}
+          aria-label="Теория"
+        >
           <svg className="tabbar__icon" viewBox="0 0 24 24">
             <path d="M5 5.5A2.5 2.5 0 0 1 7.5 3H19a2 2 0 0 1 2 2v13.5a1.5 1.5 0 0 1-1.5 1.5H7.5A2.5 2.5 0 0 0 5 22V5.5Z" />
             <path d="M5 6h10.5a1 1 0 0 1 1 1v12.5" />
             <path d="M9 7.5h6.5" />
           </svg>
-        </div>
-        <div className="tabbar__item" aria-hidden="true">
+        </button>
+        <button
+          className={`tabbar__item ${
+            tab === "practice" ? "tabbar__item--active" : ""
+          }`}
+          type="button"
+          onClick={() => setTab("practice")}
+          aria-label="Практика"
+        >
           <svg className="tabbar__icon" viewBox="0 0 24 24">
             <circle cx="12" cy="12" r="9" />
             <path d="m8.5 12 2.5 2.5 4.5-5" />
           </svg>
-        </div>
+        </button>
         <div className="tabbar__item" aria-hidden="true">
           <svg className="tabbar__icon" viewBox="0 0 24 24">
             <circle cx="12" cy="12" r="9" />

@@ -397,8 +397,12 @@ body {
   place-items: center;
   color: #4a5c82;
   padding: 8px 0;
-  border-radius: 14px;
   background: transparent;
+  border: none;
+}
+
+.tabbar__item--active {
+  color: #2d5bff;
 }
 
 .tabbar__icon {
