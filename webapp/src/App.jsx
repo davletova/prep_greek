@@ -177,10 +177,9 @@ export default function App() {
           <>
             <header className="app__header">
               <h1 className="app__title">Практика</h1>
-              <p className="app__subtitle">Тренировки и упражнения</p>
             </header>
 
-            <main className="app__content">
+            <main className="app__content app__content--profile">
               <button className="card-button" type="button">
                 <div className="card-button__text">
                   <span className="card-button__title">Словарь</span>
@@ -192,14 +191,29 @@ export default function App() {
               </button>
             </main>
           </>
+        ) : tab === "profile" ? (
+          <>
+            <header className="app__header">
+              <h1 className="app__title">Профиль</h1>
+            </header>
+
+            <main className="app__content app__content--profile">
+              <div className="settings">
+                <div className="settings__label">Уровень языка</div>
+                <button className="dropdown" type="button">
+                  A1
+                  <span className="dropdown__chevron">▾</span>
+                </button>
+              </div>
+            </main>
+          </>
         ) : (
           <>
             <header className="app__header">
-              <h1 className="app__title">Справочник</h1>
-              <p className="app__subtitle">Буквы и базовые звуки</p>
+              <h1 className="app__title">Теория</h1>
             </header>
 
-            <main className="app__content">
+            <main className="app__content app__content--profile">
               <button
                 className="card-button"
                 type="button"
@@ -446,13 +460,20 @@ export default function App() {
             <path d="m8.5 12 2.5 2.5 4.5-5" />
           </svg>
         </button>
-        <div className="tabbar__item" aria-hidden="true">
+        <button
+          className={`tabbar__item ${
+            tab === "profile" ? "tabbar__item--active" : ""
+          }`}
+          type="button"
+          onClick={() => setTab("profile")}
+          aria-label="Профиль"
+        >
           <svg className="tabbar__icon" viewBox="0 0 24 24">
             <circle cx="12" cy="12" r="9" />
             <circle cx="12" cy="9" r="3" />
             <path d="M7.5 19a4.5 4.5 0 0 1 9 0" />
           </svg>
-        </div>
+        </button>
       </nav>
     </div>
   );
