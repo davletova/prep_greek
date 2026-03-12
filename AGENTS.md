@@ -1,52 +1,69 @@
 # Repository Guidelines
 
-This repository will host a monorepo for a Telegram Mini App that helps users prepare for Greek language learning. It contains a Go backend and a Vite + React + TypeScript webapp. Update this document as the structure evolves.
+This repository contains a static Telegram Mini App for Greek language learning and exam preparation. The project is frontend-only: the app is built with Vite + React and deployed to GitHub Pages. Learning content is stored as static files in the repository, and user progress is persisted via Telegram Mini App CloudStorage (key-value storage).
 
 ## Project Structure & Module Organization
 
-- `backend/` — Go API server (Telegram WebApp auth, content, progress, tests).
-- `webapp/` — Vite + React + TypeScript UI for the Mini App.
-- `shared/` — optional shared assets/schemas (e.g., OpenAPI, DTOs).
-- `scripts/` — local tooling, generators, or CI helpers.
-- `docs/` — product notes and architecture decisions.
+- `webapp/` — the Mini App frontend.
+- `webapp/src/` — React application code.
+- `webapp/public/content/` — static learning content (theory, exercises, metadata).
+- `.github/workflows/` — CI/CD for building and deploying to GitHub Pages.
+- `docs/` — product notes, content structure decisions, and architecture notes if added later.
+- `view_examples/` — design and UI references.
+
+Keep the project simple: avoid introducing backend-specific folders unless the product direction changes.
 
 ## Build, Test, and Development Commands
 
-Run commands from the repo root.
+Run commands from the repo root unless noted otherwise.
 
-- `go test ./...` — run all Go tests in `backend/`.
-- `go vet ./...` — basic Go static checks.
-- `go test -race ./...` — race detector for concurrency issues.
-- `npm install --workspace webapp` — install webapp dependencies.
-- `npm run dev --workspace webapp` — start Vite dev server.
-- `npm run build --workspace webapp` — production build.
-- `npm run test --workspace webapp` — run webapp tests.
+- `npm install --prefix webapp` — install frontend dependencies.
+- `npm run dev --prefix webapp` — start the local Vite dev server.
+- `npm run build --prefix webapp` — create a production build.
+- `npm run preview --prefix webapp` — preview the production build locally.
 
-Adjust commands if you choose a different package manager (pnpm/yarn) or toolchain.
+If additional tooling is added later (linting, tests, formatting), document the exact commands here.
+
+## Architecture Notes
+
+- The app is fully static and served from GitHub Pages.
+- Do not design features around a server or database.
+- Persist user progress in Telegram CloudStorage as key-value pairs.
+- Treat CloudStorage as user convenience storage, not as a secure or authoritative backend.
+- Structure content and UI so the app still degrades gracefully outside Telegram during local browser development.
 
 ## Coding Style & Naming Conventions
 
-- Go: `gofmt` formatting, `golangci-lint` preferred for linting.
-- TypeScript: 2 spaces, `eslint` + `prettier` (if configured).
-- File naming: `kebab-case` for React components and routes, `snake_case` for Go files when helpful.
-- Exported Go identifiers use `PascalCase`; unexported use `camelCase`.
+- Current frontend stack: React + JavaScript modules.
+- Use 2-space indentation in frontend code.
+- Prefer small, focused components and keep screen-level logic separate from shared UI.
+- File naming: `kebab-case` for components, screens, and utilities.
+- Keep static content in clear, stable JSON shapes so new lessons and exercise types can be added without rewriting core UI.
+
+If the project later migrates to TypeScript, update this document accordingly.
 
 ## Testing Guidelines
 
-- Go: standard library `testing`; table-driven tests preferred.
-- Webapp: `vitest` + `@testing-library/react` (if adopted).
-- Name tests `*_test.go` in Go and `*.test.tsx` for UI.
-- Include unit tests for content generation, scoring, and progress tracking.
+- At the current stage, prioritize manual testing in:
+  - a regular local browser,
+  - Telegram Mini App context when needed.
+- Verify both content rendering and Telegram-specific integrations such as `Telegram.WebApp` availability and CloudStorage behavior.
+- If automated tests are introduced, prefer lightweight frontend tests around content rendering, navigation, scoring, and progress persistence.
 
 ## Commit & Pull Request Guidelines
 
-- Commit messages: use short, imperative summaries (e.g., `Add quiz scoring`).
-- Keep commits focused by area (`backend:` / `webapp:` prefixes are welcome).
-- PRs should include: purpose, scope, screenshots for UI changes, and linked issues.
-- Note any Telegram WebApp constraints or API changes in the PR description.
+- Commit messages should be short, imperative, and focused (e.g. `Add diphthong loading state`).
+- Keep commits scoped to one concern: content, UI, storage, or build/deploy.
+- PRs should include:
+  - purpose,
+  - scope,
+  - screenshots or recordings for UI changes,
+  - notes about Telegram-specific behavior if relevant.
 
 ## Security & Configuration Tips
 
-- Never commit bot tokens; use `.env` files locally.
-- Validate Telegram WebApp init data on the backend.
-- Document required env vars in `docs/` or `README.md`.
+- Never commit bot tokens, private links, or secret configuration.
+- Do not store secrets in Telegram CloudStorage.
+- Assume all frontend code and static content are public.
+- Since there is no backend, do not rely on client-side checks for real security guarantees.
+- Document any required Telegram environment assumptions in `docs/` or `README.md` if they appear later.
