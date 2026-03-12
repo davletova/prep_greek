@@ -2,15 +2,13 @@ import ContentState from "../components/content-state.tsx";
 import type { DiphthongsContent } from "../types/content";
 import type {
   IndexedNextHandler,
-  LoadStatus,
+  LoadableState,
   SpeakHandler,
   VoidHandler
 } from "../types/ui";
 
 interface DiphthongsScreenProps {
-  diphthongs: DiphthongsContent | null;
-  status: LoadStatus;
-  error: string;
+  diphthongsState: LoadableState<DiphthongsContent>;
   diphthongIndex: number;
   onClose: VoidHandler;
   onPrev: VoidHandler;
@@ -20,9 +18,7 @@ interface DiphthongsScreenProps {
 }
 
 export default function DiphthongsScreen({
-  diphthongs,
-  status,
-  error,
+  diphthongsState,
   diphthongIndex,
   onClose,
   onPrev,
@@ -30,6 +26,7 @@ export default function DiphthongsScreen({
   onRetry,
   onSpeak
 }: DiphthongsScreenProps) {
+  const { data: diphthongs, status, error } = diphthongsState;
   const item = diphthongs?.items?.[diphthongIndex];
   const diphthongCount = diphthongs?.items?.length ?? 0;
 

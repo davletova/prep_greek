@@ -4,9 +4,10 @@ import AlphabetScreen from "./screens/alphabet-screen.tsx";
 import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
 import HomeScreen from "./screens/home-screen.tsx";
 import { loadJsonContent } from "./lib/content-loader.ts";
+import { createInitialLoadableState } from "./lib/loadable-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import type { AlphabetContent, DiphthongsContent } from "./types/content";
-import type { LoadStatus, Screen, TabKey } from "./types/ui";
+import type { LoadableState, Screen, TabKey } from "./types/ui";
 
 const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
 const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
@@ -15,14 +16,14 @@ export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
   const [tab, setTab] = useState<TabKey>("theory");
 
-  const [alphabet, setAlphabet] = useState<AlphabetContent | null>(null);
-  const [alphabetStatus, setAlphabetStatus] = useState<LoadStatus>("idle");
-  const [alphabetError, setAlphabetError] = useState("");
+  const [alphabetState, setAlphabetState] = useState<LoadableState<AlphabetContent>>(
+    createInitialLoadableState<AlphabetContent>()
+  );
   const [pageIndex, setPageIndex] = useState(0);
 
-  const [diphthongs, setDiphthongs] = useState<DiphthongsContent | null>(null);
-  const [diphthongsStatus, setDiphthongsStatus] = useState<LoadStatus>("idle");
-  const [diphthongsError, setDiphthongsError] = useState("");
+  const [diphthongsState, setDiphthongsState] = useState<
+    LoadableState<DiphthongsContent>
+  >(createInitialLoadableState<DiphthongsContent>());
   const [diphthongIndex, setDiphthongIndex] = useState(0);
 
   useEffect(() => {
@@ -32,42 +33,60 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (screen !== "alphabet" || alphabetStatus !== "idle") {
+    if (screen !== "alphabet" || alphabetState.status !== "idle") {
       return;
     }
 
-    setAlphabetStatus("loading");
-    setAlphabetError("");
+    setAlphabetState((prev) => ({
+      ...prev,
+      status: "loading",
+      error: ""
+    }));
 
     loadJsonContent<AlphabetContent>(ALPHABET_URL)
       .then((data) => {
-        setAlphabet(data);
-        setAlphabetStatus("success");
+        setAlphabetState({
+          data,
+          status: "success",
+          error: ""
+        });
       })
       .catch((err: unknown) => {
-        setAlphabetError(err instanceof Error ? err.message : "Unknown error");
-        setAlphabetStatus("error");
+        setAlphabetState({
+          data: null,
+          status: "error",
+          error: err instanceof Error ? err.message : "Unknown error"
+        });
       });
-  }, [screen, alphabetStatus]);
+  }, [screen, alphabetState.status]);
 
   useEffect(() => {
-    if (screen !== "diphthongs" || diphthongsStatus !== "idle") {
+    if (screen !== "diphthongs" || diphthongsState.status !== "idle") {
       return;
     }
 
-    setDiphthongsStatus("loading");
-    setDiphthongsError("");
+    setDiphthongsState((prev) => ({
+      ...prev,
+      status: "loading",
+      error: ""
+    }));
 
     loadJsonContent<DiphthongsContent>(DIPHTHONGS_URL)
       .then((data) => {
-        setDiphthongs(data);
-        setDiphthongsStatus("success");
+        setDiphthongsState({
+          data,
+          status: "success",
+          error: ""
+        });
       })
       .catch((err: unknown) => {
-        setDiphthongsError(err instanceof Error ? err.message : "Unknown error");
-        setDiphthongsStatus("error");
+        setDiphthongsState({
+          data: null,
+          status: "error",
+          error: err instanceof Error ? err.message : "Unknown error"
+        });
       });
-  }, [screen, diphthongsStatus]);
+  }, [screen, diphthongsState.status]);
 
   const handleOpenAlphabet = () => {
     setScreen("alphabet");
@@ -92,9 +111,7 @@ export default function App() {
   };
 
   const handleRetryAlphabet = () => {
-    setAlphabet(null);
-    setAlphabetError("");
-    setAlphabetStatus("idle");
+    setAlphabetState(createInitialLoadableState<AlphabetContent>());
     setPageIndex(0);
   };
 
@@ -107,9 +124,7 @@ export default function App() {
   };
 
   const handleRetryDiphthongs = () => {
-    setDiphthongs(null);
-    setDiphthongsError("");
-    setDiphthongsStatus("idle");
+    setDiphthongsState(createInitialLoadableState<DiphthongsContent>());
     setDiphthongIndex(0);
   };
 
@@ -125,9 +140,7 @@ export default function App() {
         />
       ) : screen === "alphabet" ? (
         <AlphabetScreen
-          alphabet={alphabet}
-          status={alphabetStatus}
-          error={alphabetError}
+          alphabetState={alphabetState}
           pageIndex={pageIndex}
           onClose={handleExit}
           onPrev={handlePrevAlphabetPage}
@@ -137,9 +150,7 @@ export default function App() {
         />
       ) : (
         <DiphthongsScreen
-          diphthongs={diphthongs}
-          status={diphthongsStatus}
-          error={diphthongsError}
+          diphthongsState={diphthongsState}
           diphthongIndex={diphthongIndex}
           onClose={handleExit}
           onPrev={handlePrevDiphthong}

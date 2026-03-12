@@ -1,14 +1,16 @@
 import { useMemo } from "react";
 import ContentState from "../components/content-state.tsx";
 import type { AlphabetContent, AlphabetLetter } from "../types/content";
-import type { LoadStatus, SpeakHandler, VoidHandler } from "../types/ui";
+import type {
+  LoadableState,
+  SpeakHandler,
+  VoidHandler
+} from "../types/ui";
 
 const PAGE_SIZE = 5;
 
 interface AlphabetScreenProps {
-  alphabet: AlphabetContent | null;
-  status: LoadStatus;
-  error: string;
+  alphabetState: LoadableState<AlphabetContent>;
   pageIndex: number;
   onClose: VoidHandler;
   onPrev: VoidHandler;
@@ -18,9 +20,7 @@ interface AlphabetScreenProps {
 }
 
 export default function AlphabetScreen({
-  alphabet,
-  status,
-  error,
+  alphabetState,
   pageIndex,
   onClose,
   onPrev,
@@ -28,6 +28,7 @@ export default function AlphabetScreen({
   onRetry,
   onSpeak
 }: AlphabetScreenProps) {
+  const { data: alphabet, status, error } = alphabetState;
   const letters = alphabet?.letters ?? [];
 
   const pages = useMemo<AlphabetLetter[][]>(() => {
