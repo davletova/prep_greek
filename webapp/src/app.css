@@ -207,6 +207,35 @@ body {
   font-size: 14px;
 }
 
+.content-state {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.06);
+}
+
+.content-state--error {
+  background: #fff4f2;
+}
+
+.content-state__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2f4a;
+}
+
+.content-state__text {
+  font-size: 14px;
+  color: #5b6b85;
+}
+
+.content-state__action {
+  align-self: flex-start;
+}
+
 .alphabet__cards {
   display: grid;
   grid-template-columns: 1fr;
