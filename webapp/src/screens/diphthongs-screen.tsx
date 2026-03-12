@@ -1,4 +1,23 @@
-import ContentState from "../components/content-state.jsx";
+import ContentState from "../components/content-state.tsx";
+import type { DiphthongsContent } from "../types/content";
+import type {
+  IndexedNextHandler,
+  LoadStatus,
+  SpeakHandler,
+  VoidHandler
+} from "../types/ui";
+
+interface DiphthongsScreenProps {
+  diphthongs: DiphthongsContent | null;
+  status: LoadStatus;
+  error: string;
+  diphthongIndex: number;
+  onClose: VoidHandler;
+  onPrev: VoidHandler;
+  onNext: IndexedNextHandler;
+  onRetry: VoidHandler;
+  onSpeak: SpeakHandler;
+}
 
 export default function DiphthongsScreen({
   diphthongs,
@@ -10,7 +29,7 @@ export default function DiphthongsScreen({
   onNext,
   onRetry,
   onSpeak
-}) {
+}: DiphthongsScreenProps) {
   const item = diphthongs?.items?.[diphthongIndex];
   const diphthongCount = diphthongs?.items?.length ?? 0;
 
@@ -63,7 +82,7 @@ export default function DiphthongsScreen({
             <section className="diphthong__examples">
               <h3 className="diphthong__label">Примеры</h3>
               <div className="diphthong__list">
-                {item.examples?.map((example, index) => (
+                {item.examples.map((example, index) => (
                   <div className="example-card" key={index}>
                     <div className="example-card__text">
                       <span className="example-card__word">{example.word}</span>

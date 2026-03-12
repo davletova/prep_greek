@@ -1,4 +1,14 @@
-function TheoryHome({ onOpenAlphabet, onOpenDiphthongs }) {
+import type { TabKey, VoidHandler } from "../types/ui";
+
+interface TheoryHomeProps {
+  onOpenAlphabet: VoidHandler;
+  onOpenDiphthongs: VoidHandler;
+}
+
+function TheoryHome({
+  onOpenAlphabet,
+  onOpenDiphthongs
+}: TheoryHomeProps) {
   return (
     <>
       <header className="app__header">
@@ -74,11 +84,17 @@ function ProfileHome() {
   );
 }
 
+interface HomeScreenProps {
+  tab: TabKey;
+  onOpenAlphabet: VoidHandler;
+  onOpenDiphthongs: VoidHandler;
+}
+
 export default function HomeScreen({
   tab,
   onOpenAlphabet,
   onOpenDiphthongs
-}) {
+}: HomeScreenProps) {
   if (tab === "practice") {
     return <PracticeHome />;
   }

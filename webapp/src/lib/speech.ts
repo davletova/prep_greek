@@ -1,4 +1,4 @@
-export function speakGreekText(text) {
+export function speakGreekText(text: string): void {
   if (!("speechSynthesis" in window)) {
     alert("Озвучка не поддерживается в этом браузере.");
     return;

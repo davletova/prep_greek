@@ -1,7 +1,21 @@
 import { useMemo } from "react";
-import ContentState from "../components/content-state.jsx";
+import ContentState from "../components/content-state.tsx";
+import type { AlphabetContent, AlphabetLetter } from "../types/content";
+import type { LoadStatus, SpeakHandler, VoidHandler } from "../types/ui";
 
 const PAGE_SIZE = 5;
+
+interface AlphabetScreenProps {
+  alphabet: AlphabetContent | null;
+  status: LoadStatus;
+  error: string;
+  pageIndex: number;
+  onClose: VoidHandler;
+  onPrev: VoidHandler;
+  onNext: VoidHandler;
+  onRetry: VoidHandler;
+  onSpeak: SpeakHandler;
+}
 
 export default function AlphabetScreen({
   alphabet,
@@ -13,17 +27,17 @@ export default function AlphabetScreen({
   onNext,
   onRetry,
   onSpeak
-}) {
+}: AlphabetScreenProps) {
   const letters = alphabet?.letters ?? [];
 
-  const pages = useMemo(() => {
+  const pages = useMemo<AlphabetLetter[][]>(() => {
     if (!letters.length) {
       return [];
     }
 
     const sigmaIndex = letters.findIndex((item) => item.upper === "Σ");
     if (sigmaIndex === -1) {
-      const chunks = [];
+      const chunks: AlphabetLetter[][] = [];
       for (let index = 0; index < letters.length; index += PAGE_SIZE) {
         chunks.push(letters.slice(index, index + PAGE_SIZE));
       }
@@ -132,7 +146,7 @@ export default function AlphabetScreen({
           <button
             className="nav-button nav-button--primary"
             type="button"
-            onClick={() => onNext(totalPages)}
+            onClick={onNext}
             disabled={pageIndex >= totalPages - 1}
           >
             Вперед

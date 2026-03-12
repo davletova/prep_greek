@@ -1,24 +1,27 @@
 import { useEffect, useState } from "react";
-import AlphabetScreen from "./screens/alphabet-screen.jsx";
-import DiphthongsScreen from "./screens/diphthongs-screen.jsx";
-import HomeScreen from "./screens/home-screen.jsx";
-import TabBar from "./components/tab-bar.jsx";
-import { speakGreekText } from "./lib/speech.js";
+import TabBar from "./components/tab-bar.tsx";
+import AlphabetScreen from "./screens/alphabet-screen.tsx";
+import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
+import HomeScreen from "./screens/home-screen.tsx";
+import { loadJsonContent } from "./lib/content-loader.ts";
+import { speakGreekText } from "./lib/speech.ts";
+import type { AlphabetContent, DiphthongsContent } from "./types/content";
+import type { LoadStatus, Screen, TabKey } from "./types/ui";
 
 const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
 const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
 
 export default function App() {
-  const [screen, setScreen] = useState("home");
-  const [tab, setTab] = useState("theory");
+  const [screen, setScreen] = useState<Screen>("home");
+  const [tab, setTab] = useState<TabKey>("theory");
 
-  const [alphabet, setAlphabet] = useState(null);
-  const [alphabetStatus, setAlphabetStatus] = useState("idle");
+  const [alphabet, setAlphabet] = useState<AlphabetContent | null>(null);
+  const [alphabetStatus, setAlphabetStatus] = useState<LoadStatus>("idle");
   const [alphabetError, setAlphabetError] = useState("");
   const [pageIndex, setPageIndex] = useState(0);
 
-  const [diphthongs, setDiphthongs] = useState(null);
-  const [diphthongsStatus, setDiphthongsStatus] = useState("idle");
+  const [diphthongs, setDiphthongs] = useState<DiphthongsContent | null>(null);
+  const [diphthongsStatus, setDiphthongsStatus] = useState<LoadStatus>("idle");
   const [diphthongsError, setDiphthongsError] = useState("");
   const [diphthongIndex, setDiphthongIndex] = useState(0);
 
@@ -36,20 +39,13 @@ export default function App() {
     setAlphabetStatus("loading");
     setAlphabetError("");
 
-    fetch(ALPHABET_URL)
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP ${res.status}`);
-        }
-
-        return res.json();
-      })
+    loadJsonContent<AlphabetContent>(ALPHABET_URL)
       .then((data) => {
         setAlphabet(data);
         setAlphabetStatus("success");
       })
-      .catch((err) => {
-        setAlphabetError(err.message);
+      .catch((err: unknown) => {
+        setAlphabetError(err instanceof Error ? err.message : "Unknown error");
         setAlphabetStatus("error");
       });
   }, [screen, alphabetStatus]);
@@ -62,20 +58,13 @@ export default function App() {
     setDiphthongsStatus("loading");
     setDiphthongsError("");
 
-    fetch(DIPHTHONGS_URL)
-      .then((res) => {
-        if (!res.ok) {
-          throw new Error(`HTTP ${res.status}`);
-        }
-
-        return res.json();
-      })
+    loadJsonContent<DiphthongsContent>(DIPHTHONGS_URL)
       .then((data) => {
         setDiphthongs(data);
         setDiphthongsStatus("success");
       })
-      .catch((err) => {
-        setDiphthongsError(err.message);
+      .catch((err: unknown) => {
+        setDiphthongsError(err instanceof Error ? err.message : "Unknown error");
         setDiphthongsStatus("error");
       });
   }, [screen, diphthongsStatus]);
@@ -113,7 +102,7 @@ export default function App() {
     setDiphthongIndex((prev) => Math.max(0, prev - 1));
   };
 
-  const handleNextDiphthong = (max) => {
+  const handleNextDiphthong = (max: number) => {
     setDiphthongIndex((prev) => Math.min(max - 1, prev + 1));
   };
 

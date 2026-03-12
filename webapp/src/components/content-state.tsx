@@ -1,10 +1,20 @@
+import type { ContentStateTone, VoidHandler } from "../types/ui";
+
+interface ContentStateProps {
+  title: string;
+  text?: string;
+  actionLabel?: string;
+  onAction?: VoidHandler;
+  tone?: ContentStateTone;
+}
+
 export default function ContentState({
   title,
   text,
   actionLabel,
   onAction,
   tone = "default"
-}) {
+}: ContentStateProps) {
   return (
     <div
       className={`content-state ${

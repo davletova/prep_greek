@@ -1,4 +1,11 @@
-export default function TabBar({ tab, onChange }) {
+import type { TabKey } from "../types/ui";
+
+interface TabBarProps {
+  tab: TabKey;
+  onChange: (tab: TabKey) => void;
+}
+
+export default function TabBar({ tab, onChange }: TabBarProps) {
   return (
     <nav className="tabbar" aria-label="Основная навигация">
       <button
