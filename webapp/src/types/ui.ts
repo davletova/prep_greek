@@ -10,7 +10,14 @@ export interface LoadableState<T> {
   error: string;
 }
 
-export type Screen = "home" | "alphabet" | "diphthongs";
+export type Screen =
+  | "home"
+  | "alphabet"
+  | "diphthongs"
+  | "practice-dictionary-topics"
+  | "practice-base-greek"
+  | "practice-alpha-type-verbs"
+  | "practice-alpha-type-verb-endings";
 
 export type VoidHandler = () => void;
 export type SpeakHandler = (text: string) => void;

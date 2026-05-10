@@ -42,7 +42,11 @@ function TheoryHome({
   );
 }
 
-function PracticeHome() {
+interface PracticeHomeProps {
+  onOpenDictionaryTopics: VoidHandler;
+}
+
+function PracticeHome({ onOpenDictionaryTopics }: PracticeHomeProps) {
   return (
     <>
       <header className="app__header">
@@ -50,7 +54,11 @@ function PracticeHome() {
       </header>
 
       <main className="app__content app__content--profile">
-        <button className="card-button" type="button">
+        <button
+          className="card-button"
+          type="button"
+          onClick={onOpenDictionaryTopics}
+        >
           <div className="card-button__text">
             <span className="card-button__title">Словарь</span>
             <span className="card-button__subtitle">
@@ -88,15 +96,17 @@ interface HomeScreenProps {
   tab: TabKey;
   onOpenAlphabet: VoidHandler;
   onOpenDiphthongs: VoidHandler;
+  onOpenDictionaryTopics: VoidHandler;
 }
 
 export default function HomeScreen({
   tab,
   onOpenAlphabet,
-  onOpenDiphthongs
+  onOpenDiphthongs,
+  onOpenDictionaryTopics
 }: HomeScreenProps) {
   if (tab === "practice") {
-    return <PracticeHome />;
+    return <PracticeHome onOpenDictionaryTopics={onOpenDictionaryTopics} />;
   }
 
   if (tab === "profile") {

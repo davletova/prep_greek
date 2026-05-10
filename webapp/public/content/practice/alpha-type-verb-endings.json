@@ -1,0 +1,842 @@
+[
+  {
+    "id": "alpha-type-verb-endings-001",
+    "type": "single-choice",
+    "prompt": "έχω",
+    "correctAnswer": "имею",
+    "wrongAnswers": ["имеешь", "имеет", "имеют"]
+  },
+  {
+    "id": "alpha-type-verb-endings-002",
+    "type": "single-choice",
+    "prompt": "έχεις",
+    "correctAnswer": "имеешь",
+    "wrongAnswers": ["имею", "имеет", "имеем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-003",
+    "type": "single-choice",
+    "prompt": "έχει",
+    "correctAnswer": "имеет",
+    "wrongAnswers": ["имею", "имеешь", "имеете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-004",
+    "type": "single-choice",
+    "prompt": "έχουμε",
+    "correctAnswer": "имеем",
+    "wrongAnswers": ["имею", "имеешь", "имеют"]
+  },
+  {
+    "id": "alpha-type-verb-endings-005",
+    "type": "single-choice",
+    "prompt": "έχετε",
+    "correctAnswer": "имеете",
+    "wrongAnswers": ["имею", "имеет", "имеем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-006",
+    "type": "single-choice",
+    "prompt": "έχουν",
+    "correctAnswer": "имеют",
+    "wrongAnswers": ["имею", "имеешь", "имеет"]
+  },
+  {
+    "id": "alpha-type-verb-endings-007",
+    "type": "single-choice",
+    "prompt": "κάνω",
+    "correctAnswer": "делаю",
+    "wrongAnswers": ["делаешь", "делает", "делают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-008",
+    "type": "single-choice",
+    "prompt": "κάνεις",
+    "correctAnswer": "делаешь",
+    "wrongAnswers": ["делаю", "делает", "делаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-009",
+    "type": "single-choice",
+    "prompt": "κάνει",
+    "correctAnswer": "делает",
+    "wrongAnswers": ["делаю", "делаешь", "делаете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-010",
+    "type": "single-choice",
+    "prompt": "κάνουμε",
+    "correctAnswer": "делаем",
+    "wrongAnswers": ["делаю", "делаешь", "делают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-011",
+    "type": "single-choice",
+    "prompt": "κάνετε",
+    "correctAnswer": "делаете",
+    "wrongAnswers": ["делаю", "делает", "делаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-012",
+    "type": "single-choice",
+    "prompt": "κάνουν",
+    "correctAnswer": "делают",
+    "wrongAnswers": ["делаю", "делаешь", "делает"]
+  },
+  {
+    "id": "alpha-type-verb-endings-013",
+    "type": "single-choice",
+    "prompt": "λέω",
+    "correctAnswer": "говорю",
+    "wrongAnswers": ["говоришь", "говорит", "говорят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-014",
+    "type": "single-choice",
+    "prompt": "λες",
+    "correctAnswer": "говоришь",
+    "wrongAnswers": ["говорю", "говорит", "говорим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-015",
+    "type": "single-choice",
+    "prompt": "λέει",
+    "correctAnswer": "говорит",
+    "wrongAnswers": ["говорю", "говоришь", "говорите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-016",
+    "type": "single-choice",
+    "prompt": "λέμε",
+    "correctAnswer": "говорим",
+    "wrongAnswers": ["говорю", "говоришь", "говорят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-017",
+    "type": "single-choice",
+    "prompt": "λέτε",
+    "correctAnswer": "говорите",
+    "wrongAnswers": ["говорю", "говорит", "говорим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-018",
+    "type": "single-choice",
+    "prompt": "λένε",
+    "correctAnswer": "говорят",
+    "wrongAnswers": ["говорю", "говоришь", "говорит"]
+  },
+  {
+    "id": "alpha-type-verb-endings-019",
+    "type": "single-choice",
+    "prompt": "πάω",
+    "correctAnswer": "иду",
+    "wrongAnswers": ["идёшь", "идёт", "идут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-020",
+    "type": "single-choice",
+    "prompt": "πας",
+    "correctAnswer": "идёшь",
+    "wrongAnswers": ["иду", "идёт", "идём"]
+  },
+  {
+    "id": "alpha-type-verb-endings-021",
+    "type": "single-choice",
+    "prompt": "πάει",
+    "correctAnswer": "идёт",
+    "wrongAnswers": ["иду", "идёшь", "идёте"]
+  },
+  {
+    "id": "alpha-type-verb-endings-022",
+    "type": "single-choice",
+    "prompt": "πάμε",
+    "correctAnswer": "идём",
+    "wrongAnswers": ["иду", "идёшь", "идут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-023",
+    "type": "single-choice",
+    "prompt": "πάτε",
+    "correctAnswer": "идёте",
+    "wrongAnswers": ["иду", "идёт", "идём"]
+  },
+  {
+    "id": "alpha-type-verb-endings-024",
+    "type": "single-choice",
+    "prompt": "πάνε",
+    "correctAnswer": "идут",
+    "wrongAnswers": ["иду", "идёшь", "идёт"]
+  },
+  {
+    "id": "alpha-type-verb-endings-025",
+    "type": "single-choice",
+    "prompt": "μένω",
+    "correctAnswer": "живу",
+    "wrongAnswers": ["живёшь", "живёт", "живут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-026",
+    "type": "single-choice",
+    "prompt": "μένεις",
+    "correctAnswer": "живёшь",
+    "wrongAnswers": ["живу", "живёт", "живём"]
+  },
+  {
+    "id": "alpha-type-verb-endings-027",
+    "type": "single-choice",
+    "prompt": "μένει",
+    "correctAnswer": "живёт",
+    "wrongAnswers": ["живу", "живёшь", "живёте"]
+  },
+  {
+    "id": "alpha-type-verb-endings-028",
+    "type": "single-choice",
+    "prompt": "μένουμε",
+    "correctAnswer": "живём",
+    "wrongAnswers": ["живу", "живёшь", "живут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-029",
+    "type": "single-choice",
+    "prompt": "μένετε",
+    "correctAnswer": "живёте",
+    "wrongAnswers": ["живу", "живёт", "живём"]
+  },
+  {
+    "id": "alpha-type-verb-endings-030",
+    "type": "single-choice",
+    "prompt": "μένουν",
+    "correctAnswer": "живут",
+    "wrongAnswers": ["живу", "живёшь", "живёт"]
+  },
+  {
+    "id": "alpha-type-verb-endings-031",
+    "type": "single-choice",
+    "prompt": "θέλω",
+    "correctAnswer": "хочу",
+    "wrongAnswers": ["хочешь", "хочет", "хотят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-032",
+    "type": "single-choice",
+    "prompt": "θέλεις",
+    "correctAnswer": "хочешь",
+    "wrongAnswers": ["хочу", "хочет", "хотим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-033",
+    "type": "single-choice",
+    "prompt": "θέλει",
+    "correctAnswer": "хочет",
+    "wrongAnswers": ["хочу", "хочешь", "хотите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-034",
+    "type": "single-choice",
+    "prompt": "θέλουμε",
+    "correctAnswer": "хотим",
+    "wrongAnswers": ["хочу", "хочешь", "хотят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-035",
+    "type": "single-choice",
+    "prompt": "θέλετε",
+    "correctAnswer": "хотите",
+    "wrongAnswers": ["хочу", "хочет", "хотим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-036",
+    "type": "single-choice",
+    "prompt": "θέλουν",
+    "correctAnswer": "хотят",
+    "wrongAnswers": ["хочу", "хочешь", "хочет"]
+  },
+  {
+    "id": "alpha-type-verb-endings-037",
+    "type": "single-choice",
+    "prompt": "ξέρω",
+    "correctAnswer": "знаю",
+    "wrongAnswers": ["знаешь", "знает", "знают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-038",
+    "type": "single-choice",
+    "prompt": "ξέρεις",
+    "correctAnswer": "знаешь",
+    "wrongAnswers": ["знаю", "знает", "знаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-039",
+    "type": "single-choice",
+    "prompt": "ξέρει",
+    "correctAnswer": "знает",
+    "wrongAnswers": ["знаю", "знаешь", "знаете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-040",
+    "type": "single-choice",
+    "prompt": "ξέρουμε",
+    "correctAnswer": "знаем",
+    "wrongAnswers": ["знаю", "знаешь", "знают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-041",
+    "type": "single-choice",
+    "prompt": "ξέρετε",
+    "correctAnswer": "знаете",
+    "wrongAnswers": ["знаю", "знает", "знаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-042",
+    "type": "single-choice",
+    "prompt": "ξέρουν",
+    "correctAnswer": "знают",
+    "wrongAnswers": ["знаю", "знаешь", "знает"]
+  },
+  {
+    "id": "alpha-type-verb-endings-043",
+    "type": "single-choice",
+    "prompt": "μπορώ",
+    "correctAnswer": "могу",
+    "wrongAnswers": ["можешь", "может", "могут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-044",
+    "type": "single-choice",
+    "prompt": "μπορείς",
+    "correctAnswer": "можешь",
+    "wrongAnswers": ["могу", "может", "можем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-045",
+    "type": "single-choice",
+    "prompt": "μπορεί",
+    "correctAnswer": "может",
+    "wrongAnswers": ["могу", "можешь", "можете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-046",
+    "type": "single-choice",
+    "prompt": "μπορούμε",
+    "correctAnswer": "можем",
+    "wrongAnswers": ["могу", "можешь", "могут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-047",
+    "type": "single-choice",
+    "prompt": "μπορείτε",
+    "correctAnswer": "можете",
+    "wrongAnswers": ["могу", "может", "можем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-048",
+    "type": "single-choice",
+    "prompt": "μπορούν",
+    "correctAnswer": "могут",
+    "wrongAnswers": ["могу", "можешь", "может"]
+  },
+  {
+    "id": "alpha-type-verb-endings-049",
+    "type": "single-choice",
+    "prompt": "βλέπω",
+    "correctAnswer": "вижу",
+    "wrongAnswers": ["видишь", "видит", "видят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-050",
+    "type": "single-choice",
+    "prompt": "βλέπεις",
+    "correctAnswer": "видишь",
+    "wrongAnswers": ["вижу", "видит", "видим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-051",
+    "type": "single-choice",
+    "prompt": "βλέπει",
+    "correctAnswer": "видит",
+    "wrongAnswers": ["вижу", "видишь", "видите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-052",
+    "type": "single-choice",
+    "prompt": "βλέπουμε",
+    "correctAnswer": "видим",
+    "wrongAnswers": ["вижу", "видишь", "видят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-053",
+    "type": "single-choice",
+    "prompt": "βλέπετε",
+    "correctAnswer": "видите",
+    "wrongAnswers": ["вижу", "видит", "видим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-054",
+    "type": "single-choice",
+    "prompt": "βλέπουν",
+    "correctAnswer": "видят",
+    "wrongAnswers": ["вижу", "видишь", "видит"]
+  },
+  {
+    "id": "alpha-type-verb-endings-055",
+    "type": "single-choice",
+    "prompt": "ακούω",
+    "correctAnswer": "слышу",
+    "wrongAnswers": ["слышишь", "слышит", "слышат"]
+  },
+  {
+    "id": "alpha-type-verb-endings-056",
+    "type": "single-choice",
+    "prompt": "ακούς",
+    "correctAnswer": "слышишь",
+    "wrongAnswers": ["слышу", "слышит", "слышим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-057",
+    "type": "single-choice",
+    "prompt": "ακούει",
+    "correctAnswer": "слышит",
+    "wrongAnswers": ["слышу", "слышишь", "слышите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-058",
+    "type": "single-choice",
+    "prompt": "ακούμε",
+    "correctAnswer": "слышим",
+    "wrongAnswers": ["слышу", "слышишь", "слышат"]
+  },
+  {
+    "id": "alpha-type-verb-endings-059",
+    "type": "single-choice",
+    "prompt": "ακούτε",
+    "correctAnswer": "слышите",
+    "wrongAnswers": ["слышу", "слышит", "слышим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-060",
+    "type": "single-choice",
+    "prompt": "ακούνε",
+    "correctAnswer": "слышат",
+    "wrongAnswers": ["слышу", "слышишь", "слышит"]
+  },
+  {
+    "id": "alpha-type-verb-endings-061",
+    "type": "single-choice",
+    "prompt": "τρώω",
+    "correctAnswer": "ем",
+    "wrongAnswers": ["ешь", "ест", "едят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-062",
+    "type": "single-choice",
+    "prompt": "τρως",
+    "correctAnswer": "ешь",
+    "wrongAnswers": ["ем", "ест", "едим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-063",
+    "type": "single-choice",
+    "prompt": "τρώει",
+    "correctAnswer": "ест",
+    "wrongAnswers": ["ем", "ешь", "едите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-064",
+    "type": "single-choice",
+    "prompt": "τρώμε",
+    "correctAnswer": "едим",
+    "wrongAnswers": ["ем", "ешь", "едят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-065",
+    "type": "single-choice",
+    "prompt": "τρώτε",
+    "correctAnswer": "едите",
+    "wrongAnswers": ["ем", "ест", "едим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-066",
+    "type": "single-choice",
+    "prompt": "τρώνε",
+    "correctAnswer": "едят",
+    "wrongAnswers": ["ем", "ешь", "ест"]
+  },
+  {
+    "id": "alpha-type-verb-endings-067",
+    "type": "single-choice",
+    "prompt": "πίνω",
+    "correctAnswer": "пью",
+    "wrongAnswers": ["пьёшь", "пьёт", "пьют"]
+  },
+  {
+    "id": "alpha-type-verb-endings-068",
+    "type": "single-choice",
+    "prompt": "πίνεις",
+    "correctAnswer": "пьёшь",
+    "wrongAnswers": ["пью", "пьёт", "пьём"]
+  },
+  {
+    "id": "alpha-type-verb-endings-069",
+    "type": "single-choice",
+    "prompt": "πίνει",
+    "correctAnswer": "пьёт",
+    "wrongAnswers": ["пью", "пьёшь", "пьёте"]
+  },
+  {
+    "id": "alpha-type-verb-endings-070",
+    "type": "single-choice",
+    "prompt": "πίνουμε",
+    "correctAnswer": "пьём",
+    "wrongAnswers": ["пью", "пьёшь", "пьют"]
+  },
+  {
+    "id": "alpha-type-verb-endings-071",
+    "type": "single-choice",
+    "prompt": "πίνετε",
+    "correctAnswer": "пьёте",
+    "wrongAnswers": ["пью", "пьёт", "пьём"]
+  },
+  {
+    "id": "alpha-type-verb-endings-072",
+    "type": "single-choice",
+    "prompt": "πίνουν",
+    "correctAnswer": "пьют",
+    "wrongAnswers": ["пью", "пьёшь", "пьёт"]
+  },
+  {
+    "id": "alpha-type-verb-endings-073",
+    "type": "single-choice",
+    "prompt": "αγαπώ",
+    "correctAnswer": "люблю",
+    "wrongAnswers": ["любишь", "любит", "любят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-074",
+    "type": "single-choice",
+    "prompt": "αγαπάς",
+    "correctAnswer": "любишь",
+    "wrongAnswers": ["люблю", "любит", "любим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-075",
+    "type": "single-choice",
+    "prompt": "αγαπάει",
+    "correctAnswer": "любит",
+    "wrongAnswers": ["люблю", "любишь", "любите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-076",
+    "type": "single-choice",
+    "prompt": "αγαπάμε",
+    "correctAnswer": "любим",
+    "wrongAnswers": ["люблю", "любишь", "любят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-077",
+    "type": "single-choice",
+    "prompt": "αγαπάτε",
+    "correctAnswer": "любите",
+    "wrongAnswers": ["люблю", "любит", "любим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-078",
+    "type": "single-choice",
+    "prompt": "αγαπάνε",
+    "correctAnswer": "любят",
+    "wrongAnswers": ["люблю", "любишь", "любит"]
+  },
+  {
+    "id": "alpha-type-verb-endings-079",
+    "type": "single-choice",
+    "prompt": "δουλεύω",
+    "correctAnswer": "работаю",
+    "wrongAnswers": ["работаешь", "работает", "работают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-080",
+    "type": "single-choice",
+    "prompt": "δουλεύεις",
+    "correctAnswer": "работаешь",
+    "wrongAnswers": ["работаю", "работает", "работаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-081",
+    "type": "single-choice",
+    "prompt": "δουλεύει",
+    "correctAnswer": "работает",
+    "wrongAnswers": ["работаю", "работаешь", "работаете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-082",
+    "type": "single-choice",
+    "prompt": "δουλεύουμε",
+    "correctAnswer": "работаем",
+    "wrongAnswers": ["работаю", "работаешь", "работают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-083",
+    "type": "single-choice",
+    "prompt": "δουλεύετε",
+    "correctAnswer": "работаете",
+    "wrongAnswers": ["работаю", "работает", "работаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-084",
+    "type": "single-choice",
+    "prompt": "δουλεύουν",
+    "correctAnswer": "работают",
+    "wrongAnswers": ["работаю", "работаешь", "работает"]
+  },
+  {
+    "id": "alpha-type-verb-endings-085",
+    "type": "single-choice",
+    "prompt": "διαβάζω",
+    "correctAnswer": "читаю",
+    "wrongAnswers": ["читаешь", "читает", "читают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-086",
+    "type": "single-choice",
+    "prompt": "διαβάζεις",
+    "correctAnswer": "читаешь",
+    "wrongAnswers": ["читаю", "читает", "читаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-087",
+    "type": "single-choice",
+    "prompt": "διαβάζει",
+    "correctAnswer": "читает",
+    "wrongAnswers": ["читаю", "читаешь", "читаете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-088",
+    "type": "single-choice",
+    "prompt": "διαβάζουμε",
+    "correctAnswer": "читаем",
+    "wrongAnswers": ["читаю", "читаешь", "читают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-089",
+    "type": "single-choice",
+    "prompt": "διαβάζετε",
+    "correctAnswer": "читаете",
+    "wrongAnswers": ["читаю", "читает", "читаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-090",
+    "type": "single-choice",
+    "prompt": "διαβάζουν",
+    "correctAnswer": "читают",
+    "wrongAnswers": ["читаю", "читаешь", "читает"]
+  },
+  {
+    "id": "alpha-type-verb-endings-091",
+    "type": "single-choice",
+    "prompt": "γράφω",
+    "correctAnswer": "пишу",
+    "wrongAnswers": ["пишешь", "пишет", "пишут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-092",
+    "type": "single-choice",
+    "prompt": "γράφεις",
+    "correctAnswer": "пишешь",
+    "wrongAnswers": ["пишу", "пишет", "пишем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-093",
+    "type": "single-choice",
+    "prompt": "γράφει",
+    "correctAnswer": "пишет",
+    "wrongAnswers": ["пишу", "пишешь", "пишете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-094",
+    "type": "single-choice",
+    "prompt": "γράφουμε",
+    "correctAnswer": "пишем",
+    "wrongAnswers": ["пишу", "пишешь", "пишут"]
+  },
+  {
+    "id": "alpha-type-verb-endings-095",
+    "type": "single-choice",
+    "prompt": "γράφετε",
+    "correctAnswer": "пишете",
+    "wrongAnswers": ["пишу", "пишет", "пишем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-096",
+    "type": "single-choice",
+    "prompt": "γράφουν",
+    "correctAnswer": "пишут",
+    "wrongAnswers": ["пишу", "пишешь", "пишет"]
+  },
+  {
+    "id": "alpha-type-verb-endings-097",
+    "type": "single-choice",
+    "prompt": "μαθαίνω",
+    "correctAnswer": "учу",
+    "wrongAnswers": ["учишь", "учит", "учат"]
+  },
+  {
+    "id": "alpha-type-verb-endings-098",
+    "type": "single-choice",
+    "prompt": "μαθαίνεις",
+    "correctAnswer": "учишь",
+    "wrongAnswers": ["учу", "учит", "учим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-099",
+    "type": "single-choice",
+    "prompt": "μαθαίνει",
+    "correctAnswer": "учит",
+    "wrongAnswers": ["учу", "учишь", "учите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-100",
+    "type": "single-choice",
+    "prompt": "μαθαίνουμε",
+    "correctAnswer": "учим",
+    "wrongAnswers": ["учу", "учишь", "учат"]
+  },
+  {
+    "id": "alpha-type-verb-endings-101",
+    "type": "single-choice",
+    "prompt": "μαθαίνετε",
+    "correctAnswer": "учите",
+    "wrongAnswers": ["учу", "учит", "учим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-102",
+    "type": "single-choice",
+    "prompt": "μαθαίνουν",
+    "correctAnswer": "учат",
+    "wrongAnswers": ["учу", "учишь", "учит"]
+  },
+  {
+    "id": "alpha-type-verb-endings-103",
+    "type": "single-choice",
+    "prompt": "καταλαβαίνω",
+    "correctAnswer": "понимаю",
+    "wrongAnswers": ["понимаешь", "понимает", "понимают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-104",
+    "type": "single-choice",
+    "prompt": "καταλαβαίνεις",
+    "correctAnswer": "понимаешь",
+    "wrongAnswers": ["понимаю", "понимает", "понимаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-105",
+    "type": "single-choice",
+    "prompt": "καταλαβαίνει",
+    "correctAnswer": "понимает",
+    "wrongAnswers": ["понимаю", "понимаешь", "понимаете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-106",
+    "type": "single-choice",
+    "prompt": "καταλαβαίνουμε",
+    "correctAnswer": "понимаем",
+    "wrongAnswers": ["понимаю", "понимаешь", "понимают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-107",
+    "type": "single-choice",
+    "prompt": "καταλαβαίνετε",
+    "correctAnswer": "понимаете",
+    "wrongAnswers": ["понимаю", "понимает", "понимаем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-108",
+    "type": "single-choice",
+    "prompt": "καταλαβαίνουν",
+    "correctAnswer": "понимают",
+    "wrongAnswers": ["понимаю", "понимаешь", "понимает"]
+  },
+  {
+    "id": "alpha-type-verb-endings-109",
+    "type": "single-choice",
+    "prompt": "μιλάω",
+    "correctAnswer": "говорю",
+    "wrongAnswers": ["говоришь", "говорит", "говорят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-110",
+    "type": "single-choice",
+    "prompt": "μιλάς",
+    "correctAnswer": "говоришь",
+    "wrongAnswers": ["говорю", "говорит", "говорим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-111",
+    "type": "single-choice",
+    "prompt": "μιλάει",
+    "correctAnswer": "говорит",
+    "wrongAnswers": ["говорю", "говоришь", "говорите"]
+  },
+  {
+    "id": "alpha-type-verb-endings-112",
+    "type": "single-choice",
+    "prompt": "μιλάμε",
+    "correctAnswer": "говорим",
+    "wrongAnswers": ["говорю", "говоришь", "говорят"]
+  },
+  {
+    "id": "alpha-type-verb-endings-113",
+    "type": "single-choice",
+    "prompt": "μιλάτε",
+    "correctAnswer": "говорите",
+    "wrongAnswers": ["говорю", "говорит", "говорим"]
+  },
+  {
+    "id": "alpha-type-verb-endings-114",
+    "type": "single-choice",
+    "prompt": "μιλάνε",
+    "correctAnswer": "говорят",
+    "wrongAnswers": ["говорю", "говоришь", "говорит"]
+  },
+  {
+    "id": "alpha-type-verb-endings-115",
+    "type": "single-choice",
+    "prompt": "ρωτάω",
+    "correctAnswer": "спрашиваю",
+    "wrongAnswers": ["спрашиваешь", "спрашивает", "спрашивают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-116",
+    "type": "single-choice",
+    "prompt": "ρωτάς",
+    "correctAnswer": "спрашиваешь",
+    "wrongAnswers": ["спрашиваю", "спрашивает", "спрашиваем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-117",
+    "type": "single-choice",
+    "prompt": "ρωτάει",
+    "correctAnswer": "спрашивает",
+    "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашиваете"]
+  },
+  {
+    "id": "alpha-type-verb-endings-118",
+    "type": "single-choice",
+    "prompt": "ρωτάμε",
+    "correctAnswer": "спрашиваем",
+    "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивают"]
+  },
+  {
+    "id": "alpha-type-verb-endings-119",
+    "type": "single-choice",
+    "prompt": "ρωτάτε",
+    "correctAnswer": "спрашиваете",
+    "wrongAnswers": ["спрашиваю", "спрашивает", "спрашиваем"]
+  },
+  {
+    "id": "alpha-type-verb-endings-120",
+    "type": "single-choice",
+    "prompt": "ρωτάνε",
+    "correctAnswer": "спрашивают",
+    "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивает"]
+  }
+]
