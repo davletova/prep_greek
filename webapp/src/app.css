@@ -428,6 +428,26 @@ body {
   font-weight: 600;
 }
 
+.practice-card__play-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.practice-card__play {
+  align-self: center;
+}
+
+.practice-card__play--active {
+  background: #2d5bff;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(45, 91, 255, 0.24);
+}
+
+.practice-card__play:disabled {
+  opacity: 1;
+}
+
 .practice-card__answers {
   display: flex;
   flex-direction: column;

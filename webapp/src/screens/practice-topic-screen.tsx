@@ -1,17 +1,19 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
+import { cancelGreekSpeech } from "../lib/speech.ts";
 import type {
   ExerciseCollection,
   SingleChoiceExercise
 } from "../types/exercises";
-import type { LoadableState, VoidHandler } from "../types/ui";
+import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
 interface PracticeTopicScreenProps {
   title: string;
   topicState: LoadableState<ExerciseCollection>;
   onClose: VoidHandler;
   onRetry: VoidHandler;
+  onSpeak: SpeakHandler;
 }
 
 function getSingleChoiceExercises(
@@ -42,7 +44,8 @@ export default function PracticeTopicScreen({
   title,
   topicState,
   onClose,
-  onRetry
+  onRetry,
+  onSpeak
 }: PracticeTopicScreenProps) {
   const exercises = useMemo(
     () => getSingleChoiceExercises(topicState.data),
@@ -54,10 +57,12 @@ export default function PracticeTopicScreen({
   );
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
 
   useEffect(() => {
     setCurrentQuestionIndex(0);
     setSelectedIndex(null);
+    setIsPromptSpeaking(false);
   }, [shuffledIndices]);
 
   const exercise =
@@ -86,13 +91,35 @@ export default function PracticeTopicScreen({
     return "practice-card__answer";
   };
 
+  const handlePlayPrompt = async () => {
+    if (!question || isPromptSpeaking) {
+      return;
+    }
+
+    setIsPromptSpeaking(true);
+
+    try {
+      await onSpeak(question.prompt);
+    } finally {
+      setIsPromptSpeaking(false);
+    }
+  };
+
   const handleNextQuestion = () => {
     if (!hasAnswered || shuffledIndices.length === 0) {
       return;
     }
 
+    cancelGreekSpeech();
+    setIsPromptSpeaking(false);
     setCurrentQuestionIndex((prev) => (prev + 1) % shuffledIndices.length);
     setSelectedIndex(null);
+  };
+
+  const handleClose = () => {
+    cancelGreekSpeech();
+    setIsPromptSpeaking(false);
+    onClose();
   };
 
   return (
@@ -104,7 +131,7 @@ export default function PracticeTopicScreen({
         <button
           className="close-button"
           type="button"
-          onClick={onClose}
+          onClick={handleClose}
           aria-label="Закрыть"
         >
           ×
@@ -136,6 +163,20 @@ export default function PracticeTopicScreen({
             <div className="practice-flow__body">
               <section className="practice-card">
                 <p className="practice-card__question">{question?.prompt}</p>
+
+                <div className="practice-card__play-wrap">
+                  <button
+                    className={`alphabet-card__play practice-card__play ${
+                      isPromptSpeaking ? "practice-card__play--active" : ""
+                    }`}
+                    type="button"
+                    aria-label={`Озвучить ${question.prompt}`}
+                    onClick={handlePlayPrompt}
+                    disabled={isPromptSpeaking}
+                  >
+                    {isPromptSpeaking ? "◼" : "▶"}
+                  </button>
+                </div>
 
                 <div className="practice-card__answers">
                   {question?.options.map((option, index) => (

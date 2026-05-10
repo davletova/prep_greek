@@ -1,25 +1,38 @@
-export function speakGreekText(text: string): void {
-  if (!("speechSynthesis" in window)) {
-    alert("Озвучка не поддерживается в этом браузере.");
-    return;
+export function cancelGreekSpeech(): void {
+  if ("speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
   }
+}
 
-  if (!text) {
-    return;
-  }
+export function speakGreekText(text: string): Promise<void> {
+  return new Promise((resolve) => {
+    if (!("speechSynthesis" in window)) {
+      alert("Озвучка не поддерживается в этом браузере.");
+      resolve();
+      return;
+    }
 
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "el-GR";
+    if (!text) {
+      resolve();
+      return;
+    }
 
-  const voices = window.speechSynthesis.getVoices();
-  const greekVoice = voices.find((voice) =>
-    voice.lang?.toLowerCase().startsWith("el")
-  );
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "el-GR";
 
-  if (greekVoice) {
-    utterance.voice = greekVoice;
-  }
+    const voices = window.speechSynthesis.getVoices();
+    const greekVoice = voices.find((voice) =>
+      voice.lang?.toLowerCase().startsWith("el")
+    );
 
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utterance);
+    if (greekVoice) {
+      utterance.voice = greekVoice;
+    }
+
+    utterance.onend = () => resolve();
+    utterance.onerror = () => resolve();
+
+    cancelGreekSpeech();
+    window.speechSynthesis.speak(utterance);
+  });
 }

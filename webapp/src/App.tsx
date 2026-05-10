@@ -307,6 +307,7 @@ export default function App() {
           topicState={baseGreekState}
           onClose={handleClosePracticeTopic}
           onRetry={handleRetryBaseGreek}
+          onSpeak={speakGreekText}
         />
       ) : screen === "practice-alpha-type-verbs" ? (
         <PracticeTopicScreen
@@ -314,6 +315,7 @@ export default function App() {
           topicState={alphaTypeVerbsState}
           onClose={handleClosePracticeTopic}
           onRetry={handleRetryAlphaTypeVerbs}
+          onSpeak={speakGreekText}
         />
       ) : screen === "practice-alpha-type-verb-endings" ? (
         <PracticeTopicScreen
@@ -321,6 +323,7 @@ export default function App() {
           topicState={alphaTypeVerbEndingsState}
           onClose={handleClosePracticeTopic}
           onRetry={handleRetryAlphaTypeVerbEndings}
+          onSpeak={speakGreekText}
         />
       ) : (
         <PracticeTopicsScreen

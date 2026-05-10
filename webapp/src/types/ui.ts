@@ -20,5 +20,5 @@ export type Screen =
   | "practice-alpha-type-verb-endings";
 
 export type VoidHandler = () => void;
-export type SpeakHandler = (text: string) => void;
+export type SpeakHandler = (text: string) => Promise<void>;
 export type IndexedNextHandler = (max: number) => void;
