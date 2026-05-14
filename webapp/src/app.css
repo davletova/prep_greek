@@ -44,6 +44,13 @@ body {
   gap: 16px;
 }
 
+.app__header--centered {
+  display: grid;
+  grid-template-columns: 36px 1fr 36px;
+  align-items: center;
+  gap: 12px;
+}
+
 .app__eyebrow {
   margin: 0;
   font-size: 13px;
@@ -63,6 +70,10 @@ body {
 
 .app__title--small {
   font-size: 22px;
+}
+
+.app__title--centered {
+  text-align: center;
 }
 
 .app__subtitle {
@@ -184,6 +195,22 @@ body {
   font-weight: 600;
   cursor: pointer;
   line-height: 1;
+}
+
+.back-button,
+.app__header-spacer {
+  width: 36px;
+  height: 36px;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  color: #1d2a44;
+  font-size: 32px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
 }
 
 .alphabet {

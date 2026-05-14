@@ -15,18 +15,19 @@ export default function PracticeTopicsScreen({
 }: PracticeTopicsScreenProps) {
   return (
     <>
-      <header className="app__header app__header--compact">
-        <div>
-          <h1 className="app__title app__title--small">Выбор темы</h1>
-        </div>
+      <header className="app__header app__header--centered">
         <button
-          className="close-button"
+          className="back-button"
           type="button"
           onClick={onClose}
-          aria-label="Закрыть"
+          aria-label="Назад"
         >
-          ×
+          ‹
         </button>
+        <h1 className="app__title app__title--small app__title--centered">
+          Выбор темы
+        </h1>
+        <div className="app__header-spacer" aria-hidden="true" />
       </header>
 
       <main className="app__content app__content--profile">

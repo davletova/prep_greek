@@ -24,7 +24,7 @@ const ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL = `${import.meta.env.BASE_URL}conten
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
-  const [tab, setTab] = useState<TabKey>("theory");
+  const [tab, setTab] = useState<TabKey>("practice");
 
   const [alphabetState, setAlphabetState] = useState<LoadableState<AlphabetContent>>(
     createInitialLoadableState<AlphabetContent>()
