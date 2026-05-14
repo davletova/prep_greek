@@ -460,6 +460,9 @@ body {
   opacity: 1;
   cursor: default;
   pointer-events: none;
+  background: #eef2f7;
+  color: #9aa7bd;
+  box-shadow: none;
 }
 
 .practice-card__answers {
@@ -562,6 +565,10 @@ body {
   text-align: center;
 }
 
+.input-practice-card__correct-answer--hidden {
+  visibility: hidden;
+}
+
 .input-practice-card__input-line {
   width: 100%;
   height: 24px;
@@ -579,6 +586,21 @@ body {
 
 .input-practice-card__input-line:focus {
   border-bottom-color: #4a6fff;
+}
+
+.input-practice-card__input-line:disabled {
+  opacity: 1;
+  -webkit-text-fill-color: currentColor;
+}
+
+.input-practice-card__input-line--correct {
+  color: #256c4c;
+  border-bottom-color: #2c7a58;
+}
+
+.input-practice-card__input-line--wrong {
+  color: #a33a3a;
+  border-bottom-color: #c95252;
 }
 
 .input-practice-flow__actions {

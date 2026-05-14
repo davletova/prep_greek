@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { InputExercise } from "../types/exercises";
@@ -21,10 +21,23 @@ export default function InputPracticeTopicScreen({
 }: InputPracticeTopicScreenProps) {
   const exercise = topicState.data?.[0] ?? null;
   const [answerValue, setAnswerValue] = useState("");
+  const [hasChecked, setHasChecked] = useState(false);
   const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
 
+  useEffect(() => {
+    setAnswerValue("");
+    setHasChecked(false);
+    setIsPromptSpeaking(false);
+  }, [exercise?.id]);
+
+  const trimmedAnswerValue = answerValue.trim();
+  const canCheck = trimmedAnswerValue.length > 0 && !hasChecked;
+  const isCorrect = hasChecked && exercise
+    ? trimmedAnswerValue === exercise.correctAnswer
+    : false;
+
   const handlePlayPrompt = async () => {
-    if (!exercise || isPromptSpeaking) {
+    if (!exercise || !hasChecked || isPromptSpeaking) {
       return;
     }
 
@@ -35,6 +48,15 @@ export default function InputPracticeTopicScreen({
     } finally {
       setIsPromptSpeaking(false);
     }
+  };
+
+  const handleCheck = () => {
+    if (!exercise || !canCheck) {
+      return;
+    }
+
+    setAnswerValue(trimmedAnswerValue);
+    setHasChecked(true);
   };
 
   const handleClose = () => {
@@ -97,33 +119,53 @@ export default function InputPracticeTopicScreen({
                   type="button"
                   aria-label={`Озвучить ${exercise.correctAnswer}`}
                   onClick={handlePlayPrompt}
-                  disabled={isPromptSpeaking}
+                  disabled={!hasChecked || isPromptSpeaking}
                 >
                   {isPromptSpeaking ? "◼" : "▶"}
                 </button>
 
                 <div className="input-practice-card__input-wrap">
-                  <p className="input-practice-card__correct-answer">
+                  <p
+                    className={`input-practice-card__correct-answer ${
+                      hasChecked ? "" : "input-practice-card__correct-answer--hidden"
+                    }`}
+                  >
                     {exercise.correctAnswer}
                   </p>
                   <input
-                    className="input-practice-card__input-line"
+                    className={`input-practice-card__input-line ${
+                      hasChecked
+                        ? isCorrect
+                          ? "input-practice-card__input-line--correct"
+                          : "input-practice-card__input-line--wrong"
+                        : ""
+                    }`}
                     type="text"
                     value={answerValue}
                     onChange={(event) => setAnswerValue(event.target.value)}
                     autoComplete="off"
                     spellCheck={false}
                     aria-label="Введите ответ"
+                    disabled={hasChecked}
                   />
                 </div>
               </section>
             </div>
 
             <div className="input-practice-flow__actions">
-              <button className="nav-button" type="button" disabled>
+              <button
+                className="nav-button"
+                type="button"
+                onClick={handleCheck}
+                disabled={!canCheck}
+              >
                 Проверить
               </button>
-              <button className="nav-button nav-button--primary" type="button" disabled>
+              <button
+                className="nav-button nav-button--primary"
+                type="button"
+                disabled={!hasChecked}
+              >
                 Далее
               </button>
             </div>
