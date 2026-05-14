@@ -313,5 +313,327 @@
     "prompt": "κοστίζω",
     "correctAnswer": "стоить",
     "wrongAnswers": ["платить", "покупать", "продавать"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-001",
+    "type": "single-choice",
+    "prompt": "знать",
+    "correctAnswer": "ξέρω",
+    "wrongAnswers": ["θέλω", "διαβάζω", "περιμένω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-002",
+    "type": "single-choice",
+    "prompt": "говорить",
+    "correctAnswer": "λέω",
+    "wrongAnswers": ["ακούω", "γράφω", "βλέπω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-003",
+    "type": "single-choice",
+    "prompt": "есть",
+    "correctAnswer": "τρώω",
+    "wrongAnswers": ["πίνω", "μαγειρεύω", "αγοράζω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-004",
+    "type": "single-choice",
+    "prompt": "слышать",
+    "correctAnswer": "ακούω",
+    "wrongAnswers": ["βλέπω", "λέω", "γράφω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-005",
+    "type": "single-choice",
+    "prompt": "быть виноватым",
+    "correctAnswer": "φταίω",
+    "wrongAnswers": ["κλαίω", "προσέχω", "στέκομαι"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-006",
+    "type": "single-choice",
+    "prompt": "плакать",
+    "correctAnswer": "κλαίω",
+    "wrongAnswers": ["φταίω", "χορεύω", "παίζω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-007",
+    "type": "single-choice",
+    "prompt": "хотеть",
+    "correctAnswer": "θέλω",
+    "wrongAnswers": ["ξέρω", "έχω", "μπορώ"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-008",
+    "type": "single-choice",
+    "prompt": "быть",
+    "correctAnswer": "είμαι",
+    "wrongAnswers": ["έχω", "μένω", "πηγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-009",
+    "type": "single-choice",
+    "prompt": "читать",
+    "correctAnswer": "διαβάζω",
+    "wrongAnswers": ["γράφω", "λέω", "μαθαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-010",
+    "type": "single-choice",
+    "prompt": "идти",
+    "correctAnswer": "πηγαίνω",
+    "wrongAnswers": ["μένω", "φεύγω", "κάθομαι"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-011",
+    "type": "single-choice",
+    "prompt": "ждать",
+    "correctAnswer": "περιμένω",
+    "wrongAnswers": ["φεύγω", "αρχίζω", "κλείνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-012",
+    "type": "single-choice",
+    "prompt": "учить",
+    "correctAnswer": "μαθαίνω",
+    "wrongAnswers": ["διδάσκω", "διαβάζω", "σπουδάζω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-013",
+    "type": "single-choice",
+    "prompt": "иметь",
+    "correctAnswer": "έχω",
+    "wrongAnswers": ["είμαι", "θέλω", "ξέρω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-014",
+    "type": "single-choice",
+    "prompt": "уходить",
+    "correctAnswer": "φεύγω",
+    "wrongAnswers": ["έρχομαι", "μένω", "μπαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-015",
+    "type": "single-choice",
+    "prompt": "жить",
+    "correctAnswer": "μένω",
+    "wrongAnswers": ["πηγαίνω", "φεύγω", "γυρίζω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-016",
+    "type": "single-choice",
+    "prompt": "понимать",
+    "correctAnswer": "καταλαβαίνω",
+    "wrongAnswers": ["ξέρω", "μαθαίνω", "ρωτάω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-017",
+    "type": "single-choice",
+    "prompt": "писать",
+    "correctAnswer": "γράφω",
+    "wrongAnswers": ["διαβάζω", "λέω", "ακούω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-018",
+    "type": "single-choice",
+    "prompt": "работать",
+    "correctAnswer": "δουλεύω",
+    "wrongAnswers": ["σπουδάζω", "παίζω", "κοιμάμαι"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-019",
+    "type": "single-choice",
+    "prompt": "возвращаться",
+    "correctAnswer": "γυρίζω",
+    "wrongAnswers": ["φεύγω", "πηγαίνω", "βγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-020",
+    "type": "single-choice",
+    "prompt": "начинать",
+    "correctAnswer": "αρχίζω",
+    "wrongAnswers": ["τελειώνω", "κλείνω", "φεύγω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-021",
+    "type": "single-choice",
+    "prompt": "играть",
+    "correctAnswer": "παίζω",
+    "wrongAnswers": ["δουλεύω", "διαβάζω", "πληρώνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-022",
+    "type": "single-choice",
+    "prompt": "закрывать",
+    "correctAnswer": "κλείνω",
+    "wrongAnswers": ["ανοίγω", "μπαίνω", "βγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-023",
+    "type": "single-choice",
+    "prompt": "возвращаться",
+    "correctAnswer": "επιστρέφω",
+    "wrongAnswers": ["φεύγω", "αρχίζω", "ανεβαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-024",
+    "type": "single-choice",
+    "prompt": "быть внимательным",
+    "correctAnswer": "προσέχω",
+    "wrongAnswers": ["πληρώνω", "παίζω", "κλαίω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-025",
+    "type": "single-choice",
+    "prompt": "отправлять",
+    "correctAnswer": "στέλνω",
+    "wrongAnswers": ["παίρνω", "δίνω", "γράφω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-026",
+    "type": "single-choice",
+    "prompt": "выходить",
+    "correctAnswer": "βγαίνω",
+    "wrongAnswers": ["μπαίνω", "μένω", "πηγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-027",
+    "type": "single-choice",
+    "prompt": "готовить",
+    "correctAnswer": "μαγειρεύω",
+    "wrongAnswers": ["τρώω", "πίνω", "δουλεύω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-028",
+    "type": "single-choice",
+    "prompt": "делать",
+    "correctAnswer": "κάνω",
+    "wrongAnswers": ["έχω", "ξέρω", "πηγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-029",
+    "type": "single-choice",
+    "prompt": "учиться",
+    "correctAnswer": "σπουδάζω",
+    "wrongAnswers": ["μαθαίνω", "διδάσκω", "δουλεύω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-030",
+    "type": "single-choice",
+    "prompt": "видеть",
+    "correctAnswer": "βλέπω",
+    "wrongAnswers": ["ακούω", "λέω", "γράφω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-031",
+    "type": "single-choice",
+    "prompt": "преподавать",
+    "correctAnswer": "διδάσκω",
+    "wrongAnswers": ["σπουδάζω", "μαθαίνω", "διαβάζω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-032",
+    "type": "single-choice",
+    "prompt": "открывать",
+    "correctAnswer": "ανοίγω",
+    "wrongAnswers": ["κλείνω", "γράφω", "πίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-033",
+    "type": "single-choice",
+    "prompt": "подниматься",
+    "correctAnswer": "ανεβαίνω",
+    "wrongAnswers": ["κατεβαίνω", "μπαίνω", "βγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-034",
+    "type": "single-choice",
+    "prompt": "заканчивать",
+    "correctAnswer": "τελειώνω",
+    "wrongAnswers": ["αρχίζω", "κλείνω", "γυρίζω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-035",
+    "type": "single-choice",
+    "prompt": "путешествовать",
+    "correctAnswer": "ταξιδεύω",
+    "wrongAnswers": ["δουλεύω", "κοιμάμαι", "γράφω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-036",
+    "type": "single-choice",
+    "prompt": "покупать",
+    "correctAnswer": "αγοράζω",
+    "wrongAnswers": ["πουλάω", "πληρώνω", "παίρνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-037",
+    "type": "single-choice",
+    "prompt": "спускаться",
+    "correctAnswer": "κατεβαίνω",
+    "wrongAnswers": ["ανεβαίνω", "μπαίνω", "βγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-038",
+    "type": "single-choice",
+    "prompt": "платить",
+    "correctAnswer": "πληρώνω",
+    "wrongAnswers": ["αγοράζω", "παίρνω", "δίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-039",
+    "type": "single-choice",
+    "prompt": "брать",
+    "correctAnswer": "παίρνω",
+    "wrongAnswers": ["δίνω", "στέλνω", "ανοίγω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-040",
+    "type": "single-choice",
+    "prompt": "знакомиться",
+    "correctAnswer": "γνωρίζω",
+    "wrongAnswers": ["ξεχνάω", "αγοράζω", "δουλεύω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-041",
+    "type": "single-choice",
+    "prompt": "входить",
+    "correctAnswer": "μπαίνω",
+    "wrongAnswers": ["βγαίνω", "μένω", "φεύγω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-042",
+    "type": "single-choice",
+    "prompt": "давать",
+    "correctAnswer": "δίνω",
+    "wrongAnswers": ["παίρνω", "ψάχνω", "πηγαίνω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-043",
+    "type": "single-choice",
+    "prompt": "танцевать",
+    "correctAnswer": "χορεύω",
+    "wrongAnswers": ["παίζω", "δουλεύω", "διαβάζω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-044",
+    "type": "single-choice",
+    "prompt": "стоить",
+    "correctAnswer": "κοστίζω",
+    "wrongAnswers": ["πληρώνω", "αγοράζω", "πουλάω"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-045",
+    "type": "single-choice",
+    "prompt": "идти",
+    "correctAnswer": "πάω",
+    "wrongAnswers": ["μένω", "φεύγω", "στέκομαι"]
+  },
+  {
+    "id": "alpha-type-verbs-reverse-046",
+    "type": "single-choice",
+    "prompt": "стоять",
+    "correctAnswer": "στέκομαι",
+    "wrongAnswers": ["κάθομαι", "πηγαίνω", "βγαίνω"]
   }
 ]
