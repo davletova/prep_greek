@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { InputExercise } from "../types/exercises";
@@ -12,6 +12,23 @@ interface InputPracticeTopicScreenProps {
   onSpeak: SpeakHandler;
 }
 
+function getInputExercises(exercises: InputExercise[] | null): InputExercise[] {
+  return exercises?.filter((exercise) => exercise.type === "input") ?? [];
+}
+
+function createShuffledIndices(size: number): number[] {
+  const indices = Array.from({ length: size }, (_, index) => index);
+
+  for (let index = indices.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    const current = indices[index];
+    indices[index] = indices[swapIndex];
+    indices[swapIndex] = current;
+  }
+
+  return indices;
+}
+
 export default function InputPracticeTopicScreen({
   title,
   topicState,
@@ -19,10 +36,26 @@ export default function InputPracticeTopicScreen({
   onRetry,
   onSpeak
 }: InputPracticeTopicScreenProps) {
-  const exercise = topicState.data?.[0] ?? null;
+  const exercises = useMemo(() => getInputExercises(topicState.data), [topicState.data]);
+  const shuffledIndices = useMemo(
+    () => createShuffledIndices(exercises.length),
+    [exercises]
+  );
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const exercise =
+    shuffledIndices.length > 0
+      ? exercises[shuffledIndices[currentQuestionIndex]]
+      : null;
   const [answerValue, setAnswerValue] = useState("");
   const [hasChecked, setHasChecked] = useState(false);
   const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
+
+  useEffect(() => {
+    setCurrentQuestionIndex(0);
+    setAnswerValue("");
+    setHasChecked(false);
+    setIsPromptSpeaking(false);
+  }, [shuffledIndices]);
 
   useEffect(() => {
     setAnswerValue("");
@@ -57,6 +90,16 @@ export default function InputPracticeTopicScreen({
 
     setAnswerValue(trimmedAnswerValue);
     setHasChecked(true);
+  };
+
+  const handleNextQuestion = () => {
+    if (!hasChecked || shuffledIndices.length === 0) {
+      return;
+    }
+
+    cancelGreekSpeech();
+    setIsPromptSpeaking(false);
+    setCurrentQuestionIndex((prev) => (prev + 1) % shuffledIndices.length);
   };
 
   const handleClose = () => {
@@ -95,7 +138,7 @@ export default function InputPracticeTopicScreen({
             onAction={onRetry}
             tone="error"
           />
-        ) : !exercise ? (
+        ) : exercises.length === 0 || !exercise ? (
           <ContentState
             title="Нет данных для предпросмотра"
             text="Не удалось найти упражнение input в файле."
@@ -164,6 +207,7 @@ export default function InputPracticeTopicScreen({
               <button
                 className="nav-button nav-button--primary"
                 type="button"
+                onClick={handleNextQuestion}
                 disabled={!hasChecked}
               >
                 Далее
