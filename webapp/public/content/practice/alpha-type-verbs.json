@@ -2,268 +2,268 @@
   {
     "id": "alpha-type-verbs-001",
     "type": "single-choice",
-    "prompt": "έχω",
-    "correctAnswer": "иметь",
-    "wrongAnswers": ["делать", "говорить", "идти"]
+    "prompt": "ξέρω",
+    "correctAnswer": "знать",
+    "wrongAnswers": ["хотеть", "читать", "ждать"]
   },
   {
     "id": "alpha-type-verbs-002",
     "type": "single-choice",
-    "prompt": "κάνω",
-    "correctAnswer": "делать",
-    "wrongAnswers": ["иметь", "жить", "слышать"]
+    "prompt": "πάω",
+    "correctAnswer": "идти",
+    "wrongAnswers": ["жить", "делать", "писать"]
   },
   {
     "id": "alpha-type-verbs-003",
     "type": "single-choice",
     "prompt": "λέω",
     "correctAnswer": "говорить",
-    "wrongAnswers": ["писать", "идти", "пить"]
+    "wrongAnswers": ["слушать", "покупать", "работать"]
   },
   {
     "id": "alpha-type-verbs-004",
     "type": "single-choice",
-    "prompt": "λέω",
-    "correctAnswer": "сказать",
-    "wrongAnswers": ["писать", "идти", "пить"]
+    "prompt": "τρώω",
+    "correctAnswer": "есть",
+    "wrongAnswers": ["пить", "читать", "идти"]
   },
   {
     "id": "alpha-type-verbs-005",
     "type": "single-choice",
-    "prompt": "πάω",
-    "correctAnswer": "идти",
-    "wrongAnswers": ["стоять", "жить", "есть"]
+    "prompt": "ακούω",
+    "correctAnswer": "слышать",
+    "wrongAnswers": ["видеть", "писать", "покупать"]
   },
   {
     "id": "alpha-type-verbs-006",
     "type": "single-choice",
-    "prompt": "πάω",
-    "correctAnswer": "ехать",
-    "wrongAnswers": ["стоять", "жить", "есть"]
+    "prompt": "φταίω",
+    "correctAnswer": "быть виноватым",
+    "wrongAnswers": ["ждать", "помогать", "спать"]
   },
   {
     "id": "alpha-type-verbs-007",
+    "type": "single-choice",
+    "prompt": "κλαίω",
+    "correctAnswer": "плакать",
+    "wrongAnswers": ["смеяться", "работать", "учить"]
+  },
+  {
+    "id": "alpha-type-verbs-008",
+    "type": "single-choice",
+    "prompt": "θέλω",
+    "correctAnswer": "хотеть",
+    "wrongAnswers": ["знать", "иметь", "понимать"]
+  },
+  {
+    "id": "alpha-type-verbs-009",
+    "type": "single-choice",
+    "prompt": "είμαι",
+    "correctAnswer": "быть",
+    "wrongAnswers": ["иметь", "идти", "делать"]
+  },
+  {
+    "id": "alpha-type-verbs-010",
+    "type": "single-choice",
+    "prompt": "διαβάζω",
+    "correctAnswer": "читать",
+    "wrongAnswers": ["писать", "слышать", "платить"]
+  },
+  {
+    "id": "alpha-type-verbs-011",
+    "type": "single-choice",
+    "prompt": "πηγαίνω",
+    "correctAnswer": "идти",
+    "wrongAnswers": ["оставаться", "покупать", "закрывать"]
+  },
+  {
+    "id": "alpha-type-verbs-012",
+    "type": "single-choice",
+    "prompt": "περιμένω",
+    "correctAnswer": "ждать",
+    "wrongAnswers": ["забывать", "читать", "танцевать"]
+  },
+  {
+    "id": "alpha-type-verbs-013",
+    "type": "single-choice",
+    "prompt": "μαθαίνω",
+    "correctAnswer": "учить",
+    "wrongAnswers": ["платить", "открывать", "возвращаться"]
+  },
+  {
+    "id": "alpha-type-verbs-014",
+    "type": "single-choice",
+    "prompt": "έχω",
+    "correctAnswer": "иметь",
+    "wrongAnswers": ["быть", "идти", "делать"]
+  },
+  {
+    "id": "alpha-type-verbs-015",
+    "type": "single-choice",
+    "prompt": "φεύγω",
+    "correctAnswer": "уходить",
+    "wrongAnswers": ["приходить", "сидеть", "читать"]
+  },
+  {
+    "id": "alpha-type-verbs-016",
     "type": "single-choice",
     "prompt": "μένω",
     "correctAnswer": "жить",
     "wrongAnswers": ["покупать", "говорить", "забывать"]
   },
   {
-    "id": "alpha-type-verbs-008",
-    "type": "single-choice",
-    "prompt": "μένω",
-    "correctAnswer": "оставаться",
-    "wrongAnswers": ["покупать", "говорить", "забывать"]
-  },
-  {
-    "id": "alpha-type-verbs-009",
-    "type": "single-choice",
-    "prompt": "θέλω",
-    "correctAnswer": "хотеть",
-    "wrongAnswers": ["мочь", "знать", "любить"]
-  },
-  {
-    "id": "alpha-type-verbs-010",
-    "type": "single-choice",
-    "prompt": "ξέρω",
-    "correctAnswer": "знать",
-    "wrongAnswers": ["хотеть", "искать", "открывать"]
-  },
-  {
-    "id": "alpha-type-verbs-011",
-    "type": "single-choice",
-    "prompt": "μπορώ",
-    "correctAnswer": "мочь",
-    "wrongAnswers": ["хотеть", "делать", "покупать"]
-  },
-  {
-    "id": "alpha-type-verbs-012",
-    "type": "single-choice",
-    "prompt": "είμαι",
-    "correctAnswer": "быть",
-    "wrongAnswers": ["иметь", "идти", "смотреть"]
-  },
-  {
-    "id": "alpha-type-verbs-013",
-    "type": "single-choice",
-    "prompt": "έρχομαι",
-    "correctAnswer": "приходить",
-    "wrongAnswers": ["уходить", "брать", "жить"]
-  },
-  {
-    "id": "alpha-type-verbs-014",
-    "type": "single-choice",
-    "prompt": "βλέπω",
-    "correctAnswer": "видеть",
-    "wrongAnswers": ["слышать", "говорить", "есть"]
-  },
-  {
-    "id": "alpha-type-verbs-015",
-    "type": "single-choice",
-    "prompt": "βλέπω",
-    "correctAnswer": "смотреть",
-    "wrongAnswers": ["слышать", "говорить", "есть"]
-  },
-  {
-    "id": "alpha-type-verbs-016",
-    "type": "single-choice",
-    "prompt": "ακούω",
-    "correctAnswer": "слышать",
-    "wrongAnswers": ["видеть", "писать", "пить"]
-  },
-  {
     "id": "alpha-type-verbs-017",
     "type": "single-choice",
-    "prompt": "ακούω",
-    "correctAnswer": "слушать",
-    "wrongAnswers": ["видеть", "писать", "пить"]
+    "prompt": "καταλαβαίνω",
+    "correctAnswer": "понимать",
+    "wrongAnswers": ["покупать", "отвечать", "открывать"]
   },
   {
     "id": "alpha-type-verbs-018",
     "type": "single-choice",
-    "prompt": "τρώω",
-    "correctAnswer": "есть",
-    "wrongAnswers": ["пить", "спать", "читать"]
+    "prompt": "γράφω",
+    "correctAnswer": "писать",
+    "wrongAnswers": ["читать", "говорить", "закрывать"]
   },
   {
     "id": "alpha-type-verbs-019",
     "type": "single-choice",
-    "prompt": "τρώω",
-    "correctAnswer": "кушать",
-    "wrongAnswers": ["пить", "спать", "читать"]
+    "prompt": "δουλεύω",
+    "correctAnswer": "работать",
+    "wrongAnswers": ["отдыхать", "спать", "пить"]
   },
   {
     "id": "alpha-type-verbs-020",
     "type": "single-choice",
-    "prompt": "πίνω",
-    "correctAnswer": "пить",
-    "wrongAnswers": ["есть", "идти", "знать"]
+    "prompt": "γυρίζω",
+    "correctAnswer": "возвращаться",
+    "wrongAnswers": ["уходить", "покупать", "слышать"]
   },
   {
     "id": "alpha-type-verbs-021",
     "type": "single-choice",
-    "prompt": "αγαπώ",
-    "correctAnswer": "любить",
-    "wrongAnswers": ["ненавидеть", "искать", "ждать"]
+    "prompt": "αρχίζω",
+    "correctAnswer": "начинать",
+    "wrongAnswers": ["заканчивать", "покупать", "плакать"]
   },
   {
     "id": "alpha-type-verbs-022",
     "type": "single-choice",
-    "prompt": "δουλεύω",
-    "correctAnswer": "работать",
-    "wrongAnswers": ["отдыхать", "учиться", "спать"]
+    "prompt": "παίζω",
+    "correctAnswer": "играть",
+    "wrongAnswers": ["работать", "читать", "платить"]
   },
   {
     "id": "alpha-type-verbs-023",
     "type": "single-choice",
-    "prompt": "διαβάζω",
-    "correctAnswer": "читать",
-    "wrongAnswers": ["писать", "смотреть", "покупать"]
+    "prompt": "κλείνω",
+    "correctAnswer": "закрывать",
+    "wrongAnswers": ["открывать", "покупать", "ждать"]
   },
   {
     "id": "alpha-type-verbs-024",
     "type": "single-choice",
-    "prompt": "γράφω",
-    "correctAnswer": "писать",
-    "wrongAnswers": ["читать", "говорить", "открывать"]
+    "prompt": "επιστρέφω",
+    "correctAnswer": "возвращаться",
+    "wrongAnswers": ["уходить", "начинать", "понимать"]
   },
   {
     "id": "alpha-type-verbs-025",
     "type": "single-choice",
-    "prompt": "μαθαίνω",
-    "correctAnswer": "учить",
-    "wrongAnswers": ["забывать", "платить", "ждать"]
+    "prompt": "προσέχω",
+    "correctAnswer": "быть внимательным",
+    "wrongAnswers": ["платить", "играть", "плакать"]
   },
   {
     "id": "alpha-type-verbs-026",
     "type": "single-choice",
-    "prompt": "μαθαίνω",
-    "correctAnswer": "узнавать",
-    "wrongAnswers": ["забывать", "платить", "ждать"]
+    "prompt": "στέλνω",
+    "correctAnswer": "отправлять",
+    "wrongAnswers": ["получать", "читать", "закрывать"]
   },
   {
     "id": "alpha-type-verbs-027",
     "type": "single-choice",
-    "prompt": "καταλαβαίνω",
-    "correctAnswer": "понимать",
-    "wrongAnswers": ["забывать", "покупать", "отвечать"]
+    "prompt": "βγαίνω",
+    "correctAnswer": "выходить",
+    "wrongAnswers": ["входить", "ждать", "учить"]
   },
   {
     "id": "alpha-type-verbs-028",
     "type": "single-choice",
-    "prompt": "μιλάω",
-    "correctAnswer": "говорить",
-    "wrongAnswers": ["слушать", "читать", "жить"]
+    "prompt": "μαγειρεύω",
+    "correctAnswer": "готовить",
+    "wrongAnswers": ["есть", "пить", "работать"]
   },
   {
     "id": "alpha-type-verbs-029",
     "type": "single-choice",
-    "prompt": "ρωτάω",
-    "correctAnswer": "спрашивать",
-    "wrongAnswers": ["отвечать", "знать", "платить"]
+    "prompt": "κάνω",
+    "correctAnswer": "делать",
+    "wrongAnswers": ["иметь", "знать", "идти"]
   },
   {
     "id": "alpha-type-verbs-030",
     "type": "single-choice",
-    "prompt": "απαντάω",
-    "correctAnswer": "отвечать",
-    "wrongAnswers": ["спрашивать", "искать", "закрывать"]
+    "prompt": "σπουδάζω",
+    "correctAnswer": "учиться",
+    "wrongAnswers": ["учить", "работать", "покупать"]
   },
   {
     "id": "alpha-type-verbs-031",
     "type": "single-choice",
-    "prompt": "περιμένω",
-    "correctAnswer": "ждать",
-    "wrongAnswers": ["идти", "покупать", "помнить"]
+    "prompt": "βλέπω",
+    "correctAnswer": "видеть",
+    "wrongAnswers": ["слышать", "говорить", "писать"]
   },
   {
     "id": "alpha-type-verbs-032",
     "type": "single-choice",
-    "prompt": "παίρνω",
-    "correctAnswer": "брать",
-    "wrongAnswers": ["давать", "терять", "открывать"]
+    "prompt": "διδάσκω",
+    "correctAnswer": "преподавать",
+    "wrongAnswers": ["учиться", "читать", "покупать"]
   },
   {
     "id": "alpha-type-verbs-033",
     "type": "single-choice",
-    "prompt": "παίρνω",
-    "correctAnswer": "получать",
-    "wrongAnswers": ["давать", "терять", "открывать"]
+    "prompt": "ανοίγω",
+    "correctAnswer": "открывать",
+    "wrongAnswers": ["закрывать", "писать", "пить"]
   },
   {
     "id": "alpha-type-verbs-034",
     "type": "single-choice",
-    "prompt": "δίνω",
-    "correctAnswer": "давать",
-    "wrongAnswers": ["брать", "искать", "ехать"]
+    "prompt": "ανεβαίνω",
+    "correctAnswer": "подниматься",
+    "wrongAnswers": ["спускаться", "жить", "платить"]
   },
   {
     "id": "alpha-type-verbs-035",
     "type": "single-choice",
-    "prompt": "βρίσκω",
-    "correctAnswer": "находить",
-    "wrongAnswers": ["терять", "покупать", "слышать"]
+    "prompt": "τελειώνω",
+    "correctAnswer": "заканчивать",
+    "wrongAnswers": ["начинать", "покупать", "слышать"]
   },
   {
     "id": "alpha-type-verbs-036",
     "type": "single-choice",
-    "prompt": "ψάχνω",
-    "correctAnswer": "искать",
-    "wrongAnswers": ["находить", "спать", "пить"]
+    "prompt": "ταξιδεύω",
+    "correctAnswer": "путешествовать",
+    "wrongAnswers": ["работать", "спать", "писать"]
   },
   {
     "id": "alpha-type-verbs-037",
     "type": "single-choice",
     "prompt": "αγοράζω",
     "correctAnswer": "покупать",
-    "wrongAnswers": ["продавать", "читать", "помогать"]
+    "wrongAnswers": ["продавать", "читать", "ждать"]
   },
   {
     "id": "alpha-type-verbs-038",
     "type": "single-choice",
-    "prompt": "πουλάω",
-    "correctAnswer": "продавать",
-    "wrongAnswers": ["покупать", "знать", "идти"]
+    "prompt": "κατεβαίνω",
+    "correctAnswer": "спускаться",
+    "wrongAnswers": ["подниматься", "идти", "писать"]
   },
   {
     "id": "alpha-type-verbs-039",
@@ -275,155 +275,43 @@
   {
     "id": "alpha-type-verbs-040",
     "type": "single-choice",
-    "prompt": "ανοίγω",
-    "correctAnswer": "открывать",
-    "wrongAnswers": ["закрывать", "покупать", "пить"]
+    "prompt": "παίρνω",
+    "correctAnswer": "брать",
+    "wrongAnswers": ["давать", "терять", "открывать"]
   },
   {
     "id": "alpha-type-verbs-041",
     "type": "single-choice",
-    "prompt": "κλείνω",
-    "correctAnswer": "закрывать",
-    "wrongAnswers": ["открывать", "говорить", "жить"]
+    "prompt": "γνωρίζω",
+    "correctAnswer": "знакомиться",
+    "wrongAnswers": ["забывать", "покупать", "работать"]
   },
   {
     "id": "alpha-type-verbs-042",
     "type": "single-choice",
     "prompt": "μπαίνω",
     "correctAnswer": "входить",
-    "wrongAnswers": ["выходить", "сидеть", "работать"]
+    "wrongAnswers": ["выходить", "сидеть", "ждать"]
   },
   {
     "id": "alpha-type-verbs-043",
     "type": "single-choice",
-    "prompt": "βγαίνω",
-    "correctAnswer": "выходить",
-    "wrongAnswers": ["входить", "стоять", "есть"]
+    "prompt": "δίνω",
+    "correctAnswer": "давать",
+    "wrongAnswers": ["брать", "искать", "ехать"]
   },
   {
     "id": "alpha-type-verbs-044",
     "type": "single-choice",
-    "prompt": "φεύγω",
-    "correctAnswer": "уходить",
-    "wrongAnswers": ["приходить", "давать", "писать"]
+    "prompt": "χορεύω",
+    "correctAnswer": "танцевать",
+    "wrongAnswers": ["петь", "работать", "читать"]
   },
   {
     "id": "alpha-type-verbs-045",
     "type": "single-choice",
-    "prompt": "φεύγω",
-    "correctAnswer": "уезжать",
-    "wrongAnswers": ["приходить", "давать", "писать"]
-  },
-  {
-    "id": "alpha-type-verbs-046",
-    "type": "single-choice",
-    "prompt": "φτάνω",
-    "correctAnswer": "прибывать",
-    "wrongAnswers": ["уходить", "падать", "покупать"]
-  },
-  {
-    "id": "alpha-type-verbs-047",
-    "type": "single-choice",
-    "prompt": "φτάνω",
-    "correctAnswer": "доходить",
-    "wrongAnswers": ["уходить", "падать", "покупать"]
-  },
-  {
-    "id": "alpha-type-verbs-048",
-    "type": "single-choice",
-    "prompt": "κάθομαι",
-    "correctAnswer": "сидеть",
-    "wrongAnswers": ["стоять", "идти", "пить"]
-  },
-  {
-    "id": "alpha-type-verbs-049",
-    "type": "single-choice",
-    "prompt": "στέκομαι",
-    "correctAnswer": "стоять",
-    "wrongAnswers": ["сидеть", "спать", "читать"]
-  },
-  {
-    "id": "alpha-type-verbs-050",
-    "type": "single-choice",
-    "prompt": "κοιμάμαι",
-    "correctAnswer": "спать",
-    "wrongAnswers": ["работать", "есть", "слышать"]
-  },
-  {
-    "id": "alpha-type-verbs-051",
-    "type": "single-choice",
-    "prompt": "ξυπνάω",
-    "correctAnswer": "просыпаться",
-    "wrongAnswers": ["спать", "работать", "закрывать"]
-  },
-  {
-    "id": "alpha-type-verbs-052",
-    "type": "single-choice",
-    "prompt": "θυμάμαι",
-    "correctAnswer": "помнить",
-    "wrongAnswers": ["забывать", "искать", "идти"]
-  },
-  {
-    "id": "alpha-type-verbs-053",
-    "type": "single-choice",
-    "prompt": "ξεχνάω",
-    "correctAnswer": "забывать",
-    "wrongAnswers": ["помнить", "понимать", "приходить"]
-  },
-  {
-    "id": "alpha-type-verbs-054",
-    "type": "single-choice",
-    "prompt": "χρειάζομαι",
-    "correctAnswer": "нуждаться",
-    "wrongAnswers": ["иметь", "любить", "смотреть"]
-  },
-  {
-    "id": "alpha-type-verbs-055",
-    "type": "single-choice",
-    "prompt": "χρειάζομαι",
-    "correctAnswer": "нужно",
-    "wrongAnswers": ["иметь", "любить", "смотреть"]
-  },
-  {
-    "id": "alpha-type-verbs-056",
-    "type": "single-choice",
-    "prompt": "βοηθάω",
-    "correctAnswer": "помогать",
-    "wrongAnswers": ["мешать", "покупать", "спрашивать"]
-  },
-  {
-    "id": "alpha-type-verbs-057",
-    "type": "single-choice",
-    "prompt": "αρέσω",
-    "correctAnswer": "нравиться",
-    "wrongAnswers": ["хотеть", "знать", "ждать"]
-  },
-  {
-    "id": "alpha-type-verbs-058",
-    "type": "single-choice",
-    "prompt": "παίζω",
-    "correctAnswer": "играть",
-    "wrongAnswers": ["работать", "читать", "платить"]
-  },
-  {
-    "id": "alpha-type-verbs-059",
-    "type": "single-choice",
-    "prompt": "οδηγώ",
-    "correctAnswer": "водить",
-    "wrongAnswers": ["идти", "пить", "писать"]
-  },
-  {
-    "id": "alpha-type-verbs-060",
-    "type": "single-choice",
-    "prompt": "ταξιδεύω",
-    "correctAnswer": "путешествовать",
-    "wrongAnswers": ["работать", "спать", "покупать"]
-  },
-  {
-    "id": "alpha-type-verbs-061",
-    "type": "single-choice",
-    "prompt": "γυρίζω",
-    "correctAnswer": "возвращаться",
-    "wrongAnswers": ["уходить", "забывать", "открывать"]
+    "prompt": "κοστίζω",
+    "correctAnswer": "стоить",
+    "wrongAnswers": ["платить", "покупать", "продавать"]
   }
 ]

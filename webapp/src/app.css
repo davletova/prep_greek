@@ -439,13 +439,15 @@ body {
 }
 
 .practice-card__play--active {
-  background: #2d5bff;
-  color: #ffffff;
-  box-shadow: 0 4px 10px rgba(45, 91, 255, 0.24);
+  background: #ffffff;
+  color: #2a3b59;
+  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.12);
 }
 
 .practice-card__play:disabled {
   opacity: 1;
+  cursor: default;
+  pointer-events: none;
 }
 
 .practice-card__answers {
@@ -485,6 +487,7 @@ body {
 
 .practice-flow__next {
   margin-top: 0;
+  margin-bottom: 16px;
   align-self: end;
 }
 
