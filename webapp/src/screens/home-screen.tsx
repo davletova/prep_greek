@@ -44,9 +44,13 @@ function TheoryHome({
 
 interface PracticeHomeProps {
   onOpenDictionaryTopics: VoidHandler;
+  onOpenWriteWordTopics: VoidHandler;
 }
 
-function PracticeHome({ onOpenDictionaryTopics }: PracticeHomeProps) {
+function PracticeHome({
+  onOpenDictionaryTopics,
+  onOpenWriteWordTopics
+}: PracticeHomeProps) {
   return (
     <>
       <header className="app__header">
@@ -60,9 +64,23 @@ function PracticeHome({ onOpenDictionaryTopics }: PracticeHomeProps) {
           onClick={onOpenDictionaryTopics}
         >
           <div className="card-button__text">
-            <span className="card-button__title">Словарь</span>
+            <span className="card-button__title">Выбор из 4 вариантов</span>
             <span className="card-button__subtitle">
               Выберите правильный перевод из 4 вариантов
+            </span>
+          </div>
+          <span className="card-button__chevron">›</span>
+        </button>
+
+        <button
+          className="card-button"
+          type="button"
+          onClick={onOpenWriteWordTopics}
+        >
+          <div className="card-button__text">
+            <span className="card-button__title">Напиши слово</span>
+            <span className="card-button__subtitle">
+              Введите ответ самостоятельно
             </span>
           </div>
           <span className="card-button__chevron">›</span>
@@ -97,16 +115,23 @@ interface HomeScreenProps {
   onOpenAlphabet: VoidHandler;
   onOpenDiphthongs: VoidHandler;
   onOpenDictionaryTopics: VoidHandler;
+  onOpenWriteWordTopics: VoidHandler;
 }
 
 export default function HomeScreen({
   tab,
   onOpenAlphabet,
   onOpenDiphthongs,
-  onOpenDictionaryTopics
+  onOpenDictionaryTopics,
+  onOpenWriteWordTopics
 }: HomeScreenProps) {
   if (tab === "practice") {
-    return <PracticeHome onOpenDictionaryTopics={onOpenDictionaryTopics} />;
+    return (
+      <PracticeHome
+        onOpenDictionaryTopics={onOpenDictionaryTopics}
+        onOpenWriteWordTopics={onOpenWriteWordTopics}
+      />
+    );
   }
 
   if (tab === "profile") {

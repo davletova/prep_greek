@@ -3,21 +3,24 @@ import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
 import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
 import HomeScreen from "./screens/home-screen.tsx";
+import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx";
 import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
+import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { loadJsonContent } from "./lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "./lib/exercises/load-single-choice-topic.ts";
 import { createInitialLoadableState } from "./lib/loadable-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import type { AlphabetContent, DiphthongsContent } from "./types/content";
-import type { ExerciseCollection } from "./types/exercises";
+import type { ExerciseCollection, InputExercise } from "./types/exercises";
 import type { LoadableState, Screen, TabKey } from "./types/ui";
 
 const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
 const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
-const BASE_GREEK_URL = `${import.meta.env.BASE_URL}content/practice/base-greek.json`;
-const ALPHA_TYPE_VERBS_URL = `${import.meta.env.BASE_URL}content/practice/alpha-type-verbs.json`;
-const ALPHA_TYPE_VERB_ENDINGS_URL = `${import.meta.env.BASE_URL}content/practice/alpha-type-verb-endings.json`;
+const BASE_GREEK_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/base-greek.json`;
+const ALPHA_TYPE_VERBS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/alpha-type-verbs.json`;
+const ALPHA_TYPE_VERB_ENDINGS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/alpha-type-verb-endings.json`;
+const ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL = `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`;
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
@@ -42,6 +45,8 @@ export default function App() {
   const [alphaTypeVerbEndingsState, setAlphaTypeVerbEndingsState] = useState<
     LoadableState<ExerciseCollection>
   >(createInitialLoadableState<ExerciseCollection>());
+  const [alphaTypeVerbConjugationInputState, setAlphaTypeVerbConjugationInputState] =
+    useState<LoadableState<InputExercise[]>>(createInitialLoadableState<InputExercise[]>());
 
   useEffect(() => {
     if (window.Telegram?.WebApp?.ready) {
@@ -198,6 +203,37 @@ export default function App() {
       });
   }, [screen, alphaTypeVerbEndingsState.status]);
 
+  useEffect(() => {
+    if (
+      screen !== "practice-alpha-type-verb-conjugation" ||
+      alphaTypeVerbConjugationInputState.status !== "idle"
+    ) {
+      return;
+    }
+
+    setAlphaTypeVerbConjugationInputState((prev) => ({
+      ...prev,
+      status: "loading",
+      error: ""
+    }));
+
+    loadJsonContent<InputExercise[]>(ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL)
+      .then((data) => {
+        setAlphaTypeVerbConjugationInputState({
+          data,
+          status: "success",
+          error: ""
+        });
+      })
+      .catch((err: unknown) => {
+        setAlphaTypeVerbConjugationInputState({
+          data: null,
+          status: "error",
+          error: err instanceof Error ? err.message : "Unknown error"
+        });
+      });
+  }, [screen, alphaTypeVerbConjugationInputState.status]);
+
   const handleOpenAlphabet = () => {
     setScreen("alphabet");
     setPageIndex(0);
@@ -210,6 +246,10 @@ export default function App() {
 
   const handleOpenDictionaryTopics = () => {
     setScreen("practice-dictionary-topics");
+  };
+
+  const handleOpenWriteWordTopics = () => {
+    setScreen("practice-write-word-topics");
   };
 
   const handleExit = () => {
@@ -230,6 +270,10 @@ export default function App() {
 
   const handleOpenAlphaTypeVerbEndings = () => {
     setScreen("practice-alpha-type-verb-endings");
+  };
+
+  const handleOpenAlphaTypeVerbConjugation = () => {
+    setScreen("practice-alpha-type-verb-conjugation");
   };
 
   const handlePrevAlphabetPage = () => {
@@ -270,6 +314,12 @@ export default function App() {
     setAlphaTypeVerbEndingsState(createInitialLoadableState<ExerciseCollection>());
   };
 
+  const handleRetryAlphaTypeVerbConjugation = () => {
+    setAlphaTypeVerbConjugationInputState(
+      createInitialLoadableState<InputExercise[]>()
+    );
+  };
+
   const isHomeScreen = screen === "home";
 
   return (
@@ -280,6 +330,7 @@ export default function App() {
           onOpenAlphabet={handleOpenAlphabet}
           onOpenDiphthongs={handleOpenDiphthongs}
           onOpenDictionaryTopics={handleOpenDictionaryTopics}
+          onOpenWriteWordTopics={handleOpenWriteWordTopics}
         />
       ) : screen === "alphabet" ? (
         <AlphabetScreen
@@ -299,6 +350,19 @@ export default function App() {
           onPrev={handlePrevDiphthong}
           onNext={handleNextDiphthong}
           onRetry={handleRetryDiphthongs}
+          onSpeak={speakGreekText}
+        />
+      ) : screen === "practice-write-word-topics" ? (
+        <WriteWordTopicsScreen
+          onClose={handleExit}
+          onOpenVerbConjugation={handleOpenAlphaTypeVerbConjugation}
+        />
+      ) : screen === "practice-alpha-type-verb-conjugation" ? (
+        <InputPracticeTopicScreen
+          title="Спряжение глаголов"
+          topicState={alphaTypeVerbConjugationInputState}
+          onClose={handleOpenWriteWordTopics}
+          onRetry={handleRetryAlphaTypeVerbConjugation}
           onSpeak={speakGreekText}
         />
       ) : screen === "practice-base-greek" ? (

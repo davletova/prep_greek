@@ -15,6 +15,8 @@ export type Screen =
   | "alphabet"
   | "diphthongs"
   | "practice-dictionary-topics"
+  | "practice-write-word-topics"
+  | "practice-alpha-type-verb-conjugation"
   | "practice-base-greek"
   | "practice-alpha-type-verbs"
   | "practice-alpha-type-verb-endings";

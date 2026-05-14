@@ -31,16 +31,15 @@ One file contains a collection of exercises for one topic or set.
 }
 ```
 
-### `text-input`
+### `input`
 
 ```json
 {
-  "id": "exercise-id",
-  "type": "text-input",
-  "prompt": "Question text or sentence with gap",
-  "correctAnswers": ["Accepted answer 1", "Accepted answer 2"],
-  "translation": "Optional translation",
-  "explanation": "Optional explanation"
+  "id": "alpha-type-verb-conjugation-input-001",
+  "type": "input",
+  "prompt": "уходят",
+  "correctAnswer": "φεύγουν",
+  "context": "уезжают, покидают"
 }
 ```
 
@@ -48,7 +47,8 @@ One file contains a collection of exercises for one topic or set.
 
 - `id` must be unique within the file.
 - `single-choice` must always have exactly 3 wrong answers.
-- `text-input` may have one or more accepted answers.
+- `input` stores one expected answer in `correctAnswer`.
+- `context` is optional and helps disambiguate the meaning of the target Greek word.
 - `translation` and `explanation` are optional.
 
 ## Runtime model for `single-choice`

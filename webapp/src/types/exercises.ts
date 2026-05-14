@@ -23,6 +23,14 @@ export interface SingleChoiceRuntimeQuestion {
   explanation?: string;
 }
 
+export interface InputExercise {
+  id: string;
+  type: "input";
+  prompt: string;
+  correctAnswer: string;
+  context?: string;
+}
+
 export interface TextInputExercise extends BaseExercise {
   type: "text-input";
   correctAnswers: string[];
