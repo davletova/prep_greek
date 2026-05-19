@@ -5,13 +5,15 @@ interface PracticeTopicsScreenProps {
   onOpenBasicPhrases: VoidHandler;
   onOpenAlphaTypeVerbs: VoidHandler;
   onOpenAlphaTypeVerbEndings: VoidHandler;
+  onOpenGreekPronouns: VoidHandler;
 }
 
 export default function PracticeTopicsScreen({
   onClose,
   onOpenBasicPhrases,
   onOpenAlphaTypeVerbs,
-  onOpenAlphaTypeVerbEndings
+  onOpenAlphaTypeVerbEndings,
+  onOpenGreekPronouns
 }: PracticeTopicsScreenProps) {
   return (
     <>
@@ -51,7 +53,7 @@ export default function PracticeTopicsScreen({
           onClick={onOpenAlphaTypeVerbs}
         >
           <div className="card-button__text">
-            <span className="card-button__title">Глаголы на -ω (альфа-группа)</span>
+            <span className="card-button__title">Популярные глаголы</span>
             <span className="card-button__subtitle">
               Выберите правильный перевод из 4 вариантов
             </span>
@@ -66,6 +68,20 @@ export default function PracticeTopicsScreen({
         >
           <div className="card-button__text">
             <span className="card-button__title">Окончания глаголов α-типа</span>
+            <span className="card-button__subtitle">
+              Выберите правильный перевод из 4 вариантов
+            </span>
+          </div>
+          <span className="card-button__chevron">›</span>
+        </button>
+
+        <button
+          className="card-button"
+          type="button"
+          onClick={onOpenGreekPronouns}
+        >
+          <div className="card-button__text">
+            <span className="card-button__title">Местоимения</span>
             <span className="card-button__subtitle">
               Выберите правильный перевод из 4 вариантов
             </span>

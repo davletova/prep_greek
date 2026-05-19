@@ -18,8 +18,9 @@ import type { LoadableState, Screen, TabKey } from "./types/ui";
 const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
 const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
 const BASE_GREEK_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/base-greek.json`;
-const ALPHA_TYPE_VERBS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/alpha-type-verbs.json`;
+const POPULAR_GREEK_VERBS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/popular-greek-verbs.json`;
 const ALPHA_TYPE_VERB_ENDINGS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/alpha-type-verb-endings.json`;
+const GREEK_PRONOUNS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/greek-pronouns.json`;
 const ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL = `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`;
 
 export default function App() {
@@ -43,6 +44,9 @@ export default function App() {
     LoadableState<ExerciseCollection>
   >(createInitialLoadableState<ExerciseCollection>());
   const [alphaTypeVerbEndingsState, setAlphaTypeVerbEndingsState] = useState<
+    LoadableState<ExerciseCollection>
+  >(createInitialLoadableState<ExerciseCollection>());
+  const [greekPronounsState, setGreekPronounsState] = useState<
     LoadableState<ExerciseCollection>
   >(createInitialLoadableState<ExerciseCollection>());
   const [alphaTypeVerbConjugationInputState, setAlphaTypeVerbConjugationInputState] =
@@ -152,7 +156,7 @@ export default function App() {
       error: ""
     }));
 
-    loadSingleChoiceTopic(ALPHA_TYPE_VERBS_URL, "Глаголы на -ω (альфа-группа)")
+    loadSingleChoiceTopic(POPULAR_GREEK_VERBS_URL, "Популярные глаголы")
       .then((data) => {
         setAlphaTypeVerbsState({
           data,
@@ -202,6 +206,34 @@ export default function App() {
         });
       });
   }, [screen, alphaTypeVerbEndingsState.status]);
+
+  useEffect(() => {
+    if (screen !== "practice-greek-pronouns" || greekPronounsState.status !== "idle") {
+      return;
+    }
+
+    setGreekPronounsState((prev) => ({
+      ...prev,
+      status: "loading",
+      error: ""
+    }));
+
+    loadSingleChoiceTopic(GREEK_PRONOUNS_URL, "Местоимения")
+      .then((data) => {
+        setGreekPronounsState({
+          data,
+          status: "success",
+          error: ""
+        });
+      })
+      .catch((err: unknown) => {
+        setGreekPronounsState({
+          data: null,
+          status: "error",
+          error: err instanceof Error ? err.message : "Unknown error"
+        });
+      });
+  }, [screen, greekPronounsState.status]);
 
   useEffect(() => {
     if (
@@ -272,6 +304,10 @@ export default function App() {
     setScreen("practice-alpha-type-verb-endings");
   };
 
+  const handleOpenGreekPronouns = () => {
+    setScreen("practice-greek-pronouns");
+  };
+
   const handleOpenAlphaTypeVerbConjugation = () => {
     setScreen("practice-alpha-type-verb-conjugation");
   };
@@ -312,6 +348,10 @@ export default function App() {
 
   const handleRetryAlphaTypeVerbEndings = () => {
     setAlphaTypeVerbEndingsState(createInitialLoadableState<ExerciseCollection>());
+  };
+
+  const handleRetryGreekPronouns = () => {
+    setGreekPronounsState(createInitialLoadableState<ExerciseCollection>());
   };
 
   const handleRetryAlphaTypeVerbConjugation = () => {
@@ -375,7 +415,7 @@ export default function App() {
         />
       ) : screen === "practice-alpha-type-verbs" ? (
         <PracticeTopicScreen
-          title="Глаголы на -ω (альфа-группа)"
+          title="Популярные глаголы"
           topicState={alphaTypeVerbsState}
           onClose={handleClosePracticeTopic}
           onRetry={handleRetryAlphaTypeVerbs}
@@ -389,12 +429,21 @@ export default function App() {
           onRetry={handleRetryAlphaTypeVerbEndings}
           onSpeak={speakGreekText}
         />
+      ) : screen === "practice-greek-pronouns" ? (
+        <PracticeTopicScreen
+          title="Местоимения"
+          topicState={greekPronounsState}
+          onClose={handleClosePracticeTopic}
+          onRetry={handleRetryGreekPronouns}
+          onSpeak={speakGreekText}
+        />
       ) : (
         <PracticeTopicsScreen
           onClose={handleExit}
           onOpenBasicPhrases={handleOpenBasicPhrases}
           onOpenAlphaTypeVerbs={handleOpenAlphaTypeVerbs}
           onOpenAlphaTypeVerbEndings={handleOpenAlphaTypeVerbEndings}
+          onOpenGreekPronouns={handleOpenGreekPronouns}
         />
       )}
 

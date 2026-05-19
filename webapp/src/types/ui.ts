@@ -19,7 +19,8 @@ export type Screen =
   | "practice-alpha-type-verb-conjugation"
   | "practice-base-greek"
   | "practice-alpha-type-verbs"
-  | "practice-alpha-type-verb-endings";
+  | "practice-alpha-type-verb-endings"
+  | "practice-greek-pronouns";
 
 export type VoidHandler = () => void;
 export type SpeakHandler = (text: string) => Promise<void>;
