@@ -19,7 +19,7 @@ const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
 const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
 const BASE_GREEK_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/base-greek.json`;
 const POPULAR_GREEK_VERBS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/popular-greek-verbs.json`;
-const ALPHA_TYPE_VERB_ENDINGS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/alpha-type-verb-endings.json`;
+const POPULAR_GREEK_VERB_ENDINGS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/popular_greek_verb_endings.json`;
 const GREEK_PRONOUNS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/greek-pronouns.json`;
 const ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL = `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`;
 
@@ -188,8 +188,8 @@ export default function App() {
     }));
 
     loadSingleChoiceTopic(
-      ALPHA_TYPE_VERB_ENDINGS_URL,
-      "Окончания глаголов α-типа"
+      POPULAR_GREEK_VERB_ENDINGS_URL,
+      "Окончания глаголов"
     )
       .then((data) => {
         setAlphaTypeVerbEndingsState({
@@ -423,7 +423,7 @@ export default function App() {
         />
       ) : screen === "practice-alpha-type-verb-endings" ? (
         <PracticeTopicScreen
-          title="Окончания глаголов α-типа"
+          title="Окончания глаголов"
           topicState={alphaTypeVerbEndingsState}
           onClose={handleClosePracticeTopic}
           onRetry={handleRetryAlphaTypeVerbEndings}

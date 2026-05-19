@@ -67,7 +67,7 @@ export default function PracticeTopicsScreen({
           onClick={onOpenAlphaTypeVerbEndings}
         >
           <div className="card-button__text">
-            <span className="card-button__title">Окончания глаголов α-типа</span>
+            <span className="card-button__title">Окончания глаголов</span>
             <span className="card-button__subtitle">
               Выберите правильный перевод из 4 вариантов
             </span>
