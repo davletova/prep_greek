@@ -58,11 +58,13 @@ export default function PracticeTopicScreen({
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
+  const [speakingOptionIndex, setSpeakingOptionIndex] = useState<number | null>(null);
 
   useEffect(() => {
     setCurrentQuestionIndex(0);
     setSelectedIndex(null);
     setIsPromptSpeaking(false);
+    setSpeakingOptionIndex(null);
   }, [shuffledIndices]);
 
   const exercise =
@@ -74,6 +76,7 @@ export default function PracticeTopicScreen({
     [exercise]
   );
   const hasAnswered = selectedIndex !== null;
+  const isPromptInRussian = question?.promptLanguage === "ru";
 
   const getAnswerClassName = (index: number) => {
     if (!question || selectedIndex === null) {
@@ -105,6 +108,21 @@ export default function PracticeTopicScreen({
     }
   };
 
+  const handlePlayOption = async (option: string, optionIndex: number) => {
+    if (speakingOptionIndex !== null) {
+      return;
+    }
+
+    setIsPromptSpeaking(false);
+    setSpeakingOptionIndex(optionIndex);
+
+    try {
+      await onSpeak(option);
+    } finally {
+      setSpeakingOptionIndex(null);
+    }
+  };
+
   const handleNextQuestion = () => {
     if (!hasAnswered || shuffledIndices.length === 0) {
       return;
@@ -112,6 +130,7 @@ export default function PracticeTopicScreen({
 
     cancelGreekSpeech();
     setIsPromptSpeaking(false);
+    setSpeakingOptionIndex(null);
     setCurrentQuestionIndex((prev) => (prev + 1) % shuffledIndices.length);
     setSelectedIndex(null);
   };
@@ -119,6 +138,7 @@ export default function PracticeTopicScreen({
   const handleClose = () => {
     cancelGreekSpeech();
     setIsPromptSpeaking(false);
+    setSpeakingOptionIndex(null);
     onClose();
   };
 
@@ -164,32 +184,63 @@ export default function PracticeTopicScreen({
               <section className="practice-card">
                 <p className="practice-card__question">{question?.prompt}</p>
 
-                <div className="practice-card__play-wrap">
-                  <button
-                    className={`alphabet-card__play practice-card__play ${
-                      isPromptSpeaking ? "practice-card__play--active" : ""
-                    }`}
-                    type="button"
-                    aria-label={`Озвучить ${question.prompt}`}
-                    onClick={handlePlayPrompt}
-                    disabled={isPromptSpeaking}
-                  >
-                    {isPromptSpeaking ? "◼" : "▶"}
-                  </button>
-                </div>
+                {!isPromptInRussian ? (
+                  <div className="practice-card__play-wrap">
+                    <button
+                      className={`alphabet-card__play practice-card__play ${
+                        isPromptSpeaking ? "practice-card__play--active" : ""
+                      }`}
+                      type="button"
+                      aria-label={`Озвучить ${question.prompt}`}
+                      onClick={handlePlayPrompt}
+                      disabled={isPromptSpeaking}
+                    >
+                      {isPromptSpeaking ? "◼" : "▶"}
+                    </button>
+                  </div>
+                ) : null}
 
                 <div className="practice-card__answers">
-                  {question?.options.map((option, index) => (
-                    <button
-                      key={`${question.id}-${option}`}
-                      className={getAnswerClassName(index)}
-                      type="button"
-                      onClick={() => setSelectedIndex(index)}
-                      disabled={hasAnswered}
-                    >
-                      {option}
-                    </button>
-                  ))}
+                  {question?.options.map((option, index) =>
+                    isPromptInRussian ? (
+                      <div
+                        key={`${question.id}-${index}`}
+                        className="practice-card__answer-row"
+                      >
+                        <button
+                          className={getAnswerClassName(index)}
+                          type="button"
+                          onClick={() => setSelectedIndex(index)}
+                          disabled={hasAnswered}
+                        >
+                          {option}
+                        </button>
+                        <button
+                          className={`alphabet-card__play practice-card__answer-play ${
+                            speakingOptionIndex === index
+                              ? "practice-card__play--active"
+                              : ""
+                          }`}
+                          type="button"
+                          aria-label={`Озвучить вариант ${option}`}
+                          onClick={() => handlePlayOption(option, index)}
+                          disabled={speakingOptionIndex !== null}
+                        >
+                          {speakingOptionIndex === index ? "◼" : "▶"}
+                        </button>
+                      </div>
+                    ) : (
+                      <button
+                        key={`${question.id}-${option}`}
+                        className={getAnswerClassName(index)}
+                        type="button"
+                        onClick={() => setSelectedIndex(index)}
+                        disabled={hasAnswered}
+                      >
+                        {option}
+                      </button>
+                    )
+                  )}
                 </div>
               </section>
             </div>

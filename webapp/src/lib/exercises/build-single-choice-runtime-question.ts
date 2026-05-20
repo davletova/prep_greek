@@ -27,6 +27,7 @@ export function buildSingleChoiceRuntimeQuestion(
   return {
     id: exercise.id,
     prompt: exercise.prompt,
+    promptLanguage: exercise.promptLanguage,
     options: options as [string, string, string, string],
     correctIndex: options.findIndex((option) => option === exercise.correctAnswer),
     translation: exercise.translation,

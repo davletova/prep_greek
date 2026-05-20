@@ -498,6 +498,12 @@ body {
   gap: 12px;
 }
 
+.practice-card__answer-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .practice-card__answer {
   width: 100%;
   padding: 14px 16px;
@@ -513,6 +519,15 @@ body {
 
 .practice-card__answer:disabled {
   cursor: default;
+}
+
+.practice-card__answer-row .practice-card__answer {
+  flex: 1;
+  width: auto;
+}
+
+.practice-card__answer-play {
+  flex-shrink: 0;
 }
 
 .practice-card__answer--correct {

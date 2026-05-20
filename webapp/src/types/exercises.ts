@@ -4,6 +4,7 @@ export interface BaseExercise {
   id: string;
   type: ExerciseType;
   prompt: string;
+  promptLanguage?: string;
   translation?: string;
   explanation?: string;
 }
@@ -17,6 +18,7 @@ export interface SingleChoiceExercise extends BaseExercise {
 export interface SingleChoiceRuntimeQuestion {
   id: string;
   prompt: string;
+  promptLanguage?: string;
   options: [string, string, string, string];
   correctIndex: number;
   translation?: string;
