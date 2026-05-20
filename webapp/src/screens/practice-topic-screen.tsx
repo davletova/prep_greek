@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
+import PlaybackIcon from "../components/playback-icon.tsx";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type {
@@ -77,6 +78,7 @@ export default function PracticeTopicScreen({
   );
   const hasAnswered = selectedIndex !== null;
   const isPromptInRussian = question?.promptLanguage === "ru";
+  const isPromptInGreek = question?.promptLanguage === "el";
 
   const getAnswerClassName = (index: number) => {
     if (!question || selectedIndex === null) {
@@ -188,14 +190,14 @@ export default function PracticeTopicScreen({
                   <div className="practice-card__play-wrap">
                     <button
                       className={`alphabet-card__play practice-card__play ${
-                        isPromptSpeaking ? "practice-card__play--active" : ""
-                      }`}
+                        isPromptInGreek ? "practice-card__play--el" : ""
+                      } ${isPromptSpeaking ? "practice-card__play--active" : ""}`}
                       type="button"
                       aria-label={`Озвучить ${question.prompt}`}
                       onClick={handlePlayPrompt}
                       disabled={isPromptSpeaking}
                     >
-                      {isPromptSpeaking ? "◼" : "▶"}
+                      <PlaybackIcon isPlaying={isPromptSpeaking} />
                     </button>
                   </div>
                 ) : null}
@@ -226,7 +228,7 @@ export default function PracticeTopicScreen({
                           onClick={() => handlePlayOption(option, index)}
                           disabled={speakingOptionIndex !== null}
                         >
-                          {speakingOptionIndex === index ? "◼" : "▶"}
+                          <PlaybackIcon isPlaying={speakingOptionIndex === index} />
                         </button>
                       </div>
                     ) : (

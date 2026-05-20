@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
+import PlaybackIcon from "../components/playback-icon.tsx";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { InputExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
@@ -164,7 +165,7 @@ export default function InputPracticeTopicScreen({
                   onClick={handlePlayPrompt}
                   disabled={!hasChecked || isPromptSpeaking}
                 >
-                  {isPromptSpeaking ? "◼" : "▶"}
+                  <PlaybackIcon isPlaying={isPromptSpeaking} />
                 </button>
 
                 <div className="input-practice-card__input-wrap">

@@ -1,4 +1,5 @@
 import ContentState from "../components/content-state.tsx";
+import PlaybackIcon from "../components/playback-icon.tsx";
 import type { DiphthongsContent } from "../types/content";
 import type {
   IndexedNextHandler,
@@ -91,7 +92,7 @@ export default function DiphthongsScreen({
                       aria-label={`Озвучить ${example.word}`}
                       onClick={() => onSpeak(example.word)}
                     >
-                      ▶
+                      <PlaybackIcon />
                     </button>
                   </div>
                 ))}

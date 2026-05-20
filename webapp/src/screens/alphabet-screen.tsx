@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import ContentState from "../components/content-state.tsx";
+import PlaybackIcon from "../components/playback-icon.tsx";
 import type { AlphabetContent, AlphabetLetter } from "../types/content";
 import type {
   LoadableState,
@@ -119,7 +120,7 @@ export default function AlphabetScreen({
                     aria-label={`Озвучить ${letter.name}`}
                     onClick={() => onSpeak(letter.name)}
                   >
-                    ▶
+                    <PlaybackIcon />
                   </button>
                 </div>
                 {letter.note ? (
