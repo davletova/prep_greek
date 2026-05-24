@@ -1,4 +1,5 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
+import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
 import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
@@ -158,11 +159,7 @@ export default function App() {
     loadAlphaTypeVerbConjugationInput
   );
 
-  useEffect(() => {
-    if (window.Telegram?.WebApp?.ready) {
-      window.Telegram.WebApp.ready();
-    }
-  }, []);
+  useTelegramWebAppReady();
 
   const selectedSingleChoiceTopic = useMemo(
     () =>
