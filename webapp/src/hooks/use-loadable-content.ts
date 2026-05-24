@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { createInitialLoadableState } from "../lib/loadable-state.ts";
 import type { LoadableState } from "../types/ui";
 
@@ -16,19 +16,25 @@ export function useLoadableContent<T>(
   const [state, setState] = useState<LoadableState<T>>(
     createInitialLoadableState<T>()
   );
+  const statusRef = useRef(state.status);
+
+  const updateState = useCallback((nextState: LoadableState<T>) => {
+    statusRef.current = nextState.status;
+    setState(nextState);
+  }, []);
 
   useEffect(() => {
-    if (!isActive || state.status !== "idle") {
+    if (!isActive || statusRef.current !== "idle") {
       return;
     }
 
     let isCancelled = false;
 
-    setState((prev) => ({
-      ...prev,
+    updateState({
+      data: null,
       status: "loading",
       error: ""
-    }));
+    });
 
     load()
       .then((data) => {
@@ -36,7 +42,7 @@ export function useLoadableContent<T>(
           return;
         }
 
-        setState({
+        updateState({
           data,
           status: "success",
           error: ""
@@ -47,7 +53,7 @@ export function useLoadableContent<T>(
           return;
         }
 
-        setState({
+        updateState({
           data: null,
           status: "error",
           error: getErrorMessage(error)
@@ -57,11 +63,11 @@ export function useLoadableContent<T>(
     return () => {
       isCancelled = true;
     };
-  }, [isActive, load, state.status]);
+  }, [isActive, load, updateState]);
 
   const retry = useCallback(() => {
-    setState(createInitialLoadableState<T>());
-  }, []);
+    updateState(createInitialLoadableState<T>());
+  }, [updateState]);
 
   return { state, retry };
 }
