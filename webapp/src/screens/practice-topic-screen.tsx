@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
+import { createShuffledIndices } from "../lib/random.ts";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type {
   ExerciseCollection,
@@ -26,19 +27,6 @@ function getSingleChoiceExercises(
         exercise.type === "single-choice"
     ) ?? []
   );
-}
-
-function createShuffledIndices(size: number): number[] {
-  const indices = Array.from({ length: size }, (_, index) => index);
-
-  for (let index = indices.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    const current = indices[index];
-    indices[index] = indices[swapIndex];
-    indices[swapIndex] = current;
-  }
-
-  return indices;
 }
 
 export default function PracticeTopicScreen({

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
+import { createShuffledIndices } from "../lib/random.ts";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { InputExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
@@ -15,19 +16,6 @@ interface InputPracticeTopicScreenProps {
 
 function getInputExercises(exercises: InputExercise[] | null): InputExercise[] {
   return exercises?.filter((exercise) => exercise.type === "input") ?? [];
-}
-
-function createShuffledIndices(size: number): number[] {
-  const indices = Array.from({ length: size }, (_, index) => index);
-
-  for (let index = indices.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
-    const current = indices[index];
-    indices[index] = indices[swapIndex];
-    indices[swapIndex] = current;
-  }
-
-  return indices;
 }
 
 export default function InputPracticeTopicScreen({
