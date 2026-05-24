@@ -3,10 +3,7 @@ import {
   exerciseCollectionSchema,
   singleChoiceExerciseArraySchema
 } from "../../schemas/exercises.ts";
-import type {
-  ExerciseCollection,
-  SingleChoiceExercise
-} from "../../types/exercises";
+import type { ExerciseCollection } from "../../types/exercises";
 
 export async function loadSingleChoiceTopic(
   url: string,
@@ -19,7 +16,7 @@ export async function loadSingleChoiceTopic(
     return {
       title: fallbackTitle,
       subtitle: "",
-      items: exerciseArrayResult.data as SingleChoiceExercise[]
+      items: exerciseArrayResult.data
     };
   }
 
@@ -28,7 +25,7 @@ export async function loadSingleChoiceTopic(
     return {
       title: collectionResult.data.title || fallbackTitle,
       subtitle: collectionResult.data.subtitle || "",
-      items: collectionResult.data.items as ExerciseCollection["items"]
+      items: collectionResult.data.items
     };
   }
 
