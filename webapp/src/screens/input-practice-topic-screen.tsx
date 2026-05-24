@@ -4,6 +4,7 @@ import PlaybackIcon from "../components/playback-icon.tsx";
 import { useShuffledExerciseFlow } from "../hooks/use-shuffled-exercise-flow.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { checkInputExerciseAnswer } from "../lib/exercises/check.ts";
+import { recordPracticeAnswer } from "../lib/practice-stats-storage.ts";
 import type { InputExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
@@ -24,11 +25,10 @@ export default function InputPracticeTopicScreen({
   topicState,
   onClose,
   onRetry,
-  onSpeak
+  onSpeak,
 }: InputPracticeTopicScreenProps) {
   const exercises = useMemo(() => getInputExercises(topicState.data), [topicState.data]);
-  const { currentItem: exercise, hasItems, next } =
-    useShuffledExerciseFlow(exercises);
+  const { currentItem: exercise, hasItems, next } = useShuffledExerciseFlow(exercises);
   const [answerValue, setAnswerValue] = useState("");
   const [hasChecked, setHasChecked] = useState(false);
   const speech = useSpeechPlayback<"prompt">(onSpeak);
@@ -42,12 +42,13 @@ export default function InputPracticeTopicScreen({
 
   const trimmedAnswerValue = answerValue.trim();
   const canCheck = trimmedAnswerValue.length > 0 && !hasChecked;
-  const isCorrect = hasChecked && exercise
-    ? checkInputExerciseAnswer(exercise, {
-        type: "input",
-        value: trimmedAnswerValue
-      }).correct
-    : false;
+  const isCorrect =
+    hasChecked && exercise
+      ? checkInputExerciseAnswer(exercise, {
+          type: "input",
+          value: trimmedAnswerValue,
+        }).correct
+      : false;
 
   const handlePlayPrompt = async () => {
     if (!exercise || !hasChecked || speech.isSpeaking("prompt")) {
@@ -62,8 +63,16 @@ export default function InputPracticeTopicScreen({
       return;
     }
 
+    const result = checkInputExerciseAnswer(exercise, {
+      type: "input",
+      value: trimmedAnswerValue,
+    });
+
     setAnswerValue(trimmedAnswerValue);
     setHasChecked(true);
+    void recordPracticeAnswer(result.correct).catch((error) => {
+      console.warn("Failed to save practice stats", error);
+    });
   };
 
   const handleNextQuestion = () => {
@@ -86,12 +95,7 @@ export default function InputPracticeTopicScreen({
         <div>
           <h1 className="app__title app__title--small">{title}</h1>
         </div>
-        <button
-          className="close-button"
-          type="button"
-          onClick={handleClose}
-          aria-label="Закрыть"
-        >
+        <button className="close-button" type="button" onClick={handleClose} aria-label="Закрыть">
           ×
         </button>
       </header>

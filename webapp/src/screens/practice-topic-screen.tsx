@@ -4,10 +4,8 @@ import PlaybackIcon from "../components/playback-icon.tsx";
 import { useShuffledExerciseFlow } from "../hooks/use-shuffled-exercise-flow.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
-import type {
-  ExerciseCollection,
-  SingleChoiceExercise
-} from "../types/exercises";
+import { recordPracticeAnswer } from "../lib/practice-stats-storage.ts";
+import type { ExerciseCollection, SingleChoiceExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
 interface PracticeTopicScreenProps {
@@ -18,13 +16,10 @@ interface PracticeTopicScreenProps {
   onSpeak: SpeakHandler;
 }
 
-function getSingleChoiceExercises(
-  collection: ExerciseCollection | null
-): SingleChoiceExercise[] {
+function getSingleChoiceExercises(collection: ExerciseCollection | null): SingleChoiceExercise[] {
   return (
     collection?.items.filter(
-      (exercise): exercise is SingleChoiceExercise =>
-        exercise.type === "single-choice"
+      (exercise): exercise is SingleChoiceExercise => exercise.type === "single-choice"
     ) ?? []
   );
 }
@@ -34,14 +29,10 @@ export default function PracticeTopicScreen({
   topicState,
   onClose,
   onRetry,
-  onSpeak
+  onSpeak,
 }: PracticeTopicScreenProps) {
-  const exercises = useMemo(
-    () => getSingleChoiceExercises(topicState.data),
-    [topicState.data]
-  );
-  const { currentItem: exercise, hasItems, next } =
-    useShuffledExerciseFlow(exercises);
+  const exercises = useMemo(() => getSingleChoiceExercises(topicState.data), [topicState.data]);
+  const { currentItem: exercise, hasItems, next } = useShuffledExerciseFlow(exercises);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const speech = useSpeechPlayback<string>(onSpeak);
   const { clear: clearSpeech, stop: stopSpeech } = speech;
@@ -92,6 +83,17 @@ export default function PracticeTopicScreen({
     await speech.play(optionKey, option);
   };
 
+  const handleAnswerSelect = (index: number) => {
+    if (!question || hasAnswered) {
+      return;
+    }
+
+    setSelectedIndex(index);
+    void recordPracticeAnswer(index === question.correctIndex).catch((error) => {
+      console.warn("Failed to save practice stats", error);
+    });
+  };
+
   const handleNextQuestion = () => {
     if (!hasAnswered || !hasItems) {
       return;
@@ -113,12 +115,7 @@ export default function PracticeTopicScreen({
         <div>
           <h1 className="app__title app__title--small">{title}</h1>
         </div>
-        <button
-          className="close-button"
-          type="button"
-          onClick={handleClose}
-          aria-label="Закрыть"
-        >
+        <button className="close-button" type="button" onClick={handleClose} aria-label="Закрыть">
           ×
         </button>
       </header>
@@ -168,14 +165,11 @@ export default function PracticeTopicScreen({
                 <div className="practice-card__answers">
                   {question?.options.map((option, index) =>
                     isPromptInRussian ? (
-                      <div
-                        key={`${question.id}-${index}`}
-                        className="practice-card__answer-row"
-                      >
+                      <div key={`${question.id}-${index}`} className="practice-card__answer-row">
                         <button
                           className={getAnswerClassName(index)}
                           type="button"
-                          onClick={() => setSelectedIndex(index)}
+                          onClick={() => handleAnswerSelect(index)}
                           disabled={hasAnswered}
                         >
                           {option}
@@ -199,7 +193,7 @@ export default function PracticeTopicScreen({
                         key={`${question.id}-${option}`}
                         className={getAnswerClassName(index)}
                         type="button"
-                        onClick={() => setSelectedIndex(index)}
+                        onClick={() => handleAnswerSelect(index)}
                         disabled={hasAnswered}
                       >
                         {option}
