@@ -1,4 +1,4 @@
-import type { TopicListItem } from "../components/topic-list-screen.tsx";
+import type { TopicListItem } from "../types/topic-list.ts";
 
 export function toTopicListItems<T extends TopicListItem>(
   topics: readonly T[]

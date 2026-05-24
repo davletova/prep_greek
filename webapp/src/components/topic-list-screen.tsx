@@ -1,11 +1,8 @@
 import ContentState from "./content-state.tsx";
+import type { TopicListItem } from "../types/topic-list.ts";
 import type { LoadStatus, VoidHandler } from "../types/ui";
 
-export interface TopicListItem {
-  id: string;
-  title: string;
-  subtitle: string;
-}
+export type { TopicListItem };
 
 interface TopicListScreenProps {
   title: string;

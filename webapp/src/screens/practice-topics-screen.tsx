@@ -1,5 +1,5 @@
 import TopicListScreen from "../components/topic-list-screen.tsx";
-import type { TopicListItem } from "../components/topic-list-screen.tsx";
+import type { TopicListItem } from "../types/topic-list.ts";
 import type { LoadableState, VoidHandler } from "../types/ui";
 
 interface PracticeTopicsScreenProps {

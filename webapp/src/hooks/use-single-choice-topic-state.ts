@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import type { TopicListItem } from "../components/topic-list-screen.tsx";
+import type { TopicListItem } from "../types/topic-list.ts";
 import { toTopicListItems } from "../lib/topic-list.ts";
 import type { SingleChoiceTopic } from "../services/content/practice-content-service.ts";
 import type { ExerciseCollection } from "../types/exercises.ts";
