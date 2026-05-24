@@ -14,7 +14,11 @@ import { useLoadableContent } from "./hooks/use-loadable-content.ts";
 import { loadJsonContent } from "./lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "./lib/exercises/load-single-choice-topic.ts";
 import { speakGreekText } from "./lib/speech.ts";
-import type { AlphabetContent, DiphthongsContent } from "./types/content";
+import { alphabetContentSchema, diphthongsContentSchema } from "./schemas/content.ts";
+import {
+  inputExerciseArraySchema,
+  inputExerciseCollectionSchema
+} from "./schemas/exercises.ts";
 import type { ExerciseCollection, InputExercise } from "./types/exercises";
 import type { LoadableState, Screen, TabKey } from "./types/ui";
 
@@ -24,17 +28,14 @@ interface SingleChoiceTopic extends SingleChoiceTopicListItem {
 }
 
 function normalizeInputExercises(content: unknown): InputExercise[] {
-  if (Array.isArray(content)) {
-    return content as InputExercise[];
+  const arrayResult = inputExerciseArraySchema.safeParse(content);
+  if (arrayResult.success) {
+    return arrayResult.data;
   }
 
-  if (
-    typeof content === "object" &&
-    content !== null &&
-    "items" in content &&
-    Array.isArray((content as { items?: unknown }).items)
-  ) {
-    return (content as { items: InputExercise[] }).items;
+  const collectionResult = inputExerciseCollectionSchema.safeParse(content);
+  if (collectionResult.success) {
+    return collectionResult.data.items;
   }
 
   throw new Error("Invalid input practice content format");
@@ -86,7 +87,10 @@ export default function App() {
     useState<string | null>(null);
 
   const loadAlphabetContent = useCallback(
-    () => loadJsonContent<AlphabetContent>(theoryContent.alphabet.url),
+    () =>
+      loadJsonContent<unknown>(theoryContent.alphabet.url).then((content) =>
+        alphabetContentSchema.parse(content)
+      ),
     []
   );
   const { state: alphabetState, retry: retryAlphabet } = useLoadableContent(
@@ -96,7 +100,10 @@ export default function App() {
   const [pageIndex, setPageIndex] = useState(0);
 
   const loadDiphthongsContent = useCallback(
-    () => loadJsonContent<DiphthongsContent>(theoryContent.diphthongs.url),
+    () =>
+      loadJsonContent<unknown>(theoryContent.diphthongs.url).then((content) =>
+        diphthongsContentSchema.parse(content)
+      ),
     []
   );
   const { state: diphthongsState, retry: retryDiphthongs } = useLoadableContent(

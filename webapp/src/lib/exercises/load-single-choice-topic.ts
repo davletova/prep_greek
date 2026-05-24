@@ -1,29 +1,12 @@
 import { loadJsonContent } from "../content-loader.ts";
+import {
+  exerciseCollectionSchema,
+  singleChoiceExerciseArraySchema
+} from "../../schemas/exercises.ts";
 import type {
   ExerciseCollection,
   SingleChoiceExercise
 } from "../../types/exercises";
-
-interface LegacySingleChoiceTopic {
-  title?: string;
-  subtitle?: string;
-  items?: SingleChoiceExercise[];
-}
-
-function isSingleChoiceExerciseArray(
-  value: unknown
-): value is SingleChoiceExercise[] {
-  return Array.isArray(value);
-}
-
-function isExerciseCollection(value: unknown): value is ExerciseCollection {
-  return (
-    typeof value === "object" &&
-    value !== null &&
-    "items" in value &&
-    Array.isArray((value as ExerciseCollection).items)
-  );
-}
 
 export async function loadSingleChoiceTopic(
   url: string,
@@ -31,28 +14,21 @@ export async function loadSingleChoiceTopic(
 ): Promise<ExerciseCollection> {
   const content = await loadJsonContent<unknown>(url);
 
-  if (isSingleChoiceExerciseArray(content)) {
+  const exerciseArrayResult = singleChoiceExerciseArraySchema.safeParse(content);
+  if (exerciseArrayResult.success) {
     return {
       title: fallbackTitle,
       subtitle: "",
-      items: content
+      items: exerciseArrayResult.data as SingleChoiceExercise[]
     };
   }
 
-  if (isExerciseCollection(content)) {
+  const collectionResult = exerciseCollectionSchema.safeParse(content);
+  if (collectionResult.success) {
     return {
-      title: content.title || fallbackTitle,
-      subtitle: content.subtitle || "",
-      items: content.items
-    };
-  }
-
-  const legacyContent = content as LegacySingleChoiceTopic;
-  if (Array.isArray(legacyContent?.items)) {
-    return {
-      title: legacyContent.title || fallbackTitle,
-      subtitle: legacyContent.subtitle || "",
-      items: legacyContent.items
+      title: collectionResult.data.title || fallbackTitle,
+      subtitle: collectionResult.data.subtitle || "",
+      items: collectionResult.data.items as ExerciseCollection["items"]
     };
   }
 
