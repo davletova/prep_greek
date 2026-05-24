@@ -6,8 +6,11 @@ This repository contains a static Telegram Mini App for Greek language learning 
 
 - `webapp/` — the Mini App frontend.
 - `webapp/src/` — React application code.
+- `webapp/src/app/` — app-level initialization and orchestration helpers.
+- `webapp/src/services/content/` — static content loading services.
 - `webapp/public/content/` — static learning content (theory, exercises, metadata).
-- `.github/workflows/` — CI/CD for building and deploying to GitHub Pages.
+- `webapp/scripts/` — local maintenance scripts such as content validation.
+- `.github/workflows/` — CI/CD for checks, build, and GitHub Pages deployment.
 - `docs/` — product notes, content structure decisions, and architecture notes if added later.
 - `view_examples/` — design and UI references.
 
@@ -21,8 +24,20 @@ Run commands from the repo root unless noted otherwise.
 - `npm run dev --prefix webapp` — start the local Vite dev server.
 - `npm run build --prefix webapp` — create a production build.
 - `npm run preview --prefix webapp` — preview the production build locally.
+- `npm run typecheck --prefix webapp` — run TypeScript type checking.
+- `npm run test --prefix webapp` — run unit tests.
+- `npm run validate:content --prefix webapp` — validate static JSON content.
+- `npm run lint --prefix webapp` — run ESLint.
+- `npm run format:check --prefix webapp` — check Prettier formatting.
 
-If additional tooling is added later (linting, tests, formatting), document the exact commands here.
+Before committing code changes, run at least:
+
+```bash
+npm run validate:content --prefix webapp
+npm run typecheck --prefix webapp
+npm run test --prefix webapp
+npm run build --prefix webapp
+```
 
 ## Architecture Notes
 
@@ -31,16 +46,19 @@ If additional tooling is added later (linting, tests, formatting), document the 
 - Persist user progress in Telegram CloudStorage as key-value pairs.
 - Treat CloudStorage as user convenience storage, not as a secure or authoritative backend.
 - Structure content and UI so the app still degrades gracefully outside Telegram during local browser development.
+- Keep `App.tsx` thin: prefer moving app initialization, content loading, and derived state into focused hooks/services.
+- Keep static content loading behind `webapp/src/services/content/` functions rather than fetching/parsing directly in screens.
+- Validate content changes with `npm run validate:content --prefix webapp` before build/deploy.
 
 ## Coding Style & Naming Conventions
 
-- Current frontend stack: React + JavaScript modules.
+- Current frontend stack: React + TypeScript modules.
 - Use 2-space indentation in frontend code.
 - Prefer small, focused components and keep screen-level logic separate from shared UI.
 - File naming: `kebab-case` for components, screens, and utilities.
 - Keep static content in clear, stable JSON shapes so new lessons and exercise types can be added without rewriting core UI.
 
-If the project later migrates to TypeScript, update this document accordingly.
+Prefer incremental refactoring: each architectural step should preserve behavior, pass checks, and be independently commit-ready.
 
 ## Testing Guidelines
 
@@ -48,12 +66,15 @@ If the project later migrates to TypeScript, update this document accordingly.
   - a regular local browser,
   - Telegram Mini App context when needed.
 - Verify both content rendering and Telegram-specific integrations such as `Telegram.WebApp` availability and CloudStorage behavior.
-- If automated tests are introduced, prefer lightweight frontend tests around content rendering, navigation, scoring, and progress persistence.
+- Prefer lightweight frontend tests around content rendering, navigation, scoring, and progress persistence.
+- Static JSON content should pass `npm run validate:content --prefix webapp`.
 
 ## Commit & Pull Request Guidelines
 
-- Commit messages should be short, imperative, and focused (e.g. `Add diphthong loading state`).
-- Keep commits scoped to one concern: content, UI, storage, or build/deploy.
+- Use Conventional Commits for commit messages, e.g. `refactor: extract practice content service`, `test: add content validation script`, `ci: run checks before deployment`.
+- Use conventional branch naming for larger work, e.g. `refactor/app-architecture-modernization`.
+- Keep commits scoped to one concern: content, UI, storage, architecture, or build/deploy.
+- Prefer small, safe commits that keep the app working after every step.
 - PRs should include:
   - purpose,
   - scope,
