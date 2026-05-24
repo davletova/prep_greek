@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
 import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
@@ -8,9 +8,9 @@ import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import type { SingleChoiceTopicListItem } from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
+import { useLoadableContent } from "./hooks/use-loadable-content.ts";
 import { loadJsonContent } from "./lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "./lib/exercises/load-single-choice-topic.ts";
-import { createInitialLoadableState } from "./lib/loadable-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import type { AlphabetContent, DiphthongsContent } from "./types/content";
 import type { ExerciseCollection, InputExercise } from "./types/exercises";
@@ -89,102 +89,29 @@ export default function App() {
   const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] =
     useState<string | null>(null);
 
-  const [alphabetState, setAlphabetState] = useState<LoadableState<AlphabetContent>>(
-    createInitialLoadableState<AlphabetContent>()
+  const loadAlphabetContent = useCallback(
+    () => loadJsonContent<AlphabetContent>(ALPHABET_URL),
+    []
+  );
+  const { state: alphabetState, retry: retryAlphabet } = useLoadableContent(
+    screen === "alphabet",
+    loadAlphabetContent
   );
   const [pageIndex, setPageIndex] = useState(0);
 
-  const [diphthongsState, setDiphthongsState] = useState<
-    LoadableState<DiphthongsContent>
-  >(createInitialLoadableState<DiphthongsContent>());
+  const loadDiphthongsContent = useCallback(
+    () => loadJsonContent<DiphthongsContent>(DIPHTHONGS_URL),
+    []
+  );
+  const { state: diphthongsState, retry: retryDiphthongs } = useLoadableContent(
+    screen === "diphthongs",
+    loadDiphthongsContent
+  );
   const [diphthongIndex, setDiphthongIndex] = useState(0);
 
-  const [singleChoiceTopicsState, setSingleChoiceTopicsState] = useState<
-    LoadableState<SingleChoiceTopic[]>
-  >(createInitialLoadableState<SingleChoiceTopic[]>());
-
-  const [alphaTypeVerbConjugationInputState, setAlphaTypeVerbConjugationInputState] =
-    useState<LoadableState<InputExercise[]>>(createInitialLoadableState<InputExercise[]>());
-
-  useEffect(() => {
-    if (window.Telegram?.WebApp?.ready) {
-      window.Telegram.WebApp.ready();
-    }
-  }, []);
-
-  useEffect(() => {
-    if (screen !== "alphabet" || alphabetState.status !== "idle") {
-      return;
-    }
-
-    setAlphabetState((prev) => ({
-      ...prev,
-      status: "loading",
-      error: ""
-    }));
-
-    loadJsonContent<AlphabetContent>(ALPHABET_URL)
-      .then((data) => {
-        setAlphabetState({
-          data,
-          status: "success",
-          error: ""
-        });
-      })
-      .catch((err: unknown) => {
-        setAlphabetState({
-          data: null,
-          status: "error",
-          error: err instanceof Error ? err.message : "Unknown error"
-        });
-      });
-  }, [screen, alphabetState.status]);
-
-  useEffect(() => {
-    if (screen !== "diphthongs" || diphthongsState.status !== "idle") {
-      return;
-    }
-
-    setDiphthongsState((prev) => ({
-      ...prev,
-      status: "loading",
-      error: ""
-    }));
-
-    loadJsonContent<DiphthongsContent>(DIPHTHONGS_URL)
-      .then((data) => {
-        setDiphthongsState({
-          data,
-          status: "success",
-          error: ""
-        });
-      })
-      .catch((err: unknown) => {
-        setDiphthongsState({
-          data: null,
-          status: "error",
-          error: err instanceof Error ? err.message : "Unknown error"
-        });
-      });
-  }, [screen, diphthongsState.status]);
-
-  useEffect(() => {
-    if (
-      (screen !== "practice-dictionary-topics" &&
-        screen !== "practice-single-choice-topic") ||
-      singleChoiceTopicsState.status !== "idle"
-    ) {
-      return;
-    }
-
-    setSingleChoiceTopicsState((prev) => ({
-      ...prev,
-      status: "loading",
-      error: ""
-    }));
-
-    loadJsonContent<string[]>(SINGLE_CHOICE_INDEX_URL)
-      .then((files) =>
+  const loadSingleChoiceTopics = useCallback(
+    () =>
+      loadJsonContent<string[]>(SINGLE_CHOICE_INDEX_URL).then((files) =>
         Promise.all(
           files.map(async (fileName) => {
             const collection = await loadSingleChoiceTopic(
@@ -201,54 +128,38 @@ export default function App() {
             };
           })
         )
-      )
-      .then((topics) => {
-        setSingleChoiceTopicsState({
-          data: topics,
-          status: "success",
-          error: ""
-        });
-      })
-      .catch((err: unknown) => {
-        setSingleChoiceTopicsState({
-          data: null,
-          status: "error",
-          error: err instanceof Error ? err.message : "Unknown error"
-        });
-      });
-  }, [screen, singleChoiceTopicsState.status]);
+      ),
+    []
+  );
+  const {
+    state: singleChoiceTopicsState,
+    retry: retrySingleChoiceTopics
+  } = useLoadableContent(
+    screen === "practice-dictionary-topics" ||
+      screen === "practice-single-choice-topic",
+    loadSingleChoiceTopics
+  );
+
+  const loadAlphaTypeVerbConjugationInput = useCallback(
+    () =>
+      loadJsonContent<unknown>(ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL).then(
+        normalizeInputExercises
+      ),
+    []
+  );
+  const {
+    state: alphaTypeVerbConjugationInputState,
+    retry: retryAlphaTypeVerbConjugationInput
+  } = useLoadableContent(
+    screen === "practice-alpha-type-verb-conjugation",
+    loadAlphaTypeVerbConjugationInput
+  );
 
   useEffect(() => {
-    if (
-      screen !== "practice-alpha-type-verb-conjugation" ||
-      alphaTypeVerbConjugationInputState.status !== "idle"
-    ) {
-      return;
+    if (window.Telegram?.WebApp?.ready) {
+      window.Telegram.WebApp.ready();
     }
-
-    setAlphaTypeVerbConjugationInputState((prev) => ({
-      ...prev,
-      status: "loading",
-      error: ""
-    }));
-
-    loadJsonContent<unknown>(ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL)
-      .then((content) => normalizeInputExercises(content))
-      .then((data) => {
-        setAlphaTypeVerbConjugationInputState({
-          data,
-          status: "success",
-          error: ""
-        });
-      })
-      .catch((err: unknown) => {
-        setAlphaTypeVerbConjugationInputState({
-          data: null,
-          status: "error",
-          error: err instanceof Error ? err.message : "Unknown error"
-        });
-      });
-  }, [screen, alphaTypeVerbConjugationInputState.status]);
+  }, []);
 
   const selectedSingleChoiceTopic = useMemo(
     () =>
@@ -320,7 +231,7 @@ export default function App() {
   };
 
   const handleRetryAlphabet = () => {
-    setAlphabetState(createInitialLoadableState<AlphabetContent>());
+    retryAlphabet();
     setPageIndex(0);
   };
 
@@ -333,18 +244,16 @@ export default function App() {
   };
 
   const handleRetryDiphthongs = () => {
-    setDiphthongsState(createInitialLoadableState<DiphthongsContent>());
+    retryDiphthongs();
     setDiphthongIndex(0);
   };
 
   const handleRetrySingleChoiceTopics = () => {
-    setSingleChoiceTopicsState(createInitialLoadableState<SingleChoiceTopic[]>());
+    retrySingleChoiceTopics();
   };
 
   const handleRetryAlphaTypeVerbConjugation = () => {
-    setAlphaTypeVerbConjugationInputState(
-      createInitialLoadableState<InputExercise[]>()
-    );
+    retryAlphaTypeVerbConjugationInput();
   };
 
   const isHomeScreen = screen === "home";
