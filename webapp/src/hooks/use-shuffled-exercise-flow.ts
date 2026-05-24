@@ -20,8 +20,9 @@ export function useShuffledExerciseFlow<T>(items: readonly T[]): ShuffledExercis
     setCurrentIndex(0);
   }, [shuffledIndices]);
 
+  const currentShuffledIndex = shuffledIndices[currentIndex];
   const currentItem =
-    shuffledIndices.length > 0 ? items[shuffledIndices[currentIndex]] : null;
+    currentShuffledIndex === undefined ? null : items[currentShuffledIndex] ?? null;
 
   const next = () => {
     if (shuffledIndices.length === 0) {
