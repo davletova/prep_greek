@@ -2,10 +2,8 @@ import TopicListScreen from "../components/topic-list-screen.tsx";
 import type { TopicListItem } from "../components/topic-list-screen.tsx";
 import type { LoadableState, VoidHandler } from "../types/ui";
 
-export type SingleChoiceTopicListItem = TopicListItem;
-
 interface PracticeTopicsScreenProps {
-  topicsState: LoadableState<SingleChoiceTopicListItem[]>;
+  topicsState: LoadableState<TopicListItem[]>;
   onClose: VoidHandler;
   onRetry: VoidHandler;
   onOpenTopic: (topicId: string) => void;

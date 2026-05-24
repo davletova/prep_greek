@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import type { SingleChoiceTopicListItem } from "../screens/practice-topics-screen.tsx";
+import type { TopicListItem } from "../components/topic-list-screen.tsx";
 import type { SingleChoiceTopic } from "../services/content/practice-content-service.ts";
 import type { ExerciseCollection } from "../types/exercises.ts";
 import type { LoadableState } from "../types/ui.ts";
@@ -7,7 +7,7 @@ import type { LoadableState } from "../types/ui.ts";
 interface SingleChoiceTopicState {
   selectedTopic: SingleChoiceTopic | undefined;
   selectedTopicState: LoadableState<ExerciseCollection>;
-  topicListState: LoadableState<SingleChoiceTopicListItem[]>;
+  topicListState: LoadableState<TopicListItem[]>;
 }
 
 function createTopicState(
@@ -59,7 +59,7 @@ export function useSingleChoiceTopicState(
     [topicsState, selectedTopic]
   );
 
-  const topicListState = useMemo<LoadableState<SingleChoiceTopicListItem[]>>(
+  const topicListState = useMemo<LoadableState<TopicListItem[]>>(
     () => ({
       ...topicsState,
       data:
