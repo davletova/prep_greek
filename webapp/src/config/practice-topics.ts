@@ -8,6 +8,10 @@ export interface PracticeTopicDefinition {
   url: string;
 }
 
+export type InputPracticeTopicDefinition = PracticeTopicDefinition & {
+  kind: "input";
+};
+
 export const singleChoicePracticeContent = {
   indexUrl: `${import.meta.env.BASE_URL}content/practice/single_choice/index.json`,
   baseUrl: `${import.meta.env.BASE_URL}content/practice/single_choice/`
@@ -21,7 +25,7 @@ export const inputPracticeTopics = {
     subtitle: "Введите правильную форму слова",
     url: `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`
   }
-} as const satisfies Record<string, PracticeTopicDefinition>;
+} as const satisfies Record<string, InputPracticeTopicDefinition>;
 
 export const inputPracticeTopicList = [
   inputPracticeTopics.alphaTypeVerbConjugation

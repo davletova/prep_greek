@@ -1,4 +1,5 @@
 import { inputPracticeTopics, singleChoicePracticeContent } from "../../config/practice-topics.ts";
+import type { InputPracticeTopicDefinition } from "../../config/practice-topics.ts";
 import { loadJsonContent } from "../../lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "../../lib/exercises/load-single-choice-topic.ts";
 import {
@@ -54,8 +55,12 @@ export function loadSingleChoiceTopics(): Promise<SingleChoiceTopic[]> {
   );
 }
 
+export function loadInputPracticeTopic(
+  topic: InputPracticeTopicDefinition
+): Promise<InputExercise[]> {
+  return loadJsonContent<unknown>(topic.url).then(normalizeInputExercises);
+}
+
 export function loadAlphaTypeVerbConjugationInput(): Promise<InputExercise[]> {
-  return loadJsonContent<unknown>(inputPracticeTopics.alphaTypeVerbConjugation.url).then(
-    normalizeInputExercises
-  );
+  return loadInputPracticeTopic(inputPracticeTopics.alphaTypeVerbConjugation);
 }
