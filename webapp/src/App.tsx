@@ -10,16 +10,18 @@ import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import type { SingleChoiceTopicListItem } from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { inputPracticeTopics, singleChoicePracticeContent } from "./config/practice-topics.ts";
-import { theoryContent } from "./config/theory.ts";
 import { useLoadableContent } from "./hooks/use-loadable-content.ts";
 import { loadJsonContent } from "./lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "./lib/exercises/load-single-choice-topic.ts";
 import { speakGreekText } from "./lib/speech.ts";
-import { alphabetContentSchema, diphthongsContentSchema } from "./schemas/content.ts";
 import {
   inputExerciseArraySchema,
   inputExerciseCollectionSchema
 } from "./schemas/exercises.ts";
+import {
+  loadAlphabetContent,
+  loadDiphthongsContent
+} from "./services/content/theory-content-service.ts";
 import type { ExerciseCollection, InputExercise } from "./types/exercises";
 import type { LoadableState, Screen, TabKey } from "./types/ui";
 
@@ -87,26 +89,12 @@ export default function App() {
   const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] =
     useState<string | null>(null);
 
-  const loadAlphabetContent = useCallback(
-    () =>
-      loadJsonContent<unknown>(theoryContent.alphabet.url).then((content) =>
-        alphabetContentSchema.parse(content)
-      ),
-    []
-  );
   const { state: alphabetState, retry: retryAlphabet } = useLoadableContent(
     screen === "alphabet",
     loadAlphabetContent
   );
   const [pageIndex, setPageIndex] = useState(0);
 
-  const loadDiphthongsContent = useCallback(
-    () =>
-      loadJsonContent<unknown>(theoryContent.diphthongs.url).then((content) =>
-        diphthongsContentSchema.parse(content)
-      ),
-    []
-  );
   const { state: diphthongsState, retry: retryDiphthongs } = useLoadableContent(
     screen === "diphthongs",
     loadDiphthongsContent
