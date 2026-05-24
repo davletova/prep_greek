@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import type { TopicListItem } from "../components/topic-list-screen.tsx";
+import { toTopicListItems } from "../lib/topic-list.ts";
 import type { SingleChoiceTopic } from "../services/content/practice-content-service.ts";
 import type { ExerciseCollection } from "../types/exercises.ts";
 import type { LoadableState } from "../types/ui.ts";
@@ -62,12 +63,7 @@ export function useSingleChoiceTopicState(
   const topicListState = useMemo<LoadableState<TopicListItem[]>>(
     () => ({
       ...topicsState,
-      data:
-        topicsState.data?.map(({ id, title, subtitle }) => ({
-          id,
-          title,
-          subtitle
-        })) ?? null
+      data: topicsState.data ? toTopicListItems(topicsState.data) : null
     }),
     [topicsState]
   );
