@@ -2,8 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import { useShuffledExerciseFlow } from "../hooks/use-shuffled-exercise-flow.ts";
+import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { checkInputExerciseAnswer } from "../lib/exercises/check.ts";
-import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { InputExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
@@ -31,13 +31,14 @@ export default function InputPracticeTopicScreen({
     useShuffledExerciseFlow(exercises);
   const [answerValue, setAnswerValue] = useState("");
   const [hasChecked, setHasChecked] = useState(false);
-  const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
+  const speech = useSpeechPlayback<"prompt">(onSpeak);
+  const { clear: clearSpeech, stop: stopSpeech } = speech;
 
   useEffect(() => {
     setAnswerValue("");
     setHasChecked(false);
-    setIsPromptSpeaking(false);
-  }, [exercise?.id]);
+    clearSpeech();
+  }, [exercise?.id, clearSpeech]);
 
   const trimmedAnswerValue = answerValue.trim();
   const canCheck = trimmedAnswerValue.length > 0 && !hasChecked;
@@ -49,17 +50,11 @@ export default function InputPracticeTopicScreen({
     : false;
 
   const handlePlayPrompt = async () => {
-    if (!exercise || !hasChecked || isPromptSpeaking) {
+    if (!exercise || !hasChecked || speech.isSpeaking("prompt")) {
       return;
     }
 
-    setIsPromptSpeaking(true);
-
-    try {
-      await onSpeak(exercise.correctAnswer);
-    } finally {
-      setIsPromptSpeaking(false);
-    }
+    await speech.play("prompt", exercise.correctAnswer);
   };
 
   const handleCheck = () => {
@@ -76,14 +71,12 @@ export default function InputPracticeTopicScreen({
       return;
     }
 
-    cancelGreekSpeech();
-    setIsPromptSpeaking(false);
+    stopSpeech();
     next();
   };
 
   const handleClose = () => {
-    cancelGreekSpeech();
-    setIsPromptSpeaking(false);
+    stopSpeech();
     onClose();
   };
 
@@ -136,14 +129,14 @@ export default function InputPracticeTopicScreen({
 
                 <button
                   className={`alphabet-card__play practice-card__play input-practice-card__play ${
-                    isPromptSpeaking ? "practice-card__play--active" : ""
+                    speech.isSpeaking("prompt") ? "practice-card__play--active" : ""
                   }`}
                   type="button"
                   aria-label={`Озвучить ${exercise.correctAnswer}`}
                   onClick={handlePlayPrompt}
-                  disabled={!hasChecked || isPromptSpeaking}
+                  disabled={!hasChecked || speech.isSpeaking("prompt")}
                 >
-                  <PlaybackIcon isPlaying={isPromptSpeaking} />
+                  <PlaybackIcon isPlaying={speech.isSpeaking("prompt")} />
                 </button>
 
                 <div className="input-practice-card__input-wrap">

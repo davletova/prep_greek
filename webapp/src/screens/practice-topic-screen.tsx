@@ -2,8 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import { useShuffledExerciseFlow } from "../hooks/use-shuffled-exercise-flow.ts";
+import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
-import { cancelGreekSpeech } from "../lib/speech.ts";
 import type {
   ExerciseCollection,
   SingleChoiceExercise
@@ -43,14 +43,13 @@ export default function PracticeTopicScreen({
   const { currentItem: exercise, hasItems, next } =
     useShuffledExerciseFlow(exercises);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
-  const [speakingOptionIndex, setSpeakingOptionIndex] = useState<number | null>(null);
+  const speech = useSpeechPlayback<string>(onSpeak);
+  const { clear: clearSpeech, stop: stopSpeech } = speech;
 
   useEffect(() => {
     setSelectedIndex(null);
-    setIsPromptSpeaking(false);
-    setSpeakingOptionIndex(null);
-  }, [exercise?.id]);
+    clearSpeech();
+  }, [exercise?.id, clearSpeech]);
   const question = useMemo(
     () => (exercise ? buildSingleChoiceRuntimeQuestion(exercise) : null),
     [exercise]
@@ -76,32 +75,21 @@ export default function PracticeTopicScreen({
   };
 
   const handlePlayPrompt = async () => {
-    if (!question || isPromptSpeaking) {
+    if (!question || speech.isSpeaking("prompt")) {
       return;
     }
 
-    setIsPromptSpeaking(true);
-
-    try {
-      await onSpeak(question.prompt);
-    } finally {
-      setIsPromptSpeaking(false);
-    }
+    await speech.play("prompt", question.prompt);
   };
 
   const handlePlayOption = async (option: string, optionIndex: number) => {
-    if (speakingOptionIndex !== null) {
+    const optionKey = `option-${optionIndex}`;
+
+    if (speech.isSpeaking(optionKey)) {
       return;
     }
 
-    setIsPromptSpeaking(false);
-    setSpeakingOptionIndex(optionIndex);
-
-    try {
-      await onSpeak(option);
-    } finally {
-      setSpeakingOptionIndex(null);
-    }
+    await speech.play(optionKey, option);
   };
 
   const handleNextQuestion = () => {
@@ -109,17 +97,13 @@ export default function PracticeTopicScreen({
       return;
     }
 
-    cancelGreekSpeech();
-    setIsPromptSpeaking(false);
-    setSpeakingOptionIndex(null);
+    stopSpeech();
     next();
     setSelectedIndex(null);
   };
 
   const handleClose = () => {
-    cancelGreekSpeech();
-    setIsPromptSpeaking(false);
-    setSpeakingOptionIndex(null);
+    stopSpeech();
     onClose();
   };
 
@@ -170,13 +154,13 @@ export default function PracticeTopicScreen({
                     <button
                       className={`alphabet-card__play practice-card__play ${
                         isPromptInGreek ? "practice-card__play--el" : ""
-                      } ${isPromptSpeaking ? "practice-card__play--active" : ""}`}
+                      } ${speech.isSpeaking("prompt") ? "practice-card__play--active" : ""}`}
                       type="button"
                       aria-label={`Озвучить ${question.prompt}`}
                       onClick={handlePlayPrompt}
-                      disabled={isPromptSpeaking}
+                      disabled={speech.isSpeaking("prompt")}
                     >
-                      <PlaybackIcon isPlaying={isPromptSpeaking} />
+                      <PlaybackIcon isPlaying={speech.isSpeaking("prompt")} />
                     </button>
                   </div>
                 ) : null}
@@ -198,16 +182,16 @@ export default function PracticeTopicScreen({
                         </button>
                         <button
                           className={`alphabet-card__play practice-card__answer-play ${
-                            speakingOptionIndex === index
+                            speech.isSpeaking(`option-${index}`)
                               ? "practice-card__play--active"
                               : ""
                           }`}
                           type="button"
                           aria-label={`Озвучить вариант ${option}`}
                           onClick={() => handlePlayOption(option, index)}
-                          disabled={speakingOptionIndex !== null}
+                          disabled={speech.isSpeaking(`option-${index}`)}
                         >
-                          <PlaybackIcon isPlaying={speakingOptionIndex === index} />
+                          <PlaybackIcon isPlaying={speech.isSpeaking(`option-${index}`)} />
                         </button>
                       </div>
                     ) : (
