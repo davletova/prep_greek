@@ -16,7 +16,7 @@ export type Screen =
   | "diphthongs"
   | "practice-dictionary-topics"
   | "practice-write-word-topics"
-  | "practice-alpha-type-verb-conjugation"
+  | "practice-input-topic"
   | "practice-single-choice-topic";
 
 export type VoidHandler = () => void;

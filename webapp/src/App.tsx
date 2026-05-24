@@ -67,7 +67,7 @@ export default function App() {
     state: selectedInputTopicState,
     retry: retrySelectedInputTopic
   } = useLoadableContent(
-    screen === "practice-alpha-type-verb-conjugation",
+    screen === "practice-input-topic",
     loadSelectedInputTopic
   );
 
@@ -115,7 +115,7 @@ export default function App() {
 
   const handleOpenInputTopic = (topicId: string) => {
     setSelectedInputTopicId(topicId);
-    setScreen("practice-alpha-type-verb-conjugation");
+    setScreen("practice-input-topic");
   };
 
   const handlePrevAlphabetPage = () => {
@@ -189,7 +189,7 @@ export default function App() {
           onClose={handleExit}
           onOpenTopic={handleOpenInputTopic}
         />
-      ) : screen === "practice-alpha-type-verb-conjugation" ? (
+      ) : screen === "practice-input-topic" ? (
         <InputPracticeTopicScreen
           title={selectedInputTopic?.title || "Тренировка"}
           topicState={selectedInputTopicState}
