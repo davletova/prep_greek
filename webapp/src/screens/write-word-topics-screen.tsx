@@ -4,19 +4,19 @@ import type { VoidHandler } from "../types/ui";
 
 interface WriteWordTopicsScreenProps {
   onClose: VoidHandler;
-  onOpenVerbConjugation: VoidHandler;
+  onOpenTopic: (topicId: string) => void;
 }
 
 export default function WriteWordTopicsScreen({
   onClose,
-  onOpenVerbConjugation
+  onOpenTopic
 }: WriteWordTopicsScreenProps) {
   return (
     <TopicListScreen
       title="Выбор темы"
       topics={inputPracticeTopicList}
       onClose={onClose}
-      onOpenTopic={onOpenVerbConjugation}
+      onOpenTopic={onOpenTopic}
     />
   );
 }

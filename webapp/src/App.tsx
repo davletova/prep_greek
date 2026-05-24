@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
@@ -8,12 +8,12 @@ import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx"
 import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
-import { inputPracticeTopics } from "./config/practice-topics.ts";
+import { inputPracticeTopicList } from "./config/practice-topics.ts";
 import { useLoadableContent } from "./hooks/use-loadable-content.ts";
 import { useSingleChoiceTopicState } from "./hooks/use-single-choice-topic-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import {
-  loadAlphaTypeVerbConjugationInput,
+  loadInputPracticeTopic,
   loadSingleChoiceTopics,
   type SingleChoiceTopic
 } from "./services/content/practice-content-service.ts";
@@ -27,6 +27,8 @@ export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
   const [tab, setTab] = useState<TabKey>("practice");
   const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] =
+    useState<string | null>(null);
+  const [selectedInputTopicId, setSelectedInputTopicId] =
     useState<string | null>(null);
 
   const { state: alphabetState, retry: retryAlphabet } = useLoadableContent(
@@ -50,12 +52,23 @@ export default function App() {
     loadSingleChoiceTopics
   );
 
+  const selectedInputTopic = useMemo(
+    () => inputPracticeTopicList.find((topic) => topic.id === selectedInputTopicId),
+    [selectedInputTopicId]
+  );
+  const loadSelectedInputTopic = useCallback(() => {
+    if (!selectedInputTopic) {
+      return Promise.reject(new Error("Не удалось найти выбранную тему"));
+    }
+
+    return loadInputPracticeTopic(selectedInputTopic);
+  }, [selectedInputTopic]);
   const {
-    state: alphaTypeVerbConjugationInputState,
-    retry: retryAlphaTypeVerbConjugationInput
+    state: selectedInputTopicState,
+    retry: retrySelectedInputTopic
   } = useLoadableContent(
     screen === "practice-alpha-type-verb-conjugation",
-    loadAlphaTypeVerbConjugationInput
+    loadSelectedInputTopic
   );
 
   useTelegramWebAppReady();
@@ -100,7 +113,8 @@ export default function App() {
     setScreen("practice-single-choice-topic");
   };
 
-  const handleOpenAlphaTypeVerbConjugation = () => {
+  const handleOpenInputTopic = (topicId: string) => {
+    setSelectedInputTopicId(topicId);
     setScreen("practice-alpha-type-verb-conjugation");
   };
 
@@ -134,8 +148,8 @@ export default function App() {
     retrySingleChoiceTopics();
   };
 
-  const handleRetryAlphaTypeVerbConjugation = () => {
-    retryAlphaTypeVerbConjugationInput();
+  const handleRetrySelectedInputTopic = () => {
+    retrySelectedInputTopic();
   };
 
   const isHomeScreen = screen === "home";
@@ -173,14 +187,14 @@ export default function App() {
       ) : screen === "practice-write-word-topics" ? (
         <WriteWordTopicsScreen
           onClose={handleExit}
-          onOpenVerbConjugation={handleOpenAlphaTypeVerbConjugation}
+          onOpenTopic={handleOpenInputTopic}
         />
       ) : screen === "practice-alpha-type-verb-conjugation" ? (
         <InputPracticeTopicScreen
-          title={inputPracticeTopics.alphaTypeVerbConjugation.title}
-          topicState={alphaTypeVerbConjugationInputState}
+          title={selectedInputTopic?.title || "Тренировка"}
+          topicState={selectedInputTopicState}
           onClose={handleOpenWriteWordTopics}
-          onRetry={handleRetryAlphaTypeVerbConjugation}
+          onRetry={handleRetrySelectedInputTopic}
           onSpeak={speakGreekText}
         />
       ) : screen === "practice-single-choice-topic" ? (
