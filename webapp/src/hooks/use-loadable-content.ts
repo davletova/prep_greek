@@ -16,21 +16,15 @@ export function useLoadableContent<T>(
   const [state, setState] = useState<LoadableState<T>>(
     createInitialLoadableState<T>()
   );
-  const statusRef = useRef(state.status);
+  const hasStartedRef = useRef(false);
+  const requestIdRef = useRef(0);
 
-  const updateState = useCallback((nextState: LoadableState<T>) => {
-    statusRef.current = nextState.status;
-    setState(nextState);
-  }, []);
+  const startLoading = useCallback(() => {
+    hasStartedRef.current = true;
+    requestIdRef.current += 1;
+    const requestId = requestIdRef.current;
 
-  useEffect(() => {
-    if (!isActive || statusRef.current !== "idle") {
-      return;
-    }
-
-    let isCancelled = false;
-
-    updateState({
+    setState({
       data: null,
       status: "loading",
       error: ""
@@ -38,36 +32,51 @@ export function useLoadableContent<T>(
 
     load()
       .then((data) => {
-        if (isCancelled) {
+        if (requestIdRef.current !== requestId) {
           return;
         }
 
-        updateState({
+        setState({
           data,
           status: "success",
           error: ""
         });
       })
       .catch((error: unknown) => {
-        if (isCancelled) {
+        if (requestIdRef.current !== requestId) {
           return;
         }
 
-        updateState({
+        setState({
           data: null,
           status: "error",
           error: getErrorMessage(error)
         });
       });
+  }, [load]);
 
-    return () => {
-      isCancelled = true;
-    };
-  }, [isActive, load, updateState]);
+  useEffect(() => {
+    if (isActive && !hasStartedRef.current) {
+      startLoading();
+    }
+  }, [isActive, startLoading]);
+
+  useEffect(
+    () => () => {
+      requestIdRef.current += 1;
+    },
+    []
+  );
 
   const retry = useCallback(() => {
-    updateState(createInitialLoadableState<T>());
-  }, [updateState]);
+    hasStartedRef.current = false;
+    requestIdRef.current += 1;
+    setState(createInitialLoadableState<T>());
+
+    if (isActive) {
+      startLoading();
+    }
+  }, [isActive, startLoading]);
 
   return { state, retry };
 }
