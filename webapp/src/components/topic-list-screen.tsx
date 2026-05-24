@@ -60,16 +60,16 @@ export default function TopicListScreen({
           <ContentState
             title={errorTitle}
             text={error}
-            actionLabel={onRetry ? "Попробовать снова" : undefined}
-            onAction={onRetry}
+            {...(onRetry
+              ? { actionLabel: "Попробовать снова", onAction: onRetry }
+              : {})}
             tone="error"
           />
         ) : topics.length === 0 ? (
           <ContentState
             title={emptyTitle}
             text={emptyText}
-            actionLabel={onRetry ? "Обновить" : undefined}
-            onAction={onRetry}
+            {...(onRetry ? { actionLabel: "Обновить", onAction: onRetry } : {})}
             tone="error"
           />
         ) : (

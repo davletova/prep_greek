@@ -4,9 +4,9 @@ export interface BaseExercise {
   id: string;
   type: ExerciseType;
   prompt: string;
-  promptLanguage?: string;
-  translation?: string;
-  explanation?: string;
+  promptLanguage?: string | undefined;
+  translation?: string | undefined;
+  explanation?: string | undefined;
 }
 
 export interface SingleChoiceExercise extends BaseExercise {
@@ -18,17 +18,17 @@ export interface SingleChoiceExercise extends BaseExercise {
 export interface SingleChoiceRuntimeQuestion {
   id: string;
   prompt: string;
-  promptLanguage?: string;
+  promptLanguage?: string | undefined;
   options: [string, string, string, string];
   correctIndex: number;
-  translation?: string;
-  explanation?: string;
+  translation?: string | undefined;
+  explanation?: string | undefined;
 }
 
 export interface InputExercise extends BaseExercise {
   type: "input";
   correctAnswer: string;
-  context?: string;
+  context?: string | undefined;
 }
 
 export interface TextInputExercise extends BaseExercise {
@@ -40,7 +40,7 @@ export type Exercise = SingleChoiceExercise | TextInputExercise | InputExercise;
 
 export interface ExerciseCollection {
   title: string;
-  subtitle?: string;
+  subtitle?: string | undefined;
   items: Exercise[];
 }
 

@@ -3,8 +3,8 @@ export interface AlphabetLetter {
   lower: string;
   name: string;
   sound_ru: string;
-  note?: string;
-  example?: string;
+  note?: string | undefined;
+  example?: string | undefined;
 }
 
 export interface AlphabetContent {
