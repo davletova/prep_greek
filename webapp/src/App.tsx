@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useState } from "react";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
@@ -8,12 +8,11 @@ import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx"
 import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
-import { inputPracticeTopicList } from "./config/practice-topics.ts";
+import { useInputPracticeTopicState } from "./hooks/use-input-practice-topic-state.ts";
 import { useLoadableContent } from "./hooks/use-loadable-content.ts";
 import { useSingleChoiceTopicState } from "./hooks/use-single-choice-topic-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import {
-  loadInputPracticeTopic,
   loadSingleChoiceTopics,
   type SingleChoiceTopic
 } from "./services/content/practice-content-service.ts";
@@ -52,23 +51,13 @@ export default function App() {
     loadSingleChoiceTopics
   );
 
-  const selectedInputTopic = useMemo(
-    () => inputPracticeTopicList.find((topic) => topic.id === selectedInputTopicId),
-    [selectedInputTopicId]
-  );
-  const loadSelectedInputTopic = useCallback(() => {
-    if (!selectedInputTopic) {
-      return Promise.reject(new Error("Не удалось найти выбранную тему"));
-    }
-
-    return loadInputPracticeTopic(selectedInputTopic);
-  }, [selectedInputTopic]);
   const {
-    state: selectedInputTopicState,
-    retry: retrySelectedInputTopic
-  } = useLoadableContent(
+    selectedTopic: selectedInputTopic,
+    selectedTopicState: selectedInputTopicState,
+    retrySelectedTopic: retrySelectedInputTopic
+  } = useInputPracticeTopicState(
     screen === "practice-input-topic",
-    loadSelectedInputTopic
+    selectedInputTopicId
   );
 
   useTelegramWebAppReady();
