@@ -30,9 +30,11 @@ export default function AlphabetScreen({
   onSpeak
 }: AlphabetScreenProps) {
   const { data: alphabet, status, error } = alphabetState;
-  const letters = alphabet?.letters ?? [];
+  const alphabetLetters = alphabet?.letters;
 
   const pages = useMemo<AlphabetLetter[][]>(() => {
+    const letters = alphabetLetters ?? [];
+
     if (!letters.length) {
       return [];
     }
@@ -57,7 +59,7 @@ export default function AlphabetScreen({
       sigmaPage,
       last
     ].filter((page) => page.length > 0);
-  }, [letters]);
+  }, [alphabetLetters]);
 
   const totalPages = Math.max(1, pages.length || 1);
   const pageLetters = pages[pageIndex] ?? [];
@@ -84,7 +86,7 @@ export default function AlphabetScreen({
         <div className="alphabet__lead">
           <p>Изучите буквы и их базовые звуки.</p>
           <span className="alphabet__progress">
-            {letters.length ? `${pageIndex + 1}/${totalPages}` : "—"}
+            {alphabetLetters?.length ? `${pageIndex + 1}/${totalPages}` : "—"}
           </span>
         </div>
 
