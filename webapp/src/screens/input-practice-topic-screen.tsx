@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
+import { checkInputExerciseAnswer } from "../lib/exercises/check.ts";
 import { createShuffledIndices } from "../lib/random.ts";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { InputExercise } from "../types/exercises";
@@ -55,7 +56,10 @@ export default function InputPracticeTopicScreen({
   const trimmedAnswerValue = answerValue.trim();
   const canCheck = trimmedAnswerValue.length > 0 && !hasChecked;
   const isCorrect = hasChecked && exercise
-    ? trimmedAnswerValue === exercise.correctAnswer
+    ? checkInputExerciseAnswer(exercise, {
+        type: "input",
+        value: trimmedAnswerValue
+      }).correct
     : false;
 
   const handlePlayPrompt = async () => {

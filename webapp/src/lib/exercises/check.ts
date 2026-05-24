@@ -3,6 +3,7 @@ import type {
   Exercise,
   ExerciseAnswer,
   ExerciseCheckResult,
+  InputExercise,
   SingleChoiceExercise,
   TextInputExercise
 } from "../../types/exercises";
@@ -30,6 +31,17 @@ function checkTextInputAnswer(
   return { correct };
 }
 
+export function checkInputExerciseAnswer(
+  exercise: InputExercise,
+  answer: Extract<ExerciseAnswer, { type: "input" }>
+): ExerciseCheckResult {
+  return {
+    correct:
+      normalizeExerciseText(answer.value) ===
+      normalizeExerciseText(exercise.correctAnswer)
+  };
+}
+
 export function checkExerciseAnswer(
   exercise: Exercise,
   answer: ExerciseAnswer
@@ -44,6 +56,10 @@ export function checkExerciseAnswer(
 
   if (exercise.type === "text-input" && answer.type === "text-input") {
     return checkTextInputAnswer(exercise, answer);
+  }
+
+  if (exercise.type === "input" && answer.type === "input") {
+    return checkInputExerciseAnswer(exercise, answer);
   }
 
   return { correct: false };

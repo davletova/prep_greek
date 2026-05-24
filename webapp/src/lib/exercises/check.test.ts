@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { checkExerciseAnswer } from "./check.ts";
-import type { SingleChoiceExercise, TextInputExercise } from "../../types/exercises";
+import { checkExerciseAnswer, checkInputExerciseAnswer } from "./check.ts";
+import type {
+  InputExercise,
+  SingleChoiceExercise,
+  TextInputExercise
+} from "../../types/exercises";
 
 describe("checkExerciseAnswer", () => {
   const singleChoiceExercise: SingleChoiceExercise = {
@@ -16,6 +20,13 @@ describe("checkExerciseAnswer", () => {
     type: "text-input",
     prompt: "Translate: Γεια",
     correctAnswers: ["Привет", "Здравствуйте"]
+  };
+
+  const inputExercise: InputExercise = {
+    id: "input-2",
+    type: "input",
+    prompt: "знаю",
+    correctAnswer: "ξέρω"
   };
 
   it("checks correct single-choice answer", () => {
@@ -41,6 +52,24 @@ describe("checkExerciseAnswer", () => {
       checkExerciseAnswer(textInputExercise, {
         type: "text-input",
         value: "  привет  "
+      })
+    ).toEqual({ correct: true });
+  });
+
+  it("normalizes input exercise answers", () => {
+    expect(
+      checkInputExerciseAnswer(inputExercise, {
+        type: "input",
+        value: "  ΞΈΡΩ  "
+      })
+    ).toEqual({ correct: true });
+  });
+
+  it("checks input exercises through the generic checker", () => {
+    expect(
+      checkExerciseAnswer(inputExercise, {
+        type: "input",
+        value: "ξέρω"
       })
     ).toEqual({ correct: true });
   });

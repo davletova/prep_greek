@@ -1,4 +1,4 @@
-export type ExerciseType = "single-choice" | "text-input";
+export type ExerciseType = "single-choice" | "text-input" | "input";
 
 export interface BaseExercise {
   id: string;
@@ -25,10 +25,8 @@ export interface SingleChoiceRuntimeQuestion {
   explanation?: string;
 }
 
-export interface InputExercise {
-  id: string;
+export interface InputExercise extends BaseExercise {
   type: "input";
-  prompt: string;
   correctAnswer: string;
   context?: string;
 }
@@ -38,7 +36,7 @@ export interface TextInputExercise extends BaseExercise {
   correctAnswers: string[];
 }
 
-export type Exercise = SingleChoiceExercise | TextInputExercise;
+export type Exercise = SingleChoiceExercise | TextInputExercise | InputExercise;
 
 export interface ExerciseCollection {
   title: string;
@@ -53,6 +51,10 @@ export type ExerciseAnswer =
     }
   | {
       type: "text-input";
+      value: string;
+    }
+  | {
+      type: "input";
       value: string;
     };
 
