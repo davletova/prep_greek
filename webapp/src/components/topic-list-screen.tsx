@@ -9,7 +9,7 @@ export interface TopicListItem {
 
 interface TopicListScreenProps {
   title: string;
-  topics: TopicListItem[];
+  topics: readonly TopicListItem[];
   onClose: VoidHandler;
   onOpenTopic: (topicId: string) => void;
   status?: LoadStatus;
