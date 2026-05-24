@@ -8,6 +8,8 @@ import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import type { SingleChoiceTopicListItem } from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
+import { inputPracticeTopics, singleChoicePracticeContent } from "./config/practice-topics.ts";
+import { theoryContent } from "./config/theory.ts";
 import { useLoadableContent } from "./hooks/use-loadable-content.ts";
 import { loadJsonContent } from "./lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "./lib/exercises/load-single-choice-topic.ts";
@@ -15,12 +17,6 @@ import { speakGreekText } from "./lib/speech.ts";
 import type { AlphabetContent, DiphthongsContent } from "./types/content";
 import type { ExerciseCollection, InputExercise } from "./types/exercises";
 import type { LoadableState, Screen, TabKey } from "./types/ui";
-
-const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
-const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
-const SINGLE_CHOICE_INDEX_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/index.json`;
-const SINGLE_CHOICE_BASE_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/`;
-const ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL = `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`;
 
 interface SingleChoiceTopic extends SingleChoiceTopicListItem {
   fileName: string;
@@ -90,7 +86,7 @@ export default function App() {
     useState<string | null>(null);
 
   const loadAlphabetContent = useCallback(
-    () => loadJsonContent<AlphabetContent>(ALPHABET_URL),
+    () => loadJsonContent<AlphabetContent>(theoryContent.alphabet.url),
     []
   );
   const { state: alphabetState, retry: retryAlphabet } = useLoadableContent(
@@ -100,7 +96,7 @@ export default function App() {
   const [pageIndex, setPageIndex] = useState(0);
 
   const loadDiphthongsContent = useCallback(
-    () => loadJsonContent<DiphthongsContent>(DIPHTHONGS_URL),
+    () => loadJsonContent<DiphthongsContent>(theoryContent.diphthongs.url),
     []
   );
   const { state: diphthongsState, retry: retryDiphthongs } = useLoadableContent(
@@ -111,11 +107,11 @@ export default function App() {
 
   const loadSingleChoiceTopics = useCallback(
     () =>
-      loadJsonContent<string[]>(SINGLE_CHOICE_INDEX_URL).then((files) =>
+      loadJsonContent<string[]>(singleChoicePracticeContent.indexUrl).then((files) =>
         Promise.all(
           files.map(async (fileName) => {
             const collection = await loadSingleChoiceTopic(
-              `${SINGLE_CHOICE_BASE_URL}${fileName}`,
+              `${singleChoicePracticeContent.baseUrl}${fileName}`,
               ""
             );
 
@@ -142,9 +138,9 @@ export default function App() {
 
   const loadAlphaTypeVerbConjugationInput = useCallback(
     () =>
-      loadJsonContent<unknown>(ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL).then(
-        normalizeInputExercises
-      ),
+      loadJsonContent<unknown>(
+        inputPracticeTopics.alphaTypeVerbConjugation.url
+      ).then(normalizeInputExercises),
     []
   );
   const {
@@ -295,7 +291,7 @@ export default function App() {
         />
       ) : screen === "practice-alpha-type-verb-conjugation" ? (
         <InputPracticeTopicScreen
-          title="Спряжение глаголов"
+          title={inputPracticeTopics.alphaTypeVerbConjugation.title}
           topicState={alphaTypeVerbConjugationInputState}
           onClose={handleOpenWriteWordTopics}
           onRetry={handleRetryAlphaTypeVerbConjugation}
