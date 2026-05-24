@@ -10,6 +10,7 @@ import type { ExerciseCollection, InputExercise } from "../../types/exercises.ts
 
 export interface SingleChoiceTopic {
   id: string;
+  kind: "single-choice";
   fileName: string;
   title: string;
   subtitle: string;
@@ -45,6 +46,7 @@ export function loadSingleChoiceTopics(): Promise<SingleChoiceTopic[]> {
 
         return {
           id: createTopicId(fileName),
+          kind: "single-choice" as const,
           fileName,
           title: collection.title,
           subtitle: collection.subtitle || "",
