@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
@@ -7,10 +7,10 @@ import HomeScreen from "./screens/home-screen.tsx";
 import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx";
 import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
-import type { SingleChoiceTopicListItem } from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { inputPracticeTopics } from "./config/practice-topics.ts";
 import { useLoadableContent } from "./hooks/use-loadable-content.ts";
+import { useSingleChoiceTopicState } from "./hooks/use-single-choice-topic-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import {
   loadAlphaTypeVerbConjugationInput,
@@ -21,43 +21,7 @@ import {
   loadAlphabetContent,
   loadDiphthongsContent
 } from "./services/content/theory-content-service.ts";
-import type { ExerciseCollection } from "./types/exercises";
-import type { LoadableState, Screen, TabKey } from "./types/ui";
-
-function createTopicState(
-  topicsState: LoadableState<SingleChoiceTopic[]>,
-  selectedTopic: SingleChoiceTopic | undefined
-): LoadableState<ExerciseCollection> {
-  if (topicsState.status === "loading" || topicsState.status === "idle") {
-    return {
-      data: null,
-      status: "loading",
-      error: ""
-    };
-  }
-
-  if (topicsState.status === "error") {
-    return {
-      data: null,
-      status: "error",
-      error: topicsState.error
-    };
-  }
-
-  if (!selectedTopic) {
-    return {
-      data: null,
-      status: "error",
-      error: "Не удалось найти выбранную тему"
-    };
-  }
-
-  return {
-    data: selectedTopic.collection,
-    status: "success",
-    error: ""
-  };
-}
+import type { Screen, TabKey } from "./types/ui";
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
@@ -96,30 +60,13 @@ export default function App() {
 
   useTelegramWebAppReady();
 
-  const selectedSingleChoiceTopic = useMemo(
-    () =>
-      singleChoiceTopicsState.data?.find(
-        (topic) => topic.id === selectedSingleChoiceTopicId
-      ),
-    [singleChoiceTopicsState.data, selectedSingleChoiceTopicId]
-  );
-  const selectedSingleChoiceTopicState = useMemo(
-    () => createTopicState(singleChoiceTopicsState, selectedSingleChoiceTopic),
-    [singleChoiceTopicsState, selectedSingleChoiceTopic]
-  );
-  const singleChoiceTopicListState = useMemo<
-    LoadableState<SingleChoiceTopicListItem[]>
-  >(
-    () => ({
-      ...singleChoiceTopicsState,
-      data:
-        singleChoiceTopicsState.data?.map(({ id, title, subtitle }) => ({
-          id,
-          title,
-          subtitle
-        })) ?? null
-    }),
-    [singleChoiceTopicsState]
+  const {
+    selectedTopic: selectedSingleChoiceTopic,
+    selectedTopicState: selectedSingleChoiceTopicState,
+    topicListState: singleChoiceTopicListState
+  } = useSingleChoiceTopicState(
+    singleChoiceTopicsState,
+    selectedSingleChoiceTopicId
   );
 
   const handleOpenAlphabet = () => {
