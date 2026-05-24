@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
+import { useShuffledExerciseFlow } from "../hooks/use-shuffled-exercise-flow.ts";
 import { checkInputExerciseAnswer } from "../lib/exercises/check.ts";
-import { createShuffledIndices } from "../lib/random.ts";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { InputExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
@@ -27,25 +27,11 @@ export default function InputPracticeTopicScreen({
   onSpeak
 }: InputPracticeTopicScreenProps) {
   const exercises = useMemo(() => getInputExercises(topicState.data), [topicState.data]);
-  const shuffledIndices = useMemo(
-    () => createShuffledIndices(exercises.length),
-    [exercises]
-  );
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const exercise =
-    shuffledIndices.length > 0
-      ? exercises[shuffledIndices[currentQuestionIndex]]
-      : null;
+  const { currentItem: exercise, hasItems, next } =
+    useShuffledExerciseFlow(exercises);
   const [answerValue, setAnswerValue] = useState("");
   const [hasChecked, setHasChecked] = useState(false);
   const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
-
-  useEffect(() => {
-    setCurrentQuestionIndex(0);
-    setAnswerValue("");
-    setHasChecked(false);
-    setIsPromptSpeaking(false);
-  }, [shuffledIndices]);
 
   useEffect(() => {
     setAnswerValue("");
@@ -86,13 +72,13 @@ export default function InputPracticeTopicScreen({
   };
 
   const handleNextQuestion = () => {
-    if (!hasChecked || shuffledIndices.length === 0) {
+    if (!hasChecked || !hasItems) {
       return;
     }
 
     cancelGreekSpeech();
     setIsPromptSpeaking(false);
-    setCurrentQuestionIndex((prev) => (prev + 1) % shuffledIndices.length);
+    next();
   };
 
   const handleClose = () => {

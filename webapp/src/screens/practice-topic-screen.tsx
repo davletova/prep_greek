@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
+import { useShuffledExerciseFlow } from "../hooks/use-shuffled-exercise-flow.ts";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
-import { createShuffledIndices } from "../lib/random.ts";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type {
   ExerciseCollection,
@@ -40,26 +40,17 @@ export default function PracticeTopicScreen({
     () => getSingleChoiceExercises(topicState.data),
     [topicState.data]
   );
-  const shuffledIndices = useMemo(
-    () => createShuffledIndices(exercises.length),
-    [exercises]
-  );
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const { currentItem: exercise, hasItems, next } =
+    useShuffledExerciseFlow(exercises);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [isPromptSpeaking, setIsPromptSpeaking] = useState(false);
   const [speakingOptionIndex, setSpeakingOptionIndex] = useState<number | null>(null);
 
   useEffect(() => {
-    setCurrentQuestionIndex(0);
     setSelectedIndex(null);
     setIsPromptSpeaking(false);
     setSpeakingOptionIndex(null);
-  }, [shuffledIndices]);
-
-  const exercise =
-    shuffledIndices.length > 0
-      ? exercises[shuffledIndices[currentQuestionIndex]]
-      : null;
+  }, [exercise?.id]);
   const question = useMemo(
     () => (exercise ? buildSingleChoiceRuntimeQuestion(exercise) : null),
     [exercise]
@@ -114,14 +105,14 @@ export default function PracticeTopicScreen({
   };
 
   const handleNextQuestion = () => {
-    if (!hasAnswered || shuffledIndices.length === 0) {
+    if (!hasAnswered || !hasItems) {
       return;
     }
 
     cancelGreekSpeech();
     setIsPromptSpeaking(false);
     setSpeakingOptionIndex(null);
-    setCurrentQuestionIndex((prev) => (prev + 1) % shuffledIndices.length);
+    next();
     setSelectedIndex(null);
   };
 
