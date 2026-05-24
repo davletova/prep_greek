@@ -17,10 +17,7 @@ export type Screen =
   | "practice-dictionary-topics"
   | "practice-write-word-topics"
   | "practice-alpha-type-verb-conjugation"
-  | "practice-base-greek"
-  | "practice-alpha-type-verbs"
-  | "practice-alpha-type-verb-endings"
-  | "practice-greek-pronouns";
+  | "practice-single-choice-topic";
 
 export type VoidHandler = () => void;
 export type SpeakHandler = (text: string) => Promise<void>;

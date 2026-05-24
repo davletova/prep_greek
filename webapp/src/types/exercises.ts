@@ -42,6 +42,7 @@ export type Exercise = SingleChoiceExercise | TextInputExercise;
 
 export interface ExerciseCollection {
   title: string;
+  subtitle?: string;
   items: Exercise[];
 }
 

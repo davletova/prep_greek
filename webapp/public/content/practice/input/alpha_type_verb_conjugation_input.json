@@ -1,1934 +1,1938 @@
-[
-  {
-    "id": "alpha-type-verb-conjugation-input-001",
-    "type": "input",
-    "prompt": "знаю",
-    "correctAnswer": "ξέρω",
-    "context": "знать, быть знакомым с информацией"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-002",
-    "type": "input",
-    "prompt": "знаешь",
-    "correctAnswer": "ξέρεις",
-    "context": "знать, быть знакомым с информацией"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-003",
-    "type": "input",
-    "prompt": "знает",
-    "correctAnswer": "ξέρει",
-    "context": "знать, быть знакомым с информацией"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-004",
-    "type": "input",
-    "prompt": "знаем",
-    "correctAnswer": "ξέρουμε",
-    "context": "знать, быть знакомым с информацией"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-005",
-    "type": "input",
-    "prompt": "знаете",
-    "correctAnswer": "ξέρετε",
-    "context": "знать, быть знакомым с информацией"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-006",
-    "type": "input",
-    "prompt": "знают",
-    "correctAnswer": "ξέρουν",
-    "context": "знать, быть знакомым с информацией"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-007",
-    "type": "input",
-    "prompt": "говорю",
-    "correctAnswer": "λέω",
-    "context": "сказать, произносить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-008",
-    "type": "input",
-    "prompt": "говоришь",
-    "correctAnswer": "λες",
-    "context": "сказать, произносить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-009",
-    "type": "input",
-    "prompt": "говорит",
-    "correctAnswer": "λέει",
-    "context": "сказать, произносить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-010",
-    "type": "input",
-    "prompt": "говорим",
-    "correctAnswer": "λέμε",
-    "context": "сказать, произносить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-011",
-    "type": "input",
-    "prompt": "говорите",
-    "correctAnswer": "λέτε",
-    "context": "сказать, произносить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-012",
-    "type": "input",
-    "prompt": "говорят",
-    "correctAnswer": "λένε",
-    "context": "сказать, произносить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-013",
-    "type": "input",
-    "prompt": "ем",
-    "correctAnswer": "τρώω",
-    "context": "есть, кушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-014",
-    "type": "input",
-    "prompt": "ешь",
-    "correctAnswer": "τρως",
-    "context": "есть, кушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-015",
-    "type": "input",
-    "prompt": "ест",
-    "correctAnswer": "τρώει",
-    "context": "есть, кушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-016",
-    "type": "input",
-    "prompt": "едим",
-    "correctAnswer": "τρώμε",
-    "context": "есть, кушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-017",
-    "type": "input",
-    "prompt": "едите",
-    "correctAnswer": "τρώτε",
-    "context": "есть, кушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-018",
-    "type": "input",
-    "prompt": "едят",
-    "correctAnswer": "τρώνε",
-    "context": "есть, кушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-019",
-    "type": "input",
-    "prompt": "слышу",
-    "correctAnswer": "ακούω",
-    "context": "слышать, слушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-020",
-    "type": "input",
-    "prompt": "слышишь",
-    "correctAnswer": "ακούς",
-    "context": "слышать, слушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-021",
-    "type": "input",
-    "prompt": "слышит",
-    "correctAnswer": "ακούει",
-    "context": "слышать, слушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-022",
-    "type": "input",
-    "prompt": "слышим",
-    "correctAnswer": "ακούμε",
-    "context": "слышать, слушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-023",
-    "type": "input",
-    "prompt": "слышите",
-    "correctAnswer": "ακούτε",
-    "context": "слышать, слушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-024",
-    "type": "input",
-    "prompt": "слышат",
-    "correctAnswer": "ακούνε",
-    "context": "слышать, слушать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-025",
-    "type": "input",
-    "prompt": "я виноват",
-    "correctAnswer": "φταίω",
-    "context": "быть виноватым"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-026",
-    "type": "input",
-    "prompt": "ты виноват",
-    "correctAnswer": "φταις",
-    "context": "быть виноватым"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-027",
-    "type": "input",
-    "prompt": "он виноват",
-    "correctAnswer": "φταίει",
-    "context": "быть виноватым"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-028",
-    "type": "input",
-    "prompt": "мы виноваты",
-    "correctAnswer": "φταίμε",
-    "context": "быть виноватым"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-029",
-    "type": "input",
-    "prompt": "вы виноваты",
-    "correctAnswer": "φταίτε",
-    "context": "быть виноватым"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-030",
-    "type": "input",
-    "prompt": "они виноваты",
-    "correctAnswer": "φταίνε",
-    "context": "быть виноватым"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-031",
-    "type": "input",
-    "prompt": "плачу",
-    "correctAnswer": "κλαίω",
-    "context": "плакать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-032",
-    "type": "input",
-    "prompt": "плачешь",
-    "correctAnswer": "κλαις",
-    "context": "плакать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-033",
-    "type": "input",
-    "prompt": "плачет",
-    "correctAnswer": "κλαίει",
-    "context": "плакать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-034",
-    "type": "input",
-    "prompt": "плачем",
-    "correctAnswer": "κλαίμε",
-    "context": "плакать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-035",
-    "type": "input",
-    "prompt": "плачете",
-    "correctAnswer": "κλαίτε",
-    "context": "плакать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-036",
-    "type": "input",
-    "prompt": "плачут",
-    "correctAnswer": "κλαίνε",
-    "context": "плакать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-037",
-    "type": "input",
-    "prompt": "хочу",
-    "correctAnswer": "θέλω",
-    "context": "хотеть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-038",
-    "type": "input",
-    "prompt": "хочешь",
-    "correctAnswer": "θέλεις",
-    "context": "хотеть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-039",
-    "type": "input",
-    "prompt": "хочет",
-    "correctAnswer": "θέλει",
-    "context": "хотеть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-040",
-    "type": "input",
-    "prompt": "хотим",
-    "correctAnswer": "θέλουμε",
-    "context": "хотеть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-041",
-    "type": "input",
-    "prompt": "хотите",
-    "correctAnswer": "θέλετε",
-    "context": "хотеть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-042",
-    "type": "input",
-    "prompt": "хотят",
-    "correctAnswer": "θέλουν",
-    "context": "хотеть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-043",
-    "type": "input",
-    "prompt": "я есть",
-    "correctAnswer": "είμαι",
-    "context": "быть, являться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-044",
-    "type": "input",
-    "prompt": "ты есть",
-    "correctAnswer": "είσαι",
-    "context": "быть, являться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-045",
-    "type": "input",
-    "prompt": "он есть",
-    "correctAnswer": "είναι",
-    "context": "быть, являться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-046",
-    "type": "input",
-    "prompt": "мы есть",
-    "correctAnswer": "είμαστε",
-    "context": "быть, являться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-047",
-    "type": "input",
-    "prompt": "вы есть",
-    "correctAnswer": "είστε",
-    "context": "быть, являться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-048",
-    "type": "input",
-    "prompt": "они есть",
-    "correctAnswer": "είναι",
-    "context": "быть, являться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-049",
-    "type": "input",
-    "prompt": "читаю",
-    "correctAnswer": "διαβάζω",
-    "context": "читать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-050",
-    "type": "input",
-    "prompt": "читаешь",
-    "correctAnswer": "διαβάζεις",
-    "context": "читать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-051",
-    "type": "input",
-    "prompt": "читает",
-    "correctAnswer": "διαβάζει",
-    "context": "читать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-052",
-    "type": "input",
-    "prompt": "читаем",
-    "correctAnswer": "διαβάζουμε",
-    "context": "читать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-053",
-    "type": "input",
-    "prompt": "читаете",
-    "correctAnswer": "διαβάζετε",
-    "context": "читать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-054",
-    "type": "input",
-    "prompt": "читают",
-    "correctAnswer": "διαβάζουν",
-    "context": "читать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-055",
-    "type": "input",
-    "prompt": "иду",
-    "correctAnswer": "πηγαίνω",
-    "context": "идти, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-056",
-    "type": "input",
-    "prompt": "идёшь",
-    "correctAnswer": "πηγαίνεις",
-    "context": "идти, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-057",
-    "type": "input",
-    "prompt": "идёт",
-    "correctAnswer": "πηγαίνει",
-    "context": "идти, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-058",
-    "type": "input",
-    "prompt": "идём",
-    "correctAnswer": "πηγαίνουμε",
-    "context": "идти, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-059",
-    "type": "input",
-    "prompt": "идёте",
-    "correctAnswer": "πηγαίνετε",
-    "context": "идти, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-060",
-    "type": "input",
-    "prompt": "идут",
-    "correctAnswer": "πηγαίνουν",
-    "context": "идти, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-061",
-    "type": "input",
-    "prompt": "жду",
-    "correctAnswer": "περιμένω",
-    "context": "ждать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-062",
-    "type": "input",
-    "prompt": "ждёшь",
-    "correctAnswer": "περιμένεις",
-    "context": "ждать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-063",
-    "type": "input",
-    "prompt": "ждёт",
-    "correctAnswer": "περιμένει",
-    "context": "ждать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-064",
-    "type": "input",
-    "prompt": "ждём",
-    "correctAnswer": "περιμένουμε",
-    "context": "ждать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-065",
-    "type": "input",
-    "prompt": "ждёте",
-    "correctAnswer": "περιμένετε",
-    "context": "ждать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-066",
-    "type": "input",
-    "prompt": "ждут",
-    "correctAnswer": "περιμένουν",
-    "context": "ждать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-067",
-    "type": "input",
-    "prompt": "учу",
-    "correctAnswer": "μαθαίνω",
-    "context": "учить, изучать, узнавать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-068",
-    "type": "input",
-    "prompt": "учишь",
-    "correctAnswer": "μαθαίνεις",
-    "context": "учить, изучать, узнавать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-069",
-    "type": "input",
-    "prompt": "учит",
-    "correctAnswer": "μαθαίνει",
-    "context": "учить, изучать, узнавать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-070",
-    "type": "input",
-    "prompt": "учим",
-    "correctAnswer": "μαθαίνουμε",
-    "context": "учить, изучать, узнавать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-071",
-    "type": "input",
-    "prompt": "учите",
-    "correctAnswer": "μαθαίνετε",
-    "context": "учить, изучать, узнавать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-072",
-    "type": "input",
-    "prompt": "учат",
-    "correctAnswer": "μαθαίνουν",
-    "context": "учить, изучать, узнавать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-073",
-    "type": "input",
-    "prompt": "имею",
-    "correctAnswer": "έχω",
-    "context": "иметь"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-074",
-    "type": "input",
-    "prompt": "имеешь",
-    "correctAnswer": "έχεις",
-    "context": "иметь"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-075",
-    "type": "input",
-    "prompt": "имеет",
-    "correctAnswer": "έχει",
-    "context": "иметь"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-076",
-    "type": "input",
-    "prompt": "имеем",
-    "correctAnswer": "έχουμε",
-    "context": "иметь"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-077",
-    "type": "input",
-    "prompt": "имеете",
-    "correctAnswer": "έχετε",
-    "context": "иметь"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-078",
-    "type": "input",
-    "prompt": "имеют",
-    "correctAnswer": "έχουν",
-    "context": "иметь"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-079",
-    "type": "input",
-    "prompt": "ухожу",
-    "correctAnswer": "φεύγω",
-    "context": "уезжать, покидать, уходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-080",
-    "type": "input",
-    "prompt": "уходишь",
-    "correctAnswer": "φεύγεις",
-    "context": "уезжать, покидать, уходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-081",
-    "type": "input",
-    "prompt": "уходит",
-    "correctAnswer": "φεύγει",
-    "context": "уезжать, покидать, уходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-082",
-    "type": "input",
-    "prompt": "уходим",
-    "correctAnswer": "φεύγουμε",
-    "context": "уезжать, покидать, уходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-083",
-    "type": "input",
-    "prompt": "уходите",
-    "correctAnswer": "φεύγετε",
-    "context": "уезжать, покидать, уходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-084",
-    "type": "input",
-    "prompt": "уходят",
-    "correctAnswer": "φεύγουν",
-    "context": "уезжать, покидать, уходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-085",
-    "type": "input",
-    "prompt": "живу",
-    "correctAnswer": "μένω",
-    "context": "жить, проживать, оставаться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-086",
-    "type": "input",
-    "prompt": "живёшь",
-    "correctAnswer": "μένεις",
-    "context": "жить, проживать, оставаться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-087",
-    "type": "input",
-    "prompt": "живёт",
-    "correctAnswer": "μένει",
-    "context": "жить, проживать, оставаться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-088",
-    "type": "input",
-    "prompt": "живём",
-    "correctAnswer": "μένουμε",
-    "context": "жить, проживать, оставаться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-089",
-    "type": "input",
-    "prompt": "живёте",
-    "correctAnswer": "μένετε",
-    "context": "жить, проживать, оставаться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-090",
-    "type": "input",
-    "prompt": "живут",
-    "correctAnswer": "μένουν",
-    "context": "жить, проживать, оставаться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-091",
-    "type": "input",
-    "prompt": "понимаю",
-    "correctAnswer": "καταλαβαίνω",
-    "context": "понимать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-092",
-    "type": "input",
-    "prompt": "понимаешь",
-    "correctAnswer": "καταλαβαίνεις",
-    "context": "понимать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-093",
-    "type": "input",
-    "prompt": "понимает",
-    "correctAnswer": "καταλαβαίνει",
-    "context": "понимать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-094",
-    "type": "input",
-    "prompt": "понимаем",
-    "correctAnswer": "καταλαβαίνουμε",
-    "context": "понимать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-095",
-    "type": "input",
-    "prompt": "понимаете",
-    "correctAnswer": "καταλαβαίνετε",
-    "context": "понимать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-096",
-    "type": "input",
-    "prompt": "понимают",
-    "correctAnswer": "καταλαβαίνουν",
-    "context": "понимать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-097",
-    "type": "input",
-    "prompt": "пишу",
-    "correctAnswer": "γράφω",
-    "context": "писать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-098",
-    "type": "input",
-    "prompt": "пишешь",
-    "correctAnswer": "γράφεις",
-    "context": "писать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-099",
-    "type": "input",
-    "prompt": "пишет",
-    "correctAnswer": "γράφει",
-    "context": "писать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-100",
-    "type": "input",
-    "prompt": "пишем",
-    "correctAnswer": "γράφουμε",
-    "context": "писать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-101",
-    "type": "input",
-    "prompt": "пишете",
-    "correctAnswer": "γράφετε",
-    "context": "писать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-102",
-    "type": "input",
-    "prompt": "пишут",
-    "correctAnswer": "γράφουν",
-    "context": "писать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-103",
-    "type": "input",
-    "prompt": "работаю",
-    "correctAnswer": "δουλεύω",
-    "context": "работать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-104",
-    "type": "input",
-    "prompt": "работаешь",
-    "correctAnswer": "δουλεύεις",
-    "context": "работать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-105",
-    "type": "input",
-    "prompt": "работает",
-    "correctAnswer": "δουλεύει",
-    "context": "работать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-106",
-    "type": "input",
-    "prompt": "работаем",
-    "correctAnswer": "δουλεύουμε",
-    "context": "работать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-107",
-    "type": "input",
-    "prompt": "работаете",
-    "correctAnswer": "δουλεύετε",
-    "context": "работать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-108",
-    "type": "input",
-    "prompt": "работают",
-    "correctAnswer": "δουλεύουν",
-    "context": "работать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-109",
-    "type": "input",
-    "prompt": "возвращаюсь",
-    "correctAnswer": "γυρίζω",
-    "context": "возвращаться, поворачиваться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-110",
-    "type": "input",
-    "prompt": "возвращаешься",
-    "correctAnswer": "γυρίζεις",
-    "context": "возвращаться, поворачиваться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-111",
-    "type": "input",
-    "prompt": "возвращается",
-    "correctAnswer": "γυρίζει",
-    "context": "возвращаться, поворачиваться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-112",
-    "type": "input",
-    "prompt": "возвращаемся",
-    "correctAnswer": "γυρίζουμε",
-    "context": "возвращаться, поворачиваться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-113",
-    "type": "input",
-    "prompt": "возвращаетесь",
-    "correctAnswer": "γυρίζετε",
-    "context": "возвращаться, поворачиваться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-114",
-    "type": "input",
-    "prompt": "возвращаются",
-    "correctAnswer": "γυρίζουν",
-    "context": "возвращаться, поворачиваться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-115",
-    "type": "input",
-    "prompt": "начинаю",
-    "correctAnswer": "αρχίζω",
-    "context": "начинать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-116",
-    "type": "input",
-    "prompt": "начинаешь",
-    "correctAnswer": "αρχίζεις",
-    "context": "начинать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-117",
-    "type": "input",
-    "prompt": "начинает",
-    "correctAnswer": "αρχίζει",
-    "context": "начинать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-118",
-    "type": "input",
-    "prompt": "начинаем",
-    "correctAnswer": "αρχίζουμε",
-    "context": "начинать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-119",
-    "type": "input",
-    "prompt": "начинаете",
-    "correctAnswer": "αρχίζετε",
-    "context": "начинать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-120",
-    "type": "input",
-    "prompt": "начинают",
-    "correctAnswer": "αρχίζουν",
-    "context": "начинать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-121",
-    "type": "input",
-    "prompt": "играю",
-    "correctAnswer": "παίζω",
-    "context": "играть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-122",
-    "type": "input",
-    "prompt": "играешь",
-    "correctAnswer": "παίζεις",
-    "context": "играть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-123",
-    "type": "input",
-    "prompt": "играет",
-    "correctAnswer": "παίζει",
-    "context": "играть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-124",
-    "type": "input",
-    "prompt": "играем",
-    "correctAnswer": "παίζουμε",
-    "context": "играть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-125",
-    "type": "input",
-    "prompt": "играете",
-    "correctAnswer": "παίζετε",
-    "context": "играть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-126",
-    "type": "input",
-    "prompt": "играют",
-    "correctAnswer": "παίζουν",
-    "context": "играть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-127",
-    "type": "input",
-    "prompt": "закрываю",
-    "correctAnswer": "κλείνω",
-    "context": "закрывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-128",
-    "type": "input",
-    "prompt": "закрываешь",
-    "correctAnswer": "κλείνεις",
-    "context": "закрывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-129",
-    "type": "input",
-    "prompt": "закрывает",
-    "correctAnswer": "κλείνει",
-    "context": "закрывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-130",
-    "type": "input",
-    "prompt": "закрываем",
-    "correctAnswer": "κλείνουμε",
-    "context": "закрывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-131",
-    "type": "input",
-    "prompt": "закрываете",
-    "correctAnswer": "κλείνετε",
-    "context": "закрывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-132",
-    "type": "input",
-    "prompt": "закрывают",
-    "correctAnswer": "κλείνουν",
-    "context": "закрывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-133",
-    "type": "input",
-    "prompt": "возвращаюсь",
-    "correctAnswer": "επιστρέφω",
-    "context": "возвращаться обратно"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-134",
-    "type": "input",
-    "prompt": "возвращаешься",
-    "correctAnswer": "επιστρέφεις",
-    "context": "возвращаться обратно"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-135",
-    "type": "input",
-    "prompt": "возвращается",
-    "correctAnswer": "επιστρέφει",
-    "context": "возвращаться обратно"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-136",
-    "type": "input",
-    "prompt": "возвращаемся",
-    "correctAnswer": "επιστρέφουμε",
-    "context": "возвращаться обратно"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-137",
-    "type": "input",
-    "prompt": "возвращаетесь",
-    "correctAnswer": "επιστρέφετε",
-    "context": "возвращаться обратно"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-138",
-    "type": "input",
-    "prompt": "возвращаются",
-    "correctAnswer": "επιστρέφουν",
-    "context": "возвращаться обратно"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-139",
-    "type": "input",
-    "prompt": "обращаю внимание",
-    "correctAnswer": "προσέχω",
-    "context": "быть внимательным, обращать внимание"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-140",
-    "type": "input",
-    "prompt": "обращаешь внимание",
-    "correctAnswer": "προσέχεις",
-    "context": "быть внимательным, обращать внимание"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-141",
-    "type": "input",
-    "prompt": "обращает внимание",
-    "correctAnswer": "προσέχει",
-    "context": "быть внимательным, обращать внимание"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-142",
-    "type": "input",
-    "prompt": "обращаем внимание",
-    "correctAnswer": "προσέχουμε",
-    "context": "быть внимательным, обращать внимание"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-143",
-    "type": "input",
-    "prompt": "обращаете внимание",
-    "correctAnswer": "προσέχετε",
-    "context": "быть внимательным, обращать внимание"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-144",
-    "type": "input",
-    "prompt": "обращают внимание",
-    "correctAnswer": "προσέχουν",
-    "context": "быть внимательным, обращать внимание"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-145",
-    "type": "input",
-    "prompt": "отправляю",
-    "correctAnswer": "στέλνω",
-    "context": "посылать, отправлять"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-146",
-    "type": "input",
-    "prompt": "отправляешь",
-    "correctAnswer": "στέλνεις",
-    "context": "посылать, отправлять"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-147",
-    "type": "input",
-    "prompt": "отправляет",
-    "correctAnswer": "στέλνει",
-    "context": "посылать, отправлять"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-148",
-    "type": "input",
-    "prompt": "отправляем",
-    "correctAnswer": "στέλνουμε",
-    "context": "посылать, отправлять"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-149",
-    "type": "input",
-    "prompt": "отправляете",
-    "correctAnswer": "στέλνετε",
-    "context": "посылать, отправлять"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-150",
-    "type": "input",
-    "prompt": "отправляют",
-    "correctAnswer": "στέλνουν",
-    "context": "посылать, отправлять"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-151",
-    "type": "input",
-    "prompt": "выхожу",
-    "correctAnswer": "βγαίνω",
-    "context": "выходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-152",
-    "type": "input",
-    "prompt": "выходишь",
-    "correctAnswer": "βγαίνεις",
-    "context": "выходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-153",
-    "type": "input",
-    "prompt": "выходит",
-    "correctAnswer": "βγαίνει",
-    "context": "выходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-154",
-    "type": "input",
-    "prompt": "выходим",
-    "correctAnswer": "βγαίνουμε",
-    "context": "выходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-155",
-    "type": "input",
-    "prompt": "выходите",
-    "correctAnswer": "βγαίνετε",
-    "context": "выходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-156",
-    "type": "input",
-    "prompt": "выходят",
-    "correctAnswer": "βγαίνουν",
-    "context": "выходить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-157",
-    "type": "input",
-    "prompt": "готовлю",
-    "correctAnswer": "μαγειρεύω",
-    "context": "готовить еду"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-158",
-    "type": "input",
-    "prompt": "готовишь",
-    "correctAnswer": "μαγειρεύεις",
-    "context": "готовить еду"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-159",
-    "type": "input",
-    "prompt": "готовит",
-    "correctAnswer": "μαγειρεύει",
-    "context": "готовить еду"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-160",
-    "type": "input",
-    "prompt": "готовим",
-    "correctAnswer": "μαγειρεύουμε",
-    "context": "готовить еду"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-161",
-    "type": "input",
-    "prompt": "готовите",
-    "correctAnswer": "μαγειρεύετε",
-    "context": "готовить еду"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-162",
-    "type": "input",
-    "prompt": "готовят",
-    "correctAnswer": "μαγειρεύουν",
-    "context": "готовить еду"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-163",
-    "type": "input",
-    "prompt": "делаю",
-    "correctAnswer": "κάνω",
-    "context": "делать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-164",
-    "type": "input",
-    "prompt": "делаешь",
-    "correctAnswer": "κάνεις",
-    "context": "делать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-165",
-    "type": "input",
-    "prompt": "делает",
-    "correctAnswer": "κάνει",
-    "context": "делать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-166",
-    "type": "input",
-    "prompt": "делаем",
-    "correctAnswer": "κάνουμε",
-    "context": "делать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-167",
-    "type": "input",
-    "prompt": "делаете",
-    "correctAnswer": "κάνετε",
-    "context": "делать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-168",
-    "type": "input",
-    "prompt": "делают",
-    "correctAnswer": "κάνουν",
-    "context": "делать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-169",
-    "type": "input",
-    "prompt": "учусь",
-    "correctAnswer": "σπουδάζω",
-    "context": "учиться в вузе, изучать специальность"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-170",
-    "type": "input",
-    "prompt": "учишься",
-    "correctAnswer": "σπουδάζεις",
-    "context": "учиться в вузе, изучать специальность"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-171",
-    "type": "input",
-    "prompt": "учится",
-    "correctAnswer": "σπουδάζει",
-    "context": "учиться в вузе, изучать специальность"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-172",
-    "type": "input",
-    "prompt": "учимся",
-    "correctAnswer": "σπουδάζουμε",
-    "context": "учиться в вузе, изучать специальность"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-173",
-    "type": "input",
-    "prompt": "учитесь",
-    "correctAnswer": "σπουδάζετε",
-    "context": "учиться в вузе, изучать специальность"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-174",
-    "type": "input",
-    "prompt": "учатся",
-    "correctAnswer": "σπουδάζουν",
-    "context": "учиться в вузе, изучать специальность"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-175",
-    "type": "input",
-    "prompt": "вижу",
-    "correctAnswer": "βλέπω",
-    "context": "видеть, смотреть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-176",
-    "type": "input",
-    "prompt": "видишь",
-    "correctAnswer": "βλέπεις",
-    "context": "видеть, смотреть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-177",
-    "type": "input",
-    "prompt": "видит",
-    "correctAnswer": "βλέπει",
-    "context": "видеть, смотреть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-178",
-    "type": "input",
-    "prompt": "видим",
-    "correctAnswer": "βλέπουμε",
-    "context": "видеть, смотреть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-179",
-    "type": "input",
-    "prompt": "видите",
-    "correctAnswer": "βλέπετε",
-    "context": "видеть, смотреть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-180",
-    "type": "input",
-    "prompt": "видят",
-    "correctAnswer": "βλέπουν",
-    "context": "видеть, смотреть"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-181",
-    "type": "input",
-    "prompt": "преподаю",
-    "correctAnswer": "διδάσκω",
-    "context": "преподавать, обучать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-182",
-    "type": "input",
-    "prompt": "преподаёшь",
-    "correctAnswer": "διδάσκεις",
-    "context": "преподавать, обучать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-183",
-    "type": "input",
-    "prompt": "преподаёт",
-    "correctAnswer": "διδάσκει",
-    "context": "преподавать, обучать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-184",
-    "type": "input",
-    "prompt": "преподаём",
-    "correctAnswer": "διδάσκουμε",
-    "context": "преподавать, обучать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-185",
-    "type": "input",
-    "prompt": "преподаёте",
-    "correctAnswer": "διδάσκετε",
-    "context": "преподавать, обучать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-186",
-    "type": "input",
-    "prompt": "преподают",
-    "correctAnswer": "διδάσκουν",
-    "context": "преподавать, обучать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-187",
-    "type": "input",
-    "prompt": "открываю",
-    "correctAnswer": "ανοίγω",
-    "context": "открывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-188",
-    "type": "input",
-    "prompt": "открываешь",
-    "correctAnswer": "ανοίγεις",
-    "context": "открывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-189",
-    "type": "input",
-    "prompt": "открывает",
-    "correctAnswer": "ανοίγει",
-    "context": "открывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-190",
-    "type": "input",
-    "prompt": "открываем",
-    "correctAnswer": "ανοίγουμε",
-    "context": "открывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-191",
-    "type": "input",
-    "prompt": "открываете",
-    "correctAnswer": "ανοίγετε",
-    "context": "открывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-192",
-    "type": "input",
-    "prompt": "открывают",
-    "correctAnswer": "ανοίγουν",
-    "context": "открывать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-193",
-    "type": "input",
-    "prompt": "поднимаюсь",
-    "correctAnswer": "ανεβαίνω",
-    "context": "подниматься наверх"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-194",
-    "type": "input",
-    "prompt": "поднимаешься",
-    "correctAnswer": "ανεβαίνεις",
-    "context": "подниматься наверх"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-195",
-    "type": "input",
-    "prompt": "поднимается",
-    "correctAnswer": "ανεβαίνει",
-    "context": "подниматься наверх"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-196",
-    "type": "input",
-    "prompt": "поднимаемся",
-    "correctAnswer": "ανεβαίνουμε",
-    "context": "подниматься наверх"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-197",
-    "type": "input",
-    "prompt": "поднимаетесь",
-    "correctAnswer": "ανεβαίνετε",
-    "context": "подниматься наверх"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-198",
-    "type": "input",
-    "prompt": "поднимаются",
-    "correctAnswer": "ανεβαίνουν",
-    "context": "подниматься наверх"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-199",
-    "type": "input",
-    "prompt": "заканчиваю",
-    "correctAnswer": "τελειώνω",
-    "context": "заканчивать, завершать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-200",
-    "type": "input",
-    "prompt": "заканчиваешь",
-    "correctAnswer": "τελειώνεις",
-    "context": "заканчивать, завершать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-201",
-    "type": "input",
-    "prompt": "заканчивает",
-    "correctAnswer": "τελειώνει",
-    "context": "заканчивать, завершать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-202",
-    "type": "input",
-    "prompt": "заканчиваем",
-    "correctAnswer": "τελειώνουμε",
-    "context": "заканчивать, завершать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-203",
-    "type": "input",
-    "prompt": "заканчиваете",
-    "correctAnswer": "τελειώνετε",
-    "context": "заканчивать, завершать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-204",
-    "type": "input",
-    "prompt": "заканчивают",
-    "correctAnswer": "τελειώνουν",
-    "context": "заканчивать, завершать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-205",
-    "type": "input",
-    "prompt": "путешествую",
-    "correctAnswer": "ταξιδεύω",
-    "context": "путешествовать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-206",
-    "type": "input",
-    "prompt": "путешествуешь",
-    "correctAnswer": "ταξιδεύεις",
-    "context": "путешествовать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-207",
-    "type": "input",
-    "prompt": "путешествует",
-    "correctAnswer": "ταξιδεύει",
-    "context": "путешествовать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-208",
-    "type": "input",
-    "prompt": "путешествуем",
-    "correctAnswer": "ταξιδεύουμε",
-    "context": "путешествовать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-209",
-    "type": "input",
-    "prompt": "путешествуете",
-    "correctAnswer": "ταξιδεύετε",
-    "context": "путешествовать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-210",
-    "type": "input",
-    "prompt": "путешествуют",
-    "correctAnswer": "ταξιδεύουν",
-    "context": "путешествовать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-211",
-    "type": "input",
-    "prompt": "покупаю",
-    "correctAnswer": "αγοράζω",
-    "context": "покупать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-212",
-    "type": "input",
-    "prompt": "покупаешь",
-    "correctAnswer": "αγοράζεις",
-    "context": "покупать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-213",
-    "type": "input",
-    "prompt": "покупает",
-    "correctAnswer": "αγοράζει",
-    "context": "покупать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-214",
-    "type": "input",
-    "prompt": "покупаем",
-    "correctAnswer": "αγοράζουμε",
-    "context": "покупать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-215",
-    "type": "input",
-    "prompt": "покупаете",
-    "correctAnswer": "αγοράζετε",
-    "context": "покупать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-216",
-    "type": "input",
-    "prompt": "покупают",
-    "correctAnswer": "αγοράζουν",
-    "context": "покупать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-217",
-    "type": "input",
-    "prompt": "спускаюсь",
-    "correctAnswer": "κατεβαίνω",
-    "context": "спускаться вниз"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-218",
-    "type": "input",
-    "prompt": "спускаешься",
-    "correctAnswer": "κατεβαίνεις",
-    "context": "спускаться вниз"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-219",
-    "type": "input",
-    "prompt": "спускается",
-    "correctAnswer": "κατεβαίνει",
-    "context": "спускаться вниз"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-220",
-    "type": "input",
-    "prompt": "спускаемся",
-    "correctAnswer": "κατεβαίνουμε",
-    "context": "спускаться вниз"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-221",
-    "type": "input",
-    "prompt": "спускаетесь",
-    "correctAnswer": "κατεβαίνετε",
-    "context": "спускаться вниз"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-222",
-    "type": "input",
-    "prompt": "спускаются",
-    "correctAnswer": "κατεβαίνουν",
-    "context": "спускаться вниз"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-223",
-    "type": "input",
-    "prompt": "плачу",
-    "correctAnswer": "πληρώνω",
-    "context": "платить, оплачивать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-224",
-    "type": "input",
-    "prompt": "платишь",
-    "correctAnswer": "πληρώνεις",
-    "context": "платить, оплачивать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-225",
-    "type": "input",
-    "prompt": "платит",
-    "correctAnswer": "πληρώνει",
-    "context": "платить, оплачивать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-226",
-    "type": "input",
-    "prompt": "платим",
-    "correctAnswer": "πληρώνουμε",
-    "context": "платить, оплачивать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-227",
-    "type": "input",
-    "prompt": "платите",
-    "correctAnswer": "πληρώνετε",
-    "context": "платить, оплачивать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-228",
-    "type": "input",
-    "prompt": "платят",
-    "correctAnswer": "πληρώνουν",
-    "context": "платить, оплачивать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-229",
-    "type": "input",
-    "prompt": "беру",
-    "correctAnswer": "παίρνω",
-    "context": "брать, получать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-230",
-    "type": "input",
-    "prompt": "берёшь",
-    "correctAnswer": "παίρνεις",
-    "context": "брать, получать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-231",
-    "type": "input",
-    "prompt": "берёт",
-    "correctAnswer": "παίρνει",
-    "context": "брать, получать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-232",
-    "type": "input",
-    "prompt": "берём",
-    "correctAnswer": "παίρνουμε",
-    "context": "брать, получать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-233",
-    "type": "input",
-    "prompt": "берёте",
-    "correctAnswer": "παίρνετε",
-    "context": "брать, получать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-234",
-    "type": "input",
-    "prompt": "берут",
-    "correctAnswer": "παίρνουν",
-    "context": "брать, получать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-235",
-    "type": "input",
-    "prompt": "знакомлюсь",
-    "correctAnswer": "γνωρίζω",
-    "context": "знакомиться, знать человека"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-236",
-    "type": "input",
-    "prompt": "знакомишься",
-    "correctAnswer": "γνωρίζεις",
-    "context": "знакомиться, знать человека"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-237",
-    "type": "input",
-    "prompt": "знакомится",
-    "correctAnswer": "γνωρίζει",
-    "context": "знакомиться, знать человека"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-238",
-    "type": "input",
-    "prompt": "знакомимся",
-    "correctAnswer": "γνωρίζουμε",
-    "context": "знакомиться, знать человека"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-239",
-    "type": "input",
-    "prompt": "знакомитесь",
-    "correctAnswer": "γνωρίζετε",
-    "context": "знакомиться, знать человека"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-240",
-    "type": "input",
-    "prompt": "знакомятся",
-    "correctAnswer": "γνωρίζουν",
-    "context": "знакомиться, знать человека"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-241",
-    "type": "input",
-    "prompt": "вхожу",
-    "correctAnswer": "μπαίνω",
-    "context": "входить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-242",
-    "type": "input",
-    "prompt": "входишь",
-    "correctAnswer": "μπαίνεις",
-    "context": "входить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-243",
-    "type": "input",
-    "prompt": "входит",
-    "correctAnswer": "μπαίνει",
-    "context": "входить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-244",
-    "type": "input",
-    "prompt": "входим",
-    "correctAnswer": "μπαίνουμε",
-    "context": "входить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-245",
-    "type": "input",
-    "prompt": "входите",
-    "correctAnswer": "μπαίνετε",
-    "context": "входить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-246",
-    "type": "input",
-    "prompt": "входят",
-    "correctAnswer": "μπαίνουν",
-    "context": "входить"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-247",
-    "type": "input",
-    "prompt": "даю",
-    "correctAnswer": "δίνω",
-    "context": "давать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-248",
-    "type": "input",
-    "prompt": "даёшь",
-    "correctAnswer": "δίνεις",
-    "context": "давать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-249",
-    "type": "input",
-    "prompt": "даёт",
-    "correctAnswer": "δίνει",
-    "context": "давать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-250",
-    "type": "input",
-    "prompt": "даём",
-    "correctAnswer": "δίνουμε",
-    "context": "давать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-251",
-    "type": "input",
-    "prompt": "даёте",
-    "correctAnswer": "δίνετε",
-    "context": "давать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-252",
-    "type": "input",
-    "prompt": "дают",
-    "correctAnswer": "δίνουν",
-    "context": "давать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-253",
-    "type": "input",
-    "prompt": "танцую",
-    "correctAnswer": "χορεύω",
-    "context": "танцевать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-254",
-    "type": "input",
-    "prompt": "танцуешь",
-    "correctAnswer": "χορεύεις",
-    "context": "танцевать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-255",
-    "type": "input",
-    "prompt": "танцует",
-    "correctAnswer": "χορεύει",
-    "context": "танцевать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-256",
-    "type": "input",
-    "prompt": "танцуем",
-    "correctAnswer": "χορεύουμε",
-    "context": "танцевать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-257",
-    "type": "input",
-    "prompt": "танцуете",
-    "correctAnswer": "χορεύετε",
-    "context": "танцевать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-258",
-    "type": "input",
-    "prompt": "танцуют",
-    "correctAnswer": "χορεύουν",
-    "context": "танцевать"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-259",
-    "type": "input",
-    "prompt": "стою",
-    "correctAnswer": "κοστίζω",
-    "context": "стоить, иметь цену"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-260",
-    "type": "input",
-    "prompt": "стоишь",
-    "correctAnswer": "κοστίζεις",
-    "context": "стоить, иметь цену"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-261",
-    "type": "input",
-    "prompt": "стоит",
-    "correctAnswer": "κοστίζει",
-    "context": "стоить, иметь цену"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-262",
-    "type": "input",
-    "prompt": "стоим",
-    "correctAnswer": "κοστίζουμε",
-    "context": "стоить, иметь цену"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-263",
-    "type": "input",
-    "prompt": "стоите",
-    "correctAnswer": "κοστίζετε",
-    "context": "стоить, иметь цену"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-264",
-    "type": "input",
-    "prompt": "стоят",
-    "correctAnswer": "κοστίζουν",
-    "context": "стоить, иметь цену"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-265",
-    "type": "input",
-    "prompt": "иду",
-    "correctAnswer": "πάω",
-    "context": "идти, ехать, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-266",
-    "type": "input",
-    "prompt": "идёшь",
-    "correctAnswer": "πας",
-    "context": "идти, ехать, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-267",
-    "type": "input",
-    "prompt": "идёт",
-    "correctAnswer": "πάει",
-    "context": "идти, ехать, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-268",
-    "type": "input",
-    "prompt": "идём",
-    "correctAnswer": "πάμε",
-    "context": "идти, ехать, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-269",
-    "type": "input",
-    "prompt": "идёте",
-    "correctAnswer": "πάτε",
-    "context": "идти, ехать, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-270",
-    "type": "input",
-    "prompt": "идут",
-    "correctAnswer": "πάνε",
-    "context": "идти, ехать, направляться"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-271",
-    "type": "input",
-    "prompt": "стою",
-    "correctAnswer": "στέκομαι",
-    "context": "стоять, находиться стоя"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-272",
-    "type": "input",
-    "prompt": "стоишь",
-    "correctAnswer": "στέκεσαι",
-    "context": "стоять, находиться стоя"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-273",
-    "type": "input",
-    "prompt": "стоит",
-    "correctAnswer": "στέκεται",
-    "context": "стоять, находиться стоя"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-274",
-    "type": "input",
-    "prompt": "стоим",
-    "correctAnswer": "στεκόμαστε",
-    "context": "стоять, находиться стоя"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-275",
-    "type": "input",
-    "prompt": "стоите",
-    "correctAnswer": "στέκεστε",
-    "context": "стоять, находиться стоя"
-  },
-  {
-    "id": "alpha-type-verb-conjugation-input-276",
-    "type": "input",
-    "prompt": "стоят",
-    "correctAnswer": "στέκονται",
-    "context": "стоять, находиться стоя"
-  }
-]
+{
+  "title": "Спряжение глаголов",
+  "subtitle": "Введите правильную форму глагола",
+  "items": [
+    {
+      "id": "alpha-type-verb-conjugation-input-001",
+      "type": "input",
+      "prompt": "знаю",
+      "correctAnswer": "ξέρω",
+      "context": "знать, быть знакомым с информацией"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-002",
+      "type": "input",
+      "prompt": "знаешь",
+      "correctAnswer": "ξέρεις",
+      "context": "знать, быть знакомым с информацией"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-003",
+      "type": "input",
+      "prompt": "знает",
+      "correctAnswer": "ξέρει",
+      "context": "знать, быть знакомым с информацией"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-004",
+      "type": "input",
+      "prompt": "знаем",
+      "correctAnswer": "ξέρουμε",
+      "context": "знать, быть знакомым с информацией"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-005",
+      "type": "input",
+      "prompt": "знаете",
+      "correctAnswer": "ξέρετε",
+      "context": "знать, быть знакомым с информацией"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-006",
+      "type": "input",
+      "prompt": "знают",
+      "correctAnswer": "ξέρουν",
+      "context": "знать, быть знакомым с информацией"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-007",
+      "type": "input",
+      "prompt": "говорю",
+      "correctAnswer": "λέω",
+      "context": "сказать, произносить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-008",
+      "type": "input",
+      "prompt": "говоришь",
+      "correctAnswer": "λες",
+      "context": "сказать, произносить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-009",
+      "type": "input",
+      "prompt": "говорит",
+      "correctAnswer": "λέει",
+      "context": "сказать, произносить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-010",
+      "type": "input",
+      "prompt": "говорим",
+      "correctAnswer": "λέμε",
+      "context": "сказать, произносить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-011",
+      "type": "input",
+      "prompt": "говорите",
+      "correctAnswer": "λέτε",
+      "context": "сказать, произносить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-012",
+      "type": "input",
+      "prompt": "говорят",
+      "correctAnswer": "λένε",
+      "context": "сказать, произносить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-013",
+      "type": "input",
+      "prompt": "ем",
+      "correctAnswer": "τρώω",
+      "context": "есть, кушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-014",
+      "type": "input",
+      "prompt": "ешь",
+      "correctAnswer": "τρως",
+      "context": "есть, кушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-015",
+      "type": "input",
+      "prompt": "ест",
+      "correctAnswer": "τρώει",
+      "context": "есть, кушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-016",
+      "type": "input",
+      "prompt": "едим",
+      "correctAnswer": "τρώμε",
+      "context": "есть, кушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-017",
+      "type": "input",
+      "prompt": "едите",
+      "correctAnswer": "τρώτε",
+      "context": "есть, кушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-018",
+      "type": "input",
+      "prompt": "едят",
+      "correctAnswer": "τρώνε",
+      "context": "есть, кушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-019",
+      "type": "input",
+      "prompt": "слышу",
+      "correctAnswer": "ακούω",
+      "context": "слышать, слушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-020",
+      "type": "input",
+      "prompt": "слышишь",
+      "correctAnswer": "ακούς",
+      "context": "слышать, слушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-021",
+      "type": "input",
+      "prompt": "слышит",
+      "correctAnswer": "ακούει",
+      "context": "слышать, слушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-022",
+      "type": "input",
+      "prompt": "слышим",
+      "correctAnswer": "ακούμε",
+      "context": "слышать, слушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-023",
+      "type": "input",
+      "prompt": "слышите",
+      "correctAnswer": "ακούτε",
+      "context": "слышать, слушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-024",
+      "type": "input",
+      "prompt": "слышат",
+      "correctAnswer": "ακούνε",
+      "context": "слышать, слушать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-025",
+      "type": "input",
+      "prompt": "я виноват",
+      "correctAnswer": "φταίω",
+      "context": "быть виноватым"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-026",
+      "type": "input",
+      "prompt": "ты виноват",
+      "correctAnswer": "φταις",
+      "context": "быть виноватым"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-027",
+      "type": "input",
+      "prompt": "он виноват",
+      "correctAnswer": "φταίει",
+      "context": "быть виноватым"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-028",
+      "type": "input",
+      "prompt": "мы виноваты",
+      "correctAnswer": "φταίμε",
+      "context": "быть виноватым"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-029",
+      "type": "input",
+      "prompt": "вы виноваты",
+      "correctAnswer": "φταίτε",
+      "context": "быть виноватым"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-030",
+      "type": "input",
+      "prompt": "они виноваты",
+      "correctAnswer": "φταίνε",
+      "context": "быть виноватым"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-031",
+      "type": "input",
+      "prompt": "плачу",
+      "correctAnswer": "κλαίω",
+      "context": "плакать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-032",
+      "type": "input",
+      "prompt": "плачешь",
+      "correctAnswer": "κλαις",
+      "context": "плакать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-033",
+      "type": "input",
+      "prompt": "плачет",
+      "correctAnswer": "κλαίει",
+      "context": "плакать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-034",
+      "type": "input",
+      "prompt": "плачем",
+      "correctAnswer": "κλαίμε",
+      "context": "плакать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-035",
+      "type": "input",
+      "prompt": "плачете",
+      "correctAnswer": "κλαίτε",
+      "context": "плакать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-036",
+      "type": "input",
+      "prompt": "плачут",
+      "correctAnswer": "κλαίνε",
+      "context": "плакать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-037",
+      "type": "input",
+      "prompt": "хочу",
+      "correctAnswer": "θέλω",
+      "context": "хотеть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-038",
+      "type": "input",
+      "prompt": "хочешь",
+      "correctAnswer": "θέλεις",
+      "context": "хотеть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-039",
+      "type": "input",
+      "prompt": "хочет",
+      "correctAnswer": "θέλει",
+      "context": "хотеть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-040",
+      "type": "input",
+      "prompt": "хотим",
+      "correctAnswer": "θέλουμε",
+      "context": "хотеть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-041",
+      "type": "input",
+      "prompt": "хотите",
+      "correctAnswer": "θέλετε",
+      "context": "хотеть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-042",
+      "type": "input",
+      "prompt": "хотят",
+      "correctAnswer": "θέλουν",
+      "context": "хотеть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-043",
+      "type": "input",
+      "prompt": "я есть",
+      "correctAnswer": "είμαι",
+      "context": "быть, являться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-044",
+      "type": "input",
+      "prompt": "ты есть",
+      "correctAnswer": "είσαι",
+      "context": "быть, являться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-045",
+      "type": "input",
+      "prompt": "он есть",
+      "correctAnswer": "είναι",
+      "context": "быть, являться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-046",
+      "type": "input",
+      "prompt": "мы есть",
+      "correctAnswer": "είμαστε",
+      "context": "быть, являться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-047",
+      "type": "input",
+      "prompt": "вы есть",
+      "correctAnswer": "είστε",
+      "context": "быть, являться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-048",
+      "type": "input",
+      "prompt": "они есть",
+      "correctAnswer": "είναι",
+      "context": "быть, являться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-049",
+      "type": "input",
+      "prompt": "читаю",
+      "correctAnswer": "διαβάζω",
+      "context": "читать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-050",
+      "type": "input",
+      "prompt": "читаешь",
+      "correctAnswer": "διαβάζεις",
+      "context": "читать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-051",
+      "type": "input",
+      "prompt": "читает",
+      "correctAnswer": "διαβάζει",
+      "context": "читать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-052",
+      "type": "input",
+      "prompt": "читаем",
+      "correctAnswer": "διαβάζουμε",
+      "context": "читать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-053",
+      "type": "input",
+      "prompt": "читаете",
+      "correctAnswer": "διαβάζετε",
+      "context": "читать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-054",
+      "type": "input",
+      "prompt": "читают",
+      "correctAnswer": "διαβάζουν",
+      "context": "читать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-055",
+      "type": "input",
+      "prompt": "иду",
+      "correctAnswer": "πηγαίνω",
+      "context": "идти, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-056",
+      "type": "input",
+      "prompt": "идёшь",
+      "correctAnswer": "πηγαίνεις",
+      "context": "идти, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-057",
+      "type": "input",
+      "prompt": "идёт",
+      "correctAnswer": "πηγαίνει",
+      "context": "идти, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-058",
+      "type": "input",
+      "prompt": "идём",
+      "correctAnswer": "πηγαίνουμε",
+      "context": "идти, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-059",
+      "type": "input",
+      "prompt": "идёте",
+      "correctAnswer": "πηγαίνετε",
+      "context": "идти, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-060",
+      "type": "input",
+      "prompt": "идут",
+      "correctAnswer": "πηγαίνουν",
+      "context": "идти, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-061",
+      "type": "input",
+      "prompt": "жду",
+      "correctAnswer": "περιμένω",
+      "context": "ждать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-062",
+      "type": "input",
+      "prompt": "ждёшь",
+      "correctAnswer": "περιμένεις",
+      "context": "ждать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-063",
+      "type": "input",
+      "prompt": "ждёт",
+      "correctAnswer": "περιμένει",
+      "context": "ждать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-064",
+      "type": "input",
+      "prompt": "ждём",
+      "correctAnswer": "περιμένουμε",
+      "context": "ждать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-065",
+      "type": "input",
+      "prompt": "ждёте",
+      "correctAnswer": "περιμένετε",
+      "context": "ждать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-066",
+      "type": "input",
+      "prompt": "ждут",
+      "correctAnswer": "περιμένουν",
+      "context": "ждать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-067",
+      "type": "input",
+      "prompt": "учу",
+      "correctAnswer": "μαθαίνω",
+      "context": "учить, изучать, узнавать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-068",
+      "type": "input",
+      "prompt": "учишь",
+      "correctAnswer": "μαθαίνεις",
+      "context": "учить, изучать, узнавать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-069",
+      "type": "input",
+      "prompt": "учит",
+      "correctAnswer": "μαθαίνει",
+      "context": "учить, изучать, узнавать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-070",
+      "type": "input",
+      "prompt": "учим",
+      "correctAnswer": "μαθαίνουμε",
+      "context": "учить, изучать, узнавать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-071",
+      "type": "input",
+      "prompt": "учите",
+      "correctAnswer": "μαθαίνετε",
+      "context": "учить, изучать, узнавать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-072",
+      "type": "input",
+      "prompt": "учат",
+      "correctAnswer": "μαθαίνουν",
+      "context": "учить, изучать, узнавать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-073",
+      "type": "input",
+      "prompt": "имею",
+      "correctAnswer": "έχω",
+      "context": "иметь"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-074",
+      "type": "input",
+      "prompt": "имеешь",
+      "correctAnswer": "έχεις",
+      "context": "иметь"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-075",
+      "type": "input",
+      "prompt": "имеет",
+      "correctAnswer": "έχει",
+      "context": "иметь"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-076",
+      "type": "input",
+      "prompt": "имеем",
+      "correctAnswer": "έχουμε",
+      "context": "иметь"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-077",
+      "type": "input",
+      "prompt": "имеете",
+      "correctAnswer": "έχετε",
+      "context": "иметь"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-078",
+      "type": "input",
+      "prompt": "имеют",
+      "correctAnswer": "έχουν",
+      "context": "иметь"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-079",
+      "type": "input",
+      "prompt": "ухожу",
+      "correctAnswer": "φεύγω",
+      "context": "уезжать, покидать, уходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-080",
+      "type": "input",
+      "prompt": "уходишь",
+      "correctAnswer": "φεύγεις",
+      "context": "уезжать, покидать, уходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-081",
+      "type": "input",
+      "prompt": "уходит",
+      "correctAnswer": "φεύγει",
+      "context": "уезжать, покидать, уходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-082",
+      "type": "input",
+      "prompt": "уходим",
+      "correctAnswer": "φεύγουμε",
+      "context": "уезжать, покидать, уходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-083",
+      "type": "input",
+      "prompt": "уходите",
+      "correctAnswer": "φεύγετε",
+      "context": "уезжать, покидать, уходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-084",
+      "type": "input",
+      "prompt": "уходят",
+      "correctAnswer": "φεύγουν",
+      "context": "уезжать, покидать, уходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-085",
+      "type": "input",
+      "prompt": "живу",
+      "correctAnswer": "μένω",
+      "context": "жить, проживать, оставаться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-086",
+      "type": "input",
+      "prompt": "живёшь",
+      "correctAnswer": "μένεις",
+      "context": "жить, проживать, оставаться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-087",
+      "type": "input",
+      "prompt": "живёт",
+      "correctAnswer": "μένει",
+      "context": "жить, проживать, оставаться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-088",
+      "type": "input",
+      "prompt": "живём",
+      "correctAnswer": "μένουμε",
+      "context": "жить, проживать, оставаться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-089",
+      "type": "input",
+      "prompt": "живёте",
+      "correctAnswer": "μένετε",
+      "context": "жить, проживать, оставаться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-090",
+      "type": "input",
+      "prompt": "живут",
+      "correctAnswer": "μένουν",
+      "context": "жить, проживать, оставаться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-091",
+      "type": "input",
+      "prompt": "понимаю",
+      "correctAnswer": "καταλαβαίνω",
+      "context": "понимать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-092",
+      "type": "input",
+      "prompt": "понимаешь",
+      "correctAnswer": "καταλαβαίνεις",
+      "context": "понимать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-093",
+      "type": "input",
+      "prompt": "понимает",
+      "correctAnswer": "καταλαβαίνει",
+      "context": "понимать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-094",
+      "type": "input",
+      "prompt": "понимаем",
+      "correctAnswer": "καταλαβαίνουμε",
+      "context": "понимать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-095",
+      "type": "input",
+      "prompt": "понимаете",
+      "correctAnswer": "καταλαβαίνετε",
+      "context": "понимать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-096",
+      "type": "input",
+      "prompt": "понимают",
+      "correctAnswer": "καταλαβαίνουν",
+      "context": "понимать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-097",
+      "type": "input",
+      "prompt": "пишу",
+      "correctAnswer": "γράφω",
+      "context": "писать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-098",
+      "type": "input",
+      "prompt": "пишешь",
+      "correctAnswer": "γράφεις",
+      "context": "писать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-099",
+      "type": "input",
+      "prompt": "пишет",
+      "correctAnswer": "γράφει",
+      "context": "писать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-100",
+      "type": "input",
+      "prompt": "пишем",
+      "correctAnswer": "γράφουμε",
+      "context": "писать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-101",
+      "type": "input",
+      "prompt": "пишете",
+      "correctAnswer": "γράφετε",
+      "context": "писать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-102",
+      "type": "input",
+      "prompt": "пишут",
+      "correctAnswer": "γράφουν",
+      "context": "писать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-103",
+      "type": "input",
+      "prompt": "работаю",
+      "correctAnswer": "δουλεύω",
+      "context": "работать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-104",
+      "type": "input",
+      "prompt": "работаешь",
+      "correctAnswer": "δουλεύεις",
+      "context": "работать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-105",
+      "type": "input",
+      "prompt": "работает",
+      "correctAnswer": "δουλεύει",
+      "context": "работать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-106",
+      "type": "input",
+      "prompt": "работаем",
+      "correctAnswer": "δουλεύουμε",
+      "context": "работать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-107",
+      "type": "input",
+      "prompt": "работаете",
+      "correctAnswer": "δουλεύετε",
+      "context": "работать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-108",
+      "type": "input",
+      "prompt": "работают",
+      "correctAnswer": "δουλεύουν",
+      "context": "работать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-109",
+      "type": "input",
+      "prompt": "возвращаюсь",
+      "correctAnswer": "γυρίζω",
+      "context": "возвращаться, поворачиваться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-110",
+      "type": "input",
+      "prompt": "возвращаешься",
+      "correctAnswer": "γυρίζεις",
+      "context": "возвращаться, поворачиваться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-111",
+      "type": "input",
+      "prompt": "возвращается",
+      "correctAnswer": "γυρίζει",
+      "context": "возвращаться, поворачиваться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-112",
+      "type": "input",
+      "prompt": "возвращаемся",
+      "correctAnswer": "γυρίζουμε",
+      "context": "возвращаться, поворачиваться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-113",
+      "type": "input",
+      "prompt": "возвращаетесь",
+      "correctAnswer": "γυρίζετε",
+      "context": "возвращаться, поворачиваться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-114",
+      "type": "input",
+      "prompt": "возвращаются",
+      "correctAnswer": "γυρίζουν",
+      "context": "возвращаться, поворачиваться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-115",
+      "type": "input",
+      "prompt": "начинаю",
+      "correctAnswer": "αρχίζω",
+      "context": "начинать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-116",
+      "type": "input",
+      "prompt": "начинаешь",
+      "correctAnswer": "αρχίζεις",
+      "context": "начинать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-117",
+      "type": "input",
+      "prompt": "начинает",
+      "correctAnswer": "αρχίζει",
+      "context": "начинать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-118",
+      "type": "input",
+      "prompt": "начинаем",
+      "correctAnswer": "αρχίζουμε",
+      "context": "начинать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-119",
+      "type": "input",
+      "prompt": "начинаете",
+      "correctAnswer": "αρχίζετε",
+      "context": "начинать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-120",
+      "type": "input",
+      "prompt": "начинают",
+      "correctAnswer": "αρχίζουν",
+      "context": "начинать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-121",
+      "type": "input",
+      "prompt": "играю",
+      "correctAnswer": "παίζω",
+      "context": "играть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-122",
+      "type": "input",
+      "prompt": "играешь",
+      "correctAnswer": "παίζεις",
+      "context": "играть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-123",
+      "type": "input",
+      "prompt": "играет",
+      "correctAnswer": "παίζει",
+      "context": "играть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-124",
+      "type": "input",
+      "prompt": "играем",
+      "correctAnswer": "παίζουμε",
+      "context": "играть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-125",
+      "type": "input",
+      "prompt": "играете",
+      "correctAnswer": "παίζετε",
+      "context": "играть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-126",
+      "type": "input",
+      "prompt": "играют",
+      "correctAnswer": "παίζουν",
+      "context": "играть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-127",
+      "type": "input",
+      "prompt": "закрываю",
+      "correctAnswer": "κλείνω",
+      "context": "закрывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-128",
+      "type": "input",
+      "prompt": "закрываешь",
+      "correctAnswer": "κλείνεις",
+      "context": "закрывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-129",
+      "type": "input",
+      "prompt": "закрывает",
+      "correctAnswer": "κλείνει",
+      "context": "закрывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-130",
+      "type": "input",
+      "prompt": "закрываем",
+      "correctAnswer": "κλείνουμε",
+      "context": "закрывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-131",
+      "type": "input",
+      "prompt": "закрываете",
+      "correctAnswer": "κλείνετε",
+      "context": "закрывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-132",
+      "type": "input",
+      "prompt": "закрывают",
+      "correctAnswer": "κλείνουν",
+      "context": "закрывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-133",
+      "type": "input",
+      "prompt": "возвращаюсь",
+      "correctAnswer": "επιστρέφω",
+      "context": "возвращаться обратно"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-134",
+      "type": "input",
+      "prompt": "возвращаешься",
+      "correctAnswer": "επιστρέφεις",
+      "context": "возвращаться обратно"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-135",
+      "type": "input",
+      "prompt": "возвращается",
+      "correctAnswer": "επιστρέφει",
+      "context": "возвращаться обратно"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-136",
+      "type": "input",
+      "prompt": "возвращаемся",
+      "correctAnswer": "επιστρέφουμε",
+      "context": "возвращаться обратно"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-137",
+      "type": "input",
+      "prompt": "возвращаетесь",
+      "correctAnswer": "επιστρέφετε",
+      "context": "возвращаться обратно"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-138",
+      "type": "input",
+      "prompt": "возвращаются",
+      "correctAnswer": "επιστρέφουν",
+      "context": "возвращаться обратно"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-139",
+      "type": "input",
+      "prompt": "обращаю внимание",
+      "correctAnswer": "προσέχω",
+      "context": "быть внимательным, обращать внимание"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-140",
+      "type": "input",
+      "prompt": "обращаешь внимание",
+      "correctAnswer": "προσέχεις",
+      "context": "быть внимательным, обращать внимание"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-141",
+      "type": "input",
+      "prompt": "обращает внимание",
+      "correctAnswer": "προσέχει",
+      "context": "быть внимательным, обращать внимание"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-142",
+      "type": "input",
+      "prompt": "обращаем внимание",
+      "correctAnswer": "προσέχουμε",
+      "context": "быть внимательным, обращать внимание"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-143",
+      "type": "input",
+      "prompt": "обращаете внимание",
+      "correctAnswer": "προσέχετε",
+      "context": "быть внимательным, обращать внимание"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-144",
+      "type": "input",
+      "prompt": "обращают внимание",
+      "correctAnswer": "προσέχουν",
+      "context": "быть внимательным, обращать внимание"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-145",
+      "type": "input",
+      "prompt": "отправляю",
+      "correctAnswer": "στέλνω",
+      "context": "посылать, отправлять"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-146",
+      "type": "input",
+      "prompt": "отправляешь",
+      "correctAnswer": "στέλνεις",
+      "context": "посылать, отправлять"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-147",
+      "type": "input",
+      "prompt": "отправляет",
+      "correctAnswer": "στέλνει",
+      "context": "посылать, отправлять"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-148",
+      "type": "input",
+      "prompt": "отправляем",
+      "correctAnswer": "στέλνουμε",
+      "context": "посылать, отправлять"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-149",
+      "type": "input",
+      "prompt": "отправляете",
+      "correctAnswer": "στέλνετε",
+      "context": "посылать, отправлять"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-150",
+      "type": "input",
+      "prompt": "отправляют",
+      "correctAnswer": "στέλνουν",
+      "context": "посылать, отправлять"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-151",
+      "type": "input",
+      "prompt": "выхожу",
+      "correctAnswer": "βγαίνω",
+      "context": "выходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-152",
+      "type": "input",
+      "prompt": "выходишь",
+      "correctAnswer": "βγαίνεις",
+      "context": "выходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-153",
+      "type": "input",
+      "prompt": "выходит",
+      "correctAnswer": "βγαίνει",
+      "context": "выходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-154",
+      "type": "input",
+      "prompt": "выходим",
+      "correctAnswer": "βγαίνουμε",
+      "context": "выходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-155",
+      "type": "input",
+      "prompt": "выходите",
+      "correctAnswer": "βγαίνετε",
+      "context": "выходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-156",
+      "type": "input",
+      "prompt": "выходят",
+      "correctAnswer": "βγαίνουν",
+      "context": "выходить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-157",
+      "type": "input",
+      "prompt": "готовлю",
+      "correctAnswer": "μαγειρεύω",
+      "context": "готовить еду"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-158",
+      "type": "input",
+      "prompt": "готовишь",
+      "correctAnswer": "μαγειρεύεις",
+      "context": "готовить еду"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-159",
+      "type": "input",
+      "prompt": "готовит",
+      "correctAnswer": "μαγειρεύει",
+      "context": "готовить еду"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-160",
+      "type": "input",
+      "prompt": "готовим",
+      "correctAnswer": "μαγειρεύουμε",
+      "context": "готовить еду"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-161",
+      "type": "input",
+      "prompt": "готовите",
+      "correctAnswer": "μαγειρεύετε",
+      "context": "готовить еду"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-162",
+      "type": "input",
+      "prompt": "готовят",
+      "correctAnswer": "μαγειρεύουν",
+      "context": "готовить еду"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-163",
+      "type": "input",
+      "prompt": "делаю",
+      "correctAnswer": "κάνω",
+      "context": "делать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-164",
+      "type": "input",
+      "prompt": "делаешь",
+      "correctAnswer": "κάνεις",
+      "context": "делать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-165",
+      "type": "input",
+      "prompt": "делает",
+      "correctAnswer": "κάνει",
+      "context": "делать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-166",
+      "type": "input",
+      "prompt": "делаем",
+      "correctAnswer": "κάνουμε",
+      "context": "делать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-167",
+      "type": "input",
+      "prompt": "делаете",
+      "correctAnswer": "κάνετε",
+      "context": "делать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-168",
+      "type": "input",
+      "prompt": "делают",
+      "correctAnswer": "κάνουν",
+      "context": "делать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-169",
+      "type": "input",
+      "prompt": "учусь",
+      "correctAnswer": "σπουδάζω",
+      "context": "учиться в вузе, изучать специальность"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-170",
+      "type": "input",
+      "prompt": "учишься",
+      "correctAnswer": "σπουδάζεις",
+      "context": "учиться в вузе, изучать специальность"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-171",
+      "type": "input",
+      "prompt": "учится",
+      "correctAnswer": "σπουδάζει",
+      "context": "учиться в вузе, изучать специальность"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-172",
+      "type": "input",
+      "prompt": "учимся",
+      "correctAnswer": "σπουδάζουμε",
+      "context": "учиться в вузе, изучать специальность"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-173",
+      "type": "input",
+      "prompt": "учитесь",
+      "correctAnswer": "σπουδάζετε",
+      "context": "учиться в вузе, изучать специальность"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-174",
+      "type": "input",
+      "prompt": "учатся",
+      "correctAnswer": "σπουδάζουν",
+      "context": "учиться в вузе, изучать специальность"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-175",
+      "type": "input",
+      "prompt": "вижу",
+      "correctAnswer": "βλέπω",
+      "context": "видеть, смотреть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-176",
+      "type": "input",
+      "prompt": "видишь",
+      "correctAnswer": "βλέπεις",
+      "context": "видеть, смотреть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-177",
+      "type": "input",
+      "prompt": "видит",
+      "correctAnswer": "βλέπει",
+      "context": "видеть, смотреть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-178",
+      "type": "input",
+      "prompt": "видим",
+      "correctAnswer": "βλέπουμε",
+      "context": "видеть, смотреть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-179",
+      "type": "input",
+      "prompt": "видите",
+      "correctAnswer": "βλέπετε",
+      "context": "видеть, смотреть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-180",
+      "type": "input",
+      "prompt": "видят",
+      "correctAnswer": "βλέπουν",
+      "context": "видеть, смотреть"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-181",
+      "type": "input",
+      "prompt": "преподаю",
+      "correctAnswer": "διδάσκω",
+      "context": "преподавать, обучать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-182",
+      "type": "input",
+      "prompt": "преподаёшь",
+      "correctAnswer": "διδάσκεις",
+      "context": "преподавать, обучать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-183",
+      "type": "input",
+      "prompt": "преподаёт",
+      "correctAnswer": "διδάσκει",
+      "context": "преподавать, обучать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-184",
+      "type": "input",
+      "prompt": "преподаём",
+      "correctAnswer": "διδάσκουμε",
+      "context": "преподавать, обучать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-185",
+      "type": "input",
+      "prompt": "преподаёте",
+      "correctAnswer": "διδάσκετε",
+      "context": "преподавать, обучать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-186",
+      "type": "input",
+      "prompt": "преподают",
+      "correctAnswer": "διδάσκουν",
+      "context": "преподавать, обучать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-187",
+      "type": "input",
+      "prompt": "открываю",
+      "correctAnswer": "ανοίγω",
+      "context": "открывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-188",
+      "type": "input",
+      "prompt": "открываешь",
+      "correctAnswer": "ανοίγεις",
+      "context": "открывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-189",
+      "type": "input",
+      "prompt": "открывает",
+      "correctAnswer": "ανοίγει",
+      "context": "открывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-190",
+      "type": "input",
+      "prompt": "открываем",
+      "correctAnswer": "ανοίγουμε",
+      "context": "открывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-191",
+      "type": "input",
+      "prompt": "открываете",
+      "correctAnswer": "ανοίγετε",
+      "context": "открывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-192",
+      "type": "input",
+      "prompt": "открывают",
+      "correctAnswer": "ανοίγουν",
+      "context": "открывать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-193",
+      "type": "input",
+      "prompt": "поднимаюсь",
+      "correctAnswer": "ανεβαίνω",
+      "context": "подниматься наверх"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-194",
+      "type": "input",
+      "prompt": "поднимаешься",
+      "correctAnswer": "ανεβαίνεις",
+      "context": "подниматься наверх"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-195",
+      "type": "input",
+      "prompt": "поднимается",
+      "correctAnswer": "ανεβαίνει",
+      "context": "подниматься наверх"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-196",
+      "type": "input",
+      "prompt": "поднимаемся",
+      "correctAnswer": "ανεβαίνουμε",
+      "context": "подниматься наверх"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-197",
+      "type": "input",
+      "prompt": "поднимаетесь",
+      "correctAnswer": "ανεβαίνετε",
+      "context": "подниматься наверх"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-198",
+      "type": "input",
+      "prompt": "поднимаются",
+      "correctAnswer": "ανεβαίνουν",
+      "context": "подниматься наверх"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-199",
+      "type": "input",
+      "prompt": "заканчиваю",
+      "correctAnswer": "τελειώνω",
+      "context": "заканчивать, завершать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-200",
+      "type": "input",
+      "prompt": "заканчиваешь",
+      "correctAnswer": "τελειώνεις",
+      "context": "заканчивать, завершать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-201",
+      "type": "input",
+      "prompt": "заканчивает",
+      "correctAnswer": "τελειώνει",
+      "context": "заканчивать, завершать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-202",
+      "type": "input",
+      "prompt": "заканчиваем",
+      "correctAnswer": "τελειώνουμε",
+      "context": "заканчивать, завершать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-203",
+      "type": "input",
+      "prompt": "заканчиваете",
+      "correctAnswer": "τελειώνετε",
+      "context": "заканчивать, завершать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-204",
+      "type": "input",
+      "prompt": "заканчивают",
+      "correctAnswer": "τελειώνουν",
+      "context": "заканчивать, завершать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-205",
+      "type": "input",
+      "prompt": "путешествую",
+      "correctAnswer": "ταξιδεύω",
+      "context": "путешествовать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-206",
+      "type": "input",
+      "prompt": "путешествуешь",
+      "correctAnswer": "ταξιδεύεις",
+      "context": "путешествовать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-207",
+      "type": "input",
+      "prompt": "путешествует",
+      "correctAnswer": "ταξιδεύει",
+      "context": "путешествовать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-208",
+      "type": "input",
+      "prompt": "путешествуем",
+      "correctAnswer": "ταξιδεύουμε",
+      "context": "путешествовать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-209",
+      "type": "input",
+      "prompt": "путешествуете",
+      "correctAnswer": "ταξιδεύετε",
+      "context": "путешествовать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-210",
+      "type": "input",
+      "prompt": "путешествуют",
+      "correctAnswer": "ταξιδεύουν",
+      "context": "путешествовать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-211",
+      "type": "input",
+      "prompt": "покупаю",
+      "correctAnswer": "αγοράζω",
+      "context": "покупать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-212",
+      "type": "input",
+      "prompt": "покупаешь",
+      "correctAnswer": "αγοράζεις",
+      "context": "покупать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-213",
+      "type": "input",
+      "prompt": "покупает",
+      "correctAnswer": "αγοράζει",
+      "context": "покупать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-214",
+      "type": "input",
+      "prompt": "покупаем",
+      "correctAnswer": "αγοράζουμε",
+      "context": "покупать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-215",
+      "type": "input",
+      "prompt": "покупаете",
+      "correctAnswer": "αγοράζετε",
+      "context": "покупать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-216",
+      "type": "input",
+      "prompt": "покупают",
+      "correctAnswer": "αγοράζουν",
+      "context": "покупать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-217",
+      "type": "input",
+      "prompt": "спускаюсь",
+      "correctAnswer": "κατεβαίνω",
+      "context": "спускаться вниз"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-218",
+      "type": "input",
+      "prompt": "спускаешься",
+      "correctAnswer": "κατεβαίνεις",
+      "context": "спускаться вниз"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-219",
+      "type": "input",
+      "prompt": "спускается",
+      "correctAnswer": "κατεβαίνει",
+      "context": "спускаться вниз"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-220",
+      "type": "input",
+      "prompt": "спускаемся",
+      "correctAnswer": "κατεβαίνουμε",
+      "context": "спускаться вниз"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-221",
+      "type": "input",
+      "prompt": "спускаетесь",
+      "correctAnswer": "κατεβαίνετε",
+      "context": "спускаться вниз"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-222",
+      "type": "input",
+      "prompt": "спускаются",
+      "correctAnswer": "κατεβαίνουν",
+      "context": "спускаться вниз"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-223",
+      "type": "input",
+      "prompt": "плачу",
+      "correctAnswer": "πληρώνω",
+      "context": "платить, оплачивать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-224",
+      "type": "input",
+      "prompt": "платишь",
+      "correctAnswer": "πληρώνεις",
+      "context": "платить, оплачивать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-225",
+      "type": "input",
+      "prompt": "платит",
+      "correctAnswer": "πληρώνει",
+      "context": "платить, оплачивать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-226",
+      "type": "input",
+      "prompt": "платим",
+      "correctAnswer": "πληρώνουμε",
+      "context": "платить, оплачивать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-227",
+      "type": "input",
+      "prompt": "платите",
+      "correctAnswer": "πληρώνετε",
+      "context": "платить, оплачивать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-228",
+      "type": "input",
+      "prompt": "платят",
+      "correctAnswer": "πληρώνουν",
+      "context": "платить, оплачивать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-229",
+      "type": "input",
+      "prompt": "беру",
+      "correctAnswer": "παίρνω",
+      "context": "брать, получать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-230",
+      "type": "input",
+      "prompt": "берёшь",
+      "correctAnswer": "παίρνεις",
+      "context": "брать, получать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-231",
+      "type": "input",
+      "prompt": "берёт",
+      "correctAnswer": "παίρνει",
+      "context": "брать, получать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-232",
+      "type": "input",
+      "prompt": "берём",
+      "correctAnswer": "παίρνουμε",
+      "context": "брать, получать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-233",
+      "type": "input",
+      "prompt": "берёте",
+      "correctAnswer": "παίρνετε",
+      "context": "брать, получать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-234",
+      "type": "input",
+      "prompt": "берут",
+      "correctAnswer": "παίρνουν",
+      "context": "брать, получать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-235",
+      "type": "input",
+      "prompt": "знакомлюсь",
+      "correctAnswer": "γνωρίζω",
+      "context": "знакомиться, знать человека"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-236",
+      "type": "input",
+      "prompt": "знакомишься",
+      "correctAnswer": "γνωρίζεις",
+      "context": "знакомиться, знать человека"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-237",
+      "type": "input",
+      "prompt": "знакомится",
+      "correctAnswer": "γνωρίζει",
+      "context": "знакомиться, знать человека"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-238",
+      "type": "input",
+      "prompt": "знакомимся",
+      "correctAnswer": "γνωρίζουμε",
+      "context": "знакомиться, знать человека"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-239",
+      "type": "input",
+      "prompt": "знакомитесь",
+      "correctAnswer": "γνωρίζετε",
+      "context": "знакомиться, знать человека"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-240",
+      "type": "input",
+      "prompt": "знакомятся",
+      "correctAnswer": "γνωρίζουν",
+      "context": "знакомиться, знать человека"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-241",
+      "type": "input",
+      "prompt": "вхожу",
+      "correctAnswer": "μπαίνω",
+      "context": "входить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-242",
+      "type": "input",
+      "prompt": "входишь",
+      "correctAnswer": "μπαίνεις",
+      "context": "входить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-243",
+      "type": "input",
+      "prompt": "входит",
+      "correctAnswer": "μπαίνει",
+      "context": "входить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-244",
+      "type": "input",
+      "prompt": "входим",
+      "correctAnswer": "μπαίνουμε",
+      "context": "входить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-245",
+      "type": "input",
+      "prompt": "входите",
+      "correctAnswer": "μπαίνετε",
+      "context": "входить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-246",
+      "type": "input",
+      "prompt": "входят",
+      "correctAnswer": "μπαίνουν",
+      "context": "входить"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-247",
+      "type": "input",
+      "prompt": "даю",
+      "correctAnswer": "δίνω",
+      "context": "давать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-248",
+      "type": "input",
+      "prompt": "даёшь",
+      "correctAnswer": "δίνεις",
+      "context": "давать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-249",
+      "type": "input",
+      "prompt": "даёт",
+      "correctAnswer": "δίνει",
+      "context": "давать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-250",
+      "type": "input",
+      "prompt": "даём",
+      "correctAnswer": "δίνουμε",
+      "context": "давать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-251",
+      "type": "input",
+      "prompt": "даёте",
+      "correctAnswer": "δίνετε",
+      "context": "давать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-252",
+      "type": "input",
+      "prompt": "дают",
+      "correctAnswer": "δίνουν",
+      "context": "давать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-253",
+      "type": "input",
+      "prompt": "танцую",
+      "correctAnswer": "χορεύω",
+      "context": "танцевать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-254",
+      "type": "input",
+      "prompt": "танцуешь",
+      "correctAnswer": "χορεύεις",
+      "context": "танцевать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-255",
+      "type": "input",
+      "prompt": "танцует",
+      "correctAnswer": "χορεύει",
+      "context": "танцевать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-256",
+      "type": "input",
+      "prompt": "танцуем",
+      "correctAnswer": "χορεύουμε",
+      "context": "танцевать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-257",
+      "type": "input",
+      "prompt": "танцуете",
+      "correctAnswer": "χορεύετε",
+      "context": "танцевать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-258",
+      "type": "input",
+      "prompt": "танцуют",
+      "correctAnswer": "χορεύουν",
+      "context": "танцевать"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-259",
+      "type": "input",
+      "prompt": "стою",
+      "correctAnswer": "κοστίζω",
+      "context": "стоить, иметь цену"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-260",
+      "type": "input",
+      "prompt": "стоишь",
+      "correctAnswer": "κοστίζεις",
+      "context": "стоить, иметь цену"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-261",
+      "type": "input",
+      "prompt": "стоит",
+      "correctAnswer": "κοστίζει",
+      "context": "стоить, иметь цену"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-262",
+      "type": "input",
+      "prompt": "стоим",
+      "correctAnswer": "κοστίζουμε",
+      "context": "стоить, иметь цену"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-263",
+      "type": "input",
+      "prompt": "стоите",
+      "correctAnswer": "κοστίζετε",
+      "context": "стоить, иметь цену"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-264",
+      "type": "input",
+      "prompt": "стоят",
+      "correctAnswer": "κοστίζουν",
+      "context": "стоить, иметь цену"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-265",
+      "type": "input",
+      "prompt": "иду",
+      "correctAnswer": "πάω",
+      "context": "идти, ехать, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-266",
+      "type": "input",
+      "prompt": "идёшь",
+      "correctAnswer": "πας",
+      "context": "идти, ехать, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-267",
+      "type": "input",
+      "prompt": "идёт",
+      "correctAnswer": "πάει",
+      "context": "идти, ехать, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-268",
+      "type": "input",
+      "prompt": "идём",
+      "correctAnswer": "πάμε",
+      "context": "идти, ехать, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-269",
+      "type": "input",
+      "prompt": "идёте",
+      "correctAnswer": "πάτε",
+      "context": "идти, ехать, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-270",
+      "type": "input",
+      "prompt": "идут",
+      "correctAnswer": "πάνε",
+      "context": "идти, ехать, направляться"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-271",
+      "type": "input",
+      "prompt": "стою",
+      "correctAnswer": "στέκομαι",
+      "context": "стоять, находиться стоя"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-272",
+      "type": "input",
+      "prompt": "стоишь",
+      "correctAnswer": "στέκεσαι",
+      "context": "стоять, находиться стоя"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-273",
+      "type": "input",
+      "prompt": "стоит",
+      "correctAnswer": "στέκεται",
+      "context": "стоять, находиться стоя"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-274",
+      "type": "input",
+      "prompt": "стоим",
+      "correctAnswer": "στεκόμαστε",
+      "context": "стоять, находиться стоя"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-275",
+      "type": "input",
+      "prompt": "стоите",
+      "correctAnswer": "στέκεστε",
+      "context": "стоять, находиться стоя"
+    },
+    {
+      "id": "alpha-type-verb-conjugation-input-276",
+      "type": "input",
+      "prompt": "стоят",
+      "correctAnswer": "στέκονται",
+      "context": "стоять, находиться стоя"
+    }
+  ]
+}

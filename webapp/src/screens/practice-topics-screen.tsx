@@ -1,20 +1,27 @@
-import type { VoidHandler } from "../types/ui";
+import ContentState from "../components/content-state.tsx";
+import type { LoadableState, VoidHandler } from "../types/ui";
+
+export interface SingleChoiceTopicListItem {
+  id: string;
+  title: string;
+  subtitle: string;
+}
 
 interface PracticeTopicsScreenProps {
+  topicsState: LoadableState<SingleChoiceTopicListItem[]>;
   onClose: VoidHandler;
-  onOpenBasicPhrases: VoidHandler;
-  onOpenAlphaTypeVerbs: VoidHandler;
-  onOpenAlphaTypeVerbEndings: VoidHandler;
-  onOpenGreekPronouns: VoidHandler;
+  onRetry: VoidHandler;
+  onOpenTopic: (topicId: string) => void;
 }
 
 export default function PracticeTopicsScreen({
+  topicsState,
   onClose,
-  onOpenBasicPhrases,
-  onOpenAlphaTypeVerbs,
-  onOpenAlphaTypeVerbEndings,
-  onOpenGreekPronouns
+  onRetry,
+  onOpenTopic
 }: PracticeTopicsScreenProps) {
+  const topics = topicsState.data ?? [];
+
   return (
     <>
       <header className="app__header app__header--centered">
@@ -33,61 +40,43 @@ export default function PracticeTopicsScreen({
       </header>
 
       <main className="app__content app__content--profile">
-        <button
-          className="card-button"
-          type="button"
-          onClick={onOpenBasicPhrases}
-        >
-          <div className="card-button__text">
-            <span className="card-button__title">Базовые фразы</span>
-            <span className="card-button__subtitle">
-              Выберите правильный перевод из 4 вариантов
-            </span>
-          </div>
-          <span className="card-button__chevron">›</span>
-        </button>
-
-        <button
-          className="card-button"
-          type="button"
-          onClick={onOpenAlphaTypeVerbs}
-        >
-          <div className="card-button__text">
-            <span className="card-button__title">Популярные глаголы</span>
-            <span className="card-button__subtitle">
-              Выберите правильный перевод из 4 вариантов
-            </span>
-          </div>
-          <span className="card-button__chevron">›</span>
-        </button>
-
-        <button
-          className="card-button"
-          type="button"
-          onClick={onOpenAlphaTypeVerbEndings}
-        >
-          <div className="card-button__text">
-            <span className="card-button__title">Окончания глаголов</span>
-            <span className="card-button__subtitle">
-              Выберите правильный перевод из 4 вариантов
-            </span>
-          </div>
-          <span className="card-button__chevron">›</span>
-        </button>
-
-        <button
-          className="card-button"
-          type="button"
-          onClick={onOpenGreekPronouns}
-        >
-          <div className="card-button__text">
-            <span className="card-button__title">Местоимения</span>
-            <span className="card-button__subtitle">
-              Выберите правильный перевод из 4 вариантов
-            </span>
-          </div>
-          <span className="card-button__chevron">›</span>
-        </button>
+        {topicsState.status === "loading" ? (
+          <ContentState
+            title="Загружаем темы…"
+            text="Подготавливаем разделы с упражнениями."
+          />
+        ) : topicsState.status === "error" ? (
+          <ContentState
+            title="Не удалось загрузить темы"
+            text={topicsState.error}
+            actionLabel="Попробовать снова"
+            onAction={onRetry}
+            tone="error"
+          />
+        ) : topics.length === 0 ? (
+          <ContentState
+            title="Темы не найдены"
+            text="В папке с упражнениями нет доступных JSON-файлов."
+            actionLabel="Обновить"
+            onAction={onRetry}
+            tone="error"
+          />
+        ) : (
+          topics.map((topic) => (
+            <button
+              className="card-button"
+              type="button"
+              onClick={() => onOpenTopic(topic.id)}
+              key={topic.id}
+            >
+              <div className="card-button__text">
+                <span className="card-button__title">{topic.title}</span>
+                <span className="card-button__subtitle">{topic.subtitle}</span>
+              </div>
+              <span className="card-button__chevron">›</span>
+            </button>
+          ))
+        )}
       </main>
     </>
   );
