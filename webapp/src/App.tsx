@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
@@ -9,44 +9,20 @@ import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import type { SingleChoiceTopicListItem } from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
-import { inputPracticeTopics, singleChoicePracticeContent } from "./config/practice-topics.ts";
+import { inputPracticeTopics } from "./config/practice-topics.ts";
 import { useLoadableContent } from "./hooks/use-loadable-content.ts";
-import { loadJsonContent } from "./lib/content-loader.ts";
-import { loadSingleChoiceTopic } from "./lib/exercises/load-single-choice-topic.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import {
-  inputExerciseArraySchema,
-  inputExerciseCollectionSchema
-} from "./schemas/exercises.ts";
+  loadAlphaTypeVerbConjugationInput,
+  loadSingleChoiceTopics,
+  type SingleChoiceTopic
+} from "./services/content/practice-content-service.ts";
 import {
   loadAlphabetContent,
   loadDiphthongsContent
 } from "./services/content/theory-content-service.ts";
-import type { ExerciseCollection, InputExercise } from "./types/exercises";
+import type { ExerciseCollection } from "./types/exercises";
 import type { LoadableState, Screen, TabKey } from "./types/ui";
-
-interface SingleChoiceTopic extends SingleChoiceTopicListItem {
-  fileName: string;
-  collection: ExerciseCollection;
-}
-
-function normalizeInputExercises(content: unknown): InputExercise[] {
-  const arrayResult = inputExerciseArraySchema.safeParse(content);
-  if (arrayResult.success) {
-    return arrayResult.data;
-  }
-
-  const collectionResult = inputExerciseCollectionSchema.safeParse(content);
-  if (collectionResult.success) {
-    return collectionResult.data.items;
-  }
-
-  throw new Error("Invalid input practice content format");
-}
-
-function createTopicId(fileName: string): string {
-  return fileName.replace(/\.json$/i, "");
-}
 
 function createTopicState(
   topicsState: LoadableState<SingleChoiceTopic[]>,
@@ -101,28 +77,6 @@ export default function App() {
   );
   const [diphthongIndex, setDiphthongIndex] = useState(0);
 
-  const loadSingleChoiceTopics = useCallback(
-    () =>
-      loadJsonContent<string[]>(singleChoicePracticeContent.indexUrl).then((files) =>
-        Promise.all(
-          files.map(async (fileName) => {
-            const collection = await loadSingleChoiceTopic(
-              `${singleChoicePracticeContent.baseUrl}${fileName}`,
-              ""
-            );
-
-            return {
-              id: createTopicId(fileName),
-              fileName,
-              title: collection.title,
-              subtitle: collection.subtitle || "",
-              collection
-            };
-          })
-        )
-      ),
-    []
-  );
   const {
     state: singleChoiceTopicsState,
     retry: retrySingleChoiceTopics
@@ -132,13 +86,6 @@ export default function App() {
     loadSingleChoiceTopics
   );
 
-  const loadAlphaTypeVerbConjugationInput = useCallback(
-    () =>
-      loadJsonContent<unknown>(
-        inputPracticeTopics.alphaTypeVerbConjugation.url
-      ).then(normalizeInputExercises),
-    []
-  );
   const {
     state: alphaTypeVerbConjugationInputState,
     retry: retryAlphaTypeVerbConjugationInput
