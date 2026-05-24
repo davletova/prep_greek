@@ -1,2402 +1,2406 @@
-[
-  {
-    "id": "popular-greek-verbs-001",
-    "type": "single-choice",
-    "prompt": "είμαι",
-    "correctAnswer": "быть",
-    "wrongAnswers": [
-      "иметь",
-      "делать",
-      "идти"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-002",
-    "type": "single-choice",
-    "prompt": "έχω",
-    "correctAnswer": "иметь",
-    "wrongAnswers": [
-      "быть",
-      "хотеть",
-      "знать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-003",
-    "type": "single-choice",
-    "prompt": "κάνω",
-    "correctAnswer": "делать",
-    "wrongAnswers": [
-      "ждать",
-      "слышать",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-004",
-    "type": "single-choice",
-    "prompt": "λέω",
-    "correctAnswer": "говорить",
-    "wrongAnswers": [
-      "слушать",
-      "писать",
-      "читать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-005",
-    "type": "single-choice",
-    "prompt": "θέλω",
-    "correctAnswer": "хотеть",
-    "wrongAnswers": [
-      "мочь",
-      "знать",
-      "понимать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-006",
-    "type": "single-choice",
-    "prompt": "ξέρω",
-    "correctAnswer": "знать",
-    "wrongAnswers": [
-      "хотеть",
-      "учить",
-      "искать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-007",
-    "type": "single-choice",
-    "prompt": "μπορώ",
-    "correctAnswer": "мочь",
-    "wrongAnswers": [
-      "хотеть",
-      "иметь",
-      "любить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-008",
-    "type": "single-choice",
-    "prompt": "πάω",
-    "correctAnswer": "идти",
-    "wrongAnswers": [
-      "стоять",
-      "сидеть",
-      "жить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-009",
-    "type": "single-choice",
-    "prompt": "πηγαίνω",
-    "correctAnswer": "идти",
-    "wrongAnswers": [
-      "возвращаться",
-      "оставаться",
-      "входить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-010",
-    "type": "single-choice",
-    "prompt": "έρχομαι",
-    "correctAnswer": "приходить",
-    "wrongAnswers": [
-      "уходить",
-      "ждать",
-      "брать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-011",
-    "type": "single-choice",
-    "prompt": "φεύγω",
-    "correctAnswer": "уходить",
-    "wrongAnswers": [
-      "приходить",
-      "входить",
-      "стоять"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-012",
-    "type": "single-choice",
-    "prompt": "μένω",
-    "correctAnswer": "жить",
-    "wrongAnswers": [
-      "идти",
-      "работать",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-013",
-    "type": "single-choice",
-    "prompt": "μένω",
-    "correctAnswer": "оставаться",
-    "wrongAnswers": [
-      "уходить",
-      "продавать",
-      "плакать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-014",
-    "type": "single-choice",
-    "prompt": "βλέπω",
-    "correctAnswer": "видеть",
-    "wrongAnswers": [
-      "слышать",
-      "говорить",
-      "писать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-015",
-    "type": "single-choice",
-    "prompt": "βλέπω",
-    "correctAnswer": "смотреть",
-    "wrongAnswers": [
-      "слушать",
-      "читать",
-      "пить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-016",
-    "type": "single-choice",
-    "prompt": "ακούω",
-    "correctAnswer": "слышать",
-    "wrongAnswers": [
-      "видеть",
-      "знать",
-      "есть"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-017",
-    "type": "single-choice",
-    "prompt": "ακούω",
-    "correctAnswer": "слушать",
-    "wrongAnswers": [
-      "смотреть",
-      "покупать",
-      "открывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-018",
-    "type": "single-choice",
-    "prompt": "τρώω",
-    "correctAnswer": "есть",
-    "wrongAnswers": [
-      "пить",
-      "спать",
-      "работать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-019",
-    "type": "single-choice",
-    "prompt": "πίνω",
-    "correctAnswer": "пить",
-    "wrongAnswers": [
-      "есть",
-      "готовить",
-      "читать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-020",
-    "type": "single-choice",
-    "prompt": "διαβάζω",
-    "correctAnswer": "читать",
-    "wrongAnswers": [
-      "писать",
-      "слушать",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-021",
-    "type": "single-choice",
-    "prompt": "γράφω",
-    "correctAnswer": "писать",
-    "wrongAnswers": [
-      "читать",
-      "говорить",
-      "слышать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-022",
-    "type": "single-choice",
-    "prompt": "μιλάω",
-    "correctAnswer": "говорить",
-    "wrongAnswers": [
-      "слушать",
-      "ждать",
-      "платить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-023",
-    "type": "single-choice",
-    "prompt": "καταλαβαίνω",
-    "correctAnswer": "понимать",
-    "wrongAnswers": [
-      "забывать",
-      "покупать",
-      "спрашивать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-024",
-    "type": "single-choice",
-    "prompt": "μαθαίνω",
-    "correctAnswer": "учить",
-    "wrongAnswers": [
-      "забывать",
-      "платить",
-      "возвращаться"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-025",
-    "type": "single-choice",
-    "prompt": "μαθαίνω",
-    "correctAnswer": "узнавать",
-    "wrongAnswers": [
-      "терять",
-      "закрывать",
-      "готовить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-026",
-    "type": "single-choice",
-    "prompt": "δουλεύω",
-    "correctAnswer": "работать",
-    "wrongAnswers": [
-      "отдыхать",
-      "спать",
-      "играть"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-027",
-    "type": "single-choice",
-    "prompt": "σπουδάζω",
-    "correctAnswer": "учиться",
-    "wrongAnswers": [
-      "преподавать",
-      "покупать",
-      "танцевать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-028",
-    "type": "single-choice",
-    "prompt": "διδάσκω",
-    "correctAnswer": "преподавать",
-    "wrongAnswers": [
-      "учиться",
-      "читать",
-      "путешествовать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-029",
-    "type": "single-choice",
-    "prompt": "ρωτάω",
-    "correctAnswer": "спрашивать",
-    "wrongAnswers": [
-      "отвечать",
-      "знать",
-      "платить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-030",
-    "type": "single-choice",
-    "prompt": "απαντάω",
-    "correctAnswer": "отвечать",
-    "wrongAnswers": [
-      "спрашивать",
-      "искать",
-      "открывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-031",
-    "type": "single-choice",
-    "prompt": "περιμένω",
-    "correctAnswer": "ждать",
-    "wrongAnswers": [
-      "идти",
-      "покупать",
-      "помнить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-032",
-    "type": "single-choice",
-    "prompt": "παίρνω",
-    "correctAnswer": "брать",
-    "wrongAnswers": [
-      "давать",
-      "терять",
-      "открывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-033",
-    "type": "single-choice",
-    "prompt": "παίρνω",
-    "correctAnswer": "получать",
-    "wrongAnswers": [
-      "отправлять",
-      "продавать",
-      "закрывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-034",
-    "type": "single-choice",
-    "prompt": "δίνω",
-    "correctAnswer": "давать",
-    "wrongAnswers": [
-      "брать",
-      "искать",
-      "платить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-035",
-    "type": "single-choice",
-    "prompt": "βρίσκω",
-    "correctAnswer": "находить",
-    "wrongAnswers": [
-      "терять",
-      "покупать",
-      "слышать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-036",
-    "type": "single-choice",
-    "prompt": "χάνω",
-    "correctAnswer": "терять",
-    "wrongAnswers": [
-      "находить",
-      "держать",
-      "выигрывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-037",
-    "type": "single-choice",
-    "prompt": "ψάχνω",
-    "correctAnswer": "искать",
-    "wrongAnswers": [
-      "находить",
-      "спать",
-      "пить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-038",
-    "type": "single-choice",
-    "prompt": "αγοράζω",
-    "correctAnswer": "покупать",
-    "wrongAnswers": [
-      "продавать",
-      "читать",
-      "ждать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-039",
-    "type": "single-choice",
-    "prompt": "πουλάω",
-    "correctAnswer": "продавать",
-    "wrongAnswers": [
-      "покупать",
-      "знать",
-      "идти"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-040",
-    "type": "single-choice",
-    "prompt": "πληρώνω",
-    "correctAnswer": "платить",
-    "wrongAnswers": [
-      "получать",
-      "ждать",
-      "спрашивать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-041",
-    "type": "single-choice",
-    "prompt": "ανοίγω",
-    "correctAnswer": "открывать",
-    "wrongAnswers": [
-      "закрывать",
-      "покупать",
-      "пить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-042",
-    "type": "single-choice",
-    "prompt": "κλείνω",
-    "correctAnswer": "закрывать",
-    "wrongAnswers": [
-      "открывать",
-      "говорить",
-      "жить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-043",
-    "type": "single-choice",
-    "prompt": "μπαίνω",
-    "correctAnswer": "входить",
-    "wrongAnswers": [
-      "выходить",
-      "сидеть",
-      "работать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-044",
-    "type": "single-choice",
-    "prompt": "βγαίνω",
-    "correctAnswer": "выходить",
-    "wrongAnswers": [
-      "входить",
-      "ждать",
-      "учить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-045",
-    "type": "single-choice",
-    "prompt": "ανεβαίνω",
-    "correctAnswer": "подниматься",
-    "wrongAnswers": [
-      "спускаться",
-      "входить",
-      "стоять"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-046",
-    "type": "single-choice",
-    "prompt": "κατεβαίνω",
-    "correctAnswer": "спускаться",
-    "wrongAnswers": [
-      "подниматься",
-      "выходить",
-      "жить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-047",
-    "type": "single-choice",
-    "prompt": "κάθομαι",
-    "correctAnswer": "сидеть",
-    "wrongAnswers": [
-      "стоять",
-      "идти",
-      "пить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-048",
-    "type": "single-choice",
-    "prompt": "στέκομαι",
-    "correctAnswer": "стоять",
-    "wrongAnswers": [
-      "сидеть",
-      "спать",
-      "читать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-049",
-    "type": "single-choice",
-    "prompt": "κοιμάμαι",
-    "correctAnswer": "спать",
-    "wrongAnswers": [
-      "работать",
-      "есть",
-      "слышать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-050",
-    "type": "single-choice",
-    "prompt": "ξυπνάω",
-    "correctAnswer": "просыпаться",
-    "wrongAnswers": [
-      "спать",
-      "работать",
-      "закрывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-051",
-    "type": "single-choice",
-    "prompt": "θυμάμαι",
-    "correctAnswer": "помнить",
-    "wrongAnswers": [
-      "забывать",
-      "искать",
-      "идти"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-052",
-    "type": "single-choice",
-    "prompt": "ξεχνάω",
-    "correctAnswer": "забывать",
-    "wrongAnswers": [
-      "помнить",
-      "понимать",
-      "приходить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-053",
-    "type": "single-choice",
-    "prompt": "χρειάζομαι",
-    "correctAnswer": "нуждаться",
-    "wrongAnswers": [
-      "иметь",
-      "любить",
-      "смотреть"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-054",
-    "type": "single-choice",
-    "prompt": "χρειάζομαι",
-    "correctAnswer": "нужно",
-    "wrongAnswers": [
-      "знать",
-      "играть",
-      "танцевать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-055",
-    "type": "single-choice",
-    "prompt": "βοηθάω",
-    "correctAnswer": "помогать",
-    "wrongAnswers": [
-      "мешать",
-      "покупать",
-      "спрашивать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-056",
-    "type": "single-choice",
-    "prompt": "αρέσω",
-    "correctAnswer": "нравиться",
-    "wrongAnswers": [
-      "хотеть",
-      "знать",
-      "ждать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-057",
-    "type": "single-choice",
-    "prompt": "αγαπώ",
-    "correctAnswer": "любить",
-    "wrongAnswers": [
-      "ненавидеть",
-      "искать",
-      "ждать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-058",
-    "type": "single-choice",
-    "prompt": "μισώ",
-    "correctAnswer": "ненавидеть",
-    "wrongAnswers": [
-      "любить",
-      "помогать",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-059",
-    "type": "single-choice",
-    "prompt": "παίζω",
-    "correctAnswer": "играть",
-    "wrongAnswers": [
-      "работать",
-      "читать",
-      "платить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-060",
-    "type": "single-choice",
-    "prompt": "οδηγώ",
-    "correctAnswer": "водить",
-    "wrongAnswers": [
-      "идти",
-      "пить",
-      "писать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-061",
-    "type": "single-choice",
-    "prompt": "ταξιδεύω",
-    "correctAnswer": "путешествовать",
-    "wrongAnswers": [
-      "работать",
-      "спать",
-      "писать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-062",
-    "type": "single-choice",
-    "prompt": "γυρίζω",
-    "correctAnswer": "возвращаться",
-    "wrongAnswers": [
-      "уходить",
-      "забывать",
-      "открывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-063",
-    "type": "single-choice",
-    "prompt": "επιστρέφω",
-    "correctAnswer": "возвращаться",
-    "wrongAnswers": [
-      "уходить",
-      "начинать",
-      "подниматься"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-064",
-    "type": "single-choice",
-    "prompt": "αρχίζω",
-    "correctAnswer": "начинать",
-    "wrongAnswers": [
-      "заканчивать",
-      "покупать",
-      "плакать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-065",
-    "type": "single-choice",
-    "prompt": "τελειώνω",
-    "correctAnswer": "заканчивать",
-    "wrongAnswers": [
-      "начинать",
-      "покупать",
-      "слышать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-066",
-    "type": "single-choice",
-    "prompt": "στέλνω",
-    "correctAnswer": "отправлять",
-    "wrongAnswers": [
-      "получать",
-      "читать",
-      "закрывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-067",
-    "type": "single-choice",
-    "prompt": "φέρνω",
-    "correctAnswer": "приносить",
-    "wrongAnswers": [
-      "уносить",
-      "покупать",
-      "ждать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-068",
-    "type": "single-choice",
-    "prompt": "φοράω",
-    "correctAnswer": "носить",
-    "wrongAnswers": [
-      "нести",
-      "покупать",
-      "открывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-069",
-    "type": "single-choice",
-    "prompt": "βάζω",
-    "correctAnswer": "класть",
-    "wrongAnswers": [
-      "брать",
-      "искать",
-      "платить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-070",
-    "type": "single-choice",
-    "prompt": "βγάζω",
-    "correctAnswer": "вынимать",
-    "wrongAnswers": [
-      "класть",
-      "входить",
-      "оставаться"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-071",
-    "type": "single-choice",
-    "prompt": "κρατάω",
-    "correctAnswer": "держать",
-    "wrongAnswers": [
-      "терять",
-      "открывать",
-      "плакать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-072",
-    "type": "single-choice",
-    "prompt": "αφήνω",
-    "correctAnswer": "оставлять",
-    "wrongAnswers": [
-      "брать",
-      "помнить",
-      "платить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-073",
-    "type": "single-choice",
-    "prompt": "βάζω",
-    "correctAnswer": "ставить",
-    "wrongAnswers": [
-      "стоять",
-      "сидеть",
-      "спать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-074",
-    "type": "single-choice",
-    "prompt": "βγάζω",
-    "correctAnswer": "снимать",
-    "wrongAnswers": [
-      "надевать",
-      "читать",
-      "идти"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-075",
-    "type": "single-choice",
-    "prompt": "μαγειρεύω",
-    "correctAnswer": "готовить",
-    "wrongAnswers": [
-      "есть",
-      "пить",
-      "работать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-076",
-    "type": "single-choice",
-    "prompt": "πλένω",
-    "correctAnswer": "мыть",
-    "wrongAnswers": [
-      "готовить",
-      "писать",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-077",
-    "type": "single-choice",
-    "prompt": "καθαρίζω",
-    "correctAnswer": "убирать",
-    "wrongAnswers": [
-      "пачкать",
-      "читать",
-      "играть"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-078",
-    "type": "single-choice",
-    "prompt": "ζω",
-    "correctAnswer": "жить",
-    "wrongAnswers": [
-      "идти",
-      "спать",
-      "пить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-079",
-    "type": "single-choice",
-    "prompt": "πεθαίνω",
-    "correctAnswer": "умирать",
-    "wrongAnswers": [
-      "жить",
-      "рождаться",
-      "болеть"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-080",
-    "type": "single-choice",
-    "prompt": "γεννιέμαι",
-    "correctAnswer": "рождаться",
-    "wrongAnswers": [
-      "умирать",
-      "жить",
-      "плакать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-081",
-    "type": "single-choice",
-    "prompt": "νιώθω",
-    "correctAnswer": "чувствовать",
-    "wrongAnswers": [
-      "думать",
-      "знать",
-      "слышать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-082",
-    "type": "single-choice",
-    "prompt": "σκέφτομαι",
-    "correctAnswer": "думать",
-    "wrongAnswers": [
-      "чувствовать",
-      "забывать",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-083",
-    "type": "single-choice",
-    "prompt": "πιστεύω",
-    "correctAnswer": "верить",
-    "wrongAnswers": [
-      "знать",
-      "любить",
-      "ждать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-084",
-    "type": "single-choice",
-    "prompt": "ελπίζω",
-    "correctAnswer": "надеяться",
-    "wrongAnswers": [
-      "бояться",
-      "забывать",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-085",
-    "type": "single-choice",
-    "prompt": "φοβάμαι",
-    "correctAnswer": "бояться",
-    "wrongAnswers": [
-      "надеяться",
-      "любить",
-      "помогать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-086",
-    "type": "single-choice",
-    "prompt": "γελάω",
-    "correctAnswer": "смеяться",
-    "wrongAnswers": [
-      "плакать",
-      "говорить",
-      "играть"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-087",
-    "type": "single-choice",
-    "prompt": "κλαίω",
-    "correctAnswer": "плакать",
-    "wrongAnswers": [
-      "смеяться",
-      "работать",
-      "учить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-088",
-    "type": "single-choice",
-    "prompt": "χορεύω",
-    "correctAnswer": "танцевать",
-    "wrongAnswers": [
-      "петь",
-      "работать",
-      "читать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-089",
-    "type": "single-choice",
-    "prompt": "τραγουδάω",
-    "correctAnswer": "петь",
-    "wrongAnswers": [
-      "танцевать",
-      "читать",
-      "писать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-090",
-    "type": "single-choice",
-    "prompt": "φταίω",
-    "correctAnswer": "быть виноватым",
-    "wrongAnswers": [
-      "ждать",
-      "помогать",
-      "спать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-091",
-    "type": "single-choice",
-    "prompt": "προσέχω",
-    "correctAnswer": "быть внимательным",
-    "wrongAnswers": [
-      "платить",
-      "играть",
-      "плакать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-092",
-    "type": "single-choice",
-    "prompt": "δοκιμάζω",
-    "correctAnswer": "пробовать",
-    "wrongAnswers": [
-      "покупать",
-      "продавать",
-      "забывать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-093",
-    "type": "single-choice",
-    "prompt": "χρησιμοποιώ",
-    "correctAnswer": "использовать",
-    "wrongAnswers": [
-      "покупать",
-      "искать",
-      "читать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-094",
-    "type": "single-choice",
-    "prompt": "χτίζω",
-    "correctAnswer": "строить",
-    "wrongAnswers": [
-      "ломать",
-      "покупать",
-      "писать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-095",
-    "type": "single-choice",
-    "prompt": "αλλάζω",
-    "correctAnswer": "менять",
-    "wrongAnswers": [
-      "оставлять",
-      "забывать",
-      "стоять"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-096",
-    "type": "single-choice",
-    "prompt": "νοικιάζω",
-    "correctAnswer": "арендовать",
-    "wrongAnswers": [
-      "покупать",
-      "продавать",
-      "платить"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-097",
-    "type": "single-choice",
-    "prompt": "κοστίζω",
-    "correctAnswer": "стоить",
-    "wrongAnswers": [
-      "платить",
-      "покупать",
-      "продавать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-098",
-    "type": "single-choice",
-    "prompt": "γνωρίζω",
-    "correctAnswer": "знакомиться",
-    "wrongAnswers": [
-      "забывать",
-      "покупать",
-      "работать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-099",
-    "type": "single-choice",
-    "prompt": "γνωρίζω",
-    "correctAnswer": "знать",
-    "wrongAnswers": [
-      "хотеть",
-      "играть",
-      "покупать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "popular-greek-verbs-100",
-    "type": "single-choice",
-    "prompt": "συναντάω",
-    "correctAnswer": "встречать",
-    "wrongAnswers": [
-      "провожать",
-      "ждать",
-      "искать"
-    ],
-    "promptLanguage": "el"
-  },
-  {
-    "id": "greek-pronouns-reverse-101",
-    "type": "single-choice",
-    "prompt": "быть",
-    "correctAnswer": "είμαι",
-    "wrongAnswers": [
-      "έχω",
-      "κάνω",
-      "πάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-102",
-    "type": "single-choice",
-    "prompt": "иметь",
-    "correctAnswer": "έχω",
-    "wrongAnswers": [
-      "είμαι",
-      "θέλω",
-      "ξέρω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-103",
-    "type": "single-choice",
-    "prompt": "делать",
-    "correctAnswer": "κάνω",
-    "wrongAnswers": [
-      "περιμένω",
-      "ακούω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-104",
-    "type": "single-choice",
-    "prompt": "говорить",
-    "correctAnswer": "λέω",
-    "wrongAnswers": [
-      "ακούω",
-      "γράφω",
-      "διαβάζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-105",
-    "type": "single-choice",
-    "prompt": "хотеть",
-    "correctAnswer": "θέλω",
-    "wrongAnswers": [
-      "μπορώ",
-      "ξέρω",
-      "καταλαβαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-106",
-    "type": "single-choice",
-    "prompt": "знать",
-    "correctAnswer": "ξέρω",
-    "wrongAnswers": [
-      "θέλω",
-      "μαθαίνω",
-      "ψάχνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-107",
-    "type": "single-choice",
-    "prompt": "мочь",
-    "correctAnswer": "μπορώ",
-    "wrongAnswers": [
-      "θέλω",
-      "έχω",
-      "αγαπώ"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-108",
-    "type": "single-choice",
-    "prompt": "идти",
-    "correctAnswer": "πάω",
-    "wrongAnswers": [
-      "στέκομαι",
-      "κάθομαι",
-      "μένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-109",
-    "type": "single-choice",
-    "prompt": "идти",
-    "correctAnswer": "πηγαίνω",
-    "wrongAnswers": [
-      "γυρίζω",
-      "μένω",
-      "μπαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-110",
-    "type": "single-choice",
-    "prompt": "приходить",
-    "correctAnswer": "έρχομαι",
-    "wrongAnswers": [
-      "φεύγω",
-      "περιμένω",
-      "παίρνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-111",
-    "type": "single-choice",
-    "prompt": "уходить",
-    "correctAnswer": "φεύγω",
-    "wrongAnswers": [
-      "έρχομαι",
-      "μπαίνω",
-      "στέκομαι"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-112",
-    "type": "single-choice",
-    "prompt": "жить",
-    "correctAnswer": "μένω",
-    "wrongAnswers": [
-      "πηγαίνω",
-      "δουλεύω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-113",
-    "type": "single-choice",
-    "prompt": "оставаться",
-    "correctAnswer": "μένω",
-    "wrongAnswers": [
-      "φεύγω",
-      "πουλάω",
-      "κλαίω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-114",
-    "type": "single-choice",
-    "prompt": "видеть",
-    "correctAnswer": "βλέπω",
-    "wrongAnswers": [
-      "ακούω",
-      "λέω",
-      "γράφω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-115",
-    "type": "single-choice",
-    "prompt": "смотреть",
-    "correctAnswer": "βλέπω",
-    "wrongAnswers": [
-      "ακούω",
-      "διαβάζω",
-      "πίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-116",
-    "type": "single-choice",
-    "prompt": "слышать",
-    "correctAnswer": "ακούω",
-    "wrongAnswers": [
-      "βλέπω",
-      "ξέρω",
-      "τρώω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-117",
-    "type": "single-choice",
-    "prompt": "слушать",
-    "correctAnswer": "ακούω",
-    "wrongAnswers": [
-      "βλέπω",
-      "αγοράζω",
-      "ανοίγω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-118",
-    "type": "single-choice",
-    "prompt": "есть",
-    "correctAnswer": "τρώω",
-    "wrongAnswers": [
-      "πίνω",
-      "κοιμάμαι",
-      "δουλεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-119",
-    "type": "single-choice",
-    "prompt": "пить",
-    "correctAnswer": "πίνω",
-    "wrongAnswers": [
-      "τρώω",
-      "μαγειρεύω",
-      "διαβάζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-120",
-    "type": "single-choice",
-    "prompt": "читать",
-    "correctAnswer": "διαβάζω",
-    "wrongAnswers": [
-      "γράφω",
-      "ακούω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-121",
-    "type": "single-choice",
-    "prompt": "писать",
-    "correctAnswer": "γράφω",
-    "wrongAnswers": [
-      "διαβάζω",
-      "λέω",
-      "ακούω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-122",
-    "type": "single-choice",
-    "prompt": "говорить",
-    "correctAnswer": "μιλάω",
-    "wrongAnswers": [
-      "ακούω",
-      "περιμένω",
-      "πληρώνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-123",
-    "type": "single-choice",
-    "prompt": "понимать",
-    "correctAnswer": "καταλαβαίνω",
-    "wrongAnswers": [
-      "ξεχνάω",
-      "αγοράζω",
-      "ρωτάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-124",
-    "type": "single-choice",
-    "prompt": "учить",
-    "correctAnswer": "μαθαίνω",
-    "wrongAnswers": [
-      "ξεχνάω",
-      "πληρώνω",
-      "γυρίζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-125",
-    "type": "single-choice",
-    "prompt": "узнавать",
-    "correctAnswer": "μαθαίνω",
-    "wrongAnswers": [
-      "χάνω",
-      "κλείνω",
-      "μαγειρεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-126",
-    "type": "single-choice",
-    "prompt": "работать",
-    "correctAnswer": "δουλεύω",
-    "wrongAnswers": [
-      "ξεκουράζομαι",
-      "κοιμάμαι",
-      "παίζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-127",
-    "type": "single-choice",
-    "prompt": "учиться",
-    "correctAnswer": "σπουδάζω",
-    "wrongAnswers": [
-      "διδάσκω",
-      "αγοράζω",
-      "χορεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-128",
-    "type": "single-choice",
-    "prompt": "преподавать",
-    "correctAnswer": "διδάσκω",
-    "wrongAnswers": [
-      "σπουδάζω",
-      "διαβάζω",
-      "ταξιδεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-129",
-    "type": "single-choice",
-    "prompt": "спрашивать",
-    "correctAnswer": "ρωτάω",
-    "wrongAnswers": [
-      "απαντάω",
-      "ξέρω",
-      "πληρώνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-130",
-    "type": "single-choice",
-    "prompt": "отвечать",
-    "correctAnswer": "απαντάω",
-    "wrongAnswers": [
-      "ρωτάω",
-      "ψάχνω",
-      "ανοίγω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-131",
-    "type": "single-choice",
-    "prompt": "ждать",
-    "correctAnswer": "περιμένω",
-    "wrongAnswers": [
-      "πηγαίνω",
-      "αγοράζω",
-      "θυμάμαι"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-132",
-    "type": "single-choice",
-    "prompt": "брать",
-    "correctAnswer": "παίρνω",
-    "wrongAnswers": [
-      "δίνω",
-      "χάνω",
-      "ανοίγω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-133",
-    "type": "single-choice",
-    "prompt": "получать",
-    "correctAnswer": "παίρνω",
-    "wrongAnswers": [
-      "στέλνω",
-      "πουλάω",
-      "κλείνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-134",
-    "type": "single-choice",
-    "prompt": "давать",
-    "correctAnswer": "δίνω",
-    "wrongAnswers": [
-      "παίρνω",
-      "ψάχνω",
-      "πληρώνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-135",
-    "type": "single-choice",
-    "prompt": "находить",
-    "correctAnswer": "βρίσκω",
-    "wrongAnswers": [
-      "χάνω",
-      "αγοράζω",
-      "ακούω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-136",
-    "type": "single-choice",
-    "prompt": "терять",
-    "correctAnswer": "χάνω",
-    "wrongAnswers": [
-      "βρίσκω",
-      "κρατάω",
-      "κερδίζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-137",
-    "type": "single-choice",
-    "prompt": "искать",
-    "correctAnswer": "ψάχνω",
-    "wrongAnswers": [
-      "βρίσκω",
-      "κοιμάμαι",
-      "πίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-138",
-    "type": "single-choice",
-    "prompt": "покупать",
-    "correctAnswer": "αγοράζω",
-    "wrongAnswers": [
-      "πουλάω",
-      "διαβάζω",
-      "περιμένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-139",
-    "type": "single-choice",
-    "prompt": "продавать",
-    "correctAnswer": "πουλάω",
-    "wrongAnswers": [
-      "αγοράζω",
-      "ξέρω",
-      "πηγαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-140",
-    "type": "single-choice",
-    "prompt": "платить",
-    "correctAnswer": "πληρώνω",
-    "wrongAnswers": [
-      "παίρνω",
-      "περιμένω",
-      "ρωτάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-141",
-    "type": "single-choice",
-    "prompt": "открывать",
-    "correctAnswer": "ανοίγω",
-    "wrongAnswers": [
-      "κλείνω",
-      "αγοράζω",
-      "πίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-142",
-    "type": "single-choice",
-    "prompt": "закрывать",
-    "correctAnswer": "κλείνω",
-    "wrongAnswers": [
-      "ανοίγω",
-      "λέω",
-      "μένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-143",
-    "type": "single-choice",
-    "prompt": "входить",
-    "correctAnswer": "μπαίνω",
-    "wrongAnswers": [
-      "βγαίνω",
-      "κάθομαι",
-      "δουλεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-144",
-    "type": "single-choice",
-    "prompt": "выходить",
-    "correctAnswer": "βγαίνω",
-    "wrongAnswers": [
-      "μπαίνω",
-      "περιμένω",
-      "μαθαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-145",
-    "type": "single-choice",
-    "prompt": "подниматься",
-    "correctAnswer": "ανεβαίνω",
-    "wrongAnswers": [
-      "κατεβαίνω",
-      "μπαίνω",
-      "στέκομαι"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-146",
-    "type": "single-choice",
-    "prompt": "спускаться",
-    "correctAnswer": "κατεβαίνω",
-    "wrongAnswers": [
-      "ανεβαίνω",
-      "βγαίνω",
-      "μένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-147",
-    "type": "single-choice",
-    "prompt": "сидеть",
-    "correctAnswer": "κάθομαι",
-    "wrongAnswers": [
-      "στέκομαι",
-      "πηγαίνω",
-      "πίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-148",
-    "type": "single-choice",
-    "prompt": "стоять",
-    "correctAnswer": "στέκομαι",
-    "wrongAnswers": [
-      "κάθομαι",
-      "κοιμάμαι",
-      "διαβάζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-149",
-    "type": "single-choice",
-    "prompt": "спать",
-    "correctAnswer": "κοιμάμαι",
-    "wrongAnswers": [
-      "δουλεύω",
-      "τρώω",
-      "ακούω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-150",
-    "type": "single-choice",
-    "prompt": "просыпаться",
-    "correctAnswer": "ξυπνάω",
-    "wrongAnswers": [
-      "κοιμάμαι",
-      "δουλεύω",
-      "κλείνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-151",
-    "type": "single-choice",
-    "prompt": "помнить",
-    "correctAnswer": "θυμάμαι",
-    "wrongAnswers": [
-      "ξεχνάω",
-      "ψάχνω",
-      "πηγαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-152",
-    "type": "single-choice",
-    "prompt": "забывать",
-    "correctAnswer": "ξεχνάω",
-    "wrongAnswers": [
-      "θυμάμαι",
-      "καταλαβαίνω",
-      "έρχομαι"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-153",
-    "type": "single-choice",
-    "prompt": "нуждаться",
-    "correctAnswer": "χρειάζομαι",
-    "wrongAnswers": [
-      "έχω",
-      "αγαπώ",
-      "βλέπω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-154",
-    "type": "single-choice",
-    "prompt": "нужно",
-    "correctAnswer": "χρειάζομαι",
-    "wrongAnswers": [
-      "ξέρω",
-      "παίζω",
-      "χορεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-155",
-    "type": "single-choice",
-    "prompt": "помогать",
-    "correctAnswer": "βοηθάω",
-    "wrongAnswers": [
-      "ενοχλώ",
-      "αγοράζω",
-      "ρωτάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-156",
-    "type": "single-choice",
-    "prompt": "нравиться",
-    "correctAnswer": "αρέσω",
-    "wrongAnswers": [
-      "θέλω",
-      "ξέρω",
-      "περιμένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-157",
-    "type": "single-choice",
-    "prompt": "любить",
-    "correctAnswer": "αγαπώ",
-    "wrongAnswers": [
-      "μισώ",
-      "ψάχνω",
-      "περιμένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-158",
-    "type": "single-choice",
-    "prompt": "ненавидеть",
-    "correctAnswer": "μισώ",
-    "wrongAnswers": [
-      "αγαπώ",
-      "βοηθάω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-159",
-    "type": "single-choice",
-    "prompt": "играть",
-    "correctAnswer": "παίζω",
-    "wrongAnswers": [
-      "δουλεύω",
-      "διαβάζω",
-      "πληρώνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-160",
-    "type": "single-choice",
-    "prompt": "водить",
-    "correctAnswer": "οδηγώ",
-    "wrongAnswers": [
-      "πηγαίνω",
-      "πίνω",
-      "γράφω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-161",
-    "type": "single-choice",
-    "prompt": "путешествовать",
-    "correctAnswer": "ταξιδεύω",
-    "wrongAnswers": [
-      "δουλεύω",
-      "κοιμάμαι",
-      "γράφω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-162",
-    "type": "single-choice",
-    "prompt": "возвращаться",
-    "correctAnswer": "γυρίζω",
-    "wrongAnswers": [
-      "φεύγω",
-      "ξεχνάω",
-      "ανοίγω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-163",
-    "type": "single-choice",
-    "prompt": "возвращаться",
-    "correctAnswer": "επιστρέφω",
-    "wrongAnswers": [
-      "φεύγω",
-      "αρχίζω",
-      "ανεβαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-164",
-    "type": "single-choice",
-    "prompt": "начинать",
-    "correctAnswer": "αρχίζω",
-    "wrongAnswers": [
-      "τελειώνω",
-      "αγοράζω",
-      "κλαίω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-165",
-    "type": "single-choice",
-    "prompt": "заканчивать",
-    "correctAnswer": "τελειώνω",
-    "wrongAnswers": [
-      "αρχίζω",
-      "αγοράζω",
-      "ακούω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-166",
-    "type": "single-choice",
-    "prompt": "отправлять",
-    "correctAnswer": "στέλνω",
-    "wrongAnswers": [
-      "παίρνω",
-      "διαβάζω",
-      "κλείνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-167",
-    "type": "single-choice",
-    "prompt": "приносить",
-    "correctAnswer": "φέρνω",
-    "wrongAnswers": [
-      "παίρνω",
-      "αγοράζω",
-      "περιμένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-168",
-    "type": "single-choice",
-    "prompt": "носить",
-    "correctAnswer": "φοράω",
-    "wrongAnswers": [
-      "φέρνω",
-      "αγοράζω",
-      "ανοίγω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-169",
-    "type": "single-choice",
-    "prompt": "класть",
-    "correctAnswer": "βάζω",
-    "wrongAnswers": [
-      "παίρνω",
-      "ψάχνω",
-      "πληρώνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-170",
-    "type": "single-choice",
-    "prompt": "вынимать",
-    "correctAnswer": "βγάζω",
-    "wrongAnswers": [
-      "βάζω",
-      "μπαίνω",
-      "μένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-171",
-    "type": "single-choice",
-    "prompt": "держать",
-    "correctAnswer": "κρατάω",
-    "wrongAnswers": [
-      "χάνω",
-      "ανοίγω",
-      "κλαίω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-172",
-    "type": "single-choice",
-    "prompt": "оставлять",
-    "correctAnswer": "αφήνω",
-    "wrongAnswers": [
-      "παίρνω",
-      "θυμάμαι",
-      "πληρώνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-173",
-    "type": "single-choice",
-    "prompt": "ставить",
-    "correctAnswer": "βάζω",
-    "wrongAnswers": [
-      "στέκομαι",
-      "κάθομαι",
-      "κοιμάμαι"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-174",
-    "type": "single-choice",
-    "prompt": "снимать",
-    "correctAnswer": "βγάζω",
-    "wrongAnswers": [
-      "φοράω",
-      "διαβάζω",
-      "πηγαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-175",
-    "type": "single-choice",
-    "prompt": "готовить",
-    "correctAnswer": "μαγειρεύω",
-    "wrongAnswers": [
-      "τρώω",
-      "πίνω",
-      "δουλεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-176",
-    "type": "single-choice",
-    "prompt": "мыть",
-    "correctAnswer": "πλένω",
-    "wrongAnswers": [
-      "μαγειρεύω",
-      "γράφω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-177",
-    "type": "single-choice",
-    "prompt": "убирать",
-    "correctAnswer": "καθαρίζω",
-    "wrongAnswers": [
-      "λερώνω",
-      "διαβάζω",
-      "παίζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-178",
-    "type": "single-choice",
-    "prompt": "жить",
-    "correctAnswer": "ζω",
-    "wrongAnswers": [
-      "πηγαίνω",
-      "κοιμάμαι",
-      "πίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-179",
-    "type": "single-choice",
-    "prompt": "умирать",
-    "correctAnswer": "πεθαίνω",
-    "wrongAnswers": [
-      "ζω",
-      "γεννιέμαι",
-      "πονάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-180",
-    "type": "single-choice",
-    "prompt": "рождаться",
-    "correctAnswer": "γεννιέμαι",
-    "wrongAnswers": [
-      "πεθαίνω",
-      "ζω",
-      "κλαίω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-181",
-    "type": "single-choice",
-    "prompt": "чувствовать",
-    "correctAnswer": "νιώθω",
-    "wrongAnswers": [
-      "σκέφτομαι",
-      "ξέρω",
-      "ακούω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-182",
-    "type": "single-choice",
-    "prompt": "думать",
-    "correctAnswer": "σκέφτομαι",
-    "wrongAnswers": [
-      "νιώθω",
-      "ξεχνάω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-183",
-    "type": "single-choice",
-    "prompt": "верить",
-    "correctAnswer": "πιστεύω",
-    "wrongAnswers": [
-      "ξέρω",
-      "αγαπώ",
-      "περιμένω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-184",
-    "type": "single-choice",
-    "prompt": "надеяться",
-    "correctAnswer": "ελπίζω",
-    "wrongAnswers": [
-      "φοβάμαι",
-      "ξεχνάω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-185",
-    "type": "single-choice",
-    "prompt": "бояться",
-    "correctAnswer": "φοβάμαι",
-    "wrongAnswers": [
-      "ελπίζω",
-      "αγαπώ",
-      "βοηθάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-186",
-    "type": "single-choice",
-    "prompt": "смеяться",
-    "correctAnswer": "γελάω",
-    "wrongAnswers": [
-      "κλαίω",
-      "λέω",
-      "παίζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-187",
-    "type": "single-choice",
-    "prompt": "плакать",
-    "correctAnswer": "κλαίω",
-    "wrongAnswers": [
-      "γελάω",
-      "δουλεύω",
-      "μαθαίνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-188",
-    "type": "single-choice",
-    "prompt": "танцевать",
-    "correctAnswer": "χορεύω",
-    "wrongAnswers": [
-      "τραγουδάω",
-      "δουλεύω",
-      "διαβάζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-189",
-    "type": "single-choice",
-    "prompt": "петь",
-    "correctAnswer": "τραγουδάω",
-    "wrongAnswers": [
-      "χορεύω",
-      "διαβάζω",
-      "γράφω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-190",
-    "type": "single-choice",
-    "prompt": "быть виноватым",
-    "correctAnswer": "φταίω",
-    "wrongAnswers": [
-      "περιμένω",
-      "βοηθάω",
-      "κοιμάμαι"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-191",
-    "type": "single-choice",
-    "prompt": "быть внимательным",
-    "correctAnswer": "προσέχω",
-    "wrongAnswers": [
-      "πληρώνω",
-      "παίζω",
-      "κλαίω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-192",
-    "type": "single-choice",
-    "prompt": "пробовать",
-    "correctAnswer": "δοκιμάζω",
-    "wrongAnswers": [
-      "αγοράζω",
-      "πουλάω",
-      "ξεχνάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-193",
-    "type": "single-choice",
-    "prompt": "использовать",
-    "correctAnswer": "χρησιμοποιώ",
-    "wrongAnswers": [
-      "αγοράζω",
-      "ψάχνω",
-      "διαβάζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-194",
-    "type": "single-choice",
-    "prompt": "строить",
-    "correctAnswer": "χτίζω",
-    "wrongAnswers": [
-      "χαλάω",
-      "αγοράζω",
-      "γράφω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-195",
-    "type": "single-choice",
-    "prompt": "менять",
-    "correctAnswer": "αλλάζω",
-    "wrongAnswers": [
-      "αφήνω",
-      "ξεχνάω",
-      "στέκομαι"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-196",
-    "type": "single-choice",
-    "prompt": "арендовать",
-    "correctAnswer": "νοικιάζω",
-    "wrongAnswers": [
-      "αγοράζω",
-      "πουλάω",
-      "πληρώνω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-197",
-    "type": "single-choice",
-    "prompt": "стоить",
-    "correctAnswer": "κοστίζω",
-    "wrongAnswers": [
-      "πληρώνω",
-      "αγοράζω",
-      "πουλάω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-198",
-    "type": "single-choice",
-    "prompt": "знакомиться",
-    "correctAnswer": "γνωρίζω",
-    "wrongAnswers": [
-      "ξεχνάω",
-      "αγοράζω",
-      "δουλεύω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-199",
-    "type": "single-choice",
-    "prompt": "знать",
-    "correctAnswer": "γνωρίζω",
-    "wrongAnswers": [
-      "θέλω",
-      "παίζω",
-      "αγοράζω"
-    ],
-    "promptLanguage": "ru"
-  },
-  {
-    "id": "greek-pronouns-reverse-200",
-    "type": "single-choice",
-    "prompt": "встречать",
-    "correctAnswer": "συναντάω",
-    "wrongAnswers": [
-      "περιμένω",
-      "φεύγω",
-      "ψάχνω"
-    ],
-    "promptLanguage": "ru"
-  }
-]
+{
+  "title": "Популярные глаголы",
+  "subtitle": "Выберите правильный перевод",
+  "items": [
+    {
+      "id": "popular-greek-verbs-001",
+      "type": "single-choice",
+      "prompt": "είμαι",
+      "correctAnswer": "быть",
+      "wrongAnswers": [
+        "иметь",
+        "делать",
+        "идти"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-002",
+      "type": "single-choice",
+      "prompt": "έχω",
+      "correctAnswer": "иметь",
+      "wrongAnswers": [
+        "быть",
+        "хотеть",
+        "знать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-003",
+      "type": "single-choice",
+      "prompt": "κάνω",
+      "correctAnswer": "делать",
+      "wrongAnswers": [
+        "ждать",
+        "слышать",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-004",
+      "type": "single-choice",
+      "prompt": "λέω",
+      "correctAnswer": "говорить",
+      "wrongAnswers": [
+        "слушать",
+        "писать",
+        "читать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-005",
+      "type": "single-choice",
+      "prompt": "θέλω",
+      "correctAnswer": "хотеть",
+      "wrongAnswers": [
+        "мочь",
+        "знать",
+        "понимать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-006",
+      "type": "single-choice",
+      "prompt": "ξέρω",
+      "correctAnswer": "знать",
+      "wrongAnswers": [
+        "хотеть",
+        "учить",
+        "искать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-007",
+      "type": "single-choice",
+      "prompt": "μπορώ",
+      "correctAnswer": "мочь",
+      "wrongAnswers": [
+        "хотеть",
+        "иметь",
+        "любить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-008",
+      "type": "single-choice",
+      "prompt": "πάω",
+      "correctAnswer": "идти",
+      "wrongAnswers": [
+        "стоять",
+        "сидеть",
+        "жить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-009",
+      "type": "single-choice",
+      "prompt": "πηγαίνω",
+      "correctAnswer": "идти",
+      "wrongAnswers": [
+        "возвращаться",
+        "оставаться",
+        "входить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-010",
+      "type": "single-choice",
+      "prompt": "έρχομαι",
+      "correctAnswer": "приходить",
+      "wrongAnswers": [
+        "уходить",
+        "ждать",
+        "брать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-011",
+      "type": "single-choice",
+      "prompt": "φεύγω",
+      "correctAnswer": "уходить",
+      "wrongAnswers": [
+        "приходить",
+        "входить",
+        "стоять"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-012",
+      "type": "single-choice",
+      "prompt": "μένω",
+      "correctAnswer": "жить",
+      "wrongAnswers": [
+        "идти",
+        "работать",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-013",
+      "type": "single-choice",
+      "prompt": "μένω",
+      "correctAnswer": "оставаться",
+      "wrongAnswers": [
+        "уходить",
+        "продавать",
+        "плакать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-014",
+      "type": "single-choice",
+      "prompt": "βλέπω",
+      "correctAnswer": "видеть",
+      "wrongAnswers": [
+        "слышать",
+        "говорить",
+        "писать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-015",
+      "type": "single-choice",
+      "prompt": "βλέπω",
+      "correctAnswer": "смотреть",
+      "wrongAnswers": [
+        "слушать",
+        "читать",
+        "пить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-016",
+      "type": "single-choice",
+      "prompt": "ακούω",
+      "correctAnswer": "слышать",
+      "wrongAnswers": [
+        "видеть",
+        "знать",
+        "есть"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-017",
+      "type": "single-choice",
+      "prompt": "ακούω",
+      "correctAnswer": "слушать",
+      "wrongAnswers": [
+        "смотреть",
+        "покупать",
+        "открывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-018",
+      "type": "single-choice",
+      "prompt": "τρώω",
+      "correctAnswer": "есть",
+      "wrongAnswers": [
+        "пить",
+        "спать",
+        "работать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-019",
+      "type": "single-choice",
+      "prompt": "πίνω",
+      "correctAnswer": "пить",
+      "wrongAnswers": [
+        "есть",
+        "готовить",
+        "читать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-020",
+      "type": "single-choice",
+      "prompt": "διαβάζω",
+      "correctAnswer": "читать",
+      "wrongAnswers": [
+        "писать",
+        "слушать",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-021",
+      "type": "single-choice",
+      "prompt": "γράφω",
+      "correctAnswer": "писать",
+      "wrongAnswers": [
+        "читать",
+        "говорить",
+        "слышать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-022",
+      "type": "single-choice",
+      "prompt": "μιλάω",
+      "correctAnswer": "говорить",
+      "wrongAnswers": [
+        "слушать",
+        "ждать",
+        "платить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-023",
+      "type": "single-choice",
+      "prompt": "καταλαβαίνω",
+      "correctAnswer": "понимать",
+      "wrongAnswers": [
+        "забывать",
+        "покупать",
+        "спрашивать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-024",
+      "type": "single-choice",
+      "prompt": "μαθαίνω",
+      "correctAnswer": "учить",
+      "wrongAnswers": [
+        "забывать",
+        "платить",
+        "возвращаться"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-025",
+      "type": "single-choice",
+      "prompt": "μαθαίνω",
+      "correctAnswer": "узнавать",
+      "wrongAnswers": [
+        "терять",
+        "закрывать",
+        "готовить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-026",
+      "type": "single-choice",
+      "prompt": "δουλεύω",
+      "correctAnswer": "работать",
+      "wrongAnswers": [
+        "отдыхать",
+        "спать",
+        "играть"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-027",
+      "type": "single-choice",
+      "prompt": "σπουδάζω",
+      "correctAnswer": "учиться",
+      "wrongAnswers": [
+        "преподавать",
+        "покупать",
+        "танцевать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-028",
+      "type": "single-choice",
+      "prompt": "διδάσκω",
+      "correctAnswer": "преподавать",
+      "wrongAnswers": [
+        "учиться",
+        "читать",
+        "путешествовать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-029",
+      "type": "single-choice",
+      "prompt": "ρωτάω",
+      "correctAnswer": "спрашивать",
+      "wrongAnswers": [
+        "отвечать",
+        "знать",
+        "платить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-030",
+      "type": "single-choice",
+      "prompt": "απαντάω",
+      "correctAnswer": "отвечать",
+      "wrongAnswers": [
+        "спрашивать",
+        "искать",
+        "открывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-031",
+      "type": "single-choice",
+      "prompt": "περιμένω",
+      "correctAnswer": "ждать",
+      "wrongAnswers": [
+        "идти",
+        "покупать",
+        "помнить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-032",
+      "type": "single-choice",
+      "prompt": "παίρνω",
+      "correctAnswer": "брать",
+      "wrongAnswers": [
+        "давать",
+        "терять",
+        "открывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-033",
+      "type": "single-choice",
+      "prompt": "παίρνω",
+      "correctAnswer": "получать",
+      "wrongAnswers": [
+        "отправлять",
+        "продавать",
+        "закрывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-034",
+      "type": "single-choice",
+      "prompt": "δίνω",
+      "correctAnswer": "давать",
+      "wrongAnswers": [
+        "брать",
+        "искать",
+        "платить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-035",
+      "type": "single-choice",
+      "prompt": "βρίσκω",
+      "correctAnswer": "находить",
+      "wrongAnswers": [
+        "терять",
+        "покупать",
+        "слышать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-036",
+      "type": "single-choice",
+      "prompt": "χάνω",
+      "correctAnswer": "терять",
+      "wrongAnswers": [
+        "находить",
+        "держать",
+        "выигрывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-037",
+      "type": "single-choice",
+      "prompt": "ψάχνω",
+      "correctAnswer": "искать",
+      "wrongAnswers": [
+        "находить",
+        "спать",
+        "пить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-038",
+      "type": "single-choice",
+      "prompt": "αγοράζω",
+      "correctAnswer": "покупать",
+      "wrongAnswers": [
+        "продавать",
+        "читать",
+        "ждать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-039",
+      "type": "single-choice",
+      "prompt": "πουλάω",
+      "correctAnswer": "продавать",
+      "wrongAnswers": [
+        "покупать",
+        "знать",
+        "идти"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-040",
+      "type": "single-choice",
+      "prompt": "πληρώνω",
+      "correctAnswer": "платить",
+      "wrongAnswers": [
+        "получать",
+        "ждать",
+        "спрашивать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-041",
+      "type": "single-choice",
+      "prompt": "ανοίγω",
+      "correctAnswer": "открывать",
+      "wrongAnswers": [
+        "закрывать",
+        "покупать",
+        "пить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-042",
+      "type": "single-choice",
+      "prompt": "κλείνω",
+      "correctAnswer": "закрывать",
+      "wrongAnswers": [
+        "открывать",
+        "говорить",
+        "жить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-043",
+      "type": "single-choice",
+      "prompt": "μπαίνω",
+      "correctAnswer": "входить",
+      "wrongAnswers": [
+        "выходить",
+        "сидеть",
+        "работать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-044",
+      "type": "single-choice",
+      "prompt": "βγαίνω",
+      "correctAnswer": "выходить",
+      "wrongAnswers": [
+        "входить",
+        "ждать",
+        "учить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-045",
+      "type": "single-choice",
+      "prompt": "ανεβαίνω",
+      "correctAnswer": "подниматься",
+      "wrongAnswers": [
+        "спускаться",
+        "входить",
+        "стоять"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-046",
+      "type": "single-choice",
+      "prompt": "κατεβαίνω",
+      "correctAnswer": "спускаться",
+      "wrongAnswers": [
+        "подниматься",
+        "выходить",
+        "жить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-047",
+      "type": "single-choice",
+      "prompt": "κάθομαι",
+      "correctAnswer": "сидеть",
+      "wrongAnswers": [
+        "стоять",
+        "идти",
+        "пить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-048",
+      "type": "single-choice",
+      "prompt": "στέκομαι",
+      "correctAnswer": "стоять",
+      "wrongAnswers": [
+        "сидеть",
+        "спать",
+        "читать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-049",
+      "type": "single-choice",
+      "prompt": "κοιμάμαι",
+      "correctAnswer": "спать",
+      "wrongAnswers": [
+        "работать",
+        "есть",
+        "слышать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-050",
+      "type": "single-choice",
+      "prompt": "ξυπνάω",
+      "correctAnswer": "просыпаться",
+      "wrongAnswers": [
+        "спать",
+        "работать",
+        "закрывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-051",
+      "type": "single-choice",
+      "prompt": "θυμάμαι",
+      "correctAnswer": "помнить",
+      "wrongAnswers": [
+        "забывать",
+        "искать",
+        "идти"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-052",
+      "type": "single-choice",
+      "prompt": "ξεχνάω",
+      "correctAnswer": "забывать",
+      "wrongAnswers": [
+        "помнить",
+        "понимать",
+        "приходить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-053",
+      "type": "single-choice",
+      "prompt": "χρειάζομαι",
+      "correctAnswer": "нуждаться",
+      "wrongAnswers": [
+        "иметь",
+        "любить",
+        "смотреть"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-054",
+      "type": "single-choice",
+      "prompt": "χρειάζομαι",
+      "correctAnswer": "нужно",
+      "wrongAnswers": [
+        "знать",
+        "играть",
+        "танцевать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-055",
+      "type": "single-choice",
+      "prompt": "βοηθάω",
+      "correctAnswer": "помогать",
+      "wrongAnswers": [
+        "мешать",
+        "покупать",
+        "спрашивать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-056",
+      "type": "single-choice",
+      "prompt": "αρέσω",
+      "correctAnswer": "нравиться",
+      "wrongAnswers": [
+        "хотеть",
+        "знать",
+        "ждать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-057",
+      "type": "single-choice",
+      "prompt": "αγαπώ",
+      "correctAnswer": "любить",
+      "wrongAnswers": [
+        "ненавидеть",
+        "искать",
+        "ждать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-058",
+      "type": "single-choice",
+      "prompt": "μισώ",
+      "correctAnswer": "ненавидеть",
+      "wrongAnswers": [
+        "любить",
+        "помогать",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-059",
+      "type": "single-choice",
+      "prompt": "παίζω",
+      "correctAnswer": "играть",
+      "wrongAnswers": [
+        "работать",
+        "читать",
+        "платить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-060",
+      "type": "single-choice",
+      "prompt": "οδηγώ",
+      "correctAnswer": "водить",
+      "wrongAnswers": [
+        "идти",
+        "пить",
+        "писать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-061",
+      "type": "single-choice",
+      "prompt": "ταξιδεύω",
+      "correctAnswer": "путешествовать",
+      "wrongAnswers": [
+        "работать",
+        "спать",
+        "писать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-062",
+      "type": "single-choice",
+      "prompt": "γυρίζω",
+      "correctAnswer": "возвращаться",
+      "wrongAnswers": [
+        "уходить",
+        "забывать",
+        "открывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-063",
+      "type": "single-choice",
+      "prompt": "επιστρέφω",
+      "correctAnswer": "возвращаться",
+      "wrongAnswers": [
+        "уходить",
+        "начинать",
+        "подниматься"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-064",
+      "type": "single-choice",
+      "prompt": "αρχίζω",
+      "correctAnswer": "начинать",
+      "wrongAnswers": [
+        "заканчивать",
+        "покупать",
+        "плакать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-065",
+      "type": "single-choice",
+      "prompt": "τελειώνω",
+      "correctAnswer": "заканчивать",
+      "wrongAnswers": [
+        "начинать",
+        "покупать",
+        "слышать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-066",
+      "type": "single-choice",
+      "prompt": "στέλνω",
+      "correctAnswer": "отправлять",
+      "wrongAnswers": [
+        "получать",
+        "читать",
+        "закрывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-067",
+      "type": "single-choice",
+      "prompt": "φέρνω",
+      "correctAnswer": "приносить",
+      "wrongAnswers": [
+        "уносить",
+        "покупать",
+        "ждать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-068",
+      "type": "single-choice",
+      "prompt": "φοράω",
+      "correctAnswer": "носить",
+      "wrongAnswers": [
+        "нести",
+        "покупать",
+        "открывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-069",
+      "type": "single-choice",
+      "prompt": "βάζω",
+      "correctAnswer": "класть",
+      "wrongAnswers": [
+        "брать",
+        "искать",
+        "платить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-070",
+      "type": "single-choice",
+      "prompt": "βγάζω",
+      "correctAnswer": "вынимать",
+      "wrongAnswers": [
+        "класть",
+        "входить",
+        "оставаться"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-071",
+      "type": "single-choice",
+      "prompt": "κρατάω",
+      "correctAnswer": "держать",
+      "wrongAnswers": [
+        "терять",
+        "открывать",
+        "плакать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-072",
+      "type": "single-choice",
+      "prompt": "αφήνω",
+      "correctAnswer": "оставлять",
+      "wrongAnswers": [
+        "брать",
+        "помнить",
+        "платить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-073",
+      "type": "single-choice",
+      "prompt": "βάζω",
+      "correctAnswer": "ставить",
+      "wrongAnswers": [
+        "стоять",
+        "сидеть",
+        "спать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-074",
+      "type": "single-choice",
+      "prompt": "βγάζω",
+      "correctAnswer": "снимать",
+      "wrongAnswers": [
+        "надевать",
+        "читать",
+        "идти"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-075",
+      "type": "single-choice",
+      "prompt": "μαγειρεύω",
+      "correctAnswer": "готовить",
+      "wrongAnswers": [
+        "есть",
+        "пить",
+        "работать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-076",
+      "type": "single-choice",
+      "prompt": "πλένω",
+      "correctAnswer": "мыть",
+      "wrongAnswers": [
+        "готовить",
+        "писать",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-077",
+      "type": "single-choice",
+      "prompt": "καθαρίζω",
+      "correctAnswer": "убирать",
+      "wrongAnswers": [
+        "пачкать",
+        "читать",
+        "играть"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-078",
+      "type": "single-choice",
+      "prompt": "ζω",
+      "correctAnswer": "жить",
+      "wrongAnswers": [
+        "идти",
+        "спать",
+        "пить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-079",
+      "type": "single-choice",
+      "prompt": "πεθαίνω",
+      "correctAnswer": "умирать",
+      "wrongAnswers": [
+        "жить",
+        "рождаться",
+        "болеть"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-080",
+      "type": "single-choice",
+      "prompt": "γεννιέμαι",
+      "correctAnswer": "рождаться",
+      "wrongAnswers": [
+        "умирать",
+        "жить",
+        "плакать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-081",
+      "type": "single-choice",
+      "prompt": "νιώθω",
+      "correctAnswer": "чувствовать",
+      "wrongAnswers": [
+        "думать",
+        "знать",
+        "слышать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-082",
+      "type": "single-choice",
+      "prompt": "σκέφτομαι",
+      "correctAnswer": "думать",
+      "wrongAnswers": [
+        "чувствовать",
+        "забывать",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-083",
+      "type": "single-choice",
+      "prompt": "πιστεύω",
+      "correctAnswer": "верить",
+      "wrongAnswers": [
+        "знать",
+        "любить",
+        "ждать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-084",
+      "type": "single-choice",
+      "prompt": "ελπίζω",
+      "correctAnswer": "надеяться",
+      "wrongAnswers": [
+        "бояться",
+        "забывать",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-085",
+      "type": "single-choice",
+      "prompt": "φοβάμαι",
+      "correctAnswer": "бояться",
+      "wrongAnswers": [
+        "надеяться",
+        "любить",
+        "помогать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-086",
+      "type": "single-choice",
+      "prompt": "γελάω",
+      "correctAnswer": "смеяться",
+      "wrongAnswers": [
+        "плакать",
+        "говорить",
+        "играть"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-087",
+      "type": "single-choice",
+      "prompt": "κλαίω",
+      "correctAnswer": "плакать",
+      "wrongAnswers": [
+        "смеяться",
+        "работать",
+        "учить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-088",
+      "type": "single-choice",
+      "prompt": "χορεύω",
+      "correctAnswer": "танцевать",
+      "wrongAnswers": [
+        "петь",
+        "работать",
+        "читать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-089",
+      "type": "single-choice",
+      "prompt": "τραγουδάω",
+      "correctAnswer": "петь",
+      "wrongAnswers": [
+        "танцевать",
+        "читать",
+        "писать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-090",
+      "type": "single-choice",
+      "prompt": "φταίω",
+      "correctAnswer": "быть виноватым",
+      "wrongAnswers": [
+        "ждать",
+        "помогать",
+        "спать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-091",
+      "type": "single-choice",
+      "prompt": "προσέχω",
+      "correctAnswer": "быть внимательным",
+      "wrongAnswers": [
+        "платить",
+        "играть",
+        "плакать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-092",
+      "type": "single-choice",
+      "prompt": "δοκιμάζω",
+      "correctAnswer": "пробовать",
+      "wrongAnswers": [
+        "покупать",
+        "продавать",
+        "забывать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-093",
+      "type": "single-choice",
+      "prompt": "χρησιμοποιώ",
+      "correctAnswer": "использовать",
+      "wrongAnswers": [
+        "покупать",
+        "искать",
+        "читать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-094",
+      "type": "single-choice",
+      "prompt": "χτίζω",
+      "correctAnswer": "строить",
+      "wrongAnswers": [
+        "ломать",
+        "покупать",
+        "писать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-095",
+      "type": "single-choice",
+      "prompt": "αλλάζω",
+      "correctAnswer": "менять",
+      "wrongAnswers": [
+        "оставлять",
+        "забывать",
+        "стоять"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-096",
+      "type": "single-choice",
+      "prompt": "νοικιάζω",
+      "correctAnswer": "арендовать",
+      "wrongAnswers": [
+        "покупать",
+        "продавать",
+        "платить"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-097",
+      "type": "single-choice",
+      "prompt": "κοστίζω",
+      "correctAnswer": "стоить",
+      "wrongAnswers": [
+        "платить",
+        "покупать",
+        "продавать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-098",
+      "type": "single-choice",
+      "prompt": "γνωρίζω",
+      "correctAnswer": "знакомиться",
+      "wrongAnswers": [
+        "забывать",
+        "покупать",
+        "работать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-099",
+      "type": "single-choice",
+      "prompt": "γνωρίζω",
+      "correctAnswer": "знать",
+      "wrongAnswers": [
+        "хотеть",
+        "играть",
+        "покупать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "popular-greek-verbs-100",
+      "type": "single-choice",
+      "prompt": "συναντάω",
+      "correctAnswer": "встречать",
+      "wrongAnswers": [
+        "провожать",
+        "ждать",
+        "искать"
+      ],
+      "promptLanguage": "el"
+    },
+    {
+      "id": "greek-pronouns-reverse-101",
+      "type": "single-choice",
+      "prompt": "быть",
+      "correctAnswer": "είμαι",
+      "wrongAnswers": [
+        "έχω",
+        "κάνω",
+        "πάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-102",
+      "type": "single-choice",
+      "prompt": "иметь",
+      "correctAnswer": "έχω",
+      "wrongAnswers": [
+        "είμαι",
+        "θέλω",
+        "ξέρω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-103",
+      "type": "single-choice",
+      "prompt": "делать",
+      "correctAnswer": "κάνω",
+      "wrongAnswers": [
+        "περιμένω",
+        "ακούω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-104",
+      "type": "single-choice",
+      "prompt": "говорить",
+      "correctAnswer": "λέω",
+      "wrongAnswers": [
+        "ακούω",
+        "γράφω",
+        "διαβάζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-105",
+      "type": "single-choice",
+      "prompt": "хотеть",
+      "correctAnswer": "θέλω",
+      "wrongAnswers": [
+        "μπορώ",
+        "ξέρω",
+        "καταλαβαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-106",
+      "type": "single-choice",
+      "prompt": "знать",
+      "correctAnswer": "ξέρω",
+      "wrongAnswers": [
+        "θέλω",
+        "μαθαίνω",
+        "ψάχνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-107",
+      "type": "single-choice",
+      "prompt": "мочь",
+      "correctAnswer": "μπορώ",
+      "wrongAnswers": [
+        "θέλω",
+        "έχω",
+        "αγαπώ"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-108",
+      "type": "single-choice",
+      "prompt": "идти",
+      "correctAnswer": "πάω",
+      "wrongAnswers": [
+        "στέκομαι",
+        "κάθομαι",
+        "μένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-109",
+      "type": "single-choice",
+      "prompt": "идти",
+      "correctAnswer": "πηγαίνω",
+      "wrongAnswers": [
+        "γυρίζω",
+        "μένω",
+        "μπαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-110",
+      "type": "single-choice",
+      "prompt": "приходить",
+      "correctAnswer": "έρχομαι",
+      "wrongAnswers": [
+        "φεύγω",
+        "περιμένω",
+        "παίρνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-111",
+      "type": "single-choice",
+      "prompt": "уходить",
+      "correctAnswer": "φεύγω",
+      "wrongAnswers": [
+        "έρχομαι",
+        "μπαίνω",
+        "στέκομαι"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-112",
+      "type": "single-choice",
+      "prompt": "жить",
+      "correctAnswer": "μένω",
+      "wrongAnswers": [
+        "πηγαίνω",
+        "δουλεύω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-113",
+      "type": "single-choice",
+      "prompt": "оставаться",
+      "correctAnswer": "μένω",
+      "wrongAnswers": [
+        "φεύγω",
+        "πουλάω",
+        "κλαίω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-114",
+      "type": "single-choice",
+      "prompt": "видеть",
+      "correctAnswer": "βλέπω",
+      "wrongAnswers": [
+        "ακούω",
+        "λέω",
+        "γράφω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-115",
+      "type": "single-choice",
+      "prompt": "смотреть",
+      "correctAnswer": "βλέπω",
+      "wrongAnswers": [
+        "ακούω",
+        "διαβάζω",
+        "πίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-116",
+      "type": "single-choice",
+      "prompt": "слышать",
+      "correctAnswer": "ακούω",
+      "wrongAnswers": [
+        "βλέπω",
+        "ξέρω",
+        "τρώω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-117",
+      "type": "single-choice",
+      "prompt": "слушать",
+      "correctAnswer": "ακούω",
+      "wrongAnswers": [
+        "βλέπω",
+        "αγοράζω",
+        "ανοίγω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-118",
+      "type": "single-choice",
+      "prompt": "есть",
+      "correctAnswer": "τρώω",
+      "wrongAnswers": [
+        "πίνω",
+        "κοιμάμαι",
+        "δουλεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-119",
+      "type": "single-choice",
+      "prompt": "пить",
+      "correctAnswer": "πίνω",
+      "wrongAnswers": [
+        "τρώω",
+        "μαγειρεύω",
+        "διαβάζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-120",
+      "type": "single-choice",
+      "prompt": "читать",
+      "correctAnswer": "διαβάζω",
+      "wrongAnswers": [
+        "γράφω",
+        "ακούω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-121",
+      "type": "single-choice",
+      "prompt": "писать",
+      "correctAnswer": "γράφω",
+      "wrongAnswers": [
+        "διαβάζω",
+        "λέω",
+        "ακούω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-122",
+      "type": "single-choice",
+      "prompt": "говорить",
+      "correctAnswer": "μιλάω",
+      "wrongAnswers": [
+        "ακούω",
+        "περιμένω",
+        "πληρώνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-123",
+      "type": "single-choice",
+      "prompt": "понимать",
+      "correctAnswer": "καταλαβαίνω",
+      "wrongAnswers": [
+        "ξεχνάω",
+        "αγοράζω",
+        "ρωτάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-124",
+      "type": "single-choice",
+      "prompt": "учить",
+      "correctAnswer": "μαθαίνω",
+      "wrongAnswers": [
+        "ξεχνάω",
+        "πληρώνω",
+        "γυρίζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-125",
+      "type": "single-choice",
+      "prompt": "узнавать",
+      "correctAnswer": "μαθαίνω",
+      "wrongAnswers": [
+        "χάνω",
+        "κλείνω",
+        "μαγειρεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-126",
+      "type": "single-choice",
+      "prompt": "работать",
+      "correctAnswer": "δουλεύω",
+      "wrongAnswers": [
+        "ξεκουράζομαι",
+        "κοιμάμαι",
+        "παίζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-127",
+      "type": "single-choice",
+      "prompt": "учиться",
+      "correctAnswer": "σπουδάζω",
+      "wrongAnswers": [
+        "διδάσκω",
+        "αγοράζω",
+        "χορεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-128",
+      "type": "single-choice",
+      "prompt": "преподавать",
+      "correctAnswer": "διδάσκω",
+      "wrongAnswers": [
+        "σπουδάζω",
+        "διαβάζω",
+        "ταξιδεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-129",
+      "type": "single-choice",
+      "prompt": "спрашивать",
+      "correctAnswer": "ρωτάω",
+      "wrongAnswers": [
+        "απαντάω",
+        "ξέρω",
+        "πληρώνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-130",
+      "type": "single-choice",
+      "prompt": "отвечать",
+      "correctAnswer": "απαντάω",
+      "wrongAnswers": [
+        "ρωτάω",
+        "ψάχνω",
+        "ανοίγω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-131",
+      "type": "single-choice",
+      "prompt": "ждать",
+      "correctAnswer": "περιμένω",
+      "wrongAnswers": [
+        "πηγαίνω",
+        "αγοράζω",
+        "θυμάμαι"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-132",
+      "type": "single-choice",
+      "prompt": "брать",
+      "correctAnswer": "παίρνω",
+      "wrongAnswers": [
+        "δίνω",
+        "χάνω",
+        "ανοίγω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-133",
+      "type": "single-choice",
+      "prompt": "получать",
+      "correctAnswer": "παίρνω",
+      "wrongAnswers": [
+        "στέλνω",
+        "πουλάω",
+        "κλείνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-134",
+      "type": "single-choice",
+      "prompt": "давать",
+      "correctAnswer": "δίνω",
+      "wrongAnswers": [
+        "παίρνω",
+        "ψάχνω",
+        "πληρώνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-135",
+      "type": "single-choice",
+      "prompt": "находить",
+      "correctAnswer": "βρίσκω",
+      "wrongAnswers": [
+        "χάνω",
+        "αγοράζω",
+        "ακούω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-136",
+      "type": "single-choice",
+      "prompt": "терять",
+      "correctAnswer": "χάνω",
+      "wrongAnswers": [
+        "βρίσκω",
+        "κρατάω",
+        "κερδίζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-137",
+      "type": "single-choice",
+      "prompt": "искать",
+      "correctAnswer": "ψάχνω",
+      "wrongAnswers": [
+        "βρίσκω",
+        "κοιμάμαι",
+        "πίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-138",
+      "type": "single-choice",
+      "prompt": "покупать",
+      "correctAnswer": "αγοράζω",
+      "wrongAnswers": [
+        "πουλάω",
+        "διαβάζω",
+        "περιμένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-139",
+      "type": "single-choice",
+      "prompt": "продавать",
+      "correctAnswer": "πουλάω",
+      "wrongAnswers": [
+        "αγοράζω",
+        "ξέρω",
+        "πηγαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-140",
+      "type": "single-choice",
+      "prompt": "платить",
+      "correctAnswer": "πληρώνω",
+      "wrongAnswers": [
+        "παίρνω",
+        "περιμένω",
+        "ρωτάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-141",
+      "type": "single-choice",
+      "prompt": "открывать",
+      "correctAnswer": "ανοίγω",
+      "wrongAnswers": [
+        "κλείνω",
+        "αγοράζω",
+        "πίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-142",
+      "type": "single-choice",
+      "prompt": "закрывать",
+      "correctAnswer": "κλείνω",
+      "wrongAnswers": [
+        "ανοίγω",
+        "λέω",
+        "μένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-143",
+      "type": "single-choice",
+      "prompt": "входить",
+      "correctAnswer": "μπαίνω",
+      "wrongAnswers": [
+        "βγαίνω",
+        "κάθομαι",
+        "δουλεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-144",
+      "type": "single-choice",
+      "prompt": "выходить",
+      "correctAnswer": "βγαίνω",
+      "wrongAnswers": [
+        "μπαίνω",
+        "περιμένω",
+        "μαθαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-145",
+      "type": "single-choice",
+      "prompt": "подниматься",
+      "correctAnswer": "ανεβαίνω",
+      "wrongAnswers": [
+        "κατεβαίνω",
+        "μπαίνω",
+        "στέκομαι"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-146",
+      "type": "single-choice",
+      "prompt": "спускаться",
+      "correctAnswer": "κατεβαίνω",
+      "wrongAnswers": [
+        "ανεβαίνω",
+        "βγαίνω",
+        "μένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-147",
+      "type": "single-choice",
+      "prompt": "сидеть",
+      "correctAnswer": "κάθομαι",
+      "wrongAnswers": [
+        "στέκομαι",
+        "πηγαίνω",
+        "πίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-148",
+      "type": "single-choice",
+      "prompt": "стоять",
+      "correctAnswer": "στέκομαι",
+      "wrongAnswers": [
+        "κάθομαι",
+        "κοιμάμαι",
+        "διαβάζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-149",
+      "type": "single-choice",
+      "prompt": "спать",
+      "correctAnswer": "κοιμάμαι",
+      "wrongAnswers": [
+        "δουλεύω",
+        "τρώω",
+        "ακούω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-150",
+      "type": "single-choice",
+      "prompt": "просыпаться",
+      "correctAnswer": "ξυπνάω",
+      "wrongAnswers": [
+        "κοιμάμαι",
+        "δουλεύω",
+        "κλείνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-151",
+      "type": "single-choice",
+      "prompt": "помнить",
+      "correctAnswer": "θυμάμαι",
+      "wrongAnswers": [
+        "ξεχνάω",
+        "ψάχνω",
+        "πηγαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-152",
+      "type": "single-choice",
+      "prompt": "забывать",
+      "correctAnswer": "ξεχνάω",
+      "wrongAnswers": [
+        "θυμάμαι",
+        "καταλαβαίνω",
+        "έρχομαι"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-153",
+      "type": "single-choice",
+      "prompt": "нуждаться",
+      "correctAnswer": "χρειάζομαι",
+      "wrongAnswers": [
+        "έχω",
+        "αγαπώ",
+        "βλέπω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-154",
+      "type": "single-choice",
+      "prompt": "нужно",
+      "correctAnswer": "χρειάζομαι",
+      "wrongAnswers": [
+        "ξέρω",
+        "παίζω",
+        "χορεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-155",
+      "type": "single-choice",
+      "prompt": "помогать",
+      "correctAnswer": "βοηθάω",
+      "wrongAnswers": [
+        "ενοχλώ",
+        "αγοράζω",
+        "ρωτάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-156",
+      "type": "single-choice",
+      "prompt": "нравиться",
+      "correctAnswer": "αρέσω",
+      "wrongAnswers": [
+        "θέλω",
+        "ξέρω",
+        "περιμένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-157",
+      "type": "single-choice",
+      "prompt": "любить",
+      "correctAnswer": "αγαπώ",
+      "wrongAnswers": [
+        "μισώ",
+        "ψάχνω",
+        "περιμένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-158",
+      "type": "single-choice",
+      "prompt": "ненавидеть",
+      "correctAnswer": "μισώ",
+      "wrongAnswers": [
+        "αγαπώ",
+        "βοηθάω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-159",
+      "type": "single-choice",
+      "prompt": "играть",
+      "correctAnswer": "παίζω",
+      "wrongAnswers": [
+        "δουλεύω",
+        "διαβάζω",
+        "πληρώνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-160",
+      "type": "single-choice",
+      "prompt": "водить",
+      "correctAnswer": "οδηγώ",
+      "wrongAnswers": [
+        "πηγαίνω",
+        "πίνω",
+        "γράφω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-161",
+      "type": "single-choice",
+      "prompt": "путешествовать",
+      "correctAnswer": "ταξιδεύω",
+      "wrongAnswers": [
+        "δουλεύω",
+        "κοιμάμαι",
+        "γράφω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-162",
+      "type": "single-choice",
+      "prompt": "возвращаться",
+      "correctAnswer": "γυρίζω",
+      "wrongAnswers": [
+        "φεύγω",
+        "ξεχνάω",
+        "ανοίγω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-163",
+      "type": "single-choice",
+      "prompt": "возвращаться",
+      "correctAnswer": "επιστρέφω",
+      "wrongAnswers": [
+        "φεύγω",
+        "αρχίζω",
+        "ανεβαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-164",
+      "type": "single-choice",
+      "prompt": "начинать",
+      "correctAnswer": "αρχίζω",
+      "wrongAnswers": [
+        "τελειώνω",
+        "αγοράζω",
+        "κλαίω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-165",
+      "type": "single-choice",
+      "prompt": "заканчивать",
+      "correctAnswer": "τελειώνω",
+      "wrongAnswers": [
+        "αρχίζω",
+        "αγοράζω",
+        "ακούω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-166",
+      "type": "single-choice",
+      "prompt": "отправлять",
+      "correctAnswer": "στέλνω",
+      "wrongAnswers": [
+        "παίρνω",
+        "διαβάζω",
+        "κλείνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-167",
+      "type": "single-choice",
+      "prompt": "приносить",
+      "correctAnswer": "φέρνω",
+      "wrongAnswers": [
+        "παίρνω",
+        "αγοράζω",
+        "περιμένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-168",
+      "type": "single-choice",
+      "prompt": "носить",
+      "correctAnswer": "φοράω",
+      "wrongAnswers": [
+        "φέρνω",
+        "αγοράζω",
+        "ανοίγω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-169",
+      "type": "single-choice",
+      "prompt": "класть",
+      "correctAnswer": "βάζω",
+      "wrongAnswers": [
+        "παίρνω",
+        "ψάχνω",
+        "πληρώνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-170",
+      "type": "single-choice",
+      "prompt": "вынимать",
+      "correctAnswer": "βγάζω",
+      "wrongAnswers": [
+        "βάζω",
+        "μπαίνω",
+        "μένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-171",
+      "type": "single-choice",
+      "prompt": "держать",
+      "correctAnswer": "κρατάω",
+      "wrongAnswers": [
+        "χάνω",
+        "ανοίγω",
+        "κλαίω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-172",
+      "type": "single-choice",
+      "prompt": "оставлять",
+      "correctAnswer": "αφήνω",
+      "wrongAnswers": [
+        "παίρνω",
+        "θυμάμαι",
+        "πληρώνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-173",
+      "type": "single-choice",
+      "prompt": "ставить",
+      "correctAnswer": "βάζω",
+      "wrongAnswers": [
+        "στέκομαι",
+        "κάθομαι",
+        "κοιμάμαι"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-174",
+      "type": "single-choice",
+      "prompt": "снимать",
+      "correctAnswer": "βγάζω",
+      "wrongAnswers": [
+        "φοράω",
+        "διαβάζω",
+        "πηγαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-175",
+      "type": "single-choice",
+      "prompt": "готовить",
+      "correctAnswer": "μαγειρεύω",
+      "wrongAnswers": [
+        "τρώω",
+        "πίνω",
+        "δουλεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-176",
+      "type": "single-choice",
+      "prompt": "мыть",
+      "correctAnswer": "πλένω",
+      "wrongAnswers": [
+        "μαγειρεύω",
+        "γράφω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-177",
+      "type": "single-choice",
+      "prompt": "убирать",
+      "correctAnswer": "καθαρίζω",
+      "wrongAnswers": [
+        "λερώνω",
+        "διαβάζω",
+        "παίζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-178",
+      "type": "single-choice",
+      "prompt": "жить",
+      "correctAnswer": "ζω",
+      "wrongAnswers": [
+        "πηγαίνω",
+        "κοιμάμαι",
+        "πίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-179",
+      "type": "single-choice",
+      "prompt": "умирать",
+      "correctAnswer": "πεθαίνω",
+      "wrongAnswers": [
+        "ζω",
+        "γεννιέμαι",
+        "πονάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-180",
+      "type": "single-choice",
+      "prompt": "рождаться",
+      "correctAnswer": "γεννιέμαι",
+      "wrongAnswers": [
+        "πεθαίνω",
+        "ζω",
+        "κλαίω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-181",
+      "type": "single-choice",
+      "prompt": "чувствовать",
+      "correctAnswer": "νιώθω",
+      "wrongAnswers": [
+        "σκέφτομαι",
+        "ξέρω",
+        "ακούω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-182",
+      "type": "single-choice",
+      "prompt": "думать",
+      "correctAnswer": "σκέφτομαι",
+      "wrongAnswers": [
+        "νιώθω",
+        "ξεχνάω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-183",
+      "type": "single-choice",
+      "prompt": "верить",
+      "correctAnswer": "πιστεύω",
+      "wrongAnswers": [
+        "ξέρω",
+        "αγαπώ",
+        "περιμένω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-184",
+      "type": "single-choice",
+      "prompt": "надеяться",
+      "correctAnswer": "ελπίζω",
+      "wrongAnswers": [
+        "φοβάμαι",
+        "ξεχνάω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-185",
+      "type": "single-choice",
+      "prompt": "бояться",
+      "correctAnswer": "φοβάμαι",
+      "wrongAnswers": [
+        "ελπίζω",
+        "αγαπώ",
+        "βοηθάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-186",
+      "type": "single-choice",
+      "prompt": "смеяться",
+      "correctAnswer": "γελάω",
+      "wrongAnswers": [
+        "κλαίω",
+        "λέω",
+        "παίζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-187",
+      "type": "single-choice",
+      "prompt": "плакать",
+      "correctAnswer": "κλαίω",
+      "wrongAnswers": [
+        "γελάω",
+        "δουλεύω",
+        "μαθαίνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-188",
+      "type": "single-choice",
+      "prompt": "танцевать",
+      "correctAnswer": "χορεύω",
+      "wrongAnswers": [
+        "τραγουδάω",
+        "δουλεύω",
+        "διαβάζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-189",
+      "type": "single-choice",
+      "prompt": "петь",
+      "correctAnswer": "τραγουδάω",
+      "wrongAnswers": [
+        "χορεύω",
+        "διαβάζω",
+        "γράφω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-190",
+      "type": "single-choice",
+      "prompt": "быть виноватым",
+      "correctAnswer": "φταίω",
+      "wrongAnswers": [
+        "περιμένω",
+        "βοηθάω",
+        "κοιμάμαι"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-191",
+      "type": "single-choice",
+      "prompt": "быть внимательным",
+      "correctAnswer": "προσέχω",
+      "wrongAnswers": [
+        "πληρώνω",
+        "παίζω",
+        "κλαίω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-192",
+      "type": "single-choice",
+      "prompt": "пробовать",
+      "correctAnswer": "δοκιμάζω",
+      "wrongAnswers": [
+        "αγοράζω",
+        "πουλάω",
+        "ξεχνάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-193",
+      "type": "single-choice",
+      "prompt": "использовать",
+      "correctAnswer": "χρησιμοποιώ",
+      "wrongAnswers": [
+        "αγοράζω",
+        "ψάχνω",
+        "διαβάζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-194",
+      "type": "single-choice",
+      "prompt": "строить",
+      "correctAnswer": "χτίζω",
+      "wrongAnswers": [
+        "χαλάω",
+        "αγοράζω",
+        "γράφω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-195",
+      "type": "single-choice",
+      "prompt": "менять",
+      "correctAnswer": "αλλάζω",
+      "wrongAnswers": [
+        "αφήνω",
+        "ξεχνάω",
+        "στέκομαι"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-196",
+      "type": "single-choice",
+      "prompt": "арендовать",
+      "correctAnswer": "νοικιάζω",
+      "wrongAnswers": [
+        "αγοράζω",
+        "πουλάω",
+        "πληρώνω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-197",
+      "type": "single-choice",
+      "prompt": "стоить",
+      "correctAnswer": "κοστίζω",
+      "wrongAnswers": [
+        "πληρώνω",
+        "αγοράζω",
+        "πουλάω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-198",
+      "type": "single-choice",
+      "prompt": "знакомиться",
+      "correctAnswer": "γνωρίζω",
+      "wrongAnswers": [
+        "ξεχνάω",
+        "αγοράζω",
+        "δουλεύω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-199",
+      "type": "single-choice",
+      "prompt": "знать",
+      "correctAnswer": "γνωρίζω",
+      "wrongAnswers": [
+        "θέλω",
+        "παίζω",
+        "αγοράζω"
+      ],
+      "promptLanguage": "ru"
+    },
+    {
+      "id": "greek-pronouns-reverse-200",
+      "type": "single-choice",
+      "prompt": "встречать",
+      "correctAnswer": "συναντάω",
+      "wrongAnswers": [
+        "περιμένω",
+        "φεύγω",
+        "ψάχνω"
+      ],
+      "promptLanguage": "ru"
+    }
+  ]
+}

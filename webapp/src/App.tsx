@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
 import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
@@ -6,6 +6,7 @@ import HomeScreen from "./screens/home-screen.tsx";
 import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx";
 import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
+import type { SingleChoiceTopicListItem } from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { loadJsonContent } from "./lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "./lib/exercises/load-single-choice-topic.ts";
@@ -17,15 +18,76 @@ import type { LoadableState, Screen, TabKey } from "./types/ui";
 
 const ALPHABET_URL = `${import.meta.env.BASE_URL}content/theory/alphabet.json`;
 const DIPHTHONGS_URL = `${import.meta.env.BASE_URL}content/theory/diphthongs.json`;
-const BASE_GREEK_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/base-greek.json`;
-const POPULAR_GREEK_VERBS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/popular-greek-verbs.json`;
-const POPULAR_GREEK_VERB_ENDINGS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/popular_greek_verb_endings.json`;
-const GREEK_PRONOUNS_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/greek-pronouns.json`;
+const SINGLE_CHOICE_INDEX_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/index.json`;
+const SINGLE_CHOICE_BASE_URL = `${import.meta.env.BASE_URL}content/practice/single_choice/`;
 const ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL = `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`;
+
+interface SingleChoiceTopic extends SingleChoiceTopicListItem {
+  fileName: string;
+  collection: ExerciseCollection;
+}
+
+function normalizeInputExercises(content: unknown): InputExercise[] {
+  if (Array.isArray(content)) {
+    return content as InputExercise[];
+  }
+
+  if (
+    typeof content === "object" &&
+    content !== null &&
+    "items" in content &&
+    Array.isArray((content as { items?: unknown }).items)
+  ) {
+    return (content as { items: InputExercise[] }).items;
+  }
+
+  throw new Error("Invalid input practice content format");
+}
+
+function createTopicId(fileName: string): string {
+  return fileName.replace(/\.json$/i, "");
+}
+
+function createTopicState(
+  topicsState: LoadableState<SingleChoiceTopic[]>,
+  selectedTopic: SingleChoiceTopic | undefined
+): LoadableState<ExerciseCollection> {
+  if (topicsState.status === "loading" || topicsState.status === "idle") {
+    return {
+      data: null,
+      status: "loading",
+      error: ""
+    };
+  }
+
+  if (topicsState.status === "error") {
+    return {
+      data: null,
+      status: "error",
+      error: topicsState.error
+    };
+  }
+
+  if (!selectedTopic) {
+    return {
+      data: null,
+      status: "error",
+      error: "Не удалось найти выбранную тему"
+    };
+  }
+
+  return {
+    data: selectedTopic.collection,
+    status: "success",
+    error: ""
+  };
+}
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
   const [tab, setTab] = useState<TabKey>("practice");
+  const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] =
+    useState<string | null>(null);
 
   const [alphabetState, setAlphabetState] = useState<LoadableState<AlphabetContent>>(
     createInitialLoadableState<AlphabetContent>()
@@ -37,18 +99,10 @@ export default function App() {
   >(createInitialLoadableState<DiphthongsContent>());
   const [diphthongIndex, setDiphthongIndex] = useState(0);
 
-  const [baseGreekState, setBaseGreekState] = useState<LoadableState<ExerciseCollection>>(
-    createInitialLoadableState<ExerciseCollection>()
-  );
-  const [alphaTypeVerbsState, setAlphaTypeVerbsState] = useState<
-    LoadableState<ExerciseCollection>
-  >(createInitialLoadableState<ExerciseCollection>());
-  const [alphaTypeVerbEndingsState, setAlphaTypeVerbEndingsState] = useState<
-    LoadableState<ExerciseCollection>
-  >(createInitialLoadableState<ExerciseCollection>());
-  const [greekPronounsState, setGreekPronounsState] = useState<
-    LoadableState<ExerciseCollection>
-  >(createInitialLoadableState<ExerciseCollection>());
+  const [singleChoiceTopicsState, setSingleChoiceTopicsState] = useState<
+    LoadableState<SingleChoiceTopic[]>
+  >(createInitialLoadableState<SingleChoiceTopic[]>());
+
   const [alphaTypeVerbConjugationInputState, setAlphaTypeVerbConjugationInputState] =
     useState<LoadableState<InputExercise[]>>(createInitialLoadableState<InputExercise[]>());
 
@@ -115,125 +169,54 @@ export default function App() {
   }, [screen, diphthongsState.status]);
 
   useEffect(() => {
-    if (screen !== "practice-base-greek" || baseGreekState.status !== "idle") {
-      return;
-    }
-
-    setBaseGreekState((prev) => ({
-      ...prev,
-      status: "loading",
-      error: ""
-    }));
-
-    loadSingleChoiceTopic(BASE_GREEK_URL, "Базовые фразы")
-      .then((data) => {
-        setBaseGreekState({
-          data,
-          status: "success",
-          error: ""
-        });
-      })
-      .catch((err: unknown) => {
-        setBaseGreekState({
-          data: null,
-          status: "error",
-          error: err instanceof Error ? err.message : "Unknown error"
-        });
-      });
-  }, [screen, baseGreekState.status]);
-
-  useEffect(() => {
     if (
-      screen !== "practice-alpha-type-verbs" ||
-      alphaTypeVerbsState.status !== "idle"
+      (screen !== "practice-dictionary-topics" &&
+        screen !== "practice-single-choice-topic") ||
+      singleChoiceTopicsState.status !== "idle"
     ) {
       return;
     }
 
-    setAlphaTypeVerbsState((prev) => ({
+    setSingleChoiceTopicsState((prev) => ({
       ...prev,
       status: "loading",
       error: ""
     }));
 
-    loadSingleChoiceTopic(POPULAR_GREEK_VERBS_URL, "Популярные глаголы")
-      .then((data) => {
-        setAlphaTypeVerbsState({
-          data,
+    loadJsonContent<string[]>(SINGLE_CHOICE_INDEX_URL)
+      .then((files) =>
+        Promise.all(
+          files.map(async (fileName) => {
+            const collection = await loadSingleChoiceTopic(
+              `${SINGLE_CHOICE_BASE_URL}${fileName}`,
+              ""
+            );
+
+            return {
+              id: createTopicId(fileName),
+              fileName,
+              title: collection.title,
+              subtitle: collection.subtitle || "",
+              collection
+            };
+          })
+        )
+      )
+      .then((topics) => {
+        setSingleChoiceTopicsState({
+          data: topics,
           status: "success",
           error: ""
         });
       })
       .catch((err: unknown) => {
-        setAlphaTypeVerbsState({
+        setSingleChoiceTopicsState({
           data: null,
           status: "error",
           error: err instanceof Error ? err.message : "Unknown error"
         });
       });
-  }, [screen, alphaTypeVerbsState.status]);
-
-  useEffect(() => {
-    if (
-      screen !== "practice-alpha-type-verb-endings" ||
-      alphaTypeVerbEndingsState.status !== "idle"
-    ) {
-      return;
-    }
-
-    setAlphaTypeVerbEndingsState((prev) => ({
-      ...prev,
-      status: "loading",
-      error: ""
-    }));
-
-    loadSingleChoiceTopic(
-      POPULAR_GREEK_VERB_ENDINGS_URL,
-      "Окончания глаголов"
-    )
-      .then((data) => {
-        setAlphaTypeVerbEndingsState({
-          data,
-          status: "success",
-          error: ""
-        });
-      })
-      .catch((err: unknown) => {
-        setAlphaTypeVerbEndingsState({
-          data: null,
-          status: "error",
-          error: err instanceof Error ? err.message : "Unknown error"
-        });
-      });
-  }, [screen, alphaTypeVerbEndingsState.status]);
-
-  useEffect(() => {
-    if (screen !== "practice-greek-pronouns" || greekPronounsState.status !== "idle") {
-      return;
-    }
-
-    setGreekPronounsState((prev) => ({
-      ...prev,
-      status: "loading",
-      error: ""
-    }));
-
-    loadSingleChoiceTopic(GREEK_PRONOUNS_URL, "Местоимения")
-      .then((data) => {
-        setGreekPronounsState({
-          data,
-          status: "success",
-          error: ""
-        });
-      })
-      .catch((err: unknown) => {
-        setGreekPronounsState({
-          data: null,
-          status: "error",
-          error: err instanceof Error ? err.message : "Unknown error"
-        });
-      });
-  }, [screen, greekPronounsState.status]);
+  }, [screen, singleChoiceTopicsState.status]);
 
   useEffect(() => {
     if (
@@ -249,7 +232,8 @@ export default function App() {
       error: ""
     }));
 
-    loadJsonContent<InputExercise[]>(ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL)
+    loadJsonContent<unknown>(ALPHA_TYPE_VERB_CONJUGATION_INPUT_URL)
+      .then((content) => normalizeInputExercises(content))
       .then((data) => {
         setAlphaTypeVerbConjugationInputState({
           data,
@@ -265,6 +249,32 @@ export default function App() {
         });
       });
   }, [screen, alphaTypeVerbConjugationInputState.status]);
+
+  const selectedSingleChoiceTopic = useMemo(
+    () =>
+      singleChoiceTopicsState.data?.find(
+        (topic) => topic.id === selectedSingleChoiceTopicId
+      ),
+    [singleChoiceTopicsState.data, selectedSingleChoiceTopicId]
+  );
+  const selectedSingleChoiceTopicState = useMemo(
+    () => createTopicState(singleChoiceTopicsState, selectedSingleChoiceTopic),
+    [singleChoiceTopicsState, selectedSingleChoiceTopic]
+  );
+  const singleChoiceTopicListState = useMemo<
+    LoadableState<SingleChoiceTopicListItem[]>
+  >(
+    () => ({
+      ...singleChoiceTopicsState,
+      data:
+        singleChoiceTopicsState.data?.map(({ id, title, subtitle }) => ({
+          id,
+          title,
+          subtitle
+        })) ?? null
+    }),
+    [singleChoiceTopicsState]
+  );
 
   const handleOpenAlphabet = () => {
     setScreen("alphabet");
@@ -292,20 +302,9 @@ export default function App() {
     setScreen("practice-dictionary-topics");
   };
 
-  const handleOpenBasicPhrases = () => {
-    setScreen("practice-base-greek");
-  };
-
-  const handleOpenAlphaTypeVerbs = () => {
-    setScreen("practice-alpha-type-verbs");
-  };
-
-  const handleOpenAlphaTypeVerbEndings = () => {
-    setScreen("practice-alpha-type-verb-endings");
-  };
-
-  const handleOpenGreekPronouns = () => {
-    setScreen("practice-greek-pronouns");
+  const handleOpenSingleChoiceTopic = (topicId: string) => {
+    setSelectedSingleChoiceTopicId(topicId);
+    setScreen("practice-single-choice-topic");
   };
 
   const handleOpenAlphaTypeVerbConjugation = () => {
@@ -338,20 +337,8 @@ export default function App() {
     setDiphthongIndex(0);
   };
 
-  const handleRetryBaseGreek = () => {
-    setBaseGreekState(createInitialLoadableState<ExerciseCollection>());
-  };
-
-  const handleRetryAlphaTypeVerbs = () => {
-    setAlphaTypeVerbsState(createInitialLoadableState<ExerciseCollection>());
-  };
-
-  const handleRetryAlphaTypeVerbEndings = () => {
-    setAlphaTypeVerbEndingsState(createInitialLoadableState<ExerciseCollection>());
-  };
-
-  const handleRetryGreekPronouns = () => {
-    setGreekPronounsState(createInitialLoadableState<ExerciseCollection>());
+  const handleRetrySingleChoiceTopics = () => {
+    setSingleChoiceTopicsState(createInitialLoadableState<SingleChoiceTopic[]>());
   };
 
   const handleRetryAlphaTypeVerbConjugation = () => {
@@ -405,45 +392,20 @@ export default function App() {
           onRetry={handleRetryAlphaTypeVerbConjugation}
           onSpeak={speakGreekText}
         />
-      ) : screen === "practice-base-greek" ? (
+      ) : screen === "practice-single-choice-topic" ? (
         <PracticeTopicScreen
-          title="Базовые фразы"
-          topicState={baseGreekState}
+          title={selectedSingleChoiceTopic?.title || "Тренировка"}
+          topicState={selectedSingleChoiceTopicState}
           onClose={handleClosePracticeTopic}
-          onRetry={handleRetryBaseGreek}
-          onSpeak={speakGreekText}
-        />
-      ) : screen === "practice-alpha-type-verbs" ? (
-        <PracticeTopicScreen
-          title="Популярные глаголы"
-          topicState={alphaTypeVerbsState}
-          onClose={handleClosePracticeTopic}
-          onRetry={handleRetryAlphaTypeVerbs}
-          onSpeak={speakGreekText}
-        />
-      ) : screen === "practice-alpha-type-verb-endings" ? (
-        <PracticeTopicScreen
-          title="Окончания глаголов"
-          topicState={alphaTypeVerbEndingsState}
-          onClose={handleClosePracticeTopic}
-          onRetry={handleRetryAlphaTypeVerbEndings}
-          onSpeak={speakGreekText}
-        />
-      ) : screen === "practice-greek-pronouns" ? (
-        <PracticeTopicScreen
-          title="Местоимения"
-          topicState={greekPronounsState}
-          onClose={handleClosePracticeTopic}
-          onRetry={handleRetryGreekPronouns}
+          onRetry={handleRetrySingleChoiceTopics}
           onSpeak={speakGreekText}
         />
       ) : (
         <PracticeTopicsScreen
+          topicsState={singleChoiceTopicListState}
           onClose={handleExit}
-          onOpenBasicPhrases={handleOpenBasicPhrases}
-          onOpenAlphaTypeVerbs={handleOpenAlphaTypeVerbs}
-          onOpenAlphaTypeVerbEndings={handleOpenAlphaTypeVerbEndings}
-          onOpenGreekPronouns={handleOpenGreekPronouns}
+          onRetry={handleRetrySingleChoiceTopics}
+          onOpenTopic={handleOpenSingleChoiceTopic}
         />
       )}
 

@@ -6,6 +6,7 @@ import type {
 
 interface LegacySingleChoiceTopic {
   title?: string;
+  subtitle?: string;
   items?: SingleChoiceExercise[];
 }
 
@@ -33,6 +34,7 @@ export async function loadSingleChoiceTopic(
   if (isSingleChoiceExerciseArray(content)) {
     return {
       title: fallbackTitle,
+      subtitle: "",
       items: content
     };
   }
@@ -40,6 +42,7 @@ export async function loadSingleChoiceTopic(
   if (isExerciseCollection(content)) {
     return {
       title: content.title || fallbackTitle,
+      subtitle: content.subtitle || "",
       items: content.items
     };
   }
@@ -48,6 +51,7 @@ export async function loadSingleChoiceTopic(
   if (Array.isArray(legacyContent?.items)) {
     return {
       title: legacyContent.title || fallbackTitle,
+      subtitle: legacyContent.subtitle || "",
       items: legacyContent.items
     };
   }
