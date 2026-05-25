@@ -1,19 +1,26 @@
-import { useMemo } from "react";
-import type { TopicListItem } from "../types/topic-list.ts";
+import { useCallback, useMemo } from "react";
 import { toTopicListItems } from "../lib/topic-list.ts";
-import type { SingleChoiceTopic } from "../services/content/practice-content-service.ts";
+import { loadSingleChoicePracticeTopic } from "../services/content/practice-content-service.ts";
 import type { ExerciseCollection } from "../types/exercises.ts";
+import type {
+  SingleChoicePracticeTopic,
+  SingleChoicePracticeTopicDefinition
+} from "../types/practice-topic.ts";
+import type { TopicListItem } from "../types/topic-list.ts";
 import type { LoadableState } from "../types/ui.ts";
+import { useLoadableContent } from "./use-loadable-content.ts";
 
 interface SingleChoiceTopicState {
-  selectedTopic: SingleChoiceTopic | undefined;
+  selectedTopic: SingleChoicePracticeTopicDefinition | undefined;
   selectedTopicState: LoadableState<ExerciseCollection>;
   topicListState: LoadableState<TopicListItem[]>;
+  retrySelectedTopic: () => void;
 }
 
-function createTopicState(
-  topicsState: LoadableState<SingleChoiceTopic[]>,
-  selectedTopic: SingleChoiceTopic | undefined
+function createSelectedCollectionState(
+  topicsState: LoadableState<SingleChoicePracticeTopicDefinition[]>,
+  selectedTopic: SingleChoicePracticeTopicDefinition | undefined,
+  loadedTopicState: LoadableState<SingleChoicePracticeTopic>
 ): LoadableState<ExerciseCollection> {
   if (topicsState.status === "loading" || topicsState.status === "idle") {
     return {
@@ -39,25 +46,47 @@ function createTopicState(
     };
   }
 
+  if (loadedTopicState.status === "idle") {
+    return {
+      data: null,
+      status: "loading",
+      error: ""
+    };
+  }
+
   return {
-    data: selectedTopic.collection,
-    status: "success",
-    error: ""
+    ...loadedTopicState,
+    data: loadedTopicState.data?.collection ?? null
   };
 }
 
 export function useSingleChoiceTopicState(
-  topicsState: LoadableState<SingleChoiceTopic[]>,
-  selectedTopicId: string | null
+  topicsState: LoadableState<SingleChoicePracticeTopicDefinition[]>,
+  selectedTopicId: string | null,
+  isSelectedTopicActive: boolean
 ): SingleChoiceTopicState {
   const selectedTopic = useMemo(
     () => topicsState.data?.find((topic) => topic.id === selectedTopicId),
     [topicsState.data, selectedTopicId]
   );
 
+  const loadSelectedTopic = useCallback(() => {
+    if (!selectedTopic) {
+      return Promise.reject(new Error("Не удалось найти выбранную тему"));
+    }
+
+    return loadSingleChoicePracticeTopic(selectedTopic);
+  }, [selectedTopic]);
+
+  const { state: loadedTopicState, retry: retrySelectedTopic } = useLoadableContent(
+    isSelectedTopicActive && topicsState.status === "success" && Boolean(selectedTopic),
+    loadSelectedTopic,
+    selectedTopic?.id
+  );
+
   const selectedTopicState = useMemo(
-    () => createTopicState(topicsState, selectedTopic),
-    [topicsState, selectedTopic]
+    () => createSelectedCollectionState(topicsState, selectedTopic, loadedTopicState),
+    [loadedTopicState, selectedTopic, topicsState]
   );
 
   const topicListState = useMemo<LoadableState<TopicListItem[]>>(
@@ -71,6 +100,7 @@ export function useSingleChoiceTopicState(
   return {
     selectedTopic,
     selectedTopicState,
-    topicListState
+    topicListState,
+    retrySelectedTopic
   };
 }

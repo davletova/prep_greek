@@ -57,28 +57,30 @@ function normalizeSingleChoiceTopicIndex(
   throw new Error("Invalid single-choice practice index format");
 }
 
-export function loadSingleChoiceTopics(): Promise<SingleChoiceTopic[]> {
-  return loadJsonContent<unknown>(singleChoicePracticeContent.indexUrl)
-    .then(normalizeSingleChoiceTopicIndex)
-    .then((topics) =>
-      Promise.all(
-        topics.map(async (topic) => {
-          const collection = await loadSingleChoiceTopic(
-            `${singleChoicePracticeContent.baseUrl}${topic.fileName}`,
-            topic.title
-          );
+export function loadSingleChoiceTopicDefinitions(): Promise<
+  SingleChoicePracticeTopicDefinition[]
+> {
+  return loadJsonContent<unknown>(singleChoicePracticeContent.indexUrl).then(
+    normalizeSingleChoiceTopicIndex
+  );
+}
 
-          return {
-            id: topic.id,
-            kind: "single-choice" as const,
-            fileName: topic.fileName,
-            title: topic.title,
-            subtitle: topic.subtitle,
-            collection
-          };
-        })
-      )
-    );
+export async function loadSingleChoicePracticeTopic(
+  topic: SingleChoicePracticeTopicDefinition
+): Promise<SingleChoiceTopic> {
+  const collection = await loadSingleChoiceTopic(
+    `${singleChoicePracticeContent.baseUrl}${topic.fileName}`,
+    topic.title
+  );
+
+  return {
+    id: topic.id,
+    kind: "single-choice" as const,
+    fileName: topic.fileName,
+    title: topic.title,
+    subtitle: topic.subtitle,
+    collection
+  };
 }
 
 export function loadInputPracticeTopic(
