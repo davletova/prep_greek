@@ -11,15 +11,12 @@ import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { useInputPracticeTopicState } from "./hooks/use-input-practice-topic-state.ts";
 import { useLoadableContent } from "./hooks/use-loadable-content.ts";
 import { useSingleChoiceTopicState } from "./hooks/use-single-choice-topic-state.ts";
+import { useTheoryContentState } from "./hooks/use-theory-content-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import {
   loadSingleChoiceTopics,
   type SingleChoiceTopic
 } from "./services/content/practice-content-service.ts";
-import {
-  loadAlphabetContent,
-  loadDiphthongsContent
-} from "./services/content/theory-content-service.ts";
 import type { Screen, TabKey } from "./types/ui";
 
 export default function App() {
@@ -30,17 +27,20 @@ export default function App() {
   const [selectedInputTopicId, setSelectedInputTopicId] =
     useState<string | null>(null);
 
-  const { state: alphabetState, retry: retryAlphabet } = useLoadableContent(
-    screen === "alphabet",
-    loadAlphabetContent
-  );
-  const [pageIndex, setPageIndex] = useState(0);
-
-  const { state: diphthongsState, retry: retryDiphthongs } = useLoadableContent(
-    screen === "diphthongs",
-    loadDiphthongsContent
-  );
-  const [diphthongIndex, setDiphthongIndex] = useState(0);
+  const {
+    alphabetState,
+    pageIndex,
+    diphthongsState,
+    diphthongIndex,
+    openAlphabet: handleOpenAlphabet,
+    openDiphthongs: handleOpenDiphthongs,
+    prevAlphabetPage: handlePrevAlphabetPage,
+    nextAlphabetPage: handleNextAlphabetPage,
+    retryAlphabet: handleRetryAlphabet,
+    prevDiphthong: handlePrevDiphthong,
+    nextDiphthong: handleNextDiphthong,
+    retryDiphthongs: handleRetryDiphthongs
+  } = useTheoryContentState(screen, setScreen);
 
   const {
     state: singleChoiceTopicsState,
@@ -71,16 +71,6 @@ export default function App() {
     selectedSingleChoiceTopicId
   );
 
-  const handleOpenAlphabet = () => {
-    setScreen("alphabet");
-    setPageIndex(0);
-  };
-
-  const handleOpenDiphthongs = () => {
-    setScreen("diphthongs");
-    setDiphthongIndex(0);
-  };
-
   const handleOpenDictionaryTopics = () => {
     setScreen("practice-dictionary-topics");
   };
@@ -105,32 +95,6 @@ export default function App() {
   const handleOpenInputTopic = (topicId: string) => {
     setSelectedInputTopicId(topicId);
     setScreen("practice-input-topic");
-  };
-
-  const handlePrevAlphabetPage = () => {
-    setPageIndex((prev) => Math.max(0, prev - 1));
-  };
-
-  const handleNextAlphabetPage = () => {
-    setPageIndex((prev) => prev + 1);
-  };
-
-  const handleRetryAlphabet = () => {
-    retryAlphabet();
-    setPageIndex(0);
-  };
-
-  const handlePrevDiphthong = () => {
-    setDiphthongIndex((prev) => Math.max(0, prev - 1));
-  };
-
-  const handleNextDiphthong = (max: number) => {
-    setDiphthongIndex((prev) => Math.min(max - 1, prev + 1));
-  };
-
-  const handleRetryDiphthongs = () => {
-    retryDiphthongs();
-    setDiphthongIndex(0);
   };
 
   const handleRetrySingleChoiceTopics = () => {
