@@ -8,7 +8,8 @@ function getErrorMessage(error: unknown): string {
 
 export function useLoadableContent<T>(
   isActive: boolean,
-  load: () => Promise<T>
+  load: () => Promise<T>,
+  resetKey?: unknown
 ): {
   state: LoadableState<T>;
   retry: () => void;
@@ -18,6 +19,7 @@ export function useLoadableContent<T>(
   );
   const hasStartedRef = useRef(false);
   const requestIdRef = useRef(0);
+  const resetKeyRef = useRef(resetKey);
 
   const startLoading = useCallback(() => {
     hasStartedRef.current = true;
@@ -54,6 +56,19 @@ export function useLoadableContent<T>(
         });
       });
   }, [load]);
+
+  useEffect(() => {
+    if (resetKeyRef.current !== resetKey) {
+      resetKeyRef.current = resetKey;
+      hasStartedRef.current = false;
+      requestIdRef.current += 1;
+      setState(createInitialLoadableState<T>());
+
+      if (isActive) {
+        startLoading();
+      }
+    }
+  }, [isActive, resetKey, startLoading]);
 
   useEffect(() => {
     if (isActive && !hasStartedRef.current) {
