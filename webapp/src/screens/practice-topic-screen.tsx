@@ -1,7 +1,7 @@
 import { useMemo } from "react";
-import ContentState from "../components/content-state.tsx";
 import DetailScreenHeader from "../components/detail-screen-header.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
+import PracticeEmptyState from "../components/practice-empty-state.tsx";
 import PracticeLoadingState from "../components/practice-loading-state.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practice-answer.ts";
@@ -82,10 +82,9 @@ export default function PracticeTopicScreen({
             onRetry={onRetry}
           />
         ) : exercises.length === 0 || !question ? (
-          <ContentState
+          <PracticeEmptyState
             title="Нет вопросов для предпросмотра"
             text="Не удалось найти single-choice упражнение в файле."
-            tone="error"
           />
         ) : (
           <>
