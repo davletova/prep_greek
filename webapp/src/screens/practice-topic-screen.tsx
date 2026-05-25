@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import ContentState from "../components/content-state.tsx";
 import DetailScreenHeader from "../components/detail-screen-header.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
+import PracticeLoadingState from "../components/practice-loading-state.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practice-answer.ts";
 import { useSingleChoiceRuntimeQuestion } from "../hooks/use-single-choice-runtime-question.ts";
@@ -73,18 +74,12 @@ export default function PracticeTopicScreen({
       <DetailScreenHeader title={title} onClose={handleClose} />
 
       <main className="practice-flow">
-        {topicState.status === "loading" ? (
-          <ContentState
-            title="Загружаем упражнения…"
-            text="Подготавливаем вопросы для тренировки."
-          />
-        ) : topicState.status === "error" ? (
-          <ContentState
-            title="Не удалось загрузить упражнения"
-            text={topicState.error}
-            actionLabel="Попробовать снова"
-            onAction={onRetry}
-            tone="error"
+        {topicState.status === "loading" || topicState.status === "error" ? (
+          <PracticeLoadingState
+            status={topicState.status}
+            error={topicState.error}
+            loadingText="Подготавливаем вопросы для тренировки."
+            onRetry={onRetry}
           />
         ) : exercises.length === 0 || !question ? (
           <ContentState
