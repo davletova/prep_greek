@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
-import { useShuffledExerciseFlow } from "../hooks/use-shuffled-exercise-flow.ts";
+import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
 import { recordPracticeAnswer } from "../lib/practice-stats-storage.ts";
@@ -32,7 +32,7 @@ export default function PracticeTopicScreen({
   onSpeak,
 }: PracticeTopicScreenProps) {
   const exercises = useMemo(() => getSingleChoiceExercises(topicState.data), [topicState.data]);
-  const { currentItem: exercise, hasItems, next } = useShuffledExerciseFlow(exercises);
+  const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const speech = useSpeechPlayback<string>(onSpeak);
   const { clear: clearSpeech, stop: stopSpeech } = speech;
