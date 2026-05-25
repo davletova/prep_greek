@@ -1,11 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
+import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practice-answer.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
 import { getSingleChoiceExercises } from "../lib/exercises/filter.ts";
-import { recordPracticeAnswer } from "../lib/practice-stats-storage.ts";
 import type { ExerciseCollection } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
@@ -26,37 +26,16 @@ export default function PracticeTopicScreen({
 }: PracticeTopicScreenProps) {
   const exercises = useMemo(() => getSingleChoiceExercises(topicState.data), [topicState.data]);
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const speech = useSpeechPlayback<string>(onSpeak);
   const { clear: clearSpeech, stop: stopSpeech } = speech;
-
-  useEffect(() => {
-    setSelectedIndex(null);
-    clearSpeech();
-  }, [exercise?.id, clearSpeech]);
   const question = useMemo(
     () => (exercise ? buildSingleChoiceRuntimeQuestion(exercise) : null),
     [exercise]
   );
-  const hasAnswered = selectedIndex !== null;
+  const { hasAnswered, selectAnswer, resetAnswer, getAnswerClassName } =
+    useSingleChoicePracticeAnswer(question, clearSpeech);
   const isPromptInRussian = question?.promptLanguage === "ru";
   const isPromptInGreek = question?.promptLanguage === "el";
-
-  const getAnswerClassName = (index: number) => {
-    if (!question || selectedIndex === null) {
-      return "practice-card__answer";
-    }
-
-    if (index === question.correctIndex) {
-      return "practice-card__answer practice-card__answer--correct";
-    }
-
-    if (index === selectedIndex) {
-      return "practice-card__answer practice-card__answer--wrong";
-    }
-
-    return "practice-card__answer";
-  };
 
   const handlePlayPrompt = async () => {
     if (!question || speech.isSpeaking("prompt")) {
@@ -76,17 +55,6 @@ export default function PracticeTopicScreen({
     await speech.play(optionKey, option);
   };
 
-  const handleAnswerSelect = (index: number) => {
-    if (!question || hasAnswered) {
-      return;
-    }
-
-    setSelectedIndex(index);
-    void recordPracticeAnswer(index === question.correctIndex).catch((error) => {
-      console.warn("Failed to save practice stats", error);
-    });
-  };
-
   const handleNextQuestion = () => {
     if (!hasAnswered || !hasItems) {
       return;
@@ -94,7 +62,7 @@ export default function PracticeTopicScreen({
 
     stopSpeech();
     next();
-    setSelectedIndex(null);
+    resetAnswer();
   };
 
   const handleClose = () => {
@@ -162,7 +130,7 @@ export default function PracticeTopicScreen({
                         <button
                           className={getAnswerClassName(index)}
                           type="button"
-                          onClick={() => handleAnswerSelect(index)}
+                          onClick={() => selectAnswer(index)}
                           disabled={hasAnswered}
                         >
                           {option}
@@ -186,7 +154,7 @@ export default function PracticeTopicScreen({
                         key={`${question.id}-${option}`}
                         className={getAnswerClassName(index)}
                         type="button"
-                        onClick={() => handleAnswerSelect(index)}
+                        onClick={() => selectAnswer(index)}
                         disabled={hasAnswered}
                       >
                         {option}
