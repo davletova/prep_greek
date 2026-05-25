@@ -6,16 +6,10 @@ import {
   inputExerciseArraySchema,
   inputExerciseCollectionSchema
 } from "../../schemas/exercises.ts";
-import type { ExerciseCollection, InputExercise } from "../../types/exercises.ts";
+import type { InputExercise } from "../../types/exercises.ts";
+import type { SingleChoicePracticeTopic } from "../../types/practice-topic.ts";
 
-export interface SingleChoiceTopic {
-  id: string;
-  kind: "single-choice";
-  fileName: string;
-  title: string;
-  subtitle: string;
-  collection: ExerciseCollection;
-}
+export type SingleChoiceTopic = SingleChoicePracticeTopic;
 
 function normalizeInputExercises(content: unknown): InputExercise[] {
   const arrayResult = inputExerciseArraySchema.safeParse(content);

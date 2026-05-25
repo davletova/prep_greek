@@ -1,3 +1,5 @@
+import type { ExerciseCollection } from "./exercises.ts";
+
 export type PracticeTopicKind = "single-choice" | "input";
 
 export interface PracticeTopicDefinition {
@@ -11,3 +13,12 @@ export interface PracticeTopicDefinition {
 export type InputPracticeTopicDefinition = PracticeTopicDefinition & {
   kind: "input";
 };
+
+export interface SingleChoicePracticeTopic {
+  id: string;
+  kind: "single-choice";
+  fileName: string;
+  title: string;
+  subtitle: string;
+  collection: ExerciseCollection;
+}
