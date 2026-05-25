@@ -3,8 +3,8 @@ import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practice-answer.ts";
+import { useSingleChoiceRuntimeQuestion } from "../hooks/use-single-choice-runtime-question.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
-import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
 import { getSingleChoiceExercises } from "../lib/exercises/filter.ts";
 import type { ExerciseCollection } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
@@ -28,10 +28,7 @@ export default function PracticeTopicScreen({
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
   const speech = useSpeechPlayback<string>(onSpeak);
   const { clear: clearSpeech, stop: stopSpeech } = speech;
-  const question = useMemo(
-    () => (exercise ? buildSingleChoiceRuntimeQuestion(exercise) : null),
-    [exercise]
-  );
+  const question = useSingleChoiceRuntimeQuestion(exercise);
   const { hasAnswered, selectAnswer, resetAnswer, getAnswerClassName } =
     useSingleChoicePracticeAnswer(question, clearSpeech);
   const isPromptInRussian = question?.promptLanguage === "ru";
