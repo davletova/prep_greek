@@ -1,9 +1,7 @@
 import { useState } from "react";
-import {
-  loadSingleChoiceTopics,
-  type SingleChoiceTopic
-} from "../services/content/practice-content-service.ts";
+import { loadSingleChoiceTopicDefinitions } from "../services/content/practice-content-service.ts";
 import type { InputExercise, ExerciseCollection } from "../types/exercises.ts";
+import type { SingleChoicePracticeTopicDefinition } from "../types/practice-topic.ts";
 import type { TopicListItem } from "../types/topic-list.ts";
 import type { LoadableState, Screen } from "../types/ui.ts";
 import { useInputPracticeTopicState } from "../hooks/use-input-practice-topic-state.ts";
@@ -11,7 +9,7 @@ import { useLoadableContent } from "../hooks/use-loadable-content.ts";
 import { useSingleChoiceTopicState } from "../hooks/use-single-choice-topic-state.ts";
 
 export interface PracticeContentState {
-  selectedSingleChoiceTopic: SingleChoiceTopic | undefined;
+  selectedSingleChoiceTopic: SingleChoicePracticeTopicDefinition | undefined;
   selectedSingleChoiceTopicState: LoadableState<ExerciseCollection>;
   singleChoiceTopicListState: LoadableState<TopicListItem[]>;
   selectedInputTopicTitle: string;
@@ -22,6 +20,7 @@ export interface PracticeContentState {
   openSingleChoiceTopic: (topicId: string) => void;
   openInputTopic: (topicId: string) => void;
   retrySingleChoiceTopics: () => void;
+  retrySelectedSingleChoiceTopic: () => void;
   retrySelectedInputTopic: () => void;
 }
 
@@ -40,7 +39,7 @@ export function usePracticeContentState(
   } = useLoadableContent(
     screen === "practice-single-choice-topics" ||
       screen === "practice-single-choice-topic",
-    loadSingleChoiceTopics
+    loadSingleChoiceTopicDefinitions
   );
 
   const {
@@ -55,10 +54,12 @@ export function usePracticeContentState(
   const {
     selectedTopic: selectedSingleChoiceTopic,
     selectedTopicState: selectedSingleChoiceTopicState,
-    topicListState: singleChoiceTopicListState
+    topicListState: singleChoiceTopicListState,
+    retrySelectedTopic: retrySelectedSingleChoiceTopic
   } = useSingleChoiceTopicState(
     singleChoiceTopicsState,
-    selectedSingleChoiceTopicId
+    selectedSingleChoiceTopicId,
+    screen === "practice-single-choice-topic"
   );
 
   const openSingleChoiceTopics = () => {
@@ -99,6 +100,7 @@ export function usePracticeContentState(
     openSingleChoiceTopic,
     openInputTopic,
     retrySingleChoiceTopics,
+    retrySelectedSingleChoiceTopic,
     retrySelectedInputTopic
   };
 }

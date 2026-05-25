@@ -76,7 +76,7 @@ export default function AppScreenRenderer({
           title={practice.selectedSingleChoiceTopic?.title || "Тренировка"}
           topicState={practice.selectedSingleChoiceTopicState}
           onClose={practice.closeSingleChoiceTopic}
-          onRetry={practice.retrySingleChoiceTopics}
+          onRetry={practice.retrySelectedSingleChoiceTopic}
           onSpeak={onSpeak}
         />
       ) : (

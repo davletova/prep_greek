@@ -29,45 +29,7 @@ Why separate:
 - Routing changes can affect navigation behavior broadly.
 - It needs manual testing in both regular browser and Telegram Mini App context.
 
-## 2. Migrate `single_choice/index.json` to metadata objects
-
-Current state:
-
-- `webapp/public/content/practice/single_choice/index.json` is an array of file names.
-- Topic list UI currently loads every single-choice JSON file to read title/subtitle.
-
-Potential future shape:
-
-```json
-[
-  {
-    "id": "base-greek",
-    "title": "Базовые фразы",
-    "subtitle": "Выберите правильный перевод",
-    "fileName": "base-greek.json"
-  }
-]
-```
-
-Benefits:
-
-- Topic list can load quickly without fetching full exercise collections.
-- Topic metadata becomes explicit and validateable.
-- The approach becomes closer to input topic definitions.
-
-Needed work:
-
-- Update content files.
-- Update `practice-content-service`.
-- Update `validate-content.mjs`.
-- Preserve fallback/migration support if desired.
-
-Why separate:
-
-- This changes static content format and loading behavior.
-- It should be reviewed together with content validation updates.
-
-## 3. Create a generic `PracticeSessionScreen`
+## 2. Create a generic `PracticeSessionScreen`
 
 Current state:
 
@@ -101,7 +63,7 @@ Why separate:
 - It is a larger abstraction step.
 - It should be done only after the current duplicated behavior is stable and well understood.
 
-## 4. Add a practice renderer registry
+## 3. Add a practice renderer registry
 
 Current state:
 
@@ -131,7 +93,7 @@ Why separate:
 - A registry is useful only when the generic session abstraction exists or when more exercise types are planned.
 - Adding it too early can create unnecessary indirection.
 
-## 5. Expand progress model beyond daily stats
+## 4. Expand progress model beyond daily stats
 
 Current state:
 
@@ -175,7 +137,7 @@ Why separate:
 - It changes persisted data shape.
 - It needs versioning/migration decisions and Telegram CloudStorage size considerations.
 
-## 6. Run Prettier across the project
+## 5. Run Prettier across the project
 
 Current state:
 
@@ -192,7 +154,7 @@ Why separate:
 - Formatting-only changes create large diffs.
 - Mixing them with architecture changes makes review much harder.
 
-## 7. Strengthen content validation further
+## 6. Strengthen content validation further
 
 Current state:
 

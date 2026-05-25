@@ -35,12 +35,12 @@ describe("content files", () => {
     const indexContent = await readJson(resolve(singleChoiceRoot, "index.json"));
     expect(Array.isArray(indexContent)).toBe(true);
 
-    const fileNames = indexContent as string[];
-    expect(fileNames.length).toBeGreaterThan(0);
+    const topics = indexContent as Array<{ fileName: string }>;
+    expect(topics.length).toBeGreaterThan(0);
 
-    for (const fileName of fileNames) {
-      expect(fileName.endsWith(".json")).toBe(true);
-      const topicContent = await readJson(resolve(singleChoiceRoot, fileName));
+    for (const topic of topics) {
+      expect(topic.fileName.endsWith(".json")).toBe(true);
+      const topicContent = await readJson(resolve(singleChoiceRoot, topic.fileName));
       expect(exerciseCollectionSchema.safeParse(topicContent).success).toBe(true);
     }
   });
