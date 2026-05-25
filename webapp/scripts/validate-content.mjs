@@ -36,6 +36,12 @@ function validateOptionalString(filePath, value, field) {
   }
 }
 
+function validatePromptLanguage(filePath, value, field) {
+  if (value !== undefined && value !== "el" && value !== "ru") {
+    addError(filePath, `${field} must be either "el" or "ru" when provided`);
+  }
+}
+
 function validateUniqueExerciseIds(filePath, items) {
   const ids = new Set();
 
@@ -63,7 +69,7 @@ function validateSingleChoiceExercise(filePath, item, index) {
     addError(filePath, `${location}.prompt must be a non-empty string`);
   }
 
-  validateOptionalString(filePath, item.promptLanguage, `${location}.promptLanguage`);
+  validatePromptLanguage(filePath, item.promptLanguage, `${location}.promptLanguage`);
   validateOptionalString(filePath, item.translation, `${location}.translation`);
   validateOptionalString(filePath, item.explanation, `${location}.explanation`);
 
@@ -101,7 +107,7 @@ function validateInputExercise(filePath, item, index) {
     addError(filePath, `${location}.prompt must be a non-empty string`);
   }
 
-  validateOptionalString(filePath, item.promptLanguage, `${location}.promptLanguage`);
+  validatePromptLanguage(filePath, item.promptLanguage, `${location}.promptLanguage`);
   validateOptionalString(filePath, item.translation, `${location}.translation`);
   validateOptionalString(filePath, item.explanation, `${location}.explanation`);
   validateOptionalString(filePath, item.context, `${location}.context`);

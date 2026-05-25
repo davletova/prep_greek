@@ -1,10 +1,11 @@
 export type ExerciseType = "single-choice" | "text-input" | "input";
+export type PromptLanguage = "el" | "ru";
 
 export interface BaseExercise {
   id: string;
   type: ExerciseType;
   prompt: string;
-  promptLanguage?: string | undefined;
+  promptLanguage?: PromptLanguage | undefined;
   translation?: string | undefined;
   explanation?: string | undefined;
 }
@@ -18,7 +19,7 @@ export interface SingleChoiceExercise extends BaseExercise {
 export interface SingleChoiceRuntimeQuestion {
   id: string;
   prompt: string;
-  promptLanguage?: string | undefined;
+  promptLanguage?: PromptLanguage | undefined;
   options: [string, string, string, string];
   correctIndex: number;
   translation?: string | undefined;
