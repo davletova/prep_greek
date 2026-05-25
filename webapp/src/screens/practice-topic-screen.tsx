@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import ContentState from "../components/content-state.tsx";
+import DetailScreenHeader from "../components/detail-screen-header.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practice-answer.ts";
@@ -69,14 +70,7 @@ export default function PracticeTopicScreen({
 
   return (
     <>
-      <header className="app__header app__header--compact">
-        <div>
-          <h1 className="app__title app__title--small">{title}</h1>
-        </div>
-        <button className="close-button" type="button" onClick={handleClose} aria-label="Закрыть">
-          ×
-        </button>
-      </header>
+      <DetailScreenHeader title={title} onClose={handleClose} />
 
       <main className="practice-flow">
         {topicState.status === "loading" ? (
