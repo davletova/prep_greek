@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { createShuffledIndices } from "../lib/random.ts";
 
-interface ShuffledExerciseFlow<T> {
+interface ExerciseSession<T> {
   currentItem: T | null;
   currentIndex: number;
   hasItems: boolean;
@@ -9,7 +9,7 @@ interface ShuffledExerciseFlow<T> {
   next: () => void;
 }
 
-export function useShuffledExerciseFlow<T>(items: readonly T[]): ShuffledExerciseFlow<T> {
+export function useExerciseSession<T>(items: readonly T[]): ExerciseSession<T> {
   const shuffledIndices = useMemo(
     () => createShuffledIndices(items.length),
     [items]

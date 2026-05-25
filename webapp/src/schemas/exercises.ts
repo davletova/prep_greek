@@ -7,10 +7,12 @@ import type {
   TextInputExercise
 } from "../types/exercises";
 
+const promptLanguageSchema = z.enum(["el", "ru"]);
+
 const baseExerciseSchema = z.object({
   id: z.string(),
   prompt: z.string(),
-  promptLanguage: z.string().optional(),
+  promptLanguage: promptLanguageSchema.optional(),
   translation: z.string().optional(),
   explanation: z.string().optional()
 });

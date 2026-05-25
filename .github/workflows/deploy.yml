@@ -34,6 +34,18 @@ jobs:
       - name: Install deps
         run: npm ci
 
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm run test
+
+      - name: Validate content
+        run: npm run validate:content
+
+      - name: Lint
+        run: npm run lint
+
       - name: Build
         run: npm run build
 
