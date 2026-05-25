@@ -8,7 +8,7 @@ interface HomeScreenProps {
   onOpenAlphabet: VoidHandler;
   onOpenDiphthongs: VoidHandler;
   onOpenDictionaryTopics: VoidHandler;
-  onOpenWriteWordTopics: VoidHandler;
+  onOpenInputTopics: VoidHandler;
 }
 
 export default function HomeScreen({
@@ -16,13 +16,13 @@ export default function HomeScreen({
   onOpenAlphabet,
   onOpenDiphthongs,
   onOpenDictionaryTopics,
-  onOpenWriteWordTopics,
+  onOpenInputTopics,
 }: HomeScreenProps) {
   if (tab === "practice") {
     return (
       <PracticeHomeScreen
         onOpenDictionaryTopics={onOpenDictionaryTopics}
-        onOpenWriteWordTopics={onOpenWriteWordTopics}
+        onOpenInputTopics={onOpenInputTopics}
       />
     );
   }

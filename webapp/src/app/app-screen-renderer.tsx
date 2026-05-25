@@ -39,7 +39,7 @@ export default function AppScreenRenderer({
           onOpenAlphabet={theory.openAlphabet}
           onOpenDiphthongs={theory.openDiphthongs}
           onOpenDictionaryTopics={practice.openDictionaryTopics}
-          onOpenWriteWordTopics={practice.openWriteWordTopics}
+          onOpenInputTopics={practice.openInputTopics}
         />
       ) : screen === "alphabet" ? (
         <AlphabetScreen
@@ -67,7 +67,7 @@ export default function AppScreenRenderer({
         <InputPracticeTopicScreen
           title={practice.selectedInputTopicTitle}
           topicState={practice.selectedInputTopicState}
-          onClose={practice.openWriteWordTopics}
+          onClose={practice.openInputTopics}
           onRetry={practice.retrySelectedInputTopic}
           onSpeak={onSpeak}
         />

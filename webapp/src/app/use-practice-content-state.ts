@@ -17,7 +17,7 @@ export interface PracticeContentState {
   selectedInputTopicTitle: string;
   selectedInputTopicState: LoadableState<InputExercise[]>;
   openDictionaryTopics: () => void;
-  openWriteWordTopics: () => void;
+  openInputTopics: () => void;
   closeSingleChoiceTopic: () => void;
   openSingleChoiceTopic: (topicId: string) => void;
   openInputTopic: (topicId: string) => void;
@@ -65,7 +65,7 @@ export function usePracticeContentState(
     setScreen("practice-single-choice-topics");
   };
 
-  const openWriteWordTopics = () => {
+  const openInputTopics = () => {
     setScreen("practice-input-topics");
   };
 
@@ -94,7 +94,7 @@ export function usePracticeContentState(
     selectedInputTopicTitle: selectedInputTopic?.title || "Тренировка",
     selectedInputTopicState,
     openDictionaryTopics,
-    openWriteWordTopics,
+    openInputTopics,
     closeSingleChoiceTopic,
     openSingleChoiceTopic,
     openInputTopic,

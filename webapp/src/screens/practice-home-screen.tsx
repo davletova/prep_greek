@@ -2,12 +2,12 @@ import type { VoidHandler } from "../types/ui";
 
 interface PracticeHomeScreenProps {
   onOpenDictionaryTopics: VoidHandler;
-  onOpenWriteWordTopics: VoidHandler;
+  onOpenInputTopics: VoidHandler;
 }
 
 export default function PracticeHomeScreen({
   onOpenDictionaryTopics,
-  onOpenWriteWordTopics,
+  onOpenInputTopics,
 }: PracticeHomeScreenProps) {
   return (
     <>
@@ -26,7 +26,7 @@ export default function PracticeHomeScreen({
           <span className="card-button__chevron">›</span>
         </button>
 
-        <button className="card-button" type="button" onClick={onOpenWriteWordTopics}>
+        <button className="card-button" type="button" onClick={onOpenInputTopics}>
           <div className="card-button__text">
             <span className="card-button__title">Напиши слово</span>
             <span className="card-button__subtitle">Введите ответ самостоятельно</span>
