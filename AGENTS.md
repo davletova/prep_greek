@@ -36,6 +36,7 @@ Before committing code changes, run at least:
 npm run validate:content --prefix webapp
 npm run typecheck --prefix webapp
 npm run test --prefix webapp
+npm run lint --prefix webapp
 npm run build --prefix webapp
 ```
 
