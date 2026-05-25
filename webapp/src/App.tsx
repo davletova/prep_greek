@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useHomeNavigation } from "./app/use-home-navigation.ts";
 import { usePracticeContentState } from "./app/use-practice-content-state.ts";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import { useTheoryContentState } from "./app/use-theory-content-state.ts";
@@ -11,11 +12,11 @@ import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { speakGreekText } from "./lib/speech.ts";
-import type { Screen, TabKey } from "./types/ui";
+import type { Screen } from "./types/ui";
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
-  const [tab, setTab] = useState<TabKey>("practice");
+  const { tab, setTab } = useHomeNavigation();
   const {
     alphabetState,
     pageIndex,
