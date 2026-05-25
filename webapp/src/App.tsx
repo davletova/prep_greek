@@ -1,5 +1,7 @@
 import { useState } from "react";
+import { usePracticeContentState } from "./app/use-practice-content-state.ts";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
+import { useTheoryContentState } from "./app/use-theory-content-state.ts";
 import TabBar from "./components/tab-bar.tsx";
 import AlphabetScreen from "./screens/alphabet-screen.tsx";
 import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
@@ -8,8 +10,6 @@ import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx"
 import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
-import { usePracticeContentState } from "./hooks/use-practice-content-state.ts";
-import { useTheoryContentState } from "./hooks/use-theory-content-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 import type { Screen, TabKey } from "./types/ui";
 

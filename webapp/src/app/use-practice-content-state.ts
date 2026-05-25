@@ -6,9 +6,9 @@ import {
 import type { InputExercise, ExerciseCollection } from "../types/exercises.ts";
 import type { TopicListItem } from "../types/topic-list.ts";
 import type { LoadableState, Screen } from "../types/ui.ts";
-import { useInputPracticeTopicState } from "./use-input-practice-topic-state.ts";
-import { useLoadableContent } from "./use-loadable-content.ts";
-import { useSingleChoiceTopicState } from "./use-single-choice-topic-state.ts";
+import { useInputPracticeTopicState } from "../hooks/use-input-practice-topic-state.ts";
+import { useLoadableContent } from "../hooks/use-loadable-content.ts";
+import { useSingleChoiceTopicState } from "../hooks/use-single-choice-topic-state.ts";
 
 interface PracticeContentState {
   selectedSingleChoiceTopic: SingleChoiceTopic | undefined;
