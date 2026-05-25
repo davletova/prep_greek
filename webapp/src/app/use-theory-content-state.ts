@@ -7,7 +7,7 @@ import type { AlphabetContent, DiphthongsContent } from "../types/content.ts";
 import type { LoadableState, Screen } from "../types/ui.ts";
 import { useLoadableContent } from "../hooks/use-loadable-content.ts";
 
-interface TheoryContentState {
+export interface TheoryContentState {
   alphabetState: LoadableState<AlphabetContent>;
   pageIndex: number;
   diphthongsState: LoadableState<DiphthongsContent>;

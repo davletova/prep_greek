@@ -10,7 +10,7 @@ import { useInputPracticeTopicState } from "../hooks/use-input-practice-topic-st
 import { useLoadableContent } from "../hooks/use-loadable-content.ts";
 import { useSingleChoiceTopicState } from "../hooks/use-single-choice-topic-state.ts";
 
-interface PracticeContentState {
+export interface PracticeContentState {
   selectedSingleChoiceTopic: SingleChoiceTopic | undefined;
   selectedSingleChoiceTopicState: LoadableState<ExerciseCollection>;
   singleChoiceTopicListState: LoadableState<TopicListItem[]>;
