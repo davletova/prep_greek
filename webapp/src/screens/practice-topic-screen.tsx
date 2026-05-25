@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import PlaybackIcon from "../components/playback-icon.tsx";
+import SingleChoiceExerciseCard from "../components/single-choice-exercise-card.tsx";
 import PracticeEmptyState from "../components/practice-empty-state.tsx";
 import PracticeLoadingState from "../components/practice-loading-state.tsx";
 import PracticeScreenShell from "../components/practice-screen-shell.tsx";
@@ -33,9 +33,6 @@ export default function PracticeTopicScreen({
   const question = useSingleChoiceRuntimeQuestion(exercise);
   const { hasAnswered, selectAnswer, resetAnswer, getAnswerClassName } =
     useSingleChoicePracticeAnswer(question, clearSpeech);
-  const isPromptInRussian = question?.promptLanguage === "ru";
-  const isPromptInGreek = question?.promptLanguage === "el";
-
   const handlePlayPrompt = async () => {
     if (!question || speech.isSpeaking("prompt")) {
       return;
@@ -86,65 +83,16 @@ export default function PracticeTopicScreen({
         ) : (
           <>
             <div className="practice-flow__body">
-              <section className="practice-card">
-                <p className="practice-card__question">{question?.prompt}</p>
-
-                {!isPromptInRussian ? (
-                  <div className="practice-card__play-wrap">
-                    <button
-                      className={`alphabet-card__play practice-card__play ${
-                        isPromptInGreek ? "practice-card__play--el" : ""
-                      } ${speech.isSpeaking("prompt") ? "practice-card__play--active" : ""}`}
-                      type="button"
-                      aria-label={`Озвучить ${question.prompt}`}
-                      onClick={handlePlayPrompt}
-                      disabled={speech.isSpeaking("prompt")}
-                    >
-                      <PlaybackIcon isPlaying={speech.isSpeaking("prompt")} />
-                    </button>
-                  </div>
-                ) : null}
-
-                <div className="practice-card__answers">
-                  {question?.options.map((option, index) =>
-                    isPromptInRussian ? (
-                      <div key={`${question.id}-${index}`} className="practice-card__answer-row">
-                        <button
-                          className={getAnswerClassName(index)}
-                          type="button"
-                          onClick={() => selectAnswer(index)}
-                          disabled={hasAnswered}
-                        >
-                          {option}
-                        </button>
-                        <button
-                          className={`alphabet-card__play practice-card__answer-play ${
-                            speech.isSpeaking(`option-${index}`)
-                              ? "practice-card__play--active"
-                              : ""
-                          }`}
-                          type="button"
-                          aria-label={`Озвучить вариант ${option}`}
-                          onClick={() => handlePlayOption(option, index)}
-                          disabled={speech.isSpeaking(`option-${index}`)}
-                        >
-                          <PlaybackIcon isPlaying={speech.isSpeaking(`option-${index}`)} />
-                        </button>
-                      </div>
-                    ) : (
-                      <button
-                        key={`${question.id}-${option}`}
-                        className={getAnswerClassName(index)}
-                        type="button"
-                        onClick={() => selectAnswer(index)}
-                        disabled={hasAnswered}
-                      >
-                        {option}
-                      </button>
-                    )
-                  )}
-                </div>
-              </section>
+              <SingleChoiceExerciseCard
+                question={question}
+                hasAnswered={hasAnswered}
+                isPromptSpeaking={speech.isSpeaking("prompt")}
+                isOptionSpeaking={(optionIndex) => speech.isSpeaking(`option-${optionIndex}`)}
+                getAnswerClassName={getAnswerClassName}
+                onPlayPrompt={handlePlayPrompt}
+                onPlayOption={handlePlayOption}
+                onSelectAnswer={selectAnswer}
+              />
             </div>
 
             <button
