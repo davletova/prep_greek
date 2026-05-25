@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import PlaybackIcon from "../components/playback-icon.tsx";
+import InputExerciseCard from "../components/input-exercise-card.tsx";
 import PracticeEmptyState from "../components/practice-empty-state.tsx";
 import PracticeLoadingState from "../components/practice-loading-state.tsx";
 import PracticeScreenShell from "../components/practice-screen-shell.tsx";
@@ -81,52 +81,15 @@ export default function InputPracticeTopicScreen({
         ) : (
           <>
             <div className="input-practice-flow__body">
-              <section className="practice-card input-practice-card">
-                <div className="input-practice-card__prompt-block">
-                  <p className="practice-card__question">{exercise.prompt}</p>
-                  {exercise.context ? (
-                    <p className="input-practice-card__context">{exercise.context}</p>
-                  ) : null}
-                </div>
-
-                <button
-                  className={`alphabet-card__play practice-card__play input-practice-card__play ${
-                    speech.isSpeaking("prompt") ? "practice-card__play--active" : ""
-                  }`}
-                  type="button"
-                  aria-label={`Озвучить ${exercise.correctAnswer}`}
-                  onClick={handlePlayPrompt}
-                  disabled={!hasChecked || speech.isSpeaking("prompt")}
-                >
-                  <PlaybackIcon isPlaying={speech.isSpeaking("prompt")} />
-                </button>
-
-                <div className="input-practice-card__input-wrap">
-                  <p
-                    className={`input-practice-card__correct-answer ${
-                      hasChecked ? "" : "input-practice-card__correct-answer--hidden"
-                    }`}
-                  >
-                    {exercise.correctAnswer}
-                  </p>
-                  <input
-                    className={`input-practice-card__input-line ${
-                      hasChecked
-                        ? isCorrect
-                          ? "input-practice-card__input-line--correct"
-                          : "input-practice-card__input-line--wrong"
-                        : ""
-                    }`}
-                    type="text"
-                    value={answerValue}
-                    onChange={(event) => setAnswerValue(event.target.value)}
-                    autoComplete="off"
-                    spellCheck={false}
-                    aria-label="Введите ответ"
-                    disabled={hasChecked}
-                  />
-                </div>
-              </section>
+              <InputExerciseCard
+                exercise={exercise}
+                answerValue={answerValue}
+                hasChecked={hasChecked}
+                isCorrect={isCorrect}
+                isSpeakingPrompt={speech.isSpeaking("prompt")}
+                onAnswerChange={setAnswerValue}
+                onPlayPrompt={handlePlayPrompt}
+              />
             </div>
 
             <div className="input-practice-flow__actions">
