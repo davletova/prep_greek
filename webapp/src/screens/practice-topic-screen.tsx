@@ -1,8 +1,8 @@
 import { useMemo } from "react";
-import DetailScreenHeader from "../components/detail-screen-header.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import PracticeEmptyState from "../components/practice-empty-state.tsx";
 import PracticeLoadingState from "../components/practice-loading-state.tsx";
+import PracticeScreenShell from "../components/practice-screen-shell.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practice-answer.ts";
 import { useSingleChoiceRuntimeQuestion } from "../hooks/use-single-choice-runtime-question.ts";
@@ -70,10 +70,7 @@ export default function PracticeTopicScreen({
   };
 
   return (
-    <>
-      <DetailScreenHeader title={title} onClose={handleClose} />
-
-      <main className="practice-flow">
+    <PracticeScreenShell title={title} mainClassName="practice-flow" onClose={handleClose}>
         {topicState.status === "loading" || topicState.status === "error" ? (
           <PracticeLoadingState
             status={topicState.status}
@@ -160,7 +157,6 @@ export default function PracticeTopicScreen({
             </button>
           </>
         )}
-      </main>
-    </>
+    </PracticeScreenShell>
   );
 }

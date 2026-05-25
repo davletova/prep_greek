@@ -1,8 +1,8 @@
 import { useMemo } from "react";
-import DetailScreenHeader from "../components/detail-screen-header.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import PracticeEmptyState from "../components/practice-empty-state.tsx";
 import PracticeLoadingState from "../components/practice-loading-state.tsx";
+import PracticeScreenShell from "../components/practice-screen-shell.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useInputPracticeAnswer } from "../hooks/use-input-practice-answer.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
@@ -61,10 +61,11 @@ export default function InputPracticeTopicScreen({
   };
 
   return (
-    <>
-      <DetailScreenHeader title={title} onClose={handleClose} />
-
-      <main className="input-practice-flow">
+    <PracticeScreenShell
+      title={title}
+      mainClassName="input-practice-flow"
+      onClose={handleClose}
+    >
         {topicState.status === "loading" || topicState.status === "error" ? (
           <PracticeLoadingState
             status={topicState.status}
@@ -148,7 +149,6 @@ export default function InputPracticeTopicScreen({
             </div>
           </>
         )}
-      </main>
-    </>
+    </PracticeScreenShell>
   );
 }
