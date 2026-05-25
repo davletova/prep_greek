@@ -1,3 +1,4 @@
+import { useDelayedLoading } from "../hooks/use-delayed-loading.ts";
 import ContentState from "./content-state.tsx";
 import type { TopicListItem } from "../types/topic-list.ts";
 import type { LoadStatus, VoidHandler } from "../types/ui";
@@ -33,6 +34,8 @@ export default function TopicListScreen({
   emptyText = "Нет доступных тем.",
   onRetry
 }: TopicListScreenProps) {
+  const showLoading = useDelayedLoading(status === "loading");
+
   return (
     <>
       <header className="app__header app__header--centered">
@@ -52,7 +55,7 @@ export default function TopicListScreen({
 
       <main className="app__content app__content--profile">
         {status === "loading" ? (
-          <ContentState title={loadingTitle} text={loadingText} />
+          showLoading ? <ContentState title={loadingTitle} text={loadingText} /> : null
         ) : status === "error" ? (
           <ContentState
             title={errorTitle}

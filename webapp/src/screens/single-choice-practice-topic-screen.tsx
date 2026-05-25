@@ -3,6 +3,7 @@ import SingleChoiceExerciseCard from "../components/single-choice-exercise-card.
 import PracticeEmptyState from "../components/practice-empty-state.tsx";
 import PracticeLoadingState from "../components/practice-loading-state.tsx";
 import PracticeScreenShell from "../components/practice-screen-shell.tsx";
+import { useDelayedLoading } from "../hooks/use-delayed-loading.ts";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practice-answer.ts";
 import { useSingleChoiceRuntimeQuestion } from "../hooks/use-single-choice-runtime-question.ts";
@@ -26,6 +27,7 @@ export default function SingleChoicePracticeTopicScreen({
   onRetry,
   onSpeak,
 }: SingleChoicePracticeTopicScreenProps) {
+  const showLoading = useDelayedLoading(topicState.status === "loading");
   const exercises = useMemo(() => getSingleChoiceExercises(topicState.data), [topicState.data]);
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
   const speech = useSpeechPlayback<string>(onSpeak);
@@ -68,7 +70,16 @@ export default function SingleChoicePracticeTopicScreen({
 
   return (
     <PracticeScreenShell title={title} mainClassName="practice-flow" onClose={handleClose}>
-        {topicState.status === "loading" || topicState.status === "error" ? (
+        {topicState.status === "loading" ? (
+          showLoading ? (
+            <PracticeLoadingState
+              status={topicState.status}
+              error={topicState.error}
+              loadingText="Подготавливаем вопросы для тренировки."
+              onRetry={onRetry}
+            />
+          ) : null
+        ) : topicState.status === "error" ? (
           <PracticeLoadingState
             status={topicState.status}
             error={topicState.error}

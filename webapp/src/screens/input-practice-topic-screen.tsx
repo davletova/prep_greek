@@ -3,6 +3,7 @@ import InputExerciseCard from "../components/input-exercise-card.tsx";
 import PracticeEmptyState from "../components/practice-empty-state.tsx";
 import PracticeLoadingState from "../components/practice-loading-state.tsx";
 import PracticeScreenShell from "../components/practice-screen-shell.tsx";
+import { useDelayedLoading } from "../hooks/use-delayed-loading.ts";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useInputPracticeAnswer } from "../hooks/use-input-practice-answer.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
@@ -25,6 +26,7 @@ export default function InputPracticeTopicScreen({
   onRetry,
   onSpeak,
 }: InputPracticeTopicScreenProps) {
+  const showLoading = useDelayedLoading(topicState.status === "loading");
   const exercises = useMemo(() => getInputExercises(topicState.data), [topicState.data]);
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
   const speech = useSpeechPlayback<"prompt">(onSpeak);
@@ -66,7 +68,16 @@ export default function InputPracticeTopicScreen({
       mainClassName="input-practice-flow"
       onClose={handleClose}
     >
-        {topicState.status === "loading" || topicState.status === "error" ? (
+        {topicState.status === "loading" ? (
+          showLoading ? (
+            <PracticeLoadingState
+              status={topicState.status}
+              error={topicState.error}
+              loadingText="Подготавливаем задание для ввода ответа."
+              onRetry={onRetry}
+            />
+          ) : null
+        ) : topicState.status === "error" ? (
           <PracticeLoadingState
             status={topicState.status}
             error={topicState.error}
