@@ -5,7 +5,7 @@ import HomeScreen from "../screens/home-screen.tsx";
 import InputPracticeTopicScreen from "../screens/input-practice-topic-screen.tsx";
 import PracticeTopicScreen from "../screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "../screens/practice-topics-screen.tsx";
-import WriteWordTopicsScreen from "../screens/write-word-topics-screen.tsx";
+import InputPracticeTopicsScreen from "../screens/input-practice-topics-screen.tsx";
 import type { Screen, SpeakHandler, TabKey, VoidHandler } from "../types/ui.ts";
 import type { PracticeContentState } from "./use-practice-content-state.ts";
 import type { TheoryContentState } from "./use-theory-content-state.ts";
@@ -62,7 +62,7 @@ export default function AppScreenRenderer({
           onSpeak={onSpeak}
         />
       ) : screen === "practice-input-topics" ? (
-        <WriteWordTopicsScreen onClose={onExit} onOpenTopic={practice.openInputTopic} />
+        <InputPracticeTopicsScreen onClose={onExit} onOpenTopic={practice.openInputTopic} />
       ) : screen === "practice-input-topic" ? (
         <InputPracticeTopicScreen
           title={practice.selectedInputTopicTitle}
