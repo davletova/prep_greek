@@ -1,3 +1,4 @@
+import ConfirmSheet from "../components/confirm-sheet.tsx";
 import PracticeStatsCard from "../components/practice-stats-card.tsx";
 import {
   EMPTY_STATS_MESSAGES,
@@ -60,39 +61,14 @@ export default function ProfileScreen() {
       </main>
 
       {isResetConfirmOpen ? (
-        <div className="modal-overlay" role="presentation">
-          <section
-            className="confirm-sheet"
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="reset-stats-title"
-          >
-            <h2 className="confirm-sheet__title" id="reset-stats-title">
-              Сбросить статистику?
-            </h2>
-            <p className="confirm-sheet__text">
-              Удалятся только данные по правильным и ошибочным ответам. Уровень языка и остальной
-              прогресс не изменятся.
-            </p>
-            {resetError ? <p className="confirm-sheet__error">{resetError}</p> : null}
-            <div className="confirm-sheet__actions">
-              <button
-                className="confirm-sheet__button confirm-sheet__button--secondary"
-                type="button"
-                onClick={handleCloseResetConfirm}
-              >
-                Отмена
-              </button>
-              <button
-                className="confirm-sheet__button confirm-sheet__button--danger"
-                type="button"
-                onClick={handleResetStats}
-              >
-                Сбросить
-              </button>
-            </div>
-          </section>
-        </div>
+        <ConfirmSheet
+          title="Сбросить статистику?"
+          text="Удалятся только данные по правильным и ошибочным ответам. Уровень языка и остальной прогресс не изменятся."
+          error={resetError}
+          confirmLabel="Сбросить"
+          onCancel={handleCloseResetConfirm}
+          onConfirm={handleResetStats}
+        />
       ) : null}
     </>
   );
