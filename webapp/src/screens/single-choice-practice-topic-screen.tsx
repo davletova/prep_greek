@@ -11,7 +11,7 @@ import { getSingleChoiceExercises } from "../lib/exercises/filter.ts";
 import type { ExerciseCollection } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
-interface PracticeTopicScreenProps {
+interface SingleChoicePracticeTopicScreenProps {
   title: string;
   topicState: LoadableState<ExerciseCollection>;
   onClose: VoidHandler;
@@ -19,13 +19,13 @@ interface PracticeTopicScreenProps {
   onSpeak: SpeakHandler;
 }
 
-export default function PracticeTopicScreen({
+export default function SingleChoicePracticeTopicScreen({
   title,
   topicState,
   onClose,
   onRetry,
   onSpeak,
-}: PracticeTopicScreenProps) {
+}: SingleChoicePracticeTopicScreenProps) {
   const exercises = useMemo(() => getSingleChoiceExercises(topicState.data), [topicState.data]);
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
   const speech = useSpeechPlayback<string>(onSpeak);
