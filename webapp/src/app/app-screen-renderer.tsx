@@ -4,7 +4,7 @@ import DiphthongsScreen from "../screens/diphthongs-screen.tsx";
 import HomeScreen from "../screens/home-screen.tsx";
 import InputPracticeTopicScreen from "../screens/input-practice-topic-screen.tsx";
 import PracticeTopicScreen from "../screens/practice-topic-screen.tsx";
-import PracticeTopicsScreen from "../screens/practice-topics-screen.tsx";
+import SingleChoicePracticeTopicsScreen from "../screens/single-choice-practice-topics-screen.tsx";
 import InputPracticeTopicsScreen from "../screens/input-practice-topics-screen.tsx";
 import type { Screen, SpeakHandler, TabKey, VoidHandler } from "../types/ui.ts";
 import type { PracticeContentState } from "./use-practice-content-state.ts";
@@ -80,7 +80,7 @@ export default function AppScreenRenderer({
           onSpeak={onSpeak}
         />
       ) : (
-        <PracticeTopicsScreen
+        <SingleChoicePracticeTopicsScreen
           topicsState={practice.singleChoiceTopicListState}
           onClose={onExit}
           onRetry={practice.retrySingleChoiceTopics}
