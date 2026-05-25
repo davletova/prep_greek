@@ -4,6 +4,7 @@ import PlaybackIcon from "../components/playback-icon.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { checkInputExerciseAnswer } from "../lib/exercises/check.ts";
+import { getInputExercises } from "../lib/exercises/filter.ts";
 import { recordPracticeAnswer } from "../lib/practice-stats-storage.ts";
 import type { InputExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
@@ -14,10 +15,6 @@ interface InputPracticeTopicScreenProps {
   onClose: VoidHandler;
   onRetry: VoidHandler;
   onSpeak: SpeakHandler;
-}
-
-function getInputExercises(exercises: InputExercise[] | null): InputExercise[] {
-  return exercises?.filter((exercise) => exercise.type === "input") ?? [];
 }
 
 export default function InputPracticeTopicScreen({

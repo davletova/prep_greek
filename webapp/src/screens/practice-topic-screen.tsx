@@ -4,8 +4,9 @@ import PlaybackIcon from "../components/playback-icon.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { buildSingleChoiceRuntimeQuestion } from "../lib/exercises/build-single-choice-runtime-question.ts";
+import { getSingleChoiceExercises } from "../lib/exercises/filter.ts";
 import { recordPracticeAnswer } from "../lib/practice-stats-storage.ts";
-import type { ExerciseCollection, SingleChoiceExercise } from "../types/exercises";
+import type { ExerciseCollection } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
 interface PracticeTopicScreenProps {
@@ -14,14 +15,6 @@ interface PracticeTopicScreenProps {
   onClose: VoidHandler;
   onRetry: VoidHandler;
   onSpeak: SpeakHandler;
-}
-
-function getSingleChoiceExercises(collection: ExerciseCollection | null): SingleChoiceExercise[] {
-  return (
-    collection?.items.filter(
-      (exercise): exercise is SingleChoiceExercise => exercise.type === "single-choice"
-    ) ?? []
-  );
 }
 
 export default function PracticeTopicScreen({
