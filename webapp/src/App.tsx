@@ -1,16 +1,9 @@
+import AppScreenRenderer from "./app/app-screen-renderer.tsx";
 import { useHomeNavigation } from "./app/use-home-navigation.ts";
 import { usePracticeContentState } from "./app/use-practice-content-state.ts";
 import { useScreenNavigation } from "./app/use-screen-navigation.ts";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import { useTheoryContentState } from "./app/use-theory-content-state.ts";
-import TabBar from "./components/tab-bar.tsx";
-import AlphabetScreen from "./screens/alphabet-screen.tsx";
-import DiphthongsScreen from "./screens/diphthongs-screen.tsx";
-import HomeScreen from "./screens/home-screen.tsx";
-import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx";
-import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
-import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
-import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { speakGreekText } from "./lib/speech.ts";
 export default function App() {
   const { screen, setScreen, isHomeScreen, exitToHome: handleExit } =
@@ -49,66 +42,37 @@ export default function App() {
   useTelegramWebAppReady();
 
   return (
-    <div className={`app ${isHomeScreen ? "" : "app--detail"}`}>
-      {isHomeScreen ? (
-        <HomeScreen
-          tab={tab}
-          onOpenAlphabet={handleOpenAlphabet}
-          onOpenDiphthongs={handleOpenDiphthongs}
-          onOpenDictionaryTopics={handleOpenDictionaryTopics}
-          onOpenWriteWordTopics={handleOpenWriteWordTopics}
-        />
-      ) : screen === "alphabet" ? (
-        <AlphabetScreen
-          alphabetState={alphabetState}
-          pageIndex={pageIndex}
-          onClose={handleExit}
-          onPrev={handlePrevAlphabetPage}
-          onNext={handleNextAlphabetPage}
-          onRetry={handleRetryAlphabet}
-          onSpeak={speakGreekText}
-        />
-      ) : screen === "diphthongs" ? (
-        <DiphthongsScreen
-          diphthongsState={diphthongsState}
-          diphthongIndex={diphthongIndex}
-          onClose={handleExit}
-          onPrev={handlePrevDiphthong}
-          onNext={handleNextDiphthong}
-          onRetry={handleRetryDiphthongs}
-          onSpeak={speakGreekText}
-        />
-      ) : screen === "practice-write-word-topics" ? (
-        <WriteWordTopicsScreen
-          onClose={handleExit}
-          onOpenTopic={handleOpenInputTopic}
-        />
-      ) : screen === "practice-input-topic" ? (
-        <InputPracticeTopicScreen
-          title={selectedInputTopicTitle}
-          topicState={selectedInputTopicState}
-          onClose={handleOpenWriteWordTopics}
-          onRetry={handleRetrySelectedInputTopic}
-          onSpeak={speakGreekText}
-        />
-      ) : screen === "practice-single-choice-topic" ? (
-        <PracticeTopicScreen
-          title={selectedSingleChoiceTopic?.title || "Тренировка"}
-          topicState={selectedSingleChoiceTopicState}
-          onClose={handleClosePracticeTopic}
-          onRetry={handleRetrySingleChoiceTopics}
-          onSpeak={speakGreekText}
-        />
-      ) : (
-        <PracticeTopicsScreen
-          topicsState={singleChoiceTopicListState}
-          onClose={handleExit}
-          onRetry={handleRetrySingleChoiceTopics}
-          onOpenTopic={handleOpenSingleChoiceTopic}
-        />
-      )}
-
-      {isHomeScreen ? <TabBar tab={tab} onChange={setTab} /> : null}
-    </div>
+    <AppScreenRenderer
+      screen={screen}
+      isHomeScreen={isHomeScreen}
+      tab={tab}
+      onTabChange={setTab}
+      alphabetState={alphabetState}
+      pageIndex={pageIndex}
+      diphthongsState={diphthongsState}
+      diphthongIndex={diphthongIndex}
+      selectedInputTopicTitle={selectedInputTopicTitle}
+      selectedInputTopicState={selectedInputTopicState}
+      selectedSingleChoiceTopic={selectedSingleChoiceTopic}
+      selectedSingleChoiceTopicState={selectedSingleChoiceTopicState}
+      singleChoiceTopicListState={singleChoiceTopicListState}
+      onOpenAlphabet={handleOpenAlphabet}
+      onOpenDiphthongs={handleOpenDiphthongs}
+      onOpenDictionaryTopics={handleOpenDictionaryTopics}
+      onOpenWriteWordTopics={handleOpenWriteWordTopics}
+      onExit={handleExit}
+      onPrevAlphabetPage={handlePrevAlphabetPage}
+      onNextAlphabetPage={handleNextAlphabetPage}
+      onRetryAlphabet={handleRetryAlphabet}
+      onPrevDiphthong={handlePrevDiphthong}
+      onNextDiphthong={handleNextDiphthong}
+      onRetryDiphthongs={handleRetryDiphthongs}
+      onOpenInputTopic={handleOpenInputTopic}
+      onRetrySelectedInputTopic={handleRetrySelectedInputTopic}
+      onClosePracticeTopic={handleClosePracticeTopic}
+      onRetrySingleChoiceTopics={handleRetrySingleChoiceTopics}
+      onOpenSingleChoiceTopic={handleOpenSingleChoiceTopic}
+      onSpeak={speakGreekText}
+    />
   );
 }
