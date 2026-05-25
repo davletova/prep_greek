@@ -14,7 +14,7 @@ export type Screen =
   | "home"
   | "alphabet"
   | "diphthongs"
-  | "practice-dictionary-topics"
+  | "practice-single-choice-topics"
   | "practice-write-word-topics"
   | "practice-input-topic"
   | "practice-single-choice-topic";

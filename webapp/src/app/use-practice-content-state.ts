@@ -38,7 +38,7 @@ export function usePracticeContentState(
     state: singleChoiceTopicsState,
     retry: retrySingleChoiceTopicsContent
   } = useLoadableContent(
-    screen === "practice-dictionary-topics" ||
+    screen === "practice-single-choice-topics" ||
       screen === "practice-single-choice-topic",
     loadSingleChoiceTopics
   );
@@ -62,7 +62,7 @@ export function usePracticeContentState(
   );
 
   const openDictionaryTopics = () => {
-    setScreen("practice-dictionary-topics");
+    setScreen("practice-single-choice-topics");
   };
 
   const openWriteWordTopics = () => {
@@ -70,7 +70,7 @@ export function usePracticeContentState(
   };
 
   const closeSingleChoiceTopic = () => {
-    setScreen("practice-dictionary-topics");
+    setScreen("practice-single-choice-topics");
   };
 
   const openSingleChoiceTopic = (topicId: string) => {
