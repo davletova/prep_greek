@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { useHomeNavigation } from "./app/use-home-navigation.ts";
 import { usePracticeContentState } from "./app/use-practice-content-state.ts";
+import { useScreenNavigation } from "./app/use-screen-navigation.ts";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import { useTheoryContentState } from "./app/use-theory-content-state.ts";
 import TabBar from "./components/tab-bar.tsx";
@@ -12,10 +12,9 @@ import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
 import { speakGreekText } from "./lib/speech.ts";
-import type { Screen } from "./types/ui";
-
 export default function App() {
-  const [screen, setScreen] = useState<Screen>("home");
+  const { screen, setScreen, isHomeScreen, exitToHome: handleExit } =
+    useScreenNavigation();
   const { tab, setTab } = useHomeNavigation();
   const {
     alphabetState,
@@ -48,12 +47,6 @@ export default function App() {
   } = usePracticeContentState(screen, setScreen);
 
   useTelegramWebAppReady();
-
-  const handleExit = () => {
-    setScreen("home");
-  };
-
-  const isHomeScreen = screen === "home";
 
   return (
     <div className={`app ${isHomeScreen ? "" : "app--detail"}`}>
