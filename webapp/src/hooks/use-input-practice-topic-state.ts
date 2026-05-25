@@ -1,7 +1,7 @@
 import { useCallback, useMemo } from "react";
 import { inputPracticeTopicList } from "../config/practice-topics.ts";
 import { loadInputPracticeTopic } from "../services/content/practice-content-service.ts";
-import type { InputPracticeTopicDefinition } from "../config/practice-topics.ts";
+import type { InputPracticeTopicDefinition } from "../types/practice-topic.ts";
 import type { InputExercise } from "../types/exercises.ts";
 import type { LoadableState } from "../types/ui.ts";
 import { useLoadableContent } from "./use-loadable-content.ts";

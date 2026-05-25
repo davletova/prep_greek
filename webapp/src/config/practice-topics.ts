@@ -1,16 +1,4 @@
-export type PracticeTopicKind = "single-choice" | "input";
-
-export interface PracticeTopicDefinition {
-  id: string;
-  kind: PracticeTopicKind;
-  title: string;
-  subtitle: string;
-  url: string;
-}
-
-export type InputPracticeTopicDefinition = PracticeTopicDefinition & {
-  kind: "input";
-};
+import type { InputPracticeTopicDefinition } from "../types/practice-topic.ts";
 
 export const singleChoicePracticeContent = {
   indexUrl: `${import.meta.env.BASE_URL}content/practice/single_choice/index.json`,

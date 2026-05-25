@@ -1,5 +1,5 @@
 import { inputPracticeTopics, singleChoicePracticeContent } from "../../config/practice-topics.ts";
-import type { InputPracticeTopicDefinition } from "../../config/practice-topics.ts";
+import type { InputPracticeTopicDefinition } from "../../types/practice-topic.ts";
 import { loadJsonContent } from "../../lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "../../lib/exercises/load-single-choice-topic.ts";
 import {
