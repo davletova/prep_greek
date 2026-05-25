@@ -14,6 +14,13 @@ export type InputPracticeTopicDefinition = PracticeTopicDefinition & {
   kind: "input";
 };
 
+export interface SingleChoicePracticeTopicDefinition {
+  id: string;
+  title: string;
+  subtitle: string;
+  fileName: string;
+}
+
 export interface SingleChoicePracticeTopic {
   id: string;
   kind: "single-choice";

@@ -1,6 +1,26 @@
 [
-  "base-greek.json",
-  "greek-pronouns.json",
-  "popular-greek-verbs.json",
-  "popular_greek_verb_endings.json"
+  {
+    "id": "base-greek",
+    "title": "Базовые фразы",
+    "subtitle": "Веберите правильный перевод",
+    "fileName": "base-greek.json"
+  },
+  {
+    "id": "greek-pronouns",
+    "title": "Местоимения",
+    "subtitle": "Выберите правильный перевод",
+    "fileName": "greek-pronouns.json"
+  },
+  {
+    "id": "popular-greek-verbs",
+    "title": "Популярные глаголы",
+    "subtitle": "Выберите правильный перевод",
+    "fileName": "popular-greek-verbs.json"
+  },
+  {
+    "id": "popular_greek_verb_endings",
+    "title": "Окончания глаголов",
+    "subtitle": "Выберите верную форму глагола",
+    "fileName": "popular_greek_verb_endings.json"
+  }
 ]

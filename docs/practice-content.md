@@ -6,6 +6,27 @@ Practice content is stored in JSON files under:
 
 One file contains a collection of exercises for one topic or set.
 
+## Single-choice topic index
+
+`webapp/public/content/practice/single_choice/index.json` stores topic metadata:
+
+```json
+[
+  {
+    "id": "base-greek",
+    "title": "Базовые фразы",
+    "subtitle": "Выберите правильный перевод",
+    "fileName": "base-greek.json"
+  }
+]
+```
+
+Notes:
+
+- `id` must be unique within the index.
+- `fileName` must point to an existing JSON file in the same folder.
+- Topic files still contain full exercise collections.
+
 ## File shape
 
 ```json

@@ -1,5 +1,8 @@
 import { inputPracticeTopics, singleChoicePracticeContent } from "../../config/practice-topics.ts";
-import type { InputPracticeTopicDefinition } from "../../types/practice-topic.ts";
+import type {
+  InputPracticeTopicDefinition,
+  SingleChoicePracticeTopicDefinition
+} from "../../types/practice-topic.ts";
 import { loadJsonContent } from "../../lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "../../lib/exercises/load-single-choice-topic.ts";
 import {
@@ -25,30 +28,57 @@ function normalizeInputExercises(content: unknown): InputExercise[] {
   throw new Error("Invalid input practice content format");
 }
 
-function createTopicId(fileName: string): string {
-  return fileName.replace(/\.json$/i, "");
+function isSingleChoicePracticeTopicDefinition(
+  value: unknown
+): value is SingleChoicePracticeTopicDefinition {
+  if (typeof value !== "object" || value === null || Array.isArray(value)) {
+    return false;
+  }
+
+  const topic = value as Record<string, unknown>;
+  return (
+    typeof topic.id === "string" &&
+    typeof topic.title === "string" &&
+    typeof topic.subtitle === "string" &&
+    typeof topic.fileName === "string"
+  );
+}
+
+function normalizeSingleChoiceTopicIndex(
+  content: unknown
+): SingleChoicePracticeTopicDefinition[] {
+  if (
+    Array.isArray(content) &&
+    content.every(isSingleChoicePracticeTopicDefinition)
+  ) {
+    return content;
+  }
+
+  throw new Error("Invalid single-choice practice index format");
 }
 
 export function loadSingleChoiceTopics(): Promise<SingleChoiceTopic[]> {
-  return loadJsonContent<string[]>(singleChoicePracticeContent.indexUrl).then((files) =>
-    Promise.all(
-      files.map(async (fileName) => {
-        const collection = await loadSingleChoiceTopic(
-          `${singleChoicePracticeContent.baseUrl}${fileName}`,
-          ""
-        );
+  return loadJsonContent<unknown>(singleChoicePracticeContent.indexUrl)
+    .then(normalizeSingleChoiceTopicIndex)
+    .then((topics) =>
+      Promise.all(
+        topics.map(async (topic) => {
+          const collection = await loadSingleChoiceTopic(
+            `${singleChoicePracticeContent.baseUrl}${topic.fileName}`,
+            topic.title
+          );
 
-        return {
-          id: createTopicId(fileName),
-          kind: "single-choice" as const,
-          fileName,
-          title: collection.title,
-          subtitle: collection.subtitle || "",
-          collection
-        };
-      })
-    )
-  );
+          return {
+            id: topic.id,
+            kind: "single-choice" as const,
+            fileName: topic.fileName,
+            title: topic.title,
+            subtitle: topic.subtitle,
+            collection
+          };
+        })
+      )
+    );
 }
 
 export function loadInputPracticeTopic(

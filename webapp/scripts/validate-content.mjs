@@ -237,22 +237,63 @@ function validateDiphthongsContent(filePath, content) {
   });
 }
 
+function validateSingleChoiceTopicIndexItem(indexPath, item, index) {
+  const location = `items[${index}]`;
+
+  if (!isRecord(item)) {
+    addError(indexPath, `${location} must be an object`);
+    return null;
+  }
+
+  for (const field of ["id", "title", "subtitle", "fileName"]) {
+    if (!isString(item[field])) {
+      addError(indexPath, `${location}.${field} must be a non-empty string`);
+    }
+  }
+
+  if (typeof item.fileName === "string" && !item.fileName.endsWith(".json")) {
+    addError(indexPath, `${location}.fileName must reference a JSON file`);
+  }
+
+  return typeof item.fileName === "string" ? item.fileName : null;
+}
+
 async function validateSingleChoiceContent() {
   const dir = path.join(contentDir, "practice", "single_choice");
   const indexPath = path.join(dir, "index.json");
   const index = await readJson(indexPath);
 
-  if (!Array.isArray(index) || !index.every((item) => typeof item === "string")) {
-    addError(indexPath, "index must be an array of file names");
+  if (!Array.isArray(index)) {
+    addError(indexPath, "index must be an array of topic metadata objects");
     return;
   }
 
-  const duplicateFiles = index.filter((fileName, indexPosition) => index.indexOf(fileName) !== indexPosition);
+  const ids = new Set();
+  const fileNames = [];
+
+  index.forEach((item, indexPosition) => {
+    const fileName = validateSingleChoiceTopicIndexItem(indexPath, item, indexPosition);
+
+    if (isRecord(item) && typeof item.id === "string") {
+      if (ids.has(item.id)) {
+        addError(indexPath, `duplicate topic id "${item.id}"`);
+      }
+      ids.add(item.id);
+    }
+
+    if (fileName) {
+      fileNames.push(fileName);
+    }
+  });
+
+  const duplicateFiles = fileNames.filter(
+    (fileName, indexPosition) => fileNames.indexOf(fileName) !== indexPosition
+  );
   for (const fileName of duplicateFiles) {
     addError(indexPath, `duplicate file name "${fileName}"`);
   }
 
-  for (const fileName of index) {
+  for (const fileName of fileNames) {
     const filePath = path.join(dir, fileName);
     if (!existsSync(filePath)) {
       addError(indexPath, `referenced file "${fileName}" does not exist`);
