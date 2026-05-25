@@ -1,11 +1,10 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import { useExerciseSession } from "../hooks/use-exercise-session.ts";
+import { useInputPracticeAnswer } from "../hooks/use-input-practice-answer.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
-import { checkInputExerciseAnswer } from "../lib/exercises/check.ts";
 import { getInputExercises } from "../lib/exercises/filter.ts";
-import { recordPracticeAnswer } from "../lib/practice-stats-storage.ts";
 import type { InputExercise } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
@@ -26,26 +25,16 @@ export default function InputPracticeTopicScreen({
 }: InputPracticeTopicScreenProps) {
   const exercises = useMemo(() => getInputExercises(topicState.data), [topicState.data]);
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
-  const [answerValue, setAnswerValue] = useState("");
-  const [hasChecked, setHasChecked] = useState(false);
   const speech = useSpeechPlayback<"prompt">(onSpeak);
   const { clear: clearSpeech, stop: stopSpeech } = speech;
-
-  useEffect(() => {
-    setAnswerValue("");
-    setHasChecked(false);
-    clearSpeech();
-  }, [exercise?.id, clearSpeech]);
-
-  const trimmedAnswerValue = answerValue.trim();
-  const canCheck = trimmedAnswerValue.length > 0 && !hasChecked;
-  const isCorrect =
-    hasChecked && exercise
-      ? checkInputExerciseAnswer(exercise, {
-          type: "input",
-          value: trimmedAnswerValue,
-        }).correct
-      : false;
+  const {
+    answerValue,
+    setAnswerValue,
+    hasChecked,
+    canCheck,
+    isCorrect,
+    checkAnswer
+  } = useInputPracticeAnswer(exercise, clearSpeech);
 
   const handlePlayPrompt = async () => {
     if (!exercise || !hasChecked || speech.isSpeaking("prompt")) {
@@ -53,23 +42,6 @@ export default function InputPracticeTopicScreen({
     }
 
     await speech.play("prompt", exercise.correctAnswer);
-  };
-
-  const handleCheck = () => {
-    if (!exercise || !canCheck) {
-      return;
-    }
-
-    const result = checkInputExerciseAnswer(exercise, {
-      type: "input",
-      value: trimmedAnswerValue,
-    });
-
-    setAnswerValue(trimmedAnswerValue);
-    setHasChecked(true);
-    void recordPracticeAnswer(result.correct).catch((error) => {
-      console.warn("Failed to save practice stats", error);
-    });
   };
 
   const handleNextQuestion = () => {
@@ -172,7 +144,7 @@ export default function InputPracticeTopicScreen({
               <button
                 className="nav-button"
                 type="button"
-                onClick={handleCheck}
+                onClick={checkAnswer}
                 disabled={!canCheck}
               >
                 Проверить
