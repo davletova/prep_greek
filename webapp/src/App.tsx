@@ -8,25 +8,14 @@ import InputPracticeTopicScreen from "./screens/input-practice-topic-screen.tsx"
 import PracticeTopicScreen from "./screens/practice-topic-screen.tsx";
 import PracticeTopicsScreen from "./screens/practice-topics-screen.tsx";
 import WriteWordTopicsScreen from "./screens/write-word-topics-screen.tsx";
-import { useInputPracticeTopicState } from "./hooks/use-input-practice-topic-state.ts";
-import { useLoadableContent } from "./hooks/use-loadable-content.ts";
-import { useSingleChoiceTopicState } from "./hooks/use-single-choice-topic-state.ts";
+import { usePracticeContentState } from "./hooks/use-practice-content-state.ts";
 import { useTheoryContentState } from "./hooks/use-theory-content-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
-import {
-  loadSingleChoiceTopics,
-  type SingleChoiceTopic
-} from "./services/content/practice-content-service.ts";
 import type { Screen, TabKey } from "./types/ui";
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>("home");
   const [tab, setTab] = useState<TabKey>("practice");
-  const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] =
-    useState<string | null>(null);
-  const [selectedInputTopicId, setSelectedInputTopicId] =
-    useState<string | null>(null);
-
   const {
     alphabetState,
     pageIndex,
@@ -43,66 +32,24 @@ export default function App() {
   } = useTheoryContentState(screen, setScreen);
 
   const {
-    state: singleChoiceTopicsState,
-    retry: retrySingleChoiceTopics
-  } = useLoadableContent(
-    screen === "practice-dictionary-topics" ||
-      screen === "practice-single-choice-topic",
-    loadSingleChoiceTopics
-  );
-
-  const {
-    selectedTopic: selectedInputTopic,
-    selectedTopicState: selectedInputTopicState,
-    retrySelectedTopic: retrySelectedInputTopic
-  } = useInputPracticeTopicState(
-    screen === "practice-input-topic",
-    selectedInputTopicId
-  );
+    selectedSingleChoiceTopic,
+    selectedSingleChoiceTopicState,
+    singleChoiceTopicListState,
+    selectedInputTopicTitle,
+    selectedInputTopicState,
+    openDictionaryTopics: handleOpenDictionaryTopics,
+    openWriteWordTopics: handleOpenWriteWordTopics,
+    closeSingleChoiceTopic: handleClosePracticeTopic,
+    openSingleChoiceTopic: handleOpenSingleChoiceTopic,
+    openInputTopic: handleOpenInputTopic,
+    retrySingleChoiceTopics: handleRetrySingleChoiceTopics,
+    retrySelectedInputTopic: handleRetrySelectedInputTopic
+  } = usePracticeContentState(screen, setScreen);
 
   useTelegramWebAppReady();
 
-  const {
-    selectedTopic: selectedSingleChoiceTopic,
-    selectedTopicState: selectedSingleChoiceTopicState,
-    topicListState: singleChoiceTopicListState
-  } = useSingleChoiceTopicState(
-    singleChoiceTopicsState,
-    selectedSingleChoiceTopicId
-  );
-
-  const handleOpenDictionaryTopics = () => {
-    setScreen("practice-dictionary-topics");
-  };
-
-  const handleOpenWriteWordTopics = () => {
-    setScreen("practice-write-word-topics");
-  };
-
   const handleExit = () => {
     setScreen("home");
-  };
-
-  const handleClosePracticeTopic = () => {
-    setScreen("practice-dictionary-topics");
-  };
-
-  const handleOpenSingleChoiceTopic = (topicId: string) => {
-    setSelectedSingleChoiceTopicId(topicId);
-    setScreen("practice-single-choice-topic");
-  };
-
-  const handleOpenInputTopic = (topicId: string) => {
-    setSelectedInputTopicId(topicId);
-    setScreen("practice-input-topic");
-  };
-
-  const handleRetrySingleChoiceTopics = () => {
-    retrySingleChoiceTopics();
-  };
-
-  const handleRetrySelectedInputTopic = () => {
-    retrySelectedInputTopic();
   };
 
   const isHomeScreen = screen === "home";
@@ -144,7 +91,7 @@ export default function App() {
         />
       ) : screen === "practice-input-topic" ? (
         <InputPracticeTopicScreen
-          title={selectedInputTopic?.title || "Тренировка"}
+          title={selectedInputTopicTitle}
           topicState={selectedInputTopicState}
           onClose={handleOpenWriteWordTopics}
           onRetry={handleRetrySelectedInputTopic}
