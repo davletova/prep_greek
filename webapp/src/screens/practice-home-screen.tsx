@@ -1,12 +1,12 @@
 import type { VoidHandler } from "../types/ui";
 
 interface PracticeHomeScreenProps {
-  onOpenDictionaryTopics: VoidHandler;
+  onOpenSingleChoiceTopics: VoidHandler;
   onOpenInputTopics: VoidHandler;
 }
 
 export default function PracticeHomeScreen({
-  onOpenDictionaryTopics,
+  onOpenSingleChoiceTopics,
   onOpenInputTopics,
 }: PracticeHomeScreenProps) {
   return (
@@ -16,7 +16,7 @@ export default function PracticeHomeScreen({
       </header>
 
       <main className="app__content app__content--profile">
-        <button className="card-button" type="button" onClick={onOpenDictionaryTopics}>
+        <button className="card-button" type="button" onClick={onOpenSingleChoiceTopics}>
           <div className="card-button__text">
             <span className="card-button__title">Выбор из 4 вариантов</span>
             <span className="card-button__subtitle">

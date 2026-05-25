@@ -38,7 +38,7 @@ export default function AppScreenRenderer({
           tab={tab}
           onOpenAlphabet={theory.openAlphabet}
           onOpenDiphthongs={theory.openDiphthongs}
-          onOpenDictionaryTopics={practice.openSingleChoiceTopics}
+          onOpenSingleChoiceTopics={practice.openSingleChoiceTopics}
           onOpenInputTopics={practice.openInputTopics}
         />
       ) : screen === "alphabet" ? (

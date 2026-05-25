@@ -7,7 +7,7 @@ interface HomeScreenProps {
   tab: TabKey;
   onOpenAlphabet: VoidHandler;
   onOpenDiphthongs: VoidHandler;
-  onOpenDictionaryTopics: VoidHandler;
+  onOpenSingleChoiceTopics: VoidHandler;
   onOpenInputTopics: VoidHandler;
 }
 
@@ -15,13 +15,13 @@ export default function HomeScreen({
   tab,
   onOpenAlphabet,
   onOpenDiphthongs,
-  onOpenDictionaryTopics,
+  onOpenSingleChoiceTopics,
   onOpenInputTopics,
 }: HomeScreenProps) {
   if (tab === "practice") {
     return (
       <PracticeHomeScreen
-        onOpenDictionaryTopics={onOpenDictionaryTopics}
+        onOpenSingleChoiceTopics={onOpenSingleChoiceTopics}
         onOpenInputTopics={onOpenInputTopics}
       />
     );
