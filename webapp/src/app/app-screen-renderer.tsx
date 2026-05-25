@@ -61,7 +61,7 @@ export default function AppScreenRenderer({
           onRetry={theory.retryDiphthongs}
           onSpeak={onSpeak}
         />
-      ) : screen === "practice-write-word-topics" ? (
+      ) : screen === "practice-input-topics" ? (
         <WriteWordTopicsScreen onClose={onExit} onOpenTopic={practice.openInputTopic} />
       ) : screen === "practice-input-topic" ? (
         <InputPracticeTopicScreen

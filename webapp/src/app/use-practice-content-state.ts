@@ -66,7 +66,7 @@ export function usePracticeContentState(
   };
 
   const openWriteWordTopics = () => {
-    setScreen("practice-write-word-topics");
+    setScreen("practice-input-topics");
   };
 
   const closeSingleChoiceTopic = () => {
