@@ -1,6 +1,22 @@
 # Architecture TODO
 
-This file tracks follow-up architecture work intentionally left out of the current refactoring branch. Each section below is a good candidate for a separate branch/PR so the app remains reviewable and deployable after every step.
+This file tracks follow-up architecture work intentionally left out after the current refactoring passes. Each section below is a good candidate for a separate branch/PR so the app remains reviewable and deployable after every step.
+
+## Current architecture baseline
+
+Completed in recent refactoring:
+
+- `App.tsx` is now a thin application shell.
+- App-level orchestration lives under `webapp/src/app/`.
+- Static content loading is isolated in `webapp/src/services/content/`.
+- Single-choice topic index now stores metadata objects and selected topic collections are loaded on demand.
+- Practice screens use shared shell/loading/empty components.
+- Practice exercise UI is split into renderer cards:
+  - `InputExerciseCard`
+  - `SingleChoiceExerciseCard`
+- Practice answer/session logic is split into hooks.
+- Loading indicators are delayed to avoid flicker on fast requests.
+- Content validation runs locally and in CI.
 
 ## 1. Introduce real routing
 
@@ -33,8 +49,15 @@ Why separate:
 
 Current state:
 
-- `InputPracticeTopicScreen` and `SingleChoicePracticeTopicScreen` are now cleaner and similar.
-- They both use shared shell/loading/empty/session patterns, but are still separate screens.
+- `InputPracticeTopicScreen` and `SingleChoicePracticeTopicScreen` are cleaner and similar.
+- They both use:
+  - `PracticeScreenShell`
+  - delayed loading states
+  - empty states
+  - `useExerciseSession`
+  - answer-specific hooks
+  - exercise card renderers
+- They are still separate screens with duplicated high-level flow.
 
 Future direction:
 
@@ -44,7 +67,7 @@ Future direction:
   - next button placement if applicable;
   - close handling;
   - common speech stop behavior.
-- Keep exercise-type-specific UI in renderer components.
+- Keep exercise-type-specific UI and answer logic in dedicated renderer/components/hooks.
 
 Possible shape:
 
@@ -61,7 +84,7 @@ Possible shape:
 Why separate:
 
 - It is a larger abstraction step.
-- It should be done only after the current duplicated behavior is stable and well understood.
+- It should be done only after the current duplicated behavior is stable in production.
 
 ## 3. Add a practice renderer registry
 
@@ -137,7 +160,24 @@ Why separate:
 - It changes persisted data shape.
 - It needs versioning/migration decisions and Telegram CloudStorage size considerations.
 
-## 5. Run Prettier across the project
+## 5. Improve loading UX further
+
+Current state:
+
+- Loading indicators are delayed via `useDelayedLoading` to avoid flicker.
+- During fast loads, no loading message is shown.
+
+Future direction:
+
+- Consider lightweight skeleton placeholders for long lists/cards.
+- Consider preserving previous data during refresh/retry if that becomes useful.
+- Consider making delay configurable per surface if real-device testing shows different needs.
+
+Why separate:
+
+- This is UX tuning and should be based on manual testing, especially inside Telegram.
+
+## 6. Run Prettier across the project
 
 Current state:
 
@@ -154,19 +194,20 @@ Why separate:
 - Formatting-only changes create large diffs.
 - Mixing them with architecture changes makes review much harder.
 
-## 6. Strengthen content validation further
+## 7. Strengthen content validation further
 
 Current state:
 
-- `validate-content.mjs` validates basic JSON structure and several important invariants.
+- `validate-content.mjs` validates JSON structure and several important invariants.
+- Single-choice topic metadata index is validated.
 
 Possible improvements:
 
 - Reject unknown fields.
 - Enforce non-empty arrays for content collections.
-- Validate duplicate topic ids across registries.
+- Validate duplicate topic ids across all topic registries.
 - Validate topic id/file name consistency.
-- Validate all topic registry URLs point to existing files.
+- Validate input topic registry URLs point to existing files.
 - Add warning/error policy for suspicious text typos if content QA becomes important.
 
 Why separate:
