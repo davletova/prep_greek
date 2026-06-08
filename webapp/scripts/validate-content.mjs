@@ -77,8 +77,8 @@ function validateSingleChoiceExercise(filePath, item, index) {
     addError(filePath, `${location}.correctAnswer must be a non-empty string`);
   }
 
-  if (!Array.isArray(item.wrongAnswers) || item.wrongAnswers.length !== 3) {
-    addError(filePath, `${location}.wrongAnswers must contain exactly 3 items`);
+  if (!Array.isArray(item.wrongAnswers) || item.wrongAnswers.length < 1) {
+    addError(filePath, `${location}.wrongAnswers must contain at least 1 item`);
     return;
   }
 

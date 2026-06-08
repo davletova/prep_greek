@@ -1,0 +1,266 @@
+{
+  "title": "Род: исключения",
+  "subtitle": "Не дайте окончанию себя обмануть",
+  "items": [
+    {
+      "id": "greek-noun-gender-exceptions-001",
+      "type": "single-choice",
+      "prompt": "η οδός",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Хотя слово оканчивается на -ος, артикль η показывает женский род. Такие слова нужно запоминать.",
+      "translation": "улица / путь"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-002",
+      "type": "single-choice",
+      "prompt": "η μέθοδος",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Хотя слово оканчивается на -ος, артикль η показывает женский род. Такие слова нужно запоминать.",
+      "translation": "метод"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-003",
+      "type": "single-choice",
+      "prompt": "η είσοδος",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Хотя слово оканчивается на -ος, артикль η показывает женский род. Такие слова нужно запоминать.",
+      "translation": "вход"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-004",
+      "type": "single-choice",
+      "prompt": "η έξοδος",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Хотя слово оканчивается на -ος, артикль η показывает женский род. Такие слова нужно запоминать.",
+      "translation": "выход"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-005",
+      "type": "single-choice",
+      "prompt": "η πρόοδος",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Хотя слово оканчивается на -ος, артикль η показывает женский род. Такие слова нужно запоминать.",
+      "translation": "прогресс"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-006",
+      "type": "single-choice",
+      "prompt": "η περίοδος",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Хотя слово оканчивается на -ος, артикль η показывает женский род. Такие слова нужно запоминать.",
+      "translation": "период"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-007",
+      "type": "single-choice",
+      "prompt": "η διάμετρος",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Хотя слово оканчивается на -ος, артикль η показывает женский род. Такие слова нужно запоминать.",
+      "translation": "диаметр"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-008",
+      "type": "single-choice",
+      "prompt": "το πρόβλημα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -μα типично для среднего рода, а артикль το подтверждает средний род.",
+      "translation": "проблема"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-009",
+      "type": "single-choice",
+      "prompt": "το μάθημα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -μα типично для среднего рода, а артикль το подтверждает средний род.",
+      "translation": "урок"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-010",
+      "type": "single-choice",
+      "prompt": "το πρόγραμμα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -μα типично для среднего рода, а артикль το подтверждает средний род.",
+      "translation": "программа"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-011",
+      "type": "single-choice",
+      "prompt": "το όνομα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -μα типично для среднего рода, а артикль το подтверждает средний род.",
+      "translation": "имя"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-012",
+      "type": "single-choice",
+      "prompt": "το γράμμα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -μα типично для среднего рода, а артикль το подтверждает средний род.",
+      "translation": "буква / письмо"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-013",
+      "type": "single-choice",
+      "prompt": "το χρώμα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -μα типично для среднего рода, а артикль το подтверждает средний род.",
+      "translation": "цвет"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-014",
+      "type": "single-choice",
+      "prompt": "το νερό",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Не ориентируйтесь на род русского перевода. В греческом: το νερό — средний род.",
+      "translation": "вода"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-015",
+      "type": "single-choice",
+      "prompt": "το βιβλίο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Не ориентируйтесь на род русского перевода. В греческом: το βιβλίο — средний род.",
+      "translation": "книга"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-016",
+      "type": "single-choice",
+      "prompt": "το παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Не ориентируйтесь на род русского перевода. В греческом: το παιδί — средний род.",
+      "translation": "ребёнок"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-017",
+      "type": "single-choice",
+      "prompt": "ο δρόμος",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Не ориентируйтесь на род русского перевода. В греческом: ο δρόμος — мужской род.",
+      "translation": "дорога"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-018",
+      "type": "single-choice",
+      "prompt": "η πόλη",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "η πόλη — женский род, несмотря на русский перевод «город».",
+      "translation": "город"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-019",
+      "type": "single-choice",
+      "prompt": "ο καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "ο καφές — мужской род; артикль ο надёжнее ассоциаций с русским словом.",
+      "translation": "кофе"
+    },
+    {
+      "id": "greek-noun-gender-exceptions-020",
+      "type": "single-choice",
+      "prompt": "το κρέας",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "το κρέας — средний род; это частотное слово лучше запомнить.",
+      "translation": "мясо"
+    }
+  ]
+}
