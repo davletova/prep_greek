@@ -96,6 +96,136 @@
     {
       "id": "greek-noun-gender-articles-008",
       "type": "single-choice",
+      "prompt": "ο πατέρας",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "отец"
+    },
+    {
+      "id": "greek-noun-gender-articles-009",
+      "type": "single-choice",
+      "prompt": "ο αδερφός",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "брат"
+    },
+    {
+      "id": "greek-noun-gender-articles-010",
+      "type": "single-choice",
+      "prompt": "ο χρόνος",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "год / время"
+    },
+    {
+      "id": "greek-noun-gender-articles-011",
+      "type": "single-choice",
+      "prompt": "ο κόσμος",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "мир / люди"
+    },
+    {
+      "id": "greek-noun-gender-articles-012",
+      "type": "single-choice",
+      "prompt": "ο άνθρωπος",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "человек"
+    },
+    {
+      "id": "greek-noun-gender-articles-013",
+      "type": "single-choice",
+      "prompt": "ο σταθμός",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "станция"
+    },
+    {
+      "id": "greek-noun-gender-articles-014",
+      "type": "single-choice",
+      "prompt": "ο καιρός",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "погода"
+    },
+    {
+      "id": "greek-noun-gender-articles-015",
+      "type": "single-choice",
+      "prompt": "ο μήνας",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "месяц"
+    },
+    {
+      "id": "greek-noun-gender-articles-016",
+      "type": "single-choice",
+      "prompt": "ο λογαριασμός",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "счёт"
+    },
+    {
+      "id": "greek-noun-gender-articles-017",
+      "type": "single-choice",
+      "prompt": "ο χάρτης",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Артикль ο указывает на мужской род.",
+      "translation": "карта"
+    },
+    {
+      "id": "greek-noun-gender-articles-018",
+      "type": "single-choice",
       "prompt": "η φίλη",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
@@ -107,7 +237,7 @@
       "translation": "подруга"
     },
     {
-      "id": "greek-noun-gender-articles-009",
+      "id": "greek-noun-gender-articles-019",
       "type": "single-choice",
       "prompt": "η γυναίκα",
       "promptLanguage": "el",
@@ -120,7 +250,7 @@
       "translation": "женщина"
     },
     {
-      "id": "greek-noun-gender-articles-010",
+      "id": "greek-noun-gender-articles-020",
       "type": "single-choice",
       "prompt": "η μαθήτρια",
       "promptLanguage": "el",
@@ -133,7 +263,7 @@
       "translation": "ученица"
     },
     {
-      "id": "greek-noun-gender-articles-011",
+      "id": "greek-noun-gender-articles-021",
       "type": "single-choice",
       "prompt": "η δασκάλα",
       "promptLanguage": "el",
@@ -146,7 +276,7 @@
       "translation": "учительница"
     },
     {
-      "id": "greek-noun-gender-articles-012",
+      "id": "greek-noun-gender-articles-022",
       "type": "single-choice",
       "prompt": "η πόλη",
       "promptLanguage": "el",
@@ -159,7 +289,7 @@
       "translation": "город"
     },
     {
-      "id": "greek-noun-gender-articles-013",
+      "id": "greek-noun-gender-articles-023",
       "type": "single-choice",
       "prompt": "η μέρα",
       "promptLanguage": "el",
@@ -172,7 +302,7 @@
       "translation": "день"
     },
     {
-      "id": "greek-noun-gender-articles-014",
+      "id": "greek-noun-gender-articles-024",
       "type": "single-choice",
       "prompt": "η χώρα",
       "promptLanguage": "el",
@@ -185,7 +315,137 @@
       "translation": "страна"
     },
     {
-      "id": "greek-noun-gender-articles-015",
+      "id": "greek-noun-gender-articles-025",
+      "type": "single-choice",
+      "prompt": "η μητέρα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "мать"
+    },
+    {
+      "id": "greek-noun-gender-articles-026",
+      "type": "single-choice",
+      "prompt": "η αδερφή",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "сестра"
+    },
+    {
+      "id": "greek-noun-gender-articles-027",
+      "type": "single-choice",
+      "prompt": "η ώρα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "час / время"
+    },
+    {
+      "id": "greek-noun-gender-articles-028",
+      "type": "single-choice",
+      "prompt": "η γλώσσα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "язык"
+    },
+    {
+      "id": "greek-noun-gender-articles-029",
+      "type": "single-choice",
+      "prompt": "η δουλειά",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "работа"
+    },
+    {
+      "id": "greek-noun-gender-articles-030",
+      "type": "single-choice",
+      "prompt": "η θάλασσα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "море"
+    },
+    {
+      "id": "greek-noun-gender-articles-031",
+      "type": "single-choice",
+      "prompt": "η κουζίνα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "кухня"
+    },
+    {
+      "id": "greek-noun-gender-articles-032",
+      "type": "single-choice",
+      "prompt": "η πόρτα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "дверь"
+    },
+    {
+      "id": "greek-noun-gender-articles-033",
+      "type": "single-choice",
+      "prompt": "η ερώτηση",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "вопрос"
+    },
+    {
+      "id": "greek-noun-gender-articles-034",
+      "type": "single-choice",
+      "prompt": "η απάντηση",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Артикль η указывает на женский род.",
+      "translation": "ответ"
+    },
+    {
+      "id": "greek-noun-gender-articles-035",
       "type": "single-choice",
       "prompt": "το παιδί",
       "promptLanguage": "el",
@@ -198,7 +458,7 @@
       "translation": "ребёнок"
     },
     {
-      "id": "greek-noun-gender-articles-016",
+      "id": "greek-noun-gender-articles-036",
       "type": "single-choice",
       "prompt": "το σπίτι",
       "promptLanguage": "el",
@@ -211,7 +471,7 @@
       "translation": "дом"
     },
     {
-      "id": "greek-noun-gender-articles-017",
+      "id": "greek-noun-gender-articles-037",
       "type": "single-choice",
       "prompt": "το βιβλίο",
       "promptLanguage": "el",
@@ -224,7 +484,7 @@
       "translation": "книга"
     },
     {
-      "id": "greek-noun-gender-articles-018",
+      "id": "greek-noun-gender-articles-038",
       "type": "single-choice",
       "prompt": "το νερό",
       "promptLanguage": "el",
@@ -237,7 +497,7 @@
       "translation": "вода"
     },
     {
-      "id": "greek-noun-gender-articles-019",
+      "id": "greek-noun-gender-articles-039",
       "type": "single-choice",
       "prompt": "το σχολείο",
       "promptLanguage": "el",
@@ -250,7 +510,7 @@
       "translation": "школа"
     },
     {
-      "id": "greek-noun-gender-articles-020",
+      "id": "greek-noun-gender-articles-040",
       "type": "single-choice",
       "prompt": "το μάθημα",
       "promptLanguage": "el",
@@ -261,6 +521,136 @@
       ],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "урок"
+    },
+    {
+      "id": "greek-noun-gender-articles-041",
+      "type": "single-choice",
+      "prompt": "το φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "еда"
+    },
+    {
+      "id": "greek-noun-gender-articles-042",
+      "type": "single-choice",
+      "prompt": "το τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "стол"
+    },
+    {
+      "id": "greek-noun-gender-articles-043",
+      "type": "single-choice",
+      "prompt": "το δωμάτιο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "комната"
+    },
+    {
+      "id": "greek-noun-gender-articles-044",
+      "type": "single-choice",
+      "prompt": "το αυτοκίνητο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "машина"
+    },
+    {
+      "id": "greek-noun-gender-articles-045",
+      "type": "single-choice",
+      "prompt": "το λεωφορείο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "автобус"
+    },
+    {
+      "id": "greek-noun-gender-articles-046",
+      "type": "single-choice",
+      "prompt": "το ξενοδοχείο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "отель"
+    },
+    {
+      "id": "greek-noun-gender-articles-047",
+      "type": "single-choice",
+      "prompt": "το τηλέφωνο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "телефон"
+    },
+    {
+      "id": "greek-noun-gender-articles-048",
+      "type": "single-choice",
+      "prompt": "το πρόβλημα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "проблема"
+    },
+    {
+      "id": "greek-noun-gender-articles-049",
+      "type": "single-choice",
+      "prompt": "το όνομα",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "имя"
+    },
+    {
+      "id": "greek-noun-gender-articles-050",
+      "type": "single-choice",
+      "prompt": "το κλειδί",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Артикль το указывает на средний род.",
+      "translation": "ключ"
     }
   ]
 }

@@ -44,6 +44,71 @@
     {
       "id": "greek-noun-gender-endings-004",
       "type": "single-choice",
+      "prompt": "άνθρωπος",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ος часто встречается у мужского рода: ο άνθρωπος.",
+      "translation": "человек"
+    },
+    {
+      "id": "greek-noun-gender-endings-005",
+      "type": "single-choice",
+      "prompt": "κόσμος",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ος часто встречается у мужского рода: ο κόσμος.",
+      "translation": "мир / люди"
+    },
+    {
+      "id": "greek-noun-gender-endings-006",
+      "type": "single-choice",
+      "prompt": "χρόνος",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ος часто встречается у мужского рода: ο χρόνος.",
+      "translation": "год / время"
+    },
+    {
+      "id": "greek-noun-gender-endings-007",
+      "type": "single-choice",
+      "prompt": "λογαριασμός",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ός часто встречается у мужского рода: ο λογαριασμός.",
+      "translation": "счёт"
+    },
+    {
+      "id": "greek-noun-gender-endings-008",
+      "type": "single-choice",
+      "prompt": "σταθμός",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ός часто встречается у мужского рода: ο σταθμός.",
+      "translation": "станция"
+    },
+    {
+      "id": "greek-noun-gender-endings-009",
+      "type": "single-choice",
       "prompt": "μαθητής",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
@@ -55,7 +120,33 @@
       "translation": "ученик"
     },
     {
-      "id": "greek-noun-gender-endings-005",
+      "id": "greek-noun-gender-endings-010",
+      "type": "single-choice",
+      "prompt": "χάρτης",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -της часто встречается у мужского рода: ο χάρτης.",
+      "translation": "карта"
+    },
+    {
+      "id": "greek-noun-gender-endings-011",
+      "type": "single-choice",
+      "prompt": "εργάτης",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -της часто встречается у мужского рода: ο εργάτης.",
+      "translation": "рабочий"
+    },
+    {
+      "id": "greek-noun-gender-endings-012",
       "type": "single-choice",
       "prompt": "πατέρας",
       "promptLanguage": "el",
@@ -68,7 +159,7 @@
       "translation": "отец"
     },
     {
-      "id": "greek-noun-gender-endings-006",
+      "id": "greek-noun-gender-endings-013",
       "type": "single-choice",
       "prompt": "άντρας",
       "promptLanguage": "el",
@@ -81,7 +172,20 @@
       "translation": "мужчина"
     },
     {
-      "id": "greek-noun-gender-endings-007",
+      "id": "greek-noun-gender-endings-014",
+      "type": "single-choice",
+      "prompt": "μήνας",
+      "promptLanguage": "el",
+      "correctAnswer": "мужской род",
+      "wrongAnswers": [
+        "женский род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ας часто встречается у мужского рода: ο μήνας.",
+      "translation": "месяц"
+    },
+    {
+      "id": "greek-noun-gender-endings-015",
       "type": "single-choice",
       "prompt": "γιατρός",
       "promptLanguage": "el",
@@ -94,20 +198,7 @@
       "translation": "врач"
     },
     {
-      "id": "greek-noun-gender-endings-008",
-      "type": "single-choice",
-      "prompt": "καφές",
-      "promptLanguage": "el",
-      "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
-      "explanation": "Окончание -ές встречается у некоторых слов мужского рода: ο καφές.",
-      "translation": "кофе"
-    },
-    {
-      "id": "greek-noun-gender-endings-009",
+      "id": "greek-noun-gender-endings-016",
       "type": "single-choice",
       "prompt": "αδερφός",
       "promptLanguage": "el",
@@ -120,20 +211,20 @@
       "translation": "брат"
     },
     {
-      "id": "greek-noun-gender-endings-010",
+      "id": "greek-noun-gender-endings-017",
       "type": "single-choice",
-      "prompt": "ουρανός",
+      "prompt": "καφές",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
       "wrongAnswers": [
         "женский род",
         "средний род"
       ],
-      "explanation": "Не ориентируйтесь на русский перевод: ο ουρανός — мужской род.",
-      "translation": "небо"
+      "explanation": "Окончание -ές встречается у некоторых слов мужского рода: ο καφές.",
+      "translation": "кофе"
     },
     {
-      "id": "greek-noun-gender-endings-011",
+      "id": "greek-noun-gender-endings-018",
       "type": "single-choice",
       "prompt": "φίλη",
       "promptLanguage": "el",
@@ -146,7 +237,7 @@
       "translation": "подруга"
     },
     {
-      "id": "greek-noun-gender-endings-012",
+      "id": "greek-noun-gender-endings-019",
       "type": "single-choice",
       "prompt": "πόλη",
       "promptLanguage": "el",
@@ -159,20 +250,7 @@
       "translation": "город"
     },
     {
-      "id": "greek-noun-gender-endings-013",
-      "type": "single-choice",
-      "prompt": "ζωή",
-      "promptLanguage": "el",
-      "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
-      "explanation": "Окончание -ή часто встречается у женского рода: η ζωή.",
-      "translation": "жизнь"
-    },
-    {
-      "id": "greek-noun-gender-endings-014",
+      "id": "greek-noun-gender-endings-020",
       "type": "single-choice",
       "prompt": "αγάπη",
       "promptLanguage": "el",
@@ -185,7 +263,46 @@
       "translation": "любовь"
     },
     {
-      "id": "greek-noun-gender-endings-015",
+      "id": "greek-noun-gender-endings-021",
+      "type": "single-choice",
+      "prompt": "αδερφή",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ή часто встречается у женского рода: η αδερφή.",
+      "translation": "сестра"
+    },
+    {
+      "id": "greek-noun-gender-endings-022",
+      "type": "single-choice",
+      "prompt": "ζωή",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ή часто встречается у женского рода: η ζωή.",
+      "translation": "жизнь"
+    },
+    {
+      "id": "greek-noun-gender-endings-023",
+      "type": "single-choice",
+      "prompt": "φωνή",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ή часто встречается у женского рода: η φωνή.",
+      "translation": "голос"
+    },
+    {
+      "id": "greek-noun-gender-endings-024",
       "type": "single-choice",
       "prompt": "χώρα",
       "promptLanguage": "el",
@@ -198,7 +315,7 @@
       "translation": "страна"
     },
     {
-      "id": "greek-noun-gender-endings-016",
+      "id": "greek-noun-gender-endings-025",
       "type": "single-choice",
       "prompt": "μέρα",
       "promptLanguage": "el",
@@ -211,7 +328,7 @@
       "translation": "день"
     },
     {
-      "id": "greek-noun-gender-endings-017",
+      "id": "greek-noun-gender-endings-026",
       "type": "single-choice",
       "prompt": "γυναίκα",
       "promptLanguage": "el",
@@ -224,7 +341,59 @@
       "translation": "женщина"
     },
     {
-      "id": "greek-noun-gender-endings-018",
+      "id": "greek-noun-gender-endings-027",
+      "type": "single-choice",
+      "prompt": "ώρα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -α часто встречается у женского рода: η ώρα.",
+      "translation": "час / время"
+    },
+    {
+      "id": "greek-noun-gender-endings-028",
+      "type": "single-choice",
+      "prompt": "πόρτα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -α часто встречается у женского рода: η πόρτα.",
+      "translation": "дверь"
+    },
+    {
+      "id": "greek-noun-gender-endings-029",
+      "type": "single-choice",
+      "prompt": "θάλασσα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -α часто встречается у женского рода: η θάλασσα.",
+      "translation": "море"
+    },
+    {
+      "id": "greek-noun-gender-endings-030",
+      "type": "single-choice",
+      "prompt": "κουζίνα",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -α часто встречается у женского рода: η κουζίνα.",
+      "translation": "кухня"
+    },
+    {
+      "id": "greek-noun-gender-endings-031",
       "type": "single-choice",
       "prompt": "μαθήτρια",
       "promptLanguage": "el",
@@ -237,7 +406,7 @@
       "translation": "ученица"
     },
     {
-      "id": "greek-noun-gender-endings-019",
+      "id": "greek-noun-gender-endings-032",
       "type": "single-choice",
       "prompt": "ερώτηση",
       "promptLanguage": "el",
@@ -250,7 +419,20 @@
       "translation": "вопрос"
     },
     {
-      "id": "greek-noun-gender-endings-020",
+      "id": "greek-noun-gender-endings-033",
+      "type": "single-choice",
+      "prompt": "απάντηση",
+      "promptLanguage": "el",
+      "correctAnswer": "женский род",
+      "wrongAnswers": [
+        "мужской род",
+        "средний род"
+      ],
+      "explanation": "Окончание -ση часто встречается у женского рода: η απάντηση.",
+      "translation": "ответ"
+    },
+    {
+      "id": "greek-noun-gender-endings-034",
       "type": "single-choice",
       "prompt": "ταυτότητα",
       "promptLanguage": "el",
@@ -263,7 +445,7 @@
       "translation": "удостоверение"
     },
     {
-      "id": "greek-noun-gender-endings-021",
+      "id": "greek-noun-gender-endings-035",
       "type": "single-choice",
       "prompt": "βιβλίο",
       "promptLanguage": "el",
@@ -276,33 +458,7 @@
       "translation": "книга"
     },
     {
-      "id": "greek-noun-gender-endings-022",
-      "type": "single-choice",
-      "prompt": "σπίτι",
-      "promptLanguage": "el",
-      "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
-      "explanation": "Окончание -ι часто встречается у среднего рода: το σπίτι.",
-      "translation": "дом"
-    },
-    {
-      "id": "greek-noun-gender-endings-023",
-      "type": "single-choice",
-      "prompt": "παιδί",
-      "promptLanguage": "el",
-      "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
-      "explanation": "Окончание -ί часто встречается у среднего рода: το παιδί.",
-      "translation": "ребёнок"
-    },
-    {
-      "id": "greek-noun-gender-endings-024",
+      "id": "greek-noun-gender-endings-036",
       "type": "single-choice",
       "prompt": "νερό",
       "promptLanguage": "el",
@@ -315,7 +471,98 @@
       "translation": "вода"
     },
     {
-      "id": "greek-noun-gender-endings-025",
+      "id": "greek-noun-gender-endings-037",
+      "type": "single-choice",
+      "prompt": "φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ό часто встречается у среднего рода: το φαγητό.",
+      "translation": "еда"
+    },
+    {
+      "id": "greek-noun-gender-endings-038",
+      "type": "single-choice",
+      "prompt": "αυτοκίνητο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ο часто встречается у среднего рода: το αυτοκίνητο.",
+      "translation": "машина"
+    },
+    {
+      "id": "greek-noun-gender-endings-039",
+      "type": "single-choice",
+      "prompt": "τηλέφωνο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ο часто встречается у среднего рода: το τηλέφωνο.",
+      "translation": "телефон"
+    },
+    {
+      "id": "greek-noun-gender-endings-040",
+      "type": "single-choice",
+      "prompt": "σπίτι",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ι часто встречается у среднего рода: το σπίτι.",
+      "translation": "дом"
+    },
+    {
+      "id": "greek-noun-gender-endings-041",
+      "type": "single-choice",
+      "prompt": "παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ί часто встречается у среднего рода: το παιδί.",
+      "translation": "ребёнок"
+    },
+    {
+      "id": "greek-noun-gender-endings-042",
+      "type": "single-choice",
+      "prompt": "κλειδί",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ί часто встречается у среднего рода: το κλειδί.",
+      "translation": "ключ"
+    },
+    {
+      "id": "greek-noun-gender-endings-043",
+      "type": "single-choice",
+      "prompt": "τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ι часто встречается у среднего рода: το τραπέζι.",
+      "translation": "стол"
+    },
+    {
+      "id": "greek-noun-gender-endings-044",
       "type": "single-choice",
       "prompt": "σχολείο",
       "promptLanguage": "el",
@@ -328,7 +575,46 @@
       "translation": "школа"
     },
     {
-      "id": "greek-noun-gender-endings-026",
+      "id": "greek-noun-gender-endings-045",
+      "type": "single-choice",
+      "prompt": "λεωφορείο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -είο часто встречается у среднего рода: το λεωφορείο.",
+      "translation": "автобус"
+    },
+    {
+      "id": "greek-noun-gender-endings-046",
+      "type": "single-choice",
+      "prompt": "ξενοδοχείο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -είο часто встречается у среднего рода: το ξενοδοχείο.",
+      "translation": "отель"
+    },
+    {
+      "id": "greek-noun-gender-endings-047",
+      "type": "single-choice",
+      "prompt": "δωμάτιο",
+      "promptLanguage": "el",
+      "correctAnswer": "средний род",
+      "wrongAnswers": [
+        "мужской род",
+        "женский род"
+      ],
+      "explanation": "Окончание -ιο часто встречается у среднего рода: το δωμάτιο.",
+      "translation": "комната"
+    },
+    {
+      "id": "greek-noun-gender-endings-048",
       "type": "single-choice",
       "prompt": "μάθημα",
       "promptLanguage": "el",
@@ -341,7 +627,7 @@
       "translation": "урок"
     },
     {
-      "id": "greek-noun-gender-endings-027",
+      "id": "greek-noun-gender-endings-049",
       "type": "single-choice",
       "prompt": "πρόγραμμα",
       "promptLanguage": "el",
@@ -354,7 +640,7 @@
       "translation": "программа"
     },
     {
-      "id": "greek-noun-gender-endings-028",
+      "id": "greek-noun-gender-endings-050",
       "type": "single-choice",
       "prompt": "πρόβλημα",
       "promptLanguage": "el",
@@ -365,32 +651,6 @@
       ],
       "explanation": "Окончание -μα типично для среднего рода: το πρόβλημα.",
       "translation": "проблема"
-    },
-    {
-      "id": "greek-noun-gender-endings-029",
-      "type": "single-choice",
-      "prompt": "όνομα",
-      "promptLanguage": "el",
-      "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
-      "explanation": "Окончание -μα типично для среднего рода: το όνομα.",
-      "translation": "имя"
-    },
-    {
-      "id": "greek-noun-gender-endings-030",
-      "type": "single-choice",
-      "prompt": "γράμμα",
-      "promptLanguage": "el",
-      "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
-      "explanation": "Окончание -μα типично для среднего рода: το γράμμα.",
-      "translation": "буква / письмо"
     }
   ]
 }
