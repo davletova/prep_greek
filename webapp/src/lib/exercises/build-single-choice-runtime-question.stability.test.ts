@@ -15,7 +15,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
   it("creates a runtime question with all options and correct index", () => {
     const question = buildSingleChoiceRuntimeQuestion(exercise);
 
-    expect(question.options).toHaveLength(4);
+    expect(question.options).toHaveLength(1 + exercise.wrongAnswers.length);
     expect(question.options).toContain(exercise.correctAnswer);
     expect(question.correctIndex).toBeGreaterThanOrEqual(0);
     expect(question.options[question.correctIndex]).toBe(exercise.correctAnswer);

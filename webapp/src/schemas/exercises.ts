@@ -3,6 +3,7 @@ import type {
   Exercise,
   ExerciseCollection,
   InputExercise,
+  NonEmptyArray,
   SingleChoiceExercise,
   TextInputExercise
 } from "../types/exercises";
@@ -19,8 +20,8 @@ const baseExerciseSchema = z.object({
 
 const wrongAnswersSchema = z
   .array(z.string())
-  .length(3)
-  .transform((answers) => answers as [string, string, string]);
+  .min(1)
+  .transform((answers) => answers as NonEmptyArray<string>);
 
 export const singleChoiceExerciseSchema: z.ZodType<SingleChoiceExercise> =
   baseExerciseSchema.extend({

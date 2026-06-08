@@ -14,7 +14,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
     explanation: "Common greeting"
   };
 
-  it("builds a runtime question with four options", () => {
+  it("builds a runtime question with all options", () => {
     const question = buildSingleChoiceRuntimeQuestion(exercise);
 
     expect(question).toMatchObject({
@@ -24,7 +24,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
       translation: exercise.translation,
       explanation: exercise.explanation
     });
-    expect(question.options).toHaveLength(4);
+    expect(question.options).toHaveLength(1 + exercise.wrongAnswers.length);
     expect(question.options).toEqual(
       expect.arrayContaining([
         exercise.correctAnswer,
@@ -36,6 +36,19 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
   it("points correctIndex to the correct answer", () => {
     const question = buildSingleChoiceRuntimeQuestion(exercise);
 
+    expect(question.options[question.correctIndex]).toBe(exercise.correctAnswer);
+  });
+
+  it("supports a single wrong answer", () => {
+    const question = buildSingleChoiceRuntimeQuestion({
+      ...exercise,
+      wrongAnswers: ["Пока"]
+    });
+
+    expect(question.options).toHaveLength(2);
+    expect(question.options).toEqual(
+      expect.arrayContaining([exercise.correctAnswer, "Пока"])
+    );
     expect(question.options[question.correctIndex]).toBe(exercise.correctAnswer);
   });
 });

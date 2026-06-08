@@ -1,5 +1,6 @@
 export type ExerciseType = "single-choice" | "text-input" | "input";
 export type PromptLanguage = "el" | "ru";
+export type NonEmptyArray<T> = [T, ...T[]];
 
 export interface BaseExercise {
   id: string;
@@ -13,14 +14,14 @@ export interface BaseExercise {
 export interface SingleChoiceExercise extends BaseExercise {
   type: "single-choice";
   correctAnswer: string;
-  wrongAnswers: [string, string, string];
+  wrongAnswers: NonEmptyArray<string>;
 }
 
 export interface SingleChoiceRuntimeQuestion {
   id: string;
   prompt: string;
   promptLanguage?: PromptLanguage | undefined;
-  options: [string, string, string, string];
+  options: NonEmptyArray<string>;
   correctIndex: number;
   translation?: string | undefined;
   explanation?: string | undefined;

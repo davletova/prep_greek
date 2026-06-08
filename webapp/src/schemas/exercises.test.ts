@@ -29,4 +29,22 @@ describe("exercise schemas", () => {
       }).success
     ).toBe(false);
   });
+
+  it("accepts single-choice exercises with at least one wrong answer", () => {
+    expect(
+      singleChoiceExerciseSchema.safeParse({
+        ...validSingleChoiceExercise,
+        wrongAnswers: ["Пока"]
+      }).success
+    ).toBe(true);
+  });
+
+  it("rejects single-choice exercises without wrong answers", () => {
+    expect(
+      singleChoiceExerciseSchema.safeParse({
+        ...validSingleChoiceExercise,
+        wrongAnswers: []
+      }).success
+    ).toBe(false);
+  });
 });
