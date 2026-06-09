@@ -18,10 +18,8 @@ export default function PracticeHomeScreen({
       <main className="app__content app__content--profile">
         <button className="card-button" type="button" onClick={onOpenSingleChoiceTopics}>
           <div className="card-button__text">
-            <span className="card-button__title">Выбор из 4 вариантов</span>
-            <span className="card-button__subtitle">
-              Выберите правильный перевод из 4 вариантов
-            </span>
+            <span className="card-button__title">Тесты</span>
+            <span className="card-button__subtitle">Выберите правильный ответ</span>
           </div>
           <span className="card-button__chevron">›</span>
         </button>
