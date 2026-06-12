@@ -35,7 +35,7 @@
   font-size: 13px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #6b7b95;
+  color: var(--color-text-muted);
   font-weight: 600;
 }
 
@@ -44,7 +44,7 @@
   font-size: 24px;
   line-height: 1.2;
   font-weight: 700;
-  color: #1d2a44;
+  color: var(--color-text-primary);
 }
 
 .app__title--small {
@@ -58,7 +58,7 @@
 .app__subtitle {
   margin: 0;
   font-size: 15px;
-  color: #5b6b85;
+  color: var(--color-text-secondary);
   max-width: 26ch;
 }
 

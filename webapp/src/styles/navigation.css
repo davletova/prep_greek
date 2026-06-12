@@ -2,16 +2,16 @@
   border: none;
   border-radius: 14px;
   padding: 12px 16px;
-  background: #ffffff;
-  color: #4a5c82;
+  background: var(--color-surface);
+  color: var(--color-text-interactive);
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.08);
+  box-shadow: var(--shadow-control-subtle);
 }
 
 .nav-button--primary {
-  background: #4a6fff;
-  color: #ffffff;
+  background: var(--color-primary);
+  color: var(--color-primary-text);
 }
 
 .nav-button:disabled {
@@ -29,22 +29,22 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   padding: 10px 16px 18px;
-  background: rgba(248, 251, 255, 0.95);
-  border-top: 1px solid rgba(109, 124, 153, 0.2);
+  background: var(--color-tabbar-bg);
+  border-top: 1px solid var(--color-border-subtle);
   backdrop-filter: blur(10px);
 }
 
 .tabbar__item {
   display: grid;
   place-items: center;
-  color: #4a5c82;
+  color: var(--color-text-interactive);
   padding: 8px 0;
   background: transparent;
   border: none;
 }
 
 .tabbar__item--active {
-  color: #2d5bff;
+  color: var(--color-primary-active);
   position: relative;
 }
 
