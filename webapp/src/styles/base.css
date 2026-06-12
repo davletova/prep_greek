@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
   font-family: "Plus Jakarta Sans", system-ui, sans-serif;
   background-color: var(--color-page-bg);
   color: var(--color-text-primary);
@@ -63,6 +63,144 @@
   --shadow-control-subtle: 0 4px 10px rgba(22, 35, 66, 0.08);
   --shadow-practice-card: 0 4px 12px rgba(0, 0, 0, 0.04);
   --shadow-modal: 0 20px 40px rgba(22, 35, 66, 0.22);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --color-page-bg: #111827;
+    --color-page-bg-start: #1d2a44;
+    --color-page-bg-mid: #121b2b;
+    --color-page-bg-end: #0b1120;
+
+    --color-surface: #182235;
+    --color-surface-warm: #1b2435;
+    --color-surface-translucent: rgba(24, 34, 53, 0.9);
+    --color-surface-muted: #253149;
+    --color-surface-soft: #202b40;
+    --color-surface-accent: #263654;
+
+    --color-text-primary: #eef4ff;
+    --color-text-heading: #f4f7fb;
+    --color-text-strong: #e6edf8;
+    --color-text-secondary: #bfccdc;
+    --color-text-muted: #9aa9bd;
+    --color-text-interactive: #b8c8e3;
+    --color-text-hint: #8d9cb1;
+    --color-text-disabled: #69778c;
+
+    --color-border: rgba(221, 231, 245, 0.16);
+    --color-border-strong: rgba(221, 231, 245, 0.28);
+    --color-border-subtle: rgba(221, 231, 245, 0.12);
+
+    --color-primary: #6f8cff;
+    --color-primary-active: #8ea4ff;
+    --color-primary-text: #ffffff;
+
+    --color-success-bg: rgba(78, 203, 143, 0.16);
+    --color-success-border: #4ecb8f;
+    --color-success-text: #98e6bd;
+    --color-success-strong: #6fd89f;
+    --color-success-accent: #4ecb8f;
+
+    --color-danger-bg: rgba(255, 116, 132, 0.14);
+    --color-danger-bg-strong: rgba(255, 116, 132, 0.18);
+    --color-danger-surface: rgba(255, 116, 132, 0.1);
+    --color-danger-answer-bg: rgba(255, 116, 132, 0.16);
+    --color-danger-border: rgba(255, 116, 132, 0.32);
+    --color-danger-answer-border: #ff7484;
+    --color-danger-text: #ff9aa7;
+    --color-danger-text-soft: #ffacb6;
+    --color-danger-answer-text: #ffc0c8;
+    --color-danger-fill: #d85a68;
+    --color-danger-fill-text: #ffffff;
+
+    --color-overlay: rgba(3, 7, 18, 0.68);
+    --color-tabbar-bg: rgba(17, 24, 39, 0.92);
+    --color-answer-text: #c4cede;
+
+    --shadow-card: 0 14px 32px rgba(0, 0, 0, 0.28);
+    --shadow-card-subtle: 0 10px 24px rgba(0, 0, 0, 0.22);
+    --shadow-card-hover: 0 16px 36px rgba(0, 0, 0, 0.34);
+    --shadow-card-disabled: 0 8px 20px rgba(0, 0, 0, 0.18);
+    --shadow-control: 0 10px 24px rgba(0, 0, 0, 0.3);
+    --shadow-control-subtle: 0 8px 18px rgba(0, 0, 0, 0.24);
+    --shadow-practice-card: 0 14px 32px rgba(0, 0, 0, 0.26);
+    --shadow-modal: 0 24px 48px rgba(0, 0, 0, 0.48);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --color-page-bg: #111827;
+  --color-page-bg-start: #1d2a44;
+  --color-page-bg-mid: #121b2b;
+  --color-page-bg-end: #0b1120;
+
+  --color-surface: #182235;
+  --color-surface-warm: #1b2435;
+  --color-surface-translucent: rgba(24, 34, 53, 0.9);
+  --color-surface-muted: #253149;
+  --color-surface-soft: #202b40;
+  --color-surface-accent: #263654;
+
+  --color-text-primary: #eef4ff;
+  --color-text-heading: #f4f7fb;
+  --color-text-strong: #e6edf8;
+  --color-text-secondary: #bfccdc;
+  --color-text-muted: #9aa9bd;
+  --color-text-interactive: #b8c8e3;
+  --color-text-hint: #8d9cb1;
+  --color-text-disabled: #69778c;
+
+  --color-border: rgba(221, 231, 245, 0.16);
+  --color-border-strong: rgba(221, 231, 245, 0.28);
+  --color-border-subtle: rgba(221, 231, 245, 0.12);
+
+  --color-primary: #6f8cff;
+  --color-primary-active: #8ea4ff;
+  --color-primary-text: #ffffff;
+
+  --color-success-bg: rgba(78, 203, 143, 0.16);
+  --color-success-border: #4ecb8f;
+  --color-success-text: #98e6bd;
+  --color-success-strong: #6fd89f;
+  --color-success-accent: #4ecb8f;
+
+  --color-danger-bg: rgba(255, 116, 132, 0.14);
+  --color-danger-bg-strong: rgba(255, 116, 132, 0.18);
+  --color-danger-surface: rgba(255, 116, 132, 0.1);
+  --color-danger-answer-bg: rgba(255, 116, 132, 0.16);
+  --color-danger-border: rgba(255, 116, 132, 0.32);
+  --color-danger-answer-border: #ff7484;
+  --color-danger-text: #ff9aa7;
+  --color-danger-text-soft: #ffacb6;
+  --color-danger-answer-text: #ffc0c8;
+  --color-danger-fill: #d85a68;
+  --color-danger-fill-text: #ffffff;
+
+  --color-overlay: rgba(3, 7, 18, 0.68);
+  --color-tabbar-bg: rgba(17, 24, 39, 0.92);
+  --color-answer-text: #c4cede;
+
+  --shadow-card: 0 14px 32px rgba(0, 0, 0, 0.28);
+  --shadow-card-subtle: 0 10px 24px rgba(0, 0, 0, 0.22);
+  --shadow-card-hover: 0 16px 36px rgba(0, 0, 0, 0.34);
+  --shadow-card-disabled: 0 8px 20px rgba(0, 0, 0, 0.18);
+  --shadow-control: 0 10px 24px rgba(0, 0, 0, 0.3);
+  --shadow-control-subtle: 0 8px 18px rgba(0, 0, 0, 0.24);
+  --shadow-practice-card: 0 14px 32px rgba(0, 0, 0, 0.26);
+  --shadow-modal: 0 24px 48px rgba(0, 0, 0, 0.48);
 }
 
 * {

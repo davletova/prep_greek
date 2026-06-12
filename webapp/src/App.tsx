@@ -2,6 +2,7 @@ import AppScreenRenderer from "./app/app-screen-renderer.tsx";
 import { useHomeNavigation } from "./app/use-home-navigation.ts";
 import { usePracticeContentState } from "./app/use-practice-content-state.ts";
 import { useScreenNavigation } from "./app/use-screen-navigation.ts";
+import { useTelegramTheme } from "./app/use-telegram-theme.ts";
 import { useTelegramWebAppReady } from "./app/use-telegram-web-app-ready.ts";
 import { useTheoryContentState } from "./app/use-theory-content-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
@@ -13,6 +14,7 @@ export default function App() {
   const theory = useTheoryContentState(screen, setScreen);
   const practice = usePracticeContentState(screen, setScreen);
 
+  useTelegramTheme();
   useTelegramWebAppReady();
 
   return (
