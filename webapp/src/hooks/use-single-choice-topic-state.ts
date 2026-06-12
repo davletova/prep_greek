@@ -4,7 +4,7 @@ import { loadSingleChoicePracticeTopic } from "../services/content/practice-cont
 import type { ExerciseCollection } from "../types/exercises.ts";
 import type {
   SingleChoicePracticeTopic,
-  SingleChoicePracticeTopicDefinition
+  SingleChoicePracticeTopicDefinition,
 } from "../types/practice-topic.ts";
 import type { TopicListItem } from "../types/topic-list.ts";
 import type { LoadableState } from "../types/ui.ts";
@@ -26,7 +26,7 @@ function createSelectedCollectionState(
     return {
       data: null,
       status: "loading",
-      error: ""
+      error: "",
     };
   }
 
@@ -34,7 +34,7 @@ function createSelectedCollectionState(
     return {
       data: null,
       status: "error",
-      error: topicsState.error
+      error: topicsState.error,
     };
   }
 
@@ -42,7 +42,7 @@ function createSelectedCollectionState(
     return {
       data: null,
       status: "error",
-      error: "Не удалось найти выбранную тему"
+      error: "Не удалось найти выбранную тему",
     };
   }
 
@@ -50,13 +50,13 @@ function createSelectedCollectionState(
     return {
       data: null,
       status: "loading",
-      error: ""
+      error: "",
     };
   }
 
   return {
     ...loadedTopicState,
-    data: loadedTopicState.data?.collection ?? null
+    data: loadedTopicState.data?.collection ?? null,
   };
 }
 
@@ -92,7 +92,7 @@ export function useSingleChoiceTopicState(
   const topicListState = useMemo<LoadableState<TopicListItem[]>>(
     () => ({
       ...topicsState,
-      data: topicsState.data ? toTopicListItems(topicsState.data) : null
+      data: topicsState.data ? toTopicListItems(topicsState.data) : null,
     }),
     [topicsState]
   );
@@ -101,6 +101,6 @@ export function useSingleChoiceTopicState(
     selectedTopic,
     selectedTopicState,
     topicListState,
-    retrySelectedTopic
+    retrySelectedTopic,
   };
 }

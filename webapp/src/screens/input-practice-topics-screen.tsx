@@ -9,7 +9,7 @@ interface InputPracticeTopicsScreenProps {
 
 export default function InputPracticeTopicsScreen({
   onClose,
-  onOpenTopic
+  onOpenTopic,
 }: InputPracticeTopicsScreenProps) {
   return (
     <TopicListScreen

@@ -71,53 +71,53 @@ export default function SingleChoicePracticeTopicScreen({
 
   return (
     <PracticeScreenShell title={title} mainClassName="practice-flow" onClose={handleClose}>
-        {topicState.status === "loading" ? (
-          showLoading ? (
-            <PracticeLoadingState
-              status={topicState.status}
-              error={topicState.error}
-              loadingText="Подготавливаем вопросы для тренировки."
-              onRetry={onRetry}
-            />
-          ) : null
-        ) : topicState.status === "error" ? (
+      {topicState.status === "loading" ? (
+        showLoading ? (
           <PracticeLoadingState
             status={topicState.status}
             error={topicState.error}
             loadingText="Подготавливаем вопросы для тренировки."
             onRetry={onRetry}
           />
-        ) : exercises.length === 0 || !question ? (
-          <PracticeEmptyState
-            title="Нет вопросов для предпросмотра"
-            text="Не удалось найти single-choice упражнение в файле."
-          />
-        ) : (
-          <>
-            <div className="practice-flow__body">
-              <SingleChoiceExerciseCard
-                question={question}
-                hasAnswered={hasAnswered}
-                showTranslationHint={showTranslationHint}
-                isPromptSpeaking={speech.isSpeaking("prompt")}
-                isOptionSpeaking={(optionIndex) => speech.isSpeaking(`option-${optionIndex}`)}
-                getAnswerClassName={getAnswerClassName}
-                onPlayPrompt={handlePlayPrompt}
-                onPlayOption={handlePlayOption}
-                onSelectAnswer={selectAnswer}
-              />
-            </div>
+        ) : null
+      ) : topicState.status === "error" ? (
+        <PracticeLoadingState
+          status={topicState.status}
+          error={topicState.error}
+          loadingText="Подготавливаем вопросы для тренировки."
+          onRetry={onRetry}
+        />
+      ) : exercises.length === 0 || !question ? (
+        <PracticeEmptyState
+          title="Нет вопросов для предпросмотра"
+          text="Не удалось найти single-choice упражнение в файле."
+        />
+      ) : (
+        <>
+          <div className="practice-flow__body">
+            <SingleChoiceExerciseCard
+              question={question}
+              hasAnswered={hasAnswered}
+              showTranslationHint={showTranslationHint}
+              isPromptSpeaking={speech.isSpeaking("prompt")}
+              isOptionSpeaking={(optionIndex) => speech.isSpeaking(`option-${optionIndex}`)}
+              getAnswerClassName={getAnswerClassName}
+              onPlayPrompt={handlePlayPrompt}
+              onPlayOption={handlePlayOption}
+              onSelectAnswer={selectAnswer}
+            />
+          </div>
 
-            <button
-              className="nav-button nav-button--primary practice-flow__next"
-              type="button"
-              onClick={handleNextQuestion}
-              disabled={!hasAnswered}
-            >
-              Далее
-            </button>
-          </>
-        )}
+          <button
+            className="nav-button nav-button--primary practice-flow__next"
+            type="button"
+            onClick={handleNextQuestion}
+            disabled={!hasAnswered}
+          >
+            Далее
+          </button>
+        </>
+      )}
     </PracticeScreenShell>
   );
 }

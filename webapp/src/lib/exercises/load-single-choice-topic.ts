@@ -1,7 +1,7 @@
 import { loadJsonContent } from "../content-loader.ts";
 import {
   exerciseCollectionSchema,
-  singleChoiceExerciseArraySchema
+  singleChoiceExerciseArraySchema,
 } from "../../schemas/exercises.ts";
 import type { ExerciseCollection } from "../../types/exercises";
 
@@ -16,7 +16,7 @@ export async function loadSingleChoiceTopic(
     return {
       title: fallbackTitle,
       subtitle: "",
-      items: exerciseArrayResult.data
+      items: exerciseArrayResult.data,
     };
   }
 
@@ -26,7 +26,7 @@ export async function loadSingleChoiceTopic(
       title: collectionResult.data.title || fallbackTitle,
       subtitle: collectionResult.data.subtitle || "",
       settings: collectionResult.data.settings,
-      items: collectionResult.data.items
+      items: collectionResult.data.items,
     };
   }
 

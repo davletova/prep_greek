@@ -11,7 +11,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
     correctAnswer: "Привет",
     wrongAnswers: ["Пока", "Спасибо", "Извините"],
     translation: "Привет",
-    explanation: "Common greeting"
+    explanation: "Common greeting",
   };
 
   it("builds a runtime question with all options", () => {
@@ -22,14 +22,11 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
       prompt: exercise.prompt,
       promptLanguage: exercise.promptLanguage,
       translation: exercise.translation,
-      explanation: exercise.explanation
+      explanation: exercise.explanation,
     });
     expect(question.options).toHaveLength(1 + exercise.wrongAnswers.length);
     expect(question.options).toEqual(
-      expect.arrayContaining([
-        exercise.correctAnswer,
-        ...exercise.wrongAnswers
-      ])
+      expect.arrayContaining([exercise.correctAnswer, ...exercise.wrongAnswers])
     );
   });
 
@@ -42,13 +39,11 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
   it("supports a single wrong answer", () => {
     const question = buildSingleChoiceRuntimeQuestion({
       ...exercise,
-      wrongAnswers: ["Пока"]
+      wrongAnswers: ["Пока"],
     });
 
     expect(question.options).toHaveLength(2);
-    expect(question.options).toEqual(
-      expect.arrayContaining([exercise.correctAnswer, "Пока"])
-    );
+    expect(question.options).toEqual(expect.arrayContaining([exercise.correctAnswer, "Пока"]));
     expect(question.options[question.correctIndex]).toBe(exercise.correctAnswer);
   });
 });

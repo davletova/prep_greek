@@ -1,10 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { checkExerciseAnswer, checkInputExerciseAnswer } from "./check.ts";
-import type {
-  InputExercise,
-  SingleChoiceExercise,
-  TextInputExercise
-} from "../../types/exercises";
+import type { InputExercise, SingleChoiceExercise, TextInputExercise } from "../../types/exercises";
 
 describe("checkExerciseAnswer", () => {
   const singleChoiceExercise: SingleChoiceExercise = {
@@ -12,28 +8,28 @@ describe("checkExerciseAnswer", () => {
     type: "single-choice",
     prompt: "Γεια",
     correctAnswer: "Привет",
-    wrongAnswers: ["Пока", "Спасибо", "Извините"]
+    wrongAnswers: ["Пока", "Спасибо", "Извините"],
   };
 
   const textInputExercise: TextInputExercise = {
     id: "input-1",
     type: "text-input",
     prompt: "Translate: Γεια",
-    correctAnswers: ["Привет", "Здравствуйте"]
+    correctAnswers: ["Привет", "Здравствуйте"],
   };
 
   const inputExercise: InputExercise = {
     id: "input-2",
     type: "input",
     prompt: "знаю",
-    correctAnswer: "ξέρω"
+    correctAnswer: "ξέρω",
   };
 
   it("checks correct single-choice answer", () => {
     expect(
       checkExerciseAnswer(singleChoiceExercise, {
         type: "single-choice",
-        selectedIndex: 0
+        selectedIndex: 0,
       })
     ).toEqual({ correct: true });
   });
@@ -42,7 +38,7 @@ describe("checkExerciseAnswer", () => {
     expect(
       checkExerciseAnswer(singleChoiceExercise, {
         type: "single-choice",
-        selectedIndex: 1
+        selectedIndex: 1,
       })
     ).toEqual({ correct: false });
   });
@@ -51,7 +47,7 @@ describe("checkExerciseAnswer", () => {
     expect(
       checkExerciseAnswer(textInputExercise, {
         type: "text-input",
-        value: "  привет  "
+        value: "  привет  ",
       })
     ).toEqual({ correct: true });
   });
@@ -60,7 +56,7 @@ describe("checkExerciseAnswer", () => {
     expect(
       checkInputExerciseAnswer(inputExercise, {
         type: "input",
-        value: "  ΞΈΡΩ  "
+        value: "  ΞΈΡΩ  ",
       })
     ).toEqual({ correct: true });
   });
@@ -69,7 +65,7 @@ describe("checkExerciseAnswer", () => {
     expect(
       checkExerciseAnswer(inputExercise, {
         type: "input",
-        value: "ξέρω"
+        value: "ξέρω",
       })
     ).toEqual({ correct: true });
   });
@@ -78,7 +74,7 @@ describe("checkExerciseAnswer", () => {
     expect(
       checkExerciseAnswer(textInputExercise, {
         type: "single-choice",
-        selectedIndex: 0
+        selectedIndex: 0,
       })
     ).toEqual({ correct: false });
   });

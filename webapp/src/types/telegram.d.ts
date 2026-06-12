@@ -9,14 +9,8 @@ declare global {
       WebApp?: {
         colorScheme?: TelegramColorScheme;
         ready?: () => void;
-        onEvent?: (
-          eventType: TelegramThemeEvent,
-          eventHandler: () => void
-        ) => void;
-        offEvent?: (
-          eventType: TelegramThemeEvent,
-          eventHandler: () => void
-        ) => void;
+        onEvent?: (eventType: TelegramThemeEvent, eventHandler: () => void) => void;
+        offEvent?: (eventType: TelegramThemeEvent, eventHandler: () => void) => void;
         CloudStorage?: {
           getItem: (
             key: string,

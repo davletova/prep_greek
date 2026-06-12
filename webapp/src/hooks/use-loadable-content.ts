@@ -14,9 +14,7 @@ export function useLoadableContent<T>(
   state: LoadableState<T>;
   retry: () => void;
 } {
-  const [state, setState] = useState<LoadableState<T>>(
-    createInitialLoadableState<T>()
-  );
+  const [state, setState] = useState<LoadableState<T>>(createInitialLoadableState<T>());
   const hasStartedRef = useRef(false);
   const requestIdRef = useRef(0);
   const resetKeyRef = useRef(resetKey);
@@ -29,7 +27,7 @@ export function useLoadableContent<T>(
     setState({
       data: null,
       status: "loading",
-      error: ""
+      error: "",
     });
 
     load()
@@ -41,7 +39,7 @@ export function useLoadableContent<T>(
         setState({
           data,
           status: "success",
-          error: ""
+          error: "",
         });
       })
       .catch((error: unknown) => {
@@ -52,7 +50,7 @@ export function useLoadableContent<T>(
         setState({
           data: null,
           status: "error",
-          error: getErrorMessage(error)
+          error: getErrorMessage(error),
         });
       });
   }, [load]);

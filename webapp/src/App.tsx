@@ -8,8 +8,7 @@ import { useTheoryContentState } from "./app/use-theory-content-state.ts";
 import { speakGreekText } from "./lib/speech.ts";
 
 export default function App() {
-  const { screen, setScreen, isHomeScreen, exitToHome: handleExit } =
-    useScreenNavigation();
+  const { screen, setScreen, isHomeScreen, exitToHome: handleExit } = useScreenNavigation();
   const { tab, setTab } = useHomeNavigation();
   const theory = useTheoryContentState(screen, setScreen);
   const practice = usePracticeContentState(screen, setScreen);

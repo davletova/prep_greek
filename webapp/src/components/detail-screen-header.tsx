@@ -9,7 +9,7 @@ interface DetailScreenHeaderProps {
 export default function DetailScreenHeader({
   title,
   onClose,
-  closeLabel = "Закрыть"
+  closeLabel = "Закрыть",
 }: DetailScreenHeaderProps) {
   return (
     <header className="app__header app__header--compact">

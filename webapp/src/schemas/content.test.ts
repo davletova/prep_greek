@@ -6,7 +6,7 @@ import { alphabetContentSchema, diphthongsContentSchema } from "./content.ts";
 import {
   exerciseCollectionSchema,
   inputExerciseArraySchema,
-  inputExerciseCollectionSchema
+  inputExerciseCollectionSchema,
 } from "./exercises.ts";
 
 const webappRoot = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -19,9 +19,8 @@ async function readJson(path: string): Promise<unknown> {
 describe("content files", () => {
   it("validates theory content files", async () => {
     expect(
-      alphabetContentSchema.safeParse(
-        await readJson(resolve(contentRoot, "theory/alphabet.json"))
-      ).success
+      alphabetContentSchema.safeParse(await readJson(resolve(contentRoot, "theory/alphabet.json")))
+        .success
     ).toBe(true);
     expect(
       diphthongsContentSchema.safeParse(
@@ -47,10 +46,7 @@ describe("content files", () => {
 
   it("validates input practice content files", async () => {
     const inputContent = await readJson(
-      resolve(
-        contentRoot,
-        "practice/input/alpha_type_verb_conjugation_input.json"
-      )
+      resolve(contentRoot, "practice/input/alpha_type_verb_conjugation_input.json")
     );
 
     const isValid =

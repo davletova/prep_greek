@@ -11,6 +11,6 @@ export function useHomeNavigation(): HomeNavigationState {
 
   return {
     tab,
-    setTab
+    setTab,
   };
 }

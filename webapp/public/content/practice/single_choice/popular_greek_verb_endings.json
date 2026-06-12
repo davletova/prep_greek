@@ -7,11 +7,7 @@
       "type": "single-choice",
       "prompt": "είμαι",
       "correctAnswer": "я есть",
-      "wrongAnswers": [
-        "ты есть",
-        "он есть",
-        "мы есть"
-      ],
+      "wrongAnswers": ["ты есть", "он есть", "мы есть"],
       "promptLanguage": "el"
     },
     {
@@ -19,11 +15,7 @@
       "type": "single-choice",
       "prompt": "είσαι",
       "correctAnswer": "ты есть",
-      "wrongAnswers": [
-        "я есть",
-        "он есть",
-        "мы есть"
-      ],
+      "wrongAnswers": ["я есть", "он есть", "мы есть"],
       "promptLanguage": "el"
     },
     {
@@ -31,11 +23,7 @@
       "type": "single-choice",
       "prompt": "είναι",
       "correctAnswer": "он есть",
-      "wrongAnswers": [
-        "я есть",
-        "ты есть",
-        "мы есть"
-      ],
+      "wrongAnswers": ["я есть", "ты есть", "мы есть"],
       "promptLanguage": "el"
     },
     {
@@ -43,11 +31,7 @@
       "type": "single-choice",
       "prompt": "είμαστε",
       "correctAnswer": "мы есть",
-      "wrongAnswers": [
-        "я есть",
-        "ты есть",
-        "он есть"
-      ],
+      "wrongAnswers": ["я есть", "ты есть", "он есть"],
       "promptLanguage": "el"
     },
     {
@@ -55,11 +39,7 @@
       "type": "single-choice",
       "prompt": "είστε",
       "correctAnswer": "вы есть",
-      "wrongAnswers": [
-        "я есть",
-        "ты есть",
-        "он есть"
-      ],
+      "wrongAnswers": ["я есть", "ты есть", "он есть"],
       "promptLanguage": "el"
     },
     {
@@ -67,11 +47,7 @@
       "type": "single-choice",
       "prompt": "είναι",
       "correctAnswer": "они есть",
-      "wrongAnswers": [
-        "я есть",
-        "ты есть",
-        "он есть"
-      ],
+      "wrongAnswers": ["я есть", "ты есть", "он есть"],
       "promptLanguage": "el"
     },
     {
@@ -79,11 +55,7 @@
       "type": "single-choice",
       "prompt": "έχω",
       "correctAnswer": "имею",
-      "wrongAnswers": [
-        "имеешь",
-        "имеет",
-        "имеем"
-      ],
+      "wrongAnswers": ["имеешь", "имеет", "имеем"],
       "promptLanguage": "el"
     },
     {
@@ -91,11 +63,7 @@
       "type": "single-choice",
       "prompt": "έχεις",
       "correctAnswer": "имеешь",
-      "wrongAnswers": [
-        "имею",
-        "имеет",
-        "имеем"
-      ],
+      "wrongAnswers": ["имею", "имеет", "имеем"],
       "promptLanguage": "el"
     },
     {
@@ -103,11 +71,7 @@
       "type": "single-choice",
       "prompt": "έχει",
       "correctAnswer": "имеет",
-      "wrongAnswers": [
-        "имею",
-        "имеешь",
-        "имеем"
-      ],
+      "wrongAnswers": ["имею", "имеешь", "имеем"],
       "promptLanguage": "el"
     },
     {
@@ -115,11 +79,7 @@
       "type": "single-choice",
       "prompt": "έχουμε",
       "correctAnswer": "имеем",
-      "wrongAnswers": [
-        "имею",
-        "имеешь",
-        "имеет"
-      ],
+      "wrongAnswers": ["имею", "имеешь", "имеет"],
       "promptLanguage": "el"
     },
     {
@@ -127,11 +87,7 @@
       "type": "single-choice",
       "prompt": "έχετε",
       "correctAnswer": "имеете",
-      "wrongAnswers": [
-        "имею",
-        "имеешь",
-        "имеет"
-      ],
+      "wrongAnswers": ["имею", "имеешь", "имеет"],
       "promptLanguage": "el"
     },
     {
@@ -139,11 +95,7 @@
       "type": "single-choice",
       "prompt": "έχουν",
       "correctAnswer": "имеют",
-      "wrongAnswers": [
-        "имею",
-        "имеешь",
-        "имеет"
-      ],
+      "wrongAnswers": ["имею", "имеешь", "имеет"],
       "promptLanguage": "el"
     },
     {
@@ -151,11 +103,7 @@
       "type": "single-choice",
       "prompt": "κάνω",
       "correctAnswer": "делаю",
-      "wrongAnswers": [
-        "делаешь",
-        "делает",
-        "делаем"
-      ],
+      "wrongAnswers": ["делаешь", "делает", "делаем"],
       "promptLanguage": "el"
     },
     {
@@ -163,11 +111,7 @@
       "type": "single-choice",
       "prompt": "κάνεις",
       "correctAnswer": "делаешь",
-      "wrongAnswers": [
-        "делаю",
-        "делает",
-        "делаем"
-      ],
+      "wrongAnswers": ["делаю", "делает", "делаем"],
       "promptLanguage": "el"
     },
     {
@@ -175,11 +119,7 @@
       "type": "single-choice",
       "prompt": "κάνει",
       "correctAnswer": "делает",
-      "wrongAnswers": [
-        "делаю",
-        "делаешь",
-        "делаем"
-      ],
+      "wrongAnswers": ["делаю", "делаешь", "делаем"],
       "promptLanguage": "el"
     },
     {
@@ -187,11 +127,7 @@
       "type": "single-choice",
       "prompt": "κάνουμε",
       "correctAnswer": "делаем",
-      "wrongAnswers": [
-        "делаю",
-        "делаешь",
-        "делает"
-      ],
+      "wrongAnswers": ["делаю", "делаешь", "делает"],
       "promptLanguage": "el"
     },
     {
@@ -199,11 +135,7 @@
       "type": "single-choice",
       "prompt": "κάνετε",
       "correctAnswer": "делаете",
-      "wrongAnswers": [
-        "делаю",
-        "делаешь",
-        "делает"
-      ],
+      "wrongAnswers": ["делаю", "делаешь", "делает"],
       "promptLanguage": "el"
     },
     {
@@ -211,11 +143,7 @@
       "type": "single-choice",
       "prompt": "κάνουν",
       "correctAnswer": "делают",
-      "wrongAnswers": [
-        "делаю",
-        "делаешь",
-        "делает"
-      ],
+      "wrongAnswers": ["делаю", "делаешь", "делает"],
       "promptLanguage": "el"
     },
     {
@@ -223,11 +151,7 @@
       "type": "single-choice",
       "prompt": "λέω",
       "correctAnswer": "говорю",
-      "wrongAnswers": [
-        "говоришь",
-        "говорит",
-        "говорим"
-      ],
+      "wrongAnswers": ["говоришь", "говорит", "говорим"],
       "promptLanguage": "el"
     },
     {
@@ -235,11 +159,7 @@
       "type": "single-choice",
       "prompt": "λες",
       "correctAnswer": "говоришь",
-      "wrongAnswers": [
-        "говорю",
-        "говорит",
-        "говорим"
-      ],
+      "wrongAnswers": ["говорю", "говорит", "говорим"],
       "promptLanguage": "el"
     },
     {
@@ -247,11 +167,7 @@
       "type": "single-choice",
       "prompt": "λέει",
       "correctAnswer": "говорит",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорим"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорим"],
       "promptLanguage": "el"
     },
     {
@@ -259,11 +175,7 @@
       "type": "single-choice",
       "prompt": "λέμε",
       "correctAnswer": "говорим",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорит"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорит"],
       "promptLanguage": "el"
     },
     {
@@ -271,11 +183,7 @@
       "type": "single-choice",
       "prompt": "λέτε",
       "correctAnswer": "говорите",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорит"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорит"],
       "promptLanguage": "el"
     },
     {
@@ -283,11 +191,7 @@
       "type": "single-choice",
       "prompt": "λένε",
       "correctAnswer": "говорят",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорит"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорит"],
       "promptLanguage": "el"
     },
     {
@@ -295,11 +199,7 @@
       "type": "single-choice",
       "prompt": "θέλω",
       "correctAnswer": "хочу",
-      "wrongAnswers": [
-        "хочешь",
-        "хочет",
-        "хотим"
-      ],
+      "wrongAnswers": ["хочешь", "хочет", "хотим"],
       "promptLanguage": "el"
     },
     {
@@ -307,11 +207,7 @@
       "type": "single-choice",
       "prompt": "θέλεις",
       "correctAnswer": "хочешь",
-      "wrongAnswers": [
-        "хочу",
-        "хочет",
-        "хотим"
-      ],
+      "wrongAnswers": ["хочу", "хочет", "хотим"],
       "promptLanguage": "el"
     },
     {
@@ -319,11 +215,7 @@
       "type": "single-choice",
       "prompt": "θέλει",
       "correctAnswer": "хочет",
-      "wrongAnswers": [
-        "хочу",
-        "хочешь",
-        "хотим"
-      ],
+      "wrongAnswers": ["хочу", "хочешь", "хотим"],
       "promptLanguage": "el"
     },
     {
@@ -331,11 +223,7 @@
       "type": "single-choice",
       "prompt": "θέλουμε",
       "correctAnswer": "хотим",
-      "wrongAnswers": [
-        "хочу",
-        "хочешь",
-        "хочет"
-      ],
+      "wrongAnswers": ["хочу", "хочешь", "хочет"],
       "promptLanguage": "el"
     },
     {
@@ -343,11 +231,7 @@
       "type": "single-choice",
       "prompt": "θέλετε",
       "correctAnswer": "хотите",
-      "wrongAnswers": [
-        "хочу",
-        "хочешь",
-        "хочет"
-      ],
+      "wrongAnswers": ["хочу", "хочешь", "хочет"],
       "promptLanguage": "el"
     },
     {
@@ -355,11 +239,7 @@
       "type": "single-choice",
       "prompt": "θέλουν",
       "correctAnswer": "хотят",
-      "wrongAnswers": [
-        "хочу",
-        "хочешь",
-        "хочет"
-      ],
+      "wrongAnswers": ["хочу", "хочешь", "хочет"],
       "promptLanguage": "el"
     },
     {
@@ -367,11 +247,7 @@
       "type": "single-choice",
       "prompt": "ξέρω",
       "correctAnswer": "знаю",
-      "wrongAnswers": [
-        "знаешь",
-        "знает",
-        "знаем"
-      ],
+      "wrongAnswers": ["знаешь", "знает", "знаем"],
       "promptLanguage": "el"
     },
     {
@@ -379,11 +255,7 @@
       "type": "single-choice",
       "prompt": "ξέρεις",
       "correctAnswer": "знаешь",
-      "wrongAnswers": [
-        "знаю",
-        "знает",
-        "знаем"
-      ],
+      "wrongAnswers": ["знаю", "знает", "знаем"],
       "promptLanguage": "el"
     },
     {
@@ -391,11 +263,7 @@
       "type": "single-choice",
       "prompt": "ξέρει",
       "correctAnswer": "знает",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знаем"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знаем"],
       "promptLanguage": "el"
     },
     {
@@ -403,11 +271,7 @@
       "type": "single-choice",
       "prompt": "ξέρουμε",
       "correctAnswer": "знаем",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знает"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знает"],
       "promptLanguage": "el"
     },
     {
@@ -415,11 +279,7 @@
       "type": "single-choice",
       "prompt": "ξέρετε",
       "correctAnswer": "знаете",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знает"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знает"],
       "promptLanguage": "el"
     },
     {
@@ -427,11 +287,7 @@
       "type": "single-choice",
       "prompt": "ξέρουν",
       "correctAnswer": "знают",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знает"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знает"],
       "promptLanguage": "el"
     },
     {
@@ -439,11 +295,7 @@
       "type": "single-choice",
       "prompt": "μπορώ",
       "correctAnswer": "могу",
-      "wrongAnswers": [
-        "можешь",
-        "может",
-        "можем"
-      ],
+      "wrongAnswers": ["можешь", "может", "можем"],
       "promptLanguage": "el"
     },
     {
@@ -451,11 +303,7 @@
       "type": "single-choice",
       "prompt": "μπορείς",
       "correctAnswer": "можешь",
-      "wrongAnswers": [
-        "могу",
-        "может",
-        "можем"
-      ],
+      "wrongAnswers": ["могу", "может", "можем"],
       "promptLanguage": "el"
     },
     {
@@ -463,11 +311,7 @@
       "type": "single-choice",
       "prompt": "μπορεί",
       "correctAnswer": "может",
-      "wrongAnswers": [
-        "могу",
-        "можешь",
-        "можем"
-      ],
+      "wrongAnswers": ["могу", "можешь", "можем"],
       "promptLanguage": "el"
     },
     {
@@ -475,11 +319,7 @@
       "type": "single-choice",
       "prompt": "μπορούμε",
       "correctAnswer": "можем",
-      "wrongAnswers": [
-        "могу",
-        "можешь",
-        "может"
-      ],
+      "wrongAnswers": ["могу", "можешь", "может"],
       "promptLanguage": "el"
     },
     {
@@ -487,11 +327,7 @@
       "type": "single-choice",
       "prompt": "μπορείτε",
       "correctAnswer": "можете",
-      "wrongAnswers": [
-        "могу",
-        "можешь",
-        "может"
-      ],
+      "wrongAnswers": ["могу", "можешь", "может"],
       "promptLanguage": "el"
     },
     {
@@ -499,11 +335,7 @@
       "type": "single-choice",
       "prompt": "μπορούν",
       "correctAnswer": "могут",
-      "wrongAnswers": [
-        "могу",
-        "можешь",
-        "может"
-      ],
+      "wrongAnswers": ["могу", "можешь", "может"],
       "promptLanguage": "el"
     },
     {
@@ -511,11 +343,7 @@
       "type": "single-choice",
       "prompt": "πάω",
       "correctAnswer": "иду",
-      "wrongAnswers": [
-        "идёшь",
-        "идёт",
-        "идём"
-      ],
+      "wrongAnswers": ["идёшь", "идёт", "идём"],
       "promptLanguage": "el"
     },
     {
@@ -523,11 +351,7 @@
       "type": "single-choice",
       "prompt": "πας",
       "correctAnswer": "идёшь",
-      "wrongAnswers": [
-        "иду",
-        "идёт",
-        "идём"
-      ],
+      "wrongAnswers": ["иду", "идёт", "идём"],
       "promptLanguage": "el"
     },
     {
@@ -535,11 +359,7 @@
       "type": "single-choice",
       "prompt": "πάει",
       "correctAnswer": "идёт",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идём"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идём"],
       "promptLanguage": "el"
     },
     {
@@ -547,11 +367,7 @@
       "type": "single-choice",
       "prompt": "πάμε",
       "correctAnswer": "идём",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идёт"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идёт"],
       "promptLanguage": "el"
     },
     {
@@ -559,11 +375,7 @@
       "type": "single-choice",
       "prompt": "πάτε",
       "correctAnswer": "идёте",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идёт"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идёт"],
       "promptLanguage": "el"
     },
     {
@@ -571,11 +383,7 @@
       "type": "single-choice",
       "prompt": "πάνε",
       "correctAnswer": "идут",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идёт"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идёт"],
       "promptLanguage": "el"
     },
     {
@@ -583,11 +391,7 @@
       "type": "single-choice",
       "prompt": "πηγαίνω",
       "correctAnswer": "иду",
-      "wrongAnswers": [
-        "идёшь",
-        "идёт",
-        "идём"
-      ],
+      "wrongAnswers": ["идёшь", "идёт", "идём"],
       "promptLanguage": "el"
     },
     {
@@ -595,11 +399,7 @@
       "type": "single-choice",
       "prompt": "πηγαίνεις",
       "correctAnswer": "идёшь",
-      "wrongAnswers": [
-        "иду",
-        "идёт",
-        "идём"
-      ],
+      "wrongAnswers": ["иду", "идёт", "идём"],
       "promptLanguage": "el"
     },
     {
@@ -607,11 +407,7 @@
       "type": "single-choice",
       "prompt": "πηγαίνει",
       "correctAnswer": "идёт",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идём"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идём"],
       "promptLanguage": "el"
     },
     {
@@ -619,11 +415,7 @@
       "type": "single-choice",
       "prompt": "πηγαίνουμε",
       "correctAnswer": "идём",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идёт"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идёт"],
       "promptLanguage": "el"
     },
     {
@@ -631,11 +423,7 @@
       "type": "single-choice",
       "prompt": "πηγαίνετε",
       "correctAnswer": "идёте",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идёт"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идёт"],
       "promptLanguage": "el"
     },
     {
@@ -643,11 +431,7 @@
       "type": "single-choice",
       "prompt": "πηγαίνουν",
       "correctAnswer": "идут",
-      "wrongAnswers": [
-        "иду",
-        "идёшь",
-        "идёт"
-      ],
+      "wrongAnswers": ["иду", "идёшь", "идёт"],
       "promptLanguage": "el"
     },
     {
@@ -655,11 +439,7 @@
       "type": "single-choice",
       "prompt": "έρχομαι",
       "correctAnswer": "прихожу",
-      "wrongAnswers": [
-        "приходишь",
-        "приходит",
-        "приходим"
-      ],
+      "wrongAnswers": ["приходишь", "приходит", "приходим"],
       "promptLanguage": "el"
     },
     {
@@ -667,11 +447,7 @@
       "type": "single-choice",
       "prompt": "έρχεσαι",
       "correctAnswer": "приходишь",
-      "wrongAnswers": [
-        "прихожу",
-        "приходит",
-        "приходим"
-      ],
+      "wrongAnswers": ["прихожу", "приходит", "приходим"],
       "promptLanguage": "el"
     },
     {
@@ -679,11 +455,7 @@
       "type": "single-choice",
       "prompt": "έρχεται",
       "correctAnswer": "приходит",
-      "wrongAnswers": [
-        "прихожу",
-        "приходишь",
-        "приходим"
-      ],
+      "wrongAnswers": ["прихожу", "приходишь", "приходим"],
       "promptLanguage": "el"
     },
     {
@@ -691,11 +463,7 @@
       "type": "single-choice",
       "prompt": "ερχόμαστε",
       "correctAnswer": "приходим",
-      "wrongAnswers": [
-        "прихожу",
-        "приходишь",
-        "приходит"
-      ],
+      "wrongAnswers": ["прихожу", "приходишь", "приходит"],
       "promptLanguage": "el"
     },
     {
@@ -703,11 +471,7 @@
       "type": "single-choice",
       "prompt": "έρχεστε",
       "correctAnswer": "приходите",
-      "wrongAnswers": [
-        "прихожу",
-        "приходишь",
-        "приходит"
-      ],
+      "wrongAnswers": ["прихожу", "приходишь", "приходит"],
       "promptLanguage": "el"
     },
     {
@@ -715,11 +479,7 @@
       "type": "single-choice",
       "prompt": "έρχονται",
       "correctAnswer": "приходят",
-      "wrongAnswers": [
-        "прихожу",
-        "приходишь",
-        "приходит"
-      ],
+      "wrongAnswers": ["прихожу", "приходишь", "приходит"],
       "promptLanguage": "el"
     },
     {
@@ -727,11 +487,7 @@
       "type": "single-choice",
       "prompt": "φεύγω",
       "correctAnswer": "ухожу",
-      "wrongAnswers": [
-        "уходишь",
-        "уходит",
-        "уходим"
-      ],
+      "wrongAnswers": ["уходишь", "уходит", "уходим"],
       "promptLanguage": "el"
     },
     {
@@ -739,11 +495,7 @@
       "type": "single-choice",
       "prompt": "φεύγεις",
       "correctAnswer": "уходишь",
-      "wrongAnswers": [
-        "ухожу",
-        "уходит",
-        "уходим"
-      ],
+      "wrongAnswers": ["ухожу", "уходит", "уходим"],
       "promptLanguage": "el"
     },
     {
@@ -751,11 +503,7 @@
       "type": "single-choice",
       "prompt": "φεύγει",
       "correctAnswer": "уходит",
-      "wrongAnswers": [
-        "ухожу",
-        "уходишь",
-        "уходим"
-      ],
+      "wrongAnswers": ["ухожу", "уходишь", "уходим"],
       "promptLanguage": "el"
     },
     {
@@ -763,11 +511,7 @@
       "type": "single-choice",
       "prompt": "φεύγουμε",
       "correctAnswer": "уходим",
-      "wrongAnswers": [
-        "ухожу",
-        "уходишь",
-        "уходит"
-      ],
+      "wrongAnswers": ["ухожу", "уходишь", "уходит"],
       "promptLanguage": "el"
     },
     {
@@ -775,11 +519,7 @@
       "type": "single-choice",
       "prompt": "φεύγετε",
       "correctAnswer": "уходите",
-      "wrongAnswers": [
-        "ухожу",
-        "уходишь",
-        "уходит"
-      ],
+      "wrongAnswers": ["ухожу", "уходишь", "уходит"],
       "promptLanguage": "el"
     },
     {
@@ -787,11 +527,7 @@
       "type": "single-choice",
       "prompt": "φεύγουν",
       "correctAnswer": "уходят",
-      "wrongAnswers": [
-        "ухожу",
-        "уходишь",
-        "уходит"
-      ],
+      "wrongAnswers": ["ухожу", "уходишь", "уходит"],
       "promptLanguage": "el"
     },
     {
@@ -799,11 +535,7 @@
       "type": "single-choice",
       "prompt": "μένω",
       "correctAnswer": "живу",
-      "wrongAnswers": [
-        "живёшь",
-        "живёт",
-        "живём"
-      ],
+      "wrongAnswers": ["живёшь", "живёт", "живём"],
       "promptLanguage": "el"
     },
     {
@@ -811,11 +543,7 @@
       "type": "single-choice",
       "prompt": "μένεις",
       "correctAnswer": "живёшь",
-      "wrongAnswers": [
-        "живу",
-        "живёт",
-        "живём"
-      ],
+      "wrongAnswers": ["живу", "живёт", "живём"],
       "promptLanguage": "el"
     },
     {
@@ -823,11 +551,7 @@
       "type": "single-choice",
       "prompt": "μένει",
       "correctAnswer": "живёт",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живём"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живём"],
       "promptLanguage": "el"
     },
     {
@@ -835,11 +559,7 @@
       "type": "single-choice",
       "prompt": "μένουμε",
       "correctAnswer": "живём",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живёт"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живёт"],
       "promptLanguage": "el"
     },
     {
@@ -847,11 +567,7 @@
       "type": "single-choice",
       "prompt": "μένετε",
       "correctAnswer": "живёте",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живёт"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живёт"],
       "promptLanguage": "el"
     },
     {
@@ -859,11 +575,7 @@
       "type": "single-choice",
       "prompt": "μένουν",
       "correctAnswer": "живут",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живёт"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живёт"],
       "promptLanguage": "el"
     },
     {
@@ -871,11 +583,7 @@
       "type": "single-choice",
       "prompt": "μένω",
       "correctAnswer": "остаюсь",
-      "wrongAnswers": [
-        "остаёшься",
-        "остаётся",
-        "остаёмся"
-      ],
+      "wrongAnswers": ["остаёшься", "остаётся", "остаёмся"],
       "promptLanguage": "el"
     },
     {
@@ -883,11 +591,7 @@
       "type": "single-choice",
       "prompt": "μένεις",
       "correctAnswer": "остаёшься",
-      "wrongAnswers": [
-        "остаюсь",
-        "остаётся",
-        "остаёмся"
-      ],
+      "wrongAnswers": ["остаюсь", "остаётся", "остаёмся"],
       "promptLanguage": "el"
     },
     {
@@ -895,11 +599,7 @@
       "type": "single-choice",
       "prompt": "μένει",
       "correctAnswer": "остаётся",
-      "wrongAnswers": [
-        "остаюсь",
-        "остаёшься",
-        "остаёмся"
-      ],
+      "wrongAnswers": ["остаюсь", "остаёшься", "остаёмся"],
       "promptLanguage": "el"
     },
     {
@@ -907,11 +607,7 @@
       "type": "single-choice",
       "prompt": "μένουμε",
       "correctAnswer": "остаёмся",
-      "wrongAnswers": [
-        "остаюсь",
-        "остаёшься",
-        "остаётся"
-      ],
+      "wrongAnswers": ["остаюсь", "остаёшься", "остаётся"],
       "promptLanguage": "el"
     },
     {
@@ -919,11 +615,7 @@
       "type": "single-choice",
       "prompt": "μένετε",
       "correctAnswer": "остаётесь",
-      "wrongAnswers": [
-        "остаюсь",
-        "остаёшься",
-        "остаётся"
-      ],
+      "wrongAnswers": ["остаюсь", "остаёшься", "остаётся"],
       "promptLanguage": "el"
     },
     {
@@ -931,11 +623,7 @@
       "type": "single-choice",
       "prompt": "μένουν",
       "correctAnswer": "остаются",
-      "wrongAnswers": [
-        "остаюсь",
-        "остаёшься",
-        "остаётся"
-      ],
+      "wrongAnswers": ["остаюсь", "остаёшься", "остаётся"],
       "promptLanguage": "el"
     },
     {
@@ -943,11 +631,7 @@
       "type": "single-choice",
       "prompt": "βλέπω",
       "correctAnswer": "вижу",
-      "wrongAnswers": [
-        "видишь",
-        "видит",
-        "видим"
-      ],
+      "wrongAnswers": ["видишь", "видит", "видим"],
       "promptLanguage": "el"
     },
     {
@@ -955,11 +639,7 @@
       "type": "single-choice",
       "prompt": "βλέπεις",
       "correctAnswer": "видишь",
-      "wrongAnswers": [
-        "вижу",
-        "видит",
-        "видим"
-      ],
+      "wrongAnswers": ["вижу", "видит", "видим"],
       "promptLanguage": "el"
     },
     {
@@ -967,11 +647,7 @@
       "type": "single-choice",
       "prompt": "βλέπει",
       "correctAnswer": "видит",
-      "wrongAnswers": [
-        "вижу",
-        "видишь",
-        "видим"
-      ],
+      "wrongAnswers": ["вижу", "видишь", "видим"],
       "promptLanguage": "el"
     },
     {
@@ -979,11 +655,7 @@
       "type": "single-choice",
       "prompt": "βλέπουμε",
       "correctAnswer": "видим",
-      "wrongAnswers": [
-        "вижу",
-        "видишь",
-        "видит"
-      ],
+      "wrongAnswers": ["вижу", "видишь", "видит"],
       "promptLanguage": "el"
     },
     {
@@ -991,11 +663,7 @@
       "type": "single-choice",
       "prompt": "βλέπετε",
       "correctAnswer": "видите",
-      "wrongAnswers": [
-        "вижу",
-        "видишь",
-        "видит"
-      ],
+      "wrongAnswers": ["вижу", "видишь", "видит"],
       "promptLanguage": "el"
     },
     {
@@ -1003,11 +671,7 @@
       "type": "single-choice",
       "prompt": "βλέπουν",
       "correctAnswer": "видят",
-      "wrongAnswers": [
-        "вижу",
-        "видишь",
-        "видит"
-      ],
+      "wrongAnswers": ["вижу", "видишь", "видит"],
       "promptLanguage": "el"
     },
     {
@@ -1015,11 +679,7 @@
       "type": "single-choice",
       "prompt": "βλέπω",
       "correctAnswer": "смотрю",
-      "wrongAnswers": [
-        "смотришь",
-        "смотрит",
-        "смотрим"
-      ],
+      "wrongAnswers": ["смотришь", "смотрит", "смотрим"],
       "promptLanguage": "el"
     },
     {
@@ -1027,11 +687,7 @@
       "type": "single-choice",
       "prompt": "βλέπεις",
       "correctAnswer": "смотришь",
-      "wrongAnswers": [
-        "смотрю",
-        "смотрит",
-        "смотрим"
-      ],
+      "wrongAnswers": ["смотрю", "смотрит", "смотрим"],
       "promptLanguage": "el"
     },
     {
@@ -1039,11 +695,7 @@
       "type": "single-choice",
       "prompt": "βλέπει",
       "correctAnswer": "смотрит",
-      "wrongAnswers": [
-        "смотрю",
-        "смотришь",
-        "смотрим"
-      ],
+      "wrongAnswers": ["смотрю", "смотришь", "смотрим"],
       "promptLanguage": "el"
     },
     {
@@ -1051,11 +703,7 @@
       "type": "single-choice",
       "prompt": "βλέπουμε",
       "correctAnswer": "смотрим",
-      "wrongAnswers": [
-        "смотрю",
-        "смотришь",
-        "смотрит"
-      ],
+      "wrongAnswers": ["смотрю", "смотришь", "смотрит"],
       "promptLanguage": "el"
     },
     {
@@ -1063,11 +711,7 @@
       "type": "single-choice",
       "prompt": "βλέπετε",
       "correctAnswer": "смотрите",
-      "wrongAnswers": [
-        "смотрю",
-        "смотришь",
-        "смотрит"
-      ],
+      "wrongAnswers": ["смотрю", "смотришь", "смотрит"],
       "promptLanguage": "el"
     },
     {
@@ -1075,11 +719,7 @@
       "type": "single-choice",
       "prompt": "βλέπουν",
       "correctAnswer": "смотрят",
-      "wrongAnswers": [
-        "смотрю",
-        "смотришь",
-        "смотрит"
-      ],
+      "wrongAnswers": ["смотрю", "смотришь", "смотрит"],
       "promptLanguage": "el"
     },
     {
@@ -1087,11 +727,7 @@
       "type": "single-choice",
       "prompt": "ακούω",
       "correctAnswer": "слышу",
-      "wrongAnswers": [
-        "слышишь",
-        "слышит",
-        "слышим"
-      ],
+      "wrongAnswers": ["слышишь", "слышит", "слышим"],
       "promptLanguage": "el"
     },
     {
@@ -1099,11 +735,7 @@
       "type": "single-choice",
       "prompt": "ακούς",
       "correctAnswer": "слышишь",
-      "wrongAnswers": [
-        "слышу",
-        "слышит",
-        "слышим"
-      ],
+      "wrongAnswers": ["слышу", "слышит", "слышим"],
       "promptLanguage": "el"
     },
     {
@@ -1111,11 +743,7 @@
       "type": "single-choice",
       "prompt": "ακούει",
       "correctAnswer": "слышит",
-      "wrongAnswers": [
-        "слышу",
-        "слышишь",
-        "слышим"
-      ],
+      "wrongAnswers": ["слышу", "слышишь", "слышим"],
       "promptLanguage": "el"
     },
     {
@@ -1123,11 +751,7 @@
       "type": "single-choice",
       "prompt": "ακούμε",
       "correctAnswer": "слышим",
-      "wrongAnswers": [
-        "слышу",
-        "слышишь",
-        "слышит"
-      ],
+      "wrongAnswers": ["слышу", "слышишь", "слышит"],
       "promptLanguage": "el"
     },
     {
@@ -1135,11 +759,7 @@
       "type": "single-choice",
       "prompt": "ακούτε",
       "correctAnswer": "слышите",
-      "wrongAnswers": [
-        "слышу",
-        "слышишь",
-        "слышит"
-      ],
+      "wrongAnswers": ["слышу", "слышишь", "слышит"],
       "promptLanguage": "el"
     },
     {
@@ -1147,11 +767,7 @@
       "type": "single-choice",
       "prompt": "ακούνε",
       "correctAnswer": "слышат",
-      "wrongAnswers": [
-        "слышу",
-        "слышишь",
-        "слышит"
-      ],
+      "wrongAnswers": ["слышу", "слышишь", "слышит"],
       "promptLanguage": "el"
     },
     {
@@ -1159,11 +775,7 @@
       "type": "single-choice",
       "prompt": "ακούω",
       "correctAnswer": "слушаю",
-      "wrongAnswers": [
-        "слушаешь",
-        "слушает",
-        "слушаем"
-      ],
+      "wrongAnswers": ["слушаешь", "слушает", "слушаем"],
       "promptLanguage": "el"
     },
     {
@@ -1171,11 +783,7 @@
       "type": "single-choice",
       "prompt": "ακούς",
       "correctAnswer": "слушаешь",
-      "wrongAnswers": [
-        "слушаю",
-        "слушает",
-        "слушаем"
-      ],
+      "wrongAnswers": ["слушаю", "слушает", "слушаем"],
       "promptLanguage": "el"
     },
     {
@@ -1183,11 +791,7 @@
       "type": "single-choice",
       "prompt": "ακούει",
       "correctAnswer": "слушает",
-      "wrongAnswers": [
-        "слушаю",
-        "слушаешь",
-        "слушаем"
-      ],
+      "wrongAnswers": ["слушаю", "слушаешь", "слушаем"],
       "promptLanguage": "el"
     },
     {
@@ -1195,11 +799,7 @@
       "type": "single-choice",
       "prompt": "ακούμε",
       "correctAnswer": "слушаем",
-      "wrongAnswers": [
-        "слушаю",
-        "слушаешь",
-        "слушает"
-      ],
+      "wrongAnswers": ["слушаю", "слушаешь", "слушает"],
       "promptLanguage": "el"
     },
     {
@@ -1207,11 +807,7 @@
       "type": "single-choice",
       "prompt": "ακούτε",
       "correctAnswer": "слушаете",
-      "wrongAnswers": [
-        "слушаю",
-        "слушаешь",
-        "слушает"
-      ],
+      "wrongAnswers": ["слушаю", "слушаешь", "слушает"],
       "promptLanguage": "el"
     },
     {
@@ -1219,11 +815,7 @@
       "type": "single-choice",
       "prompt": "ακούνε",
       "correctAnswer": "слушают",
-      "wrongAnswers": [
-        "слушаю",
-        "слушаешь",
-        "слушает"
-      ],
+      "wrongAnswers": ["слушаю", "слушаешь", "слушает"],
       "promptLanguage": "el"
     },
     {
@@ -1231,11 +823,7 @@
       "type": "single-choice",
       "prompt": "τρώω",
       "correctAnswer": "ем",
-      "wrongAnswers": [
-        "ешь",
-        "ест",
-        "едим"
-      ],
+      "wrongAnswers": ["ешь", "ест", "едим"],
       "promptLanguage": "el"
     },
     {
@@ -1243,11 +831,7 @@
       "type": "single-choice",
       "prompt": "τρως",
       "correctAnswer": "ешь",
-      "wrongAnswers": [
-        "ем",
-        "ест",
-        "едим"
-      ],
+      "wrongAnswers": ["ем", "ест", "едим"],
       "promptLanguage": "el"
     },
     {
@@ -1255,11 +839,7 @@
       "type": "single-choice",
       "prompt": "τρώει",
       "correctAnswer": "ест",
-      "wrongAnswers": [
-        "ем",
-        "ешь",
-        "едим"
-      ],
+      "wrongAnswers": ["ем", "ешь", "едим"],
       "promptLanguage": "el"
     },
     {
@@ -1267,11 +847,7 @@
       "type": "single-choice",
       "prompt": "τρώμε",
       "correctAnswer": "едим",
-      "wrongAnswers": [
-        "ем",
-        "ешь",
-        "ест"
-      ],
+      "wrongAnswers": ["ем", "ешь", "ест"],
       "promptLanguage": "el"
     },
     {
@@ -1279,11 +855,7 @@
       "type": "single-choice",
       "prompt": "τρώτε",
       "correctAnswer": "едите",
-      "wrongAnswers": [
-        "ем",
-        "ешь",
-        "ест"
-      ],
+      "wrongAnswers": ["ем", "ешь", "ест"],
       "promptLanguage": "el"
     },
     {
@@ -1291,11 +863,7 @@
       "type": "single-choice",
       "prompt": "τρώνε",
       "correctAnswer": "едят",
-      "wrongAnswers": [
-        "ем",
-        "ешь",
-        "ест"
-      ],
+      "wrongAnswers": ["ем", "ешь", "ест"],
       "promptLanguage": "el"
     },
     {
@@ -1303,11 +871,7 @@
       "type": "single-choice",
       "prompt": "πίνω",
       "correctAnswer": "пью",
-      "wrongAnswers": [
-        "пьёшь",
-        "пьёт",
-        "пьём"
-      ],
+      "wrongAnswers": ["пьёшь", "пьёт", "пьём"],
       "promptLanguage": "el"
     },
     {
@@ -1315,11 +879,7 @@
       "type": "single-choice",
       "prompt": "πίνεις",
       "correctAnswer": "пьёшь",
-      "wrongAnswers": [
-        "пью",
-        "пьёт",
-        "пьём"
-      ],
+      "wrongAnswers": ["пью", "пьёт", "пьём"],
       "promptLanguage": "el"
     },
     {
@@ -1327,11 +887,7 @@
       "type": "single-choice",
       "prompt": "πίνει",
       "correctAnswer": "пьёт",
-      "wrongAnswers": [
-        "пью",
-        "пьёшь",
-        "пьём"
-      ],
+      "wrongAnswers": ["пью", "пьёшь", "пьём"],
       "promptLanguage": "el"
     },
     {
@@ -1339,11 +895,7 @@
       "type": "single-choice",
       "prompt": "πίνουμε",
       "correctAnswer": "пьём",
-      "wrongAnswers": [
-        "пью",
-        "пьёшь",
-        "пьёт"
-      ],
+      "wrongAnswers": ["пью", "пьёшь", "пьёт"],
       "promptLanguage": "el"
     },
     {
@@ -1351,11 +903,7 @@
       "type": "single-choice",
       "prompt": "πίνετε",
       "correctAnswer": "пьёте",
-      "wrongAnswers": [
-        "пью",
-        "пьёшь",
-        "пьёт"
-      ],
+      "wrongAnswers": ["пью", "пьёшь", "пьёт"],
       "promptLanguage": "el"
     },
     {
@@ -1363,11 +911,7 @@
       "type": "single-choice",
       "prompt": "πίνουν",
       "correctAnswer": "пьют",
-      "wrongAnswers": [
-        "пью",
-        "пьёшь",
-        "пьёт"
-      ],
+      "wrongAnswers": ["пью", "пьёшь", "пьёт"],
       "promptLanguage": "el"
     },
     {
@@ -1375,11 +919,7 @@
       "type": "single-choice",
       "prompt": "διαβάζω",
       "correctAnswer": "читаю",
-      "wrongAnswers": [
-        "читаешь",
-        "читает",
-        "читаем"
-      ],
+      "wrongAnswers": ["читаешь", "читает", "читаем"],
       "promptLanguage": "el"
     },
     {
@@ -1387,11 +927,7 @@
       "type": "single-choice",
       "prompt": "διαβάζεις",
       "correctAnswer": "читаешь",
-      "wrongAnswers": [
-        "читаю",
-        "читает",
-        "читаем"
-      ],
+      "wrongAnswers": ["читаю", "читает", "читаем"],
       "promptLanguage": "el"
     },
     {
@@ -1399,11 +935,7 @@
       "type": "single-choice",
       "prompt": "διαβάζει",
       "correctAnswer": "читает",
-      "wrongAnswers": [
-        "читаю",
-        "читаешь",
-        "читаем"
-      ],
+      "wrongAnswers": ["читаю", "читаешь", "читаем"],
       "promptLanguage": "el"
     },
     {
@@ -1411,11 +943,7 @@
       "type": "single-choice",
       "prompt": "διαβάζουμε",
       "correctAnswer": "читаем",
-      "wrongAnswers": [
-        "читаю",
-        "читаешь",
-        "читает"
-      ],
+      "wrongAnswers": ["читаю", "читаешь", "читает"],
       "promptLanguage": "el"
     },
     {
@@ -1423,11 +951,7 @@
       "type": "single-choice",
       "prompt": "διαβάζετε",
       "correctAnswer": "читаете",
-      "wrongAnswers": [
-        "читаю",
-        "читаешь",
-        "читает"
-      ],
+      "wrongAnswers": ["читаю", "читаешь", "читает"],
       "promptLanguage": "el"
     },
     {
@@ -1435,11 +959,7 @@
       "type": "single-choice",
       "prompt": "διαβάζουν",
       "correctAnswer": "читают",
-      "wrongAnswers": [
-        "читаю",
-        "читаешь",
-        "читает"
-      ],
+      "wrongAnswers": ["читаю", "читаешь", "читает"],
       "promptLanguage": "el"
     },
     {
@@ -1447,11 +967,7 @@
       "type": "single-choice",
       "prompt": "γράφω",
       "correctAnswer": "пишу",
-      "wrongAnswers": [
-        "пишешь",
-        "пишет",
-        "пишем"
-      ],
+      "wrongAnswers": ["пишешь", "пишет", "пишем"],
       "promptLanguage": "el"
     },
     {
@@ -1459,11 +975,7 @@
       "type": "single-choice",
       "prompt": "γράφεις",
       "correctAnswer": "пишешь",
-      "wrongAnswers": [
-        "пишу",
-        "пишет",
-        "пишем"
-      ],
+      "wrongAnswers": ["пишу", "пишет", "пишем"],
       "promptLanguage": "el"
     },
     {
@@ -1471,11 +983,7 @@
       "type": "single-choice",
       "prompt": "γράφει",
       "correctAnswer": "пишет",
-      "wrongAnswers": [
-        "пишу",
-        "пишешь",
-        "пишем"
-      ],
+      "wrongAnswers": ["пишу", "пишешь", "пишем"],
       "promptLanguage": "el"
     },
     {
@@ -1483,11 +991,7 @@
       "type": "single-choice",
       "prompt": "γράφουμε",
       "correctAnswer": "пишем",
-      "wrongAnswers": [
-        "пишу",
-        "пишешь",
-        "пишет"
-      ],
+      "wrongAnswers": ["пишу", "пишешь", "пишет"],
       "promptLanguage": "el"
     },
     {
@@ -1495,11 +999,7 @@
       "type": "single-choice",
       "prompt": "γράφετε",
       "correctAnswer": "пишете",
-      "wrongAnswers": [
-        "пишу",
-        "пишешь",
-        "пишет"
-      ],
+      "wrongAnswers": ["пишу", "пишешь", "пишет"],
       "promptLanguage": "el"
     },
     {
@@ -1507,11 +1007,7 @@
       "type": "single-choice",
       "prompt": "γράφουν",
       "correctAnswer": "пишут",
-      "wrongAnswers": [
-        "пишу",
-        "пишешь",
-        "пишет"
-      ],
+      "wrongAnswers": ["пишу", "пишешь", "пишет"],
       "promptLanguage": "el"
     },
     {
@@ -1519,11 +1015,7 @@
       "type": "single-choice",
       "prompt": "μιλάω",
       "correctAnswer": "говорю",
-      "wrongAnswers": [
-        "говоришь",
-        "говорит",
-        "говорим"
-      ],
+      "wrongAnswers": ["говоришь", "говорит", "говорим"],
       "promptLanguage": "el"
     },
     {
@@ -1531,11 +1023,7 @@
       "type": "single-choice",
       "prompt": "μιλάς",
       "correctAnswer": "говоришь",
-      "wrongAnswers": [
-        "говорю",
-        "говорит",
-        "говорим"
-      ],
+      "wrongAnswers": ["говорю", "говорит", "говорим"],
       "promptLanguage": "el"
     },
     {
@@ -1543,11 +1031,7 @@
       "type": "single-choice",
       "prompt": "μιλάει",
       "correctAnswer": "говорит",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорим"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорим"],
       "promptLanguage": "el"
     },
     {
@@ -1555,11 +1039,7 @@
       "type": "single-choice",
       "prompt": "μιλάμε",
       "correctAnswer": "говорим",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорит"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорит"],
       "promptLanguage": "el"
     },
     {
@@ -1567,11 +1047,7 @@
       "type": "single-choice",
       "prompt": "μιλάτε",
       "correctAnswer": "говорите",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорит"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорит"],
       "promptLanguage": "el"
     },
     {
@@ -1579,11 +1055,7 @@
       "type": "single-choice",
       "prompt": "μιλάνε",
       "correctAnswer": "говорят",
-      "wrongAnswers": [
-        "говорю",
-        "говоришь",
-        "говорит"
-      ],
+      "wrongAnswers": ["говорю", "говоришь", "говорит"],
       "promptLanguage": "el"
     },
     {
@@ -1591,11 +1063,7 @@
       "type": "single-choice",
       "prompt": "καταλαβαίνω",
       "correctAnswer": "понимаю",
-      "wrongAnswers": [
-        "понимаешь",
-        "понимает",
-        "понимаем"
-      ],
+      "wrongAnswers": ["понимаешь", "понимает", "понимаем"],
       "promptLanguage": "el"
     },
     {
@@ -1603,11 +1071,7 @@
       "type": "single-choice",
       "prompt": "καταλαβαίνεις",
       "correctAnswer": "понимаешь",
-      "wrongAnswers": [
-        "понимаю",
-        "понимает",
-        "понимаем"
-      ],
+      "wrongAnswers": ["понимаю", "понимает", "понимаем"],
       "promptLanguage": "el"
     },
     {
@@ -1615,11 +1079,7 @@
       "type": "single-choice",
       "prompt": "καταλαβαίνει",
       "correctAnswer": "понимает",
-      "wrongAnswers": [
-        "понимаю",
-        "понимаешь",
-        "понимаем"
-      ],
+      "wrongAnswers": ["понимаю", "понимаешь", "понимаем"],
       "promptLanguage": "el"
     },
     {
@@ -1627,11 +1087,7 @@
       "type": "single-choice",
       "prompt": "καταλαβαίνουμε",
       "correctAnswer": "понимаем",
-      "wrongAnswers": [
-        "понимаю",
-        "понимаешь",
-        "понимает"
-      ],
+      "wrongAnswers": ["понимаю", "понимаешь", "понимает"],
       "promptLanguage": "el"
     },
     {
@@ -1639,11 +1095,7 @@
       "type": "single-choice",
       "prompt": "καταλαβαίνετε",
       "correctAnswer": "понимаете",
-      "wrongAnswers": [
-        "понимаю",
-        "понимаешь",
-        "понимает"
-      ],
+      "wrongAnswers": ["понимаю", "понимаешь", "понимает"],
       "promptLanguage": "el"
     },
     {
@@ -1651,11 +1103,7 @@
       "type": "single-choice",
       "prompt": "καταλαβαίνουν",
       "correctAnswer": "понимают",
-      "wrongAnswers": [
-        "понимаю",
-        "понимаешь",
-        "понимает"
-      ],
+      "wrongAnswers": ["понимаю", "понимаешь", "понимает"],
       "promptLanguage": "el"
     },
     {
@@ -1663,11 +1111,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνω",
       "correctAnswer": "учу",
-      "wrongAnswers": [
-        "учишь",
-        "учит",
-        "учим"
-      ],
+      "wrongAnswers": ["учишь", "учит", "учим"],
       "promptLanguage": "el"
     },
     {
@@ -1675,11 +1119,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνεις",
       "correctAnswer": "учишь",
-      "wrongAnswers": [
-        "учу",
-        "учит",
-        "учим"
-      ],
+      "wrongAnswers": ["учу", "учит", "учим"],
       "promptLanguage": "el"
     },
     {
@@ -1687,11 +1127,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνει",
       "correctAnswer": "учит",
-      "wrongAnswers": [
-        "учу",
-        "учишь",
-        "учим"
-      ],
+      "wrongAnswers": ["учу", "учишь", "учим"],
       "promptLanguage": "el"
     },
     {
@@ -1699,11 +1135,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνουμε",
       "correctAnswer": "учим",
-      "wrongAnswers": [
-        "учу",
-        "учишь",
-        "учит"
-      ],
+      "wrongAnswers": ["учу", "учишь", "учит"],
       "promptLanguage": "el"
     },
     {
@@ -1711,11 +1143,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνετε",
       "correctAnswer": "учите",
-      "wrongAnswers": [
-        "учу",
-        "учишь",
-        "учит"
-      ],
+      "wrongAnswers": ["учу", "учишь", "учит"],
       "promptLanguage": "el"
     },
     {
@@ -1723,11 +1151,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνουν",
       "correctAnswer": "учат",
-      "wrongAnswers": [
-        "учу",
-        "учишь",
-        "учит"
-      ],
+      "wrongAnswers": ["учу", "учишь", "учит"],
       "promptLanguage": "el"
     },
     {
@@ -1735,11 +1159,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνω",
       "correctAnswer": "узнаю",
-      "wrongAnswers": [
-        "узнаёшь",
-        "узнаёт",
-        "узнаём"
-      ],
+      "wrongAnswers": ["узнаёшь", "узнаёт", "узнаём"],
       "promptLanguage": "el"
     },
     {
@@ -1747,11 +1167,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνεις",
       "correctAnswer": "узнаёшь",
-      "wrongAnswers": [
-        "узнаю",
-        "узнаёт",
-        "узнаём"
-      ],
+      "wrongAnswers": ["узнаю", "узнаёт", "узнаём"],
       "promptLanguage": "el"
     },
     {
@@ -1759,11 +1175,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνει",
       "correctAnswer": "узнаёт",
-      "wrongAnswers": [
-        "узнаю",
-        "узнаёшь",
-        "узнаём"
-      ],
+      "wrongAnswers": ["узнаю", "узнаёшь", "узнаём"],
       "promptLanguage": "el"
     },
     {
@@ -1771,11 +1183,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνουμε",
       "correctAnswer": "узнаём",
-      "wrongAnswers": [
-        "узнаю",
-        "узнаёшь",
-        "узнаёт"
-      ],
+      "wrongAnswers": ["узнаю", "узнаёшь", "узнаёт"],
       "promptLanguage": "el"
     },
     {
@@ -1783,11 +1191,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνετε",
       "correctAnswer": "узнаёте",
-      "wrongAnswers": [
-        "узнаю",
-        "узнаёшь",
-        "узнаёт"
-      ],
+      "wrongAnswers": ["узнаю", "узнаёшь", "узнаёт"],
       "promptLanguage": "el"
     },
     {
@@ -1795,11 +1199,7 @@
       "type": "single-choice",
       "prompt": "μαθαίνουν",
       "correctAnswer": "узнают",
-      "wrongAnswers": [
-        "узнаю",
-        "узнаёшь",
-        "узнаёт"
-      ],
+      "wrongAnswers": ["узнаю", "узнаёшь", "узнаёт"],
       "promptLanguage": "el"
     },
     {
@@ -1807,11 +1207,7 @@
       "type": "single-choice",
       "prompt": "δουλεύω",
       "correctAnswer": "работаю",
-      "wrongAnswers": [
-        "работаешь",
-        "работает",
-        "работаем"
-      ],
+      "wrongAnswers": ["работаешь", "работает", "работаем"],
       "promptLanguage": "el"
     },
     {
@@ -1819,11 +1215,7 @@
       "type": "single-choice",
       "prompt": "δουλεύεις",
       "correctAnswer": "работаешь",
-      "wrongAnswers": [
-        "работаю",
-        "работает",
-        "работаем"
-      ],
+      "wrongAnswers": ["работаю", "работает", "работаем"],
       "promptLanguage": "el"
     },
     {
@@ -1831,11 +1223,7 @@
       "type": "single-choice",
       "prompt": "δουλεύει",
       "correctAnswer": "работает",
-      "wrongAnswers": [
-        "работаю",
-        "работаешь",
-        "работаем"
-      ],
+      "wrongAnswers": ["работаю", "работаешь", "работаем"],
       "promptLanguage": "el"
     },
     {
@@ -1843,11 +1231,7 @@
       "type": "single-choice",
       "prompt": "δουλεύουμε",
       "correctAnswer": "работаем",
-      "wrongAnswers": [
-        "работаю",
-        "работаешь",
-        "работает"
-      ],
+      "wrongAnswers": ["работаю", "работаешь", "работает"],
       "promptLanguage": "el"
     },
     {
@@ -1855,11 +1239,7 @@
       "type": "single-choice",
       "prompt": "δουλεύετε",
       "correctAnswer": "работаете",
-      "wrongAnswers": [
-        "работаю",
-        "работаешь",
-        "работает"
-      ],
+      "wrongAnswers": ["работаю", "работаешь", "работает"],
       "promptLanguage": "el"
     },
     {
@@ -1867,11 +1247,7 @@
       "type": "single-choice",
       "prompt": "δουλεύουν",
       "correctAnswer": "работают",
-      "wrongAnswers": [
-        "работаю",
-        "работаешь",
-        "работает"
-      ],
+      "wrongAnswers": ["работаю", "работаешь", "работает"],
       "promptLanguage": "el"
     },
     {
@@ -1879,11 +1255,7 @@
       "type": "single-choice",
       "prompt": "σπουδάζω",
       "correctAnswer": "учусь",
-      "wrongAnswers": [
-        "учишься",
-        "учится",
-        "учимся"
-      ],
+      "wrongAnswers": ["учишься", "учится", "учимся"],
       "promptLanguage": "el"
     },
     {
@@ -1891,11 +1263,7 @@
       "type": "single-choice",
       "prompt": "σπουδάζεις",
       "correctAnswer": "учишься",
-      "wrongAnswers": [
-        "учусь",
-        "учится",
-        "учимся"
-      ],
+      "wrongAnswers": ["учусь", "учится", "учимся"],
       "promptLanguage": "el"
     },
     {
@@ -1903,11 +1271,7 @@
       "type": "single-choice",
       "prompt": "σπουδάζει",
       "correctAnswer": "учится",
-      "wrongAnswers": [
-        "учусь",
-        "учишься",
-        "учимся"
-      ],
+      "wrongAnswers": ["учусь", "учишься", "учимся"],
       "promptLanguage": "el"
     },
     {
@@ -1915,11 +1279,7 @@
       "type": "single-choice",
       "prompt": "σπουδάζουμε",
       "correctAnswer": "учимся",
-      "wrongAnswers": [
-        "учусь",
-        "учишься",
-        "учится"
-      ],
+      "wrongAnswers": ["учусь", "учишься", "учится"],
       "promptLanguage": "el"
     },
     {
@@ -1927,11 +1287,7 @@
       "type": "single-choice",
       "prompt": "σπουδάζετε",
       "correctAnswer": "учитесь",
-      "wrongAnswers": [
-        "учусь",
-        "учишься",
-        "учится"
-      ],
+      "wrongAnswers": ["учусь", "учишься", "учится"],
       "promptLanguage": "el"
     },
     {
@@ -1939,11 +1295,7 @@
       "type": "single-choice",
       "prompt": "σπουδάζουν",
       "correctAnswer": "учатся",
-      "wrongAnswers": [
-        "учусь",
-        "учишься",
-        "учится"
-      ],
+      "wrongAnswers": ["учусь", "учишься", "учится"],
       "promptLanguage": "el"
     },
     {
@@ -1951,11 +1303,7 @@
       "type": "single-choice",
       "prompt": "διδάσκω",
       "correctAnswer": "преподаю",
-      "wrongAnswers": [
-        "преподаёшь",
-        "преподаёт",
-        "преподаём"
-      ],
+      "wrongAnswers": ["преподаёшь", "преподаёт", "преподаём"],
       "promptLanguage": "el"
     },
     {
@@ -1963,11 +1311,7 @@
       "type": "single-choice",
       "prompt": "διδάσκεις",
       "correctAnswer": "преподаёшь",
-      "wrongAnswers": [
-        "преподаю",
-        "преподаёт",
-        "преподаём"
-      ],
+      "wrongAnswers": ["преподаю", "преподаёт", "преподаём"],
       "promptLanguage": "el"
     },
     {
@@ -1975,11 +1319,7 @@
       "type": "single-choice",
       "prompt": "διδάσκει",
       "correctAnswer": "преподаёт",
-      "wrongAnswers": [
-        "преподаю",
-        "преподаёшь",
-        "преподаём"
-      ],
+      "wrongAnswers": ["преподаю", "преподаёшь", "преподаём"],
       "promptLanguage": "el"
     },
     {
@@ -1987,11 +1327,7 @@
       "type": "single-choice",
       "prompt": "διδάσκουμε",
       "correctAnswer": "преподаём",
-      "wrongAnswers": [
-        "преподаю",
-        "преподаёшь",
-        "преподаёт"
-      ],
+      "wrongAnswers": ["преподаю", "преподаёшь", "преподаёт"],
       "promptLanguage": "el"
     },
     {
@@ -1999,11 +1335,7 @@
       "type": "single-choice",
       "prompt": "διδάσκετε",
       "correctAnswer": "преподаёте",
-      "wrongAnswers": [
-        "преподаю",
-        "преподаёшь",
-        "преподаёт"
-      ],
+      "wrongAnswers": ["преподаю", "преподаёшь", "преподаёт"],
       "promptLanguage": "el"
     },
     {
@@ -2011,11 +1343,7 @@
       "type": "single-choice",
       "prompt": "διδάσκουν",
       "correctAnswer": "преподают",
-      "wrongAnswers": [
-        "преподаю",
-        "преподаёшь",
-        "преподаёт"
-      ],
+      "wrongAnswers": ["преподаю", "преподаёшь", "преподаёт"],
       "promptLanguage": "el"
     },
     {
@@ -2023,11 +1351,7 @@
       "type": "single-choice",
       "prompt": "ρωτάω",
       "correctAnswer": "спрашиваю",
-      "wrongAnswers": [
-        "спрашиваешь",
-        "спрашивает",
-        "спрашиваем"
-      ],
+      "wrongAnswers": ["спрашиваешь", "спрашивает", "спрашиваем"],
       "promptLanguage": "el"
     },
     {
@@ -2035,11 +1359,7 @@
       "type": "single-choice",
       "prompt": "ρωτάς",
       "correctAnswer": "спрашиваешь",
-      "wrongAnswers": [
-        "спрашиваю",
-        "спрашивает",
-        "спрашиваем"
-      ],
+      "wrongAnswers": ["спрашиваю", "спрашивает", "спрашиваем"],
       "promptLanguage": "el"
     },
     {
@@ -2047,11 +1367,7 @@
       "type": "single-choice",
       "prompt": "ρωτάει",
       "correctAnswer": "спрашивает",
-      "wrongAnswers": [
-        "спрашиваю",
-        "спрашиваешь",
-        "спрашиваем"
-      ],
+      "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашиваем"],
       "promptLanguage": "el"
     },
     {
@@ -2059,11 +1375,7 @@
       "type": "single-choice",
       "prompt": "ρωτάμε",
       "correctAnswer": "спрашиваем",
-      "wrongAnswers": [
-        "спрашиваю",
-        "спрашиваешь",
-        "спрашивает"
-      ],
+      "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивает"],
       "promptLanguage": "el"
     },
     {
@@ -2071,11 +1383,7 @@
       "type": "single-choice",
       "prompt": "ρωτάτε",
       "correctAnswer": "спрашиваете",
-      "wrongAnswers": [
-        "спрашиваю",
-        "спрашиваешь",
-        "спрашивает"
-      ],
+      "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивает"],
       "promptLanguage": "el"
     },
     {
@@ -2083,11 +1391,7 @@
       "type": "single-choice",
       "prompt": "ρωτάνε",
       "correctAnswer": "спрашивают",
-      "wrongAnswers": [
-        "спрашиваю",
-        "спрашиваешь",
-        "спрашивает"
-      ],
+      "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивает"],
       "promptLanguage": "el"
     },
     {
@@ -2095,11 +1399,7 @@
       "type": "single-choice",
       "prompt": "απαντάω",
       "correctAnswer": "отвечаю",
-      "wrongAnswers": [
-        "отвечаешь",
-        "отвечает",
-        "отвечаем"
-      ],
+      "wrongAnswers": ["отвечаешь", "отвечает", "отвечаем"],
       "promptLanguage": "el"
     },
     {
@@ -2107,11 +1407,7 @@
       "type": "single-choice",
       "prompt": "απαντάς",
       "correctAnswer": "отвечаешь",
-      "wrongAnswers": [
-        "отвечаю",
-        "отвечает",
-        "отвечаем"
-      ],
+      "wrongAnswers": ["отвечаю", "отвечает", "отвечаем"],
       "promptLanguage": "el"
     },
     {
@@ -2119,11 +1415,7 @@
       "type": "single-choice",
       "prompt": "απαντάει",
       "correctAnswer": "отвечает",
-      "wrongAnswers": [
-        "отвечаю",
-        "отвечаешь",
-        "отвечаем"
-      ],
+      "wrongAnswers": ["отвечаю", "отвечаешь", "отвечаем"],
       "promptLanguage": "el"
     },
     {
@@ -2131,11 +1423,7 @@
       "type": "single-choice",
       "prompt": "απαντάμε",
       "correctAnswer": "отвечаем",
-      "wrongAnswers": [
-        "отвечаю",
-        "отвечаешь",
-        "отвечает"
-      ],
+      "wrongAnswers": ["отвечаю", "отвечаешь", "отвечает"],
       "promptLanguage": "el"
     },
     {
@@ -2143,11 +1431,7 @@
       "type": "single-choice",
       "prompt": "απαντάτε",
       "correctAnswer": "отвечаете",
-      "wrongAnswers": [
-        "отвечаю",
-        "отвечаешь",
-        "отвечает"
-      ],
+      "wrongAnswers": ["отвечаю", "отвечаешь", "отвечает"],
       "promptLanguage": "el"
     },
     {
@@ -2155,11 +1439,7 @@
       "type": "single-choice",
       "prompt": "απαντάνε",
       "correctAnswer": "отвечают",
-      "wrongAnswers": [
-        "отвечаю",
-        "отвечаешь",
-        "отвечает"
-      ],
+      "wrongAnswers": ["отвечаю", "отвечаешь", "отвечает"],
       "promptLanguage": "el"
     },
     {
@@ -2167,11 +1447,7 @@
       "type": "single-choice",
       "prompt": "περιμένω",
       "correctAnswer": "жду",
-      "wrongAnswers": [
-        "ждёшь",
-        "ждёт",
-        "ждём"
-      ],
+      "wrongAnswers": ["ждёшь", "ждёт", "ждём"],
       "promptLanguage": "el"
     },
     {
@@ -2179,11 +1455,7 @@
       "type": "single-choice",
       "prompt": "περιμένεις",
       "correctAnswer": "ждёшь",
-      "wrongAnswers": [
-        "жду",
-        "ждёт",
-        "ждём"
-      ],
+      "wrongAnswers": ["жду", "ждёт", "ждём"],
       "promptLanguage": "el"
     },
     {
@@ -2191,11 +1463,7 @@
       "type": "single-choice",
       "prompt": "περιμένει",
       "correctAnswer": "ждёт",
-      "wrongAnswers": [
-        "жду",
-        "ждёшь",
-        "ждём"
-      ],
+      "wrongAnswers": ["жду", "ждёшь", "ждём"],
       "promptLanguage": "el"
     },
     {
@@ -2203,11 +1471,7 @@
       "type": "single-choice",
       "prompt": "περιμένουμε",
       "correctAnswer": "ждём",
-      "wrongAnswers": [
-        "жду",
-        "ждёшь",
-        "ждёт"
-      ],
+      "wrongAnswers": ["жду", "ждёшь", "ждёт"],
       "promptLanguage": "el"
     },
     {
@@ -2215,11 +1479,7 @@
       "type": "single-choice",
       "prompt": "περιμένετε",
       "correctAnswer": "ждёте",
-      "wrongAnswers": [
-        "жду",
-        "ждёшь",
-        "ждёт"
-      ],
+      "wrongAnswers": ["жду", "ждёшь", "ждёт"],
       "promptLanguage": "el"
     },
     {
@@ -2227,11 +1487,7 @@
       "type": "single-choice",
       "prompt": "περιμένουν",
       "correctAnswer": "ждут",
-      "wrongAnswers": [
-        "жду",
-        "ждёшь",
-        "ждёт"
-      ],
+      "wrongAnswers": ["жду", "ждёшь", "ждёт"],
       "promptLanguage": "el"
     },
     {
@@ -2239,11 +1495,7 @@
       "type": "single-choice",
       "prompt": "παίρνω",
       "correctAnswer": "беру",
-      "wrongAnswers": [
-        "берёшь",
-        "берёт",
-        "берём"
-      ],
+      "wrongAnswers": ["берёшь", "берёт", "берём"],
       "promptLanguage": "el"
     },
     {
@@ -2251,11 +1503,7 @@
       "type": "single-choice",
       "prompt": "παίρνεις",
       "correctAnswer": "берёшь",
-      "wrongAnswers": [
-        "беру",
-        "берёт",
-        "берём"
-      ],
+      "wrongAnswers": ["беру", "берёт", "берём"],
       "promptLanguage": "el"
     },
     {
@@ -2263,11 +1511,7 @@
       "type": "single-choice",
       "prompt": "παίρνει",
       "correctAnswer": "берёт",
-      "wrongAnswers": [
-        "беру",
-        "берёшь",
-        "берём"
-      ],
+      "wrongAnswers": ["беру", "берёшь", "берём"],
       "promptLanguage": "el"
     },
     {
@@ -2275,11 +1519,7 @@
       "type": "single-choice",
       "prompt": "παίρνουμε",
       "correctAnswer": "берём",
-      "wrongAnswers": [
-        "беру",
-        "берёшь",
-        "берёт"
-      ],
+      "wrongAnswers": ["беру", "берёшь", "берёт"],
       "promptLanguage": "el"
     },
     {
@@ -2287,11 +1527,7 @@
       "type": "single-choice",
       "prompt": "παίρνετε",
       "correctAnswer": "берёте",
-      "wrongAnswers": [
-        "беру",
-        "берёшь",
-        "берёт"
-      ],
+      "wrongAnswers": ["беру", "берёшь", "берёт"],
       "promptLanguage": "el"
     },
     {
@@ -2299,11 +1535,7 @@
       "type": "single-choice",
       "prompt": "παίρνουν",
       "correctAnswer": "берут",
-      "wrongAnswers": [
-        "беру",
-        "берёшь",
-        "берёт"
-      ],
+      "wrongAnswers": ["беру", "берёшь", "берёт"],
       "promptLanguage": "el"
     },
     {
@@ -2311,11 +1543,7 @@
       "type": "single-choice",
       "prompt": "παίρνω",
       "correctAnswer": "получаю",
-      "wrongAnswers": [
-        "получаешь",
-        "получает",
-        "получаем"
-      ],
+      "wrongAnswers": ["получаешь", "получает", "получаем"],
       "promptLanguage": "el"
     },
     {
@@ -2323,11 +1551,7 @@
       "type": "single-choice",
       "prompt": "παίρνεις",
       "correctAnswer": "получаешь",
-      "wrongAnswers": [
-        "получаю",
-        "получает",
-        "получаем"
-      ],
+      "wrongAnswers": ["получаю", "получает", "получаем"],
       "promptLanguage": "el"
     },
     {
@@ -2335,11 +1559,7 @@
       "type": "single-choice",
       "prompt": "παίρνει",
       "correctAnswer": "получает",
-      "wrongAnswers": [
-        "получаю",
-        "получаешь",
-        "получаем"
-      ],
+      "wrongAnswers": ["получаю", "получаешь", "получаем"],
       "promptLanguage": "el"
     },
     {
@@ -2347,11 +1567,7 @@
       "type": "single-choice",
       "prompt": "παίρνουμε",
       "correctAnswer": "получаем",
-      "wrongAnswers": [
-        "получаю",
-        "получаешь",
-        "получает"
-      ],
+      "wrongAnswers": ["получаю", "получаешь", "получает"],
       "promptLanguage": "el"
     },
     {
@@ -2359,11 +1575,7 @@
       "type": "single-choice",
       "prompt": "παίρνετε",
       "correctAnswer": "получаете",
-      "wrongAnswers": [
-        "получаю",
-        "получаешь",
-        "получает"
-      ],
+      "wrongAnswers": ["получаю", "получаешь", "получает"],
       "promptLanguage": "el"
     },
     {
@@ -2371,11 +1583,7 @@
       "type": "single-choice",
       "prompt": "παίρνουν",
       "correctAnswer": "получают",
-      "wrongAnswers": [
-        "получаю",
-        "получаешь",
-        "получает"
-      ],
+      "wrongAnswers": ["получаю", "получаешь", "получает"],
       "promptLanguage": "el"
     },
     {
@@ -2383,11 +1591,7 @@
       "type": "single-choice",
       "prompt": "δίνω",
       "correctAnswer": "даю",
-      "wrongAnswers": [
-        "даёшь",
-        "даёт",
-        "даём"
-      ],
+      "wrongAnswers": ["даёшь", "даёт", "даём"],
       "promptLanguage": "el"
     },
     {
@@ -2395,11 +1599,7 @@
       "type": "single-choice",
       "prompt": "δίνεις",
       "correctAnswer": "даёшь",
-      "wrongAnswers": [
-        "даю",
-        "даёт",
-        "даём"
-      ],
+      "wrongAnswers": ["даю", "даёт", "даём"],
       "promptLanguage": "el"
     },
     {
@@ -2407,11 +1607,7 @@
       "type": "single-choice",
       "prompt": "δίνει",
       "correctAnswer": "даёт",
-      "wrongAnswers": [
-        "даю",
-        "даёшь",
-        "даём"
-      ],
+      "wrongAnswers": ["даю", "даёшь", "даём"],
       "promptLanguage": "el"
     },
     {
@@ -2419,11 +1615,7 @@
       "type": "single-choice",
       "prompt": "δίνουμε",
       "correctAnswer": "даём",
-      "wrongAnswers": [
-        "даю",
-        "даёшь",
-        "даёт"
-      ],
+      "wrongAnswers": ["даю", "даёшь", "даёт"],
       "promptLanguage": "el"
     },
     {
@@ -2431,11 +1623,7 @@
       "type": "single-choice",
       "prompt": "δίνετε",
       "correctAnswer": "даёте",
-      "wrongAnswers": [
-        "даю",
-        "даёшь",
-        "даёт"
-      ],
+      "wrongAnswers": ["даю", "даёшь", "даёт"],
       "promptLanguage": "el"
     },
     {
@@ -2443,11 +1631,7 @@
       "type": "single-choice",
       "prompt": "δίνουν",
       "correctAnswer": "дают",
-      "wrongAnswers": [
-        "даю",
-        "даёшь",
-        "даёт"
-      ],
+      "wrongAnswers": ["даю", "даёшь", "даёт"],
       "promptLanguage": "el"
     },
     {
@@ -2455,11 +1639,7 @@
       "type": "single-choice",
       "prompt": "βρίσκω",
       "correctAnswer": "нахожу",
-      "wrongAnswers": [
-        "находишь",
-        "находит",
-        "находим"
-      ],
+      "wrongAnswers": ["находишь", "находит", "находим"],
       "promptLanguage": "el"
     },
     {
@@ -2467,11 +1647,7 @@
       "type": "single-choice",
       "prompt": "βρίσκεις",
       "correctAnswer": "находишь",
-      "wrongAnswers": [
-        "нахожу",
-        "находит",
-        "находим"
-      ],
+      "wrongAnswers": ["нахожу", "находит", "находим"],
       "promptLanguage": "el"
     },
     {
@@ -2479,11 +1655,7 @@
       "type": "single-choice",
       "prompt": "βρίσκει",
       "correctAnswer": "находит",
-      "wrongAnswers": [
-        "нахожу",
-        "находишь",
-        "находим"
-      ],
+      "wrongAnswers": ["нахожу", "находишь", "находим"],
       "promptLanguage": "el"
     },
     {
@@ -2491,11 +1663,7 @@
       "type": "single-choice",
       "prompt": "βρίσκουμε",
       "correctAnswer": "находим",
-      "wrongAnswers": [
-        "нахожу",
-        "находишь",
-        "находит"
-      ],
+      "wrongAnswers": ["нахожу", "находишь", "находит"],
       "promptLanguage": "el"
     },
     {
@@ -2503,11 +1671,7 @@
       "type": "single-choice",
       "prompt": "βρίσκετε",
       "correctAnswer": "находите",
-      "wrongAnswers": [
-        "нахожу",
-        "находишь",
-        "находит"
-      ],
+      "wrongAnswers": ["нахожу", "находишь", "находит"],
       "promptLanguage": "el"
     },
     {
@@ -2515,11 +1679,7 @@
       "type": "single-choice",
       "prompt": "βρίσκουν",
       "correctAnswer": "находят",
-      "wrongAnswers": [
-        "нахожу",
-        "находишь",
-        "находит"
-      ],
+      "wrongAnswers": ["нахожу", "находишь", "находит"],
       "promptLanguage": "el"
     },
     {
@@ -2527,11 +1687,7 @@
       "type": "single-choice",
       "prompt": "χάνω",
       "correctAnswer": "теряю",
-      "wrongAnswers": [
-        "теряешь",
-        "теряет",
-        "теряем"
-      ],
+      "wrongAnswers": ["теряешь", "теряет", "теряем"],
       "promptLanguage": "el"
     },
     {
@@ -2539,11 +1695,7 @@
       "type": "single-choice",
       "prompt": "χάνεις",
       "correctAnswer": "теряешь",
-      "wrongAnswers": [
-        "теряю",
-        "теряет",
-        "теряем"
-      ],
+      "wrongAnswers": ["теряю", "теряет", "теряем"],
       "promptLanguage": "el"
     },
     {
@@ -2551,11 +1703,7 @@
       "type": "single-choice",
       "prompt": "χάνει",
       "correctAnswer": "теряет",
-      "wrongAnswers": [
-        "теряю",
-        "теряешь",
-        "теряем"
-      ],
+      "wrongAnswers": ["теряю", "теряешь", "теряем"],
       "promptLanguage": "el"
     },
     {
@@ -2563,11 +1711,7 @@
       "type": "single-choice",
       "prompt": "χάνουμε",
       "correctAnswer": "теряем",
-      "wrongAnswers": [
-        "теряю",
-        "теряешь",
-        "теряет"
-      ],
+      "wrongAnswers": ["теряю", "теряешь", "теряет"],
       "promptLanguage": "el"
     },
     {
@@ -2575,11 +1719,7 @@
       "type": "single-choice",
       "prompt": "χάνετε",
       "correctAnswer": "теряете",
-      "wrongAnswers": [
-        "теряю",
-        "теряешь",
-        "теряет"
-      ],
+      "wrongAnswers": ["теряю", "теряешь", "теряет"],
       "promptLanguage": "el"
     },
     {
@@ -2587,11 +1727,7 @@
       "type": "single-choice",
       "prompt": "χάνουν",
       "correctAnswer": "теряют",
-      "wrongAnswers": [
-        "теряю",
-        "теряешь",
-        "теряет"
-      ],
+      "wrongAnswers": ["теряю", "теряешь", "теряет"],
       "promptLanguage": "el"
     },
     {
@@ -2599,11 +1735,7 @@
       "type": "single-choice",
       "prompt": "ψάχνω",
       "correctAnswer": "ищу",
-      "wrongAnswers": [
-        "ищешь",
-        "ищет",
-        "ищем"
-      ],
+      "wrongAnswers": ["ищешь", "ищет", "ищем"],
       "promptLanguage": "el"
     },
     {
@@ -2611,11 +1743,7 @@
       "type": "single-choice",
       "prompt": "ψάχνεις",
       "correctAnswer": "ищешь",
-      "wrongAnswers": [
-        "ищу",
-        "ищет",
-        "ищем"
-      ],
+      "wrongAnswers": ["ищу", "ищет", "ищем"],
       "promptLanguage": "el"
     },
     {
@@ -2623,11 +1751,7 @@
       "type": "single-choice",
       "prompt": "ψάχνει",
       "correctAnswer": "ищет",
-      "wrongAnswers": [
-        "ищу",
-        "ищешь",
-        "ищем"
-      ],
+      "wrongAnswers": ["ищу", "ищешь", "ищем"],
       "promptLanguage": "el"
     },
     {
@@ -2635,11 +1759,7 @@
       "type": "single-choice",
       "prompt": "ψάχνουμε",
       "correctAnswer": "ищем",
-      "wrongAnswers": [
-        "ищу",
-        "ищешь",
-        "ищет"
-      ],
+      "wrongAnswers": ["ищу", "ищешь", "ищет"],
       "promptLanguage": "el"
     },
     {
@@ -2647,11 +1767,7 @@
       "type": "single-choice",
       "prompt": "ψάχνετε",
       "correctAnswer": "ищете",
-      "wrongAnswers": [
-        "ищу",
-        "ищешь",
-        "ищет"
-      ],
+      "wrongAnswers": ["ищу", "ищешь", "ищет"],
       "promptLanguage": "el"
     },
     {
@@ -2659,11 +1775,7 @@
       "type": "single-choice",
       "prompt": "ψάχνουν",
       "correctAnswer": "ищут",
-      "wrongAnswers": [
-        "ищу",
-        "ищешь",
-        "ищет"
-      ],
+      "wrongAnswers": ["ищу", "ищешь", "ищет"],
       "promptLanguage": "el"
     },
     {
@@ -2671,11 +1783,7 @@
       "type": "single-choice",
       "prompt": "αγοράζω",
       "correctAnswer": "покупаю",
-      "wrongAnswers": [
-        "покупаешь",
-        "покупает",
-        "покупаем"
-      ],
+      "wrongAnswers": ["покупаешь", "покупает", "покупаем"],
       "promptLanguage": "el"
     },
     {
@@ -2683,11 +1791,7 @@
       "type": "single-choice",
       "prompt": "αγοράζεις",
       "correctAnswer": "покупаешь",
-      "wrongAnswers": [
-        "покупаю",
-        "покупает",
-        "покупаем"
-      ],
+      "wrongAnswers": ["покупаю", "покупает", "покупаем"],
       "promptLanguage": "el"
     },
     {
@@ -2695,11 +1799,7 @@
       "type": "single-choice",
       "prompt": "αγοράζει",
       "correctAnswer": "покупает",
-      "wrongAnswers": [
-        "покупаю",
-        "покупаешь",
-        "покупаем"
-      ],
+      "wrongAnswers": ["покупаю", "покупаешь", "покупаем"],
       "promptLanguage": "el"
     },
     {
@@ -2707,11 +1807,7 @@
       "type": "single-choice",
       "prompt": "αγοράζουμε",
       "correctAnswer": "покупаем",
-      "wrongAnswers": [
-        "покупаю",
-        "покупаешь",
-        "покупает"
-      ],
+      "wrongAnswers": ["покупаю", "покупаешь", "покупает"],
       "promptLanguage": "el"
     },
     {
@@ -2719,11 +1815,7 @@
       "type": "single-choice",
       "prompt": "αγοράζετε",
       "correctAnswer": "покупаете",
-      "wrongAnswers": [
-        "покупаю",
-        "покупаешь",
-        "покупает"
-      ],
+      "wrongAnswers": ["покупаю", "покупаешь", "покупает"],
       "promptLanguage": "el"
     },
     {
@@ -2731,11 +1823,7 @@
       "type": "single-choice",
       "prompt": "αγοράζουν",
       "correctAnswer": "покупают",
-      "wrongAnswers": [
-        "покупаю",
-        "покупаешь",
-        "покупает"
-      ],
+      "wrongAnswers": ["покупаю", "покупаешь", "покупает"],
       "promptLanguage": "el"
     },
     {
@@ -2743,11 +1831,7 @@
       "type": "single-choice",
       "prompt": "πουλάω",
       "correctAnswer": "продаю",
-      "wrongAnswers": [
-        "продаёшь",
-        "продаёт",
-        "продаём"
-      ],
+      "wrongAnswers": ["продаёшь", "продаёт", "продаём"],
       "promptLanguage": "el"
     },
     {
@@ -2755,11 +1839,7 @@
       "type": "single-choice",
       "prompt": "πουλάς",
       "correctAnswer": "продаёшь",
-      "wrongAnswers": [
-        "продаю",
-        "продаёт",
-        "продаём"
-      ],
+      "wrongAnswers": ["продаю", "продаёт", "продаём"],
       "promptLanguage": "el"
     },
     {
@@ -2767,11 +1847,7 @@
       "type": "single-choice",
       "prompt": "πουλάει",
       "correctAnswer": "продаёт",
-      "wrongAnswers": [
-        "продаю",
-        "продаёшь",
-        "продаём"
-      ],
+      "wrongAnswers": ["продаю", "продаёшь", "продаём"],
       "promptLanguage": "el"
     },
     {
@@ -2779,11 +1855,7 @@
       "type": "single-choice",
       "prompt": "πουλάμε",
       "correctAnswer": "продаём",
-      "wrongAnswers": [
-        "продаю",
-        "продаёшь",
-        "продаёт"
-      ],
+      "wrongAnswers": ["продаю", "продаёшь", "продаёт"],
       "promptLanguage": "el"
     },
     {
@@ -2791,11 +1863,7 @@
       "type": "single-choice",
       "prompt": "πουλάτε",
       "correctAnswer": "продаёте",
-      "wrongAnswers": [
-        "продаю",
-        "продаёшь",
-        "продаёт"
-      ],
+      "wrongAnswers": ["продаю", "продаёшь", "продаёт"],
       "promptLanguage": "el"
     },
     {
@@ -2803,11 +1871,7 @@
       "type": "single-choice",
       "prompt": "πουλάνε",
       "correctAnswer": "продают",
-      "wrongAnswers": [
-        "продаю",
-        "продаёшь",
-        "продаёт"
-      ],
+      "wrongAnswers": ["продаю", "продаёшь", "продаёт"],
       "promptLanguage": "el"
     },
     {
@@ -2815,11 +1879,7 @@
       "type": "single-choice",
       "prompt": "πληρώνω",
       "correctAnswer": "плачу",
-      "wrongAnswers": [
-        "платишь",
-        "платит",
-        "платим"
-      ],
+      "wrongAnswers": ["платишь", "платит", "платим"],
       "promptLanguage": "el"
     },
     {
@@ -2827,11 +1887,7 @@
       "type": "single-choice",
       "prompt": "πληρώνεις",
       "correctAnswer": "платишь",
-      "wrongAnswers": [
-        "плачу",
-        "платит",
-        "платим"
-      ],
+      "wrongAnswers": ["плачу", "платит", "платим"],
       "promptLanguage": "el"
     },
     {
@@ -2839,11 +1895,7 @@
       "type": "single-choice",
       "prompt": "πληρώνει",
       "correctAnswer": "платит",
-      "wrongAnswers": [
-        "плачу",
-        "платишь",
-        "платим"
-      ],
+      "wrongAnswers": ["плачу", "платишь", "платим"],
       "promptLanguage": "el"
     },
     {
@@ -2851,11 +1903,7 @@
       "type": "single-choice",
       "prompt": "πληρώνουμε",
       "correctAnswer": "платим",
-      "wrongAnswers": [
-        "плачу",
-        "платишь",
-        "платит"
-      ],
+      "wrongAnswers": ["плачу", "платишь", "платит"],
       "promptLanguage": "el"
     },
     {
@@ -2863,11 +1911,7 @@
       "type": "single-choice",
       "prompt": "πληρώνετε",
       "correctAnswer": "платите",
-      "wrongAnswers": [
-        "плачу",
-        "платишь",
-        "платит"
-      ],
+      "wrongAnswers": ["плачу", "платишь", "платит"],
       "promptLanguage": "el"
     },
     {
@@ -2875,11 +1919,7 @@
       "type": "single-choice",
       "prompt": "πληρώνουν",
       "correctAnswer": "платят",
-      "wrongAnswers": [
-        "плачу",
-        "платишь",
-        "платит"
-      ],
+      "wrongAnswers": ["плачу", "платишь", "платит"],
       "promptLanguage": "el"
     },
     {
@@ -2887,11 +1927,7 @@
       "type": "single-choice",
       "prompt": "ανοίγω",
       "correctAnswer": "открываю",
-      "wrongAnswers": [
-        "открываешь",
-        "открывает",
-        "открываем"
-      ],
+      "wrongAnswers": ["открываешь", "открывает", "открываем"],
       "promptLanguage": "el"
     },
     {
@@ -2899,11 +1935,7 @@
       "type": "single-choice",
       "prompt": "ανοίγεις",
       "correctAnswer": "открываешь",
-      "wrongAnswers": [
-        "открываю",
-        "открывает",
-        "открываем"
-      ],
+      "wrongAnswers": ["открываю", "открывает", "открываем"],
       "promptLanguage": "el"
     },
     {
@@ -2911,11 +1943,7 @@
       "type": "single-choice",
       "prompt": "ανοίγει",
       "correctAnswer": "открывает",
-      "wrongAnswers": [
-        "открываю",
-        "открываешь",
-        "открываем"
-      ],
+      "wrongAnswers": ["открываю", "открываешь", "открываем"],
       "promptLanguage": "el"
     },
     {
@@ -2923,11 +1951,7 @@
       "type": "single-choice",
       "prompt": "ανοίγουμε",
       "correctAnswer": "открываем",
-      "wrongAnswers": [
-        "открываю",
-        "открываешь",
-        "открывает"
-      ],
+      "wrongAnswers": ["открываю", "открываешь", "открывает"],
       "promptLanguage": "el"
     },
     {
@@ -2935,11 +1959,7 @@
       "type": "single-choice",
       "prompt": "ανοίγετε",
       "correctAnswer": "открываете",
-      "wrongAnswers": [
-        "открываю",
-        "открываешь",
-        "открывает"
-      ],
+      "wrongAnswers": ["открываю", "открываешь", "открывает"],
       "promptLanguage": "el"
     },
     {
@@ -2947,11 +1967,7 @@
       "type": "single-choice",
       "prompt": "ανοίγουν",
       "correctAnswer": "открывают",
-      "wrongAnswers": [
-        "открываю",
-        "открываешь",
-        "открывает"
-      ],
+      "wrongAnswers": ["открываю", "открываешь", "открывает"],
       "promptLanguage": "el"
     },
     {
@@ -2959,11 +1975,7 @@
       "type": "single-choice",
       "prompt": "κλείνω",
       "correctAnswer": "закрываю",
-      "wrongAnswers": [
-        "закрываешь",
-        "закрывает",
-        "закрываем"
-      ],
+      "wrongAnswers": ["закрываешь", "закрывает", "закрываем"],
       "promptLanguage": "el"
     },
     {
@@ -2971,11 +1983,7 @@
       "type": "single-choice",
       "prompt": "κλείνεις",
       "correctAnswer": "закрываешь",
-      "wrongAnswers": [
-        "закрываю",
-        "закрывает",
-        "закрываем"
-      ],
+      "wrongAnswers": ["закрываю", "закрывает", "закрываем"],
       "promptLanguage": "el"
     },
     {
@@ -2983,11 +1991,7 @@
       "type": "single-choice",
       "prompt": "κλείνει",
       "correctAnswer": "закрывает",
-      "wrongAnswers": [
-        "закрываю",
-        "закрываешь",
-        "закрываем"
-      ],
+      "wrongAnswers": ["закрываю", "закрываешь", "закрываем"],
       "promptLanguage": "el"
     },
     {
@@ -2995,11 +1999,7 @@
       "type": "single-choice",
       "prompt": "κλείνουμε",
       "correctAnswer": "закрываем",
-      "wrongAnswers": [
-        "закрываю",
-        "закрываешь",
-        "закрывает"
-      ],
+      "wrongAnswers": ["закрываю", "закрываешь", "закрывает"],
       "promptLanguage": "el"
     },
     {
@@ -3007,11 +2007,7 @@
       "type": "single-choice",
       "prompt": "κλείνετε",
       "correctAnswer": "закрываете",
-      "wrongAnswers": [
-        "закрываю",
-        "закрываешь",
-        "закрывает"
-      ],
+      "wrongAnswers": ["закрываю", "закрываешь", "закрывает"],
       "promptLanguage": "el"
     },
     {
@@ -3019,11 +2015,7 @@
       "type": "single-choice",
       "prompt": "κλείνουν",
       "correctAnswer": "закрывают",
-      "wrongAnswers": [
-        "закрываю",
-        "закрываешь",
-        "закрывает"
-      ],
+      "wrongAnswers": ["закрываю", "закрываешь", "закрывает"],
       "promptLanguage": "el"
     },
     {
@@ -3031,11 +2023,7 @@
       "type": "single-choice",
       "prompt": "μπαίνω",
       "correctAnswer": "вхожу",
-      "wrongAnswers": [
-        "входишь",
-        "входит",
-        "входим"
-      ],
+      "wrongAnswers": ["входишь", "входит", "входим"],
       "promptLanguage": "el"
     },
     {
@@ -3043,11 +2031,7 @@
       "type": "single-choice",
       "prompt": "μπαίνεις",
       "correctAnswer": "входишь",
-      "wrongAnswers": [
-        "вхожу",
-        "входит",
-        "входим"
-      ],
+      "wrongAnswers": ["вхожу", "входит", "входим"],
       "promptLanguage": "el"
     },
     {
@@ -3055,11 +2039,7 @@
       "type": "single-choice",
       "prompt": "μπαίνει",
       "correctAnswer": "входит",
-      "wrongAnswers": [
-        "вхожу",
-        "входишь",
-        "входим"
-      ],
+      "wrongAnswers": ["вхожу", "входишь", "входим"],
       "promptLanguage": "el"
     },
     {
@@ -3067,11 +2047,7 @@
       "type": "single-choice",
       "prompt": "μπαίνουμε",
       "correctAnswer": "входим",
-      "wrongAnswers": [
-        "вхожу",
-        "входишь",
-        "входит"
-      ],
+      "wrongAnswers": ["вхожу", "входишь", "входит"],
       "promptLanguage": "el"
     },
     {
@@ -3079,11 +2055,7 @@
       "type": "single-choice",
       "prompt": "μπαίνετε",
       "correctAnswer": "входите",
-      "wrongAnswers": [
-        "вхожу",
-        "входишь",
-        "входит"
-      ],
+      "wrongAnswers": ["вхожу", "входишь", "входит"],
       "promptLanguage": "el"
     },
     {
@@ -3091,11 +2063,7 @@
       "type": "single-choice",
       "prompt": "μπαίνουν",
       "correctAnswer": "входят",
-      "wrongAnswers": [
-        "вхожу",
-        "входишь",
-        "входит"
-      ],
+      "wrongAnswers": ["вхожу", "входишь", "входит"],
       "promptLanguage": "el"
     },
     {
@@ -3103,11 +2071,7 @@
       "type": "single-choice",
       "prompt": "βγαίνω",
       "correctAnswer": "выхожу",
-      "wrongAnswers": [
-        "выходишь",
-        "выходит",
-        "выходим"
-      ],
+      "wrongAnswers": ["выходишь", "выходит", "выходим"],
       "promptLanguage": "el"
     },
     {
@@ -3115,11 +2079,7 @@
       "type": "single-choice",
       "prompt": "βγαίνεις",
       "correctAnswer": "выходишь",
-      "wrongAnswers": [
-        "выхожу",
-        "выходит",
-        "выходим"
-      ],
+      "wrongAnswers": ["выхожу", "выходит", "выходим"],
       "promptLanguage": "el"
     },
     {
@@ -3127,11 +2087,7 @@
       "type": "single-choice",
       "prompt": "βγαίνει",
       "correctAnswer": "выходит",
-      "wrongAnswers": [
-        "выхожу",
-        "выходишь",
-        "выходим"
-      ],
+      "wrongAnswers": ["выхожу", "выходишь", "выходим"],
       "promptLanguage": "el"
     },
     {
@@ -3139,11 +2095,7 @@
       "type": "single-choice",
       "prompt": "βγαίνουμε",
       "correctAnswer": "выходим",
-      "wrongAnswers": [
-        "выхожу",
-        "выходишь",
-        "выходит"
-      ],
+      "wrongAnswers": ["выхожу", "выходишь", "выходит"],
       "promptLanguage": "el"
     },
     {
@@ -3151,11 +2103,7 @@
       "type": "single-choice",
       "prompt": "βγαίνετε",
       "correctAnswer": "выходите",
-      "wrongAnswers": [
-        "выхожу",
-        "выходишь",
-        "выходит"
-      ],
+      "wrongAnswers": ["выхожу", "выходишь", "выходит"],
       "promptLanguage": "el"
     },
     {
@@ -3163,11 +2111,7 @@
       "type": "single-choice",
       "prompt": "βγαίνουν",
       "correctAnswer": "выходят",
-      "wrongAnswers": [
-        "выхожу",
-        "выходишь",
-        "выходит"
-      ],
+      "wrongAnswers": ["выхожу", "выходишь", "выходит"],
       "promptLanguage": "el"
     },
     {
@@ -3175,11 +2119,7 @@
       "type": "single-choice",
       "prompt": "ανεβαίνω",
       "correctAnswer": "поднимаюсь",
-      "wrongAnswers": [
-        "поднимаешься",
-        "поднимается",
-        "поднимаемся"
-      ],
+      "wrongAnswers": ["поднимаешься", "поднимается", "поднимаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3187,11 +2127,7 @@
       "type": "single-choice",
       "prompt": "ανεβαίνεις",
       "correctAnswer": "поднимаешься",
-      "wrongAnswers": [
-        "поднимаюсь",
-        "поднимается",
-        "поднимаемся"
-      ],
+      "wrongAnswers": ["поднимаюсь", "поднимается", "поднимаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3199,11 +2135,7 @@
       "type": "single-choice",
       "prompt": "ανεβαίνει",
       "correctAnswer": "поднимается",
-      "wrongAnswers": [
-        "поднимаюсь",
-        "поднимаешься",
-        "поднимаемся"
-      ],
+      "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3211,11 +2143,7 @@
       "type": "single-choice",
       "prompt": "ανεβαίνουμε",
       "correctAnswer": "поднимаемся",
-      "wrongAnswers": [
-        "поднимаюсь",
-        "поднимаешься",
-        "поднимается"
-      ],
+      "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимается"],
       "promptLanguage": "el"
     },
     {
@@ -3223,11 +2151,7 @@
       "type": "single-choice",
       "prompt": "ανεβαίνετε",
       "correctAnswer": "поднимаетесь",
-      "wrongAnswers": [
-        "поднимаюсь",
-        "поднимаешься",
-        "поднимается"
-      ],
+      "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимается"],
       "promptLanguage": "el"
     },
     {
@@ -3235,11 +2159,7 @@
       "type": "single-choice",
       "prompt": "ανεβαίνουν",
       "correctAnswer": "поднимаются",
-      "wrongAnswers": [
-        "поднимаюсь",
-        "поднимаешься",
-        "поднимается"
-      ],
+      "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимается"],
       "promptLanguage": "el"
     },
     {
@@ -3247,11 +2167,7 @@
       "type": "single-choice",
       "prompt": "κατεβαίνω",
       "correctAnswer": "спускаюсь",
-      "wrongAnswers": [
-        "спускаешься",
-        "спускается",
-        "спускаемся"
-      ],
+      "wrongAnswers": ["спускаешься", "спускается", "спускаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3259,11 +2175,7 @@
       "type": "single-choice",
       "prompt": "κατεβαίνεις",
       "correctAnswer": "спускаешься",
-      "wrongAnswers": [
-        "спускаюсь",
-        "спускается",
-        "спускаемся"
-      ],
+      "wrongAnswers": ["спускаюсь", "спускается", "спускаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3271,11 +2183,7 @@
       "type": "single-choice",
       "prompt": "κατεβαίνει",
       "correctAnswer": "спускается",
-      "wrongAnswers": [
-        "спускаюсь",
-        "спускаешься",
-        "спускаемся"
-      ],
+      "wrongAnswers": ["спускаюсь", "спускаешься", "спускаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3283,11 +2191,7 @@
       "type": "single-choice",
       "prompt": "κατεβαίνουμε",
       "correctAnswer": "спускаемся",
-      "wrongAnswers": [
-        "спускаюсь",
-        "спускаешься",
-        "спускается"
-      ],
+      "wrongAnswers": ["спускаюсь", "спускаешься", "спускается"],
       "promptLanguage": "el"
     },
     {
@@ -3295,11 +2199,7 @@
       "type": "single-choice",
       "prompt": "κατεβαίνετε",
       "correctAnswer": "спускаетесь",
-      "wrongAnswers": [
-        "спускаюсь",
-        "спускаешься",
-        "спускается"
-      ],
+      "wrongAnswers": ["спускаюсь", "спускаешься", "спускается"],
       "promptLanguage": "el"
     },
     {
@@ -3307,11 +2207,7 @@
       "type": "single-choice",
       "prompt": "κατεβαίνουν",
       "correctAnswer": "спускаются",
-      "wrongAnswers": [
-        "спускаюсь",
-        "спускаешься",
-        "спускается"
-      ],
+      "wrongAnswers": ["спускаюсь", "спускаешься", "спускается"],
       "promptLanguage": "el"
     },
     {
@@ -3319,11 +2215,7 @@
       "type": "single-choice",
       "prompt": "κάθομαι",
       "correctAnswer": "сижу",
-      "wrongAnswers": [
-        "сидишь",
-        "сидит",
-        "сидим"
-      ],
+      "wrongAnswers": ["сидишь", "сидит", "сидим"],
       "promptLanguage": "el"
     },
     {
@@ -3331,11 +2223,7 @@
       "type": "single-choice",
       "prompt": "κάθεσαι",
       "correctAnswer": "сидишь",
-      "wrongAnswers": [
-        "сижу",
-        "сидит",
-        "сидим"
-      ],
+      "wrongAnswers": ["сижу", "сидит", "сидим"],
       "promptLanguage": "el"
     },
     {
@@ -3343,11 +2231,7 @@
       "type": "single-choice",
       "prompt": "κάθεται",
       "correctAnswer": "сидит",
-      "wrongAnswers": [
-        "сижу",
-        "сидишь",
-        "сидим"
-      ],
+      "wrongAnswers": ["сижу", "сидишь", "сидим"],
       "promptLanguage": "el"
     },
     {
@@ -3355,11 +2239,7 @@
       "type": "single-choice",
       "prompt": "καθόμαστε",
       "correctAnswer": "сидим",
-      "wrongAnswers": [
-        "сижу",
-        "сидишь",
-        "сидит"
-      ],
+      "wrongAnswers": ["сижу", "сидишь", "сидит"],
       "promptLanguage": "el"
     },
     {
@@ -3367,11 +2247,7 @@
       "type": "single-choice",
       "prompt": "κάθεστε",
       "correctAnswer": "сидите",
-      "wrongAnswers": [
-        "сижу",
-        "сидишь",
-        "сидит"
-      ],
+      "wrongAnswers": ["сижу", "сидишь", "сидит"],
       "promptLanguage": "el"
     },
     {
@@ -3379,11 +2255,7 @@
       "type": "single-choice",
       "prompt": "κάθονται",
       "correctAnswer": "сидят",
-      "wrongAnswers": [
-        "сижу",
-        "сидишь",
-        "сидит"
-      ],
+      "wrongAnswers": ["сижу", "сидишь", "сидит"],
       "promptLanguage": "el"
     },
     {
@@ -3391,11 +2263,7 @@
       "type": "single-choice",
       "prompt": "στέκομαι",
       "correctAnswer": "стою",
-      "wrongAnswers": [
-        "стоишь",
-        "стоит",
-        "стоим"
-      ],
+      "wrongAnswers": ["стоишь", "стоит", "стоим"],
       "promptLanguage": "el"
     },
     {
@@ -3403,11 +2271,7 @@
       "type": "single-choice",
       "prompt": "στέκεσαι",
       "correctAnswer": "стоишь",
-      "wrongAnswers": [
-        "стою",
-        "стоит",
-        "стоим"
-      ],
+      "wrongAnswers": ["стою", "стоит", "стоим"],
       "promptLanguage": "el"
     },
     {
@@ -3415,11 +2279,7 @@
       "type": "single-choice",
       "prompt": "στέκεται",
       "correctAnswer": "стоит",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоим"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоим"],
       "promptLanguage": "el"
     },
     {
@@ -3427,11 +2287,7 @@
       "type": "single-choice",
       "prompt": "στεκόμαστε",
       "correctAnswer": "стоим",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоит"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоит"],
       "promptLanguage": "el"
     },
     {
@@ -3439,11 +2295,7 @@
       "type": "single-choice",
       "prompt": "στέκεστε",
       "correctAnswer": "стоите",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоит"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоит"],
       "promptLanguage": "el"
     },
     {
@@ -3451,11 +2303,7 @@
       "type": "single-choice",
       "prompt": "στέκονται",
       "correctAnswer": "стоят",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоит"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоит"],
       "promptLanguage": "el"
     },
     {
@@ -3463,11 +2311,7 @@
       "type": "single-choice",
       "prompt": "κοιμάμαι",
       "correctAnswer": "сплю",
-      "wrongAnswers": [
-        "спишь",
-        "спит",
-        "спим"
-      ],
+      "wrongAnswers": ["спишь", "спит", "спим"],
       "promptLanguage": "el"
     },
     {
@@ -3475,11 +2319,7 @@
       "type": "single-choice",
       "prompt": "κοιμάσαι",
       "correctAnswer": "спишь",
-      "wrongAnswers": [
-        "сплю",
-        "спит",
-        "спим"
-      ],
+      "wrongAnswers": ["сплю", "спит", "спим"],
       "promptLanguage": "el"
     },
     {
@@ -3487,11 +2327,7 @@
       "type": "single-choice",
       "prompt": "κοιμάται",
       "correctAnswer": "спит",
-      "wrongAnswers": [
-        "сплю",
-        "спишь",
-        "спим"
-      ],
+      "wrongAnswers": ["сплю", "спишь", "спим"],
       "promptLanguage": "el"
     },
     {
@@ -3499,11 +2335,7 @@
       "type": "single-choice",
       "prompt": "κοιμόμαστε",
       "correctAnswer": "спим",
-      "wrongAnswers": [
-        "сплю",
-        "спишь",
-        "спит"
-      ],
+      "wrongAnswers": ["сплю", "спишь", "спит"],
       "promptLanguage": "el"
     },
     {
@@ -3511,11 +2343,7 @@
       "type": "single-choice",
       "prompt": "κοιμάστε",
       "correctAnswer": "спите",
-      "wrongAnswers": [
-        "сплю",
-        "спишь",
-        "спит"
-      ],
+      "wrongAnswers": ["сплю", "спишь", "спит"],
       "promptLanguage": "el"
     },
     {
@@ -3523,11 +2351,7 @@
       "type": "single-choice",
       "prompt": "κοιμούνται",
       "correctAnswer": "спят",
-      "wrongAnswers": [
-        "сплю",
-        "спишь",
-        "спит"
-      ],
+      "wrongAnswers": ["сплю", "спишь", "спит"],
       "promptLanguage": "el"
     },
     {
@@ -3535,11 +2359,7 @@
       "type": "single-choice",
       "prompt": "ξυπνάω",
       "correctAnswer": "просыпаюсь",
-      "wrongAnswers": [
-        "просыпаешься",
-        "просыпается",
-        "просыпаемся"
-      ],
+      "wrongAnswers": ["просыпаешься", "просыпается", "просыпаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3547,11 +2367,7 @@
       "type": "single-choice",
       "prompt": "ξυπνάς",
       "correctAnswer": "просыпаешься",
-      "wrongAnswers": [
-        "просыпаюсь",
-        "просыпается",
-        "просыпаемся"
-      ],
+      "wrongAnswers": ["просыпаюсь", "просыпается", "просыпаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3559,11 +2375,7 @@
       "type": "single-choice",
       "prompt": "ξυπνάει",
       "correctAnswer": "просыпается",
-      "wrongAnswers": [
-        "просыпаюсь",
-        "просыпаешься",
-        "просыпаемся"
-      ],
+      "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3571,11 +2383,7 @@
       "type": "single-choice",
       "prompt": "ξυπνάμε",
       "correctAnswer": "просыпаемся",
-      "wrongAnswers": [
-        "просыпаюсь",
-        "просыпаешься",
-        "просыпается"
-      ],
+      "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпается"],
       "promptLanguage": "el"
     },
     {
@@ -3583,11 +2391,7 @@
       "type": "single-choice",
       "prompt": "ξυπνάτε",
       "correctAnswer": "просыпаетесь",
-      "wrongAnswers": [
-        "просыпаюсь",
-        "просыпаешься",
-        "просыпается"
-      ],
+      "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпается"],
       "promptLanguage": "el"
     },
     {
@@ -3595,11 +2399,7 @@
       "type": "single-choice",
       "prompt": "ξυπνάνε",
       "correctAnswer": "просыпаются",
-      "wrongAnswers": [
-        "просыпаюсь",
-        "просыпаешься",
-        "просыпается"
-      ],
+      "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпается"],
       "promptLanguage": "el"
     },
     {
@@ -3607,11 +2407,7 @@
       "type": "single-choice",
       "prompt": "θυμάμαι",
       "correctAnswer": "помню",
-      "wrongAnswers": [
-        "помнишь",
-        "помнит",
-        "помним"
-      ],
+      "wrongAnswers": ["помнишь", "помнит", "помним"],
       "promptLanguage": "el"
     },
     {
@@ -3619,11 +2415,7 @@
       "type": "single-choice",
       "prompt": "θυμάσαι",
       "correctAnswer": "помнишь",
-      "wrongAnswers": [
-        "помню",
-        "помнит",
-        "помним"
-      ],
+      "wrongAnswers": ["помню", "помнит", "помним"],
       "promptLanguage": "el"
     },
     {
@@ -3631,11 +2423,7 @@
       "type": "single-choice",
       "prompt": "θυμάται",
       "correctAnswer": "помнит",
-      "wrongAnswers": [
-        "помню",
-        "помнишь",
-        "помним"
-      ],
+      "wrongAnswers": ["помню", "помнишь", "помним"],
       "promptLanguage": "el"
     },
     {
@@ -3643,11 +2431,7 @@
       "type": "single-choice",
       "prompt": "θυμόμαστε",
       "correctAnswer": "помним",
-      "wrongAnswers": [
-        "помню",
-        "помнишь",
-        "помнит"
-      ],
+      "wrongAnswers": ["помню", "помнишь", "помнит"],
       "promptLanguage": "el"
     },
     {
@@ -3655,11 +2439,7 @@
       "type": "single-choice",
       "prompt": "θυμάστε",
       "correctAnswer": "помните",
-      "wrongAnswers": [
-        "помню",
-        "помнишь",
-        "помнит"
-      ],
+      "wrongAnswers": ["помню", "помнишь", "помнит"],
       "promptLanguage": "el"
     },
     {
@@ -3667,11 +2447,7 @@
       "type": "single-choice",
       "prompt": "θυμούνται",
       "correctAnswer": "помнят",
-      "wrongAnswers": [
-        "помню",
-        "помнишь",
-        "помнит"
-      ],
+      "wrongAnswers": ["помню", "помнишь", "помнит"],
       "promptLanguage": "el"
     },
     {
@@ -3679,11 +2455,7 @@
       "type": "single-choice",
       "prompt": "ξεχνάω",
       "correctAnswer": "забываю",
-      "wrongAnswers": [
-        "забываешь",
-        "забывает",
-        "забываем"
-      ],
+      "wrongAnswers": ["забываешь", "забывает", "забываем"],
       "promptLanguage": "el"
     },
     {
@@ -3691,11 +2463,7 @@
       "type": "single-choice",
       "prompt": "ξεχνάς",
       "correctAnswer": "забываешь",
-      "wrongAnswers": [
-        "забываю",
-        "забывает",
-        "забываем"
-      ],
+      "wrongAnswers": ["забываю", "забывает", "забываем"],
       "promptLanguage": "el"
     },
     {
@@ -3703,11 +2471,7 @@
       "type": "single-choice",
       "prompt": "ξεχνάει",
       "correctAnswer": "забывает",
-      "wrongAnswers": [
-        "забываю",
-        "забываешь",
-        "забываем"
-      ],
+      "wrongAnswers": ["забываю", "забываешь", "забываем"],
       "promptLanguage": "el"
     },
     {
@@ -3715,11 +2479,7 @@
       "type": "single-choice",
       "prompt": "ξεχνάμε",
       "correctAnswer": "забываем",
-      "wrongAnswers": [
-        "забываю",
-        "забываешь",
-        "забывает"
-      ],
+      "wrongAnswers": ["забываю", "забываешь", "забывает"],
       "promptLanguage": "el"
     },
     {
@@ -3727,11 +2487,7 @@
       "type": "single-choice",
       "prompt": "ξεχνάτε",
       "correctAnswer": "забываете",
-      "wrongAnswers": [
-        "забываю",
-        "забываешь",
-        "забывает"
-      ],
+      "wrongAnswers": ["забываю", "забываешь", "забывает"],
       "promptLanguage": "el"
     },
     {
@@ -3739,11 +2495,7 @@
       "type": "single-choice",
       "prompt": "ξεχνάνε",
       "correctAnswer": "забывают",
-      "wrongAnswers": [
-        "забываю",
-        "забываешь",
-        "забывает"
-      ],
+      "wrongAnswers": ["забываю", "забываешь", "забывает"],
       "promptLanguage": "el"
     },
     {
@@ -3751,11 +2503,7 @@
       "type": "single-choice",
       "prompt": "χρειάζομαι",
       "correctAnswer": "нуждаюсь",
-      "wrongAnswers": [
-        "нуждаешься",
-        "нуждается",
-        "нуждаемся"
-      ],
+      "wrongAnswers": ["нуждаешься", "нуждается", "нуждаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3763,11 +2511,7 @@
       "type": "single-choice",
       "prompt": "χρειάζεσαι",
       "correctAnswer": "нуждаешься",
-      "wrongAnswers": [
-        "нуждаюсь",
-        "нуждается",
-        "нуждаемся"
-      ],
+      "wrongAnswers": ["нуждаюсь", "нуждается", "нуждаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3775,11 +2519,7 @@
       "type": "single-choice",
       "prompt": "χρειάζεται",
       "correctAnswer": "нуждается",
-      "wrongAnswers": [
-        "нуждаюсь",
-        "нуждаешься",
-        "нуждаемся"
-      ],
+      "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждаемся"],
       "promptLanguage": "el"
     },
     {
@@ -3787,11 +2527,7 @@
       "type": "single-choice",
       "prompt": "χρειαζόμαστε",
       "correctAnswer": "нуждаемся",
-      "wrongAnswers": [
-        "нуждаюсь",
-        "нуждаешься",
-        "нуждается"
-      ],
+      "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждается"],
       "promptLanguage": "el"
     },
     {
@@ -3799,11 +2535,7 @@
       "type": "single-choice",
       "prompt": "χρειάζεστε",
       "correctAnswer": "нуждаетесь",
-      "wrongAnswers": [
-        "нуждаюсь",
-        "нуждаешься",
-        "нуждается"
-      ],
+      "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждается"],
       "promptLanguage": "el"
     },
     {
@@ -3811,11 +2543,7 @@
       "type": "single-choice",
       "prompt": "χρειάζονται",
       "correctAnswer": "нуждаются",
-      "wrongAnswers": [
-        "нуждаюсь",
-        "нуждаешься",
-        "нуждается"
-      ],
+      "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждается"],
       "promptLanguage": "el"
     },
     {
@@ -3823,11 +2551,7 @@
       "type": "single-choice",
       "prompt": "βοηθάω",
       "correctAnswer": "помогаю",
-      "wrongAnswers": [
-        "помогаешь",
-        "помогает",
-        "помогаем"
-      ],
+      "wrongAnswers": ["помогаешь", "помогает", "помогаем"],
       "promptLanguage": "el"
     },
     {
@@ -3835,11 +2559,7 @@
       "type": "single-choice",
       "prompt": "βοηθάς",
       "correctAnswer": "помогаешь",
-      "wrongAnswers": [
-        "помогаю",
-        "помогает",
-        "помогаем"
-      ],
+      "wrongAnswers": ["помогаю", "помогает", "помогаем"],
       "promptLanguage": "el"
     },
     {
@@ -3847,11 +2567,7 @@
       "type": "single-choice",
       "prompt": "βοηθάει",
       "correctAnswer": "помогает",
-      "wrongAnswers": [
-        "помогаю",
-        "помогаешь",
-        "помогаем"
-      ],
+      "wrongAnswers": ["помогаю", "помогаешь", "помогаем"],
       "promptLanguage": "el"
     },
     {
@@ -3859,11 +2575,7 @@
       "type": "single-choice",
       "prompt": "βοηθάμε",
       "correctAnswer": "помогаем",
-      "wrongAnswers": [
-        "помогаю",
-        "помогаешь",
-        "помогает"
-      ],
+      "wrongAnswers": ["помогаю", "помогаешь", "помогает"],
       "promptLanguage": "el"
     },
     {
@@ -3871,11 +2583,7 @@
       "type": "single-choice",
       "prompt": "βοηθάτε",
       "correctAnswer": "помогаете",
-      "wrongAnswers": [
-        "помогаю",
-        "помогаешь",
-        "помогает"
-      ],
+      "wrongAnswers": ["помогаю", "помогаешь", "помогает"],
       "promptLanguage": "el"
     },
     {
@@ -3883,11 +2591,7 @@
       "type": "single-choice",
       "prompt": "βοηθάνε",
       "correctAnswer": "помогают",
-      "wrongAnswers": [
-        "помогаю",
-        "помогаешь",
-        "помогает"
-      ],
+      "wrongAnswers": ["помогаю", "помогаешь", "помогает"],
       "promptLanguage": "el"
     },
     {
@@ -3895,11 +2599,7 @@
       "type": "single-choice",
       "prompt": "αρέσω",
       "correctAnswer": "нравлюсь",
-      "wrongAnswers": [
-        "нравишься",
-        "нравится",
-        "нравимся"
-      ],
+      "wrongAnswers": ["нравишься", "нравится", "нравимся"],
       "promptLanguage": "el"
     },
     {
@@ -3907,11 +2607,7 @@
       "type": "single-choice",
       "prompt": "αρέσεις",
       "correctAnswer": "нравишься",
-      "wrongAnswers": [
-        "нравлюсь",
-        "нравится",
-        "нравимся"
-      ],
+      "wrongAnswers": ["нравлюсь", "нравится", "нравимся"],
       "promptLanguage": "el"
     },
     {
@@ -3919,11 +2615,7 @@
       "type": "single-choice",
       "prompt": "αρέσει",
       "correctAnswer": "нравится",
-      "wrongAnswers": [
-        "нравлюсь",
-        "нравишься",
-        "нравимся"
-      ],
+      "wrongAnswers": ["нравлюсь", "нравишься", "нравимся"],
       "promptLanguage": "el"
     },
     {
@@ -3931,11 +2623,7 @@
       "type": "single-choice",
       "prompt": "αρέσουμε",
       "correctAnswer": "нравимся",
-      "wrongAnswers": [
-        "нравлюсь",
-        "нравишься",
-        "нравится"
-      ],
+      "wrongAnswers": ["нравлюсь", "нравишься", "нравится"],
       "promptLanguage": "el"
     },
     {
@@ -3943,11 +2631,7 @@
       "type": "single-choice",
       "prompt": "αρέσετε",
       "correctAnswer": "нравитесь",
-      "wrongAnswers": [
-        "нравлюсь",
-        "нравишься",
-        "нравится"
-      ],
+      "wrongAnswers": ["нравлюсь", "нравишься", "нравится"],
       "promptLanguage": "el"
     },
     {
@@ -3955,11 +2639,7 @@
       "type": "single-choice",
       "prompt": "αρέσουν",
       "correctAnswer": "нравятся",
-      "wrongAnswers": [
-        "нравлюсь",
-        "нравишься",
-        "нравится"
-      ],
+      "wrongAnswers": ["нравлюсь", "нравишься", "нравится"],
       "promptLanguage": "el"
     },
     {
@@ -3967,11 +2647,7 @@
       "type": "single-choice",
       "prompt": "αγαπώ",
       "correctAnswer": "люблю",
-      "wrongAnswers": [
-        "любишь",
-        "любит",
-        "любим"
-      ],
+      "wrongAnswers": ["любишь", "любит", "любим"],
       "promptLanguage": "el"
     },
     {
@@ -3979,11 +2655,7 @@
       "type": "single-choice",
       "prompt": "αγαπάς",
       "correctAnswer": "любишь",
-      "wrongAnswers": [
-        "люблю",
-        "любит",
-        "любим"
-      ],
+      "wrongAnswers": ["люблю", "любит", "любим"],
       "promptLanguage": "el"
     },
     {
@@ -3991,11 +2663,7 @@
       "type": "single-choice",
       "prompt": "αγαπάει",
       "correctAnswer": "любит",
-      "wrongAnswers": [
-        "люблю",
-        "любишь",
-        "любим"
-      ],
+      "wrongAnswers": ["люблю", "любишь", "любим"],
       "promptLanguage": "el"
     },
     {
@@ -4003,11 +2671,7 @@
       "type": "single-choice",
       "prompt": "αγαπάμε",
       "correctAnswer": "любим",
-      "wrongAnswers": [
-        "люблю",
-        "любишь",
-        "любит"
-      ],
+      "wrongAnswers": ["люблю", "любишь", "любит"],
       "promptLanguage": "el"
     },
     {
@@ -4015,11 +2679,7 @@
       "type": "single-choice",
       "prompt": "αγαπάτε",
       "correctAnswer": "любите",
-      "wrongAnswers": [
-        "люблю",
-        "любишь",
-        "любит"
-      ],
+      "wrongAnswers": ["люблю", "любишь", "любит"],
       "promptLanguage": "el"
     },
     {
@@ -4027,11 +2687,7 @@
       "type": "single-choice",
       "prompt": "αγαπάνε",
       "correctAnswer": "любят",
-      "wrongAnswers": [
-        "люблю",
-        "любишь",
-        "любит"
-      ],
+      "wrongAnswers": ["люблю", "любишь", "любит"],
       "promptLanguage": "el"
     },
     {
@@ -4039,11 +2695,7 @@
       "type": "single-choice",
       "prompt": "μισώ",
       "correctAnswer": "ненавижу",
-      "wrongAnswers": [
-        "ненавидишь",
-        "ненавидит",
-        "ненавидим"
-      ],
+      "wrongAnswers": ["ненавидишь", "ненавидит", "ненавидим"],
       "promptLanguage": "el"
     },
     {
@@ -4051,11 +2703,7 @@
       "type": "single-choice",
       "prompt": "μισείς",
       "correctAnswer": "ненавидишь",
-      "wrongAnswers": [
-        "ненавижу",
-        "ненавидит",
-        "ненавидим"
-      ],
+      "wrongAnswers": ["ненавижу", "ненавидит", "ненавидим"],
       "promptLanguage": "el"
     },
     {
@@ -4063,11 +2711,7 @@
       "type": "single-choice",
       "prompt": "μισεί",
       "correctAnswer": "ненавидит",
-      "wrongAnswers": [
-        "ненавижу",
-        "ненавидишь",
-        "ненавидим"
-      ],
+      "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидим"],
       "promptLanguage": "el"
     },
     {
@@ -4075,11 +2719,7 @@
       "type": "single-choice",
       "prompt": "μισούμε",
       "correctAnswer": "ненавидим",
-      "wrongAnswers": [
-        "ненавижу",
-        "ненавидишь",
-        "ненавидит"
-      ],
+      "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидит"],
       "promptLanguage": "el"
     },
     {
@@ -4087,11 +2727,7 @@
       "type": "single-choice",
       "prompt": "μισείτε",
       "correctAnswer": "ненавидите",
-      "wrongAnswers": [
-        "ненавижу",
-        "ненавидишь",
-        "ненавидит"
-      ],
+      "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидит"],
       "promptLanguage": "el"
     },
     {
@@ -4099,11 +2735,7 @@
       "type": "single-choice",
       "prompt": "μισούν",
       "correctAnswer": "ненавидят",
-      "wrongAnswers": [
-        "ненавижу",
-        "ненавидишь",
-        "ненавидит"
-      ],
+      "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидит"],
       "promptLanguage": "el"
     },
     {
@@ -4111,11 +2743,7 @@
       "type": "single-choice",
       "prompt": "παίζω",
       "correctAnswer": "играю",
-      "wrongAnswers": [
-        "играешь",
-        "играет",
-        "играем"
-      ],
+      "wrongAnswers": ["играешь", "играет", "играем"],
       "promptLanguage": "el"
     },
     {
@@ -4123,11 +2751,7 @@
       "type": "single-choice",
       "prompt": "παίζεις",
       "correctAnswer": "играешь",
-      "wrongAnswers": [
-        "играю",
-        "играет",
-        "играем"
-      ],
+      "wrongAnswers": ["играю", "играет", "играем"],
       "promptLanguage": "el"
     },
     {
@@ -4135,11 +2759,7 @@
       "type": "single-choice",
       "prompt": "παίζει",
       "correctAnswer": "играет",
-      "wrongAnswers": [
-        "играю",
-        "играешь",
-        "играем"
-      ],
+      "wrongAnswers": ["играю", "играешь", "играем"],
       "promptLanguage": "el"
     },
     {
@@ -4147,11 +2767,7 @@
       "type": "single-choice",
       "prompt": "παίζουμε",
       "correctAnswer": "играем",
-      "wrongAnswers": [
-        "играю",
-        "играешь",
-        "играет"
-      ],
+      "wrongAnswers": ["играю", "играешь", "играет"],
       "promptLanguage": "el"
     },
     {
@@ -4159,11 +2775,7 @@
       "type": "single-choice",
       "prompt": "παίζετε",
       "correctAnswer": "играете",
-      "wrongAnswers": [
-        "играю",
-        "играешь",
-        "играет"
-      ],
+      "wrongAnswers": ["играю", "играешь", "играет"],
       "promptLanguage": "el"
     },
     {
@@ -4171,11 +2783,7 @@
       "type": "single-choice",
       "prompt": "παίζουν",
       "correctAnswer": "играют",
-      "wrongAnswers": [
-        "играю",
-        "играешь",
-        "играет"
-      ],
+      "wrongAnswers": ["играю", "играешь", "играет"],
       "promptLanguage": "el"
     },
     {
@@ -4183,11 +2791,7 @@
       "type": "single-choice",
       "prompt": "οδηγώ",
       "correctAnswer": "вожу",
-      "wrongAnswers": [
-        "водишь",
-        "водит",
-        "водим"
-      ],
+      "wrongAnswers": ["водишь", "водит", "водим"],
       "promptLanguage": "el"
     },
     {
@@ -4195,11 +2799,7 @@
       "type": "single-choice",
       "prompt": "οδηγείς",
       "correctAnswer": "водишь",
-      "wrongAnswers": [
-        "вожу",
-        "водит",
-        "водим"
-      ],
+      "wrongAnswers": ["вожу", "водит", "водим"],
       "promptLanguage": "el"
     },
     {
@@ -4207,11 +2807,7 @@
       "type": "single-choice",
       "prompt": "οδηγεί",
       "correctAnswer": "водит",
-      "wrongAnswers": [
-        "вожу",
-        "водишь",
-        "водим"
-      ],
+      "wrongAnswers": ["вожу", "водишь", "водим"],
       "promptLanguage": "el"
     },
     {
@@ -4219,11 +2815,7 @@
       "type": "single-choice",
       "prompt": "οδηγούμε",
       "correctAnswer": "водим",
-      "wrongAnswers": [
-        "вожу",
-        "водишь",
-        "водит"
-      ],
+      "wrongAnswers": ["вожу", "водишь", "водит"],
       "promptLanguage": "el"
     },
     {
@@ -4231,11 +2823,7 @@
       "type": "single-choice",
       "prompt": "οδηγείτε",
       "correctAnswer": "водите",
-      "wrongAnswers": [
-        "вожу",
-        "водишь",
-        "водит"
-      ],
+      "wrongAnswers": ["вожу", "водишь", "водит"],
       "promptLanguage": "el"
     },
     {
@@ -4243,11 +2831,7 @@
       "type": "single-choice",
       "prompt": "οδηγούν",
       "correctAnswer": "водят",
-      "wrongAnswers": [
-        "вожу",
-        "водишь",
-        "водит"
-      ],
+      "wrongAnswers": ["вожу", "водишь", "водит"],
       "promptLanguage": "el"
     },
     {
@@ -4255,11 +2839,7 @@
       "type": "single-choice",
       "prompt": "ταξιδεύω",
       "correctAnswer": "путешествую",
-      "wrongAnswers": [
-        "путешествуешь",
-        "путешествует",
-        "путешествуем"
-      ],
+      "wrongAnswers": ["путешествуешь", "путешествует", "путешествуем"],
       "promptLanguage": "el"
     },
     {
@@ -4267,11 +2847,7 @@
       "type": "single-choice",
       "prompt": "ταξιδεύεις",
       "correctAnswer": "путешествуешь",
-      "wrongAnswers": [
-        "путешествую",
-        "путешествует",
-        "путешествуем"
-      ],
+      "wrongAnswers": ["путешествую", "путешествует", "путешествуем"],
       "promptLanguage": "el"
     },
     {
@@ -4279,11 +2855,7 @@
       "type": "single-choice",
       "prompt": "ταξιδεύει",
       "correctAnswer": "путешествует",
-      "wrongAnswers": [
-        "путешествую",
-        "путешествуешь",
-        "путешествуем"
-      ],
+      "wrongAnswers": ["путешествую", "путешествуешь", "путешествуем"],
       "promptLanguage": "el"
     },
     {
@@ -4291,11 +2863,7 @@
       "type": "single-choice",
       "prompt": "ταξιδεύουμε",
       "correctAnswer": "путешествуем",
-      "wrongAnswers": [
-        "путешествую",
-        "путешествуешь",
-        "путешествует"
-      ],
+      "wrongAnswers": ["путешествую", "путешествуешь", "путешествует"],
       "promptLanguage": "el"
     },
     {
@@ -4303,11 +2871,7 @@
       "type": "single-choice",
       "prompt": "ταξιδεύετε",
       "correctAnswer": "путешествуете",
-      "wrongAnswers": [
-        "путешествую",
-        "путешествуешь",
-        "путешествует"
-      ],
+      "wrongAnswers": ["путешествую", "путешествуешь", "путешествует"],
       "promptLanguage": "el"
     },
     {
@@ -4315,11 +2879,7 @@
       "type": "single-choice",
       "prompt": "ταξιδεύουν",
       "correctAnswer": "путешествуют",
-      "wrongAnswers": [
-        "путешествую",
-        "путешествуешь",
-        "путешествует"
-      ],
+      "wrongAnswers": ["путешествую", "путешествуешь", "путешествует"],
       "promptLanguage": "el"
     },
     {
@@ -4327,11 +2887,7 @@
       "type": "single-choice",
       "prompt": "γυρίζω",
       "correctAnswer": "возвращаюсь",
-      "wrongAnswers": [
-        "возвращаешься",
-        "возвращается",
-        "возвращаемся"
-      ],
+      "wrongAnswers": ["возвращаешься", "возвращается", "возвращаемся"],
       "promptLanguage": "el"
     },
     {
@@ -4339,11 +2895,7 @@
       "type": "single-choice",
       "prompt": "γυρίζεις",
       "correctAnswer": "возвращаешься",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращается",
-        "возвращаемся"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращается", "возвращаемся"],
       "promptLanguage": "el"
     },
     {
@@ -4351,11 +2903,7 @@
       "type": "single-choice",
       "prompt": "γυρίζει",
       "correctAnswer": "возвращается",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращаемся"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращаемся"],
       "promptLanguage": "el"
     },
     {
@@ -4363,11 +2911,7 @@
       "type": "single-choice",
       "prompt": "γυρίζουμε",
       "correctAnswer": "возвращаемся",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращается"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
       "promptLanguage": "el"
     },
     {
@@ -4375,11 +2919,7 @@
       "type": "single-choice",
       "prompt": "γυρίζετε",
       "correctAnswer": "возвращаетесь",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращается"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
       "promptLanguage": "el"
     },
     {
@@ -4387,11 +2927,7 @@
       "type": "single-choice",
       "prompt": "γυρίζουν",
       "correctAnswer": "возвращаются",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращается"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
       "promptLanguage": "el"
     },
     {
@@ -4399,11 +2935,7 @@
       "type": "single-choice",
       "prompt": "επιστρέφω",
       "correctAnswer": "возвращаюсь",
-      "wrongAnswers": [
-        "возвращаешься",
-        "возвращается",
-        "возвращаемся"
-      ],
+      "wrongAnswers": ["возвращаешься", "возвращается", "возвращаемся"],
       "promptLanguage": "el"
     },
     {
@@ -4411,11 +2943,7 @@
       "type": "single-choice",
       "prompt": "επιστρέφεις",
       "correctAnswer": "возвращаешься",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращается",
-        "возвращаемся"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращается", "возвращаемся"],
       "promptLanguage": "el"
     },
     {
@@ -4423,11 +2951,7 @@
       "type": "single-choice",
       "prompt": "επιστρέφει",
       "correctAnswer": "возвращается",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращаемся"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращаемся"],
       "promptLanguage": "el"
     },
     {
@@ -4435,11 +2959,7 @@
       "type": "single-choice",
       "prompt": "επιστρέφουμε",
       "correctAnswer": "возвращаемся",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращается"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
       "promptLanguage": "el"
     },
     {
@@ -4447,11 +2967,7 @@
       "type": "single-choice",
       "prompt": "επιστρέφετε",
       "correctAnswer": "возвращаетесь",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращается"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
       "promptLanguage": "el"
     },
     {
@@ -4459,11 +2975,7 @@
       "type": "single-choice",
       "prompt": "επιστρέφουν",
       "correctAnswer": "возвращаются",
-      "wrongAnswers": [
-        "возвращаюсь",
-        "возвращаешься",
-        "возвращается"
-      ],
+      "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
       "promptLanguage": "el"
     },
     {
@@ -4471,11 +2983,7 @@
       "type": "single-choice",
       "prompt": "αρχίζω",
       "correctAnswer": "начинаю",
-      "wrongAnswers": [
-        "начинаешь",
-        "начинает",
-        "начинаем"
-      ],
+      "wrongAnswers": ["начинаешь", "начинает", "начинаем"],
       "promptLanguage": "el"
     },
     {
@@ -4483,11 +2991,7 @@
       "type": "single-choice",
       "prompt": "αρχίζεις",
       "correctAnswer": "начинаешь",
-      "wrongAnswers": [
-        "начинаю",
-        "начинает",
-        "начинаем"
-      ],
+      "wrongAnswers": ["начинаю", "начинает", "начинаем"],
       "promptLanguage": "el"
     },
     {
@@ -4495,11 +2999,7 @@
       "type": "single-choice",
       "prompt": "αρχίζει",
       "correctAnswer": "начинает",
-      "wrongAnswers": [
-        "начинаю",
-        "начинаешь",
-        "начинаем"
-      ],
+      "wrongAnswers": ["начинаю", "начинаешь", "начинаем"],
       "promptLanguage": "el"
     },
     {
@@ -4507,11 +3007,7 @@
       "type": "single-choice",
       "prompt": "αρχίζουμε",
       "correctAnswer": "начинаем",
-      "wrongAnswers": [
-        "начинаю",
-        "начинаешь",
-        "начинает"
-      ],
+      "wrongAnswers": ["начинаю", "начинаешь", "начинает"],
       "promptLanguage": "el"
     },
     {
@@ -4519,11 +3015,7 @@
       "type": "single-choice",
       "prompt": "αρχίζετε",
       "correctAnswer": "начинаете",
-      "wrongAnswers": [
-        "начинаю",
-        "начинаешь",
-        "начинает"
-      ],
+      "wrongAnswers": ["начинаю", "начинаешь", "начинает"],
       "promptLanguage": "el"
     },
     {
@@ -4531,11 +3023,7 @@
       "type": "single-choice",
       "prompt": "αρχίζουν",
       "correctAnswer": "начинают",
-      "wrongAnswers": [
-        "начинаю",
-        "начинаешь",
-        "начинает"
-      ],
+      "wrongAnswers": ["начинаю", "начинаешь", "начинает"],
       "promptLanguage": "el"
     },
     {
@@ -4543,11 +3031,7 @@
       "type": "single-choice",
       "prompt": "τελειώνω",
       "correctAnswer": "заканчиваю",
-      "wrongAnswers": [
-        "заканчиваешь",
-        "заканчивает",
-        "заканчиваем"
-      ],
+      "wrongAnswers": ["заканчиваешь", "заканчивает", "заканчиваем"],
       "promptLanguage": "el"
     },
     {
@@ -4555,11 +3039,7 @@
       "type": "single-choice",
       "prompt": "τελειώνεις",
       "correctAnswer": "заканчиваешь",
-      "wrongAnswers": [
-        "заканчиваю",
-        "заканчивает",
-        "заканчиваем"
-      ],
+      "wrongAnswers": ["заканчиваю", "заканчивает", "заканчиваем"],
       "promptLanguage": "el"
     },
     {
@@ -4567,11 +3047,7 @@
       "type": "single-choice",
       "prompt": "τελειώνει",
       "correctAnswer": "заканчивает",
-      "wrongAnswers": [
-        "заканчиваю",
-        "заканчиваешь",
-        "заканчиваем"
-      ],
+      "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчиваем"],
       "promptLanguage": "el"
     },
     {
@@ -4579,11 +3055,7 @@
       "type": "single-choice",
       "prompt": "τελειώνουμε",
       "correctAnswer": "заканчиваем",
-      "wrongAnswers": [
-        "заканчиваю",
-        "заканчиваешь",
-        "заканчивает"
-      ],
+      "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчивает"],
       "promptLanguage": "el"
     },
     {
@@ -4591,11 +3063,7 @@
       "type": "single-choice",
       "prompt": "τελειώνετε",
       "correctAnswer": "заканчиваете",
-      "wrongAnswers": [
-        "заканчиваю",
-        "заканчиваешь",
-        "заканчивает"
-      ],
+      "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчивает"],
       "promptLanguage": "el"
     },
     {
@@ -4603,11 +3071,7 @@
       "type": "single-choice",
       "prompt": "τελειώνουν",
       "correctAnswer": "заканчивают",
-      "wrongAnswers": [
-        "заканчиваю",
-        "заканчиваешь",
-        "заканчивает"
-      ],
+      "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчивает"],
       "promptLanguage": "el"
     },
     {
@@ -4615,11 +3079,7 @@
       "type": "single-choice",
       "prompt": "στέλνω",
       "correctAnswer": "отправляю",
-      "wrongAnswers": [
-        "отправляешь",
-        "отправляет",
-        "отправляем"
-      ],
+      "wrongAnswers": ["отправляешь", "отправляет", "отправляем"],
       "promptLanguage": "el"
     },
     {
@@ -4627,11 +3087,7 @@
       "type": "single-choice",
       "prompt": "στέλνεις",
       "correctAnswer": "отправляешь",
-      "wrongAnswers": [
-        "отправляю",
-        "отправляет",
-        "отправляем"
-      ],
+      "wrongAnswers": ["отправляю", "отправляет", "отправляем"],
       "promptLanguage": "el"
     },
     {
@@ -4639,11 +3095,7 @@
       "type": "single-choice",
       "prompt": "στέλνει",
       "correctAnswer": "отправляет",
-      "wrongAnswers": [
-        "отправляю",
-        "отправляешь",
-        "отправляем"
-      ],
+      "wrongAnswers": ["отправляю", "отправляешь", "отправляем"],
       "promptLanguage": "el"
     },
     {
@@ -4651,11 +3103,7 @@
       "type": "single-choice",
       "prompt": "στέλνουμε",
       "correctAnswer": "отправляем",
-      "wrongAnswers": [
-        "отправляю",
-        "отправляешь",
-        "отправляет"
-      ],
+      "wrongAnswers": ["отправляю", "отправляешь", "отправляет"],
       "promptLanguage": "el"
     },
     {
@@ -4663,11 +3111,7 @@
       "type": "single-choice",
       "prompt": "στέλνετε",
       "correctAnswer": "отправляете",
-      "wrongAnswers": [
-        "отправляю",
-        "отправляешь",
-        "отправляет"
-      ],
+      "wrongAnswers": ["отправляю", "отправляешь", "отправляет"],
       "promptLanguage": "el"
     },
     {
@@ -4675,11 +3119,7 @@
       "type": "single-choice",
       "prompt": "στέλνουν",
       "correctAnswer": "отправляют",
-      "wrongAnswers": [
-        "отправляю",
-        "отправляешь",
-        "отправляет"
-      ],
+      "wrongAnswers": ["отправляю", "отправляешь", "отправляет"],
       "promptLanguage": "el"
     },
     {
@@ -4687,11 +3127,7 @@
       "type": "single-choice",
       "prompt": "φέρνω",
       "correctAnswer": "приношу",
-      "wrongAnswers": [
-        "приносишь",
-        "приносит",
-        "приносим"
-      ],
+      "wrongAnswers": ["приносишь", "приносит", "приносим"],
       "promptLanguage": "el"
     },
     {
@@ -4699,11 +3135,7 @@
       "type": "single-choice",
       "prompt": "φέρνεις",
       "correctAnswer": "приносишь",
-      "wrongAnswers": [
-        "приношу",
-        "приносит",
-        "приносим"
-      ],
+      "wrongAnswers": ["приношу", "приносит", "приносим"],
       "promptLanguage": "el"
     },
     {
@@ -4711,11 +3143,7 @@
       "type": "single-choice",
       "prompt": "φέρνει",
       "correctAnswer": "приносит",
-      "wrongAnswers": [
-        "приношу",
-        "приносишь",
-        "приносим"
-      ],
+      "wrongAnswers": ["приношу", "приносишь", "приносим"],
       "promptLanguage": "el"
     },
     {
@@ -4723,11 +3151,7 @@
       "type": "single-choice",
       "prompt": "φέρνουμε",
       "correctAnswer": "приносим",
-      "wrongAnswers": [
-        "приношу",
-        "приносишь",
-        "приносит"
-      ],
+      "wrongAnswers": ["приношу", "приносишь", "приносит"],
       "promptLanguage": "el"
     },
     {
@@ -4735,11 +3159,7 @@
       "type": "single-choice",
       "prompt": "φέρνετε",
       "correctAnswer": "приносите",
-      "wrongAnswers": [
-        "приношу",
-        "приносишь",
-        "приносит"
-      ],
+      "wrongAnswers": ["приношу", "приносишь", "приносит"],
       "promptLanguage": "el"
     },
     {
@@ -4747,11 +3167,7 @@
       "type": "single-choice",
       "prompt": "φέρνουν",
       "correctAnswer": "приносят",
-      "wrongAnswers": [
-        "приношу",
-        "приносишь",
-        "приносит"
-      ],
+      "wrongAnswers": ["приношу", "приносишь", "приносит"],
       "promptLanguage": "el"
     },
     {
@@ -4759,11 +3175,7 @@
       "type": "single-choice",
       "prompt": "φοράω",
       "correctAnswer": "ношу",
-      "wrongAnswers": [
-        "носишь",
-        "носит",
-        "носим"
-      ],
+      "wrongAnswers": ["носишь", "носит", "носим"],
       "promptLanguage": "el"
     },
     {
@@ -4771,11 +3183,7 @@
       "type": "single-choice",
       "prompt": "φοράς",
       "correctAnswer": "носишь",
-      "wrongAnswers": [
-        "ношу",
-        "носит",
-        "носим"
-      ],
+      "wrongAnswers": ["ношу", "носит", "носим"],
       "promptLanguage": "el"
     },
     {
@@ -4783,11 +3191,7 @@
       "type": "single-choice",
       "prompt": "φοράει",
       "correctAnswer": "носит",
-      "wrongAnswers": [
-        "ношу",
-        "носишь",
-        "носим"
-      ],
+      "wrongAnswers": ["ношу", "носишь", "носим"],
       "promptLanguage": "el"
     },
     {
@@ -4795,11 +3199,7 @@
       "type": "single-choice",
       "prompt": "φοράμε",
       "correctAnswer": "носим",
-      "wrongAnswers": [
-        "ношу",
-        "носишь",
-        "носит"
-      ],
+      "wrongAnswers": ["ношу", "носишь", "носит"],
       "promptLanguage": "el"
     },
     {
@@ -4807,11 +3207,7 @@
       "type": "single-choice",
       "prompt": "φοράτε",
       "correctAnswer": "носите",
-      "wrongAnswers": [
-        "ношу",
-        "носишь",
-        "носит"
-      ],
+      "wrongAnswers": ["ношу", "носишь", "носит"],
       "promptLanguage": "el"
     },
     {
@@ -4819,11 +3215,7 @@
       "type": "single-choice",
       "prompt": "φοράνε",
       "correctAnswer": "носят",
-      "wrongAnswers": [
-        "ношу",
-        "носишь",
-        "носит"
-      ],
+      "wrongAnswers": ["ношу", "носишь", "носит"],
       "promptLanguage": "el"
     },
     {
@@ -4831,11 +3223,7 @@
       "type": "single-choice",
       "prompt": "βάζω",
       "correctAnswer": "кладу",
-      "wrongAnswers": [
-        "кладёшь",
-        "кладёт",
-        "кладём"
-      ],
+      "wrongAnswers": ["кладёшь", "кладёт", "кладём"],
       "promptLanguage": "el"
     },
     {
@@ -4843,11 +3231,7 @@
       "type": "single-choice",
       "prompt": "βάζεις",
       "correctAnswer": "кладёшь",
-      "wrongAnswers": [
-        "кладу",
-        "кладёт",
-        "кладём"
-      ],
+      "wrongAnswers": ["кладу", "кладёт", "кладём"],
       "promptLanguage": "el"
     },
     {
@@ -4855,11 +3239,7 @@
       "type": "single-choice",
       "prompt": "βάζει",
       "correctAnswer": "кладёт",
-      "wrongAnswers": [
-        "кладу",
-        "кладёшь",
-        "кладём"
-      ],
+      "wrongAnswers": ["кладу", "кладёшь", "кладём"],
       "promptLanguage": "el"
     },
     {
@@ -4867,11 +3247,7 @@
       "type": "single-choice",
       "prompt": "βάζουμε",
       "correctAnswer": "кладём",
-      "wrongAnswers": [
-        "кладу",
-        "кладёшь",
-        "кладёт"
-      ],
+      "wrongAnswers": ["кладу", "кладёшь", "кладёт"],
       "promptLanguage": "el"
     },
     {
@@ -4879,11 +3255,7 @@
       "type": "single-choice",
       "prompt": "βάζετε",
       "correctAnswer": "кладёте",
-      "wrongAnswers": [
-        "кладу",
-        "кладёшь",
-        "кладёт"
-      ],
+      "wrongAnswers": ["кладу", "кладёшь", "кладёт"],
       "promptLanguage": "el"
     },
     {
@@ -4891,11 +3263,7 @@
       "type": "single-choice",
       "prompt": "βάζουν",
       "correctAnswer": "кладут",
-      "wrongAnswers": [
-        "кладу",
-        "кладёшь",
-        "кладёт"
-      ],
+      "wrongAnswers": ["кладу", "кладёшь", "кладёт"],
       "promptLanguage": "el"
     },
     {
@@ -4903,11 +3271,7 @@
       "type": "single-choice",
       "prompt": "βγάζω",
       "correctAnswer": "вынимаю",
-      "wrongAnswers": [
-        "вынимаешь",
-        "вынимает",
-        "вынимаем"
-      ],
+      "wrongAnswers": ["вынимаешь", "вынимает", "вынимаем"],
       "promptLanguage": "el"
     },
     {
@@ -4915,11 +3279,7 @@
       "type": "single-choice",
       "prompt": "βγάζεις",
       "correctAnswer": "вынимаешь",
-      "wrongAnswers": [
-        "вынимаю",
-        "вынимает",
-        "вынимаем"
-      ],
+      "wrongAnswers": ["вынимаю", "вынимает", "вынимаем"],
       "promptLanguage": "el"
     },
     {
@@ -4927,11 +3287,7 @@
       "type": "single-choice",
       "prompt": "βγάζει",
       "correctAnswer": "вынимает",
-      "wrongAnswers": [
-        "вынимаю",
-        "вынимаешь",
-        "вынимаем"
-      ],
+      "wrongAnswers": ["вынимаю", "вынимаешь", "вынимаем"],
       "promptLanguage": "el"
     },
     {
@@ -4939,11 +3295,7 @@
       "type": "single-choice",
       "prompt": "βγάζουμε",
       "correctAnswer": "вынимаем",
-      "wrongAnswers": [
-        "вынимаю",
-        "вынимаешь",
-        "вынимает"
-      ],
+      "wrongAnswers": ["вынимаю", "вынимаешь", "вынимает"],
       "promptLanguage": "el"
     },
     {
@@ -4951,11 +3303,7 @@
       "type": "single-choice",
       "prompt": "βγάζετε",
       "correctAnswer": "вынимаете",
-      "wrongAnswers": [
-        "вынимаю",
-        "вынимаешь",
-        "вынимает"
-      ],
+      "wrongAnswers": ["вынимаю", "вынимаешь", "вынимает"],
       "promptLanguage": "el"
     },
     {
@@ -4963,11 +3311,7 @@
       "type": "single-choice",
       "prompt": "βγάζουν",
       "correctAnswer": "вынимают",
-      "wrongAnswers": [
-        "вынимаю",
-        "вынимаешь",
-        "вынимает"
-      ],
+      "wrongAnswers": ["вынимаю", "вынимаешь", "вынимает"],
       "promptLanguage": "el"
     },
     {
@@ -4975,11 +3319,7 @@
       "type": "single-choice",
       "prompt": "κρατάω",
       "correctAnswer": "держу",
-      "wrongAnswers": [
-        "держишь",
-        "держит",
-        "держим"
-      ],
+      "wrongAnswers": ["держишь", "держит", "держим"],
       "promptLanguage": "el"
     },
     {
@@ -4987,11 +3327,7 @@
       "type": "single-choice",
       "prompt": "κρατάς",
       "correctAnswer": "держишь",
-      "wrongAnswers": [
-        "держу",
-        "держит",
-        "держим"
-      ],
+      "wrongAnswers": ["держу", "держит", "держим"],
       "promptLanguage": "el"
     },
     {
@@ -4999,11 +3335,7 @@
       "type": "single-choice",
       "prompt": "κρατάει",
       "correctAnswer": "держит",
-      "wrongAnswers": [
-        "держу",
-        "держишь",
-        "держим"
-      ],
+      "wrongAnswers": ["держу", "держишь", "держим"],
       "promptLanguage": "el"
     },
     {
@@ -5011,11 +3343,7 @@
       "type": "single-choice",
       "prompt": "κρατάμε",
       "correctAnswer": "держим",
-      "wrongAnswers": [
-        "держу",
-        "держишь",
-        "держит"
-      ],
+      "wrongAnswers": ["держу", "держишь", "держит"],
       "promptLanguage": "el"
     },
     {
@@ -5023,11 +3351,7 @@
       "type": "single-choice",
       "prompt": "κρατάτε",
       "correctAnswer": "держите",
-      "wrongAnswers": [
-        "держу",
-        "держишь",
-        "держит"
-      ],
+      "wrongAnswers": ["держу", "держишь", "держит"],
       "promptLanguage": "el"
     },
     {
@@ -5035,11 +3359,7 @@
       "type": "single-choice",
       "prompt": "κρατάνε",
       "correctAnswer": "держат",
-      "wrongAnswers": [
-        "держу",
-        "держишь",
-        "держит"
-      ],
+      "wrongAnswers": ["держу", "держишь", "держит"],
       "promptLanguage": "el"
     },
     {
@@ -5047,11 +3367,7 @@
       "type": "single-choice",
       "prompt": "αφήνω",
       "correctAnswer": "оставляю",
-      "wrongAnswers": [
-        "оставляешь",
-        "оставляет",
-        "оставляем"
-      ],
+      "wrongAnswers": ["оставляешь", "оставляет", "оставляем"],
       "promptLanguage": "el"
     },
     {
@@ -5059,11 +3375,7 @@
       "type": "single-choice",
       "prompt": "αφήνεις",
       "correctAnswer": "оставляешь",
-      "wrongAnswers": [
-        "оставляю",
-        "оставляет",
-        "оставляем"
-      ],
+      "wrongAnswers": ["оставляю", "оставляет", "оставляем"],
       "promptLanguage": "el"
     },
     {
@@ -5071,11 +3383,7 @@
       "type": "single-choice",
       "prompt": "αφήνει",
       "correctAnswer": "оставляет",
-      "wrongAnswers": [
-        "оставляю",
-        "оставляешь",
-        "оставляем"
-      ],
+      "wrongAnswers": ["оставляю", "оставляешь", "оставляем"],
       "promptLanguage": "el"
     },
     {
@@ -5083,11 +3391,7 @@
       "type": "single-choice",
       "prompt": "αφήνουμε",
       "correctAnswer": "оставляем",
-      "wrongAnswers": [
-        "оставляю",
-        "оставляешь",
-        "оставляет"
-      ],
+      "wrongAnswers": ["оставляю", "оставляешь", "оставляет"],
       "promptLanguage": "el"
     },
     {
@@ -5095,11 +3399,7 @@
       "type": "single-choice",
       "prompt": "αφήνετε",
       "correctAnswer": "оставляете",
-      "wrongAnswers": [
-        "оставляю",
-        "оставляешь",
-        "оставляет"
-      ],
+      "wrongAnswers": ["оставляю", "оставляешь", "оставляет"],
       "promptLanguage": "el"
     },
     {
@@ -5107,11 +3407,7 @@
       "type": "single-choice",
       "prompt": "αφήνουν",
       "correctAnswer": "оставляют",
-      "wrongAnswers": [
-        "оставляю",
-        "оставляешь",
-        "оставляет"
-      ],
+      "wrongAnswers": ["оставляю", "оставляешь", "оставляет"],
       "promptLanguage": "el"
     },
     {
@@ -5119,11 +3415,7 @@
       "type": "single-choice",
       "prompt": "βάζω",
       "correctAnswer": "ставлю",
-      "wrongAnswers": [
-        "ставишь",
-        "ставит",
-        "ставим"
-      ],
+      "wrongAnswers": ["ставишь", "ставит", "ставим"],
       "promptLanguage": "el"
     },
     {
@@ -5131,11 +3423,7 @@
       "type": "single-choice",
       "prompt": "βάζεις",
       "correctAnswer": "ставишь",
-      "wrongAnswers": [
-        "ставлю",
-        "ставит",
-        "ставим"
-      ],
+      "wrongAnswers": ["ставлю", "ставит", "ставим"],
       "promptLanguage": "el"
     },
     {
@@ -5143,11 +3431,7 @@
       "type": "single-choice",
       "prompt": "βάζει",
       "correctAnswer": "ставит",
-      "wrongAnswers": [
-        "ставлю",
-        "ставишь",
-        "ставим"
-      ],
+      "wrongAnswers": ["ставлю", "ставишь", "ставим"],
       "promptLanguage": "el"
     },
     {
@@ -5155,11 +3439,7 @@
       "type": "single-choice",
       "prompt": "βάζουμε",
       "correctAnswer": "ставим",
-      "wrongAnswers": [
-        "ставлю",
-        "ставишь",
-        "ставит"
-      ],
+      "wrongAnswers": ["ставлю", "ставишь", "ставит"],
       "promptLanguage": "el"
     },
     {
@@ -5167,11 +3447,7 @@
       "type": "single-choice",
       "prompt": "βάζετε",
       "correctAnswer": "ставите",
-      "wrongAnswers": [
-        "ставлю",
-        "ставишь",
-        "ставит"
-      ],
+      "wrongAnswers": ["ставлю", "ставишь", "ставит"],
       "promptLanguage": "el"
     },
     {
@@ -5179,11 +3455,7 @@
       "type": "single-choice",
       "prompt": "βάζουν",
       "correctAnswer": "ставят",
-      "wrongAnswers": [
-        "ставлю",
-        "ставишь",
-        "ставит"
-      ],
+      "wrongAnswers": ["ставлю", "ставишь", "ставит"],
       "promptLanguage": "el"
     },
     {
@@ -5191,11 +3463,7 @@
       "type": "single-choice",
       "prompt": "βγάζω",
       "correctAnswer": "снимаю",
-      "wrongAnswers": [
-        "снимаешь",
-        "снимает",
-        "снимаем"
-      ],
+      "wrongAnswers": ["снимаешь", "снимает", "снимаем"],
       "promptLanguage": "el"
     },
     {
@@ -5203,11 +3471,7 @@
       "type": "single-choice",
       "prompt": "βγάζεις",
       "correctAnswer": "снимаешь",
-      "wrongAnswers": [
-        "снимаю",
-        "снимает",
-        "снимаем"
-      ],
+      "wrongAnswers": ["снимаю", "снимает", "снимаем"],
       "promptLanguage": "el"
     },
     {
@@ -5215,11 +3479,7 @@
       "type": "single-choice",
       "prompt": "βγάζει",
       "correctAnswer": "снимает",
-      "wrongAnswers": [
-        "снимаю",
-        "снимаешь",
-        "снимаем"
-      ],
+      "wrongAnswers": ["снимаю", "снимаешь", "снимаем"],
       "promptLanguage": "el"
     },
     {
@@ -5227,11 +3487,7 @@
       "type": "single-choice",
       "prompt": "βγάζουμε",
       "correctAnswer": "снимаем",
-      "wrongAnswers": [
-        "снимаю",
-        "снимаешь",
-        "снимает"
-      ],
+      "wrongAnswers": ["снимаю", "снимаешь", "снимает"],
       "promptLanguage": "el"
     },
     {
@@ -5239,11 +3495,7 @@
       "type": "single-choice",
       "prompt": "βγάζετε",
       "correctAnswer": "снимаете",
-      "wrongAnswers": [
-        "снимаю",
-        "снимаешь",
-        "снимает"
-      ],
+      "wrongAnswers": ["снимаю", "снимаешь", "снимает"],
       "promptLanguage": "el"
     },
     {
@@ -5251,11 +3503,7 @@
       "type": "single-choice",
       "prompt": "βγάζουν",
       "correctAnswer": "снимают",
-      "wrongAnswers": [
-        "снимаю",
-        "снимаешь",
-        "снимает"
-      ],
+      "wrongAnswers": ["снимаю", "снимаешь", "снимает"],
       "promptLanguage": "el"
     },
     {
@@ -5263,11 +3511,7 @@
       "type": "single-choice",
       "prompt": "μαγειρεύω",
       "correctAnswer": "готовлю",
-      "wrongAnswers": [
-        "готовишь",
-        "готовит",
-        "готовим"
-      ],
+      "wrongAnswers": ["готовишь", "готовит", "готовим"],
       "promptLanguage": "el"
     },
     {
@@ -5275,11 +3519,7 @@
       "type": "single-choice",
       "prompt": "μαγειρεύεις",
       "correctAnswer": "готовишь",
-      "wrongAnswers": [
-        "готовлю",
-        "готовит",
-        "готовим"
-      ],
+      "wrongAnswers": ["готовлю", "готовит", "готовим"],
       "promptLanguage": "el"
     },
     {
@@ -5287,11 +3527,7 @@
       "type": "single-choice",
       "prompt": "μαγειρεύει",
       "correctAnswer": "готовит",
-      "wrongAnswers": [
-        "готовлю",
-        "готовишь",
-        "готовим"
-      ],
+      "wrongAnswers": ["готовлю", "готовишь", "готовим"],
       "promptLanguage": "el"
     },
     {
@@ -5299,11 +3535,7 @@
       "type": "single-choice",
       "prompt": "μαγειρεύουμε",
       "correctAnswer": "готовим",
-      "wrongAnswers": [
-        "готовлю",
-        "готовишь",
-        "готовит"
-      ],
+      "wrongAnswers": ["готовлю", "готовишь", "готовит"],
       "promptLanguage": "el"
     },
     {
@@ -5311,11 +3543,7 @@
       "type": "single-choice",
       "prompt": "μαγειρεύετε",
       "correctAnswer": "готовите",
-      "wrongAnswers": [
-        "готовлю",
-        "готовишь",
-        "готовит"
-      ],
+      "wrongAnswers": ["готовлю", "готовишь", "готовит"],
       "promptLanguage": "el"
     },
     {
@@ -5323,11 +3551,7 @@
       "type": "single-choice",
       "prompt": "μαγειρεύουν",
       "correctAnswer": "готовят",
-      "wrongAnswers": [
-        "готовлю",
-        "готовишь",
-        "готовит"
-      ],
+      "wrongAnswers": ["готовлю", "готовишь", "готовит"],
       "promptLanguage": "el"
     },
     {
@@ -5335,11 +3559,7 @@
       "type": "single-choice",
       "prompt": "πλένω",
       "correctAnswer": "мою",
-      "wrongAnswers": [
-        "моешь",
-        "моет",
-        "моем"
-      ],
+      "wrongAnswers": ["моешь", "моет", "моем"],
       "promptLanguage": "el"
     },
     {
@@ -5347,11 +3567,7 @@
       "type": "single-choice",
       "prompt": "πλένεις",
       "correctAnswer": "моешь",
-      "wrongAnswers": [
-        "мою",
-        "моет",
-        "моем"
-      ],
+      "wrongAnswers": ["мою", "моет", "моем"],
       "promptLanguage": "el"
     },
     {
@@ -5359,11 +3575,7 @@
       "type": "single-choice",
       "prompt": "πλένει",
       "correctAnswer": "моет",
-      "wrongAnswers": [
-        "мою",
-        "моешь",
-        "моем"
-      ],
+      "wrongAnswers": ["мою", "моешь", "моем"],
       "promptLanguage": "el"
     },
     {
@@ -5371,11 +3583,7 @@
       "type": "single-choice",
       "prompt": "πλένουμε",
       "correctAnswer": "моем",
-      "wrongAnswers": [
-        "мою",
-        "моешь",
-        "моет"
-      ],
+      "wrongAnswers": ["мою", "моешь", "моет"],
       "promptLanguage": "el"
     },
     {
@@ -5383,11 +3591,7 @@
       "type": "single-choice",
       "prompt": "πλένετε",
       "correctAnswer": "моете",
-      "wrongAnswers": [
-        "мою",
-        "моешь",
-        "моет"
-      ],
+      "wrongAnswers": ["мою", "моешь", "моет"],
       "promptLanguage": "el"
     },
     {
@@ -5395,11 +3599,7 @@
       "type": "single-choice",
       "prompt": "πλένουν",
       "correctAnswer": "моют",
-      "wrongAnswers": [
-        "мою",
-        "моешь",
-        "моет"
-      ],
+      "wrongAnswers": ["мою", "моешь", "моет"],
       "promptLanguage": "el"
     },
     {
@@ -5407,11 +3607,7 @@
       "type": "single-choice",
       "prompt": "καθαρίζω",
       "correctAnswer": "убираю",
-      "wrongAnswers": [
-        "убираешь",
-        "убирает",
-        "убираем"
-      ],
+      "wrongAnswers": ["убираешь", "убирает", "убираем"],
       "promptLanguage": "el"
     },
     {
@@ -5419,11 +3615,7 @@
       "type": "single-choice",
       "prompt": "καθαρίζεις",
       "correctAnswer": "убираешь",
-      "wrongAnswers": [
-        "убираю",
-        "убирает",
-        "убираем"
-      ],
+      "wrongAnswers": ["убираю", "убирает", "убираем"],
       "promptLanguage": "el"
     },
     {
@@ -5431,11 +3623,7 @@
       "type": "single-choice",
       "prompt": "καθαρίζει",
       "correctAnswer": "убирает",
-      "wrongAnswers": [
-        "убираю",
-        "убираешь",
-        "убираем"
-      ],
+      "wrongAnswers": ["убираю", "убираешь", "убираем"],
       "promptLanguage": "el"
     },
     {
@@ -5443,11 +3631,7 @@
       "type": "single-choice",
       "prompt": "καθαρίζουμε",
       "correctAnswer": "убираем",
-      "wrongAnswers": [
-        "убираю",
-        "убираешь",
-        "убирает"
-      ],
+      "wrongAnswers": ["убираю", "убираешь", "убирает"],
       "promptLanguage": "el"
     },
     {
@@ -5455,11 +3639,7 @@
       "type": "single-choice",
       "prompt": "καθαρίζετε",
       "correctAnswer": "убираете",
-      "wrongAnswers": [
-        "убираю",
-        "убираешь",
-        "убирает"
-      ],
+      "wrongAnswers": ["убираю", "убираешь", "убирает"],
       "promptLanguage": "el"
     },
     {
@@ -5467,11 +3647,7 @@
       "type": "single-choice",
       "prompt": "καθαρίζουν",
       "correctAnswer": "убирают",
-      "wrongAnswers": [
-        "убираю",
-        "убираешь",
-        "убирает"
-      ],
+      "wrongAnswers": ["убираю", "убираешь", "убирает"],
       "promptLanguage": "el"
     },
     {
@@ -5479,11 +3655,7 @@
       "type": "single-choice",
       "prompt": "ζω",
       "correctAnswer": "живу",
-      "wrongAnswers": [
-        "живёшь",
-        "живёт",
-        "живём"
-      ],
+      "wrongAnswers": ["живёшь", "живёт", "живём"],
       "promptLanguage": "el"
     },
     {
@@ -5491,11 +3663,7 @@
       "type": "single-choice",
       "prompt": "ζεις",
       "correctAnswer": "живёшь",
-      "wrongAnswers": [
-        "живу",
-        "живёт",
-        "живём"
-      ],
+      "wrongAnswers": ["живу", "живёт", "живём"],
       "promptLanguage": "el"
     },
     {
@@ -5503,11 +3671,7 @@
       "type": "single-choice",
       "prompt": "ζει",
       "correctAnswer": "живёт",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живём"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живём"],
       "promptLanguage": "el"
     },
     {
@@ -5515,11 +3679,7 @@
       "type": "single-choice",
       "prompt": "ζούμε",
       "correctAnswer": "живём",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живёт"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живёт"],
       "promptLanguage": "el"
     },
     {
@@ -5527,11 +3687,7 @@
       "type": "single-choice",
       "prompt": "ζείτε",
       "correctAnswer": "живёте",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живёт"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живёт"],
       "promptLanguage": "el"
     },
     {
@@ -5539,11 +3695,7 @@
       "type": "single-choice",
       "prompt": "ζουν",
       "correctAnswer": "живут",
-      "wrongAnswers": [
-        "живу",
-        "живёшь",
-        "живёт"
-      ],
+      "wrongAnswers": ["живу", "живёшь", "живёт"],
       "promptLanguage": "el"
     },
     {
@@ -5551,11 +3703,7 @@
       "type": "single-choice",
       "prompt": "πεθαίνω",
       "correctAnswer": "умираю",
-      "wrongAnswers": [
-        "умираешь",
-        "умирает",
-        "умираем"
-      ],
+      "wrongAnswers": ["умираешь", "умирает", "умираем"],
       "promptLanguage": "el"
     },
     {
@@ -5563,11 +3711,7 @@
       "type": "single-choice",
       "prompt": "πεθαίνεις",
       "correctAnswer": "умираешь",
-      "wrongAnswers": [
-        "умираю",
-        "умирает",
-        "умираем"
-      ],
+      "wrongAnswers": ["умираю", "умирает", "умираем"],
       "promptLanguage": "el"
     },
     {
@@ -5575,11 +3719,7 @@
       "type": "single-choice",
       "prompt": "πεθαίνει",
       "correctAnswer": "умирает",
-      "wrongAnswers": [
-        "умираю",
-        "умираешь",
-        "умираем"
-      ],
+      "wrongAnswers": ["умираю", "умираешь", "умираем"],
       "promptLanguage": "el"
     },
     {
@@ -5587,11 +3727,7 @@
       "type": "single-choice",
       "prompt": "πεθαίνουμε",
       "correctAnswer": "умираем",
-      "wrongAnswers": [
-        "умираю",
-        "умираешь",
-        "умирает"
-      ],
+      "wrongAnswers": ["умираю", "умираешь", "умирает"],
       "promptLanguage": "el"
     },
     {
@@ -5599,11 +3735,7 @@
       "type": "single-choice",
       "prompt": "πεθαίνετε",
       "correctAnswer": "умираете",
-      "wrongAnswers": [
-        "умираю",
-        "умираешь",
-        "умирает"
-      ],
+      "wrongAnswers": ["умираю", "умираешь", "умирает"],
       "promptLanguage": "el"
     },
     {
@@ -5611,11 +3743,7 @@
       "type": "single-choice",
       "prompt": "πεθαίνουν",
       "correctAnswer": "умирают",
-      "wrongAnswers": [
-        "умираю",
-        "умираешь",
-        "умирает"
-      ],
+      "wrongAnswers": ["умираю", "умираешь", "умирает"],
       "promptLanguage": "el"
     },
     {
@@ -5623,11 +3751,7 @@
       "type": "single-choice",
       "prompt": "γεννιέμαι",
       "correctAnswer": "рождаюсь",
-      "wrongAnswers": [
-        "рождаешься",
-        "рождается",
-        "рождаемся"
-      ],
+      "wrongAnswers": ["рождаешься", "рождается", "рождаемся"],
       "promptLanguage": "el"
     },
     {
@@ -5635,11 +3759,7 @@
       "type": "single-choice",
       "prompt": "γεννιέσαι",
       "correctAnswer": "рождаешься",
-      "wrongAnswers": [
-        "рождаюсь",
-        "рождается",
-        "рождаемся"
-      ],
+      "wrongAnswers": ["рождаюсь", "рождается", "рождаемся"],
       "promptLanguage": "el"
     },
     {
@@ -5647,11 +3767,7 @@
       "type": "single-choice",
       "prompt": "γεννιέται",
       "correctAnswer": "рождается",
-      "wrongAnswers": [
-        "рождаюсь",
-        "рождаешься",
-        "рождаемся"
-      ],
+      "wrongAnswers": ["рождаюсь", "рождаешься", "рождаемся"],
       "promptLanguage": "el"
     },
     {
@@ -5659,11 +3775,7 @@
       "type": "single-choice",
       "prompt": "γεννιόμαστε",
       "correctAnswer": "рождаемся",
-      "wrongAnswers": [
-        "рождаюсь",
-        "рождаешься",
-        "рождается"
-      ],
+      "wrongAnswers": ["рождаюсь", "рождаешься", "рождается"],
       "promptLanguage": "el"
     },
     {
@@ -5671,11 +3783,7 @@
       "type": "single-choice",
       "prompt": "γεννιέστε",
       "correctAnswer": "рождаетесь",
-      "wrongAnswers": [
-        "рождаюсь",
-        "рождаешься",
-        "рождается"
-      ],
+      "wrongAnswers": ["рождаюсь", "рождаешься", "рождается"],
       "promptLanguage": "el"
     },
     {
@@ -5683,11 +3791,7 @@
       "type": "single-choice",
       "prompt": "γεννιούνται",
       "correctAnswer": "рождаются",
-      "wrongAnswers": [
-        "рождаюсь",
-        "рождаешься",
-        "рождается"
-      ],
+      "wrongAnswers": ["рождаюсь", "рождаешься", "рождается"],
       "promptLanguage": "el"
     },
     {
@@ -5695,11 +3799,7 @@
       "type": "single-choice",
       "prompt": "νιώθω",
       "correctAnswer": "чувствую",
-      "wrongAnswers": [
-        "чувствуешь",
-        "чувствует",
-        "чувствуем"
-      ],
+      "wrongAnswers": ["чувствуешь", "чувствует", "чувствуем"],
       "promptLanguage": "el"
     },
     {
@@ -5707,11 +3807,7 @@
       "type": "single-choice",
       "prompt": "νιώθεις",
       "correctAnswer": "чувствуешь",
-      "wrongAnswers": [
-        "чувствую",
-        "чувствует",
-        "чувствуем"
-      ],
+      "wrongAnswers": ["чувствую", "чувствует", "чувствуем"],
       "promptLanguage": "el"
     },
     {
@@ -5719,11 +3815,7 @@
       "type": "single-choice",
       "prompt": "νιώθει",
       "correctAnswer": "чувствует",
-      "wrongAnswers": [
-        "чувствую",
-        "чувствуешь",
-        "чувствуем"
-      ],
+      "wrongAnswers": ["чувствую", "чувствуешь", "чувствуем"],
       "promptLanguage": "el"
     },
     {
@@ -5731,11 +3823,7 @@
       "type": "single-choice",
       "prompt": "νιώθουμε",
       "correctAnswer": "чувствуем",
-      "wrongAnswers": [
-        "чувствую",
-        "чувствуешь",
-        "чувствует"
-      ],
+      "wrongAnswers": ["чувствую", "чувствуешь", "чувствует"],
       "promptLanguage": "el"
     },
     {
@@ -5743,11 +3831,7 @@
       "type": "single-choice",
       "prompt": "νιώθετε",
       "correctAnswer": "чувствуете",
-      "wrongAnswers": [
-        "чувствую",
-        "чувствуешь",
-        "чувствует"
-      ],
+      "wrongAnswers": ["чувствую", "чувствуешь", "чувствует"],
       "promptLanguage": "el"
     },
     {
@@ -5755,11 +3839,7 @@
       "type": "single-choice",
       "prompt": "νιώθουν",
       "correctAnswer": "чувствуют",
-      "wrongAnswers": [
-        "чувствую",
-        "чувствуешь",
-        "чувствует"
-      ],
+      "wrongAnswers": ["чувствую", "чувствуешь", "чувствует"],
       "promptLanguage": "el"
     },
     {
@@ -5767,11 +3847,7 @@
       "type": "single-choice",
       "prompt": "σκέφτομαι",
       "correctAnswer": "думаю",
-      "wrongAnswers": [
-        "думаешь",
-        "думает",
-        "думаем"
-      ],
+      "wrongAnswers": ["думаешь", "думает", "думаем"],
       "promptLanguage": "el"
     },
     {
@@ -5779,11 +3855,7 @@
       "type": "single-choice",
       "prompt": "σκέφτεσαι",
       "correctAnswer": "думаешь",
-      "wrongAnswers": [
-        "думаю",
-        "думает",
-        "думаем"
-      ],
+      "wrongAnswers": ["думаю", "думает", "думаем"],
       "promptLanguage": "el"
     },
     {
@@ -5791,11 +3863,7 @@
       "type": "single-choice",
       "prompt": "σκέφτεται",
       "correctAnswer": "думает",
-      "wrongAnswers": [
-        "думаю",
-        "думаешь",
-        "думаем"
-      ],
+      "wrongAnswers": ["думаю", "думаешь", "думаем"],
       "promptLanguage": "el"
     },
     {
@@ -5803,11 +3871,7 @@
       "type": "single-choice",
       "prompt": "σκεφτόμαστε",
       "correctAnswer": "думаем",
-      "wrongAnswers": [
-        "думаю",
-        "думаешь",
-        "думает"
-      ],
+      "wrongAnswers": ["думаю", "думаешь", "думает"],
       "promptLanguage": "el"
     },
     {
@@ -5815,11 +3879,7 @@
       "type": "single-choice",
       "prompt": "σκέφτεστε",
       "correctAnswer": "думаете",
-      "wrongAnswers": [
-        "думаю",
-        "думаешь",
-        "думает"
-      ],
+      "wrongAnswers": ["думаю", "думаешь", "думает"],
       "promptLanguage": "el"
     },
     {
@@ -5827,11 +3887,7 @@
       "type": "single-choice",
       "prompt": "σκέφτονται",
       "correctAnswer": "думают",
-      "wrongAnswers": [
-        "думаю",
-        "думаешь",
-        "думает"
-      ],
+      "wrongAnswers": ["думаю", "думаешь", "думает"],
       "promptLanguage": "el"
     },
     {
@@ -5839,11 +3895,7 @@
       "type": "single-choice",
       "prompt": "πιστεύω",
       "correctAnswer": "верю",
-      "wrongAnswers": [
-        "веришь",
-        "верит",
-        "верим"
-      ],
+      "wrongAnswers": ["веришь", "верит", "верим"],
       "promptLanguage": "el"
     },
     {
@@ -5851,11 +3903,7 @@
       "type": "single-choice",
       "prompt": "πιστεύεις",
       "correctAnswer": "веришь",
-      "wrongAnswers": [
-        "верю",
-        "верит",
-        "верим"
-      ],
+      "wrongAnswers": ["верю", "верит", "верим"],
       "promptLanguage": "el"
     },
     {
@@ -5863,11 +3911,7 @@
       "type": "single-choice",
       "prompt": "πιστεύει",
       "correctAnswer": "верит",
-      "wrongAnswers": [
-        "верю",
-        "веришь",
-        "верим"
-      ],
+      "wrongAnswers": ["верю", "веришь", "верим"],
       "promptLanguage": "el"
     },
     {
@@ -5875,11 +3919,7 @@
       "type": "single-choice",
       "prompt": "πιστεύουμε",
       "correctAnswer": "верим",
-      "wrongAnswers": [
-        "верю",
-        "веришь",
-        "верит"
-      ],
+      "wrongAnswers": ["верю", "веришь", "верит"],
       "promptLanguage": "el"
     },
     {
@@ -5887,11 +3927,7 @@
       "type": "single-choice",
       "prompt": "πιστεύετε",
       "correctAnswer": "верите",
-      "wrongAnswers": [
-        "верю",
-        "веришь",
-        "верит"
-      ],
+      "wrongAnswers": ["верю", "веришь", "верит"],
       "promptLanguage": "el"
     },
     {
@@ -5899,11 +3935,7 @@
       "type": "single-choice",
       "prompt": "πιστεύουν",
       "correctAnswer": "верят",
-      "wrongAnswers": [
-        "верю",
-        "веришь",
-        "верит"
-      ],
+      "wrongAnswers": ["верю", "веришь", "верит"],
       "promptLanguage": "el"
     },
     {
@@ -5911,11 +3943,7 @@
       "type": "single-choice",
       "prompt": "ελπίζω",
       "correctAnswer": "надеюсь",
-      "wrongAnswers": [
-        "надеешься",
-        "надеется",
-        "надеемся"
-      ],
+      "wrongAnswers": ["надеешься", "надеется", "надеемся"],
       "promptLanguage": "el"
     },
     {
@@ -5923,11 +3951,7 @@
       "type": "single-choice",
       "prompt": "ελπίζεις",
       "correctAnswer": "надеешься",
-      "wrongAnswers": [
-        "надеюсь",
-        "надеется",
-        "надеемся"
-      ],
+      "wrongAnswers": ["надеюсь", "надеется", "надеемся"],
       "promptLanguage": "el"
     },
     {
@@ -5935,11 +3959,7 @@
       "type": "single-choice",
       "prompt": "ελπίζει",
       "correctAnswer": "надеется",
-      "wrongAnswers": [
-        "надеюсь",
-        "надеешься",
-        "надеемся"
-      ],
+      "wrongAnswers": ["надеюсь", "надеешься", "надеемся"],
       "promptLanguage": "el"
     },
     {
@@ -5947,11 +3967,7 @@
       "type": "single-choice",
       "prompt": "ελπίζουμε",
       "correctAnswer": "надеемся",
-      "wrongAnswers": [
-        "надеюсь",
-        "надеешься",
-        "надеется"
-      ],
+      "wrongAnswers": ["надеюсь", "надеешься", "надеется"],
       "promptLanguage": "el"
     },
     {
@@ -5959,11 +3975,7 @@
       "type": "single-choice",
       "prompt": "ελπίζετε",
       "correctAnswer": "надеетесь",
-      "wrongAnswers": [
-        "надеюсь",
-        "надеешься",
-        "надеется"
-      ],
+      "wrongAnswers": ["надеюсь", "надеешься", "надеется"],
       "promptLanguage": "el"
     },
     {
@@ -5971,11 +3983,7 @@
       "type": "single-choice",
       "prompt": "ελπίζουν",
       "correctAnswer": "надеются",
-      "wrongAnswers": [
-        "надеюсь",
-        "надеешься",
-        "надеется"
-      ],
+      "wrongAnswers": ["надеюсь", "надеешься", "надеется"],
       "promptLanguage": "el"
     },
     {
@@ -5983,11 +3991,7 @@
       "type": "single-choice",
       "prompt": "φοβάμαι",
       "correctAnswer": "боюсь",
-      "wrongAnswers": [
-        "боишься",
-        "боится",
-        "боимся"
-      ],
+      "wrongAnswers": ["боишься", "боится", "боимся"],
       "promptLanguage": "el"
     },
     {
@@ -5995,11 +3999,7 @@
       "type": "single-choice",
       "prompt": "φοβάσαι",
       "correctAnswer": "боишься",
-      "wrongAnswers": [
-        "боюсь",
-        "боится",
-        "боимся"
-      ],
+      "wrongAnswers": ["боюсь", "боится", "боимся"],
       "promptLanguage": "el"
     },
     {
@@ -6007,11 +4007,7 @@
       "type": "single-choice",
       "prompt": "φοβάται",
       "correctAnswer": "боится",
-      "wrongAnswers": [
-        "боюсь",
-        "боишься",
-        "боимся"
-      ],
+      "wrongAnswers": ["боюсь", "боишься", "боимся"],
       "promptLanguage": "el"
     },
     {
@@ -6019,11 +4015,7 @@
       "type": "single-choice",
       "prompt": "φοβόμαστε",
       "correctAnswer": "боимся",
-      "wrongAnswers": [
-        "боюсь",
-        "боишься",
-        "боится"
-      ],
+      "wrongAnswers": ["боюсь", "боишься", "боится"],
       "promptLanguage": "el"
     },
     {
@@ -6031,11 +4023,7 @@
       "type": "single-choice",
       "prompt": "φοβάστε",
       "correctAnswer": "боитесь",
-      "wrongAnswers": [
-        "боюсь",
-        "боишься",
-        "боится"
-      ],
+      "wrongAnswers": ["боюсь", "боишься", "боится"],
       "promptLanguage": "el"
     },
     {
@@ -6043,11 +4031,7 @@
       "type": "single-choice",
       "prompt": "φοβούνται",
       "correctAnswer": "боятся",
-      "wrongAnswers": [
-        "боюсь",
-        "боишься",
-        "боится"
-      ],
+      "wrongAnswers": ["боюсь", "боишься", "боится"],
       "promptLanguage": "el"
     },
     {
@@ -6055,11 +4039,7 @@
       "type": "single-choice",
       "prompt": "γελάω",
       "correctAnswer": "смеюсь",
-      "wrongAnswers": [
-        "смеёшься",
-        "смеётся",
-        "смеёмся"
-      ],
+      "wrongAnswers": ["смеёшься", "смеётся", "смеёмся"],
       "promptLanguage": "el"
     },
     {
@@ -6067,11 +4047,7 @@
       "type": "single-choice",
       "prompt": "γελάς",
       "correctAnswer": "смеёшься",
-      "wrongAnswers": [
-        "смеюсь",
-        "смеётся",
-        "смеёмся"
-      ],
+      "wrongAnswers": ["смеюсь", "смеётся", "смеёмся"],
       "promptLanguage": "el"
     },
     {
@@ -6079,11 +4055,7 @@
       "type": "single-choice",
       "prompt": "γελάει",
       "correctAnswer": "смеётся",
-      "wrongAnswers": [
-        "смеюсь",
-        "смеёшься",
-        "смеёмся"
-      ],
+      "wrongAnswers": ["смеюсь", "смеёшься", "смеёмся"],
       "promptLanguage": "el"
     },
     {
@@ -6091,11 +4063,7 @@
       "type": "single-choice",
       "prompt": "γελάμε",
       "correctAnswer": "смеёмся",
-      "wrongAnswers": [
-        "смеюсь",
-        "смеёшься",
-        "смеётся"
-      ],
+      "wrongAnswers": ["смеюсь", "смеёшься", "смеётся"],
       "promptLanguage": "el"
     },
     {
@@ -6103,11 +4071,7 @@
       "type": "single-choice",
       "prompt": "γελάτε",
       "correctAnswer": "смеётесь",
-      "wrongAnswers": [
-        "смеюсь",
-        "смеёшься",
-        "смеётся"
-      ],
+      "wrongAnswers": ["смеюсь", "смеёшься", "смеётся"],
       "promptLanguage": "el"
     },
     {
@@ -6115,11 +4079,7 @@
       "type": "single-choice",
       "prompt": "γελάνε",
       "correctAnswer": "смеются",
-      "wrongAnswers": [
-        "смеюсь",
-        "смеёшься",
-        "смеётся"
-      ],
+      "wrongAnswers": ["смеюсь", "смеёшься", "смеётся"],
       "promptLanguage": "el"
     },
     {
@@ -6127,11 +4087,7 @@
       "type": "single-choice",
       "prompt": "κλαίω",
       "correctAnswer": "плачу",
-      "wrongAnswers": [
-        "плачешь",
-        "плачет",
-        "плачем"
-      ],
+      "wrongAnswers": ["плачешь", "плачет", "плачем"],
       "promptLanguage": "el"
     },
     {
@@ -6139,11 +4095,7 @@
       "type": "single-choice",
       "prompt": "κλαις",
       "correctAnswer": "плачешь",
-      "wrongAnswers": [
-        "плачу",
-        "плачет",
-        "плачем"
-      ],
+      "wrongAnswers": ["плачу", "плачет", "плачем"],
       "promptLanguage": "el"
     },
     {
@@ -6151,11 +4103,7 @@
       "type": "single-choice",
       "prompt": "κλαίει",
       "correctAnswer": "плачет",
-      "wrongAnswers": [
-        "плачу",
-        "плачешь",
-        "плачем"
-      ],
+      "wrongAnswers": ["плачу", "плачешь", "плачем"],
       "promptLanguage": "el"
     },
     {
@@ -6163,11 +4111,7 @@
       "type": "single-choice",
       "prompt": "κλαίμε",
       "correctAnswer": "плачем",
-      "wrongAnswers": [
-        "плачу",
-        "плачешь",
-        "плачет"
-      ],
+      "wrongAnswers": ["плачу", "плачешь", "плачет"],
       "promptLanguage": "el"
     },
     {
@@ -6175,11 +4119,7 @@
       "type": "single-choice",
       "prompt": "κλαίτε",
       "correctAnswer": "плачете",
-      "wrongAnswers": [
-        "плачу",
-        "плачешь",
-        "плачет"
-      ],
+      "wrongAnswers": ["плачу", "плачешь", "плачет"],
       "promptLanguage": "el"
     },
     {
@@ -6187,11 +4127,7 @@
       "type": "single-choice",
       "prompt": "κλαίνε",
       "correctAnswer": "плачут",
-      "wrongAnswers": [
-        "плачу",
-        "плачешь",
-        "плачет"
-      ],
+      "wrongAnswers": ["плачу", "плачешь", "плачет"],
       "promptLanguage": "el"
     },
     {
@@ -6199,11 +4135,7 @@
       "type": "single-choice",
       "prompt": "χορεύω",
       "correctAnswer": "танцую",
-      "wrongAnswers": [
-        "танцуешь",
-        "танцует",
-        "танцуем"
-      ],
+      "wrongAnswers": ["танцуешь", "танцует", "танцуем"],
       "promptLanguage": "el"
     },
     {
@@ -6211,11 +4143,7 @@
       "type": "single-choice",
       "prompt": "χορεύεις",
       "correctAnswer": "танцуешь",
-      "wrongAnswers": [
-        "танцую",
-        "танцует",
-        "танцуем"
-      ],
+      "wrongAnswers": ["танцую", "танцует", "танцуем"],
       "promptLanguage": "el"
     },
     {
@@ -6223,11 +4151,7 @@
       "type": "single-choice",
       "prompt": "χορεύει",
       "correctAnswer": "танцует",
-      "wrongAnswers": [
-        "танцую",
-        "танцуешь",
-        "танцуем"
-      ],
+      "wrongAnswers": ["танцую", "танцуешь", "танцуем"],
       "promptLanguage": "el"
     },
     {
@@ -6235,11 +4159,7 @@
       "type": "single-choice",
       "prompt": "χορεύουμε",
       "correctAnswer": "танцуем",
-      "wrongAnswers": [
-        "танцую",
-        "танцуешь",
-        "танцует"
-      ],
+      "wrongAnswers": ["танцую", "танцуешь", "танцует"],
       "promptLanguage": "el"
     },
     {
@@ -6247,11 +4167,7 @@
       "type": "single-choice",
       "prompt": "χορεύετε",
       "correctAnswer": "танцуете",
-      "wrongAnswers": [
-        "танцую",
-        "танцуешь",
-        "танцует"
-      ],
+      "wrongAnswers": ["танцую", "танцуешь", "танцует"],
       "promptLanguage": "el"
     },
     {
@@ -6259,11 +4175,7 @@
       "type": "single-choice",
       "prompt": "χορεύουν",
       "correctAnswer": "танцуют",
-      "wrongAnswers": [
-        "танцую",
-        "танцуешь",
-        "танцует"
-      ],
+      "wrongAnswers": ["танцую", "танцуешь", "танцует"],
       "promptLanguage": "el"
     },
     {
@@ -6271,11 +4183,7 @@
       "type": "single-choice",
       "prompt": "τραγουδάω",
       "correctAnswer": "пою",
-      "wrongAnswers": [
-        "поёшь",
-        "поёт",
-        "поём"
-      ],
+      "wrongAnswers": ["поёшь", "поёт", "поём"],
       "promptLanguage": "el"
     },
     {
@@ -6283,11 +4191,7 @@
       "type": "single-choice",
       "prompt": "τραγουδάς",
       "correctAnswer": "поёшь",
-      "wrongAnswers": [
-        "пою",
-        "поёт",
-        "поём"
-      ],
+      "wrongAnswers": ["пою", "поёт", "поём"],
       "promptLanguage": "el"
     },
     {
@@ -6295,11 +4199,7 @@
       "type": "single-choice",
       "prompt": "τραγουδάει",
       "correctAnswer": "поёт",
-      "wrongAnswers": [
-        "пою",
-        "поёшь",
-        "поём"
-      ],
+      "wrongAnswers": ["пою", "поёшь", "поём"],
       "promptLanguage": "el"
     },
     {
@@ -6307,11 +4207,7 @@
       "type": "single-choice",
       "prompt": "τραγουδάμε",
       "correctAnswer": "поём",
-      "wrongAnswers": [
-        "пою",
-        "поёшь",
-        "поёт"
-      ],
+      "wrongAnswers": ["пою", "поёшь", "поёт"],
       "promptLanguage": "el"
     },
     {
@@ -6319,11 +4215,7 @@
       "type": "single-choice",
       "prompt": "τραγουδάτε",
       "correctAnswer": "поёте",
-      "wrongAnswers": [
-        "пою",
-        "поёшь",
-        "поёт"
-      ],
+      "wrongAnswers": ["пою", "поёшь", "поёт"],
       "promptLanguage": "el"
     },
     {
@@ -6331,11 +4223,7 @@
       "type": "single-choice",
       "prompt": "τραγουδάνε",
       "correctAnswer": "поют",
-      "wrongAnswers": [
-        "пою",
-        "поёшь",
-        "поёт"
-      ],
+      "wrongAnswers": ["пою", "поёшь", "поёт"],
       "promptLanguage": "el"
     },
     {
@@ -6343,11 +4231,7 @@
       "type": "single-choice",
       "prompt": "φταίω",
       "correctAnswer": "я виноват",
-      "wrongAnswers": [
-        "ты виноват",
-        "он виноват",
-        "мы виноваты"
-      ],
+      "wrongAnswers": ["ты виноват", "он виноват", "мы виноваты"],
       "promptLanguage": "el"
     },
     {
@@ -6355,11 +4239,7 @@
       "type": "single-choice",
       "prompt": "φταις",
       "correctAnswer": "ты виноват",
-      "wrongAnswers": [
-        "я виноват",
-        "он виноват",
-        "мы виноваты"
-      ],
+      "wrongAnswers": ["я виноват", "он виноват", "мы виноваты"],
       "promptLanguage": "el"
     },
     {
@@ -6367,11 +4247,7 @@
       "type": "single-choice",
       "prompt": "φταίει",
       "correctAnswer": "он виноват",
-      "wrongAnswers": [
-        "я виноват",
-        "ты виноват",
-        "мы виноваты"
-      ],
+      "wrongAnswers": ["я виноват", "ты виноват", "мы виноваты"],
       "promptLanguage": "el"
     },
     {
@@ -6379,11 +4255,7 @@
       "type": "single-choice",
       "prompt": "φταίμε",
       "correctAnswer": "мы виноваты",
-      "wrongAnswers": [
-        "я виноват",
-        "ты виноват",
-        "он виноват"
-      ],
+      "wrongAnswers": ["я виноват", "ты виноват", "он виноват"],
       "promptLanguage": "el"
     },
     {
@@ -6391,11 +4263,7 @@
       "type": "single-choice",
       "prompt": "φταίτε",
       "correctAnswer": "вы виноваты",
-      "wrongAnswers": [
-        "я виноват",
-        "ты виноват",
-        "он виноват"
-      ],
+      "wrongAnswers": ["я виноват", "ты виноват", "он виноват"],
       "promptLanguage": "el"
     },
     {
@@ -6403,11 +4271,7 @@
       "type": "single-choice",
       "prompt": "φταίνε",
       "correctAnswer": "они виноваты",
-      "wrongAnswers": [
-        "я виноват",
-        "ты виноват",
-        "он виноват"
-      ],
+      "wrongAnswers": ["я виноват", "ты виноват", "он виноват"],
       "promptLanguage": "el"
     },
     {
@@ -6415,11 +4279,7 @@
       "type": "single-choice",
       "prompt": "προσέχω",
       "correctAnswer": "я внимателен",
-      "wrongAnswers": [
-        "ты внимателен",
-        "он внимателен",
-        "мы внимательны"
-      ],
+      "wrongAnswers": ["ты внимателен", "он внимателен", "мы внимательны"],
       "promptLanguage": "el"
     },
     {
@@ -6427,11 +4287,7 @@
       "type": "single-choice",
       "prompt": "προσέχεις",
       "correctAnswer": "ты внимателен",
-      "wrongAnswers": [
-        "я внимателен",
-        "он внимателен",
-        "мы внимательны"
-      ],
+      "wrongAnswers": ["я внимателен", "он внимателен", "мы внимательны"],
       "promptLanguage": "el"
     },
     {
@@ -6439,11 +4295,7 @@
       "type": "single-choice",
       "prompt": "προσέχει",
       "correctAnswer": "он внимателен",
-      "wrongAnswers": [
-        "я внимателен",
-        "ты внимателен",
-        "мы внимательны"
-      ],
+      "wrongAnswers": ["я внимателен", "ты внимателен", "мы внимательны"],
       "promptLanguage": "el"
     },
     {
@@ -6451,11 +4303,7 @@
       "type": "single-choice",
       "prompt": "προσέχουμε",
       "correctAnswer": "мы внимательны",
-      "wrongAnswers": [
-        "я внимателен",
-        "ты внимателен",
-        "он внимателен"
-      ],
+      "wrongAnswers": ["я внимателен", "ты внимателен", "он внимателен"],
       "promptLanguage": "el"
     },
     {
@@ -6463,11 +4311,7 @@
       "type": "single-choice",
       "prompt": "προσέχετε",
       "correctAnswer": "вы внимательны",
-      "wrongAnswers": [
-        "я внимателен",
-        "ты внимателен",
-        "он внимателен"
-      ],
+      "wrongAnswers": ["я внимателен", "ты внимателен", "он внимателен"],
       "promptLanguage": "el"
     },
     {
@@ -6475,11 +4319,7 @@
       "type": "single-choice",
       "prompt": "προσέχουν",
       "correctAnswer": "они внимательны",
-      "wrongAnswers": [
-        "я внимателен",
-        "ты внимателен",
-        "он внимателен"
-      ],
+      "wrongAnswers": ["я внимателен", "ты внимателен", "он внимателен"],
       "promptLanguage": "el"
     },
     {
@@ -6487,11 +4327,7 @@
       "type": "single-choice",
       "prompt": "δοκιμάζω",
       "correctAnswer": "пробую",
-      "wrongAnswers": [
-        "пробуешь",
-        "пробует",
-        "пробуем"
-      ],
+      "wrongAnswers": ["пробуешь", "пробует", "пробуем"],
       "promptLanguage": "el"
     },
     {
@@ -6499,11 +4335,7 @@
       "type": "single-choice",
       "prompt": "δοκιμάζεις",
       "correctAnswer": "пробуешь",
-      "wrongAnswers": [
-        "пробую",
-        "пробует",
-        "пробуем"
-      ],
+      "wrongAnswers": ["пробую", "пробует", "пробуем"],
       "promptLanguage": "el"
     },
     {
@@ -6511,11 +4343,7 @@
       "type": "single-choice",
       "prompt": "δοκιμάζει",
       "correctAnswer": "пробует",
-      "wrongAnswers": [
-        "пробую",
-        "пробуешь",
-        "пробуем"
-      ],
+      "wrongAnswers": ["пробую", "пробуешь", "пробуем"],
       "promptLanguage": "el"
     },
     {
@@ -6523,11 +4351,7 @@
       "type": "single-choice",
       "prompt": "δοκιμάζουμε",
       "correctAnswer": "пробуем",
-      "wrongAnswers": [
-        "пробую",
-        "пробуешь",
-        "пробует"
-      ],
+      "wrongAnswers": ["пробую", "пробуешь", "пробует"],
       "promptLanguage": "el"
     },
     {
@@ -6535,11 +4359,7 @@
       "type": "single-choice",
       "prompt": "δοκιμάζετε",
       "correctAnswer": "пробуете",
-      "wrongAnswers": [
-        "пробую",
-        "пробуешь",
-        "пробует"
-      ],
+      "wrongAnswers": ["пробую", "пробуешь", "пробует"],
       "promptLanguage": "el"
     },
     {
@@ -6547,11 +4367,7 @@
       "type": "single-choice",
       "prompt": "δοκιμάζουν",
       "correctAnswer": "пробуют",
-      "wrongAnswers": [
-        "пробую",
-        "пробуешь",
-        "пробует"
-      ],
+      "wrongAnswers": ["пробую", "пробуешь", "пробует"],
       "promptLanguage": "el"
     },
     {
@@ -6559,11 +4375,7 @@
       "type": "single-choice",
       "prompt": "χρησιμοποιώ",
       "correctAnswer": "использую",
-      "wrongAnswers": [
-        "используешь",
-        "использует",
-        "используем"
-      ],
+      "wrongAnswers": ["используешь", "использует", "используем"],
       "promptLanguage": "el"
     },
     {
@@ -6571,11 +4383,7 @@
       "type": "single-choice",
       "prompt": "χρησιμοποιείς",
       "correctAnswer": "используешь",
-      "wrongAnswers": [
-        "использую",
-        "использует",
-        "используем"
-      ],
+      "wrongAnswers": ["использую", "использует", "используем"],
       "promptLanguage": "el"
     },
     {
@@ -6583,11 +4391,7 @@
       "type": "single-choice",
       "prompt": "χρησιμοποιεί",
       "correctAnswer": "использует",
-      "wrongAnswers": [
-        "использую",
-        "используешь",
-        "используем"
-      ],
+      "wrongAnswers": ["использую", "используешь", "используем"],
       "promptLanguage": "el"
     },
     {
@@ -6595,11 +4399,7 @@
       "type": "single-choice",
       "prompt": "χρησιμοποιούμε",
       "correctAnswer": "используем",
-      "wrongAnswers": [
-        "использую",
-        "используешь",
-        "использует"
-      ],
+      "wrongAnswers": ["использую", "используешь", "использует"],
       "promptLanguage": "el"
     },
     {
@@ -6607,11 +4407,7 @@
       "type": "single-choice",
       "prompt": "χρησιμοποιείτε",
       "correctAnswer": "используете",
-      "wrongAnswers": [
-        "использую",
-        "используешь",
-        "использует"
-      ],
+      "wrongAnswers": ["использую", "используешь", "использует"],
       "promptLanguage": "el"
     },
     {
@@ -6619,11 +4415,7 @@
       "type": "single-choice",
       "prompt": "χρησιμοποιούν",
       "correctAnswer": "используют",
-      "wrongAnswers": [
-        "использую",
-        "используешь",
-        "использует"
-      ],
+      "wrongAnswers": ["использую", "используешь", "использует"],
       "promptLanguage": "el"
     },
     {
@@ -6631,11 +4423,7 @@
       "type": "single-choice",
       "prompt": "χτίζω",
       "correctAnswer": "строю",
-      "wrongAnswers": [
-        "строишь",
-        "строит",
-        "строим"
-      ],
+      "wrongAnswers": ["строишь", "строит", "строим"],
       "promptLanguage": "el"
     },
     {
@@ -6643,11 +4431,7 @@
       "type": "single-choice",
       "prompt": "χτίζεις",
       "correctAnswer": "строишь",
-      "wrongAnswers": [
-        "строю",
-        "строит",
-        "строим"
-      ],
+      "wrongAnswers": ["строю", "строит", "строим"],
       "promptLanguage": "el"
     },
     {
@@ -6655,11 +4439,7 @@
       "type": "single-choice",
       "prompt": "χτίζει",
       "correctAnswer": "строит",
-      "wrongAnswers": [
-        "строю",
-        "строишь",
-        "строим"
-      ],
+      "wrongAnswers": ["строю", "строишь", "строим"],
       "promptLanguage": "el"
     },
     {
@@ -6667,11 +4447,7 @@
       "type": "single-choice",
       "prompt": "χτίζουμε",
       "correctAnswer": "строим",
-      "wrongAnswers": [
-        "строю",
-        "строишь",
-        "строит"
-      ],
+      "wrongAnswers": ["строю", "строишь", "строит"],
       "promptLanguage": "el"
     },
     {
@@ -6679,11 +4455,7 @@
       "type": "single-choice",
       "prompt": "χτίζετε",
       "correctAnswer": "строите",
-      "wrongAnswers": [
-        "строю",
-        "строишь",
-        "строит"
-      ],
+      "wrongAnswers": ["строю", "строишь", "строит"],
       "promptLanguage": "el"
     },
     {
@@ -6691,11 +4463,7 @@
       "type": "single-choice",
       "prompt": "χτίζουν",
       "correctAnswer": "строят",
-      "wrongAnswers": [
-        "строю",
-        "строишь",
-        "строит"
-      ],
+      "wrongAnswers": ["строю", "строишь", "строит"],
       "promptLanguage": "el"
     },
     {
@@ -6703,11 +4471,7 @@
       "type": "single-choice",
       "prompt": "αλλάζω",
       "correctAnswer": "меняю",
-      "wrongAnswers": [
-        "меняешь",
-        "меняет",
-        "меняем"
-      ],
+      "wrongAnswers": ["меняешь", "меняет", "меняем"],
       "promptLanguage": "el"
     },
     {
@@ -6715,11 +4479,7 @@
       "type": "single-choice",
       "prompt": "αλλάζεις",
       "correctAnswer": "меняешь",
-      "wrongAnswers": [
-        "меняю",
-        "меняет",
-        "меняем"
-      ],
+      "wrongAnswers": ["меняю", "меняет", "меняем"],
       "promptLanguage": "el"
     },
     {
@@ -6727,11 +4487,7 @@
       "type": "single-choice",
       "prompt": "αλλάζει",
       "correctAnswer": "меняет",
-      "wrongAnswers": [
-        "меняю",
-        "меняешь",
-        "меняем"
-      ],
+      "wrongAnswers": ["меняю", "меняешь", "меняем"],
       "promptLanguage": "el"
     },
     {
@@ -6739,11 +4495,7 @@
       "type": "single-choice",
       "prompt": "αλλάζουμε",
       "correctAnswer": "меняем",
-      "wrongAnswers": [
-        "меняю",
-        "меняешь",
-        "меняет"
-      ],
+      "wrongAnswers": ["меняю", "меняешь", "меняет"],
       "promptLanguage": "el"
     },
     {
@@ -6751,11 +4503,7 @@
       "type": "single-choice",
       "prompt": "αλλάζετε",
       "correctAnswer": "меняете",
-      "wrongAnswers": [
-        "меняю",
-        "меняешь",
-        "меняет"
-      ],
+      "wrongAnswers": ["меняю", "меняешь", "меняет"],
       "promptLanguage": "el"
     },
     {
@@ -6763,11 +4511,7 @@
       "type": "single-choice",
       "prompt": "αλλάζουν",
       "correctAnswer": "меняют",
-      "wrongAnswers": [
-        "меняю",
-        "меняешь",
-        "меняет"
-      ],
+      "wrongAnswers": ["меняю", "меняешь", "меняет"],
       "promptLanguage": "el"
     },
     {
@@ -6775,11 +4519,7 @@
       "type": "single-choice",
       "prompt": "νοικιάζω",
       "correctAnswer": "арендую",
-      "wrongAnswers": [
-        "арендуешь",
-        "арендует",
-        "арендуем"
-      ],
+      "wrongAnswers": ["арендуешь", "арендует", "арендуем"],
       "promptLanguage": "el"
     },
     {
@@ -6787,11 +4527,7 @@
       "type": "single-choice",
       "prompt": "νοικιάζεις",
       "correctAnswer": "арендуешь",
-      "wrongAnswers": [
-        "арендую",
-        "арендует",
-        "арендуем"
-      ],
+      "wrongAnswers": ["арендую", "арендует", "арендуем"],
       "promptLanguage": "el"
     },
     {
@@ -6799,11 +4535,7 @@
       "type": "single-choice",
       "prompt": "νοικιάζει",
       "correctAnswer": "арендует",
-      "wrongAnswers": [
-        "арендую",
-        "арендуешь",
-        "арендуем"
-      ],
+      "wrongAnswers": ["арендую", "арендуешь", "арендуем"],
       "promptLanguage": "el"
     },
     {
@@ -6811,11 +4543,7 @@
       "type": "single-choice",
       "prompt": "νοικιάζουμε",
       "correctAnswer": "арендуем",
-      "wrongAnswers": [
-        "арендую",
-        "арендуешь",
-        "арендует"
-      ],
+      "wrongAnswers": ["арендую", "арендуешь", "арендует"],
       "promptLanguage": "el"
     },
     {
@@ -6823,11 +4551,7 @@
       "type": "single-choice",
       "prompt": "νοικιάζετε",
       "correctAnswer": "арендуете",
-      "wrongAnswers": [
-        "арендую",
-        "арендуешь",
-        "арендует"
-      ],
+      "wrongAnswers": ["арендую", "арендуешь", "арендует"],
       "promptLanguage": "el"
     },
     {
@@ -6835,11 +4559,7 @@
       "type": "single-choice",
       "prompt": "νοικιάζουν",
       "correctAnswer": "арендуют",
-      "wrongAnswers": [
-        "арендую",
-        "арендуешь",
-        "арендует"
-      ],
+      "wrongAnswers": ["арендую", "арендуешь", "арендует"],
       "promptLanguage": "el"
     },
     {
@@ -6847,11 +4567,7 @@
       "type": "single-choice",
       "prompt": "κοστίζω",
       "correctAnswer": "стою",
-      "wrongAnswers": [
-        "стоишь",
-        "стоит",
-        "стоим"
-      ],
+      "wrongAnswers": ["стоишь", "стоит", "стоим"],
       "promptLanguage": "el"
     },
     {
@@ -6859,11 +4575,7 @@
       "type": "single-choice",
       "prompt": "κοστίζεις",
       "correctAnswer": "стоишь",
-      "wrongAnswers": [
-        "стою",
-        "стоит",
-        "стоим"
-      ],
+      "wrongAnswers": ["стою", "стоит", "стоим"],
       "promptLanguage": "el"
     },
     {
@@ -6871,11 +4583,7 @@
       "type": "single-choice",
       "prompt": "κοστίζει",
       "correctAnswer": "стоит",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоим"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоим"],
       "promptLanguage": "el"
     },
     {
@@ -6883,11 +4591,7 @@
       "type": "single-choice",
       "prompt": "κοστίζουμε",
       "correctAnswer": "стоим",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоит"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоит"],
       "promptLanguage": "el"
     },
     {
@@ -6895,11 +4599,7 @@
       "type": "single-choice",
       "prompt": "κοστίζετε",
       "correctAnswer": "стоите",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоит"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоит"],
       "promptLanguage": "el"
     },
     {
@@ -6907,11 +4607,7 @@
       "type": "single-choice",
       "prompt": "κοστίζουν",
       "correctAnswer": "стоят",
-      "wrongAnswers": [
-        "стою",
-        "стоишь",
-        "стоит"
-      ],
+      "wrongAnswers": ["стою", "стоишь", "стоит"],
       "promptLanguage": "el"
     },
     {
@@ -6919,11 +4615,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζω",
       "correctAnswer": "знакомлюсь",
-      "wrongAnswers": [
-        "знакомишься",
-        "знакомится",
-        "знакомимся"
-      ],
+      "wrongAnswers": ["знакомишься", "знакомится", "знакомимся"],
       "promptLanguage": "el"
     },
     {
@@ -6931,11 +4623,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζεις",
       "correctAnswer": "знакомишься",
-      "wrongAnswers": [
-        "знакомлюсь",
-        "знакомится",
-        "знакомимся"
-      ],
+      "wrongAnswers": ["знакомлюсь", "знакомится", "знакомимся"],
       "promptLanguage": "el"
     },
     {
@@ -6943,11 +4631,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζει",
       "correctAnswer": "знакомится",
-      "wrongAnswers": [
-        "знакомлюсь",
-        "знакомишься",
-        "знакомимся"
-      ],
+      "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомимся"],
       "promptLanguage": "el"
     },
     {
@@ -6955,11 +4639,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζουμε",
       "correctAnswer": "знакомимся",
-      "wrongAnswers": [
-        "знакомлюсь",
-        "знакомишься",
-        "знакомится"
-      ],
+      "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомится"],
       "promptLanguage": "el"
     },
     {
@@ -6967,11 +4647,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζετε",
       "correctAnswer": "знакомитесь",
-      "wrongAnswers": [
-        "знакомлюсь",
-        "знакомишься",
-        "знакомится"
-      ],
+      "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомится"],
       "promptLanguage": "el"
     },
     {
@@ -6979,11 +4655,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζουν",
       "correctAnswer": "знакомятся",
-      "wrongAnswers": [
-        "знакомлюсь",
-        "знакомишься",
-        "знакомится"
-      ],
+      "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомится"],
       "promptLanguage": "el"
     },
     {
@@ -6991,11 +4663,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζω",
       "correctAnswer": "знаю",
-      "wrongAnswers": [
-        "знаешь",
-        "знает",
-        "знаем"
-      ],
+      "wrongAnswers": ["знаешь", "знает", "знаем"],
       "promptLanguage": "el"
     },
     {
@@ -7003,11 +4671,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζεις",
       "correctAnswer": "знаешь",
-      "wrongAnswers": [
-        "знаю",
-        "знает",
-        "знаем"
-      ],
+      "wrongAnswers": ["знаю", "знает", "знаем"],
       "promptLanguage": "el"
     },
     {
@@ -7015,11 +4679,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζει",
       "correctAnswer": "знает",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знаем"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знаем"],
       "promptLanguage": "el"
     },
     {
@@ -7027,11 +4687,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζουμε",
       "correctAnswer": "знаем",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знает"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знает"],
       "promptLanguage": "el"
     },
     {
@@ -7039,11 +4695,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζετε",
       "correctAnswer": "знаете",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знает"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знает"],
       "promptLanguage": "el"
     },
     {
@@ -7051,11 +4703,7 @@
       "type": "single-choice",
       "prompt": "γνωρίζουν",
       "correctAnswer": "знают",
-      "wrongAnswers": [
-        "знаю",
-        "знаешь",
-        "знает"
-      ],
+      "wrongAnswers": ["знаю", "знаешь", "знает"],
       "promptLanguage": "el"
     },
     {
@@ -7063,11 +4711,7 @@
       "type": "single-choice",
       "prompt": "συναντάω",
       "correctAnswer": "встречаю",
-      "wrongAnswers": [
-        "встречаешь",
-        "встречает",
-        "встречаем"
-      ],
+      "wrongAnswers": ["встречаешь", "встречает", "встречаем"],
       "promptLanguage": "el"
     },
     {
@@ -7075,11 +4719,7 @@
       "type": "single-choice",
       "prompt": "συναντάς",
       "correctAnswer": "встречаешь",
-      "wrongAnswers": [
-        "встречаю",
-        "встречает",
-        "встречаем"
-      ],
+      "wrongAnswers": ["встречаю", "встречает", "встречаем"],
       "promptLanguage": "el"
     },
     {
@@ -7087,11 +4727,7 @@
       "type": "single-choice",
       "prompt": "συναντάει",
       "correctAnswer": "встречает",
-      "wrongAnswers": [
-        "встречаю",
-        "встречаешь",
-        "встречаем"
-      ],
+      "wrongAnswers": ["встречаю", "встречаешь", "встречаем"],
       "promptLanguage": "el"
     },
     {
@@ -7099,11 +4735,7 @@
       "type": "single-choice",
       "prompt": "συναντάμε",
       "correctAnswer": "встречаем",
-      "wrongAnswers": [
-        "встречаю",
-        "встречаешь",
-        "встречает"
-      ],
+      "wrongAnswers": ["встречаю", "встречаешь", "встречает"],
       "promptLanguage": "el"
     },
     {
@@ -7111,11 +4743,7 @@
       "type": "single-choice",
       "prompt": "συναντάτε",
       "correctAnswer": "встречаете",
-      "wrongAnswers": [
-        "встречаю",
-        "встречаешь",
-        "встречает"
-      ],
+      "wrongAnswers": ["встречаю", "встречаешь", "встречает"],
       "promptLanguage": "el"
     },
     {
@@ -7123,11 +4751,7 @@
       "type": "single-choice",
       "prompt": "συναντάνε",
       "correctAnswer": "встречают",
-      "wrongAnswers": [
-        "встречаю",
-        "встречаешь",
-        "встречает"
-      ],
+      "wrongAnswers": ["встречаю", "встречаешь", "встречает"],
       "promptLanguage": "el"
     }
   ]

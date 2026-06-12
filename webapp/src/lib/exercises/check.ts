@@ -5,7 +5,7 @@ import type {
   ExerciseCheckResult,
   InputExercise,
   SingleChoiceExercise,
-  TextInputExercise
+  TextInputExercise,
 } from "../../types/exercises";
 
 function checkSingleChoiceAnswer(
@@ -15,7 +15,7 @@ function checkSingleChoiceAnswer(
   const options = [exercise.correctAnswer, ...exercise.wrongAnswers];
 
   return {
-    correct: options[answer.selectedIndex] === exercise.correctAnswer
+    correct: options[answer.selectedIndex] === exercise.correctAnswer,
   };
 }
 
@@ -36,9 +36,7 @@ export function checkInputExerciseAnswer(
   answer: Extract<ExerciseAnswer, { type: "input" }>
 ): ExerciseCheckResult {
   return {
-    correct:
-      normalizeExerciseText(answer.value) ===
-      normalizeExerciseText(exercise.correctAnswer)
+    correct: normalizeExerciseText(answer.value) === normalizeExerciseText(exercise.correctAnswer),
   };
 }
 

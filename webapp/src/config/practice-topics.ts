@@ -2,7 +2,7 @@ import type { InputPracticeTopicDefinition } from "../types/practice-topic.ts";
 
 export const singleChoicePracticeContent = {
   indexUrl: `${import.meta.env.BASE_URL}content/practice/single_choice/index.json`,
-  baseUrl: `${import.meta.env.BASE_URL}content/practice/single_choice/`
+  baseUrl: `${import.meta.env.BASE_URL}content/practice/single_choice/`,
 } as const;
 
 export const inputPracticeTopics = {
@@ -11,10 +11,8 @@ export const inputPracticeTopics = {
     kind: "input",
     title: "Спряжение глаголов",
     subtitle: "Введите правильную форму слова",
-    url: `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`
-  }
+    url: `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`,
+  },
 } as const satisfies Record<string, InputPracticeTopicDefinition>;
 
-export const inputPracticeTopicList = [
-  inputPracticeTopics.alphaTypeVerbConjugation
-] as const;
+export const inputPracticeTopicList = [inputPracticeTopics.alphaTypeVerbConjugation] as const;

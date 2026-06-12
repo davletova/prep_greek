@@ -5,7 +5,7 @@ import type {
   InputExercise,
   NonEmptyArray,
   SingleChoiceExercise,
-  TextInputExercise
+  TextInputExercise,
 } from "../types/exercises";
 
 const promptLanguageSchema = z.enum(["el", "ru"]);
@@ -15,7 +15,7 @@ const baseExerciseSchema = z.object({
   prompt: z.string(),
   promptLanguage: promptLanguageSchema.optional(),
   translation: z.string().optional(),
-  explanation: z.string().optional()
+  explanation: z.string().optional(),
 });
 
 const wrongAnswersSchema = z
@@ -27,41 +27,39 @@ export const singleChoiceExerciseSchema: z.ZodType<SingleChoiceExercise> =
   baseExerciseSchema.extend({
     type: z.literal("single-choice"),
     correctAnswer: z.string(),
-    wrongAnswers: wrongAnswersSchema
+    wrongAnswers: wrongAnswersSchema,
   });
 
-export const textInputExerciseSchema: z.ZodType<TextInputExercise> =
-  baseExerciseSchema.extend({
-    type: z.literal("text-input"),
-    correctAnswers: z.array(z.string()).min(1)
-  });
+export const textInputExerciseSchema: z.ZodType<TextInputExercise> = baseExerciseSchema.extend({
+  type: z.literal("text-input"),
+  correctAnswers: z.array(z.string()).min(1),
+});
 
 export const inputExerciseSchema: z.ZodType<InputExercise> = baseExerciseSchema.extend({
   type: z.literal("input"),
   correctAnswer: z.string(),
-  context: z.string().optional()
+  context: z.string().optional(),
 });
 
 export const exerciseSchema: z.ZodType<Exercise> = z.union([
   singleChoiceExerciseSchema,
   textInputExerciseSchema,
-  inputExerciseSchema
+  inputExerciseSchema,
 ]);
 
 const exerciseCollectionSettingsSchema = z.object({
-  showTranslationHint: z.boolean().optional()
+  showTranslationHint: z.boolean().optional(),
 });
 
 export const exerciseCollectionSchema: z.ZodType<ExerciseCollection> = z.object({
   title: z.string(),
   subtitle: z.string().optional(),
   settings: exerciseCollectionSettingsSchema.optional(),
-  items: z.array(exerciseSchema)
+  items: z.array(exerciseSchema),
 });
 
 export const singleChoiceExerciseArraySchema = z.array(singleChoiceExerciseSchema);
 export const inputExerciseArraySchema = z.array(inputExerciseSchema);
-export const inputExerciseCollectionSchema: z.ZodType<{ items: InputExercise[] }> =
-  z.object({
-    items: inputExerciseArraySchema
-  });
+export const inputExerciseCollectionSchema: z.ZodType<{ items: InputExercise[] }> = z.object({
+  items: inputExerciseArraySchema,
+});

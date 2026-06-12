@@ -29,7 +29,7 @@ export default function AppScreenRenderer({
   theory,
   practice,
   onExit,
-  onSpeak
+  onSpeak,
 }: AppScreenRendererProps) {
   return (
     <div className={`app ${isHomeScreen ? "" : "app--detail"}`}>

@@ -15,7 +15,7 @@ export default function ConfirmSheet({
   cancelLabel = "Отмена",
   confirmLabel,
   onCancel,
-  onConfirm
+  onConfirm,
 }: ConfirmSheetProps) {
   return (
     <div className="modal-overlay" role="presentation">

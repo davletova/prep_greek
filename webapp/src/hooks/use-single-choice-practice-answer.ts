@@ -60,6 +60,6 @@ export function useSingleChoicePracticeAnswer(
     hasAnswered,
     selectAnswer,
     resetAnswer,
-    getAnswerClassName
+    getAnswerClassName,
   };
 }

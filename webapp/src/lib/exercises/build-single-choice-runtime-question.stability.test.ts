@@ -8,7 +8,7 @@ const exercise: SingleChoiceExercise = {
   prompt: "Γεια",
   promptLanguage: "el",
   correctAnswer: "Привет",
-  wrongAnswers: ["Пока", "Спасибо", "Извините"]
+  wrongAnswers: ["Пока", "Спасибо", "Извините"],
 };
 
 describe("buildSingleChoiceRuntimeQuestion", () => {

@@ -13,7 +13,7 @@ export default function PracticeScreenShell({
   title,
   mainClassName,
   onClose,
-  children
+  children,
 }: PracticeScreenShellProps) {
   return (
     <>

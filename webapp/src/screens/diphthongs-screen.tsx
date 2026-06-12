@@ -1,12 +1,7 @@
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import type { DiphthongsContent } from "../types/content";
-import type {
-  IndexedNextHandler,
-  LoadableState,
-  SpeakHandler,
-  VoidHandler
-} from "../types/ui";
+import type { IndexedNextHandler, LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
 interface DiphthongsScreenProps {
   diphthongsState: LoadableState<DiphthongsContent>;
@@ -25,7 +20,7 @@ export default function DiphthongsScreen({
   onPrev,
   onNext,
   onRetry,
-  onSpeak
+  onSpeak,
 }: DiphthongsScreenProps) {
   const { data: diphthongs, status, error } = diphthongsState;
   const item = diphthongs?.items?.[diphthongIndex];
@@ -35,16 +30,9 @@ export default function DiphthongsScreen({
     <>
       <header className="app__header app__header--compact">
         <div>
-          <h1 className="app__title app__title--small">
-            Контекстные правила чтения
-          </h1>
+          <h1 className="app__title app__title--small">Контекстные правила чтения</h1>
         </div>
-        <button
-          className="close-button"
-          type="button"
-          onClick={onClose}
-          aria-label="Закрыть"
-        >
+        <button className="close-button" type="button" onClick={onClose} aria-label="Закрыть">
           ×
         </button>
       </header>

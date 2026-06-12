@@ -37,6 +37,6 @@ export function useInputPracticeTopicState(
   return {
     selectedTopic,
     selectedTopicState,
-    retrySelectedTopic
+    retrySelectedTopic,
   };
 }

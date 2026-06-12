@@ -31,14 +31,8 @@ export default function InputPracticeTopicScreen({
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
   const speech = useSpeechPlayback<"prompt">(onSpeak);
   const { clear: clearSpeech, stop: stopSpeech } = speech;
-  const {
-    answerValue,
-    setAnswerValue,
-    hasChecked,
-    canCheck,
-    isCorrect,
-    checkAnswer
-  } = useInputPracticeAnswer(exercise, clearSpeech);
+  const { answerValue, setAnswerValue, hasChecked, canCheck, isCorrect, checkAnswer } =
+    useInputPracticeAnswer(exercise, clearSpeech);
 
   const handlePlayPrompt = async () => {
     if (!exercise || !hasChecked || speech.isSpeaking("prompt")) {
@@ -63,66 +57,57 @@ export default function InputPracticeTopicScreen({
   };
 
   return (
-    <PracticeScreenShell
-      title={title}
-      mainClassName="input-practice-flow"
-      onClose={handleClose}
-    >
-        {topicState.status === "loading" ? (
-          showLoading ? (
-            <PracticeLoadingState
-              status={topicState.status}
-              error={topicState.error}
-              loadingText="Подготавливаем задание для ввода ответа."
-              onRetry={onRetry}
-            />
-          ) : null
-        ) : topicState.status === "error" ? (
+    <PracticeScreenShell title={title} mainClassName="input-practice-flow" onClose={handleClose}>
+      {topicState.status === "loading" ? (
+        showLoading ? (
           <PracticeLoadingState
             status={topicState.status}
             error={topicState.error}
             loadingText="Подготавливаем задание для ввода ответа."
             onRetry={onRetry}
           />
-        ) : exercises.length === 0 || !exercise ? (
-          <PracticeEmptyState
-            title="Нет данных для предпросмотра"
-            text="Не удалось найти упражнение input в файле."
-          />
-        ) : (
-          <>
-            <div className="input-practice-flow__body">
-              <InputExerciseCard
-                exercise={exercise}
-                answerValue={answerValue}
-                hasChecked={hasChecked}
-                isCorrect={isCorrect}
-                isSpeakingPrompt={speech.isSpeaking("prompt")}
-                onAnswerChange={setAnswerValue}
-                onPlayPrompt={handlePlayPrompt}
-              />
-            </div>
+        ) : null
+      ) : topicState.status === "error" ? (
+        <PracticeLoadingState
+          status={topicState.status}
+          error={topicState.error}
+          loadingText="Подготавливаем задание для ввода ответа."
+          onRetry={onRetry}
+        />
+      ) : exercises.length === 0 || !exercise ? (
+        <PracticeEmptyState
+          title="Нет данных для предпросмотра"
+          text="Не удалось найти упражнение input в файле."
+        />
+      ) : (
+        <>
+          <div className="input-practice-flow__body">
+            <InputExerciseCard
+              exercise={exercise}
+              answerValue={answerValue}
+              hasChecked={hasChecked}
+              isCorrect={isCorrect}
+              isSpeakingPrompt={speech.isSpeaking("prompt")}
+              onAnswerChange={setAnswerValue}
+              onPlayPrompt={handlePlayPrompt}
+            />
+          </div>
 
-            <div className="input-practice-flow__actions">
-              <button
-                className="nav-button"
-                type="button"
-                onClick={checkAnswer}
-                disabled={!canCheck}
-              >
-                Проверить
-              </button>
-              <button
-                className="nav-button nav-button--primary"
-                type="button"
-                onClick={handleNextQuestion}
-                disabled={!hasChecked}
-              >
-                Далее
-              </button>
-            </div>
-          </>
-        )}
+          <div className="input-practice-flow__actions">
+            <button className="nav-button" type="button" onClick={checkAnswer} disabled={!canCheck}>
+              Проверить
+            </button>
+            <button
+              className="nav-button nav-button--primary"
+              type="button"
+              onClick={handleNextQuestion}
+              disabled={!hasChecked}
+            >
+              Далее
+            </button>
+          </div>
+        </>
+      )}
     </PracticeScreenShell>
   );
 }

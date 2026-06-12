@@ -2,11 +2,7 @@ import { useMemo } from "react";
 import ContentState from "../components/content-state.tsx";
 import PlaybackIcon from "../components/playback-icon.tsx";
 import type { AlphabetContent, AlphabetLetter } from "../types/content";
-import type {
-  LoadableState,
-  SpeakHandler,
-  VoidHandler
-} from "../types/ui";
+import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
 const PAGE_SIZE = 5;
 
@@ -27,7 +23,7 @@ export default function AlphabetScreen({
   onPrev,
   onNext,
   onRetry,
-  onSpeak
+  onSpeak,
 }: AlphabetScreenProps) {
   const { data: alphabet, status, error } = alphabetState;
   const alphabetLetters = alphabet?.letters;
@@ -52,13 +48,9 @@ export default function AlphabetScreen({
     const sigmaPage = letters.slice(15, 19);
     const last = letters.slice(19);
 
-    return [
-      first.slice(0, 5),
-      first.slice(5, 10),
-      first.slice(10, 15),
-      sigmaPage,
-      last
-    ].filter((page) => page.length > 0);
+    return [first.slice(0, 5), first.slice(5, 10), first.slice(10, 15), sigmaPage, last].filter(
+      (page) => page.length > 0
+    );
   }, [alphabetLetters]);
 
   const totalPages = Math.max(1, pages.length || 1);
@@ -68,16 +60,9 @@ export default function AlphabetScreen({
     <>
       <header className="app__header app__header--compact">
         <div>
-          <h1 className="app__title app__title--small">
-            {alphabet?.title || "Греческий алфавит"}
-          </h1>
+          <h1 className="app__title app__title--small">{alphabet?.title || "Греческий алфавит"}</h1>
         </div>
-        <button
-          className="close-button"
-          type="button"
-          onClick={onClose}
-          aria-label="Закрыть"
-        >
+        <button className="close-button" type="button" onClick={onClose} aria-label="Закрыть">
           ×
         </button>
       </header>
@@ -139,12 +124,7 @@ export default function AlphabetScreen({
         )}
 
         <div className="alphabet__nav">
-          <button
-            className="nav-button"
-            type="button"
-            onClick={onPrev}
-            disabled={pageIndex === 0}
-          >
+          <button className="nav-button" type="button" onClick={onPrev} disabled={pageIndex === 0}>
             Назад
           </button>
           <button

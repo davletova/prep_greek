@@ -95,7 +95,7 @@ export function usePracticeStatsSummary(): PracticeStatsSummaryState {
     resetError,
     openResetConfirm,
     closeResetConfirm,
-    resetStats
+    resetStats,
   };
 }
 

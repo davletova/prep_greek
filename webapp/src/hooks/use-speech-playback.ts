@@ -2,7 +2,9 @@ import { useCallback, useRef, useState } from "react";
 import { cancelGreekSpeech } from "../lib/speech.ts";
 import type { SpeakHandler } from "../types/ui";
 
-export function useSpeechPlayback<Key extends string | number>(onSpeak: SpeakHandler): {
+export function useSpeechPlayback<Key extends string | number>(
+  onSpeak: SpeakHandler
+): {
   activeKey: Key | null;
   isSpeaking: (key: Key) => boolean;
   play: (key: Key, text: string) => Promise<void>;
@@ -50,6 +52,6 @@ export function useSpeechPlayback<Key extends string | number>(onSpeak: SpeakHan
     isSpeaking,
     play,
     clear,
-    stop
+    stop,
   };
 }

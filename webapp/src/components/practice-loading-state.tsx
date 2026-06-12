@@ -12,7 +12,7 @@ export default function PracticeLoadingState({
   status,
   error,
   loadingText,
-  onRetry
+  onRetry,
 }: PracticeLoadingStateProps) {
   if (status === "loading") {
     return <ContentState title="Загружаем упражнения…" text={loadingText} />;

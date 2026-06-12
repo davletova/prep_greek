@@ -18,13 +18,15 @@ export default function InputExerciseCard({
   isCorrect,
   isSpeakingPrompt,
   onAnswerChange,
-  onPlayPrompt
+  onPlayPrompt,
 }: InputExerciseCardProps) {
   return (
     <section className="practice-card input-practice-card">
       <div className="input-practice-card__prompt-block">
         <p className="practice-card__question">{exercise.prompt}</p>
-        {exercise.context ? <p className="input-practice-card__context">{exercise.context}</p> : null}
+        {exercise.context ? (
+          <p className="input-practice-card__context">{exercise.context}</p>
+        ) : null}
       </div>
 
       <button

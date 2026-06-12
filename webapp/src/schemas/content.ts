@@ -9,9 +9,9 @@ export const alphabetContentSchema = z.object({
       name: z.string(),
       sound_ru: z.string(),
       note: z.string().optional(),
-      example: z.string().optional()
+      example: z.string().optional(),
     })
-  )
+  ),
 });
 
 export const diphthongsContentSchema = z.object({
@@ -23,9 +23,9 @@ export const diphthongsContentSchema = z.object({
       examples: z.array(
         z.object({
           word: z.string(),
-          ru: z.string()
+          ru: z.string(),
         })
-      )
+      ),
     })
-  )
+  ),
 });

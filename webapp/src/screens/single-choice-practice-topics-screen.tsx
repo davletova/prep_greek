@@ -13,7 +13,7 @@ export default function SingleChoicePracticeTopicsScreen({
   topicsState,
   onClose,
   onRetry,
-  onOpenTopic
+  onOpenTopic,
 }: SingleChoicePracticeTopicsScreenProps) {
   return (
     <TopicListScreen

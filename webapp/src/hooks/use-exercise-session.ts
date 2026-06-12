@@ -10,10 +10,7 @@ interface ExerciseSession<T> {
 }
 
 export function useExerciseSession<T>(items: readonly T[]): ExerciseSession<T> {
-  const shuffledIndices = useMemo(
-    () => createShuffledIndices(items.length),
-    [items]
-  );
+  const shuffledIndices = useMemo(() => createShuffledIndices(items.length), [items]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -22,7 +19,7 @@ export function useExerciseSession<T>(items: readonly T[]): ExerciseSession<T> {
 
   const currentShuffledIndex = shuffledIndices[currentIndex];
   const currentItem =
-    currentShuffledIndex === undefined ? null : items[currentShuffledIndex] ?? null;
+    currentShuffledIndex === undefined ? null : (items[currentShuffledIndex] ?? null);
 
   const next = () => {
     if (shuffledIndices.length === 0) {
@@ -37,6 +34,6 @@ export function useExerciseSession<T>(items: readonly T[]): ExerciseSession<T> {
     currentIndex,
     hasItems: shuffledIndices.length > 0,
     shuffledIndices,
-    next
+    next,
   };
 }

@@ -13,13 +13,11 @@ export default function ContentState({
   text,
   actionLabel,
   onAction,
-  tone = "default"
+  tone = "default",
 }: ContentStateProps) {
   return (
     <div
-      className={`content-state ${
-        tone === "error" ? "content-state--error" : ""
-      }`}
+      className={`content-state ${tone === "error" ? "content-state--error" : ""}`}
       role="status"
       aria-live="polite"
     >

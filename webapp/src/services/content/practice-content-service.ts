@@ -1,13 +1,13 @@
 import { inputPracticeTopics, singleChoicePracticeContent } from "../../config/practice-topics.ts";
 import type {
   InputPracticeTopicDefinition,
-  SingleChoicePracticeTopicDefinition
+  SingleChoicePracticeTopicDefinition,
 } from "../../types/practice-topic.ts";
 import { loadJsonContent } from "../../lib/content-loader.ts";
 import { loadSingleChoiceTopic } from "../../lib/exercises/load-single-choice-topic.ts";
 import {
   inputExerciseArraySchema,
-  inputExerciseCollectionSchema
+  inputExerciseCollectionSchema,
 } from "../../schemas/exercises.ts";
 import type { InputExercise } from "../../types/exercises.ts";
 import type { SingleChoicePracticeTopic } from "../../types/practice-topic.ts";
@@ -44,22 +44,15 @@ function isSingleChoicePracticeTopicDefinition(
   );
 }
 
-function normalizeSingleChoiceTopicIndex(
-  content: unknown
-): SingleChoicePracticeTopicDefinition[] {
-  if (
-    Array.isArray(content) &&
-    content.every(isSingleChoicePracticeTopicDefinition)
-  ) {
+function normalizeSingleChoiceTopicIndex(content: unknown): SingleChoicePracticeTopicDefinition[] {
+  if (Array.isArray(content) && content.every(isSingleChoicePracticeTopicDefinition)) {
     return content;
   }
 
   throw new Error("Invalid single-choice practice index format");
 }
 
-export function loadSingleChoiceTopicDefinitions(): Promise<
-  SingleChoicePracticeTopicDefinition[]
-> {
+export function loadSingleChoiceTopicDefinitions(): Promise<SingleChoicePracticeTopicDefinition[]> {
   return loadJsonContent<unknown>(singleChoicePracticeContent.indexUrl).then(
     normalizeSingleChoiceTopicIndex
   );
@@ -79,7 +72,7 @@ export async function loadSingleChoicePracticeTopic(
     fileName: topic.fileName,
     title: topic.title,
     subtitle: topic.subtitle,
-    collection
+    collection,
   };
 }
 

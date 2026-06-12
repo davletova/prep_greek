@@ -46,10 +46,7 @@ function validateExerciseCollectionSettings(filePath, value) {
     return;
   }
 
-  if (
-    value.showTranslationHint !== undefined &&
-    typeof value.showTranslationHint !== "boolean"
-  ) {
+  if (value.showTranslationHint !== undefined && typeof value.showTranslationHint !== "boolean") {
     addError(filePath, "settings.showTranslationHint must be a boolean when provided");
   }
 }

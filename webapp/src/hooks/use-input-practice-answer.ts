@@ -58,6 +58,6 @@ export function useInputPracticeAnswer(
     hasChecked,
     canCheck,
     isCorrect,
-    checkAnswer
+    checkAnswer,
   };
 }

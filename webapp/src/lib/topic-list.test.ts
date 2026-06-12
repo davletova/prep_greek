@@ -9,15 +9,15 @@ describe("toTopicListItems", () => {
           id: "topic-1",
           title: "Topic 1",
           subtitle: "Subtitle 1",
-          extra: "ignored"
-        }
+          extra: "ignored",
+        },
       ])
     ).toEqual([
       {
         id: "topic-1",
         title: "Topic 1",
-        subtitle: "Subtitle 1"
-      }
+        subtitle: "Subtitle 1",
+      },
     ]);
   });
 });

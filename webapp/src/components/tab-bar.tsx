@@ -9,9 +9,7 @@ export default function TabBar({ tab, onChange }: TabBarProps) {
   return (
     <nav className="tabbar" aria-label="Основная навигация">
       <button
-        className={`tabbar__item ${
-          tab === "theory" ? "tabbar__item--active" : ""
-        }`}
+        className={`tabbar__item ${tab === "theory" ? "tabbar__item--active" : ""}`}
         type="button"
         onClick={() => onChange("theory")}
         aria-label="Теория"
@@ -23,9 +21,7 @@ export default function TabBar({ tab, onChange }: TabBarProps) {
         </svg>
       </button>
       <button
-        className={`tabbar__item ${
-          tab === "practice" ? "tabbar__item--active" : ""
-        }`}
+        className={`tabbar__item ${tab === "practice" ? "tabbar__item--active" : ""}`}
         type="button"
         onClick={() => onChange("practice")}
         aria-label="Практика"
@@ -36,9 +32,7 @@ export default function TabBar({ tab, onChange }: TabBarProps) {
         </svg>
       </button>
       <button
-        className={`tabbar__item ${
-          tab === "profile" ? "tabbar__item--active" : ""
-        }`}
+        className={`tabbar__item ${tab === "profile" ? "tabbar__item--active" : ""}`}
         type="button"
         onClick={() => onChange("profile")}
         aria-label="Профиль"

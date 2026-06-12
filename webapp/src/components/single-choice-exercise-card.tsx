@@ -22,7 +22,7 @@ export default function SingleChoiceExerciseCard({
   getAnswerClassName,
   onPlayPrompt,
   onPlayOption,
-  onSelectAnswer
+  onSelectAnswer,
 }: SingleChoiceExerciseCardProps) {
   const isPromptInRussian = question.promptLanguage === "ru";
   const isPromptInGreek = question.promptLanguage === "el";

@@ -11,10 +11,7 @@
       "prompt": "ο φίλος",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "друг"
     },
@@ -24,10 +21,7 @@
       "prompt": "ο άντρας",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "мужчина"
     },
@@ -37,10 +31,7 @@
       "prompt": "ο μαθητής",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "ученик"
     },
@@ -50,10 +41,7 @@
       "prompt": "ο δάσκαλος",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "учитель"
     },
@@ -63,10 +51,7 @@
       "prompt": "ο γιατρός",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "врач"
     },
@@ -76,10 +61,7 @@
       "prompt": "ο δρόμος",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "дорога"
     },
@@ -89,10 +71,7 @@
       "prompt": "ο καφές",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "кофе"
     },
@@ -102,10 +81,7 @@
       "prompt": "ο πατέρας",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "отец"
     },
@@ -115,10 +91,7 @@
       "prompt": "ο αδερφός",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "брат"
     },
@@ -128,10 +101,7 @@
       "prompt": "ο χρόνος",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "год / время"
     },
@@ -141,10 +111,7 @@
       "prompt": "ο κόσμος",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "мир / люди"
     },
@@ -154,10 +121,7 @@
       "prompt": "ο άνθρωπος",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "человек"
     },
@@ -167,10 +131,7 @@
       "prompt": "ο σταθμός",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "станция"
     },
@@ -180,10 +141,7 @@
       "prompt": "ο καιρός",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "погода"
     },
@@ -193,10 +151,7 @@
       "prompt": "ο μήνας",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "месяц"
     },
@@ -206,10 +161,7 @@
       "prompt": "ο λογαριασμός",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "счёт"
     },
@@ -219,10 +171,7 @@
       "prompt": "ο χάρτης",
       "promptLanguage": "el",
       "correctAnswer": "мужской род",
-      "wrongAnswers": [
-        "женский род",
-        "средний род"
-      ],
+      "wrongAnswers": ["женский род", "средний род"],
       "explanation": "Артикль ο указывает на мужской род.",
       "translation": "карта"
     },
@@ -232,10 +181,7 @@
       "prompt": "η φίλη",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "подруга"
     },
@@ -245,10 +191,7 @@
       "prompt": "η γυναίκα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "женщина"
     },
@@ -258,10 +201,7 @@
       "prompt": "η μαθήτρια",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "ученица"
     },
@@ -271,10 +211,7 @@
       "prompt": "η δασκάλα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "учительница"
     },
@@ -284,10 +221,7 @@
       "prompt": "η πόλη",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "город"
     },
@@ -297,10 +231,7 @@
       "prompt": "η μέρα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "день"
     },
@@ -310,10 +241,7 @@
       "prompt": "η χώρα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "страна"
     },
@@ -323,10 +251,7 @@
       "prompt": "η μητέρα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "мать"
     },
@@ -336,10 +261,7 @@
       "prompt": "η αδερφή",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "сестра"
     },
@@ -349,10 +271,7 @@
       "prompt": "η ώρα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "час / время"
     },
@@ -362,10 +281,7 @@
       "prompt": "η γλώσσα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "язык"
     },
@@ -375,10 +291,7 @@
       "prompt": "η δουλειά",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "работа"
     },
@@ -388,10 +301,7 @@
       "prompt": "η θάλασσα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "море"
     },
@@ -401,10 +311,7 @@
       "prompt": "η κουζίνα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "кухня"
     },
@@ -414,10 +321,7 @@
       "prompt": "η πόρτα",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "дверь"
     },
@@ -427,10 +331,7 @@
       "prompt": "η ερώτηση",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "вопрос"
     },
@@ -440,10 +341,7 @@
       "prompt": "η απάντηση",
       "promptLanguage": "el",
       "correctAnswer": "женский род",
-      "wrongAnswers": [
-        "мужской род",
-        "средний род"
-      ],
+      "wrongAnswers": ["мужской род", "средний род"],
       "explanation": "Артикль η указывает на женский род.",
       "translation": "ответ"
     },
@@ -453,10 +351,7 @@
       "prompt": "το παιδί",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "ребёнок"
     },
@@ -466,10 +361,7 @@
       "prompt": "το σπίτι",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "дом"
     },
@@ -479,10 +371,7 @@
       "prompt": "το βιβλίο",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "книга"
     },
@@ -492,10 +381,7 @@
       "prompt": "το νερό",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "вода"
     },
@@ -505,10 +391,7 @@
       "prompt": "το σχολείο",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "школа"
     },
@@ -518,10 +401,7 @@
       "prompt": "το μάθημα",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "урок"
     },
@@ -531,10 +411,7 @@
       "prompt": "το φαγητό",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "еда"
     },
@@ -544,10 +421,7 @@
       "prompt": "το τραπέζι",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "стол"
     },
@@ -557,10 +431,7 @@
       "prompt": "το δωμάτιο",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "комната"
     },
@@ -570,10 +441,7 @@
       "prompt": "το αυτοκίνητο",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "машина"
     },
@@ -583,10 +451,7 @@
       "prompt": "το λεωφορείο",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "автобус"
     },
@@ -596,10 +461,7 @@
       "prompt": "το ξενοδοχείο",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "отель"
     },
@@ -609,10 +471,7 @@
       "prompt": "το τηλέφωνο",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "телефон"
     },
@@ -622,10 +481,7 @@
       "prompt": "το πρόβλημα",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "проблема"
     },
@@ -635,10 +491,7 @@
       "prompt": "το όνομα",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "имя"
     },
@@ -648,10 +501,7 @@
       "prompt": "το κλειδί",
       "promptLanguage": "el",
       "correctAnswer": "средний род",
-      "wrongAnswers": [
-        "мужской род",
-        "женский род"
-      ],
+      "wrongAnswers": ["мужской род", "женский род"],
       "explanation": "Артикль το указывает на средний род.",
       "translation": "ключ"
     }

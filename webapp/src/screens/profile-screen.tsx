@@ -2,7 +2,7 @@ import ConfirmSheet from "../components/confirm-sheet.tsx";
 import PracticeStatsCard from "../components/practice-stats-card.tsx";
 import {
   EMPTY_STATS_MESSAGES,
-  usePracticeStatsSummary
+  usePracticeStatsSummary,
 } from "../hooks/use-practice-stats-summary.ts";
 
 export default function ProfileScreen() {
@@ -14,7 +14,7 @@ export default function ProfileScreen() {
     resetError,
     openResetConfirm: handleOpenResetConfirm,
     closeResetConfirm: handleCloseResetConfirm,
-    resetStats: handleResetStats
+    resetStats: handleResetStats,
   } = usePracticeStatsSummary();
 
   return (

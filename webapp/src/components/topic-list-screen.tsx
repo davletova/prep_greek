@@ -32,37 +32,30 @@ export default function TopicListScreen({
   errorTitle = "Не удалось загрузить темы",
   emptyTitle = "Темы не найдены",
   emptyText = "Нет доступных тем.",
-  onRetry
+  onRetry,
 }: TopicListScreenProps) {
   const showLoading = useDelayedLoading(status === "loading");
 
   return (
     <>
       <header className="app__header app__header--centered">
-        <button
-          className="back-button"
-          type="button"
-          onClick={onClose}
-          aria-label="Назад"
-        >
+        <button className="back-button" type="button" onClick={onClose} aria-label="Назад">
           ‹
         </button>
-        <h1 className="app__title app__title--small app__title--centered">
-          {title}
-        </h1>
+        <h1 className="app__title app__title--small app__title--centered">{title}</h1>
         <div className="app__header-spacer" aria-hidden="true" />
       </header>
 
       <main className="app__content app__content--profile">
         {status === "loading" ? (
-          showLoading ? <ContentState title={loadingTitle} text={loadingText} /> : null
+          showLoading ? (
+            <ContentState title={loadingTitle} text={loadingText} />
+          ) : null
         ) : status === "error" ? (
           <ContentState
             title={errorTitle}
             text={error}
-            {...(onRetry
-              ? { actionLabel: "Попробовать снова", onAction: onRetry }
-              : {})}
+            {...(onRetry ? { actionLabel: "Попробовать снова", onAction: onRetry } : {})}
             tone="error"
           />
         ) : topics.length === 0 ? (

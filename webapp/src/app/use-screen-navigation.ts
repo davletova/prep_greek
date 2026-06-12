@@ -20,6 +20,6 @@ export function useScreenNavigation(): ScreenNavigationState {
     screen,
     setScreen,
     isHomeScreen,
-    exitToHome
+    exitToHome,
   };
 }

@@ -1,4 +1,8 @@
-import type { ExerciseCollection, InputExercise, SingleChoiceExercise } from "../../types/exercises.ts";
+import type {
+  ExerciseCollection,
+  InputExercise,
+  SingleChoiceExercise,
+} from "../../types/exercises.ts";
 
 export function getSingleChoiceExercises(
   collection: ExerciseCollection | null

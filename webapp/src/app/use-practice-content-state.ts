@@ -28,34 +28,28 @@ export function usePracticeContentState(
   screen: Screen,
   setScreen: (screen: Screen) => void
 ): PracticeContentState {
-  const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] =
-    useState<string | null>(null);
-  const [selectedInputTopicId, setSelectedInputTopicId] =
-    useState<string | null>(null);
-
-  const {
-    state: singleChoiceTopicsState,
-    retry: retrySingleChoiceTopicsContent
-  } = useLoadableContent(
-    screen === "practice-single-choice-topics" ||
-      screen === "practice-single-choice-topic",
-    loadSingleChoiceTopicDefinitions
+  const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] = useState<string | null>(
+    null
   );
+  const [selectedInputTopicId, setSelectedInputTopicId] = useState<string | null>(null);
+
+  const { state: singleChoiceTopicsState, retry: retrySingleChoiceTopicsContent } =
+    useLoadableContent(
+      screen === "practice-single-choice-topics" || screen === "practice-single-choice-topic",
+      loadSingleChoiceTopicDefinitions
+    );
 
   const {
     selectedTopic: selectedInputTopic,
     selectedTopicState: selectedInputTopicState,
-    retrySelectedTopic: retrySelectedInputTopic
-  } = useInputPracticeTopicState(
-    screen === "practice-input-topic",
-    selectedInputTopicId
-  );
+    retrySelectedTopic: retrySelectedInputTopic,
+  } = useInputPracticeTopicState(screen === "practice-input-topic", selectedInputTopicId);
 
   const {
     selectedTopic: selectedSingleChoiceTopic,
     selectedTopicState: selectedSingleChoiceTopicState,
     topicListState: singleChoiceTopicListState,
-    retrySelectedTopic: retrySelectedSingleChoiceTopic
+    retrySelectedTopic: retrySelectedSingleChoiceTopic,
   } = useSingleChoiceTopicState(
     singleChoiceTopicsState,
     selectedSingleChoiceTopicId,
@@ -101,6 +95,6 @@ export function usePracticeContentState(
     openInputTopic,
     retrySingleChoiceTopics,
     retrySelectedSingleChoiceTopic,
-    retrySelectedInputTopic
+    retrySelectedInputTopic,
   };
 }

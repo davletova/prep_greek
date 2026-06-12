@@ -7,7 +7,7 @@ const validSingleChoiceExercise = {
   prompt: "Γεια",
   promptLanguage: "el",
   correctAnswer: "Привет",
-  wrongAnswers: ["Пока", "Спасибо", "Извините"]
+  wrongAnswers: ["Пока", "Спасибо", "Извините"],
 };
 
 describe("exercise schemas", () => {
@@ -16,7 +16,7 @@ describe("exercise schemas", () => {
     expect(
       singleChoiceExerciseSchema.safeParse({
         ...validSingleChoiceExercise,
-        promptLanguage: "ru"
+        promptLanguage: "ru",
       }).success
     ).toBe(true);
   });
@@ -25,7 +25,7 @@ describe("exercise schemas", () => {
     expect(
       singleChoiceExerciseSchema.safeParse({
         ...validSingleChoiceExercise,
-        promptLanguage: "en"
+        promptLanguage: "en",
       }).success
     ).toBe(false);
   });
@@ -34,7 +34,7 @@ describe("exercise schemas", () => {
     expect(
       singleChoiceExerciseSchema.safeParse({
         ...validSingleChoiceExercise,
-        wrongAnswers: ["Пока"]
+        wrongAnswers: ["Пока"],
       }).success
     ).toBe(true);
   });
@@ -43,7 +43,7 @@ describe("exercise schemas", () => {
     expect(
       singleChoiceExerciseSchema.safeParse({
         ...validSingleChoiceExercise,
-        wrongAnswers: []
+        wrongAnswers: [],
       }).success
     ).toBe(false);
   });
@@ -53,9 +53,9 @@ describe("exercise schemas", () => {
       exerciseCollectionSchema.safeParse({
         title: "Practice",
         settings: {
-          showTranslationHint: true
+          showTranslationHint: true,
         },
-        items: [validSingleChoiceExercise]
+        items: [validSingleChoiceExercise],
       }).success
     ).toBe(true);
   });

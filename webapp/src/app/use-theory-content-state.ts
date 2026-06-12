@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   loadAlphabetContent,
-  loadDiphthongsContent
+  loadDiphthongsContent,
 } from "../services/content/theory-content-service.ts";
 import type { AlphabetContent, DiphthongsContent } from "../types/content.ts";
 import type { LoadableState, Screen } from "../types/ui.ts";
@@ -86,6 +86,6 @@ export function useTheoryContentState(
     retryAlphabet,
     prevDiphthong,
     nextDiphthong,
-    retryDiphthongs
+    retryDiphthongs,
   };
 }

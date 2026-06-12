@@ -21,9 +21,7 @@ export function speakGreekText(text: string): Promise<void> {
     utterance.lang = "el-GR";
 
     const voices = window.speechSynthesis.getVoices();
-    const greekVoice = voices.find((voice) =>
-      voice.lang?.toLowerCase().startsWith("el")
-    );
+    const greekVoice = voices.find((voice) => voice.lang?.toLowerCase().startsWith("el"));
 
     if (greekVoice) {
       utterance.voice = greekVoice;
