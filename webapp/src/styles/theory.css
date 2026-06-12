@@ -40,6 +40,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 16px;
+  border: var(--border-width-surface) solid var(--color-surface-border);
   background: var(--color-surface);
   border-radius: 18px;
   box-shadow: var(--shadow-card-subtle);
@@ -73,6 +74,7 @@
 .alphabet-card {
   position: relative;
   padding: 14px 16px 16px;
+  border: var(--border-width-surface) solid var(--color-surface-border);
   border-radius: 18px;
   background: var(--color-surface);
   box-shadow: var(--shadow-card);
@@ -138,7 +140,7 @@
 }
 
 .alphabet-card__play {
-  border: none;
+  border: var(--border-width-surface) solid var(--color-surface-border);
   background: var(--color-surface);
   border-radius: 999px;
   width: 36px;
@@ -179,6 +181,7 @@
 
 .diphthong__hero {
   background: var(--color-surface-translucent);
+  border: var(--border-width-surface) solid var(--color-surface-border);
   border-radius: 20px;
   padding: 18px;
   box-shadow: var(--shadow-card);

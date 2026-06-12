@@ -28,6 +28,8 @@
   --color-border: #d5d5d5;
   --color-border-strong: #c9d4e5;
   --color-border-subtle: rgba(109, 124, 153, 0.2);
+  --color-surface-border: transparent;
+  --border-width-surface: 0;
 
   --color-primary: #4a6fff;
   --color-primary-active: #2d5bff;
@@ -101,6 +103,8 @@
     --color-border: rgba(221, 231, 245, 0.16);
     --color-border-strong: rgba(221, 231, 245, 0.28);
     --color-border-subtle: rgba(221, 231, 245, 0.12);
+    --color-surface-border: rgba(221, 231, 245, 0.08);
+    --border-width-surface: 1px;
 
     --color-primary: #6f8cff;
     --color-primary-active: #8ea4ff;
@@ -166,6 +170,8 @@
   --color-border: rgba(221, 231, 245, 0.16);
   --color-border-strong: rgba(221, 231, 245, 0.28);
   --color-border-subtle: rgba(221, 231, 245, 0.12);
+  --color-surface-border: rgba(221, 231, 245, 0.08);
+  --border-width-surface: 1px;
 
   --color-primary: #6f8cff;
   --color-primary-active: #8ea4ff;
