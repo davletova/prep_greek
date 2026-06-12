@@ -12,7 +12,7 @@
   justify-content: space-between;
   gap: 12px;
   font-size: 14px;
-  color: #5b6b85;
+  color: var(--color-text-secondary);
 }
 
 .alphabet__lead p {
@@ -21,16 +21,16 @@
 
 .alphabet__progress {
   padding: 6px 12px;
-  background: #e7eef7;
+  background: var(--color-surface-accent);
   border-radius: 999px;
   font-weight: 600;
-  color: #3a4d6e;
+  color: var(--color-text-interactive);
 }
 
 .alphabet__error {
   padding: 12px 14px;
-  background: #ffe9e7;
-  color: #b94a48;
+  background: var(--color-danger-bg-strong);
+  color: var(--color-danger-text-soft);
   border-radius: 12px;
   font-size: 14px;
 }
@@ -40,24 +40,24 @@
   flex-direction: column;
   gap: 10px;
   padding: 16px;
-  background: #ffffff;
+  background: var(--color-surface);
   border-radius: 18px;
-  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.06);
+  box-shadow: var(--shadow-card-subtle);
 }
 
 .content-state--error {
-  background: #fff4f2;
+  background: var(--color-danger-surface);
 }
 
 .content-state__title {
   font-size: 16px;
   font-weight: 700;
-  color: #1f2f4a;
+  color: var(--color-text-heading);
 }
 
 .content-state__text {
   font-size: 14px;
-  color: #5b6b85;
+  color: var(--color-text-secondary);
 }
 
 .content-state__action {
@@ -74,8 +74,8 @@
   position: relative;
   padding: 14px 16px 16px;
   border-radius: 18px;
-  background: #ffffff;
-  box-shadow: 0 6px 14px rgba(22, 35, 66, 0.08);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -89,8 +89,8 @@
 }
 
 .alphabet-card {
-  background: #ffffff;
-  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.06);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card-subtle);
 }
 
 .alphabet-card__letters {
@@ -99,7 +99,7 @@
   gap: 8px;
   font-size: 28px;
   font-weight: 700;
-  color: #2a3b59;
+  color: var(--color-text-strong);
   min-width: 72px;
 }
 
@@ -113,12 +113,12 @@
 .alphabet-card__name {
   font-size: 16px;
   font-weight: 600;
-  color: #2a3b59;
+  color: var(--color-text-strong);
 }
 
 .alphabet-card__sound {
   font-size: 14px;
-  color: #4a5c82;
+  color: var(--color-text-interactive);
 }
 
 .alphabet-card__note {
@@ -126,28 +126,28 @@
   flex-direction: column;
   gap: 4px;
   font-size: 12px;
-  color: #6b7b95;
+  color: var(--color-text-muted);
   padding-left: 2px;
   font-weight: 600;
 }
 
 .alphabet-card__example {
   font-size: 12px;
-  color: #4a5c82;
+  color: var(--color-text-interactive);
   font-weight: 600;
 }
 
 .alphabet-card__play {
   border: none;
-  background: #ffffff;
+  background: var(--color-surface);
   border-radius: 999px;
   width: 36px;
   height: 36px;
   font-size: 16px;
   font-weight: 600;
-  color: #2a3b59;
+  color: var(--color-text-strong);
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(22, 35, 66, 0.12);
+  box-shadow: var(--shadow-control);
   display: grid;
   place-items: center;
   padding: 0;
@@ -178,10 +178,10 @@
 }
 
 .diphthong__hero {
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--color-surface-translucent);
   border-radius: 20px;
   padding: 18px;
-  box-shadow: 0 6px 14px rgba(22, 35, 66, 0.08);
+  box-shadow: var(--shadow-card);
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -192,14 +192,14 @@
   margin: 0;
   font-size: 34px;
   font-weight: 700;
-  color: #1f2f4a;
+  color: var(--color-text-heading);
   word-break: break-word;
 }
 
 .diphthong__subtitle {
   margin: 0;
   font-size: 16px;
-  color: #4a5c82;
+  color: var(--color-text-interactive);
   font-weight: 600;
 }
 
@@ -214,7 +214,7 @@
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #6b7b95;
+  color: var(--color-text-muted);
 }
 
 .diphthong__list {
