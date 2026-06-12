@@ -1,6 +1,9 @@
 {
   "title": "Род: артикли",
   "subtitle": "Определите род по артиклю",
+  "settings": {
+    "showTranslationHint": true
+  },
   "items": [
     {
       "id": "greek-noun-gender-articles-001",

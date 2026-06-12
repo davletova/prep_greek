@@ -29,6 +29,7 @@ export default function SingleChoicePracticeTopicScreen({
 }: SingleChoicePracticeTopicScreenProps) {
   const showLoading = useDelayedLoading(topicState.status === "loading");
   const exercises = useMemo(() => getSingleChoiceExercises(topicState.data), [topicState.data]);
+  const showTranslationHint = topicState.data?.settings?.showTranslationHint === true;
   const { currentItem: exercise, hasItems, next } = useExerciseSession(exercises);
   const speech = useSpeechPlayback<string>(onSpeak);
   const { clear: clearSpeech, stop: stopSpeech } = speech;
@@ -97,6 +98,7 @@ export default function SingleChoicePracticeTopicScreen({
               <SingleChoiceExerciseCard
                 question={question}
                 hasAnswered={hasAnswered}
+                showTranslationHint={showTranslationHint}
                 isPromptSpeaking={speech.isSpeaking("prompt")}
                 isOptionSpeaking={(optionIndex) => speech.isSpeaking(`option-${optionIndex}`)}
                 getAnswerClassName={getAnswerClassName}

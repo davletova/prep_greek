@@ -21,9 +21,15 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
+.practice-card__prompt-block {
+  min-height: 120px;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+}
+
 .practice-card__question {
   margin: 0;
-  min-height: 120px;
   display: grid;
   place-items: center;
   text-align: center;
@@ -31,6 +37,15 @@
   font-size: 25px;
   line-height: 1.35;
   font-weight: 600;
+}
+
+.practice-card__translation-hint {
+  margin: 0;
+  text-align: center;
+  color: #7c8aa0;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 500;
 }
 
 .practice-card__play-wrap {

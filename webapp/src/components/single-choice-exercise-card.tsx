@@ -4,6 +4,7 @@ import type { SingleChoiceRuntimeQuestion } from "../types/exercises.ts";
 interface SingleChoiceExerciseCardProps {
   question: SingleChoiceRuntimeQuestion;
   hasAnswered: boolean;
+  showTranslationHint: boolean;
   isPromptSpeaking: boolean;
   isOptionSpeaking: (optionIndex: number) => boolean;
   getAnswerClassName: (index: number) => string;
@@ -15,6 +16,7 @@ interface SingleChoiceExerciseCardProps {
 export default function SingleChoiceExerciseCard({
   question,
   hasAnswered,
+  showTranslationHint,
   isPromptSpeaking,
   isOptionSpeaking,
   getAnswerClassName,
@@ -24,10 +26,18 @@ export default function SingleChoiceExerciseCard({
 }: SingleChoiceExerciseCardProps) {
   const isPromptInRussian = question.promptLanguage === "ru";
   const isPromptInGreek = question.promptLanguage === "el";
+  const translationHint = showTranslationHint ? question.translation : undefined;
 
   return (
     <section className="practice-card">
-      <p className="practice-card__question">{question.prompt}</p>
+      <div className="practice-card__prompt-block">
+        <p className="practice-card__question">{question.prompt}</p>
+        {translationHint ? (
+          <p className="practice-card__translation-hint" aria-label={`Перевод: ${translationHint}`}>
+            {translationHint}
+          </p>
+        ) : null}
+      </div>
 
       {!isPromptInRussian ? (
         <div className="practice-card__play-wrap">

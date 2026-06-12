@@ -48,9 +48,14 @@ export const exerciseSchema: z.ZodType<Exercise> = z.union([
   inputExerciseSchema
 ]);
 
+const exerciseCollectionSettingsSchema = z.object({
+  showTranslationHint: z.boolean().optional()
+});
+
 export const exerciseCollectionSchema: z.ZodType<ExerciseCollection> = z.object({
   title: z.string(),
   subtitle: z.string().optional(),
+  settings: exerciseCollectionSettingsSchema.optional(),
   items: z.array(exerciseSchema)
 });
 

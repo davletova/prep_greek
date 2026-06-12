@@ -1,6 +1,9 @@
 {
   "title": "Род: окончания",
   "subtitle": "Определите род по типичному окончанию",
+  "settings": {
+    "showTranslationHint": true
+  },
   "items": [
     {
       "id": "greek-noun-gender-endings-001",

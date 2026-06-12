@@ -25,6 +25,7 @@ export async function loadSingleChoiceTopic(
     return {
       title: collectionResult.data.title || fallbackTitle,
       subtitle: collectionResult.data.subtitle || "",
+      settings: collectionResult.data.settings,
       items: collectionResult.data.items
     };
   }

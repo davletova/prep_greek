@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { singleChoiceExerciseSchema } from "./exercises.ts";
+import { exerciseCollectionSchema, singleChoiceExerciseSchema } from "./exercises.ts";
 
 const validSingleChoiceExercise = {
   id: "choice-1",
@@ -46,5 +46,17 @@ describe("exercise schemas", () => {
         wrongAnswers: []
       }).success
     ).toBe(false);
+  });
+
+  it("accepts collection settings", () => {
+    expect(
+      exerciseCollectionSchema.safeParse({
+        title: "Practice",
+        settings: {
+          showTranslationHint: true
+        },
+        items: [validSingleChoiceExercise]
+      }).success
+    ).toBe(true);
   });
 });

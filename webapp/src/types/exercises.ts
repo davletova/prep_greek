@@ -40,9 +40,14 @@ export interface TextInputExercise extends BaseExercise {
 
 export type Exercise = SingleChoiceExercise | TextInputExercise | InputExercise;
 
+export interface ExerciseCollectionSettings {
+  showTranslationHint?: boolean | undefined;
+}
+
 export interface ExerciseCollection {
   title: string;
   subtitle?: string | undefined;
+  settings?: ExerciseCollectionSettings | undefined;
   items: Exercise[];
 }
 

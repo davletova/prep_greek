@@ -36,6 +36,24 @@ function validateOptionalString(filePath, value, field) {
   }
 }
 
+function validateExerciseCollectionSettings(filePath, value) {
+  if (value === undefined) {
+    return;
+  }
+
+  if (!isRecord(value)) {
+    addError(filePath, "settings must be an object when provided");
+    return;
+  }
+
+  if (
+    value.showTranslationHint !== undefined &&
+    typeof value.showTranslationHint !== "boolean"
+  ) {
+    addError(filePath, "settings.showTranslationHint must be a boolean when provided");
+  }
+}
+
 function validatePromptLanguage(filePath, value, field) {
   if (value !== undefined && value !== "el" && value !== "ru") {
     addError(filePath, `${field} must be either "el" or "ru" when provided`);
@@ -128,6 +146,7 @@ function validateExerciseCollection(filePath, content, expectedType) {
   }
 
   validateOptionalString(filePath, content.subtitle, "subtitle");
+  validateExerciseCollectionSettings(filePath, content.settings);
 
   if (!Array.isArray(content.items)) {
     addError(filePath, "items must be an array");
