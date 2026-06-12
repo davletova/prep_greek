@@ -3,6 +3,66 @@
   font-family: "Plus Jakarta Sans", system-ui, sans-serif;
   background-color: #f2f5fa;
   color: #1d2a44;
+
+  --color-page-bg: #f2f5fa;
+  --color-page-bg-start: #f8fbff;
+  --color-page-bg-mid: #eef3fb;
+  --color-page-bg-end: #e8eef8;
+
+  --color-surface: #ffffff;
+  --color-surface-warm: #fffdfc;
+  --color-surface-translucent: rgba(255, 255, 255, 0.9);
+  --color-surface-muted: #edf2f7;
+  --color-surface-soft: #eef2f7;
+  --color-surface-accent: #e7eef7;
+
+  --color-text-primary: #1d2a44;
+  --color-text-heading: #1f2f4a;
+  --color-text-strong: #2a3b59;
+  --color-text-secondary: #5b6b85;
+  --color-text-muted: #6b7b95;
+  --color-text-interactive: #4a5c82;
+  --color-text-hint: #7c8aa0;
+  --color-text-disabled: #9aa7bd;
+
+  --color-border: #d5d5d5;
+  --color-border-strong: #c9d4e5;
+  --color-border-subtle: rgba(109, 124, 153, 0.2);
+
+  --color-primary: #4a6fff;
+  --color-primary-active: #2d5bff;
+  --color-primary-text: #ffffff;
+
+  --color-success-bg: #dff3e8;
+  --color-success-border: #2c7a58;
+  --color-success-text: #256c4c;
+  --color-success-strong: #2d8f62;
+  --color-success-accent: #4ecb8f;
+
+  --color-danger-bg: rgba(208, 74, 88, 0.08);
+  --color-danger-bg-strong: #ffe9e7;
+  --color-danger-surface: #fff4f2;
+  --color-danger-answer-bg: #f9e5e6;
+  --color-danger-border: rgba(208, 74, 88, 0.18);
+  --color-danger-answer-border: #c95252;
+  --color-danger-text: #b43645;
+  --color-danger-text-soft: #b94a48;
+  --color-danger-answer-text: #a33a3a;
+  --color-danger-fill: #d04a58;
+  --color-danger-fill-text: #ffffff;
+
+  --color-overlay: rgba(20, 31, 49, 0.42);
+  --color-tabbar-bg: rgba(248, 251, 255, 0.95);
+  --color-answer-text: rgba(60, 60, 67, 0.6);
+
+  --shadow-card: 0 4px 12px rgba(22, 35, 66, 0.08);
+  --shadow-card-subtle: 0 4px 10px rgba(22, 35, 66, 0.06);
+  --shadow-card-hover: 0 6px 16px rgba(22, 35, 66, 0.12);
+  --shadow-card-disabled: 0 4px 12px rgba(22, 35, 66, 0.05);
+  --shadow-control: 0 4px 10px rgba(22, 35, 66, 0.12);
+  --shadow-control-subtle: 0 4px 10px rgba(22, 35, 66, 0.08);
+  --shadow-practice-card: 0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-modal: 0 20px 40px rgba(22, 35, 66, 0.22);
 }
 
 * {
