@@ -6,6 +6,16 @@ const MIN_PLAYBACK_TIMEOUT_MS = 4000;
 const MAX_PLAYBACK_TIMEOUT_MS = 30000;
 const PLAYBACK_TIMEOUT_PER_CHARACTER_MS = 300;
 
+interface NormalizedSpeechOptions {
+  rate: number;
+  pitch: number;
+  volume: number;
+}
+
+function clamp(value: number, min: number, max: number): number {
+  return Math.min(max, Math.max(min, value));
+}
+
 function getSpeechSynthesis(): SpeechSynthesis | undefined {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) {
     return undefined;
@@ -47,6 +57,14 @@ export function loadSpeechVoices(speechSynthesis: SpeechSynthesis): Promise<Spee
   });
 }
 
+export function normalizeSpeechOptions(options: SpeechOptions = {}): NormalizedSpeechOptions {
+  return {
+    rate: clamp(options.rate ?? 1, 0.1, 10),
+    pitch: clamp(options.pitch ?? 1, 0, 2),
+    volume: clamp(options.volume ?? 1, 0, 1),
+  };
+}
+
 export function getSpeechPlaybackTimeoutMs(text: string): number {
   return Math.min(
     MAX_PLAYBACK_TIMEOUT_MS,
@@ -70,9 +88,12 @@ export async function speakGreekText(text: string, options: SpeechOptions = {}):
     return;
   }
 
+  const normalizedOptions = normalizeSpeechOptions(options);
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = GREEK_LANG;
-  utterance.rate = options.rate ?? 1;
+  utterance.rate = normalizedOptions.rate;
+  utterance.pitch = normalizedOptions.pitch;
+  utterance.volume = normalizedOptions.volume;
 
   const voices = await loadSpeechVoices(speechSynthesis);
   const greekVoice = selectGreekVoice(voices);

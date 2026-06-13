@@ -23,6 +23,8 @@ export type VoidHandler = () => void;
 
 export interface SpeechOptions {
   rate?: number;
+  pitch?: number;
+  volume?: number;
 }
 
 export type SpeakHandler = (text: string, options?: SpeechOptions) => Promise<void>;
