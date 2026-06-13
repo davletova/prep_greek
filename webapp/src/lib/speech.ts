@@ -9,7 +9,7 @@ export function cancelGreekSpeech(): void {
 export function speakGreekText(text: string, options: SpeechOptions = {}): Promise<void> {
   return new Promise((resolve) => {
     if (!("speechSynthesis" in window)) {
-      alert("Озвучка не поддерживается в этом браузере.");
+      console.warn("Speech synthesis is not supported in this browser.");
       resolve();
       return;
     }
