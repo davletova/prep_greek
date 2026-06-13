@@ -20,5 +20,10 @@ export type Screen =
   | "practice-single-choice-topic";
 
 export type VoidHandler = () => void;
-export type SpeakHandler = (text: string) => Promise<void>;
+
+export interface SpeechOptions {
+  rate?: number;
+}
+
+export type SpeakHandler = (text: string, options?: SpeechOptions) => Promise<void>;
 export type IndexedNextHandler = (max: number) => void;
