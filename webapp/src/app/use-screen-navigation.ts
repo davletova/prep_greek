@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { screenFromHash } from "./screen-hash-router.ts";
+import { screenFromHash, screenToHash } from "./screen-hash-router.ts";
 import type { Screen } from "../types/ui.ts";
 
 interface ScreenNavigationState {
@@ -18,8 +18,16 @@ function getInitialScreen(): Screen {
 }
 
 export function useScreenNavigation(): ScreenNavigationState {
-  const [screen, setScreen] = useState<Screen>(getInitialScreen);
+  const [screen, setScreenState] = useState<Screen>(getInitialScreen);
   const isHomeScreen = screen === "home";
+
+  const setScreen = (nextScreen: Screen) => {
+    if (typeof window !== "undefined") {
+      window.location.hash = screenToHash(nextScreen);
+    }
+
+    setScreenState(nextScreen);
+  };
 
   const exitToHome = () => {
     setScreen("home");
