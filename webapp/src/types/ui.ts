@@ -21,6 +21,12 @@ export type Screen =
 
 export type VoidHandler = () => void;
 
+export interface ScreenNavigationOptions {
+  history?: "push" | "replace";
+}
+
+export type ScreenNavigationHandler = (screen: Screen, options?: ScreenNavigationOptions) => void;
+
 export interface SpeechOptions {
   rate?: number;
   pitch?: number;

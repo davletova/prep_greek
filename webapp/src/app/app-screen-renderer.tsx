@@ -67,7 +67,7 @@ export default function AppScreenRenderer({
         <InputPracticeTopicScreen
           title={practice.selectedInputTopicTitle}
           topicState={practice.selectedInputTopicState}
-          onClose={practice.openInputTopics}
+          onClose={practice.closeInputTopic}
           onRetry={practice.retrySelectedInputTopic}
           onSpeak={onSpeak}
         />

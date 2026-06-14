@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { screenFromHash, screenToHash } from "./screen-hash-router.ts";
-import type { Screen } from "../types/ui.ts";
+import type { Screen, ScreenNavigationHandler, ScreenNavigationOptions } from "../types/ui.ts";
 
 interface ScreenNavigationState {
   screen: Screen;
-  setScreen: (screen: Screen) => void;
+  setScreen: ScreenNavigationHandler;
   isHomeScreen: boolean;
   exitToHome: () => void;
 }
@@ -21,9 +21,17 @@ export function useScreenNavigation(): ScreenNavigationState {
   const [screen, setScreenState] = useState<Screen>(getInitialScreen);
   const isHomeScreen = screen === "home";
 
-  const setScreen = (nextScreen: Screen) => {
+  const setScreen = (nextScreen: Screen, options: ScreenNavigationOptions = {}) => {
     if (typeof window !== "undefined") {
-      window.location.hash = screenToHash(nextScreen);
+      const nextHash = screenToHash(nextScreen);
+
+      if (window.location.hash !== nextHash) {
+        if (options.history === "replace") {
+          window.history.replaceState(null, "", nextHash);
+        } else {
+          window.location.hash = nextHash;
+        }
+      }
     }
 
     setScreenState(nextScreen);
@@ -42,7 +50,7 @@ export function useScreenNavigation(): ScreenNavigationState {
   }, []);
 
   const exitToHome = () => {
-    setScreen("home");
+    setScreen("home", { history: "replace" });
   };
 
   return {
