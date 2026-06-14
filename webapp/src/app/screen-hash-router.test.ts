@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { normalizeScreenHash, screenFromHash, screenToHash } from "./screen-hash-router.ts";
+import {
+  homeTabForScreen,
+  normalizeScreenHash,
+  screenFromHash,
+  screenToHash,
+} from "./screen-hash-router.ts";
 import type { Screen } from "../types/ui.ts";
 
 describe("screen hash router", () => {
@@ -39,5 +44,15 @@ describe("screen hash router", () => {
   it("maps topic detail screens to their parent topic list hashes", () => {
     expect(screenToHash("practice-input-topic")).toBe("#/practice/input");
     expect(screenToHash("practice-single-choice-topic")).toBe("#/practice/single-choice");
+  });
+
+  it.each<[Screen, string]>([
+    ["alphabet", "theory"],
+    ["diphthongs", "theory"],
+    ["home", "practice"],
+    ["practice-input-topics", "practice"],
+    ["practice-single-choice-topics", "practice"],
+  ])("maps %s screen to %s home tab", (screen, tab) => {
+    expect(homeTabForScreen(screen)).toBe(tab);
   });
 });

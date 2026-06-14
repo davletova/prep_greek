@@ -1,4 +1,5 @@
 import AppScreenRenderer from "./app/app-screen-renderer.tsx";
+import { homeTabForScreen } from "./app/screen-hash-router.ts";
 import { useHomeNavigation } from "./app/use-home-navigation.ts";
 import { usePracticeContentState } from "./app/use-practice-content-state.ts";
 import { useScreenNavigation } from "./app/use-screen-navigation.ts";
@@ -13,6 +14,11 @@ export default function App() {
   const theory = useTheoryContentState(screen, setScreen);
   const practice = usePracticeContentState(screen, setScreen);
 
+  const handleExitWithHomeTab = () => {
+    setTab(homeTabForScreen(screen));
+    handleExit();
+  };
+
   useTelegramTheme();
   useTelegramWebAppReady();
 
@@ -24,7 +30,7 @@ export default function App() {
       onTabChange={setTab}
       theory={theory}
       practice={practice}
-      onExit={handleExit}
+      onExit={handleExitWithHomeTab}
       onSpeak={speakGreekText}
     />
   );

@@ -1,4 +1,4 @@
-import type { Screen } from "../types/ui.ts";
+import type { Screen, TabKey } from "../types/ui.ts";
 
 const HOME_HASH = "#/";
 
@@ -37,4 +37,12 @@ export function screenToHash(screen: Screen): string {
 
 export function screenFromHash(hash: string): Screen {
   return HASH_TO_SCREEN[normalizeScreenHash(hash)] ?? "home";
+}
+
+export function homeTabForScreen(screen: Screen): TabKey {
+  if (screen === "alphabet" || screen === "diphthongs") {
+    return "theory";
+  }
+
+  return "practice";
 }
