@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { screenFromHash, screenToHash } from "./screen-hash-router.ts";
 import type { Screen } from "../types/ui.ts";
 
@@ -28,6 +28,18 @@ export function useScreenNavigation(): ScreenNavigationState {
 
     setScreenState(nextScreen);
   };
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      setScreenState(screenFromHash(window.location.hash));
+    };
+
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, []);
 
   const exitToHome = () => {
     setScreen("home");
