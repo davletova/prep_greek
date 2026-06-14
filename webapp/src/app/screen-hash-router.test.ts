@@ -1,0 +1,43 @@
+import { describe, expect, it } from "vitest";
+import { normalizeScreenHash, screenFromHash, screenToHash } from "./screen-hash-router.ts";
+import type { Screen } from "../types/ui.ts";
+
+describe("screen hash router", () => {
+  it.each<[Screen, string]>([
+    ["home", "#/"],
+    ["alphabet", "#/alphabet"],
+    ["diphthongs", "#/diphthongs"],
+    ["practice-single-choice-topics", "#/practice/single-choice"],
+    ["practice-input-topics", "#/practice/input"],
+  ])("maps %s screen to %s", (screen, hash) => {
+    expect(screenToHash(screen)).toBe(hash);
+  });
+
+  it.each<[string, Screen]>([
+    ["#/", "home"],
+    ["#/alphabet", "alphabet"],
+    ["#/diphthongs", "diphthongs"],
+    ["#/practice/single-choice", "practice-single-choice-topics"],
+    ["#/practice/input", "practice-input-topics"],
+  ])("maps %s hash to %s screen", (hash, screen) => {
+    expect(screenFromHash(hash)).toBe(screen);
+  });
+
+  it("falls back to home for unknown hash", () => {
+    expect(screenFromHash("#/unknown")).toBe("home");
+  });
+
+  it.each([
+    ["", "#/"],
+    ["#", "#/"],
+    ["/alphabet", "#/alphabet"],
+    ["#/alphabet/", "#/alphabet"],
+  ])("normalizes %s to %s", (input, expected) => {
+    expect(normalizeScreenHash(input)).toBe(expected);
+  });
+
+  it("maps topic detail screens to their parent topic list hashes", () => {
+    expect(screenToHash("practice-input-topic")).toBe("#/practice/input");
+    expect(screenToHash("practice-single-choice-topic")).toBe("#/practice/single-choice");
+  });
+});
