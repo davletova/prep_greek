@@ -1,6 +1,7 @@
 .nav-button {
   border: var(--border-width-surface) solid var(--color-surface-border);
-  border-radius: 14px;
+  border-radius: var(--radius-control-large);
+  min-height: var(--control-hit-target);
   padding: 12px 16px;
   background: var(--color-surface);
   color: var(--color-text-interactive);
@@ -28,7 +29,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  padding: 10px 16px 18px;
+  padding: var(--tabbar-padding-top) var(--tabbar-padding-x) var(--tabbar-padding-bottom);
   background: var(--color-tabbar-bg);
   border-top: 1px solid var(--color-border-subtle);
   backdrop-filter: blur(10px);
@@ -37,6 +38,7 @@
 .tabbar__item {
   display: grid;
   place-items: center;
+  min-height: var(--control-hit-target);
   color: var(--color-text-interactive);
   padding: 8px 0;
   background: transparent;

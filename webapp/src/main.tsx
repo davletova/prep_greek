@@ -9,6 +9,8 @@ if (!rootElement) {
   throw new Error('Root element with id "root" was not found');
 }
 
+document.documentElement.dataset.design ??= "brand";
+
 const root = createRoot(rootElement);
 
 root.render(

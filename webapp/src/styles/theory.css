@@ -143,8 +143,8 @@
   border: var(--border-width-surface) solid var(--color-surface-border);
   background: var(--color-surface);
   border-radius: 999px;
-  width: 36px;
-  height: 36px;
+  width: var(--control-hit-target);
+  height: var(--control-hit-target);
   font-size: 16px;
   font-weight: 600;
   color: var(--color-text-strong);

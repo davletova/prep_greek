@@ -6,7 +6,7 @@
   border: var(--border-width-surface) solid var(--color-surface-border);
   padding: 18px 16px;
   background: var(--color-surface);
-  border-radius: 18px;
+  border-radius: var(--radius-card-large);
   box-shadow: var(--shadow-card);
   display: flex;
   align-items: center;
@@ -46,13 +46,13 @@
 }
 
 .card-button__title {
-  font-size: 17px;
+  font-size: var(--text-card-title);
   font-weight: 600;
   color: var(--color-text-heading);
 }
 
 .card-button__subtitle {
-  font-size: 13px;
+  font-size: var(--text-card-subtitle);
   color: var(--color-text-muted);
 }
 
@@ -79,9 +79,10 @@
 .dropdown {
   border: var(--border-width-surface) solid var(--color-surface-border);
   background: var(--color-surface);
-  border-radius: 14px;
+  border-radius: var(--radius-control-large);
+  min-height: var(--control-hit-target);
   padding: 12px 14px;
-  font-size: 16px;
+  font-size: var(--text-body);
   font-weight: 600;
   color: var(--color-text-heading);
   display: flex;
@@ -140,7 +141,7 @@
 .stats-card {
   padding: 16px;
   border: var(--border-width-surface) solid var(--color-surface-border);
-  border-radius: 18px;
+  border-radius: var(--radius-card-large);
   background: var(--color-surface);
   box-shadow: var(--shadow-card);
 }
@@ -219,7 +220,7 @@
 .confirm-sheet {
   width: min(100%, 440px);
   border: var(--border-width-surface) solid var(--color-surface-border);
-  border-radius: 24px;
+  border-radius: var(--radius-sheet);
   padding: 20px;
   background: var(--color-surface);
   box-shadow: var(--shadow-modal);
@@ -257,7 +258,8 @@
 
 .confirm-sheet__button {
   border: none;
-  border-radius: 14px;
+  border-radius: var(--radius-control-large);
+  min-height: var(--control-hit-target);
   padding: 13px 14px;
   font-size: 15px;
   font-weight: 700;
@@ -278,9 +280,11 @@
   border: var(--border-width-surface) solid var(--color-surface-border);
   background: var(--color-surface-translucent);
   color: var(--color-text-interactive);
-  width: 36px;
-  height: 36px;
-  border-radius: 12px;
+  min-width: var(--control-hit-target);
+  width: var(--control-hit-target);
+  min-height: var(--control-hit-target);
+  height: var(--control-hit-target);
+  border-radius: var(--radius-control);
   font-size: 22px;
   font-weight: 600;
   cursor: pointer;
@@ -289,8 +293,8 @@
 
 .back-button,
 .app__header-spacer {
-  width: 36px;
-  height: 36px;
+  width: var(--control-hit-target);
+  height: var(--control-hit-target);
 }
 
 .back-button {
