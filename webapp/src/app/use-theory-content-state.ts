@@ -4,7 +4,7 @@ import {
   loadDiphthongsContent,
 } from "../services/content/theory-content-service.ts";
 import type { AlphabetContent, DiphthongsContent } from "../types/content.ts";
-import type { LoadableState, Screen } from "../types/ui.ts";
+import type { LoadableState, Screen, ScreenNavigationHandler } from "../types/ui.ts";
 import { useLoadableContent } from "../hooks/use-loadable-content.ts";
 
 export interface TheoryContentState {
@@ -24,7 +24,7 @@ export interface TheoryContentState {
 
 export function useTheoryContentState(
   screen: Screen,
-  setScreen: (screen: Screen) => void
+  setScreen: ScreenNavigationHandler
 ): TheoryContentState {
   const { state: alphabetState, retry: retryAlphabetContent } = useLoadableContent(
     screen === "alphabet",

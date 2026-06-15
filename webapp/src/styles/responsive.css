@@ -1,6 +1,44 @@
+@media (max-height: 740px) {
+  :root {
+    --space-screen-y: 18px;
+    --space-app-gap: 20px;
+    --space-practice-gap: 14px;
+    --space-card-y: 20px;
+    --text-title: 22px;
+    --text-title-small: 20px;
+    --text-practice-question: 23px;
+  }
+
+  .practice-card__prompt-block {
+    min-height: 96px;
+  }
+
+  .input-practice-card {
+    min-height: 360px;
+  }
+
+  .input-practice-card__input-wrap {
+    padding-top: 64px;
+  }
+}
+
+@media (min-height: 880px) {
+  :root {
+    --space-screen-x: clamp(16px, 4vw, 24px);
+    --space-screen-y: clamp(28px, 4vh, 40px);
+    --space-app-gap: clamp(28px, 4vh, 38px);
+    --space-card-y: clamp(24px, 3vh, 32px);
+    --space-card-x: clamp(18px, 4vw, 28px);
+    --radius-card: 18px;
+    --practice-body-align: start;
+    --practice-body-padding-top: clamp(28px, 6vh, 64px);
+  }
+}
+
 @media (min-width: 480px) {
   .app {
-    max-width: 420px;
+    width: 100%;
+    max-width: var(--app-max-width);
     margin: 0 auto;
   }
 }

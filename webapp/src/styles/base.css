@@ -4,6 +4,41 @@
   background-color: var(--color-page-bg);
   color: var(--color-text-primary);
 
+  --space-screen-x: 12px;
+  --space-screen-y: 24px;
+  --space-screen-bottom: calc(96px + env(safe-area-inset-bottom, 0px));
+  --space-detail-bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  --space-app-gap: 28px;
+  --space-content-gap: 16px;
+  --space-card-y: 24px;
+  --space-card-x: 16px;
+  --space-practice-gap: 18px;
+  --space-bottom-action: 16px;
+
+  --radius-card: 16px;
+  --radius-card-large: 18px;
+  --radius-control: 12px;
+  --radius-control-large: 14px;
+  --radius-sheet: 24px;
+
+  --text-title: 24px;
+  --text-title-small: 22px;
+  --text-card-title: 17px;
+  --text-card-subtitle: 13px;
+  --text-body: 16px;
+  --text-practice-question: 25px;
+  --text-practice-hint: 15px;
+  --text-answer: 16px;
+
+  --control-hit-target: 44px;
+  --tabbar-padding-x: 16px;
+  --tabbar-padding-top: 10px;
+  --tabbar-padding-bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+
+  --app-max-width: 420px;
+  --practice-body-align: center;
+  --practice-body-padding-top: 0px;
+
   --color-page-bg: #f2f5fa;
   --color-page-bg-start: #f8fbff;
   --color-page-bg-mid: #eef3fb;
@@ -216,6 +251,7 @@
 body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   background: radial-gradient(
     circle at top,
     var(--color-page-bg-start) 0%,
@@ -226,4 +262,5 @@ body {
 
 #root {
   min-height: 100vh;
+  min-height: 100dvh;
 }

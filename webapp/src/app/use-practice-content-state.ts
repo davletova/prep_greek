@@ -3,7 +3,7 @@ import { loadSingleChoiceTopicDefinitions } from "../services/content/practice-c
 import type { InputExercise, ExerciseCollection } from "../types/exercises.ts";
 import type { SingleChoicePracticeTopicDefinition } from "../types/practice-topic.ts";
 import type { TopicListItem } from "../types/topic-list.ts";
-import type { LoadableState, Screen } from "../types/ui.ts";
+import type { LoadableState, Screen, ScreenNavigationHandler } from "../types/ui.ts";
 import { useInputPracticeTopicState } from "../hooks/use-input-practice-topic-state.ts";
 import { useLoadableContent } from "../hooks/use-loadable-content.ts";
 import { useSingleChoiceTopicState } from "../hooks/use-single-choice-topic-state.ts";
@@ -17,6 +17,7 @@ export interface PracticeContentState {
   openSingleChoiceTopics: () => void;
   openInputTopics: () => void;
   closeSingleChoiceTopic: () => void;
+  closeInputTopic: () => void;
   openSingleChoiceTopic: (topicId: string) => void;
   openInputTopic: (topicId: string) => void;
   retrySingleChoiceTopics: () => void;
@@ -26,7 +27,7 @@ export interface PracticeContentState {
 
 export function usePracticeContentState(
   screen: Screen,
-  setScreen: (screen: Screen) => void
+  setScreen: ScreenNavigationHandler
 ): PracticeContentState {
   const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] = useState<string | null>(
     null
@@ -65,7 +66,11 @@ export function usePracticeContentState(
   };
 
   const closeSingleChoiceTopic = () => {
-    setScreen("practice-single-choice-topics");
+    setScreen("practice-single-choice-topics", { history: "replace" });
+  };
+
+  const closeInputTopic = () => {
+    setScreen("practice-input-topics", { history: "replace" });
   };
 
   const openSingleChoiceTopic = (topicId: string) => {
@@ -91,6 +96,7 @@ export function usePracticeContentState(
     openSingleChoiceTopics,
     openInputTopics,
     closeSingleChoiceTopic,
+    closeInputTopic,
     openSingleChoiceTopic,
     openInputTopic,
     retrySingleChoiceTopics,
