@@ -1,0 +1,1606 @@
+{
+  "title": "Базовое аудирование",
+  "subtitle": "100 слов и фраз для распознавания греческой речи",
+  "items": [
+    {
+      "id": "listening-basic-001",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Καλημέρα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Καλημέρα",
+      "correctAnswer": "Доброе утро",
+      "wrongAnswers": ["Здравствуйте", "Я не знаю", "Очень приятно"],
+      "explanation": "Καλημέρα — «Доброе утро»."
+    },
+    {
+      "id": "listening-basic-002",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Καλησπέρα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Καλησπέρα",
+      "correctAnswer": "Καλησπέρα",
+      "wrongAnswers": ["Παρακαλώ", "Μιλάτε αγγλικά;", "Είμαι από τη Ρωσία"],
+      "explanation": "Καλησπέρα — «Добрый вечер»."
+    },
+    {
+      "id": "listening-basic-003",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Καληνύχτα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Καληνύχτα",
+      "correctAnswer": "Спокойной ночи",
+      "wrongAnswers": ["Нет", "Меня зовут Анна", "Где аптека?"],
+      "explanation": "Καληνύχτα — «Спокойной ночи»."
+    },
+    {
+      "id": "listening-basic-004",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Γεια σου",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Γεια σου",
+      "correctAnswer": "Γεια σου",
+      "wrongAnswers": ["Δεν καταλαβαίνω", "Καλά, ευχαριστώ", "Πού είναι το μετρό;"],
+      "explanation": "Γεια σου — «Привет»."
+    },
+    {
+      "id": "listening-basic-005",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Γεια σας",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Γεια σας",
+      "correctAnswer": "Здравствуйте",
+      "wrongAnswers": ["Как тебя зовут?", "Где туалет?", "Я хочу чай"],
+      "explanation": "Γεια σας — «Здравствуйте»."
+    },
+    {
+      "id": "listening-basic-006",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Αντίο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Αντίο",
+      "correctAnswer": "Αντίο",
+      "wrongAnswers": ["Τι κάνεις;", "Πού είναι η στάση;", "Έναν καφέ, παρακαλώ"],
+      "explanation": "Αντίο — «До свидания»."
+    },
+    {
+      "id": "listening-basic-007",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Ευχαριστώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Ευχαριστώ",
+      "correctAnswer": "Спасибо",
+      "wrongAnswers": ["Я из Греции", "Я хочу кофе", "Сколько это стоит?"],
+      "explanation": "Ευχαριστώ — «Спасибо»."
+    },
+    {
+      "id": "listening-basic-008",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Παρακαλώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Παρακαλώ",
+      "correctAnswer": "Παρακαλώ",
+      "wrongAnswers": ["Πού είναι το ξενοδοχείο;", "Θέλω ένα εισιτήριο", "Μου αρέσει"],
+      "explanation": "Παρακαλώ — «Пожалуйста»."
+    },
+    {
+      "id": "listening-basic-009",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Συγγνώμη",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Συγγνώμη",
+      "correctAnswer": "Извините",
+      "wrongAnswers": ["Я хочу воды", "Счёт, пожалуйста", "Я хочу пить"],
+      "explanation": "Συγγνώμη — «Извините»."
+    },
+    {
+      "id": "listening-basic-010",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Ναι",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Ναι",
+      "correctAnswer": "Ναι",
+      "wrongAnswers": ["Θέλω ψωμί", "Είναι φτηνό", "Χρειάζομαι βοήθεια"],
+      "explanation": "Ναι — «Да»."
+    },
+    {
+      "id": "listening-basic-011",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Όχι",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Όχι",
+      "correctAnswer": "Нет",
+      "wrongAnswers": ["Одну воду, пожалуйста", "Я голоден", "Я живу в Афинах"],
+      "explanation": "Όχι — «Нет»."
+    },
+    {
+      "id": "listening-basic-012",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Δεν ξέρω",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Δεν ξέρω",
+      "correctAnswer": "Δεν ξέρω",
+      "wrongAnswers": ["Είναι ακριβό", "Είμαι άρρωστος", "Πάμε στην παραλία"],
+      "explanation": "Δεν ξέρω — «Я не знаю»."
+    },
+    {
+      "id": "listening-basic-013",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Καταλαβαίνω",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Καταλαβαίνω",
+      "correctAnswer": "Я понимаю",
+      "wrongAnswers": ["Мне не нравится", "Где ты живёшь?", "Который час?"],
+      "explanation": "Καταλαβαίνω — «Я понимаю»."
+    },
+    {
+      "id": "listening-basic-014",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Δεν καταλαβαίνω",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Δεν καταλαβαίνω",
+      "correctAnswer": "Δεν καταλαβαίνω",
+      "wrongAnswers": ["Είμαι κουρασμένος", "Πάμε στο σπίτι", "Είναι τρεις"],
+      "explanation": "Δεν καταλαβαίνω — «Я не понимаю»."
+    },
+    {
+      "id": "listening-basic-015",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Μιλάτε αγγλικά;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μιλάτε αγγλικά;",
+      "correctAnswer": "Вы говорите по-английски?",
+      "wrongAnswers": ["Помогите!", "Я хочу спать", "Завтра"],
+      "explanation": "Μιλάτε αγγλικά; — «Вы говорите по-английски?»."
+    },
+    {
+      "id": "listening-basic-016",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Μιλάτε ρωσικά;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μιλάτε ρωσικά;",
+      "correctAnswer": "Μιλάτε ρωσικά;",
+      "wrongAnswers": ["Πάμε;", "Είναι δύο", "Μετά"],
+      "explanation": "Μιλάτε ρωσικά; — «Вы говорите по-русски?»."
+    },
+    {
+      "id": "listening-basic-017",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πώς σε λένε;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πώς σε λένε;",
+      "correctAnswer": "Как тебя зовут?",
+      "wrongAnswers": ["Я хочу пойти домой", "Сегодня", "Ночь"],
+      "explanation": "Πώς σε λένε; — «Как тебя зовут?»."
+    },
+    {
+      "id": "listening-basic-018",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Με λένε Άννα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Με λένε Άννα",
+      "correctAnswer": "Με λένε Άννα",
+      "wrongAnswers": ["Είναι μία", "Τώρα", "Δρόμος"],
+      "explanation": "Με λένε Άννα — «Меня зовут Анна»."
+    },
+    {
+      "id": "listening-basic-019",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Χαίρω πολύ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Χαίρω πολύ",
+      "correctAnswer": "Очень приятно",
+      "wrongAnswers": ["Сейчас четыре", "Вечер", "Море"],
+      "explanation": "Χαίρω πολύ — «Очень приятно»."
+    },
+    {
+      "id": "listening-basic-020",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Τι κάνεις;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Τι κάνεις;",
+      "correctAnswer": "Τι κάνεις;",
+      "wrongAnswers": ["Χθες", "Σπίτι", "Νησί"],
+      "explanation": "Τι κάνεις; — «Как дела?»."
+    },
+    {
+      "id": "listening-basic-021",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Καλά, ευχαριστώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Καλά, ευχαριστώ",
+      "correctAnswer": "Хорошо, спасибо",
+      "wrongAnswers": ["Утро", "Деревня", "Станция"],
+      "explanation": "Καλά, ευχαριστώ — «Хорошо, спасибо»."
+    },
+    {
+      "id": "listening-basic-022",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Είμαι από τη Ρωσία",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είμαι από τη Ρωσία",
+      "correctAnswer": "Είμαι από τη Ρωσία",
+      "wrongAnswers": ["Μέρα", "Βουνό", "Τρένο"],
+      "explanation": "Είμαι από τη Ρωσία — «Я из России»."
+    },
+    {
+      "id": "listening-basic-023",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Είμαι από την Ελλάδα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είμαι από την Ελλάδα",
+      "correctAnswer": "Я из Греции",
+      "wrongAnswers": ["Город", "Порт", "Маленький"],
+      "explanation": "Είμαι από την Ελλάδα — «Я из Греции»."
+    },
+    {
+      "id": "listening-basic-024",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πού είναι η τουαλέτα;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πού είναι η τουαλέτα;",
+      "correctAnswer": "Πού είναι η τουαλέτα;",
+      "wrongAnswers": ["Παραλία", "Ταξί", "Κακό"],
+      "explanation": "Πού είναι η τουαλέτα; — «Где туалет?»."
+    },
+    {
+      "id": "listening-basic-025",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πού είναι το φαρμακείο;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πού είναι το φαρμακείο;",
+      "correctAnswer": "Где аптека?",
+      "wrongAnswers": ["Аэропорт", "Машина", "Открыто"],
+      "explanation": "Πού είναι το φαρμακείο; — «Где аптека?»."
+    },
+    {
+      "id": "listening-basic-026",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πού είναι το ξενοδοχείο;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πού είναι το ξενοδοχείο;",
+      "correctAnswer": "Πού είναι το ξενοδοχείο;",
+      "wrongAnswers": ["Λεωφορείο", "Καλό", "Αριστερά"],
+      "explanation": "Πού είναι το ξενοδοχείο; — «Где гостиница?»."
+    },
+    {
+      "id": "listening-basic-027",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πού είναι η στάση;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πού είναι η στάση;",
+      "correctAnswer": "Где остановка?",
+      "wrongAnswers": ["Корабль", "Холодный", "Там"],
+      "explanation": "Πού είναι η στάση; — «Где остановка?»."
+    },
+    {
+      "id": "listening-basic-028",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πού είναι το μετρό;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πού είναι το μετρό;",
+      "correctAnswer": "Πού είναι το μετρό;",
+      "wrongAnswers": ["Μεγάλο", "Δεξιά", "Μέσα"],
+      "explanation": "Πού είναι το μετρό; — «Где метро?»."
+    },
+    {
+      "id": "listening-basic-029",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Θέλω νερό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θέλω νερό",
+      "correctAnswer": "Я хочу воды",
+      "wrongAnswers": ["Горячий", "Здесь", "Спокойной ночи"],
+      "explanation": "Θέλω νερό — «Я хочу воды»."
+    },
+    {
+      "id": "listening-basic-030",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Θέλω καφέ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θέλω καφέ",
+      "correctAnswer": "Θέλω καφέ",
+      "wrongAnswers": ["Κλειστό", "Κάτω", "Αντίο"],
+      "explanation": "Θέλω καφέ — «Я хочу кофе»."
+    },
+    {
+      "id": "listening-basic-031",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Θέλω τσάι",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θέλω τσάι",
+      "correctAnswer": "Я хочу чай",
+      "wrongAnswers": ["Прямо", "Добрый вечер", "Извините"],
+      "explanation": "Θέλω τσάι — «Я хочу чай»."
+    },
+    {
+      "id": "listening-basic-032",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Θέλω ψωμί",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θέλω ψωμί",
+      "correctAnswer": "Θέλω ψωμί",
+      "wrongAnswers": ["Πάνω", "Γεια σας", "Δεν ξέρω"],
+      "explanation": "Θέλω ψωμί — «Я хочу хлеб»."
+    },
+    {
+      "id": "listening-basic-033",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Θέλω ένα εισιτήριο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θέλω ένα εισιτήριο",
+      "correctAnswer": "Я хочу один билет",
+      "wrongAnswers": ["Доброе утро", "Пожалуйста", "Вы говорите по-английски?"],
+      "explanation": "Θέλω ένα εισιτήριο — «Я хочу один билет»."
+    },
+    {
+      "id": "listening-basic-034",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Έναν καφέ, παρακαλώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Έναν καφέ, παρακαλώ",
+      "correctAnswer": "Έναν καφέ, παρακαλώ",
+      "wrongAnswers": ["Γεια σου", "Όχι", "Με λένε Άννα"],
+      "explanation": "Έναν καφέ, παρακαλώ — «Один кофе, пожалуйста»."
+    },
+    {
+      "id": "listening-basic-035",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Ένα νερό, παρακαλώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Ένα νερό, παρακαλώ",
+      "correctAnswer": "Одну воду, пожалуйста",
+      "wrongAnswers": ["Спасибо", "Я не понимаю", "Хорошо, спасибо"],
+      "explanation": "Ένα νερό, παρακαλώ — «Одну воду, пожалуйста»."
+    },
+    {
+      "id": "listening-basic-036",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Τον λογαριασμό, παρακαλώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Τον λογαριασμό, παρακαλώ",
+      "correctAnswer": "Τον λογαριασμό, παρακαλώ",
+      "wrongAnswers": ["Ναι", "Πώς σε λένε;", "Πού είναι η τουαλέτα;"],
+      "explanation": "Τον λογαριασμό, παρακαλώ — «Счёт, пожалуйста»."
+    },
+    {
+      "id": "listening-basic-037",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πόσο κάνει;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πόσο κάνει;",
+      "correctAnswer": "Сколько это стоит?",
+      "wrongAnswers": ["Я понимаю", "Как дела?", "Где остановка?"],
+      "explanation": "Πόσο κάνει; — «Сколько это стоит?»."
+    },
+    {
+      "id": "listening-basic-038",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Είναι ακριβό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είναι ακριβό",
+      "correctAnswer": "Είναι ακριβό",
+      "wrongAnswers": ["Μιλάτε ρωσικά;", "Είμαι από την Ελλάδα", "Θέλω καφέ"],
+      "explanation": "Είναι ακριβό — «Это дорого»."
+    },
+    {
+      "id": "listening-basic-039",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Είναι φτηνό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είναι φτηνό",
+      "correctAnswer": "Это дёшево",
+      "wrongAnswers": ["Очень приятно", "Где гостиница?", "Я хочу один билет"],
+      "explanation": "Είναι φτηνό — «Это дёшево»."
+    },
+    {
+      "id": "listening-basic-040",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Μου αρέσει",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μου αρέσει",
+      "correctAnswer": "Μου αρέσει",
+      "wrongAnswers": ["Είμαι από τη Ρωσία", "Θέλω νερό", "Τον λογαριασμό, παρακαλώ"],
+      "explanation": "Μου αρέσει — «Мне нравится»."
+    },
+    {
+      "id": "listening-basic-041",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Δεν μου αρέσει",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Δεν μου αρέσει",
+      "correctAnswer": "Мне не нравится",
+      "wrongAnswers": ["Где аптека?", "Я хочу хлеб", "Это дёшево"],
+      "explanation": "Δεν μου αρέσει — «Мне не нравится»."
+    },
+    {
+      "id": "listening-basic-042",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πεινάω",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πεινάω",
+      "correctAnswer": "Πεινάω",
+      "wrongAnswers": ["Πού είναι το μετρό;", "Ένα νερό, παρακαλώ", "Διψάω"],
+      "explanation": "Πεινάω — «Я голоден»."
+    },
+    {
+      "id": "listening-basic-043",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Διψάω",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Διψάω",
+      "correctAnswer": "Я хочу пить",
+      "wrongAnswers": ["Я хочу чай", "Это дорого", "Мне нужна помощь"],
+      "explanation": "Διψάω — «Я хочу пить»."
+    },
+    {
+      "id": "listening-basic-044",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Είμαι κουρασμένος",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είμαι κουρασμένος",
+      "correctAnswer": "Είμαι κουρασμένος",
+      "wrongAnswers": ["Έναν καφέ, παρακαλώ", "Δεν μου αρέσει", "Μένω στην Αθήνα"],
+      "explanation": "Είμαι κουρασμένος — «Я устал»."
+    },
+    {
+      "id": "listening-basic-045",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Είμαι άρρωστος",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είμαι άρρωστος",
+      "correctAnswer": "Я болен",
+      "wrongAnswers": ["Сколько это стоит?", "Я устал", "Пойдём на пляж"],
+      "explanation": "Είμαι άρρωστος — «Я болен»."
+    },
+    {
+      "id": "listening-basic-046",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Χρειάζομαι βοήθεια",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Χρειάζομαι βοήθεια",
+      "correctAnswer": "Χρειάζομαι βοήθεια",
+      "wrongAnswers": ["Μου αρέσει", "Πού μένεις;", "Τι ώρα είναι;"],
+      "explanation": "Χρειάζομαι βοήθεια — «Мне нужна помощь»."
+    },
+    {
+      "id": "listening-basic-047",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Βοήθεια!",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Βοήθεια!",
+      "correctAnswer": "Помогите!",
+      "wrongAnswers": ["Я хочу пить", "Пойдём домой", "Сейчас три"],
+      "explanation": "Βοήθεια! — «Помогите!»."
+    },
+    {
+      "id": "listening-basic-048",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πού μένεις;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πού μένεις;",
+      "correctAnswer": "Πού μένεις;",
+      "wrongAnswers": ["Χρειάζομαι βοήθεια", "Θέλω να κοιμηθώ", "Αύριο"],
+      "explanation": "Πού μένεις; — «Где ты живёшь?»."
+    },
+    {
+      "id": "listening-basic-049",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Μένω στην Αθήνα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μένω στην Αθήνα",
+      "correctAnswer": "Я живу в Афинах",
+      "wrongAnswers": ["Пойдём?", "Сейчас два", "Потом"],
+      "explanation": "Μένω στην Αθήνα — «Я живу в Афинах»."
+    },
+    {
+      "id": "listening-basic-050",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πάμε;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πάμε;",
+      "correctAnswer": "Πάμε;",
+      "wrongAnswers": ["Θέλω να πάω σπίτι", "Σήμερα", "Νύχτα"],
+      "explanation": "Πάμε; — «Пойдём?»."
+    },
+    {
+      "id": "listening-basic-051",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πάμε στο σπίτι",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πάμε στο σπίτι",
+      "correctAnswer": "Пойдём домой",
+      "wrongAnswers": ["Сейчас час", "Сейчас", "Дорога"],
+      "explanation": "Πάμε στο σπίτι — «Пойдём домой»."
+    },
+    {
+      "id": "listening-basic-052",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πάμε στην παραλία",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πάμε στην παραλία",
+      "correctAnswer": "Πάμε στην παραλία",
+      "wrongAnswers": ["Είναι τέσσερις", "Βράδυ", "Θάλασσα"],
+      "explanation": "Πάμε στην παραλία — «Пойдём на пляж»."
+    },
+    {
+      "id": "listening-basic-053",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Θέλω να πάω σπίτι",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θέλω να πάω σπίτι",
+      "correctAnswer": "Я хочу пойти домой",
+      "wrongAnswers": ["Вчера", "Дом", "Остров"],
+      "explanation": "Θέλω να πάω σπίτι — «Я хочу пойти домой»."
+    },
+    {
+      "id": "listening-basic-054",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Θέλω να κοιμηθώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θέλω να κοιμηθώ",
+      "correctAnswer": "Θέλω να κοιμηθώ",
+      "wrongAnswers": ["Πρωί", "Χωριό", "Σταθμός"],
+      "explanation": "Θέλω να κοιμηθώ — «Я хочу спать»."
+    },
+    {
+      "id": "listening-basic-055",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Τι ώρα είναι;",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Τι ώρα είναι;",
+      "correctAnswer": "Который час?",
+      "wrongAnswers": ["День", "Гора", "Поезд"],
+      "explanation": "Τι ώρα είναι; — «Который час?»."
+    },
+    {
+      "id": "listening-basic-056",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Είναι μία",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είναι μία",
+      "correctAnswer": "Είναι μία",
+      "wrongAnswers": ["Πόλη", "Λιμάνι", "Μικρό"],
+      "explanation": "Είναι μία — «Сейчас час»."
+    },
+    {
+      "id": "listening-basic-057",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Είναι δύο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είναι δύο",
+      "correctAnswer": "Сейчас два",
+      "wrongAnswers": ["Пляж", "Такси", "Плохой"],
+      "explanation": "Είναι δύο — «Сейчас два»."
+    },
+    {
+      "id": "listening-basic-058",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Είναι τρεις",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είναι τρεις",
+      "correctAnswer": "Είναι τρεις",
+      "wrongAnswers": ["Αεροδρόμιο", "Αυτοκίνητο", "Ανοιχτό"],
+      "explanation": "Είναι τρεις — «Сейчас три»."
+    },
+    {
+      "id": "listening-basic-059",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Είναι τέσσερις",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Είναι τέσσερις",
+      "correctAnswer": "Сейчас четыре",
+      "wrongAnswers": ["Автобус", "Хороший", "Налево"],
+      "explanation": "Είναι τέσσερις — «Сейчас четыре»."
+    },
+    {
+      "id": "listening-basic-060",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Σήμερα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Σήμερα",
+      "correctAnswer": "Σήμερα",
+      "wrongAnswers": ["Πλοίο", "Κρύο", "Εκεί"],
+      "explanation": "Σήμερα — «Сегодня»."
+    },
+    {
+      "id": "listening-basic-061",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Αύριο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Αύριο",
+      "correctAnswer": "Завтра",
+      "wrongAnswers": ["Большой", "Направо", "Внутри"],
+      "explanation": "Αύριο — «Завтра»."
+    },
+    {
+      "id": "listening-basic-062",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Χθες",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Χθες",
+      "correctAnswer": "Χθες",
+      "wrongAnswers": ["Ζεστό", "Εδώ", "Καληνύχτα"],
+      "explanation": "Χθες — «Вчера»."
+    },
+    {
+      "id": "listening-basic-063",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Τώρα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Τώρα",
+      "correctAnswer": "Сейчас",
+      "wrongAnswers": ["Закрыто", "Внизу", "До свидания"],
+      "explanation": "Τώρα — «Сейчас»."
+    },
+    {
+      "id": "listening-basic-064",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Μετά",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μετά",
+      "correctAnswer": "Μετά",
+      "wrongAnswers": ["Ευθεία", "Καλησπέρα", "Συγγνώμη"],
+      "explanation": "Μετά — «Потом»."
+    },
+    {
+      "id": "listening-basic-065",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πρωί",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πρωί",
+      "correctAnswer": "Утро",
+      "wrongAnswers": ["Наверху", "Здравствуйте", "Я не знаю"],
+      "explanation": "Πρωί — «Утро»."
+    },
+    {
+      "id": "listening-basic-066",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Βράδυ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Βράδυ",
+      "correctAnswer": "Βράδυ",
+      "wrongAnswers": ["Καλημέρα", "Παρακαλώ", "Μιλάτε αγγλικά;"],
+      "explanation": "Βράδυ — «Вечер»."
+    },
+    {
+      "id": "listening-basic-067",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Νύχτα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Νύχτα",
+      "correctAnswer": "Ночь",
+      "wrongAnswers": ["Привет", "Нет", "Меня зовут Анна"],
+      "explanation": "Νύχτα — «Ночь»."
+    },
+    {
+      "id": "listening-basic-068",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Μέρα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μέρα",
+      "correctAnswer": "Μέρα",
+      "wrongAnswers": ["Ευχαριστώ", "Δεν καταλαβαίνω", "Καλά, ευχαριστώ"],
+      "explanation": "Μέρα — «День»."
+    },
+    {
+      "id": "listening-basic-069",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Σπίτι",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Σπίτι",
+      "correctAnswer": "Дом",
+      "wrongAnswers": ["Да", "Как тебя зовут?", "Где туалет?"],
+      "explanation": "Σπίτι — «Дом»."
+    },
+    {
+      "id": "listening-basic-070",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Δρόμος",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Δρόμος",
+      "correctAnswer": "Δρόμος",
+      "wrongAnswers": ["Καταλαβαίνω", "Τι κάνεις;", "Πού είναι η στάση;"],
+      "explanation": "Δρόμος — «Дорога»."
+    },
+    {
+      "id": "listening-basic-071",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πόλη",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πόλη",
+      "correctAnswer": "Город",
+      "wrongAnswers": ["Вы говорите по-русски?", "Я из Греции", "Я хочу кофе"],
+      "explanation": "Πόλη — «Город»."
+    },
+    {
+      "id": "listening-basic-072",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Χωριό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Χωριό",
+      "correctAnswer": "Χωριό",
+      "wrongAnswers": ["Χαίρω πολύ", "Πού είναι το ξενοδοχείο;", "Θέλω ένα εισιτήριο"],
+      "explanation": "Χωριό — «Деревня»."
+    },
+    {
+      "id": "listening-basic-073",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Θάλασσα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Θάλασσα",
+      "correctAnswer": "Море",
+      "wrongAnswers": ["Я из России", "Я хочу воды", "Счёт, пожалуйста"],
+      "explanation": "Θάλασσα — «Море»."
+    },
+    {
+      "id": "listening-basic-074",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Παραλία",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Παραλία",
+      "correctAnswer": "Παραλία",
+      "wrongAnswers": ["Πού είναι το φαρμακείο;", "Θέλω ψωμί", "Είναι φτηνό"],
+      "explanation": "Παραλία — «Пляж»."
+    },
+    {
+      "id": "listening-basic-075",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Βουνό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Βουνό",
+      "correctAnswer": "Гора",
+      "wrongAnswers": ["Где метро?", "Одну воду, пожалуйста", "Я голоден"],
+      "explanation": "Βουνό — «Гора»."
+    },
+    {
+      "id": "listening-basic-076",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Νησί",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Νησί",
+      "correctAnswer": "Νησί",
+      "wrongAnswers": ["Θέλω τσάι", "Είναι ακριβό", "Είμαι άρρωστος"],
+      "explanation": "Νησί — «Остров»."
+    },
+    {
+      "id": "listening-basic-077",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Αεροδρόμιο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Αεροδρόμιο",
+      "correctAnswer": "Аэропорт",
+      "wrongAnswers": ["Один кофе, пожалуйста", "Мне не нравится", "Где ты живёшь?"],
+      "explanation": "Αεροδρόμιο — «Аэропорт»."
+    },
+    {
+      "id": "listening-basic-078",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Λιμάνι",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Λιμάνι",
+      "correctAnswer": "Λιμάνι",
+      "wrongAnswers": ["Πόσο κάνει;", "Είμαι κουρασμένος", "Πάμε στο σπίτι"],
+      "explanation": "Λιμάνι — «Порт»."
+    },
+    {
+      "id": "listening-basic-079",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Σταθμός",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Σταθμός",
+      "correctAnswer": "Станция",
+      "wrongAnswers": ["Мне нравится", "Помогите!", "Я хочу спать"],
+      "explanation": "Σταθμός — «Станция»."
+    },
+    {
+      "id": "listening-basic-080",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Λεωφορείο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Λεωφορείο",
+      "correctAnswer": "Λεωφορείο",
+      "wrongAnswers": ["Διψάω", "Πάμε;", "Είναι δύο"],
+      "explanation": "Λεωφορείο — «Автобус»."
+    },
+    {
+      "id": "listening-basic-081",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Ταξί",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Ταξί",
+      "correctAnswer": "Такси",
+      "wrongAnswers": ["Мне нужна помощь", "Я хочу пойти домой", "Сегодня"],
+      "explanation": "Ταξί — «Такси»."
+    },
+    {
+      "id": "listening-basic-082",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Τρένο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Τρένο",
+      "correctAnswer": "Τρένο",
+      "wrongAnswers": ["Μένω στην Αθήνα", "Είναι μία", "Τώρα"],
+      "explanation": "Τρένο — «Поезд»."
+    },
+    {
+      "id": "listening-basic-083",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Πλοίο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πλοίο",
+      "correctAnswer": "Корабль",
+      "wrongAnswers": ["Пойдём на пляж", "Сейчас четыре", "Вечер"],
+      "explanation": "Πλοίο — «Корабль»."
+    },
+    {
+      "id": "listening-basic-084",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Αυτοκίνητο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Αυτοκίνητο",
+      "correctAnswer": "Αυτοκίνητο",
+      "wrongAnswers": ["Τι ώρα είναι;", "Χθες", "Σπίτι"],
+      "explanation": "Αυτοκίνητο — «Машина»."
+    },
+    {
+      "id": "listening-basic-085",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Μικρό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μικρό",
+      "correctAnswer": "Маленький",
+      "wrongAnswers": ["Сейчас три", "Утро", "Деревня"],
+      "explanation": "Μικρό — «Маленький»."
+    },
+    {
+      "id": "listening-basic-086",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Μεγάλο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μεγάλο",
+      "correctAnswer": "Μεγάλο",
+      "wrongAnswers": ["Αύριο", "Μέρα", "Βουνό"],
+      "explanation": "Μεγάλο — «Большой»."
+    },
+    {
+      "id": "listening-basic-087",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Καλό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Καλό",
+      "correctAnswer": "Хороший",
+      "wrongAnswers": ["Потом", "Город", "Порт"],
+      "explanation": "Καλό — «Хороший»."
+    },
+    {
+      "id": "listening-basic-088",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Κακό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Κακό",
+      "correctAnswer": "Κακό",
+      "wrongAnswers": ["Νύχτα", "Παραλία", "Ταξί"],
+      "explanation": "Κακό — «Плохой»."
+    },
+    {
+      "id": "listening-basic-089",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Ζεστό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Ζεστό",
+      "correctAnswer": "Горячий",
+      "wrongAnswers": ["Дорога", "Аэропорт", "Машина"],
+      "explanation": "Ζεστό — «Горячий»."
+    },
+    {
+      "id": "listening-basic-090",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Κρύο",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Κρύο",
+      "correctAnswer": "Κρύο",
+      "wrongAnswers": ["Θάλασσα", "Λεωφορείο", "Καλό"],
+      "explanation": "Κρύο — «Холодный»."
+    },
+    {
+      "id": "listening-basic-091",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Ανοιχτό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Ανοιχτό",
+      "correctAnswer": "Открыто",
+      "wrongAnswers": ["Остров", "Корабль", "Холодный"],
+      "explanation": "Ανοιχτό — «Открыто»."
+    },
+    {
+      "id": "listening-basic-092",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Κλειστό",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Κλειστό",
+      "correctAnswer": "Κλειστό",
+      "wrongAnswers": ["Σταθμός", "Μεγάλο", "Αριστερά"],
+      "explanation": "Κλειστό — «Закрыто»."
+    },
+    {
+      "id": "listening-basic-093",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Δεξιά",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Δεξιά",
+      "correctAnswer": "Направо",
+      "wrongAnswers": ["Поезд", "Горячий", "Там"],
+      "explanation": "Δεξιά — «Направо»."
+    },
+    {
+      "id": "listening-basic-094",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Αριστερά",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Αριστερά",
+      "correctAnswer": "Αριστερά",
+      "wrongAnswers": ["Μικρό", "Κλειστό", "Μέσα"],
+      "explanation": "Αριστερά — «Налево»."
+    },
+    {
+      "id": "listening-basic-095",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Ευθεία",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Ευθεία",
+      "correctAnswer": "Прямо",
+      "wrongAnswers": ["Плохой", "Здесь", "Спокойной ночи"],
+      "explanation": "Ευθεία — «Прямо»."
+    },
+    {
+      "id": "listening-basic-096",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Εδώ",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Εδώ",
+      "correctAnswer": "Εδώ",
+      "wrongAnswers": ["Ανοιχτό", "Κάτω", "Αντίο"],
+      "explanation": "Εδώ — «Здесь»."
+    },
+    {
+      "id": "listening-basic-097",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Εκεί",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Εκεί",
+      "correctAnswer": "Там",
+      "wrongAnswers": ["Налево", "Добрый вечер", "Извините"],
+      "explanation": "Εκεί — «Там»."
+    },
+    {
+      "id": "listening-basic-098",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Πάνω",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Πάνω",
+      "correctAnswer": "Πάνω",
+      "wrongAnswers": ["Εκεί", "Γεια σας", "Δεν ξέρω"],
+      "explanation": "Πάνω — «Наверху»."
+    },
+    {
+      "id": "listening-basic-099",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите перевод",
+      "answerMode": "audio-to-russian",
+      "audio": {
+        "kind": "tts",
+        "text": "Κάτω",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Κάτω",
+      "correctAnswer": "Внизу",
+      "wrongAnswers": ["Доброе утро", "Пожалуйста", "Вы говорите по-английски?"],
+      "explanation": "Κάτω — «Внизу»."
+    },
+    {
+      "id": "listening-basic-100",
+      "type": "listening",
+      "prompt": "Прослушайте фразу и выберите греческий вариант",
+      "answerMode": "audio-to-greek",
+      "audio": {
+        "kind": "tts",
+        "text": "Μέσα",
+        "lang": "el-GR",
+        "rate": 0.85
+      },
+      "transcript": "Μέσα",
+      "correctAnswer": "Μέσα",
+      "wrongAnswers": ["Γεια σου", "Όχι", "Με λένε Άννα"],
+      "explanation": "Μέσα — «Внутри»."
+    }
+  ]
+}

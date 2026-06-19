@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { exerciseCollectionSchema, singleChoiceExerciseSchema } from "./exercises.ts";
+import {
+  exerciseCollectionSchema,
+  listeningExerciseSchema,
+  singleChoiceExerciseSchema,
+} from "./exercises.ts";
 
 const validSingleChoiceExercise = {
   id: "choice-1",
@@ -8,6 +12,22 @@ const validSingleChoiceExercise = {
   promptLanguage: "el",
   correctAnswer: "Привет",
   wrongAnswers: ["Пока", "Спасибо", "Извините"],
+};
+
+const validListeningExercise = {
+  id: "listening-1",
+  type: "listening",
+  prompt: "Прослушайте фразу и выберите перевод",
+  answerMode: "audio-to-russian",
+  audio: {
+    kind: "tts",
+    text: "Καλημέρα",
+    lang: "el-GR",
+    rate: 0.85,
+  },
+  transcript: "Καλημέρα",
+  correctAnswer: "Доброе утро",
+  wrongAnswers: ["Добрый вечер", "Спасибо", "Пока"],
 };
 
 describe("exercise schemas", () => {
@@ -58,5 +78,30 @@ describe("exercise schemas", () => {
         items: [validSingleChoiceExercise],
       }).success
     ).toBe(true);
+  });
+
+  it("accepts listening exercises with TTS audio", () => {
+    expect(listeningExerciseSchema.safeParse(validListeningExercise).success).toBe(true);
+  });
+
+  it("accepts listening exercises with file audio", () => {
+    expect(
+      listeningExerciseSchema.safeParse({
+        ...validListeningExercise,
+        audio: {
+          kind: "file",
+          src: "/content/audio/greetings/kalimera.mp3",
+        },
+      }).success
+    ).toBe(true);
+  });
+
+  it("rejects listening exercises with unsupported modes", () => {
+    expect(
+      listeningExerciseSchema.safeParse({
+        ...validListeningExercise,
+        answerMode: "audio-to-picture",
+      }).success
+    ).toBe(false);
   });
 });

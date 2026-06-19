@@ -16,8 +16,10 @@ export type Screen =
   | "diphthongs"
   | "practice-single-choice-topics"
   | "practice-input-topics"
+  | "practice-listening-topics"
   | "practice-input-topic"
-  | "practice-single-choice-topic";
+  | "practice-single-choice-topic"
+  | "practice-listening-topic";
 
 export type VoidHandler = () => void;
 

@@ -137,6 +137,27 @@
   color: var(--color-danger-answer-text);
 }
 
+.practice-card__error {
+  margin: 0;
+  color: var(--color-danger-answer-text);
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.practice-card__feedback {
+  display: grid;
+  gap: 8px;
+}
+
+.practice-card__explanation {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+}
+
 .practice-flow__next {
   margin-top: 0;
   margin-bottom: var(--space-bottom-action);

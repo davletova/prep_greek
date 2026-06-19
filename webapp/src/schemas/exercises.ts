@@ -3,6 +3,7 @@ import type {
   Exercise,
   ExerciseCollection,
   InputExercise,
+  ListeningExercise,
   NonEmptyArray,
   SingleChoiceExercise,
   TextInputExercise,
@@ -41,10 +42,35 @@ export const inputExerciseSchema: z.ZodType<InputExercise> = baseExerciseSchema.
   context: z.string().optional(),
 });
 
+const listeningAudioSourceSchema = z.union([
+  z.object({
+    kind: z.literal("tts"),
+    text: z.string(),
+    lang: z.literal("el-GR"),
+    rate: z.number().optional(),
+    pitch: z.number().optional(),
+    volume: z.number().optional(),
+  }),
+  z.object({
+    kind: z.literal("file"),
+    src: z.string(),
+  }),
+]);
+
+export const listeningExerciseSchema: z.ZodType<ListeningExercise> = baseExerciseSchema.extend({
+  type: z.literal("listening"),
+  answerMode: z.enum(["audio-to-russian", "audio-to-greek"]),
+  audio: listeningAudioSourceSchema,
+  transcript: z.string(),
+  correctAnswer: z.string(),
+  wrongAnswers: wrongAnswersSchema,
+});
+
 export const exerciseSchema: z.ZodType<Exercise> = z.union([
   singleChoiceExerciseSchema,
   textInputExerciseSchema,
   inputExerciseSchema,
+  listeningExerciseSchema,
 ]);
 
 const exerciseCollectionSettingsSchema = z.object({
@@ -60,6 +86,11 @@ export const exerciseCollectionSchema: z.ZodType<ExerciseCollection> = z.object(
 
 export const singleChoiceExerciseArraySchema = z.array(singleChoiceExerciseSchema);
 export const inputExerciseArraySchema = z.array(inputExerciseSchema);
+export const listeningExerciseArraySchema = z.array(listeningExerciseSchema);
 export const inputExerciseCollectionSchema: z.ZodType<{ items: InputExercise[] }> = z.object({
   items: inputExerciseArraySchema,
 });
+export const listeningExerciseCollectionSchema: z.ZodType<{ items: ListeningExercise[] }> =
+  z.object({
+    items: listeningExerciseArraySchema,
+  });

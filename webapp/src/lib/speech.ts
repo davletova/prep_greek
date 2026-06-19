@@ -32,7 +32,9 @@ export function selectGreekVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesi
   );
 }
 
-export function loadSpeechVoices(speechSynthesis: SpeechSynthesis): Promise<SpeechSynthesisVoice[]> {
+export function loadSpeechVoices(
+  speechSynthesis: SpeechSynthesis
+): Promise<SpeechSynthesisVoice[]> {
   const voices = speechSynthesis.getVoices();
 
   if (voices.length > 0) {

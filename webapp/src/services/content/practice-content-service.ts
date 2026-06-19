@@ -1,6 +1,11 @@
-import { inputPracticeTopics, singleChoicePracticeContent } from "../../config/practice-topics.ts";
+import {
+  inputPracticeTopics,
+  listeningPracticeContent,
+  singleChoicePracticeContent,
+} from "../../config/practice-topics.ts";
 import type {
   InputPracticeTopicDefinition,
+  ListeningPracticeTopicDefinition,
   SingleChoicePracticeTopicDefinition,
 } from "../../types/practice-topic.ts";
 import { loadJsonContent } from "../../lib/content-loader.ts";
@@ -10,9 +15,13 @@ import {
   inputExerciseCollectionSchema,
 } from "../../schemas/exercises.ts";
 import type { InputExercise } from "../../types/exercises.ts";
-import type { SingleChoicePracticeTopic } from "../../types/practice-topic.ts";
+import type {
+  ListeningPracticeTopic,
+  SingleChoicePracticeTopic,
+} from "../../types/practice-topic.ts";
 
 export type SingleChoiceTopic = SingleChoicePracticeTopic;
+export type ListeningTopic = ListeningPracticeTopic;
 
 function normalizeInputExercises(content: unknown): InputExercise[] {
   const arrayResult = inputExerciseArraySchema.safeParse(content);
@@ -58,6 +67,12 @@ export function loadSingleChoiceTopicDefinitions(): Promise<SingleChoicePractice
   );
 }
 
+export function loadListeningTopicDefinitions(): Promise<ListeningPracticeTopicDefinition[]> {
+  return loadJsonContent<unknown>(listeningPracticeContent.indexUrl).then(
+    normalizeSingleChoiceTopicIndex
+  );
+}
+
 export async function loadSingleChoicePracticeTopic(
   topic: SingleChoicePracticeTopicDefinition
 ): Promise<SingleChoiceTopic> {
@@ -69,6 +84,24 @@ export async function loadSingleChoicePracticeTopic(
   return {
     id: topic.id,
     kind: "single-choice" as const,
+    fileName: topic.fileName,
+    title: topic.title,
+    subtitle: topic.subtitle,
+    collection,
+  };
+}
+
+export async function loadListeningPracticeTopic(
+  topic: ListeningPracticeTopicDefinition
+): Promise<ListeningTopic> {
+  const collection = await loadSingleChoiceTopic(
+    `${listeningPracticeContent.baseUrl}${topic.fileName}`,
+    topic.title
+  );
+
+  return {
+    id: topic.id,
+    kind: "listening" as const,
     fileName: topic.fileName,
     title: topic.title,
     subtitle: topic.subtitle,

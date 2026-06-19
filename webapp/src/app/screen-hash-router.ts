@@ -8,8 +8,10 @@ const SCREEN_TO_HASH: Record<Screen, string> = {
   diphthongs: "#/diphthongs",
   "practice-single-choice-topics": "#/practice/single-choice",
   "practice-input-topics": "#/practice/input",
+  "practice-listening-topics": "#/practice/listening",
   "practice-input-topic": "#/practice/input",
   "practice-single-choice-topic": "#/practice/single-choice",
+  "practice-listening-topic": "#/practice/listening",
 };
 
 const HASH_TO_SCREEN: Record<string, Screen> = {
@@ -18,6 +20,7 @@ const HASH_TO_SCREEN: Record<string, Screen> = {
   "#/diphthongs": "diphthongs",
   "#/practice/single-choice": "practice-single-choice-topics",
   "#/practice/input": "practice-input-topics",
+  "#/practice/listening": "practice-listening-topics",
 };
 
 export function normalizeScreenHash(hash: string): string {
@@ -26,7 +29,8 @@ export function normalizeScreenHash(hash: string): string {
   }
 
   const prefixedHash = hash.startsWith("#") ? hash : `#${hash}`;
-  const withoutTrailingSlash = prefixedHash.length > 2 ? prefixedHash.replace(/\/+$/, "") : prefixedHash;
+  const withoutTrailingSlash =
+    prefixedHash.length > 2 ? prefixedHash.replace(/\/+$/, "") : prefixedHash;
 
   return withoutTrailingSlash || HOME_HASH;
 }

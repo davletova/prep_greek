@@ -1,0 +1,14 @@
+[
+  {
+    "id": "basic-listening",
+    "title": "Базовое аудирование",
+    "subtitle": "100 слов и фраз для распознавания греческой речи",
+    "fileName": "basic-greetings.json"
+  },
+  {
+    "id": "numbers-listening",
+    "title": "Числа: телефоны, цены, время, адреса",
+    "subtitle": "Распознаём номера, суммы, время и улицы на слух",
+    "fileName": "numbers-listening.json"
+  }
+]

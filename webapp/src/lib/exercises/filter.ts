@@ -1,6 +1,7 @@
 import type {
   ExerciseCollection,
   InputExercise,
+  ListeningExercise,
   SingleChoiceExercise,
 } from "../../types/exercises.ts";
 
@@ -16,4 +17,12 @@ export function getSingleChoiceExercises(
 
 export function getInputExercises(exercises: InputExercise[] | null): InputExercise[] {
   return exercises?.filter((exercise) => exercise.type === "input") ?? [];
+}
+
+export function getListeningExercises(collection: ExerciseCollection | null): ListeningExercise[] {
+  return (
+    collection?.items.filter(
+      (exercise): exercise is ListeningExercise => exercise.type === "listening"
+    ) ?? []
+  );
 }

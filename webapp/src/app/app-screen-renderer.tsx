@@ -3,6 +3,8 @@ import AlphabetScreen from "../screens/alphabet-screen.tsx";
 import DiphthongsScreen from "../screens/diphthongs-screen.tsx";
 import HomeScreen from "../screens/home-screen.tsx";
 import InputPracticeTopicScreen from "../screens/input-practice-topic-screen.tsx";
+import ListeningPracticeTopicScreen from "../screens/listening-practice-topic-screen.tsx";
+import ListeningPracticeTopicsScreen from "../screens/listening-practice-topics-screen.tsx";
 import SingleChoicePracticeTopicScreen from "../screens/single-choice-practice-topic-screen.tsx";
 import SingleChoicePracticeTopicsScreen from "../screens/single-choice-practice-topics-screen.tsx";
 import InputPracticeTopicsScreen from "../screens/input-practice-topics-screen.tsx";
@@ -40,6 +42,7 @@ export default function AppScreenRenderer({
           onOpenDiphthongs={theory.openDiphthongs}
           onOpenSingleChoiceTopics={practice.openSingleChoiceTopics}
           onOpenInputTopics={practice.openInputTopics}
+          onOpenListeningTopics={practice.openListeningTopics}
         />
       ) : screen === "alphabet" ? (
         <AlphabetScreen
@@ -69,6 +72,21 @@ export default function AppScreenRenderer({
           topicState={practice.selectedInputTopicState}
           onClose={practice.closeInputTopic}
           onRetry={practice.retrySelectedInputTopic}
+          onSpeak={onSpeak}
+        />
+      ) : screen === "practice-listening-topics" ? (
+        <ListeningPracticeTopicsScreen
+          topicsState={practice.listeningTopicListState}
+          onClose={onExit}
+          onRetry={practice.retryListeningTopics}
+          onOpenTopic={practice.openListeningTopic}
+        />
+      ) : screen === "practice-listening-topic" ? (
+        <ListeningPracticeTopicScreen
+          title={practice.selectedListeningTopic?.title || "Аудирование"}
+          topicState={practice.selectedListeningTopicState}
+          onClose={practice.closeListeningTopic}
+          onRetry={practice.retrySelectedListeningTopic}
           onSpeak={onSpeak}
         />
       ) : screen === "practice-single-choice-topic" ? (

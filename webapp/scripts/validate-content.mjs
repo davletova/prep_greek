@@ -132,6 +132,67 @@ function validateInputExercise(filePath, item, index) {
   }
 }
 
+function validateListeningAudioSource(filePath, audio, location) {
+  if (!isRecord(audio)) {
+    addError(filePath, `${location} must be an object`);
+    return;
+  }
+
+  if (audio.kind === "tts") {
+    if (!isString(audio.text)) {
+      addError(filePath, `${location}.text must be a non-empty string`);
+    }
+
+    if (audio.lang !== "el-GR") {
+      addError(filePath, `${location}.lang must be "el-GR"`);
+    }
+
+    for (const field of ["rate", "pitch", "volume"]) {
+      if (audio[field] !== undefined && typeof audio[field] !== "number") {
+        addError(filePath, `${location}.${field} must be a number when provided`);
+      }
+    }
+
+    return;
+  }
+
+  if (audio.kind === "file") {
+    if (!isString(audio.src)) {
+      addError(filePath, `${location}.src must be a non-empty string`);
+    }
+
+    return;
+  }
+
+  addError(filePath, `${location}.kind must be either "tts" or "file"`);
+}
+
+function validateListeningExercise(filePath, item, index) {
+  const location = `items[${index}]`;
+
+  if (!isString(item.id)) {
+    addError(filePath, `${location}.id must be a non-empty string`);
+  }
+
+  if (!isString(item.prompt)) {
+    addError(filePath, `${location}.prompt must be a non-empty string`);
+  }
+
+  validateOptionalString(filePath, item.explanation, `${location}.explanation`);
+
+  if (item.answerMode !== "audio-to-russian" && item.answerMode !== "audio-to-greek") {
+    addError(filePath, `${location}.answerMode must be a supported listening mode`);
+  }
+
+  validateListeningAudioSource(filePath, item.audio, `${location}.audio`);
+
+  if (!isString(item.transcript)) {
+    addError(filePath, `${location}.transcript must be a non-empty string`);
+  }
+
+  validateSingleChoiceExercise(filePath, item, index);
+}
+
 function validateExerciseCollection(filePath, content, expectedType) {
   if (!isRecord(content)) {
     addError(filePath, "content must be an object");
@@ -167,6 +228,8 @@ function validateExerciseCollection(filePath, content, expectedType) {
       validateSingleChoiceExercise(filePath, item, index);
     } else if (expectedType === "input") {
       validateInputExercise(filePath, item, index);
+    } else if (expectedType === "listening") {
+      validateListeningExercise(filePath, item, index);
     }
   });
 }
@@ -274,8 +337,8 @@ function validateSingleChoiceTopicIndexItem(indexPath, item, index) {
   return typeof item.fileName === "string" ? item.fileName : null;
 }
 
-async function validateSingleChoiceContent() {
-  const dir = path.join(contentDir, "practice", "single_choice");
+async function validateIndexedPracticeContent(sectionDir, expectedType) {
+  const dir = path.join(contentDir, "practice", sectionDir);
   const indexPath = path.join(dir, "index.json");
   const index = await readJson(indexPath);
 
@@ -316,8 +379,16 @@ async function validateSingleChoiceContent() {
       continue;
     }
 
-    validateExerciseCollection(filePath, await readJson(filePath), "single-choice");
+    validateExerciseCollection(filePath, await readJson(filePath), expectedType);
   }
+}
+
+async function validateSingleChoiceContent() {
+  await validateIndexedPracticeContent("single_choice", "single-choice");
+}
+
+async function validateListeningContent() {
+  await validateIndexedPracticeContent("listening", "listening");
 }
 
 async function validateInputContent() {
@@ -343,6 +414,7 @@ async function validateTheoryContent() {
 
 await validateTheoryContent();
 await validateSingleChoiceContent();
+await validateListeningContent();
 await validateInputContent();
 
 if (errors.length > 0) {

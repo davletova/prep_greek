@@ -9,6 +9,7 @@ interface HomeScreenProps {
   onOpenDiphthongs: VoidHandler;
   onOpenSingleChoiceTopics: VoidHandler;
   onOpenInputTopics: VoidHandler;
+  onOpenListeningTopics: VoidHandler;
 }
 
 export default function HomeScreen({
@@ -17,12 +18,14 @@ export default function HomeScreen({
   onOpenDiphthongs,
   onOpenSingleChoiceTopics,
   onOpenInputTopics,
+  onOpenListeningTopics,
 }: HomeScreenProps) {
   if (tab === "practice") {
     return (
       <PracticeHomeScreen
         onOpenSingleChoiceTopics={onOpenSingleChoiceTopics}
         onOpenInputTopics={onOpenInputTopics}
+        onOpenListeningTopics={onOpenListeningTopics}
       />
     );
   }

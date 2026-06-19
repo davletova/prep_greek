@@ -60,5 +60,12 @@ export function checkExerciseAnswer(
     return checkInputExerciseAnswer(exercise, answer);
   }
 
+  if (exercise.type === "listening" && answer.type === "listening") {
+    const options = [exercise.correctAnswer, ...exercise.wrongAnswers];
+    return {
+      correct: options[answer.selectedIndex] === exercise.correctAnswer,
+    };
+  }
+
   return { correct: false };
 }

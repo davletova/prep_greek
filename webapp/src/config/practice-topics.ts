@@ -5,6 +5,11 @@ export const singleChoicePracticeContent = {
   baseUrl: `${import.meta.env.BASE_URL}content/practice/single_choice/`,
 } as const;
 
+export const listeningPracticeContent = {
+  indexUrl: `${import.meta.env.BASE_URL}content/practice/listening/index.json`,
+  baseUrl: `${import.meta.env.BASE_URL}content/practice/listening/`,
+} as const;
+
 export const inputPracticeTopics = {
   alphaTypeVerbConjugation: {
     id: "alpha-type-verb-conjugation",
