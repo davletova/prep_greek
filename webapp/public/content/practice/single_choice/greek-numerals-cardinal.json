@@ -1,0 +1,646 @@
+{
+  "title": "Числительные",
+  "subtitle": "Веберите правильный перевод",
+  "items": [
+    {
+        "id": "greek-numerals-cardinal-001",
+        "type": "single-choice",
+        "prompt": "μηδέν",
+        "promptLanguage": "el",
+        "correctAnswer": "0",
+        "wrongAnswers": ["1", "10", "100"]
+    },
+    {
+        "id": "greek-numerals-cardinal-002",
+        "type": "single-choice",
+        "prompt": "ένα",
+        "promptLanguage": "el",
+        "correctAnswer": "1",
+        "wrongAnswers": ["2", "11", "10"]
+    },
+    {
+        "id": "greek-numerals-cardinal-003",
+        "type": "single-choice",
+        "prompt": "δύο",
+        "promptLanguage": "el",
+        "correctAnswer": "2",
+        "wrongAnswers": ["3", "12", "20"]
+    },
+    {
+        "id": "greek-numerals-cardinal-004",
+        "type": "single-choice",
+        "prompt": "τρία",
+        "promptLanguage": "el",
+        "correctAnswer": "3",
+        "wrongAnswers": ["4", "13", "30"]
+    },
+    {
+        "id": "greek-numerals-cardinal-005",
+        "type": "single-choice",
+        "prompt": "τέσσερα",
+        "promptLanguage": "el",
+        "correctAnswer": "4",
+        "wrongAnswers": ["5", "14", "40"]
+    },
+    {
+        "id": "greek-numerals-cardinal-006",
+        "type": "single-choice",
+        "prompt": "πέντε",
+        "promptLanguage": "el",
+        "correctAnswer": "5",
+        "wrongAnswers": ["6", "15", "50"]
+    },
+    {
+        "id": "greek-numerals-cardinal-007",
+        "type": "single-choice",
+        "prompt": "έξι",
+        "promptLanguage": "el",
+        "correctAnswer": "6",
+        "wrongAnswers": ["7", "16", "60"]
+    },
+    {
+        "id": "greek-numerals-cardinal-008",
+        "type": "single-choice",
+        "prompt": "επτά",
+        "promptLanguage": "el",
+        "correctAnswer": "7",
+        "wrongAnswers": ["8", "17", "70"]
+    },
+    {
+        "id": "greek-numerals-cardinal-009",
+        "type": "single-choice",
+        "prompt": "οκτώ",
+        "promptLanguage": "el",
+        "correctAnswer": "8",
+        "wrongAnswers": ["9", "18", "80"]
+    },
+    {
+        "id": "greek-numerals-cardinal-010",
+        "type": "single-choice",
+        "prompt": "εννέα",
+        "promptLanguage": "el",
+        "correctAnswer": "9",
+        "wrongAnswers": ["8", "19", "90"]
+    },
+    {
+        "id": "greek-numerals-cardinal-011",
+        "type": "single-choice",
+        "prompt": "δέκα",
+        "promptLanguage": "el",
+        "correctAnswer": "10",
+        "wrongAnswers": ["1", "11", "20"]
+    },
+    {
+        "id": "greek-numerals-cardinal-012",
+        "type": "single-choice",
+        "prompt": "έντεκα",
+        "promptLanguage": "el",
+        "correctAnswer": "11",
+        "wrongAnswers": ["1", "10", "21"]
+    },
+    {
+        "id": "greek-numerals-cardinal-013",
+        "type": "single-choice",
+        "prompt": "δώδεκα",
+        "promptLanguage": "el",
+        "correctAnswer": "12",
+        "wrongAnswers": ["2", "20", "22"]
+    },
+    {
+        "id": "greek-numerals-cardinal-014",
+        "type": "single-choice",
+        "prompt": "δεκατρία",
+        "promptLanguage": "el",
+        "correctAnswer": "13",
+        "wrongAnswers": ["3", "30", "23"]
+    },
+    {
+        "id": "greek-numerals-cardinal-015",
+        "type": "single-choice",
+        "prompt": "δεκατέσσερα",
+        "promptLanguage": "el",
+        "correctAnswer": "14",
+        "wrongAnswers": ["4", "40", "24"]
+    },
+    {
+        "id": "greek-numerals-cardinal-016",
+        "type": "single-choice",
+        "prompt": "δεκαπέντε",
+        "promptLanguage": "el",
+        "correctAnswer": "15",
+        "wrongAnswers": ["5", "50", "25"]
+    },
+    {
+        "id": "greek-numerals-cardinal-017",
+        "type": "single-choice",
+        "prompt": "δεκαέξι",
+        "promptLanguage": "el",
+        "correctAnswer": "16",
+        "wrongAnswers": ["6", "60", "26"]
+    },
+    {
+        "id": "greek-numerals-cardinal-018",
+        "type": "single-choice",
+        "prompt": "δεκαεπτά",
+        "promptLanguage": "el",
+        "correctAnswer": "17",
+        "wrongAnswers": ["7", "70", "27"]
+    },
+    {
+        "id": "greek-numerals-cardinal-019",
+        "type": "single-choice",
+        "prompt": "δεκαοκτώ",
+        "promptLanguage": "el",
+        "correctAnswer": "18",
+        "wrongAnswers": ["8", "80", "28"]
+    },
+    {
+        "id": "greek-numerals-cardinal-020",
+        "type": "single-choice",
+        "prompt": "δεκαεννέα",
+        "promptLanguage": "el",
+        "correctAnswer": "19",
+        "wrongAnswers": ["9", "90", "29"]
+    },
+    {
+        "id": "greek-numerals-cardinal-021",
+        "type": "single-choice",
+        "prompt": "είκοσι",
+        "promptLanguage": "el",
+        "correctAnswer": "20",
+        "wrongAnswers": ["12", "2", "30"]
+    },
+    {
+        "id": "greek-numerals-cardinal-022",
+        "type": "single-choice",
+        "prompt": "είκοσι ένα",
+        "promptLanguage": "el",
+        "correctAnswer": "21",
+        "wrongAnswers": ["12", "20", "31"]
+    },
+    {
+        "id": "greek-numerals-cardinal-023",
+        "type": "single-choice",
+        "prompt": "είκοσι δύο",
+        "promptLanguage": "el",
+        "correctAnswer": "22",
+        "wrongAnswers": ["12", "20", "32"]
+    },
+    {
+        "id": "greek-numerals-cardinal-024",
+        "type": "single-choice",
+        "prompt": "είκοσι πέντε",
+        "promptLanguage": "el",
+        "correctAnswer": "25",
+        "wrongAnswers": ["15", "20", "52"]
+    },
+    {
+        "id": "greek-numerals-cardinal-025",
+        "type": "single-choice",
+        "prompt": "τριάντα",
+        "promptLanguage": "el",
+        "correctAnswer": "30",
+        "wrongAnswers": ["3", "13", "40"]
+    },
+    {
+        "id": "greek-numerals-cardinal-026",
+        "type": "single-choice",
+        "prompt": "τριάντα ένα",
+        "promptLanguage": "el",
+        "correctAnswer": "31",
+        "wrongAnswers": ["13", "30", "41"]
+    },
+    {
+        "id": "greek-numerals-cardinal-027",
+        "type": "single-choice",
+        "prompt": "τριάντα επτά",
+        "promptLanguage": "el",
+        "correctAnswer": "37",
+        "wrongAnswers": ["73", "30", "47"]
+    },
+    {
+        "id": "greek-numerals-cardinal-028",
+        "type": "single-choice",
+        "prompt": "σαράντα",
+        "promptLanguage": "el",
+        "correctAnswer": "40",
+        "wrongAnswers": ["4", "14", "30"]
+    },
+    {
+        "id": "greek-numerals-cardinal-029",
+        "type": "single-choice",
+        "prompt": "σαράντα ένα",
+        "promptLanguage": "el",
+        "correctAnswer": "41",
+        "wrongAnswers": ["14", "40", "51"]
+    },
+    {
+        "id": "greek-numerals-cardinal-030",
+        "type": "single-choice",
+        "prompt": "σαράντα οκτώ",
+        "promptLanguage": "el",
+        "correctAnswer": "48",
+        "wrongAnswers": ["84", "40", "58"]
+    },
+    {
+        "id": "greek-numerals-cardinal-031",
+        "type": "single-choice",
+        "prompt": "πενήντα",
+        "promptLanguage": "el",
+        "correctAnswer": "50",
+        "wrongAnswers": ["5", "15", "60"]
+    },
+    {
+        "id": "greek-numerals-cardinal-032",
+        "type": "single-choice",
+        "prompt": "πενήντα πέντε",
+        "promptLanguage": "el",
+        "correctAnswer": "55",
+        "wrongAnswers": ["15", "50", "65"]
+    },
+    {
+        "id": "greek-numerals-cardinal-033",
+        "type": "single-choice",
+        "prompt": "εξήντα",
+        "promptLanguage": "el",
+        "correctAnswer": "60",
+        "wrongAnswers": ["6", "16", "70"]
+    },
+    {
+        "id": "greek-numerals-cardinal-034",
+        "type": "single-choice",
+        "prompt": "εξήντα έξι",
+        "promptLanguage": "el",
+        "correctAnswer": "66",
+        "wrongAnswers": ["16", "60", "76"]
+    },
+    {
+        "id": "greek-numerals-cardinal-035",
+        "type": "single-choice",
+        "prompt": "εβδομήντα",
+        "promptLanguage": "el",
+        "correctAnswer": "70",
+        "wrongAnswers": ["7", "17", "80"]
+    },
+    {
+        "id": "greek-numerals-cardinal-036",
+        "type": "single-choice",
+        "prompt": "εβδομήντα δύο",
+        "promptLanguage": "el",
+        "correctAnswer": "72",
+        "wrongAnswers": ["27", "70", "82"]
+    },
+    {
+        "id": "greek-numerals-cardinal-037",
+        "type": "single-choice",
+        "prompt": "ογδόντα",
+        "promptLanguage": "el",
+        "correctAnswer": "80",
+        "wrongAnswers": ["8", "18", "90"]
+    },
+    {
+        "id": "greek-numerals-cardinal-038",
+        "type": "single-choice",
+        "prompt": "ογδόντα εννέα",
+        "promptLanguage": "el",
+        "correctAnswer": "89",
+        "wrongAnswers": ["98", "80", "79"]
+    },
+    {
+        "id": "greek-numerals-cardinal-039",
+        "type": "single-choice",
+        "prompt": "ενενήντα",
+        "promptLanguage": "el",
+        "correctAnswer": "90",
+        "wrongAnswers": ["9", "19", "80"]
+    },
+    {
+        "id": "greek-numerals-cardinal-040",
+        "type": "single-choice",
+        "prompt": "ενενήντα εννέα",
+        "promptLanguage": "el",
+        "correctAnswer": "99",
+        "wrongAnswers": ["90", "89", "19"]
+    },
+    {
+        "id": "greek-numerals-cardinal-041",
+        "type": "single-choice",
+        "prompt": "εκατό",
+        "promptLanguage": "el",
+        "correctAnswer": "100",
+        "wrongAnswers": ["10", "1000", "101"]
+    },
+    {
+        "id": "greek-numerals-cardinal-042",
+        "type": "single-choice",
+        "prompt": "εκατόν ένα",
+        "promptLanguage": "el",
+        "correctAnswer": "101",
+        "wrongAnswers": ["110", "1001", "111"]
+    },
+    {
+        "id": "greek-numerals-cardinal-043",
+        "type": "single-choice",
+        "prompt": "εκατόν δέκα",
+        "promptLanguage": "el",
+        "correctAnswer": "110",
+        "wrongAnswers": ["101", "100", "111"]
+    },
+    {
+        "id": "greek-numerals-cardinal-044",
+        "type": "single-choice",
+        "prompt": "εκατόν είκοσι τρία",
+        "promptLanguage": "el",
+        "correctAnswer": "123",
+        "wrongAnswers": ["132", "120", "103"]
+    },
+    {
+        "id": "greek-numerals-cardinal-045",
+        "type": "single-choice",
+        "prompt": "διακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "200",
+        "wrongAnswers": ["100", "300", "2000"]
+    },
+    {
+        "id": "greek-numerals-cardinal-046",
+        "type": "single-choice",
+        "prompt": "διακόσια σαράντα ένα",
+        "promptLanguage": "el",
+        "correctAnswer": "241",
+        "wrongAnswers": ["214", "421", "240"]
+    },
+    {
+        "id": "greek-numerals-cardinal-047",
+        "type": "single-choice",
+        "prompt": "τριακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "300",
+        "wrongAnswers": ["30", "200", "400"]
+    },
+    {
+        "id": "greek-numerals-cardinal-048",
+        "type": "single-choice",
+        "prompt": "τετρακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "400",
+        "wrongAnswers": ["40", "300", "500"]
+    },
+    {
+        "id": "greek-numerals-cardinal-049",
+        "type": "single-choice",
+        "prompt": "πεντακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "500",
+        "wrongAnswers": ["50", "400", "600"]
+    },
+    {
+        "id": "greek-numerals-cardinal-050",
+        "type": "single-choice",
+        "prompt": "εξακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "600",
+        "wrongAnswers": ["60", "500", "700"]
+    },
+    {
+        "id": "greek-numerals-cardinal-051",
+        "type": "single-choice",
+        "prompt": "επτακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "700",
+        "wrongAnswers": ["70", "600", "800"]
+    },
+    {
+        "id": "greek-numerals-cardinal-052",
+        "type": "single-choice",
+        "prompt": "οκτακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "800",
+        "wrongAnswers": ["80", "700", "900"]
+    },
+    {
+        "id": "greek-numerals-cardinal-053",
+        "type": "single-choice",
+        "prompt": "εννιακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "900",
+        "wrongAnswers": ["90", "800", "1000"]
+    },
+    {
+        "id": "greek-numerals-cardinal-054",
+        "type": "single-choice",
+        "prompt": "χίλια",
+        "promptLanguage": "el",
+        "correctAnswer": "1000",
+        "wrongAnswers": ["100", "10", "2000"]
+    },
+    {
+        "id": "greek-numerals-cardinal-055",
+        "type": "single-choice",
+        "prompt": "χίλια ένα",
+        "promptLanguage": "el",
+        "correctAnswer": "1001",
+        "wrongAnswers": ["101", "1100", "100"]
+    },
+    {
+        "id": "greek-numerals-cardinal-056",
+        "type": "single-choice",
+        "prompt": "χίλια διακόσια τριάντα τέσσερα",
+        "promptLanguage": "el",
+        "correctAnswer": "1234",
+        "wrongAnswers": ["1243", "1324", "234"]
+    },
+    {
+        "id": "greek-numerals-cardinal-057",
+        "type": "single-choice",
+        "prompt": "δύο χιλιάδες",
+        "promptLanguage": "el",
+        "correctAnswer": "2000",
+        "wrongAnswers": ["200", "1200", "3000"]
+    },
+    {
+        "id": "greek-numerals-cardinal-058",
+        "type": "single-choice",
+        "prompt": "τρεις χιλιάδες",
+        "promptLanguage": "el",
+        "correctAnswer": "3000",
+        "wrongAnswers": ["300", "2000", "1300"]
+    },
+    {
+        "id": "greek-numerals-cardinal-059",
+        "type": "single-choice",
+        "prompt": "πέντε χιλιάδες διακόσια",
+        "promptLanguage": "el",
+        "correctAnswer": "5200",
+        "wrongAnswers": ["5020", "2500", "520"]
+    },
+    {
+        "id": "greek-numerals-cardinal-060",
+        "type": "single-choice",
+        "prompt": "εννέα χιλιάδες οκτακόσια εβδομήντα έξι",
+        "promptLanguage": "el",
+        "correctAnswer": "9876",
+        "wrongAnswers": ["9786", "9867", "8769"]
+    },
+    {
+        "id": "greek-numerals-ordinal-061",
+        "type": "single-choice",
+        "prompt": "πρώτη",
+        "promptLanguage": "el",
+        "correctAnswer": "первая",
+        "wrongAnswers": ["вторая", "третья", "десятая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-062",
+        "type": "single-choice",
+        "prompt": "δεύτερη",
+        "promptLanguage": "el",
+        "correctAnswer": "вторая",
+        "wrongAnswers": ["первая", "третья", "четвёртая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-063",
+        "type": "single-choice",
+        "prompt": "τρίτη",
+        "promptLanguage": "el",
+        "correctAnswer": "третья",
+        "wrongAnswers": ["первая", "вторая", "тридцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-064",
+        "type": "single-choice",
+        "prompt": "τέταρτη",
+        "promptLanguage": "el",
+        "correctAnswer": "четвёртая",
+        "wrongAnswers": ["пятая", "шестая", "сороковая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-065",
+        "type": "single-choice",
+        "prompt": "πέμπτη",
+        "promptLanguage": "el",
+        "correctAnswer": "пятая",
+        "wrongAnswers": ["четвёртая", "шестая", "пятнадцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-066",
+        "type": "single-choice",
+        "prompt": "έκτη",
+        "promptLanguage": "el",
+        "correctAnswer": "шестая",
+        "wrongAnswers": ["седьмая", "восьмая", "шестнадцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-067",
+        "type": "single-choice",
+        "prompt": "έβδομη",
+        "promptLanguage": "el",
+        "correctAnswer": "седьмая",
+        "wrongAnswers": ["шестая", "восьмая", "семнадцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-068",
+        "type": "single-choice",
+        "prompt": "όγδοη",
+        "promptLanguage": "el",
+        "correctAnswer": "восьмая",
+        "wrongAnswers": ["седьмая", "девятая", "восемнадцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-069",
+        "type": "single-choice",
+        "prompt": "ένατη",
+        "promptLanguage": "el",
+        "correctAnswer": "девятая",
+        "wrongAnswers": ["восьмая", "десятая", "девятнадцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-070",
+        "type": "single-choice",
+        "prompt": "δέκατη",
+        "promptLanguage": "el",
+        "correctAnswer": "десятая",
+        "wrongAnswers": ["первая", "девятая", "двадцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-071",
+        "type": "single-choice",
+        "prompt": "ενδέκατη",
+        "promptLanguage": "el",
+        "correctAnswer": "одиннадцатая",
+        "wrongAnswers": ["десятая", "двенадцатая", "двадцать первая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-072",
+        "type": "single-choice",
+        "prompt": "δωδέκατη",
+        "promptLanguage": "el",
+        "correctAnswer": "двенадцатая",
+        "wrongAnswers": ["вторая", "одиннадцатая", "двадцатая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-073",
+        "type": "single-choice",
+        "prompt": "δέκατη τρίτη",
+        "promptLanguage": "el",
+        "correctAnswer": "тринадцатая",
+        "wrongAnswers": ["третья", "тридцатая", "двадцать третья"]
+    },
+    {
+        "id": "greek-numerals-ordinal-074",
+        "type": "single-choice",
+        "prompt": "εικοστή",
+        "promptLanguage": "el",
+        "correctAnswer": "двадцатая",
+        "wrongAnswers": ["двенадцатая", "тридцатая", "двадцать первая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-075",
+        "type": "single-choice",
+        "prompt": "εικοστή πρώτη",
+        "promptLanguage": "el",
+        "correctAnswer": "двадцать первая",
+        "wrongAnswers": ["двадцатая", "первая", "тридцать первая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-076",
+        "type": "single-choice",
+        "prompt": "τριακοστή",
+        "promptLanguage": "el",
+        "correctAnswer": "тридцатая",
+        "wrongAnswers": ["тринадцатая", "сороковая", "третья"]
+    },
+    {
+        "id": "greek-numerals-ordinal-077",
+        "type": "single-choice",
+        "prompt": "τριακοστή πέμπτη",
+        "promptLanguage": "el",
+        "correctAnswer": "тридцать пятая",
+        "wrongAnswers": ["тридцатая", "пятая", "пятьдесят третья"]
+    },
+    {
+        "id": "greek-numerals-ordinal-078",
+        "type": "single-choice",
+        "prompt": "τεσσαρακοστή",
+        "promptLanguage": "el",
+        "correctAnswer": "сороковая",
+        "wrongAnswers": ["четвёртая", "четырнадцатая", "пятидесятая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-079",
+        "type": "single-choice",
+        "prompt": "εκατοστή",
+        "promptLanguage": "el",
+        "correctAnswer": "сотая",
+        "wrongAnswers": ["десятая", "тысячная", "сто первая"]
+    },
+    {
+        "id": "greek-numerals-ordinal-080",
+        "type": "single-choice",
+        "prompt": "χιλιοστή",
+        "promptLanguage": "el",
+        "correctAnswer": "тысячная",
+        "wrongAnswers": ["сотая", "десятая", "первая"]
+    }
+    ]
+}

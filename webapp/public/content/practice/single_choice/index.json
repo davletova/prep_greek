@@ -40,5 +40,11 @@
     "title": "Род: исключения",
     "subtitle": "Не дайте окончанию себя обмануть",
     "fileName": "greek_noun_gender_exceptions.json"
+  },
+  {
+    "id": "greek-numerals-cardinal",
+    "title": "Числительные",
+    "subtitle": "Выберите правильный перевод",
+    "fileName": "greek-numerals-cardinal.json"
   }
 ]
