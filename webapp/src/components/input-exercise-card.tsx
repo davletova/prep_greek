@@ -113,7 +113,7 @@ export default function InputExerciseCard({
         type="button"
         aria-label={`Озвучить ${exercise.correctAnswer}`}
         onClick={onPlayPrompt}
-        disabled={!hasChecked || isSpeakingPrompt}
+        disabled={isSpeakingPrompt}
       >
         <PlaybackIcon isPlaying={isSpeakingPrompt} />
       </button>
