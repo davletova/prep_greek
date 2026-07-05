@@ -25,9 +25,17 @@ export const inputPracticeTopics = {
     subtitle: "Введите фразу на греческом",
     url: `${import.meta.env.BASE_URL}content/practice/input/about-myself.json`,
   },
+  familyFriends: {
+    id: "family-friends",
+    kind: "input",
+    title: "Семья и друзья",
+    subtitle: "Введите перевод фразы",
+    url: `${import.meta.env.BASE_URL}content/practice/input/family-friends.json`,
+  },
 } as const satisfies Record<string, InputPracticeTopicDefinition>;
 
 export const inputPracticeTopicList = [
   inputPracticeTopics.alphaTypeVerbConjugation,
   inputPracticeTopics.aboutMyself,
+  inputPracticeTopics.familyFriends,
 ] as const;
