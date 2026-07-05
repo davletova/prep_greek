@@ -24,6 +24,7 @@ export interface BaseExercise {
   promptLanguage?: PromptLanguage | undefined;
   translation?: string | undefined;
   explanation?: string | undefined;
+  hint?: string | undefined;
 }
 
 export interface SingleChoiceExercise extends BaseExercise {

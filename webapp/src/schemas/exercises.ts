@@ -17,6 +17,7 @@ const baseExerciseSchema = z.object({
   promptLanguage: promptLanguageSchema.optional(),
   translation: z.string().optional(),
   explanation: z.string().optional(),
+  hint: z.string().optional(),
 });
 
 const wrongAnswersSchema = z

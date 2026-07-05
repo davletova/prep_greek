@@ -18,6 +18,16 @@ export const inputPracticeTopics = {
     subtitle: "Введите правильную форму слова",
     url: `${import.meta.env.BASE_URL}content/practice/input/alpha_type_verb_conjugation_input.json`,
   },
+  aboutMyself: {
+    id: "about-myself",
+    kind: "input",
+    title: "О себе",
+    subtitle: "Введите фразу на греческом",
+    url: `${import.meta.env.BASE_URL}content/practice/input/about-myself.json`,
+  },
 } as const satisfies Record<string, InputPracticeTopicDefinition>;
 
-export const inputPracticeTopicList = [inputPracticeTopics.alphaTypeVerbConjugation] as const;
+export const inputPracticeTopicList = [
+  inputPracticeTopics.alphaTypeVerbConjugation,
+  inputPracticeTopics.aboutMyself,
+] as const;

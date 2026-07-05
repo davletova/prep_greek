@@ -203,6 +203,97 @@
   line-height: 1.4;
 }
 
+.input-practice-card__hint-button {
+  align-self: center;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 999px;
+  padding: 8px 14px;
+  background: var(--color-surface-soft);
+  color: var(--color-text-interactive);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.input-practice-card__hint-overlay {
+  padding-bottom: max(16px, env(safe-area-inset-bottom, 0px));
+}
+
+.input-practice-card__hint-sheet {
+  width: min(100%, 440px);
+  border: var(--border-width-surface) solid var(--color-surface-border);
+  border-radius: var(--radius-sheet) var(--radius-sheet) 0 0;
+  padding: 18px 20px 22px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-modal);
+  animation: input-hint-sheet-slide-up 180ms ease-out;
+}
+
+.input-practice-card__hint-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.input-practice-card__hint-close {
+  border: none;
+  border-radius: var(--radius-control);
+  min-width: 36px;
+  width: 36px;
+  min-height: 36px;
+  height: 36px;
+  background: var(--color-surface-muted);
+  color: var(--color-text-interactive);
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.input-practice-card__hint-text {
+  margin-top: 14px;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.input-practice-card__hint-paragraph {
+  margin: 0;
+}
+
+.input-practice-card__hint-paragraph + .input-practice-card__hint-paragraph,
+.input-practice-card__hint-paragraph + .input-practice-card__hint-list,
+.input-practice-card__hint-list + .input-practice-card__hint-paragraph {
+  margin-top: 12px;
+}
+
+.input-practice-card__hint-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.input-practice-card__hint-list li + li {
+  margin-top: 6px;
+}
+
+.input-practice-card__hint-text strong {
+  color: var(--color-text-heading);
+  font-weight: 700;
+}
+
+@keyframes input-hint-sheet-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .input-practice-card__play {
   align-self: center;
 }
