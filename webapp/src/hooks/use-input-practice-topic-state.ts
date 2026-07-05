@@ -31,7 +31,8 @@ export function useInputPracticeTopicState(
 
   const { state: selectedTopicState, retry: retrySelectedTopic } = useLoadableContent(
     isActive,
-    loadSelectedTopic
+    loadSelectedTopic,
+    selectedTopic?.id
   );
 
   return {

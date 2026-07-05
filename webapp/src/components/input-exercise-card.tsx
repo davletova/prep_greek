@@ -53,6 +53,25 @@ function renderHintMarkdown(markdown: string) {
   });
 }
 
+function splitHintTitle(markdown: string) {
+  const lines = markdown.split("\n");
+  const titleIndex = lines.findIndex((line) => line.trim());
+
+  if (titleIndex === -1) {
+    return { title: "", body: "" };
+  }
+
+  const title = lines[titleIndex] ?? "";
+
+  return {
+    title: title.trim(),
+    body: lines
+      .slice(titleIndex + 1)
+      .join("\n")
+      .trim(),
+  };
+}
+
 export default function InputExerciseCard({
   exercise,
   answerValue,
@@ -65,6 +84,7 @@ export default function InputExerciseCard({
   const [isHintOpen, setIsHintOpen] = useState(false);
   const context = exercise.context?.trim();
   const hint = exercise.hint?.trim();
+  const hintParts = hint ? splitHintTitle(hint) : null;
 
   useEffect(() => {
     setIsHintOpen(false);
@@ -133,6 +153,11 @@ export default function InputExerciseCard({
             aria-label="Подсказка"
           >
             <div className="input-practice-card__hint-header">
+              {hintParts?.title ? (
+                <div className="input-practice-card__hint-heading">
+                  {renderInlineMarkdown(hintParts.title)}
+                </div>
+              ) : null}
               <button
                 className="input-practice-card__hint-close"
                 type="button"
@@ -142,7 +167,11 @@ export default function InputExerciseCard({
                 ×
               </button>
             </div>
-            <div className="input-practice-card__hint-text">{renderHintMarkdown(hint)}</div>
+            {hintParts?.body ? (
+              <div className="input-practice-card__hint-text">
+                {renderHintMarkdown(hintParts.body)}
+              </div>
+            ) : null}
           </section>
         </div>
       ) : null}

@@ -232,9 +232,22 @@
 
 .input-practice-card__hint-header {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 16px;
+}
+
+.input-practice-card__hint-heading {
+  margin: 0;
+  padding-top: 7px;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.input-practice-card__hint-heading strong {
+  color: var(--color-text-heading);
+  font-weight: 700;
 }
 
 .input-practice-card__hint-close {
@@ -244,7 +257,7 @@
   width: 36px;
   min-height: 36px;
   height: 36px;
-  background: var(--color-surface-muted);
+  background: transparent;
   color: var(--color-text-interactive);
   font-size: 22px;
   line-height: 1;
