@@ -28,7 +28,7 @@ export default function PracticeHomeScreen({
 
         <button className="card-button" type="button" onClick={onOpenInputTopics}>
           <div className="card-button__text">
-            <span className="card-button__title">Напиши слово</span>
+            <span className="card-button__title">Напиши на греческом</span>
             <span className="card-button__subtitle">Введите ответ самостоятельно</span>
           </div>
           <span className="card-button__chevron">›</span>
