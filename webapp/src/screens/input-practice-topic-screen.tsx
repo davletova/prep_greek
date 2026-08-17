@@ -35,7 +35,7 @@ export default function InputPracticeTopicScreen({
     useInputPracticeAnswer(exercise, clearSpeech);
 
   const handlePlayPrompt = async () => {
-    if (!exercise || !hasChecked || speech.isSpeaking("prompt")) {
+    if (!exercise || speech.isSpeaking("prompt")) {
       return;
     }
 
