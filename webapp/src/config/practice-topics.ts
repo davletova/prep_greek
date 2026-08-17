@@ -32,10 +32,18 @@ export const inputPracticeTopics = {
     subtitle: "Введите перевод фразы",
     url: `${import.meta.env.BASE_URL}content/practice/input/family-friends.json`,
   },
+  basicVerbsAndMovement: {
+    id: "basic-verbs-and-movement",
+    kind: "input",
+    title: "Глаголы είμαι, έχω, κάνω и глаголы движения",
+    subtitle: "Введите перевод фразы",
+    url: `${import.meta.env.BASE_URL}content/practice/input/basic-verbs-and-movement.json`,
+  },
 } as const satisfies Record<string, InputPracticeTopicDefinition>;
 
 export const inputPracticeTopicList = [
   inputPracticeTopics.alphaTypeVerbConjugation,
   inputPracticeTopics.aboutMyself,
   inputPracticeTopics.familyFriends,
+  inputPracticeTopics.basicVerbsAndMovement,
 ] as const;
