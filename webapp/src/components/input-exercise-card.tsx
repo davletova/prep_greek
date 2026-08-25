@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import PlaybackIcon from "./playback-icon.tsx";
 import type { ReactNode } from "react";
 import type { InputExercise } from "../types/exercises.ts";
@@ -82,6 +82,7 @@ export default function InputExerciseCard({
   onPlayPrompt,
 }: InputExerciseCardProps) {
   const [isHintOpen, setIsHintOpen] = useState(false);
+  const answerInputRef = useRef<HTMLTextAreaElement>(null);
   const context = exercise.context?.trim();
   const hint = exercise.hint?.trim();
   const hintParts = hint ? splitHintTitle(hint) : null;
@@ -89,6 +90,17 @@ export default function InputExerciseCard({
   useEffect(() => {
     setIsHintOpen(false);
   }, [exercise.id]);
+
+  useLayoutEffect(() => {
+    const answerInput = answerInputRef.current;
+
+    if (!answerInput) {
+      return;
+    }
+
+    answerInput.style.height = "auto";
+    answerInput.style.height = `${answerInput.scrollHeight}px`;
+  }, [answerValue, exercise.id]);
 
   return (
     <section className="practice-card input-practice-card">
@@ -126,7 +138,8 @@ export default function InputExerciseCard({
         >
           {exercise.correctAnswer}
         </p>
-        <input
+        <textarea
+          ref={answerInputRef}
           className={`input-practice-card__input-line ${
             hasChecked
               ? isCorrect
@@ -134,7 +147,7 @@ export default function InputExerciseCard({
                 : "input-practice-card__input-line--wrong"
               : ""
           }`}
-          type="text"
+          rows={1}
           value={answerValue}
           onChange={(event) => onAnswerChange(event.target.value)}
           autoComplete="off"
