@@ -61,6 +61,48 @@ describe("checkExerciseAnswer", () => {
     ).toEqual({ correct: true });
   });
 
+  it("ignores punctuation and repeated spaces in input exercise answers", () => {
+    const phraseExercise: InputExercise = {
+      ...inputExercise,
+      correctAnswer: "Είσαι καλά; Ναι!",
+    };
+
+    expect(
+      checkInputExerciseAnswer(phraseExercise, {
+        type: "input",
+        value: "  Είσαι   καλά Ναι.  ",
+      })
+    ).toEqual({ correct: true });
+  });
+
+  it("accepts canonically equivalent Greek accents", () => {
+    const phraseExercise: InputExercise = {
+      ...inputExercise,
+      correctAnswer: "Ξέρω.",
+    };
+
+    expect(
+      checkInputExerciseAnswer(phraseExercise, {
+        type: "input",
+        value: "ξέρω",
+      })
+    ).toEqual({ correct: true });
+  });
+
+  it("still checks the words in input exercise answers", () => {
+    const phraseExercise: InputExercise = {
+      ...inputExercise,
+      correctAnswer: "Είσαι καλά;",
+    };
+
+    expect(
+      checkInputExerciseAnswer(phraseExercise, {
+        type: "input",
+        value: "Είσαι κουρασμένος;",
+      })
+    ).toEqual({ correct: false });
+  });
+
   it("checks input exercises through the generic checker", () => {
     expect(
       checkExerciseAnswer(inputExercise, {

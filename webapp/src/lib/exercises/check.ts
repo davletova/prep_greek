@@ -1,4 +1,4 @@
-import { normalizeExerciseText } from "./normalize.ts";
+import { normalizeExerciseText, normalizeInputExerciseText } from "./normalize.ts";
 import type {
   Exercise,
   ExerciseAnswer,
@@ -36,7 +36,9 @@ export function checkInputExerciseAnswer(
   answer: Extract<ExerciseAnswer, { type: "input" }>
 ): ExerciseCheckResult {
   return {
-    correct: normalizeExerciseText(answer.value) === normalizeExerciseText(exercise.correctAnswer),
+    correct:
+      normalizeInputExerciseText(answer.value) ===
+      normalizeInputExerciseText(exercise.correctAnswer),
   };
 }
 
