@@ -19,9 +19,28 @@ export interface SingleChoicePracticeTopicDefinition {
   title: string;
   subtitle: string;
   fileName: string;
+  baseUrl?: string | undefined;
 }
 
+export interface SingleChoicePracticeGroupDefinition {
+  id: string;
+  title: string;
+  subtitle: string;
+  indexFileName: string;
+  baseUrl?: string | undefined;
+}
+
+export type SingleChoicePracticeIndexEntry =
+  | SingleChoicePracticeTopicDefinition
+  | SingleChoicePracticeGroupDefinition;
+
 export type ListeningPracticeTopicDefinition = SingleChoicePracticeTopicDefinition;
+
+export function isSingleChoicePracticeGroupDefinition(
+  entry: SingleChoicePracticeIndexEntry
+): entry is SingleChoicePracticeGroupDefinition {
+  return "indexFileName" in entry;
+}
 
 export interface SingleChoicePracticeTopic {
   id: string;

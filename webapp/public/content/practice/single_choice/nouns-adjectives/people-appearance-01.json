@@ -1,0 +1,367 @@
+{
+  "title": "Люди и внешность — 1",
+  "subtitle": "Согласуйте прилагательное с существительным",
+  "settings": { "showTranslationHint": true },
+  "items": [
+    {
+      "id": "nouns-adjectives-young-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο νέος",
+      "wrongAnswers": ["η νέα", "το νέο", "οι νέοι"],
+      "translation": "молодой мужчина"
+    },
+    {
+      "id": "nouns-adjectives-young-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι νέοι",
+      "wrongAnswers": ["οι νέες", "τα νέα", "ο νέος"],
+      "translation": "молодые мужчины"
+    },
+    {
+      "id": "nouns-adjectives-young-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η νέα",
+      "wrongAnswers": ["ο νέος", "το νέο", "οι νέες"],
+      "translation": "молодая женщина"
+    },
+    {
+      "id": "nouns-adjectives-young-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι νέες",
+      "wrongAnswers": ["οι νέοι", "τα νέα", "η νέα"],
+      "translation": "молодые женщины"
+    },
+    {
+      "id": "nouns-adjectives-young-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το νέο",
+      "wrongAnswers": ["ο νέος", "η νέα", "τα νέα"],
+      "translation": "молодой человек"
+    },
+    {
+      "id": "nouns-adjectives-young-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα νέα",
+      "wrongAnswers": ["οι νέοι", "οι νέες", "το νέο"],
+      "translation": "молодые люди"
+    },
+    {
+      "id": "nouns-adjectives-tall-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο ψηλός",
+      "wrongAnswers": ["η ψηλή", "το ψηλό", "οι ψηλοί"],
+      "translation": "высокий мужчина"
+    },
+    {
+      "id": "nouns-adjectives-tall-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ψηλοί",
+      "wrongAnswers": ["οι ψηλές", "τα ψηλά", "ο ψηλός"],
+      "translation": "высокие мужчины"
+    },
+    {
+      "id": "nouns-adjectives-tall-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η ψηλή",
+      "wrongAnswers": ["ο ψηλός", "το ψηλό", "οι ψηλές"],
+      "translation": "высокая женщина"
+    },
+    {
+      "id": "nouns-adjectives-tall-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ψηλές",
+      "wrongAnswers": ["οι ψηλοί", "τα ψηλά", "η ψηλή"],
+      "translation": "высокие женщины"
+    },
+    {
+      "id": "nouns-adjectives-tall-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το ψηλό",
+      "wrongAnswers": ["ο ψηλός", "η ψηλή", "τα ψηλά"],
+      "translation": "высокий человек"
+    },
+    {
+      "id": "nouns-adjectives-tall-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα ψηλά",
+      "wrongAnswers": ["οι ψηλοί", "οι ψηλές", "το ψηλό"],
+      "translation": "высокие люди"
+    },
+    {
+      "id": "nouns-adjectives-blond-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο ξανθός",
+      "wrongAnswers": ["η ξανθιά", "το ξανθό", "οι ξανθοί"],
+      "translation": "светловолосый мужчина"
+    },
+    {
+      "id": "nouns-adjectives-blond-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ξανθοί",
+      "wrongAnswers": ["οι ξανθιές", "τα ξανθά", "ο ξανθός"],
+      "translation": "светловолосые мужчины"
+    },
+    {
+      "id": "nouns-adjectives-blond-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η ξανθιά",
+      "wrongAnswers": ["ο ξανθός", "το ξανθό", "οι ξανθιές"],
+      "translation": "светловолосая женщина"
+    },
+    {
+      "id": "nouns-adjectives-blond-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ξανθιές",
+      "wrongAnswers": ["οι ξανθοί", "τα ξανθά", "η ξανθιά"],
+      "translation": "светловолосые женщины"
+    },
+    {
+      "id": "nouns-adjectives-blond-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το ξανθό",
+      "wrongAnswers": ["ο ξανθός", "η ξανθιά", "τα ξανθά"],
+      "translation": "светловолосый человек"
+    },
+    {
+      "id": "nouns-adjectives-blond-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα ξανθά",
+      "wrongAnswers": ["οι ξανθοί", "οι ξανθιές", "το ξανθό"],
+      "translation": "светловолосые люди"
+    },
+    {
+      "id": "nouns-adjectives-thin-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο αδύνατος",
+      "wrongAnswers": ["η αδύνατη", "το αδύνατο", "οι αδύνατοι"],
+      "translation": "худой мужчина"
+    },
+    {
+      "id": "nouns-adjectives-thin-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι αδύνατοι",
+      "wrongAnswers": ["οι αδύνατες", "τα αδύνατα", "ο αδύνατος"],
+      "translation": "худые мужчины"
+    },
+    {
+      "id": "nouns-adjectives-thin-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η αδύνατη",
+      "wrongAnswers": ["ο αδύνατος", "το αδύνατο", "οι αδύνατες"],
+      "translation": "худая женщина"
+    },
+    {
+      "id": "nouns-adjectives-thin-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι αδύνατες",
+      "wrongAnswers": ["οι αδύνατοι", "τα αδύνατα", "η αδύνατη"],
+      "translation": "худые женщины"
+    },
+    {
+      "id": "nouns-adjectives-thin-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το αδύνατο",
+      "wrongAnswers": ["ο αδύνατος", "η αδύνατη", "τα αδύνατα"],
+      "translation": "худой человек"
+    },
+    {
+      "id": "nouns-adjectives-thin-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα αδύνατα",
+      "wrongAnswers": ["οι αδύνατοι", "οι αδύνατες", "το αδύνατο"],
+      "translation": "худые люди"
+    },
+    {
+      "id": "nouns-adjectives-beautiful-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο όμορφος",
+      "wrongAnswers": ["η όμορφη", "το όμορφο", "οι όμορφοι"],
+      "translation": "красивый мужчина"
+    },
+    {
+      "id": "nouns-adjectives-beautiful-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι όμορφοι",
+      "wrongAnswers": ["οι όμορφες", "τα όμορφα", "ο όμορφος"],
+      "translation": "красивые мужчины"
+    },
+    {
+      "id": "nouns-adjectives-beautiful-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η όμορφη",
+      "wrongAnswers": ["ο όμορφος", "το όμορφο", "οι όμορφες"],
+      "translation": "красивая женщина"
+    },
+    {
+      "id": "nouns-adjectives-beautiful-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι όμορφες",
+      "wrongAnswers": ["οι όμορφοι", "τα όμορφα", "η όμορφη"],
+      "translation": "красивые женщины"
+    },
+    {
+      "id": "nouns-adjectives-beautiful-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το όμορφο",
+      "wrongAnswers": ["ο όμορφος", "η όμορφη", "τα όμορφα"],
+      "translation": "красивый человек"
+    },
+    {
+      "id": "nouns-adjectives-beautiful-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα όμορφα",
+      "wrongAnswers": ["οι όμορφοι", "οι όμορφες", "το όμορφο"],
+      "translation": "красивые люди"
+    },
+    {
+      "id": "nouns-adjectives-this-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτός ο",
+      "wrongAnswers": ["αυτή η", "αυτό το", "αυτοί οι"],
+      "translation": "этот мужчина"
+    },
+    {
+      "id": "nouns-adjectives-this-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτοί οι",
+      "wrongAnswers": ["αυτές οι", "αυτά τα", "αυτός ο"],
+      "translation": "эти мужчины"
+    },
+    {
+      "id": "nouns-adjectives-this-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτή η",
+      "wrongAnswers": ["αυτός ο", "αυτό το", "αυτές οι"],
+      "translation": "эта женщина"
+    },
+    {
+      "id": "nouns-adjectives-this-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτές οι",
+      "wrongAnswers": ["αυτοί οι", "αυτά τα", "αυτή η"],
+      "translation": "эти женщины"
+    },
+    {
+      "id": "nouns-adjectives-this-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτό το",
+      "wrongAnswers": ["αυτός ο", "αυτή η", "αυτά τα"],
+      "translation": "этот человек"
+    },
+    {
+      "id": "nouns-adjectives-this-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτά τα",
+      "wrongAnswers": ["αυτοί οι", "αυτές οι", "αυτό το"],
+      "translation": "эти люди"
+    },
+    {
+      "id": "nouns-adjectives-some-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιος",
+      "wrongAnswers": ["κάποια", "κάποιο", "κάποιοι"],
+      "translation": "какой-то мужчина"
+    },
+    {
+      "id": "nouns-adjectives-some-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιοι",
+      "wrongAnswers": ["κάποιες", "κάποια", "κάποιος"],
+      "translation": "какие-то мужчины"
+    },
+    {
+      "id": "nouns-adjectives-some-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποια",
+      "wrongAnswers": ["κάποιος", "κάποιο", "κάποιες"],
+      "translation": "какая-то женщина"
+    },
+    {
+      "id": "nouns-adjectives-some-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιες",
+      "wrongAnswers": ["κάποιοι", "κάποια", "κάποιος"],
+      "translation": "какие-то женщины"
+    }
+  ]
+}

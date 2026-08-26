@@ -1,0 +1,902 @@
+[
+  {
+    "id": "good-friend",
+    "nounId": "friend",
+    "adjectiveId": "good",
+    "translations": {
+      "singular": "хороший друг",
+      "plural": "хорошие друзья"
+    }
+  },
+  {
+    "id": "good-family",
+    "nounId": "family",
+    "adjectiveId": "good",
+    "translations": {
+      "singular": "хорошая семья",
+      "plural": "хорошие семьи"
+    }
+  },
+  {
+    "id": "good-child",
+    "nounId": "child",
+    "adjectiveId": "good",
+    "translations": {
+      "singular": "хороший ребёнок",
+      "plural": "хорошие дети"
+    }
+  },
+  {
+    "id": "this-friend",
+    "nounId": "friend",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот друг",
+      "plural": "эти друзья"
+    }
+  },
+  {
+    "id": "this-family",
+    "nounId": "family",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "эта семья",
+      "plural": "эти семьи"
+    }
+  },
+  {
+    "id": "this-child",
+    "nounId": "child",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот ребёнок",
+      "plural": "эти дети"
+    }
+  },
+  {
+    "id": "some-friend",
+    "nounId": "friend",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какой-то друг",
+      "plural": "какие-то друзья"
+    }
+  },
+  {
+    "id": "some-family",
+    "nounId": "family",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какая-то семья",
+      "plural": "какие-то семьи"
+    }
+  },
+  {
+    "id": "some-child",
+    "nounId": "child",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какой-то ребёнок",
+      "plural": "какие-то дети"
+    }
+  },
+  {
+    "id": "beloved-friend",
+    "nounId": "friend",
+    "adjectiveId": "beloved",
+    "translations": {
+      "singular": "любимый друг",
+      "plural": "любимые друзья"
+    }
+  },
+  {
+    "id": "beloved-sister",
+    "nounId": "sister",
+    "adjectiveId": "beloved",
+    "translations": {
+      "singular": "любимая сестра",
+      "plural": "любимые сёстры"
+    }
+  },
+  {
+    "id": "beloved-child",
+    "nounId": "child",
+    "adjectiveId": "beloved",
+    "translations": {
+      "singular": "любимый ребёнок",
+      "plural": "любимые дети"
+    }
+  },
+  {
+    "id": "big-brother",
+    "nounId": "brother",
+    "adjectiveId": "big",
+    "translations": {
+      "singular": "старший брат",
+      "plural": "старшие братья"
+    }
+  },
+  {
+    "id": "big-sister",
+    "nounId": "sister",
+    "adjectiveId": "big",
+    "translations": {
+      "singular": "старшая сестра",
+      "plural": "старшие сёстры"
+    }
+  },
+  {
+    "id": "big-child",
+    "nounId": "child",
+    "adjectiveId": "big",
+    "translations": {
+      "singular": "большой ребёнок",
+      "plural": "большие дети"
+    }
+  },
+  {
+    "id": "small-brother",
+    "nounId": "brother",
+    "adjectiveId": "small",
+    "translations": {
+      "singular": "младший брат",
+      "plural": "младшие братья"
+    }
+  },
+  {
+    "id": "small-sister",
+    "nounId": "sister",
+    "adjectiveId": "small",
+    "translations": {
+      "singular": "младшая сестра",
+      "plural": "младшие сёстры"
+    }
+  },
+  {
+    "id": "small-child",
+    "nounId": "child",
+    "adjectiveId": "small",
+    "translations": {
+      "singular": "маленький ребёнок",
+      "plural": "маленькие дети"
+    }
+  },
+  {
+    "id": "this-brother",
+    "nounId": "brother",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот брат",
+      "plural": "эти братья"
+    }
+  },
+  {
+    "id": "this-sister",
+    "nounId": "sister",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "эта сестра",
+      "plural": "эти сёстры"
+    }
+  },
+  {
+    "id": "young-man",
+    "nounId": "man",
+    "adjectiveId": "young",
+    "translations": {
+      "singular": "молодой мужчина",
+      "plural": "молодые мужчины"
+    }
+  },
+  {
+    "id": "young-woman",
+    "nounId": "woman",
+    "adjectiveId": "young",
+    "translations": {
+      "singular": "молодая женщина",
+      "plural": "молодые женщины"
+    }
+  },
+  {
+    "id": "young-person",
+    "nounId": "person",
+    "adjectiveId": "young",
+    "translations": {
+      "singular": "молодой человек",
+      "plural": "молодые люди"
+    }
+  },
+  {
+    "id": "tall-man",
+    "nounId": "man",
+    "adjectiveId": "tall",
+    "translations": {
+      "singular": "высокий мужчина",
+      "plural": "высокие мужчины"
+    }
+  },
+  {
+    "id": "tall-woman",
+    "nounId": "woman",
+    "adjectiveId": "tall",
+    "translations": {
+      "singular": "высокая женщина",
+      "plural": "высокие женщины"
+    }
+  },
+  {
+    "id": "tall-person",
+    "nounId": "person",
+    "adjectiveId": "tall",
+    "translations": {
+      "singular": "высокий человек",
+      "plural": "высокие люди"
+    }
+  },
+  {
+    "id": "blond-man",
+    "nounId": "man",
+    "adjectiveId": "blond",
+    "translations": {
+      "singular": "светловолосый мужчина",
+      "plural": "светловолосые мужчины"
+    }
+  },
+  {
+    "id": "blond-woman",
+    "nounId": "woman",
+    "adjectiveId": "blond",
+    "translations": {
+      "singular": "светловолосая женщина",
+      "plural": "светловолосые женщины"
+    }
+  },
+  {
+    "id": "blond-person",
+    "nounId": "person",
+    "adjectiveId": "blond",
+    "translations": {
+      "singular": "светловолосый человек",
+      "plural": "светловолосые люди"
+    }
+  },
+  {
+    "id": "thin-man",
+    "nounId": "man",
+    "adjectiveId": "thin",
+    "translations": {
+      "singular": "худой мужчина",
+      "plural": "худые мужчины"
+    }
+  },
+  {
+    "id": "thin-woman",
+    "nounId": "woman",
+    "adjectiveId": "thin",
+    "translations": {
+      "singular": "худая женщина",
+      "plural": "худые женщины"
+    }
+  },
+  {
+    "id": "thin-person",
+    "nounId": "person",
+    "adjectiveId": "thin",
+    "translations": {
+      "singular": "худой человек",
+      "plural": "худые люди"
+    }
+  },
+  {
+    "id": "beautiful-man",
+    "nounId": "man",
+    "adjectiveId": "beautiful",
+    "translations": {
+      "singular": "красивый мужчина",
+      "plural": "красивые мужчины"
+    }
+  },
+  {
+    "id": "beautiful-woman",
+    "nounId": "woman",
+    "adjectiveId": "beautiful",
+    "translations": {
+      "singular": "красивая женщина",
+      "plural": "красивые женщины"
+    }
+  },
+  {
+    "id": "beautiful-person",
+    "nounId": "person",
+    "adjectiveId": "beautiful",
+    "translations": {
+      "singular": "красивый человек",
+      "plural": "красивые люди"
+    }
+  },
+  {
+    "id": "this-man",
+    "nounId": "man",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот мужчина",
+      "plural": "эти мужчины"
+    }
+  },
+  {
+    "id": "this-woman",
+    "nounId": "woman",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "эта женщина",
+      "plural": "эти женщины"
+    }
+  },
+  {
+    "id": "this-person",
+    "nounId": "person",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот человек",
+      "plural": "эти люди"
+    }
+  },
+  {
+    "id": "some-man",
+    "nounId": "man",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какой-то мужчина",
+      "plural": "какие-то мужчины"
+    }
+  },
+  {
+    "id": "some-woman",
+    "nounId": "woman",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какая-то женщина",
+      "plural": "какие-то женщины"
+    }
+  },
+  {
+    "id": "polite-man",
+    "nounId": "man",
+    "adjectiveId": "polite",
+    "translations": {
+      "singular": "вежливый мужчина",
+      "plural": "вежливые мужчины"
+    }
+  },
+  {
+    "id": "polite-woman",
+    "nounId": "woman",
+    "adjectiveId": "polite",
+    "translations": {
+      "singular": "вежливая женщина",
+      "plural": "вежливые женщины"
+    }
+  },
+  {
+    "id": "polite-person",
+    "nounId": "person",
+    "adjectiveId": "polite",
+    "translations": {
+      "singular": "вежливый человек",
+      "plural": "вежливые люди"
+    }
+  },
+  {
+    "id": "calm-man",
+    "nounId": "man",
+    "adjectiveId": "calm",
+    "translations": {
+      "singular": "спокойный мужчина",
+      "plural": "спокойные мужчины"
+    }
+  },
+  {
+    "id": "calm-woman",
+    "nounId": "woman",
+    "adjectiveId": "calm",
+    "translations": {
+      "singular": "спокойная женщина",
+      "plural": "спокойные женщины"
+    }
+  },
+  {
+    "id": "calm-person",
+    "nounId": "person",
+    "adjectiveId": "calm",
+    "translations": {
+      "singular": "спокойный человек",
+      "plural": "спокойные люди"
+    }
+  },
+  {
+    "id": "serious-man",
+    "nounId": "man",
+    "adjectiveId": "serious",
+    "translations": {
+      "singular": "серьёзный мужчина",
+      "plural": "серьёзные мужчины"
+    }
+  },
+  {
+    "id": "serious-woman",
+    "nounId": "woman",
+    "adjectiveId": "serious",
+    "translations": {
+      "singular": "серьёзная женщина",
+      "plural": "серьёзные женщины"
+    }
+  },
+  {
+    "id": "serious-person",
+    "nounId": "person",
+    "adjectiveId": "serious",
+    "translations": {
+      "singular": "серьёзный человек",
+      "plural": "серьёзные люди"
+    }
+  },
+  {
+    "id": "friendly-man",
+    "nounId": "man",
+    "adjectiveId": "friendly",
+    "translations": {
+      "singular": "дружелюбный мужчина",
+      "plural": "дружелюбные мужчины"
+    }
+  },
+  {
+    "id": "friendly-woman",
+    "nounId": "woman",
+    "adjectiveId": "friendly",
+    "translations": {
+      "singular": "дружелюбная женщина",
+      "plural": "дружелюбные женщины"
+    }
+  },
+  {
+    "id": "friendly-person",
+    "nounId": "person",
+    "adjectiveId": "friendly",
+    "translations": {
+      "singular": "дружелюбный человек",
+      "plural": "дружелюбные люди"
+    }
+  },
+  {
+    "id": "likable-man",
+    "nounId": "man",
+    "adjectiveId": "likable",
+    "translations": {
+      "singular": "приятный мужчина",
+      "plural": "приятные мужчины"
+    }
+  },
+  {
+    "id": "likable-woman",
+    "nounId": "woman",
+    "adjectiveId": "likable",
+    "translations": {
+      "singular": "приятная женщина",
+      "plural": "приятные женщины"
+    }
+  },
+  {
+    "id": "likable-person",
+    "nounId": "person",
+    "adjectiveId": "likable",
+    "translations": {
+      "singular": "приятный человек",
+      "plural": "приятные люди"
+    }
+  },
+  {
+    "id": "good-man",
+    "nounId": "man",
+    "adjectiveId": "good",
+    "translations": {
+      "singular": "хороший мужчина",
+      "plural": "хорошие мужчины"
+    }
+  },
+  {
+    "id": "good-woman",
+    "nounId": "woman",
+    "adjectiveId": "good",
+    "translations": {
+      "singular": "хорошая женщина",
+      "plural": "хорошие женщины"
+    }
+  },
+  {
+    "id": "good-person",
+    "nounId": "person",
+    "adjectiveId": "good",
+    "translations": {
+      "singular": "хороший человек",
+      "plural": "хорошие люди"
+    }
+  },
+  {
+    "id": "beloved-man",
+    "nounId": "man",
+    "adjectiveId": "beloved",
+    "translations": {
+      "singular": "любимый мужчина",
+      "plural": "любимые мужчины"
+    }
+  },
+  {
+    "id": "beloved-woman",
+    "nounId": "woman",
+    "adjectiveId": "beloved",
+    "translations": {
+      "singular": "любимая женщина",
+      "plural": "любимые женщины"
+    }
+  },
+  {
+    "id": "new-sofa",
+    "nounId": "sofa",
+    "adjectiveId": "new",
+    "translations": {
+      "singular": "новый диван",
+      "plural": "новые диваны"
+    }
+  },
+  {
+    "id": "new-chair",
+    "nounId": "chair",
+    "adjectiveId": "new",
+    "translations": {
+      "singular": "новый стул",
+      "plural": "новые стулья"
+    }
+  },
+  {
+    "id": "new-table",
+    "nounId": "table",
+    "adjectiveId": "new",
+    "translations": {
+      "singular": "новый стол",
+      "plural": "новые столы"
+    }
+  },
+  {
+    "id": "old-sofa",
+    "nounId": "sofa",
+    "adjectiveId": "old",
+    "translations": {
+      "singular": "старый диван",
+      "plural": "старые диваны"
+    }
+  },
+  {
+    "id": "old-chair",
+    "nounId": "chair",
+    "adjectiveId": "old",
+    "translations": {
+      "singular": "старый стул",
+      "plural": "старые стулья"
+    }
+  },
+  {
+    "id": "old-table",
+    "nounId": "table",
+    "adjectiveId": "old",
+    "translations": {
+      "singular": "старый стол",
+      "plural": "старые столы"
+    }
+  },
+  {
+    "id": "wooden-sofa",
+    "nounId": "sofa",
+    "adjectiveId": "wooden",
+    "translations": {
+      "singular": "деревянный диван",
+      "plural": "деревянные диваны"
+    }
+  },
+  {
+    "id": "wooden-chair",
+    "nounId": "chair",
+    "adjectiveId": "wooden",
+    "translations": {
+      "singular": "деревянный стул",
+      "plural": "деревянные стулья"
+    }
+  },
+  {
+    "id": "wooden-table",
+    "nounId": "table",
+    "adjectiveId": "wooden",
+    "translations": {
+      "singular": "деревянный стол",
+      "plural": "деревянные столы"
+    }
+  },
+  {
+    "id": "clean-sofa",
+    "nounId": "sofa",
+    "adjectiveId": "clean",
+    "translations": {
+      "singular": "чистый диван",
+      "plural": "чистые диваны"
+    }
+  },
+  {
+    "id": "clean-chair",
+    "nounId": "chair",
+    "adjectiveId": "clean",
+    "translations": {
+      "singular": "чистый стул",
+      "plural": "чистые стулья"
+    }
+  },
+  {
+    "id": "clean-table",
+    "nounId": "table",
+    "adjectiveId": "clean",
+    "translations": {
+      "singular": "чистый стол",
+      "plural": "чистые столы"
+    }
+  },
+  {
+    "id": "big-sofa",
+    "nounId": "sofa",
+    "adjectiveId": "big",
+    "translations": {
+      "singular": "большой диван",
+      "plural": "большие диваны"
+    }
+  },
+  {
+    "id": "big-chair",
+    "nounId": "chair",
+    "adjectiveId": "big",
+    "translations": {
+      "singular": "большой стул",
+      "plural": "большие стулья"
+    }
+  },
+  {
+    "id": "big-table",
+    "nounId": "table",
+    "adjectiveId": "big",
+    "translations": {
+      "singular": "большой стол",
+      "plural": "большие столы"
+    }
+  },
+  {
+    "id": "this-sofa",
+    "nounId": "sofa",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот диван",
+      "plural": "эти диваны"
+    }
+  },
+  {
+    "id": "this-chair",
+    "nounId": "chair",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот стул",
+      "plural": "эти стулья"
+    }
+  },
+  {
+    "id": "this-table",
+    "nounId": "table",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот стол",
+      "plural": "эти столы"
+    }
+  },
+  {
+    "id": "some-sofa",
+    "nounId": "sofa",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какой-то диван",
+      "plural": "какие-то диваны"
+    }
+  },
+  {
+    "id": "some-chair",
+    "nounId": "chair",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какой-то стул",
+      "plural": "какие-то стулья"
+    }
+  },
+  {
+    "id": "hot-coffee",
+    "nounId": "coffee",
+    "adjectiveId": "hot",
+    "translations": {
+      "singular": "горячий кофе",
+      "plural": "горячие порции кофе"
+    }
+  },
+  {
+    "id": "hot-salad",
+    "nounId": "salad",
+    "adjectiveId": "hot",
+    "translations": {
+      "singular": "тёплый салат",
+      "plural": "тёплые салаты"
+    }
+  },
+  {
+    "id": "hot-food",
+    "nounId": "food",
+    "adjectiveId": "hot",
+    "translations": {
+      "singular": "горячая еда",
+      "plural": "горячие блюда"
+    }
+  },
+  {
+    "id": "cold-coffee",
+    "nounId": "coffee",
+    "adjectiveId": "cold",
+    "translations": {
+      "singular": "холодный кофе",
+      "plural": "холодные порции кофе"
+    }
+  },
+  {
+    "id": "cold-salad",
+    "nounId": "salad",
+    "adjectiveId": "cold",
+    "translations": {
+      "singular": "холодный салат",
+      "plural": "холодные салаты"
+    }
+  },
+  {
+    "id": "cold-food",
+    "nounId": "food",
+    "adjectiveId": "cold",
+    "translations": {
+      "singular": "холодная еда",
+      "plural": "холодные блюда"
+    }
+  },
+  {
+    "id": "tasty-coffee",
+    "nounId": "coffee",
+    "adjectiveId": "tasty",
+    "translations": {
+      "singular": "вкусный кофе",
+      "plural": "вкусные порции кофе"
+    }
+  },
+  {
+    "id": "tasty-salad",
+    "nounId": "salad",
+    "adjectiveId": "tasty",
+    "translations": {
+      "singular": "вкусный салат",
+      "plural": "вкусные салаты"
+    }
+  },
+  {
+    "id": "tasty-food",
+    "nounId": "food",
+    "adjectiveId": "tasty",
+    "translations": {
+      "singular": "вкусная еда",
+      "plural": "вкусные блюда"
+    }
+  },
+  {
+    "id": "fresh-coffee",
+    "nounId": "coffee",
+    "adjectiveId": "fresh",
+    "translations": {
+      "singular": "свежий кофе",
+      "plural": "свежие порции кофе"
+    }
+  },
+  {
+    "id": "fresh-salad",
+    "nounId": "salad",
+    "adjectiveId": "fresh",
+    "translations": {
+      "singular": "свежий салат",
+      "plural": "свежие салаты"
+    }
+  },
+  {
+    "id": "fresh-food",
+    "nounId": "food",
+    "adjectiveId": "fresh",
+    "translations": {
+      "singular": "свежая еда",
+      "plural": "свежие блюда"
+    }
+  },
+  {
+    "id": "traditional-coffee",
+    "nounId": "coffee",
+    "adjectiveId": "traditional",
+    "translations": {
+      "singular": "традиционный кофе",
+      "plural": "традиционные виды кофе"
+    }
+  },
+  {
+    "id": "traditional-salad",
+    "nounId": "salad",
+    "adjectiveId": "traditional",
+    "translations": {
+      "singular": "традиционный салат",
+      "plural": "традиционные салаты"
+    }
+  },
+  {
+    "id": "traditional-food",
+    "nounId": "food",
+    "adjectiveId": "traditional",
+    "translations": {
+      "singular": "традиционная еда",
+      "plural": "традиционные блюда"
+    }
+  },
+  {
+    "id": "this-coffee",
+    "nounId": "coffee",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот кофе",
+      "plural": "эти порции кофе"
+    }
+  },
+  {
+    "id": "this-salad",
+    "nounId": "salad",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "этот салат",
+      "plural": "эти салаты"
+    }
+  },
+  {
+    "id": "this-food",
+    "nounId": "food",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "эта еда",
+      "plural": "эти блюда"
+    }
+  },
+  {
+    "id": "some-coffee",
+    "nounId": "coffee",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какой-то кофе",
+      "plural": "какие-то виды кофе"
+    }
+  },
+  {
+    "id": "some-salad",
+    "nounId": "salad",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какой-то салат",
+      "plural": "какие-то салаты"
+    }
+  }
+]

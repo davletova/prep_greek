@@ -43,8 +43,9 @@ describe("screen hash router", () => {
     expect(normalizeScreenHash(input)).toBe(expected);
   });
 
-  it("maps topic detail screens to their parent topic list hashes", () => {
+  it("maps nested and topic detail screens to their parent topic list hashes", () => {
     expect(screenToHash("practice-input-topic")).toBe("#/practice/input");
+    expect(screenToHash("practice-single-choice-group")).toBe("#/practice/single-choice");
     expect(screenToHash("practice-single-choice-topic")).toBe("#/practice/single-choice");
     expect(screenToHash("practice-listening-topic")).toBe("#/practice/listening");
   });
@@ -55,6 +56,7 @@ describe("screen hash router", () => {
     ["home", "practice"],
     ["practice-input-topics", "practice"],
     ["practice-single-choice-topics", "practice"],
+    ["practice-single-choice-group", "practice"],
     ["practice-listening-topics", "practice"],
   ])("maps %s screen to %s home tab", (screen, tab) => {
     expect(homeTabForScreen(screen)).toBe(tab);

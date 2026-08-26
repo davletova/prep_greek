@@ -46,5 +46,11 @@
     "title": "Числительные",
     "subtitle": "Выберите правильный перевод",
     "fileName": "greek-numerals-cardinal.json"
+  },
+  {
+    "id": "nouns-adjectives",
+    "title": "Существительные и прилагательные",
+    "subtitle": "Выберите правильную форму прилагательного",
+    "indexFileName": "nouns-adjectives/index.json"
   }
 ]

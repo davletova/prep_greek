@@ -89,6 +89,14 @@ export default function AppScreenRenderer({
           onRetry={practice.retrySelectedListeningTopic}
           onSpeak={onSpeak}
         />
+      ) : screen === "practice-single-choice-group" ? (
+        <SingleChoicePracticeTopicsScreen
+          title={practice.selectedSingleChoiceGroup?.title || "Существительные и прилагательные"}
+          topicsState={practice.singleChoiceGroupTopicListState}
+          onClose={practice.closeSingleChoiceGroup}
+          onRetry={practice.retrySingleChoiceGroupTopics}
+          onOpenTopic={practice.openSingleChoiceGroupTopic}
+        />
       ) : screen === "practice-single-choice-topic" ? (
         <SingleChoicePracticeTopicScreen
           title={practice.selectedSingleChoiceTopic?.title || "Тренировка"}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nouns-adjectives-people-appearance-01",
+    "title": "Люди и внешность — 1",
+    "subtitle": "Выберите правильную форму прилагательного",
+    "fileName": "people-appearance-01.json"
+  },
+  {
+    "id": "nouns-adjectives-people-appearance-02",
+    "title": "Люди и внешность — 2",
+    "subtitle": "Выберите правильную форму прилагательного",
+    "fileName": "people-appearance-02.json"
+  },
+  {
+    "id": "nouns-adjectives-family-relationships-01",
+    "title": "Семья и отношения — 1",
+    "subtitle": "Выберите правильную форму прилагательного",
+    "fileName": "family-relationships-01.json"
+  },
+  {
+    "id": "nouns-adjectives-home-everyday-life-01",
+    "title": "Дом и быт — 1",
+    "subtitle": "Выберите правильную форму прилагательного",
+    "fileName": "home-everyday-life-01.json"
+  },
+  {
+    "id": "nouns-adjectives-food-cooking-01",
+    "title": "Еда и приготовление пищи — 1",
+    "subtitle": "Выберите правильную форму прилагательного",
+    "fileName": "food-cooking-01.json"
+  }
+]

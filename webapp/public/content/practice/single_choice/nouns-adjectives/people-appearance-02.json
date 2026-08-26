@@ -1,0 +1,367 @@
+{
+  "title": "Люди и внешность — 2",
+  "subtitle": "Согласуйте прилагательное с существительным",
+  "settings": { "showTranslationHint": true },
+  "items": [
+    {
+      "id": "nouns-adjectives-polite-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο ευγενικός",
+      "wrongAnswers": ["η ευγενική", "το ευγενικό", "οι ευγενικοί"],
+      "translation": "вежливый мужчина"
+    },
+    {
+      "id": "nouns-adjectives-polite-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ευγενικοί",
+      "wrongAnswers": ["οι ευγενικές", "τα ευγενικά", "ο ευγενικός"],
+      "translation": "вежливые мужчины"
+    },
+    {
+      "id": "nouns-adjectives-polite-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η ευγενική",
+      "wrongAnswers": ["ο ευγενικός", "το ευγενικό", "οι ευγενικές"],
+      "translation": "вежливая женщина"
+    },
+    {
+      "id": "nouns-adjectives-polite-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ευγενικές",
+      "wrongAnswers": ["οι ευγενικοί", "τα ευγενικά", "η ευγενική"],
+      "translation": "вежливые женщины"
+    },
+    {
+      "id": "nouns-adjectives-polite-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το ευγενικό",
+      "wrongAnswers": ["ο ευγενικός", "η ευγενική", "τα ευγενικά"],
+      "translation": "вежливый человек"
+    },
+    {
+      "id": "nouns-adjectives-polite-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα ευγενικά",
+      "wrongAnswers": ["οι ευγενικοί", "οι ευγενικές", "το ευγενικό"],
+      "translation": "вежливые люди"
+    },
+    {
+      "id": "nouns-adjectives-calm-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο ήρεμος",
+      "wrongAnswers": ["η ήρεμη", "το ήρεμο", "οι ήρεμοι"],
+      "translation": "спокойный мужчина"
+    },
+    {
+      "id": "nouns-adjectives-calm-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ήρεμοι",
+      "wrongAnswers": ["οι ήρεμες", "τα ήρεμα", "ο ήρεμος"],
+      "translation": "спокойные мужчины"
+    },
+    {
+      "id": "nouns-adjectives-calm-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η ήρεμη",
+      "wrongAnswers": ["ο ήρεμος", "το ήρεμο", "οι ήρεμες"],
+      "translation": "спокойная женщина"
+    },
+    {
+      "id": "nouns-adjectives-calm-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ήρεμες",
+      "wrongAnswers": ["οι ήρεμοι", "τα ήρεμα", "η ήρεμη"],
+      "translation": "спокойные женщины"
+    },
+    {
+      "id": "nouns-adjectives-calm-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το ήρεμο",
+      "wrongAnswers": ["ο ήρεμος", "η ήρεμη", "τα ήρεμα"],
+      "translation": "спокойный человек"
+    },
+    {
+      "id": "nouns-adjectives-calm-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα ήρεμα",
+      "wrongAnswers": ["οι ήρεμοι", "οι ήρεμες", "το ήρεμο"],
+      "translation": "спокойные люди"
+    },
+    {
+      "id": "nouns-adjectives-serious-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο σοβαρός",
+      "wrongAnswers": ["η σοβαρή", "το σοβαρό", "οι σοβαροί"],
+      "translation": "серьёзный мужчина"
+    },
+    {
+      "id": "nouns-adjectives-serious-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι σοβαροί",
+      "wrongAnswers": ["οι σοβαρές", "τα σοβαρά", "ο σοβαρός"],
+      "translation": "серьёзные мужчины"
+    },
+    {
+      "id": "nouns-adjectives-serious-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η σοβαρή",
+      "wrongAnswers": ["ο σοβαρός", "το σοβαρό", "οι σοβαρές"],
+      "translation": "серьёзная женщина"
+    },
+    {
+      "id": "nouns-adjectives-serious-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι σοβαρές",
+      "wrongAnswers": ["οι σοβαροί", "τα σοβαρά", "η σοβαρή"],
+      "translation": "серьёзные женщины"
+    },
+    {
+      "id": "nouns-adjectives-serious-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το σοβαρό",
+      "wrongAnswers": ["ο σοβαρός", "η σοβαρή", "τα σοβαρά"],
+      "translation": "серьёзный человек"
+    },
+    {
+      "id": "nouns-adjectives-serious-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα σοβαρά",
+      "wrongAnswers": ["οι σοβαροί", "οι σοβαρές", "το σοβαρό"],
+      "translation": "серьёзные люди"
+    },
+    {
+      "id": "nouns-adjectives-friendly-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο φιλικός",
+      "wrongAnswers": ["η φιλική", "το φιλικό", "οι φιλικοί"],
+      "translation": "дружелюбный мужчина"
+    },
+    {
+      "id": "nouns-adjectives-friendly-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι φιλικοί",
+      "wrongAnswers": ["οι φιλικές", "τα φιλικά", "ο φιλικός"],
+      "translation": "дружелюбные мужчины"
+    },
+    {
+      "id": "nouns-adjectives-friendly-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η φιλική",
+      "wrongAnswers": ["ο φιλικός", "το φιλικό", "οι φιλικές"],
+      "translation": "дружелюбная женщина"
+    },
+    {
+      "id": "nouns-adjectives-friendly-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι φιλικές",
+      "wrongAnswers": ["οι φιλικοί", "τα φιλικά", "η φιλική"],
+      "translation": "дружелюбные женщины"
+    },
+    {
+      "id": "nouns-adjectives-friendly-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το φιλικό",
+      "wrongAnswers": ["ο φιλικός", "η φιλική", "τα φιλικά"],
+      "translation": "дружелюбный человек"
+    },
+    {
+      "id": "nouns-adjectives-friendly-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα φιλικά",
+      "wrongAnswers": ["οι φιλικοί", "οι φιλικές", "το φιλικό"],
+      "translation": "дружелюбные люди"
+    },
+    {
+      "id": "nouns-adjectives-likable-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο συμπαθητικός",
+      "wrongAnswers": ["η συμπαθητική", "το συμπαθητικό", "οι συμπαθητικοί"],
+      "translation": "приятный мужчина"
+    },
+    {
+      "id": "nouns-adjectives-likable-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι συμπαθητικοί",
+      "wrongAnswers": ["οι συμπαθητικές", "τα συμπαθητικά", "ο συμπαθητικός"],
+      "translation": "приятные мужчины"
+    },
+    {
+      "id": "nouns-adjectives-likable-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η συμπαθητική",
+      "wrongAnswers": ["ο συμπαθητικός", "το συμπαθητικό", "οι συμπαθητικές"],
+      "translation": "приятная женщина"
+    },
+    {
+      "id": "nouns-adjectives-likable-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι συμπαθητικές",
+      "wrongAnswers": ["οι συμπαθητικοί", "τα συμπαθητικά", "η συμπαθητική"],
+      "translation": "приятные женщины"
+    },
+    {
+      "id": "nouns-adjectives-likable-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το συμπαθητικό",
+      "wrongAnswers": ["ο συμπαθητικός", "η συμπαθητική", "τα συμπαθητικά"],
+      "translation": "приятный человек"
+    },
+    {
+      "id": "nouns-adjectives-likable-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα συμπαθητικά",
+      "wrongAnswers": ["οι συμπαθητικοί", "οι συμπαθητικές", "το συμπαθητικό"],
+      "translation": "приятные люди"
+    },
+    {
+      "id": "nouns-adjectives-good-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο καλός",
+      "wrongAnswers": ["η καλή", "το καλό", "οι καλοί"],
+      "translation": "хороший мужчина"
+    },
+    {
+      "id": "nouns-adjectives-good-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καλοί",
+      "wrongAnswers": ["οι καλές", "τα καλά", "ο καλός"],
+      "translation": "хорошие мужчины"
+    },
+    {
+      "id": "nouns-adjectives-good-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η καλή",
+      "wrongAnswers": ["ο καλός", "το καλό", "οι καλές"],
+      "translation": "хорошая женщина"
+    },
+    {
+      "id": "nouns-adjectives-good-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καλές",
+      "wrongAnswers": ["οι καλοί", "τα καλά", "η καλή"],
+      "translation": "хорошие женщины"
+    },
+    {
+      "id": "nouns-adjectives-good-person-singular",
+      "type": "single-choice",
+      "prompt": "άτομο",
+      "promptLanguage": "el",
+      "correctAnswer": "το καλό",
+      "wrongAnswers": ["ο καλός", "η καλή", "τα καλά"],
+      "translation": "хороший человек"
+    },
+    {
+      "id": "nouns-adjectives-good-person-plural",
+      "type": "single-choice",
+      "prompt": "άτομα",
+      "promptLanguage": "el",
+      "correctAnswer": "τα καλά",
+      "wrongAnswers": ["οι καλοί", "οι καλές", "το καλό"],
+      "translation": "хорошие люди"
+    },
+    {
+      "id": "nouns-adjectives-beloved-man-singular",
+      "type": "single-choice",
+      "prompt": "άντρας",
+      "promptLanguage": "el",
+      "correctAnswer": "ο αγαπημένος",
+      "wrongAnswers": ["η αγαπημένη", "το αγαπημένο", "οι αγαπημένοι"],
+      "translation": "любимый мужчина"
+    },
+    {
+      "id": "nouns-adjectives-beloved-man-plural",
+      "type": "single-choice",
+      "prompt": "άντρες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι αγαπημένοι",
+      "wrongAnswers": ["οι αγαπημένες", "τα αγαπημένα", "ο αγαπημένος"],
+      "translation": "любимые мужчины"
+    },
+    {
+      "id": "nouns-adjectives-beloved-woman-singular",
+      "type": "single-choice",
+      "prompt": "γυναίκα",
+      "promptLanguage": "el",
+      "correctAnswer": "η αγαπημένη",
+      "wrongAnswers": ["ο αγαπημένος", "το αγαπημένο", "οι αγαπημένες"],
+      "translation": "любимая женщина"
+    },
+    {
+      "id": "nouns-adjectives-beloved-woman-plural",
+      "type": "single-choice",
+      "prompt": "γυναίκες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι αγαπημένες",
+      "wrongAnswers": ["οι αγαπημένοι", "τα αγαπημένα", "η αγαπημένη"],
+      "translation": "любимые женщины"
+    }
+  ]
+}

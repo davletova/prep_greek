@@ -7,6 +7,7 @@ interface SingleChoicePracticeTopicsScreenProps {
   onClose: VoidHandler;
   onRetry: VoidHandler;
   onOpenTopic: (topicId: string) => void;
+  title?: string | undefined;
 }
 
 export default function SingleChoicePracticeTopicsScreen({
@@ -14,10 +15,11 @@ export default function SingleChoicePracticeTopicsScreen({
   onClose,
   onRetry,
   onOpenTopic,
+  title = "Выбор темы",
 }: SingleChoicePracticeTopicsScreenProps) {
   return (
     <TopicListScreen
-      title="Выбор темы"
+      title={title}
       topics={topicsState.data ?? []}
       status={topicsState.status}
       error={topicsState.error}

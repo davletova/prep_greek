@@ -1,0 +1,367 @@
+{
+  "title": "Семья и отношения — 1",
+  "subtitle": "Согласуйте прилагательное с существительным",
+  "settings": { "showTranslationHint": true },
+  "items": [
+    {
+      "id": "nouns-adjectives-good-friend-singular",
+      "type": "single-choice",
+      "prompt": "φίλος",
+      "promptLanguage": "el",
+      "correctAnswer": "ο καλός",
+      "wrongAnswers": ["η καλή", "το καλό", "οι καλοί"],
+      "translation": "хороший друг"
+    },
+    {
+      "id": "nouns-adjectives-good-friend-plural",
+      "type": "single-choice",
+      "prompt": "φίλοι",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καλοί",
+      "wrongAnswers": ["οι καλές", "τα καλά", "ο καλός"],
+      "translation": "хорошие друзья"
+    },
+    {
+      "id": "nouns-adjectives-good-family-singular",
+      "type": "single-choice",
+      "prompt": "οικογένεια",
+      "promptLanguage": "el",
+      "correctAnswer": "η καλή",
+      "wrongAnswers": ["ο καλός", "το καλό", "οι καλές"],
+      "translation": "хорошая семья"
+    },
+    {
+      "id": "nouns-adjectives-good-family-plural",
+      "type": "single-choice",
+      "prompt": "οικογένειες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καλές",
+      "wrongAnswers": ["οι καλοί", "τα καλά", "η καλή"],
+      "translation": "хорошие семьи"
+    },
+    {
+      "id": "nouns-adjectives-good-child-singular",
+      "type": "single-choice",
+      "prompt": "παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "το καλό",
+      "wrongAnswers": ["ο καλός", "η καλή", "τα καλά"],
+      "translation": "хороший ребёнок"
+    },
+    {
+      "id": "nouns-adjectives-good-child-plural",
+      "type": "single-choice",
+      "prompt": "παιδιά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα καλά",
+      "wrongAnswers": ["οι καλοί", "οι καλές", "το καλό"],
+      "translation": "хорошие дети"
+    },
+    {
+      "id": "nouns-adjectives-this-friend-singular",
+      "type": "single-choice",
+      "prompt": "φίλος",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτός ο",
+      "wrongAnswers": ["αυτή η", "αυτό το", "αυτοί οι"],
+      "translation": "этот друг"
+    },
+    {
+      "id": "nouns-adjectives-this-friend-plural",
+      "type": "single-choice",
+      "prompt": "φίλοι",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτοί οι",
+      "wrongAnswers": ["αυτές οι", "αυτά τα", "αυτός ο"],
+      "translation": "эти друзья"
+    },
+    {
+      "id": "nouns-adjectives-this-family-singular",
+      "type": "single-choice",
+      "prompt": "οικογένεια",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτή η",
+      "wrongAnswers": ["αυτός ο", "αυτό το", "αυτές οι"],
+      "translation": "эта семья"
+    },
+    {
+      "id": "nouns-adjectives-this-family-plural",
+      "type": "single-choice",
+      "prompt": "οικογένειες",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτές οι",
+      "wrongAnswers": ["αυτοί οι", "αυτά τα", "αυτή η"],
+      "translation": "эти семьи"
+    },
+    {
+      "id": "nouns-adjectives-this-child-singular",
+      "type": "single-choice",
+      "prompt": "παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτό το",
+      "wrongAnswers": ["αυτός ο", "αυτή η", "αυτά τα"],
+      "translation": "этот ребёнок"
+    },
+    {
+      "id": "nouns-adjectives-this-child-plural",
+      "type": "single-choice",
+      "prompt": "παιδιά",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτά τα",
+      "wrongAnswers": ["αυτοί οι", "αυτές οι", "αυτό το"],
+      "translation": "эти дети"
+    },
+    {
+      "id": "nouns-adjectives-some-friend-singular",
+      "type": "single-choice",
+      "prompt": "φίλος",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιος",
+      "wrongAnswers": ["κάποια", "κάποιο", "κάποιοι"],
+      "translation": "какой-то друг"
+    },
+    {
+      "id": "nouns-adjectives-some-friend-plural",
+      "type": "single-choice",
+      "prompt": "φίλοι",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιοι",
+      "wrongAnswers": ["κάποιες", "κάποια", "κάποιος"],
+      "translation": "какие-то друзья"
+    },
+    {
+      "id": "nouns-adjectives-some-family-singular",
+      "type": "single-choice",
+      "prompt": "οικογένεια",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποια",
+      "wrongAnswers": ["κάποιος", "κάποιο", "κάποιες"],
+      "translation": "какая-то семья"
+    },
+    {
+      "id": "nouns-adjectives-some-family-plural",
+      "type": "single-choice",
+      "prompt": "οικογένειες",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιες",
+      "wrongAnswers": ["κάποιοι", "κάποια", "κάποιος"],
+      "translation": "какие-то семьи"
+    },
+    {
+      "id": "nouns-adjectives-some-child-singular",
+      "type": "single-choice",
+      "prompt": "παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιο",
+      "wrongAnswers": ["κάποιος", "κάποια", "κάποιοι"],
+      "translation": "какой-то ребёнок"
+    },
+    {
+      "id": "nouns-adjectives-some-child-plural",
+      "type": "single-choice",
+      "prompt": "παιδιά",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποια",
+      "wrongAnswers": ["κάποιοι", "κάποιες", "κάποιο"],
+      "translation": "какие-то дети"
+    },
+    {
+      "id": "nouns-adjectives-beloved-friend-singular",
+      "type": "single-choice",
+      "prompt": "φίλος",
+      "promptLanguage": "el",
+      "correctAnswer": "ο αγαπημένος",
+      "wrongAnswers": ["η αγαπημένη", "το αγαπημένο", "οι αγαπημένοι"],
+      "translation": "любимый друг"
+    },
+    {
+      "id": "nouns-adjectives-beloved-friend-plural",
+      "type": "single-choice",
+      "prompt": "φίλοι",
+      "promptLanguage": "el",
+      "correctAnswer": "οι αγαπημένοι",
+      "wrongAnswers": ["οι αγαπημένες", "τα αγαπημένα", "ο αγαπημένος"],
+      "translation": "любимые друзья"
+    },
+    {
+      "id": "nouns-adjectives-beloved-sister-singular",
+      "type": "single-choice",
+      "prompt": "αδελφή",
+      "promptLanguage": "el",
+      "correctAnswer": "η αγαπημένη",
+      "wrongAnswers": ["ο αγαπημένος", "το αγαπημένο", "οι αγαπημένες"],
+      "translation": "любимая сестра"
+    },
+    {
+      "id": "nouns-adjectives-beloved-sister-plural",
+      "type": "single-choice",
+      "prompt": "αδελφές",
+      "promptLanguage": "el",
+      "correctAnswer": "οι αγαπημένες",
+      "wrongAnswers": ["οι αγαπημένοι", "τα αγαπημένα", "η αγαπημένη"],
+      "translation": "любимые сёстры"
+    },
+    {
+      "id": "nouns-adjectives-beloved-child-singular",
+      "type": "single-choice",
+      "prompt": "παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "το αγαπημένο",
+      "wrongAnswers": ["ο αγαπημένος", "η αγαπημένη", "τα αγαπημένα"],
+      "translation": "любимый ребёнок"
+    },
+    {
+      "id": "nouns-adjectives-beloved-child-plural",
+      "type": "single-choice",
+      "prompt": "παιδιά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα αγαπημένα",
+      "wrongAnswers": ["οι αγαπημένοι", "οι αγαπημένες", "το αγαπημένο"],
+      "translation": "любимые дети"
+    },
+    {
+      "id": "nouns-adjectives-big-brother-singular",
+      "type": "single-choice",
+      "prompt": "αδελφός",
+      "promptLanguage": "el",
+      "correctAnswer": "ο μεγάλος",
+      "wrongAnswers": ["η μεγάλη", "το μεγάλο", "οι μεγάλοι"],
+      "translation": "старший брат"
+    },
+    {
+      "id": "nouns-adjectives-big-brother-plural",
+      "type": "single-choice",
+      "prompt": "αδελφοί",
+      "promptLanguage": "el",
+      "correctAnswer": "οι μεγάλοι",
+      "wrongAnswers": ["οι μεγάλες", "τα μεγάλα", "ο μεγάλος"],
+      "translation": "старшие братья"
+    },
+    {
+      "id": "nouns-adjectives-big-sister-singular",
+      "type": "single-choice",
+      "prompt": "αδελφή",
+      "promptLanguage": "el",
+      "correctAnswer": "η μεγάλη",
+      "wrongAnswers": ["ο μεγάλος", "το μεγάλο", "οι μεγάλες"],
+      "translation": "старшая сестра"
+    },
+    {
+      "id": "nouns-adjectives-big-sister-plural",
+      "type": "single-choice",
+      "prompt": "αδελφές",
+      "promptLanguage": "el",
+      "correctAnswer": "οι μεγάλες",
+      "wrongAnswers": ["οι μεγάλοι", "τα μεγάλα", "η μεγάλη"],
+      "translation": "старшие сёстры"
+    },
+    {
+      "id": "nouns-adjectives-big-child-singular",
+      "type": "single-choice",
+      "prompt": "παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "το μεγάλο",
+      "wrongAnswers": ["ο μεγάλος", "η μεγάλη", "τα μεγάλα"],
+      "translation": "большой ребёнок"
+    },
+    {
+      "id": "nouns-adjectives-big-child-plural",
+      "type": "single-choice",
+      "prompt": "παιδιά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα μεγάλα",
+      "wrongAnswers": ["οι μεγάλοι", "οι μεγάλες", "το μεγάλο"],
+      "translation": "большие дети"
+    },
+    {
+      "id": "nouns-adjectives-small-brother-singular",
+      "type": "single-choice",
+      "prompt": "αδελφός",
+      "promptLanguage": "el",
+      "correctAnswer": "ο μικρός",
+      "wrongAnswers": ["η μικρή", "το μικρό", "οι μικροί"],
+      "translation": "младший брат"
+    },
+    {
+      "id": "nouns-adjectives-small-brother-plural",
+      "type": "single-choice",
+      "prompt": "αδελφοί",
+      "promptLanguage": "el",
+      "correctAnswer": "οι μικροί",
+      "wrongAnswers": ["οι μικρές", "τα μικρά", "ο μικρός"],
+      "translation": "младшие братья"
+    },
+    {
+      "id": "nouns-adjectives-small-sister-singular",
+      "type": "single-choice",
+      "prompt": "αδελφή",
+      "promptLanguage": "el",
+      "correctAnswer": "η μικρή",
+      "wrongAnswers": ["ο μικρός", "το μικρό", "οι μικρές"],
+      "translation": "младшая сестра"
+    },
+    {
+      "id": "nouns-adjectives-small-sister-plural",
+      "type": "single-choice",
+      "prompt": "αδελφές",
+      "promptLanguage": "el",
+      "correctAnswer": "οι μικρές",
+      "wrongAnswers": ["οι μικροί", "τα μικρά", "η μικρή"],
+      "translation": "младшие сёстры"
+    },
+    {
+      "id": "nouns-adjectives-small-child-singular",
+      "type": "single-choice",
+      "prompt": "παιδί",
+      "promptLanguage": "el",
+      "correctAnswer": "το μικρό",
+      "wrongAnswers": ["ο μικρός", "η μικρή", "τα μικρά"],
+      "translation": "маленький ребёнок"
+    },
+    {
+      "id": "nouns-adjectives-small-child-plural",
+      "type": "single-choice",
+      "prompt": "παιδιά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα μικρά",
+      "wrongAnswers": ["οι μικροί", "οι μικρές", "το μικρό"],
+      "translation": "маленькие дети"
+    },
+    {
+      "id": "nouns-adjectives-this-brother-singular",
+      "type": "single-choice",
+      "prompt": "αδελφός",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτός ο",
+      "wrongAnswers": ["αυτή η", "αυτό το", "αυτοί οι"],
+      "translation": "этот брат"
+    },
+    {
+      "id": "nouns-adjectives-this-brother-plural",
+      "type": "single-choice",
+      "prompt": "αδελφοί",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτοί οι",
+      "wrongAnswers": ["αυτές οι", "αυτά τα", "αυτός ο"],
+      "translation": "эти братья"
+    },
+    {
+      "id": "nouns-adjectives-this-sister-singular",
+      "type": "single-choice",
+      "prompt": "αδελφή",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτή η",
+      "wrongAnswers": ["αυτός ο", "αυτό το", "αυτές οι"],
+      "translation": "эта сестра"
+    },
+    {
+      "id": "nouns-adjectives-this-sister-plural",
+      "type": "single-choice",
+      "prompt": "αδελφές",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτές οι",
+      "wrongAnswers": ["αυτοί οι", "αυτά τα", "αυτή η"],
+      "translation": "эти сёстры"
+    }
+  ]
+}

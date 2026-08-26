@@ -29,19 +29,32 @@ describe("content files", () => {
     ).toBe(true);
   });
 
-  it("validates every single-choice topic referenced by index.json", async () => {
+  it("validates every single-choice topic referenced by nested indexes", async () => {
     const singleChoiceRoot = resolve(contentRoot, "practice/single_choice");
-    const indexContent = await readJson(resolve(singleChoiceRoot, "index.json"));
-    expect(Array.isArray(indexContent)).toBe(true);
 
-    const topics = indexContent as Array<{ fileName: string }>;
-    expect(topics.length).toBeGreaterThan(0);
+    async function validateIndex(indexPath: string): Promise<number> {
+      const indexContent = await readJson(indexPath);
+      expect(Array.isArray(indexContent)).toBe(true);
 
-    for (const topic of topics) {
-      expect(topic.fileName.endsWith(".json")).toBe(true);
-      const topicContent = await readJson(resolve(singleChoiceRoot, topic.fileName));
-      expect(exerciseCollectionSchema.safeParse(topicContent).success).toBe(true);
+      const entries = indexContent as Array<{ fileName?: string; indexFileName?: string }>;
+      let topicCount = 0;
+
+      for (const entry of entries) {
+        if (entry.indexFileName) {
+          topicCount += await validateIndex(resolve(dirname(indexPath), entry.indexFileName));
+          continue;
+        }
+
+        expect(entry.fileName?.endsWith(".json")).toBe(true);
+        const topicContent = await readJson(resolve(dirname(indexPath), entry.fileName ?? ""));
+        expect(exerciseCollectionSchema.safeParse(topicContent).success).toBe(true);
+        topicCount += 1;
+      }
+
+      return topicCount;
     }
+
+    expect(await validateIndex(resolve(singleChoiceRoot, "index.json"))).toBeGreaterThan(0);
   });
 
   it("validates input practice content files", async () => {

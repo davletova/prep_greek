@@ -1,0 +1,367 @@
+{
+  "title": "Дом и быт — 1",
+  "subtitle": "Согласуйте прилагательное с существительным",
+  "settings": { "showTranslationHint": true },
+  "items": [
+    {
+      "id": "nouns-adjectives-new-sofa-singular",
+      "type": "single-choice",
+      "prompt": "καναπές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο καινούριος",
+      "wrongAnswers": ["η καινούρια", "το καινούριο", "οι καινούριοι"],
+      "translation": "новый диван"
+    },
+    {
+      "id": "nouns-adjectives-new-sofa-plural",
+      "type": "single-choice",
+      "prompt": "καναπέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καινούριοι",
+      "wrongAnswers": ["οι καινούριες", "τα καινούρια", "ο καινούριος"],
+      "translation": "новые диваны"
+    },
+    {
+      "id": "nouns-adjectives-new-chair-singular",
+      "type": "single-choice",
+      "prompt": "καρέκλα",
+      "promptLanguage": "el",
+      "correctAnswer": "η καινούρια",
+      "wrongAnswers": ["ο καινούριος", "το καινούριο", "οι καινούριες"],
+      "translation": "новый стул"
+    },
+    {
+      "id": "nouns-adjectives-new-chair-plural",
+      "type": "single-choice",
+      "prompt": "καρέκλες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καινούριες",
+      "wrongAnswers": ["οι καινούριοι", "τα καινούρια", "η καινούρια"],
+      "translation": "новые стулья"
+    },
+    {
+      "id": "nouns-adjectives-new-table-singular",
+      "type": "single-choice",
+      "prompt": "τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "το καινούριο",
+      "wrongAnswers": ["ο καινούριος", "η καινούρια", "τα καινούρια"],
+      "translation": "новый стол"
+    },
+    {
+      "id": "nouns-adjectives-new-table-plural",
+      "type": "single-choice",
+      "prompt": "τραπέζια",
+      "promptLanguage": "el",
+      "correctAnswer": "τα καινούρια",
+      "wrongAnswers": ["οι καινούριοι", "οι καινούριες", "το καινούριο"],
+      "translation": "новые столы"
+    },
+    {
+      "id": "nouns-adjectives-old-sofa-singular",
+      "type": "single-choice",
+      "prompt": "καναπές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο παλιός",
+      "wrongAnswers": ["η παλιά", "το παλιό", "οι παλιοί"],
+      "translation": "старый диван"
+    },
+    {
+      "id": "nouns-adjectives-old-sofa-plural",
+      "type": "single-choice",
+      "prompt": "καναπέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι παλιοί",
+      "wrongAnswers": ["οι παλιές", "τα παλιά", "ο παλιός"],
+      "translation": "старые диваны"
+    },
+    {
+      "id": "nouns-adjectives-old-chair-singular",
+      "type": "single-choice",
+      "prompt": "καρέκλα",
+      "promptLanguage": "el",
+      "correctAnswer": "η παλιά",
+      "wrongAnswers": ["ο παλιός", "το παλιό", "οι παλιές"],
+      "translation": "старый стул"
+    },
+    {
+      "id": "nouns-adjectives-old-chair-plural",
+      "type": "single-choice",
+      "prompt": "καρέκλες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι παλιές",
+      "wrongAnswers": ["οι παλιοί", "τα παλιά", "η παλιά"],
+      "translation": "старые стулья"
+    },
+    {
+      "id": "nouns-adjectives-old-table-singular",
+      "type": "single-choice",
+      "prompt": "τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "το παλιό",
+      "wrongAnswers": ["ο παλιός", "η παλιά", "τα παλιά"],
+      "translation": "старый стол"
+    },
+    {
+      "id": "nouns-adjectives-old-table-plural",
+      "type": "single-choice",
+      "prompt": "τραπέζια",
+      "promptLanguage": "el",
+      "correctAnswer": "τα παλιά",
+      "wrongAnswers": ["οι παλιοί", "οι παλιές", "το παλιό"],
+      "translation": "старые столы"
+    },
+    {
+      "id": "nouns-adjectives-wooden-sofa-singular",
+      "type": "single-choice",
+      "prompt": "καναπές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο ξύλινος",
+      "wrongAnswers": ["η ξύλινη", "το ξύλινο", "οι ξύλινοι"],
+      "translation": "деревянный диван"
+    },
+    {
+      "id": "nouns-adjectives-wooden-sofa-plural",
+      "type": "single-choice",
+      "prompt": "καναπέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ξύλινοι",
+      "wrongAnswers": ["οι ξύλινες", "τα ξύλινα", "ο ξύλινος"],
+      "translation": "деревянные диваны"
+    },
+    {
+      "id": "nouns-adjectives-wooden-chair-singular",
+      "type": "single-choice",
+      "prompt": "καρέκλα",
+      "promptLanguage": "el",
+      "correctAnswer": "η ξύλινη",
+      "wrongAnswers": ["ο ξύλινος", "το ξύλινο", "οι ξύλινες"],
+      "translation": "деревянный стул"
+    },
+    {
+      "id": "nouns-adjectives-wooden-chair-plural",
+      "type": "single-choice",
+      "prompt": "καρέκλες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ξύλινες",
+      "wrongAnswers": ["οι ξύλινοι", "τα ξύλινα", "η ξύλινη"],
+      "translation": "деревянные стулья"
+    },
+    {
+      "id": "nouns-adjectives-wooden-table-singular",
+      "type": "single-choice",
+      "prompt": "τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "το ξύλινο",
+      "wrongAnswers": ["ο ξύλινος", "η ξύλινη", "τα ξύλινα"],
+      "translation": "деревянный стол"
+    },
+    {
+      "id": "nouns-adjectives-wooden-table-plural",
+      "type": "single-choice",
+      "prompt": "τραπέζια",
+      "promptLanguage": "el",
+      "correctAnswer": "τα ξύλινα",
+      "wrongAnswers": ["οι ξύλινοι", "οι ξύλινες", "το ξύλινο"],
+      "translation": "деревянные столы"
+    },
+    {
+      "id": "nouns-adjectives-clean-sofa-singular",
+      "type": "single-choice",
+      "prompt": "καναπές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο καθαρός",
+      "wrongAnswers": ["η καθαρή", "το καθαρό", "οι καθαροί"],
+      "translation": "чистый диван"
+    },
+    {
+      "id": "nouns-adjectives-clean-sofa-plural",
+      "type": "single-choice",
+      "prompt": "καναπέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καθαροί",
+      "wrongAnswers": ["οι καθαρές", "τα καθαρά", "ο καθαρός"],
+      "translation": "чистые диваны"
+    },
+    {
+      "id": "nouns-adjectives-clean-chair-singular",
+      "type": "single-choice",
+      "prompt": "καρέκλα",
+      "promptLanguage": "el",
+      "correctAnswer": "η καθαρή",
+      "wrongAnswers": ["ο καθαρός", "το καθαρό", "οι καθαρές"],
+      "translation": "чистый стул"
+    },
+    {
+      "id": "nouns-adjectives-clean-chair-plural",
+      "type": "single-choice",
+      "prompt": "καρέκλες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι καθαρές",
+      "wrongAnswers": ["οι καθαροί", "τα καθαρά", "η καθαρή"],
+      "translation": "чистые стулья"
+    },
+    {
+      "id": "nouns-adjectives-clean-table-singular",
+      "type": "single-choice",
+      "prompt": "τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "το καθαρό",
+      "wrongAnswers": ["ο καθαρός", "η καθαρή", "τα καθαρά"],
+      "translation": "чистый стол"
+    },
+    {
+      "id": "nouns-adjectives-clean-table-plural",
+      "type": "single-choice",
+      "prompt": "τραπέζια",
+      "promptLanguage": "el",
+      "correctAnswer": "τα καθαρά",
+      "wrongAnswers": ["οι καθαροί", "οι καθαρές", "το καθαρό"],
+      "translation": "чистые столы"
+    },
+    {
+      "id": "nouns-adjectives-big-sofa-singular",
+      "type": "single-choice",
+      "prompt": "καναπές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο μεγάλος",
+      "wrongAnswers": ["η μεγάλη", "το μεγάλο", "οι μεγάλοι"],
+      "translation": "большой диван"
+    },
+    {
+      "id": "nouns-adjectives-big-sofa-plural",
+      "type": "single-choice",
+      "prompt": "καναπέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι μεγάλοι",
+      "wrongAnswers": ["οι μεγάλες", "τα μεγάλα", "ο μεγάλος"],
+      "translation": "большие диваны"
+    },
+    {
+      "id": "nouns-adjectives-big-chair-singular",
+      "type": "single-choice",
+      "prompt": "καρέκλα",
+      "promptLanguage": "el",
+      "correctAnswer": "η μεγάλη",
+      "wrongAnswers": ["ο μεγάλος", "το μεγάλο", "οι μεγάλες"],
+      "translation": "большой стул"
+    },
+    {
+      "id": "nouns-adjectives-big-chair-plural",
+      "type": "single-choice",
+      "prompt": "καρέκλες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι μεγάλες",
+      "wrongAnswers": ["οι μεγάλοι", "τα μεγάλα", "η μεγάλη"],
+      "translation": "большие стулья"
+    },
+    {
+      "id": "nouns-adjectives-big-table-singular",
+      "type": "single-choice",
+      "prompt": "τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "το μεγάλο",
+      "wrongAnswers": ["ο μεγάλος", "η μεγάλη", "τα μεγάλα"],
+      "translation": "большой стол"
+    },
+    {
+      "id": "nouns-adjectives-big-table-plural",
+      "type": "single-choice",
+      "prompt": "τραπέζια",
+      "promptLanguage": "el",
+      "correctAnswer": "τα μεγάλα",
+      "wrongAnswers": ["οι μεγάλοι", "οι μεγάλες", "το μεγάλο"],
+      "translation": "большие столы"
+    },
+    {
+      "id": "nouns-adjectives-this-sofa-singular",
+      "type": "single-choice",
+      "prompt": "καναπές",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτός ο",
+      "wrongAnswers": ["αυτή η", "αυτό το", "αυτοί οι"],
+      "translation": "этот диван"
+    },
+    {
+      "id": "nouns-adjectives-this-sofa-plural",
+      "type": "single-choice",
+      "prompt": "καναπέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτοί οι",
+      "wrongAnswers": ["αυτές οι", "αυτά τα", "αυτός ο"],
+      "translation": "эти диваны"
+    },
+    {
+      "id": "nouns-adjectives-this-chair-singular",
+      "type": "single-choice",
+      "prompt": "καρέκλα",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτή η",
+      "wrongAnswers": ["αυτός ο", "αυτό το", "αυτές οι"],
+      "translation": "этот стул"
+    },
+    {
+      "id": "nouns-adjectives-this-chair-plural",
+      "type": "single-choice",
+      "prompt": "καρέκλες",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτές οι",
+      "wrongAnswers": ["αυτοί οι", "αυτά τα", "αυτή η"],
+      "translation": "эти стулья"
+    },
+    {
+      "id": "nouns-adjectives-this-table-singular",
+      "type": "single-choice",
+      "prompt": "τραπέζι",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτό το",
+      "wrongAnswers": ["αυτός ο", "αυτή η", "αυτά τα"],
+      "translation": "этот стол"
+    },
+    {
+      "id": "nouns-adjectives-this-table-plural",
+      "type": "single-choice",
+      "prompt": "τραπέζια",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτά τα",
+      "wrongAnswers": ["αυτοί οι", "αυτές οι", "αυτό το"],
+      "translation": "эти столы"
+    },
+    {
+      "id": "nouns-adjectives-some-sofa-singular",
+      "type": "single-choice",
+      "prompt": "καναπές",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιος",
+      "wrongAnswers": ["κάποια", "κάποιο", "κάποιοι"],
+      "translation": "какой-то диван"
+    },
+    {
+      "id": "nouns-adjectives-some-sofa-plural",
+      "type": "single-choice",
+      "prompt": "καναπέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιοι",
+      "wrongAnswers": ["κάποιες", "κάποια", "κάποιος"],
+      "translation": "какие-то диваны"
+    },
+    {
+      "id": "nouns-adjectives-some-chair-singular",
+      "type": "single-choice",
+      "prompt": "καρέκλα",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποια",
+      "wrongAnswers": ["κάποιος", "κάποιο", "κάποιες"],
+      "translation": "какой-то стул"
+    },
+    {
+      "id": "nouns-adjectives-some-chair-plural",
+      "type": "single-choice",
+      "prompt": "καρέκλες",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιες",
+      "wrongAnswers": ["κάποιοι", "κάποια", "κάποιος"],
+      "translation": "какие-то стулья"
+    }
+  ]
+}

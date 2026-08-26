@@ -1,0 +1,117 @@
+[
+  {
+    "id": "people-appearance",
+    "title": "Люди и внешность",
+    "order": 1
+  },
+  {
+    "id": "character-emotions",
+    "title": "Характер и эмоции",
+    "order": 2
+  },
+  {
+    "id": "family-relationships",
+    "title": "Семья и отношения",
+    "order": 3
+  },
+  {
+    "id": "body-health",
+    "title": "Тело и здоровье",
+    "order": 4
+  },
+  {
+    "id": "home-everyday-life",
+    "title": "Дом и быт",
+    "order": 5
+  },
+  {
+    "id": "food-cooking",
+    "title": "Еда и приготовление пищи",
+    "order": 6
+  },
+  {
+    "id": "clothes-shopping",
+    "title": "Одежда и покупки",
+    "order": 7
+  },
+  {
+    "id": "education-languages",
+    "title": "Учёба и языки",
+    "order": 8
+  },
+  {
+    "id": "work-professions",
+    "title": "Работа и профессии",
+    "order": 9
+  },
+  {
+    "id": "city-places-services",
+    "title": "Город, места и учреждения",
+    "order": 10
+  },
+  {
+    "id": "transport-travel",
+    "title": "Транспорт и путешествия",
+    "order": 11
+  },
+  {
+    "id": "nature-weather-environment",
+    "title": "Природа, погода и окружающая среда",
+    "order": 12
+  },
+  {
+    "id": "animals-plants",
+    "title": "Животные и растения",
+    "order": 13
+  },
+  {
+    "id": "time-calendar-holidays",
+    "title": "Время, календарь и праздники",
+    "order": 14
+  },
+  {
+    "id": "leisure-sports-hobbies",
+    "title": "Отдых, спорт и увлечения",
+    "order": 15
+  },
+  {
+    "id": "culture-entertainment",
+    "title": "Культура и развлечения",
+    "order": 16
+  },
+  {
+    "id": "technology-communication",
+    "title": "Технологии и связь",
+    "order": 17
+  },
+  {
+    "id": "countries-languages-nationalities",
+    "title": "Страны, языки и национальности",
+    "order": 18
+  },
+  {
+    "id": "money-documents-services",
+    "title": "Деньги, документы и услуги",
+    "order": 19
+  },
+  {
+    "id": "objects-materials-colors-shapes",
+    "title": "Предметы, материалы, цвета и формы",
+    "order": 20
+  },
+  {
+    "id": "events-social-life",
+    "title": "События и общественная жизнь",
+    "order": 21
+  },
+  {
+    "id": "abstract-concepts",
+    "title": "Абстрактные понятия",
+    "order": 22
+  },
+  {
+    "id": "quantity-order-determiners",
+    "title": "Количество, порядок и указательные слова",
+    "order": 23
+  }
+]

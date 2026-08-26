@@ -1,0 +1,367 @@
+{
+  "title": "Еда и приготовление пищи — 1",
+  "subtitle": "Согласуйте прилагательное с существительным",
+  "settings": { "showTranslationHint": true },
+  "items": [
+    {
+      "id": "nouns-adjectives-hot-coffee-singular",
+      "type": "single-choice",
+      "prompt": "καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο ζεστός",
+      "wrongAnswers": ["η ζεστή", "το ζεστό", "οι ζεστοί"],
+      "translation": "горячий кофе"
+    },
+    {
+      "id": "nouns-adjectives-hot-coffee-plural",
+      "type": "single-choice",
+      "prompt": "καφέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ζεστοί",
+      "wrongAnswers": ["οι ζεστές", "τα ζεστά", "ο ζεστός"],
+      "translation": "горячие порции кофе"
+    },
+    {
+      "id": "nouns-adjectives-hot-salad-singular",
+      "type": "single-choice",
+      "prompt": "σαλάτα",
+      "promptLanguage": "el",
+      "correctAnswer": "η ζεστή",
+      "wrongAnswers": ["ο ζεστός", "το ζεστό", "οι ζεστές"],
+      "translation": "тёплый салат"
+    },
+    {
+      "id": "nouns-adjectives-hot-salad-plural",
+      "type": "single-choice",
+      "prompt": "σαλάτες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι ζεστές",
+      "wrongAnswers": ["οι ζεστοί", "τα ζεστά", "η ζεστή"],
+      "translation": "тёплые салаты"
+    },
+    {
+      "id": "nouns-adjectives-hot-food-singular",
+      "type": "single-choice",
+      "prompt": "φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "το ζεστό",
+      "wrongAnswers": ["ο ζεστός", "η ζεστή", "τα ζεστά"],
+      "translation": "горячая еда"
+    },
+    {
+      "id": "nouns-adjectives-hot-food-plural",
+      "type": "single-choice",
+      "prompt": "φαγητά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα ζεστά",
+      "wrongAnswers": ["οι ζεστοί", "οι ζεστές", "το ζεστό"],
+      "translation": "горячие блюда"
+    },
+    {
+      "id": "nouns-adjectives-cold-coffee-singular",
+      "type": "single-choice",
+      "prompt": "καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο κρύος",
+      "wrongAnswers": ["η κρύα", "το κρύο", "οι κρύοι"],
+      "translation": "холодный кофе"
+    },
+    {
+      "id": "nouns-adjectives-cold-coffee-plural",
+      "type": "single-choice",
+      "prompt": "καφέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι κρύοι",
+      "wrongAnswers": ["οι κρύες", "τα κρύα", "ο κρύος"],
+      "translation": "холодные порции кофе"
+    },
+    {
+      "id": "nouns-adjectives-cold-salad-singular",
+      "type": "single-choice",
+      "prompt": "σαλάτα",
+      "promptLanguage": "el",
+      "correctAnswer": "η κρύα",
+      "wrongAnswers": ["ο κρύος", "το κρύο", "οι κρύες"],
+      "translation": "холодный салат"
+    },
+    {
+      "id": "nouns-adjectives-cold-salad-plural",
+      "type": "single-choice",
+      "prompt": "σαλάτες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι κρύες",
+      "wrongAnswers": ["οι κρύοι", "τα κρύα", "η κρύα"],
+      "translation": "холодные салаты"
+    },
+    {
+      "id": "nouns-adjectives-cold-food-singular",
+      "type": "single-choice",
+      "prompt": "φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "το κρύο",
+      "wrongAnswers": ["ο κρύος", "η κρύα", "τα κρύα"],
+      "translation": "холодная еда"
+    },
+    {
+      "id": "nouns-adjectives-cold-food-plural",
+      "type": "single-choice",
+      "prompt": "φαγητά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα κρύα",
+      "wrongAnswers": ["οι κρύοι", "οι κρύες", "το κρύο"],
+      "translation": "холодные блюда"
+    },
+    {
+      "id": "nouns-adjectives-tasty-coffee-singular",
+      "type": "single-choice",
+      "prompt": "καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο νόστιμος",
+      "wrongAnswers": ["η νόστιμη", "το νόστιμο", "οι νόστιμοι"],
+      "translation": "вкусный кофе"
+    },
+    {
+      "id": "nouns-adjectives-tasty-coffee-plural",
+      "type": "single-choice",
+      "prompt": "καφέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι νόστιμοι",
+      "wrongAnswers": ["οι νόστιμες", "τα νόστιμα", "ο νόστιμος"],
+      "translation": "вкусные порции кофе"
+    },
+    {
+      "id": "nouns-adjectives-tasty-salad-singular",
+      "type": "single-choice",
+      "prompt": "σαλάτα",
+      "promptLanguage": "el",
+      "correctAnswer": "η νόστιμη",
+      "wrongAnswers": ["ο νόστιμος", "το νόστιμο", "οι νόστιμες"],
+      "translation": "вкусный салат"
+    },
+    {
+      "id": "nouns-adjectives-tasty-salad-plural",
+      "type": "single-choice",
+      "prompt": "σαλάτες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι νόστιμες",
+      "wrongAnswers": ["οι νόστιμοι", "τα νόστιμα", "η νόστιμη"],
+      "translation": "вкусные салаты"
+    },
+    {
+      "id": "nouns-adjectives-tasty-food-singular",
+      "type": "single-choice",
+      "prompt": "φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "το νόστιμο",
+      "wrongAnswers": ["ο νόστιμος", "η νόστιμη", "τα νόστιμα"],
+      "translation": "вкусная еда"
+    },
+    {
+      "id": "nouns-adjectives-tasty-food-plural",
+      "type": "single-choice",
+      "prompt": "φαγητά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα νόστιμα",
+      "wrongAnswers": ["οι νόστιμοι", "οι νόστιμες", "το νόστιμο"],
+      "translation": "вкусные блюда"
+    },
+    {
+      "id": "nouns-adjectives-fresh-coffee-singular",
+      "type": "single-choice",
+      "prompt": "καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο φρέσκος",
+      "wrongAnswers": ["η φρέσκια", "το φρέσκο", "οι φρέσκοι"],
+      "translation": "свежий кофе"
+    },
+    {
+      "id": "nouns-adjectives-fresh-coffee-plural",
+      "type": "single-choice",
+      "prompt": "καφέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι φρέσκοι",
+      "wrongAnswers": ["οι φρέσκες", "τα φρέσκα", "ο φρέσκος"],
+      "translation": "свежие порции кофе"
+    },
+    {
+      "id": "nouns-adjectives-fresh-salad-singular",
+      "type": "single-choice",
+      "prompt": "σαλάτα",
+      "promptLanguage": "el",
+      "correctAnswer": "η φρέσκια",
+      "wrongAnswers": ["ο φρέσκος", "το φρέσκο", "οι φρέσκες"],
+      "translation": "свежий салат"
+    },
+    {
+      "id": "nouns-adjectives-fresh-salad-plural",
+      "type": "single-choice",
+      "prompt": "σαλάτες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι φρέσκες",
+      "wrongAnswers": ["οι φρέσκοι", "τα φρέσκα", "η φρέσκια"],
+      "translation": "свежие салаты"
+    },
+    {
+      "id": "nouns-adjectives-fresh-food-singular",
+      "type": "single-choice",
+      "prompt": "φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "το φρέσκο",
+      "wrongAnswers": ["ο φρέσκος", "η φρέσκια", "τα φρέσκα"],
+      "translation": "свежая еда"
+    },
+    {
+      "id": "nouns-adjectives-fresh-food-plural",
+      "type": "single-choice",
+      "prompt": "φαγητά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα φρέσκα",
+      "wrongAnswers": ["οι φρέσκοι", "οι φρέσκες", "το φρέσκο"],
+      "translation": "свежие блюда"
+    },
+    {
+      "id": "nouns-adjectives-traditional-coffee-singular",
+      "type": "single-choice",
+      "prompt": "καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "ο παραδοσιακός",
+      "wrongAnswers": ["η παραδοσιακή", "το παραδοσιακό", "οι παραδοσιακοί"],
+      "translation": "традиционный кофе"
+    },
+    {
+      "id": "nouns-adjectives-traditional-coffee-plural",
+      "type": "single-choice",
+      "prompt": "καφέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι παραδοσιακοί",
+      "wrongAnswers": ["οι παραδοσιακές", "τα παραδοσιακά", "ο παραδοσιακός"],
+      "translation": "традиционные виды кофе"
+    },
+    {
+      "id": "nouns-adjectives-traditional-salad-singular",
+      "type": "single-choice",
+      "prompt": "σαλάτα",
+      "promptLanguage": "el",
+      "correctAnswer": "η παραδοσιακή",
+      "wrongAnswers": ["ο παραδοσιακός", "το παραδοσιακό", "οι παραδοσιακές"],
+      "translation": "традиционный салат"
+    },
+    {
+      "id": "nouns-adjectives-traditional-salad-plural",
+      "type": "single-choice",
+      "prompt": "σαλάτες",
+      "promptLanguage": "el",
+      "correctAnswer": "οι παραδοσιακές",
+      "wrongAnswers": ["οι παραδοσιακοί", "τα παραδοσιακά", "η παραδοσιακή"],
+      "translation": "традиционные салаты"
+    },
+    {
+      "id": "nouns-adjectives-traditional-food-singular",
+      "type": "single-choice",
+      "prompt": "φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "το παραδοσιακό",
+      "wrongAnswers": ["ο παραδοσιακός", "η παραδοσιακή", "τα παραδοσιακά"],
+      "translation": "традиционная еда"
+    },
+    {
+      "id": "nouns-adjectives-traditional-food-plural",
+      "type": "single-choice",
+      "prompt": "φαγητά",
+      "promptLanguage": "el",
+      "correctAnswer": "τα παραδοσιακά",
+      "wrongAnswers": ["οι παραδοσιακοί", "οι παραδοσιακές", "το παραδοσιακό"],
+      "translation": "традиционные блюда"
+    },
+    {
+      "id": "nouns-adjectives-this-coffee-singular",
+      "type": "single-choice",
+      "prompt": "καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτός ο",
+      "wrongAnswers": ["αυτή η", "αυτό το", "αυτοί οι"],
+      "translation": "этот кофе"
+    },
+    {
+      "id": "nouns-adjectives-this-coffee-plural",
+      "type": "single-choice",
+      "prompt": "καφέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτοί οι",
+      "wrongAnswers": ["αυτές οι", "αυτά τα", "αυτός ο"],
+      "translation": "эти порции кофе"
+    },
+    {
+      "id": "nouns-adjectives-this-salad-singular",
+      "type": "single-choice",
+      "prompt": "σαλάτα",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτή η",
+      "wrongAnswers": ["αυτός ο", "αυτό το", "αυτές οι"],
+      "translation": "этот салат"
+    },
+    {
+      "id": "nouns-adjectives-this-salad-plural",
+      "type": "single-choice",
+      "prompt": "σαλάτες",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτές οι",
+      "wrongAnswers": ["αυτοί οι", "αυτά τα", "αυτή η"],
+      "translation": "эти салаты"
+    },
+    {
+      "id": "nouns-adjectives-this-food-singular",
+      "type": "single-choice",
+      "prompt": "φαγητό",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτό το",
+      "wrongAnswers": ["αυτός ο", "αυτή η", "αυτά τα"],
+      "translation": "эта еда"
+    },
+    {
+      "id": "nouns-adjectives-this-food-plural",
+      "type": "single-choice",
+      "prompt": "φαγητά",
+      "promptLanguage": "el",
+      "correctAnswer": "αυτά τα",
+      "wrongAnswers": ["αυτοί οι", "αυτές οι", "αυτό το"],
+      "translation": "эти блюда"
+    },
+    {
+      "id": "nouns-adjectives-some-coffee-singular",
+      "type": "single-choice",
+      "prompt": "καφές",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιος",
+      "wrongAnswers": ["κάποια", "κάποιο", "κάποιοι"],
+      "translation": "какой-то кофе"
+    },
+    {
+      "id": "nouns-adjectives-some-coffee-plural",
+      "type": "single-choice",
+      "prompt": "καφέδες",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιοι",
+      "wrongAnswers": ["κάποιες", "κάποια", "κάποιος"],
+      "translation": "какие-то виды кофе"
+    },
+    {
+      "id": "nouns-adjectives-some-salad-singular",
+      "type": "single-choice",
+      "prompt": "σαλάτα",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποια",
+      "wrongAnswers": ["κάποιος", "κάποιο", "κάποιες"],
+      "translation": "какой-то салат"
+    },
+    {
+      "id": "nouns-adjectives-some-salad-plural",
+      "type": "single-choice",
+      "prompt": "σαλάτες",
+      "promptLanguage": "el",
+      "correctAnswer": "κάποιες",
+      "wrongAnswers": ["κάποιοι", "κάποια", "κάποιος"],
+      "translation": "какие-то салаты"
+    }
+  ]
+}

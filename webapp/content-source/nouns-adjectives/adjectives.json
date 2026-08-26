@@ -1,0 +1,477 @@
+[
+  {
+    "id": "good",
+    "lemma": "καλός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "καλός",
+        "plural": "καλοί"
+      },
+      "feminine": {
+        "singular": "καλή",
+        "plural": "καλές"
+      },
+      "neuter": {
+        "singular": "καλό",
+        "plural": "καλά"
+      }
+    }
+  },
+  {
+    "id": "this",
+    "lemma": "αυτός",
+    "construction": "determiner-article",
+    "forms": {
+      "masculine": {
+        "singular": "αυτός",
+        "plural": "αυτοί"
+      },
+      "feminine": {
+        "singular": "αυτή",
+        "plural": "αυτές"
+      },
+      "neuter": {
+        "singular": "αυτό",
+        "plural": "αυτά"
+      }
+    }
+  },
+  {
+    "id": "some",
+    "lemma": "κάποιος",
+    "construction": "articleless-determiner",
+    "forms": {
+      "masculine": {
+        "singular": "κάποιος",
+        "plural": "κάποιοι"
+      },
+      "feminine": {
+        "singular": "κάποια",
+        "plural": "κάποιες"
+      },
+      "neuter": {
+        "singular": "κάποιο",
+        "plural": "κάποια"
+      }
+    }
+  },
+  {
+    "id": "beloved",
+    "lemma": "αγαπημένος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "αγαπημένος",
+        "plural": "αγαπημένοι"
+      },
+      "feminine": {
+        "singular": "αγαπημένη",
+        "plural": "αγαπημένες"
+      },
+      "neuter": {
+        "singular": "αγαπημένο",
+        "plural": "αγαπημένα"
+      }
+    }
+  },
+  {
+    "id": "big",
+    "lemma": "μεγάλος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "μεγάλος",
+        "plural": "μεγάλοι"
+      },
+      "feminine": {
+        "singular": "μεγάλη",
+        "plural": "μεγάλες"
+      },
+      "neuter": {
+        "singular": "μεγάλο",
+        "plural": "μεγάλα"
+      }
+    }
+  },
+  {
+    "id": "small",
+    "lemma": "μικρός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "μικρός",
+        "plural": "μικροί"
+      },
+      "feminine": {
+        "singular": "μικρή",
+        "plural": "μικρές"
+      },
+      "neuter": {
+        "singular": "μικρό",
+        "plural": "μικρά"
+      }
+    }
+  },
+  {
+    "id": "young",
+    "lemma": "νέος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "νέος",
+        "plural": "νέοι"
+      },
+      "feminine": {
+        "singular": "νέα",
+        "plural": "νέες"
+      },
+      "neuter": {
+        "singular": "νέο",
+        "plural": "νέα"
+      }
+    }
+  },
+  {
+    "id": "tall",
+    "lemma": "ψηλός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "ψηλός",
+        "plural": "ψηλοί"
+      },
+      "feminine": {
+        "singular": "ψηλή",
+        "plural": "ψηλές"
+      },
+      "neuter": {
+        "singular": "ψηλό",
+        "plural": "ψηλά"
+      }
+    }
+  },
+  {
+    "id": "blond",
+    "lemma": "ξανθός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "ξανθός",
+        "plural": "ξανθοί"
+      },
+      "feminine": {
+        "singular": "ξανθιά",
+        "plural": "ξανθιές"
+      },
+      "neuter": {
+        "singular": "ξανθό",
+        "plural": "ξανθά"
+      }
+    }
+  },
+  {
+    "id": "thin",
+    "lemma": "αδύνατος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "αδύνατος",
+        "plural": "αδύνατοι"
+      },
+      "feminine": {
+        "singular": "αδύνατη",
+        "plural": "αδύνατες"
+      },
+      "neuter": {
+        "singular": "αδύνατο",
+        "plural": "αδύνατα"
+      }
+    }
+  },
+  {
+    "id": "beautiful",
+    "lemma": "όμορφος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "όμορφος",
+        "plural": "όμορφοι"
+      },
+      "feminine": {
+        "singular": "όμορφη",
+        "plural": "όμορφες"
+      },
+      "neuter": {
+        "singular": "όμορφο",
+        "plural": "όμορφα"
+      }
+    }
+  },
+  {
+    "id": "polite",
+    "lemma": "ευγενικός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "ευγενικός",
+        "plural": "ευγενικοί"
+      },
+      "feminine": {
+        "singular": "ευγενική",
+        "plural": "ευγενικές"
+      },
+      "neuter": {
+        "singular": "ευγενικό",
+        "plural": "ευγενικά"
+      }
+    }
+  },
+  {
+    "id": "calm",
+    "lemma": "ήρεμος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "ήρεμος",
+        "plural": "ήρεμοι"
+      },
+      "feminine": {
+        "singular": "ήρεμη",
+        "plural": "ήρεμες"
+      },
+      "neuter": {
+        "singular": "ήρεμο",
+        "plural": "ήρεμα"
+      }
+    }
+  },
+  {
+    "id": "serious",
+    "lemma": "σοβαρός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "σοβαρός",
+        "plural": "σοβαροί"
+      },
+      "feminine": {
+        "singular": "σοβαρή",
+        "plural": "σοβαρές"
+      },
+      "neuter": {
+        "singular": "σοβαρό",
+        "plural": "σοβαρά"
+      }
+    }
+  },
+  {
+    "id": "friendly",
+    "lemma": "φιλικός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "φιλικός",
+        "plural": "φιλικοί"
+      },
+      "feminine": {
+        "singular": "φιλική",
+        "plural": "φιλικές"
+      },
+      "neuter": {
+        "singular": "φιλικό",
+        "plural": "φιλικά"
+      }
+    }
+  },
+  {
+    "id": "likable",
+    "lemma": "συμπαθητικός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "συμπαθητικός",
+        "plural": "συμπαθητικοί"
+      },
+      "feminine": {
+        "singular": "συμπαθητική",
+        "plural": "συμπαθητικές"
+      },
+      "neuter": {
+        "singular": "συμπαθητικό",
+        "plural": "συμπαθητικά"
+      }
+    }
+  },
+  {
+    "id": "new",
+    "lemma": "καινούριος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "καινούριος",
+        "plural": "καινούριοι"
+      },
+      "feminine": {
+        "singular": "καινούρια",
+        "plural": "καινούριες"
+      },
+      "neuter": {
+        "singular": "καινούριο",
+        "plural": "καινούρια"
+      }
+    }
+  },
+  {
+    "id": "old",
+    "lemma": "παλιός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "παλιός",
+        "plural": "παλιοί"
+      },
+      "feminine": {
+        "singular": "παλιά",
+        "plural": "παλιές"
+      },
+      "neuter": {
+        "singular": "παλιό",
+        "plural": "παλιά"
+      }
+    }
+  },
+  {
+    "id": "wooden",
+    "lemma": "ξύλινος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "ξύλινος",
+        "plural": "ξύλινοι"
+      },
+      "feminine": {
+        "singular": "ξύλινη",
+        "plural": "ξύλινες"
+      },
+      "neuter": {
+        "singular": "ξύλινο",
+        "plural": "ξύλινα"
+      }
+    }
+  },
+  {
+    "id": "clean",
+    "lemma": "καθαρός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "καθαρός",
+        "plural": "καθαροί"
+      },
+      "feminine": {
+        "singular": "καθαρή",
+        "plural": "καθαρές"
+      },
+      "neuter": {
+        "singular": "καθαρό",
+        "plural": "καθαρά"
+      }
+    }
+  },
+  {
+    "id": "hot",
+    "lemma": "ζεστός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "ζεστός",
+        "plural": "ζεστοί"
+      },
+      "feminine": {
+        "singular": "ζεστή",
+        "plural": "ζεστές"
+      },
+      "neuter": {
+        "singular": "ζεστό",
+        "plural": "ζεστά"
+      }
+    }
+  },
+  {
+    "id": "cold",
+    "lemma": "κρύος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "κρύος",
+        "plural": "κρύοι"
+      },
+      "feminine": {
+        "singular": "κρύα",
+        "plural": "κρύες"
+      },
+      "neuter": {
+        "singular": "κρύο",
+        "plural": "κρύα"
+      }
+    }
+  },
+  {
+    "id": "tasty",
+    "lemma": "νόστιμος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "νόστιμος",
+        "plural": "νόστιμοι"
+      },
+      "feminine": {
+        "singular": "νόστιμη",
+        "plural": "νόστιμες"
+      },
+      "neuter": {
+        "singular": "νόστιμο",
+        "plural": "νόστιμα"
+      }
+    }
+  },
+  {
+    "id": "fresh",
+    "lemma": "φρέσκος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "φρέσκος",
+        "plural": "φρέσκοι"
+      },
+      "feminine": {
+        "singular": "φρέσκια",
+        "plural": "φρέσκες"
+      },
+      "neuter": {
+        "singular": "φρέσκο",
+        "plural": "φρέσκα"
+      }
+    }
+  },
+  {
+    "id": "traditional",
+    "lemma": "παραδοσιακός",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "παραδοσιακός",
+        "plural": "παραδοσιακοί"
+      },
+      "feminine": {
+        "singular": "παραδοσιακή",
+        "plural": "παραδοσιακές"
+      },
+      "neuter": {
+        "singular": "παραδοσιακό",
+        "plural": "παραδοσιακά"
+      }
+    }
+  }
+]

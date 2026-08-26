@@ -1,0 +1,198 @@
+[
+  {
+    "id": "friend",
+    "lemma": "ο φίλος",
+    "gender": "masculine",
+    "themeId": "family-relationships",
+    "forms": {
+      "singular": "φίλος",
+      "plural": "φίλοι"
+    },
+    "translations": {
+      "singular": "друг",
+      "plural": "друзья"
+    }
+  },
+  {
+    "id": "family",
+    "lemma": "η οικογένεια",
+    "gender": "feminine",
+    "themeId": "family-relationships",
+    "forms": {
+      "singular": "οικογένεια",
+      "plural": "οικογένειες"
+    },
+    "translations": {
+      "singular": "семья",
+      "plural": "семьи"
+    }
+  },
+  {
+    "id": "child",
+    "lemma": "το παιδί",
+    "gender": "neuter",
+    "themeId": "family-relationships",
+    "forms": {
+      "singular": "παιδί",
+      "plural": "παιδιά"
+    },
+    "translations": {
+      "singular": "ребёнок",
+      "plural": "дети"
+    }
+  },
+  {
+    "id": "brother",
+    "lemma": "ο αδελφός",
+    "gender": "masculine",
+    "themeId": "family-relationships",
+    "forms": {
+      "singular": "αδελφός",
+      "plural": "αδελφοί"
+    },
+    "translations": {
+      "singular": "брат",
+      "plural": "братья"
+    }
+  },
+  {
+    "id": "sister",
+    "lemma": "η αδελφή",
+    "gender": "feminine",
+    "themeId": "family-relationships",
+    "forms": {
+      "singular": "αδελφή",
+      "plural": "αδελφές"
+    },
+    "translations": {
+      "singular": "сестра",
+      "plural": "сёстры"
+    }
+  },
+  {
+    "id": "man",
+    "lemma": "ο άντρας",
+    "gender": "masculine",
+    "themeId": "people-appearance",
+    "forms": {
+      "singular": "άντρας",
+      "plural": "άντρες"
+    },
+    "translations": {
+      "singular": "мужчина",
+      "plural": "мужчины"
+    }
+  },
+  {
+    "id": "woman",
+    "lemma": "η γυναίκα",
+    "gender": "feminine",
+    "themeId": "people-appearance",
+    "forms": {
+      "singular": "γυναίκα",
+      "plural": "γυναίκες"
+    },
+    "translations": {
+      "singular": "женщина",
+      "plural": "женщины"
+    }
+  },
+  {
+    "id": "person",
+    "lemma": "το άτομο",
+    "gender": "neuter",
+    "themeId": "people-appearance",
+    "forms": {
+      "singular": "άτομο",
+      "plural": "άτομα"
+    },
+    "translations": {
+      "singular": "человек",
+      "plural": "люди"
+    }
+  },
+  {
+    "id": "sofa",
+    "lemma": "ο καναπές",
+    "gender": "masculine",
+    "themeId": "home-everyday-life",
+    "forms": {
+      "singular": "καναπές",
+      "plural": "καναπέδες"
+    },
+    "translations": {
+      "singular": "диван",
+      "plural": "диваны"
+    }
+  },
+  {
+    "id": "chair",
+    "lemma": "η καρέκλα",
+    "gender": "feminine",
+    "themeId": "home-everyday-life",
+    "forms": {
+      "singular": "καρέκλα",
+      "plural": "καρέκλες"
+    },
+    "translations": {
+      "singular": "стул",
+      "plural": "стулья"
+    }
+  },
+  {
+    "id": "table",
+    "lemma": "το τραπέζι",
+    "gender": "neuter",
+    "themeId": "home-everyday-life",
+    "forms": {
+      "singular": "τραπέζι",
+      "plural": "τραπέζια"
+    },
+    "translations": {
+      "singular": "стол",
+      "plural": "столы"
+    }
+  },
+  {
+    "id": "coffee",
+    "lemma": "ο καφές",
+    "gender": "masculine",
+    "themeId": "food-cooking",
+    "forms": {
+      "singular": "καφές",
+      "plural": "καφέδες"
+    },
+    "translations": {
+      "singular": "кофе",
+      "plural": "порции кофе"
+    }
+  },
+  {
+    "id": "salad",
+    "lemma": "η σαλάτα",
+    "gender": "feminine",
+    "themeId": "food-cooking",
+    "forms": {
+      "singular": "σαλάτα",
+      "plural": "σαλάτες"
+    },
+    "translations": {
+      "singular": "салат",
+      "plural": "салаты"
+    }
+  },
+  {
+    "id": "food",
+    "lemma": "το φαγητό",
+    "gender": "neuter",
+    "themeId": "food-cooking",
+    "forms": {
+      "singular": "φαγητό",
+      "plural": "φαγητά"
+    },
+    "translations": {
+      "singular": "еда",
+      "plural": "блюда"
+    }
+  }
+]

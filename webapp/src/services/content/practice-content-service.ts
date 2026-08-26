@@ -6,6 +6,8 @@ import {
 import type {
   InputPracticeTopicDefinition,
   ListeningPracticeTopicDefinition,
+  SingleChoicePracticeGroupDefinition,
+  SingleChoicePracticeIndexEntry,
   SingleChoicePracticeTopicDefinition,
 } from "../../types/practice-topic.ts";
 import { loadJsonContent } from "../../lib/content-loader.ts";
@@ -37,39 +39,87 @@ function normalizeInputExercises(content: unknown): InputExercise[] {
   throw new Error("Invalid input practice content format");
 }
 
-function isSingleChoicePracticeTopicDefinition(
-  value: unknown
-): value is SingleChoicePracticeTopicDefinition {
+function isIndexEntryBase(value: unknown): value is Record<string, unknown> {
   if (typeof value !== "object" || value === null || Array.isArray(value)) {
     return false;
   }
 
-  const topic = value as Record<string, unknown>;
+  const entry = value as Record<string, unknown>;
   return (
-    typeof topic.id === "string" &&
-    typeof topic.title === "string" &&
-    typeof topic.subtitle === "string" &&
-    typeof topic.fileName === "string"
+    typeof entry.id === "string" &&
+    typeof entry.title === "string" &&
+    typeof entry.subtitle === "string"
   );
 }
 
-function normalizeSingleChoiceTopicIndex(content: unknown): SingleChoicePracticeTopicDefinition[] {
-  if (Array.isArray(content) && content.every(isSingleChoicePracticeTopicDefinition)) {
-    return content;
-  }
-
-  throw new Error("Invalid single-choice practice index format");
+function isSingleChoicePracticeTopicDefinition(
+  value: unknown
+): value is SingleChoicePracticeTopicDefinition {
+  return isIndexEntryBase(value) && typeof value.fileName === "string";
 }
 
-export function loadSingleChoiceTopicDefinitions(): Promise<SingleChoicePracticeTopicDefinition[]> {
-  return loadJsonContent<unknown>(singleChoicePracticeContent.indexUrl).then(
-    normalizeSingleChoiceTopicIndex
+function isSingleChoicePracticeGroupDefinition(
+  value: unknown
+): value is SingleChoicePracticeGroupDefinition {
+  return isIndexEntryBase(value) && typeof value.indexFileName === "string";
+}
+
+function normalizeSingleChoiceTopicIndex(
+  content: unknown,
+  baseUrl: string
+): SingleChoicePracticeTopicDefinition[] {
+  if (!Array.isArray(content) || !content.every(isSingleChoicePracticeTopicDefinition)) {
+    throw new Error("Invalid single-choice practice index format");
+  }
+
+  return content.map((topic) => ({ ...topic, baseUrl }));
+}
+
+function normalizeSingleChoiceRootIndex(
+  content: unknown,
+  baseUrl: string
+): SingleChoicePracticeIndexEntry[] {
+  if (
+    !Array.isArray(content) ||
+    !content.every(
+      (entry) =>
+        isSingleChoicePracticeTopicDefinition(entry) || isSingleChoicePracticeGroupDefinition(entry)
+    )
+  ) {
+    throw new Error("Invalid single-choice practice index format");
+  }
+
+  return content.map((entry) => ({ ...entry, baseUrl }));
+}
+
+function getGroupBaseUrl(group: SingleChoicePracticeGroupDefinition): string {
+  const parentBaseUrl = group.baseUrl ?? singleChoicePracticeContent.baseUrl;
+  const lastSlashIndex = group.indexFileName.lastIndexOf("/");
+  const relativeDirectory =
+    lastSlashIndex === -1 ? "" : group.indexFileName.slice(0, lastSlashIndex + 1);
+
+  return `${parentBaseUrl}${relativeDirectory}`;
+}
+
+export function loadSingleChoiceTopicDefinitions(): Promise<SingleChoicePracticeIndexEntry[]> {
+  return loadJsonContent<unknown>(singleChoicePracticeContent.indexUrl).then((content) =>
+    normalizeSingleChoiceRootIndex(content, singleChoicePracticeContent.baseUrl)
+  );
+}
+
+export function loadSingleChoiceGroupTopicDefinitions(
+  group: SingleChoicePracticeGroupDefinition
+): Promise<SingleChoicePracticeTopicDefinition[]> {
+  const parentBaseUrl = group.baseUrl ?? singleChoicePracticeContent.baseUrl;
+
+  return loadJsonContent<unknown>(`${parentBaseUrl}${group.indexFileName}`).then((content) =>
+    normalizeSingleChoiceTopicIndex(content, getGroupBaseUrl(group))
   );
 }
 
 export function loadListeningTopicDefinitions(): Promise<ListeningPracticeTopicDefinition[]> {
-  return loadJsonContent<unknown>(listeningPracticeContent.indexUrl).then(
-    normalizeSingleChoiceTopicIndex
+  return loadJsonContent<unknown>(listeningPracticeContent.indexUrl).then((content) =>
+    normalizeSingleChoiceTopicIndex(content, listeningPracticeContent.baseUrl)
   );
 }
 
@@ -77,7 +127,7 @@ export async function loadSingleChoicePracticeTopic(
   topic: SingleChoicePracticeTopicDefinition
 ): Promise<SingleChoiceTopic> {
   const collection = await loadSingleChoiceTopic(
-    `${singleChoicePracticeContent.baseUrl}${topic.fileName}`,
+    `${topic.baseUrl ?? singleChoicePracticeContent.baseUrl}${topic.fileName}`,
     topic.title
   );
 

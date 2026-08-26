@@ -2,6 +2,8 @@ import { existsSync } from "node:fs";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { validateNounsAdjectivesCorpus } from "./nouns-adjectives-content-model.mjs";
+import { validateNounsAdjectivesCoverage } from "./validate-nouns-adjectives-coverage.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -316,7 +318,7 @@ function validateDiphthongsContent(filePath, content) {
   });
 }
 
-function validateSingleChoiceTopicIndexItem(indexPath, item, index) {
+function validatePracticeIndexItem(indexPath, item, index, allowGroups) {
   const location = `items[${index}]`;
 
   if (!isRecord(item)) {
@@ -324,34 +326,55 @@ function validateSingleChoiceTopicIndexItem(indexPath, item, index) {
     return null;
   }
 
-  for (const field of ["id", "title", "subtitle", "fileName"]) {
+  for (const field of ["id", "title", "subtitle"]) {
     if (!isString(item[field])) {
       addError(indexPath, `${location}.${field} must be a non-empty string`);
     }
   }
 
-  if (typeof item.fileName === "string" && !item.fileName.endsWith(".json")) {
-    addError(indexPath, `${location}.fileName must reference a JSON file`);
+  const hasFileName = isString(item.fileName);
+  const hasIndexFileName = isString(item.indexFileName);
+
+  if (hasFileName === hasIndexFileName) {
+    addError(indexPath, `${location} must define exactly one of fileName or indexFileName`);
+    return null;
   }
 
-  return typeof item.fileName === "string" ? item.fileName : null;
+  if (hasIndexFileName && !allowGroups) {
+    addError(indexPath, `${location}.indexFileName is not supported in this section`);
+    return null;
+  }
+
+  const referenceField = hasFileName ? "fileName" : "indexFileName";
+  const reference = item[referenceField];
+  if (typeof reference === "string" && !reference.endsWith(".json")) {
+    addError(indexPath, `${location}.${referenceField} must reference a JSON file`);
+  }
+
+  return typeof reference === "string"
+    ? { kind: hasFileName ? "topic" : "group", reference }
+    : null;
 }
 
-async function validateIndexedPracticeContent(sectionDir, expectedType) {
-  const dir = path.join(contentDir, "practice", sectionDir);
-  const indexPath = path.join(dir, "index.json");
-  const index = await readJson(indexPath);
+async function validatePracticeIndex(indexPath, expectedType, allowGroups, visitedIndexes) {
+  const resolvedIndexPath = path.resolve(indexPath);
+  if (visitedIndexes.has(resolvedIndexPath)) {
+    addError(indexPath, "index must not reference itself recursively");
+    return;
+  }
+  visitedIndexes.add(resolvedIndexPath);
 
+  const index = await readJson(indexPath);
   if (!Array.isArray(index)) {
     addError(indexPath, "index must be an array of topic metadata objects");
     return;
   }
 
   const ids = new Set();
-  const fileNames = [];
+  const references = [];
 
   index.forEach((item, indexPosition) => {
-    const fileName = validateSingleChoiceTopicIndexItem(indexPath, item, indexPosition);
+    const reference = validatePracticeIndexItem(indexPath, item, indexPosition, allowGroups);
 
     if (isRecord(item) && typeof item.id === "string") {
       if (ids.has(item.id)) {
@@ -360,31 +383,44 @@ async function validateIndexedPracticeContent(sectionDir, expectedType) {
       ids.add(item.id);
     }
 
-    if (fileName) {
-      fileNames.push(fileName);
+    if (reference) {
+      references.push(reference);
     }
   });
 
-  const duplicateFiles = fileNames.filter(
-    (fileName, indexPosition) => fileNames.indexOf(fileName) !== indexPosition
+  const duplicateReferences = references.filter(
+    (entry, indexPosition) =>
+      references.findIndex(
+        (candidate) => candidate.kind === entry.kind && candidate.reference === entry.reference
+      ) !== indexPosition
   );
-  for (const fileName of duplicateFiles) {
-    addError(indexPath, `duplicate file name "${fileName}"`);
+  for (const entry of duplicateReferences) {
+    addError(indexPath, `duplicate file name "${entry.reference}"`);
   }
 
-  for (const fileName of fileNames) {
-    const filePath = path.join(dir, fileName);
-    if (!existsSync(filePath)) {
-      addError(indexPath, `referenced file "${fileName}" does not exist`);
+  const indexDir = path.dirname(indexPath);
+  for (const entry of references) {
+    const referencedPath = path.resolve(indexDir, entry.reference);
+    if (!existsSync(referencedPath)) {
+      addError(indexPath, `referenced file "${entry.reference}" does not exist`);
       continue;
     }
 
-    validateExerciseCollection(filePath, await readJson(filePath), expectedType);
+    if (entry.kind === "group") {
+      await validatePracticeIndex(referencedPath, expectedType, allowGroups, visitedIndexes);
+    } else {
+      validateExerciseCollection(referencedPath, await readJson(referencedPath), expectedType);
+    }
   }
 }
 
+async function validateIndexedPracticeContent(sectionDir, expectedType, allowGroups = false) {
+  const indexPath = path.join(contentDir, "practice", sectionDir, "index.json");
+  await validatePracticeIndex(indexPath, expectedType, allowGroups, new Set());
+}
+
 async function validateSingleChoiceContent() {
-  await validateIndexedPracticeContent("single_choice", "single-choice");
+  await validateIndexedPracticeContent("single_choice", "single-choice", true);
 }
 
 async function validateListeningContent() {
@@ -401,6 +437,23 @@ async function validateInputContent() {
   }
 }
 
+async function validateNounsAdjectivesSourceContent() {
+  const sourceDir = path.join(rootDir, "content-source", "nouns-adjectives");
+  const corpusErrors = await validateNounsAdjectivesCorpus(sourceDir);
+
+  for (const error of corpusErrors) {
+    addError(error.filePath, error.message);
+  }
+}
+
+async function validateNounsAdjectivesGeneratedContent() {
+  const coverageErrors = await validateNounsAdjectivesCoverage();
+
+  for (const error of coverageErrors) {
+    addError(error.filePath, error.message);
+  }
+}
+
 async function validateTheoryContent() {
   validateAlphabetContent(
     path.join(contentDir, "theory", "alphabet.json"),
@@ -413,6 +466,8 @@ async function validateTheoryContent() {
 }
 
 await validateTheoryContent();
+await validateNounsAdjectivesSourceContent();
+await validateNounsAdjectivesGeneratedContent();
 await validateSingleChoiceContent();
 await validateListeningContent();
 await validateInputContent();

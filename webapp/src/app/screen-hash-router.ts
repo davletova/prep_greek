@@ -7,6 +7,7 @@ const SCREEN_TO_HASH: Record<Screen, string> = {
   alphabet: "#/alphabet",
   diphthongs: "#/diphthongs",
   "practice-single-choice-topics": "#/practice/single-choice",
+  "practice-single-choice-group": "#/practice/single-choice",
   "practice-input-topics": "#/practice/input",
   "practice-listening-topics": "#/practice/listening",
   "practice-input-topic": "#/practice/input",
