@@ -1,0 +1,1629 @@
+{
+  "title": "Часть - 1",
+  "subtitle": "Веберите правильный перевод",
+  "settings": {
+    "showTranslationHint": true
+  },
+  "items": [
+    {
+      "id": "greek-adjectives-nouns-01-001",
+      "type": "single-choice",
+      "prompt": "особый экземпляр",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ξεχωριστό αντίτυπο",
+      "wrongAnswers": ["το ξεχωριστή αντίτυπο", "το ξεχωριστοί αντίτυπο", "το ξεχωριστά αντίτυπο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-002",
+      "type": "single-choice",
+      "prompt": "следующие остановки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι επόμενες στάσεις",
+      "wrongAnswers": ["οι επόμενος στάσεις", "οι επόμενο στάσεις", "οι επόμενα στάσεις"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-003",
+      "type": "single-choice",
+      "prompt": "классический бобовый продукт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κλασικό όσπριο",
+      "wrongAnswers": ["το κλασικός όσπριο", "το κλασική όσπριο", "το κλασικά όσπριο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-004",
+      "type": "single-choice",
+      "prompt": "бельгийские сыры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα βελγικά τυριά",
+      "wrongAnswers": ["τα βελγικός τυριά", "τα βελγική τυριά", "τα βελγικό τυριά"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-005",
+      "type": "single-choice",
+      "prompt": "свежие шпинаты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα σπανάκια",
+      "wrongAnswers": ["τα φρέσκος σπανάκια", "τα φρέσκη σπανάκια", "τα φρέσκο σπανάκια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-006",
+      "type": "single-choice",
+      "prompt": "хорошие манеры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλές συμπεριφορές",
+      "wrongAnswers": ["οι καλός συμπεριφορές", "οι καλή συμπεριφορές", "οι καλό συμπεριφορές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-007",
+      "type": "single-choice",
+      "prompt": "большое движение",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μεγάλη κίνηση",
+      "wrongAnswers": ["η μεγάλος κίνηση", "η μεγάλη κινήσεις", "η μεγάλο κίνηση"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-008",
+      "type": "single-choice",
+      "prompt": "любимый внук/внучка",
+      "promptLanguage": "ru",
+      "correctAnswer": "το αγαπημένο εγγόνι",
+      "wrongAnswers": ["το αγαπημένη εγγόνι", "το αγαπημένος εγγόνι", "το αγαπημένα εγγόνι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-009",
+      "type": "single-choice",
+      "prompt": "холодная зима",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο κρύος χειμώνας",
+      "wrongAnswers": ["ο κρύα χειμώνας", "ο κρύο χειμώνας", "ο κρύοι χειμώνας"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-010",
+      "type": "single-choice",
+      "prompt": "вежливая покупательница",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ευγενική πελάτισσα",
+      "wrongAnswers": ["η ευγενικός πελάτισσα", "η ευγενικό πελάτισσα", "η ευγενικοί πελάτισσα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-011",
+      "type": "single-choice",
+      "prompt": "восемьсот страниц",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι οκτακόσιες σελίδες",
+      "wrongAnswers": ["οι οκτακόσιοι σελίδες", "οι οκτακόσια σελίδες", "οι οκτακόσια σελίδα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-012",
+      "type": "single-choice",
+      "prompt": "ирландский язык",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ιρλανδική γλώσσα",
+      "wrongAnswers": ["η ιρλανδικός γλώσσα", "η ιρλανδική γλώσσες", "η ιρλανδικό γλώσσα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-013",
+      "type": "single-choice",
+      "prompt": "уставший старик",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο κουρασμένος γέρος",
+      "wrongAnswers": ["η κουρασμένη γέρος", "ο κουρασμένος γριά", "το κουρασμένο γέρος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-014",
+      "type": "single-choice",
+      "prompt": "обычные сумки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κανονικές τσάντες",
+      "wrongAnswers": ["η κανονική τσάντες", "οι κανονικός τσάντες", "οι κανονικές τσάντα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-015",
+      "type": "single-choice",
+      "prompt": "естественный свет",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φυσικό φως",
+      "wrongAnswers": ["η φυσική φως", "το φυσικός φως", "το φυσική φως"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-016",
+      "type": "single-choice",
+      "prompt": "детская площадка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η παιδική χαρά",
+      "wrongAnswers": ["ο παιδικός χαρά", "η παιδικός χαρά", "η παιδική χαρό"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-017",
+      "type": "single-choice",
+      "prompt": "хорошие соседи",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλοί γείτονες",
+      "wrongAnswers": ["η καλοί γείτονες", "οι καλός γείτονες", "οι καλοί γείτονας"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-018",
+      "type": "single-choice",
+      "prompt": "подчёркнутые слова",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι υπογραμμισμένες λέξεις",
+      "wrongAnswers": [
+        "η υπογραμμισμένες λέξεις",
+        "οι υπογραμμισμένος λέξεις",
+        "οι υπογραμμισμένες λέξη"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-019",
+      "type": "single-choice",
+      "prompt": "центральные входы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κεντρικές είσοδοι",
+      "wrongAnswers": ["η κεντρικές είσοδοι", "οι κεντρικός είσοδοι", "οι κεντρικές είσοδος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-020",
+      "type": "single-choice",
+      "prompt": "мягкие дожди",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ήπιες βροχές",
+      "wrongAnswers": ["η ήπιες βροχές", "οι ήπιος βροχές", "οι ήπιες βροχή"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-021",
+      "type": "single-choice",
+      "prompt": "открытые пространства",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ανοιχτοί χώροι",
+      "wrongAnswers": ["η ανοιχτοί χώροι", "οι ανοιχτός χώροι", "οι ανοιχτοί χώρος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-022",
+      "type": "single-choice",
+      "prompt": "хорошие ноты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλές νότες",
+      "wrongAnswers": ["η καλές νότες", "οι καλός νότες", "οι καλές νότα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-023",
+      "type": "single-choice",
+      "prompt": "точные экскурсии",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ακριβείς εκδρομές",
+      "wrongAnswers": ["η ακριβείς εκδρομές", "οι ακριβής εκδρομές", "οι ακριβείς εκδρομή"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-024",
+      "type": "single-choice",
+      "prompt": "узкая комната",
+      "promptLanguage": "ru",
+      "correctAnswer": "το στενό δωμάτιο",
+      "wrongAnswers": ["η στενό δωμάτιο", "το στενή δωμάτιο", "το στενός δωμάτιο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-025",
+      "type": "single-choice",
+      "prompt": "чёрные пианино",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μαύρα πιάνα",
+      "wrongAnswers": ["το μαύρα πιάνα", "η μαύρες πιάνα", "οι μαύροι πιάνα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-026",
+      "type": "single-choice",
+      "prompt": "хорошие продукты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καλά προϊόντα",
+      "wrongAnswers": ["το καλά προϊόντα", "η καλά προϊόντα", "οι καλές προϊόντα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-027",
+      "type": "single-choice",
+      "prompt": "любезный господин",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο αγαπητός κύριος",
+      "wrongAnswers": ["η αγαπητός κύριος", "το αγαπητός κύριος", "οι αγαπητοί κύριος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-028",
+      "type": "single-choice",
+      "prompt": "свежий огурец",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο αγγούρι",
+      "wrongAnswers": ["η φρέσκο αγγούρι", "ο φρέσκος αγγούρι", "τα φρέσκα αγγούρι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-029",
+      "type": "single-choice",
+      "prompt": "любимая неделя",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αγαπημένη εβδομάδα",
+      "wrongAnswers": ["ο αγαπημένη εβδομάδα", "το αγαπημένη εβδομάδα", "οι αγαπημένοι εβδομάδα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-030",
+      "type": "single-choice",
+      "prompt": "твёрдые скалы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σκληροί βράχοι",
+      "wrongAnswers": ["η σκληροί βράχοι", "το σκληροί βράχοι", "ο σκληρός βράχοι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-031",
+      "type": "single-choice",
+      "prompt": "перемешанный кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ανακατεμένος καφές",
+      "wrongAnswers": ["η ανακατεμένος καφές", "το ανακατεμένος καφές", "οι ανακατεμένοι καφές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-032",
+      "type": "single-choice",
+      "prompt": "зелёный лист",
+      "promptLanguage": "ru",
+      "correctAnswer": "το πράσινο φύλλο",
+      "wrongAnswers": ["η πράσινο φύλλο", "ο πράσινος φύλλο", "τα πράσινα φύλλο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-033",
+      "type": "single-choice",
+      "prompt": "важная причина",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο σημαντικός λόγος",
+      "wrongAnswers": ["η σημαντικός λόγος", "το σημαντικός λόγος", "οι σημαντικοί λόγος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-034",
+      "type": "single-choice",
+      "prompt": "крепкие мужчины",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γεροί άντρες",
+      "wrongAnswers": ["η γεροί άντρες", "το γεροί άντρες", "ο γερός άντρες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-035",
+      "type": "single-choice",
+      "prompt": "большая возможность",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μεγάλη δυνατότητα",
+      "wrongAnswers": ["ο μεγάλη δυνατότητα", "το μεγάλη δυνατότητα", "οι μεγάλες δυνατότητα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-036",
+      "type": "single-choice",
+      "prompt": "сложный кроссворд",
+      "promptLanguage": "ru",
+      "correctAnswer": "το δύσκολο σταυρόλεξο",
+      "wrongAnswers": ["η δύσκολο σταυρόλεξο", "ο δύσκολος σταυρόλεξο", "τα δύσκολα σταυρόλεξο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-037",
+      "type": "single-choice",
+      "prompt": "французская карта",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γαλλικός χάρτης",
+      "wrongAnswers": ["ο γαλλική χάρτης", "η γαλλικός χάρτης", "το γαλλικός χάρτης"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-038",
+      "type": "single-choice",
+      "prompt": "простые единственные числа",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι απλοί ενικοί αριθμοί",
+      "wrongAnswers": [
+        "οι απλή ενικοί αριθμοί",
+        "η απλοί ενικοί αριθμοί",
+        "τα απλοί ενικοί αριθμοί"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-039",
+      "type": "single-choice",
+      "prompt": "большие рынки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μεγάλες αγορές",
+      "wrongAnswers": ["οι μεγάλος αγορές", "η μεγάλες αγορές", "τα μεγάλες αγορές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-040",
+      "type": "single-choice",
+      "prompt": "хорошая парикмахерша",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καλή κομμώτρια",
+      "wrongAnswers": ["η καλός κομμώτρια", "ο καλή κομμώτρια", "το καλή κομμώτρια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-041",
+      "type": "single-choice",
+      "prompt": "твёрдые породы дерева",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα σκληρά ξύλα",
+      "wrongAnswers": ["τα σκληρός ξύλα", "ο σκληρά ξύλα", "η σκληρά ξύλα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-042",
+      "type": "single-choice",
+      "prompt": "большие волны",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μεγάλα κύματα",
+      "wrongAnswers": ["τα μεγάλος κύματα", "ο μεγάλα κύματα", "η μεγάλα κύματα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-043",
+      "type": "single-choice",
+      "prompt": "красные свёклы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κόκκινα παντζάρια",
+      "wrongAnswers": ["τα κόκκινος παντζάρια", "ο κόκκινα παντζάρια", "η κόκκινα παντζάρια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-044",
+      "type": "single-choice",
+      "prompt": "сладкая паста",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά πάστα",
+      "wrongAnswers": ["η γλυκός πάστα", "ο γλυκιά πάστα", "το γλυκιά πάστα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-045",
+      "type": "single-choice",
+      "prompt": "основное ключевое слово",
+      "promptLanguage": "ru",
+      "correctAnswer": "η βασική λέξη-κλειδί",
+      "wrongAnswers": ["η βασικός λέξη-κλειδί", "ο βασική λέξη-κλειδί", "το βασική λέξη-κλειδί"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-046",
+      "type": "single-choice",
+      "prompt": "иностранные жители",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ξένοι κάτοικοι",
+      "wrongAnswers": ["οι ξένη κάτοικοι", "η ξένοι κάτοικοι", "τα ξένοι κάτοικοι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-047",
+      "type": "single-choice",
+      "prompt": "полный мешок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γεμάτος σάκος",
+      "wrongAnswers": ["ο γεμάτη σάκος", "η γεμάτος σάκος", "το γεμάτος σάκος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-048",
+      "type": "single-choice",
+      "prompt": "адрес администрации",
+      "promptLanguage": "ru",
+      "correctAnswer": "η δημόσια διεύθυνση",
+      "wrongAnswers": ["η δημόσιος διεύθυνση", "ο δημόσια διεύθυνση", "το δημόσια διεύθυνση"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-049",
+      "type": "single-choice",
+      "prompt": "большая ванная",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μεγάλο μπάνιο",
+      "wrongAnswers": ["η μεγάλο μπάνιο", "το μεγάλα μπάνιο", "το μεγάλος μπάνιο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-050",
+      "type": "single-choice",
+      "prompt": "белые блузки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άσπρες μπλούζες",
+      "wrongAnswers": ["οι άσπρα μπλούζες", "τα άσπρες μπλούζες", "οι άσπρος μπλούζες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-051",
+      "type": "single-choice",
+      "prompt": "сладкие морковки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γλυκά καρότα",
+      "wrongAnswers": ["τα γλυκή καρότα", "οι γλυκά καρότα", "τα γλυκό καρότα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-052",
+      "type": "single-choice",
+      "prompt": "хорошие африканки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλές Αφρικανές",
+      "wrongAnswers": ["οι καλό Αφρικανές", "η καλές Αφρικανές", "οι καλή Αφρικανές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-053",
+      "type": "single-choice",
+      "prompt": "новые рубашки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καινούρια πουκάμισα",
+      "wrongAnswers": [
+        "τα καινούριος πουκάμισα",
+        "οι καινούρια πουκάμισα",
+        "τα καινούρια πουκάμισο"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-054",
+      "type": "single-choice",
+      "prompt": "больные пациенты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άρρωστοι ασθενείς",
+      "wrongAnswers": ["οι άρρωστη ασθενείς", "τα άρρωστοι ασθενείς", "οι άρρωστος ασθενείς"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-055",
+      "type": "single-choice",
+      "prompt": "американский флаг",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αμερικανική σημαία",
+      "wrongAnswers": ["ο αμερικανική σημαία", "η αμερικανικό σημαία", "η αμερικανικός σημαία"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-056",
+      "type": "single-choice",
+      "prompt": "важные разделы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σημαντικές ενότητες",
+      "wrongAnswers": ["οι σημαντικά ενότητες", "τα σημαντικές ενότητες", "οι σημαντική ενότητες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-057",
+      "type": "single-choice",
+      "prompt": "правильные ответы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σωστές απαντήσεις",
+      "wrongAnswers": ["οι σωστό απαντήσεις", "τα σωστές απαντήσεις", "οι σωστή απαντήσεις"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-058",
+      "type": "single-choice",
+      "prompt": "прохладный апельсиновый напиток",
+      "promptLanguage": "ru",
+      "correctAnswer": "η δροσερή πορτοκαλάδα",
+      "wrongAnswers": ["η δροσερό πορτοκαλάδα", "ο δροσερή πορτοκαλάδα", "η δροσερός πορτοκαλάδα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-059",
+      "type": "single-choice",
+      "prompt": "хорошая преподавательница",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καλή καθηγήτρια",
+      "wrongAnswers": ["η καλό καθηγήτρια", "ο καλή καθηγήτρια", "η καλός καθηγήτρια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-060",
+      "type": "single-choice",
+      "prompt": "новые англичанки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νέες Αγγλίδες",
+      "wrongAnswers": ["οι νέο Αγγλίδες", "τα νέες Αγγλίδες", "οι νέος Αγγλίδες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-061",
+      "type": "single-choice",
+      "prompt": "счастливый день",
+      "promptLanguage": "ru",
+      "correctAnswer": "η τυχερή μέρα",
+      "wrongAnswers": ["ο τυχερός μέρα", "η τυχερός μέρα", "το τυχερή μέρα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-062",
+      "type": "single-choice",
+      "prompt": "геометрические треугольники",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γεωμετρικά τρίγωνα",
+      "wrongAnswers": ["ο γεωμετρικά τρίγωνα", "τα γεωμετρικός τρίγωνα", "τα γεωμετρικό τρίγωνα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-063",
+      "type": "single-choice",
+      "prompt": "любимые университеты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα αγαπημένα πανεπιστήμια",
+      "wrongAnswers": [
+        "ο αγαπημένα πανεπιστήμια",
+        "τα αγαπημένος πανεπιστήμια",
+        "τα αγαπημένο πανεπιστήμια"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-064",
+      "type": "single-choice",
+      "prompt": "новые журналы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καινούρια περιοδικά",
+      "wrongAnswers": ["ο καινούρια περιοδικά", "τα καινούριος περιοδικά", "τα καινούριο περιοδικά"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-065",
+      "type": "single-choice",
+      "prompt": "хороший продукт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καλό προϊόν",
+      "wrongAnswers": ["η καλό προϊόν", "το καλή προϊόν", "το καλός προϊόν"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-066",
+      "type": "single-choice",
+      "prompt": "африканская музыка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αφρικανική μουσική",
+      "wrongAnswers": ["ο αφρικανική μουσική", "η αφρικανικός μουσική", "η αφρικανικό μουσική"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-067",
+      "type": "single-choice",
+      "prompt": "части человеческого тела",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ανθρώπινα μέλη του σώματος",
+      "wrongAnswers": [
+        "ο ανθρώπινα μέλη του σώματος",
+        "τα ανθρώπινος μέλη του σώματος",
+        "τα ανθρώπινο μέλη του σώματος"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-068",
+      "type": "single-choice",
+      "prompt": "деревянная мебель",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ξύλινο έπιπλο",
+      "wrongAnswers": ["η ξύλινο έπιπλο", "το ξύλινη έπιπλο", "το ξύλινος έπιπλο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-069",
+      "type": "single-choice",
+      "prompt": "израильский сок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ισραηλινός χυμός",
+      "wrongAnswers": ["η ισραηλινός χυμός", "ο ισραηλινή χυμός", "ο ισραηλινό χυμός"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-070",
+      "type": "single-choice",
+      "prompt": "маленькие прыщики",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά σπυριά",
+      "wrongAnswers": ["ο μικρά σπυριά", "τα μικρός σπυριά", "τα μικρό σπυριά"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-071",
+      "type": "single-choice",
+      "prompt": "важная страница",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σημαντική σελίδα",
+      "wrongAnswers": ["ο σημαντική σελίδα", "η σημαντικός σελίδα", "η σημαντικό σελίδα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-072",
+      "type": "single-choice",
+      "prompt": "текущий год",
+      "promptLanguage": "ru",
+      "correctAnswer": "το τρέχον έτος",
+      "wrongAnswers": ["η τρέχον έτος", "το τρέχων έτος", "το τρέχουσα έτος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-073",
+      "type": "single-choice",
+      "prompt": "канадские карты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καναδικοί χάρτες",
+      "wrongAnswers": ["οι καναδικοί χάρτη", "η καναδικοί χάρτες", "τα καναδικοί χάρτες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-074",
+      "type": "single-choice",
+      "prompt": "дошкольные программы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα προσχολικά προγράμματα",
+      "wrongAnswers": [
+        "τα προσχολικός προγράμματα",
+        "η προσχολικά προγράμματα",
+        "οι προσχολικά προγράμματα"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-075",
+      "type": "single-choice",
+      "prompt": "мягкое одеяло",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μαλακή κουβέρτα",
+      "wrongAnswers": ["η μαλακό κουβέρτα", "ο μαλακή κουβέρτα", "τα μαλακή κουβέρτα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-076",
+      "type": "single-choice",
+      "prompt": "красивая гитара",
+      "promptLanguage": "ru",
+      "correctAnswer": "η όμορφη κιθάρα",
+      "wrongAnswers": ["η όμορφο κιθάρα", "ο όμορφη κιθάρα", "τα όμορφη κιθάρα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-077",
+      "type": "single-choice",
+      "prompt": "открытые краны",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ανοιχτές βρύσες",
+      "wrongAnswers": ["οι ανοιχτός βρύσες", "η ανοιχτές βρύσες", "τα ανοιχτές βρύσες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-078",
+      "type": "single-choice",
+      "prompt": "другие дети",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα άλλα παιδιά",
+      "wrongAnswers": ["τα άλλη παιδιά", "η άλλα παιδιά", "οι άλλα παιδιά"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-079",
+      "type": "single-choice",
+      "prompt": "краткое развлечение",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σύντομη διασκέδαση",
+      "wrongAnswers": ["η σύντομος διασκέδαση", "ο σύντομη διασκέδαση", "τα σύντομη διασκέδαση"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-080",
+      "type": "single-choice",
+      "prompt": "государственные гимназии",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα δημόσια γυμνάσια",
+      "wrongAnswers": ["τα δημόσιος γυμνάσια", "η δημόσια γυμνάσια", "οι δημόσια γυμνάσια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-081",
+      "type": "single-choice",
+      "prompt": "вежливая официантка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ευγενική σερβιτόρα",
+      "wrongAnswers": ["η ευγενικός σερβιτόρα", "ο ευγενική σερβιτόρα", "τα ευγενική σερβιτόρα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-082",
+      "type": "single-choice",
+      "prompt": "любимая учительница",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αγαπημένη δασκάλα",
+      "wrongAnswers": ["η αγαπημένος δασκάλα", "ο αγαπημένη δασκάλα", "τα αγαπημένη δασκάλα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-083",
+      "type": "single-choice",
+      "prompt": "хорошая кардиолог",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καλή καρδιολόγος",
+      "wrongAnswers": ["η καλός καρδιολόγος", "ο καλή καρδιολόγος", "τα καλή καρδιολόγος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-084",
+      "type": "single-choice",
+      "prompt": "пустые бутылки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα άδεια μπουκάλια",
+      "wrongAnswers": ["τα άδειος μπουκάλια", "η άδεια μπουκάλια", "οι άδεια μπουκάλια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-085",
+      "type": "single-choice",
+      "prompt": "открытые радиаторы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ανοιχτά καλοριφέρ",
+      "wrongAnswers": ["το ανοιχτό καλοριφέρ", "τα ανοιχτοί καλοριφέρ", "τα ανοιχτό καλοριφέρ"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-086",
+      "type": "single-choice",
+      "prompt": "любимая настольная игра",
+      "promptLanguage": "ru",
+      "correctAnswer": "το αγαπημένο επιτραπέζιο παιχνίδι",
+      "wrongAnswers": [
+        "το αγαπημένος επιτραπέζιο παιχνίδι",
+        "το αγαπημένη επιτραπέζιο παιχνίδι",
+        "το αγαπημένα επιτραπέζιο παιχνίδι"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-087",
+      "type": "single-choice",
+      "prompt": "дорогой гражданин",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο αγαπητός πολίτης",
+      "wrongAnswers": ["η αγαπητή πολίτης", "ο αγαπητή πολίτης", "ο αγαπητό πολίτης"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-088",
+      "type": "single-choice",
+      "prompt": "красная свёкла",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κόκκινο παντζάρι",
+      "wrongAnswers": ["το κόκκινη παντζάρι", "το κόκκινος παντζάρι", "η κόκκινο παντζάρι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-089",
+      "type": "single-choice",
+      "prompt": "маленький набросок",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό σκίτσο",
+      "wrongAnswers": ["το μικρή σκίτσο", "το μικρός σκίτσο", "η μικρό σκίτσο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-090",
+      "type": "single-choice",
+      "prompt": "вкусные салями",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα σαλάμια",
+      "wrongAnswers": ["το νόστιμο σαλάμια", "τα νόστιμος σαλάμια", "τα νόστιμη σαλάμια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-091",
+      "type": "single-choice",
+      "prompt": "свежее молоко",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο γάλα",
+      "wrongAnswers": ["το φρέσκη γάλα", "το φρέσκος γάλα", "η φρέσκο γάλα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-092",
+      "type": "single-choice",
+      "prompt": "важная демонстрация",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σημαντική προβολή",
+      "wrongAnswers": ["ο σημαντική προβολή", "η σημαντικός προβολή", "η σημαντικό προβολή"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-093",
+      "type": "single-choice",
+      "prompt": "основные инструкции",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι βασικές οδηγίες",
+      "wrongAnswers": ["η βασικές οδηγίες", "οι βασική οδηγίες", "οι βασικός οδηγίες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-094",
+      "type": "single-choice",
+      "prompt": "восемьсот учеников",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι οκτακόσιοι μαθητές",
+      "wrongAnswers": ["οι οκτακόσια μαθητές", "ο οκτακόσιοι μαθητές", "τα οκτακόσια μαθητές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-095",
+      "type": "single-choice",
+      "prompt": "дорогие галстуки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αγαπητές γραβάτες",
+      "wrongAnswers": ["η αγαπητές γραβάτες", "οι αγαπητή γραβάτες", "οι αγαπητός γραβάτες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-096",
+      "type": "single-choice",
+      "prompt": "новая машина",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καινούρια μηχανή",
+      "wrongAnswers": ["ο καινούρια μηχανή", "η καινούριος μηχανή", "η καινούριο μηχανή"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-097",
+      "type": "single-choice",
+      "prompt": "высокие башни",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ψηλοί πύργοι",
+      "wrongAnswers": ["ο ψηλός πύργοι", "οι ψηλή πύργοι", "η ψηλοί πύργοι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-098",
+      "type": "single-choice",
+      "prompt": "одноместная комната",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μονόκλινη κάμαρα",
+      "wrongAnswers": ["ο μονόκλινη κάμαρα", "η μονόκλινο κάμαρα", "το μονόκλινη κάμαρα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-099",
+      "type": "single-choice",
+      "prompt": "довольная клиентка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ευχαριστημένη πελάτισσα",
+      "wrongAnswers": [
+        "ο ευχαριστημένη πελάτισσα",
+        "η ευχαριστημένος πελάτισσα",
+        "το ευχαριστημένη πελάτισσα"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-100",
+      "type": "single-choice",
+      "prompt": "спонтанное решение",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αυθόρμητη απόφαση",
+      "wrongAnswers": ["ο αυθόρμητη απόφαση", "η αυθόρμητος απόφαση", "το αυθόρμητη απόφαση"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-101",
+      "type": "single-choice",
+      "prompt": "половина пирогов",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μισές πίτες",
+      "wrongAnswers": ["ο μισές πίτες", "οι μισή πίτες", "η μισές πίτες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-102",
+      "type": "single-choice",
+      "prompt": "какие по счёту ученики",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι πόσοι μαθητές",
+      "wrongAnswers": ["ο πόσοι μαθητές", "οι πόση μαθητές", "η πόσοι μαθητές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-103",
+      "type": "single-choice",
+      "prompt": "хороший концерт",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καλή συναυλία",
+      "wrongAnswers": ["ο καλή συναυλία", "η καλό συναυλία", "το καλή συναυλία"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-104",
+      "type": "single-choice",
+      "prompt": "новые автомобили",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καινούρια αυτοκίνητα",
+      "wrongAnswers": [
+        "ο καινούρια αυτοκίνητα",
+        "τα καινούριος αυτοκίνητα",
+        "η καινούρια αυτοκίνητα"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-105",
+      "type": "single-choice",
+      "prompt": "вкусные фрукты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα φρούτα",
+      "wrongAnswers": ["ο νόστιμα φρούτα", "τα νόστιμος φρούτα", "η νόστιμα φρούτα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-106",
+      "type": "single-choice",
+      "prompt": "полезный совет",
+      "promptLanguage": "ru",
+      "correctAnswer": "η χρήσιμη συμβουλή",
+      "wrongAnswers": ["ο χρήσιμη συμβουλή", "η χρήσιμο συμβουλή", "το χρήσιμη συμβουλή"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-107",
+      "type": "single-choice",
+      "prompt": "конечный пункт назначения",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο τελικός προορισμός",
+      "wrongAnswers": ["η τελικός προορισμός", "ο τελική προορισμός", "το τελικός προορισμός"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-108",
+      "type": "single-choice",
+      "prompt": "вежливый фармацевт",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ευγενικός φαρμακοποιός",
+      "wrongAnswers": [
+        "η ευγενικός φαρμακοποιός",
+        "ο ευγενική φαρμακοποιός",
+        "το ευγενικός φαρμακοποιός"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-109",
+      "type": "single-choice",
+      "prompt": "открытая зажигалка",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ανοιχτός αναπτήρας",
+      "wrongAnswers": ["η ανοιχτή αναπτήρας", "το ανοιχτό αναπτήρας", "ο ανοιχτή αναπτήρας"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-110",
+      "type": "single-choice",
+      "prompt": "выдающиеся учителя",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σπουδαίοι δάσκαλοι",
+      "wrongAnswers": ["η σπουδαία δάσκαλοι", "το σπουδαίο δάσκαλοι", "οι σπουδαίος δάσκαλοι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-111",
+      "type": "single-choice",
+      "prompt": "чистый пол",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καθαρό πάτωμα",
+      "wrongAnswers": ["η καθαρή πάτωμα", "ο καθαρός πάτωμα", "το καθαρή πάτωμα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-112",
+      "type": "single-choice",
+      "prompt": "северный ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο βόρειος άνεμος",
+      "wrongAnswers": ["η βόρεια άνεμος", "το βόρειο άνεμος", "ο βόρεια άνεμος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-113",
+      "type": "single-choice",
+      "prompt": "высокий дом",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ψηλό σπίτι",
+      "wrongAnswers": ["η ψηλή σπίτι", "ο ψηλός σπίτι", "το ψηλή σπίτι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-114",
+      "type": "single-choice",
+      "prompt": "пластиковые бутылки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα πλαστικά μπουκάλια",
+      "wrongAnswers": ["η πλαστική μπουκάλια", "ο πλαστικός μπουκάλια", "τα πλαστικός μπουκάλια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-115",
+      "type": "single-choice",
+      "prompt": "центральные станции",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κεντρικοί σταθμοί",
+      "wrongAnswers": ["η κεντρική σταθμοί", "το κεντρικό σταθμοί", "οι κεντρική σταθμοί"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-116",
+      "type": "single-choice",
+      "prompt": "обычное прощание",
+      "promptLanguage": "ru",
+      "correctAnswer": "το συνηθισμένο αντίο",
+      "wrongAnswers": ["η συνηθισμένη αντίο", "ο συνηθισμένος αντίο", "το συνηθισμένη αντίο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-117",
+      "type": "single-choice",
+      "prompt": "хорошая привычка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καλή συνήθεια",
+      "wrongAnswers": ["ο καλός συνήθεια", "το καλό συνήθεια", "η καλός συνήθεια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-118",
+      "type": "single-choice",
+      "prompt": "большие опасности",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μεγάλοι κίνδυνοι",
+      "wrongAnswers": ["η μεγάλη κίνδυνοι", "το μεγάλο κίνδυνοι", "οι μεγάλος κίνδυνοι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-119",
+      "type": "single-choice",
+      "prompt": "последовательный ряд",
+      "promptLanguage": "ru",
+      "correctAnswer": "η διαδοχική σειρά",
+      "wrongAnswers": ["ο διαδοχικός σειρά", "το διαδοχικό σειρά", "η διαδοχικός σειρά"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-120",
+      "type": "single-choice",
+      "prompt": "деревянный стул",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ξύλινη καρέκλα",
+      "wrongAnswers": ["ο ξύλινος καρέκλα", "το ξύλινο καρέκλα", "η ξύλινος καρέκλα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-121",
+      "type": "single-choice",
+      "prompt": "болгарский флаг",
+      "promptLanguage": "ru",
+      "correctAnswer": "η βουλγαρική σημαία",
+      "wrongAnswers": ["ο βουλγαρικός σημαία", "η βουλγαρικός σημαία", "το βουλγαρική σημαία"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-122",
+      "type": "single-choice",
+      "prompt": "сниженные счета",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μειωμένοι λογαριασμοί",
+      "wrongAnswers": [
+        "η μειωμένοι λογαριασμοί",
+        "οι μειωμένος λογαριασμοί",
+        "τα μειωμένοι λογαριασμοί"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-123",
+      "type": "single-choice",
+      "prompt": "тихая улица",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ήσυχος δρόμος",
+      "wrongAnswers": ["η ήσυχος δρόμος", "ο ήσυχη δρόμος", "το ήσυχος δρόμος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-124",
+      "type": "single-choice",
+      "prompt": "краткая заметка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σύντομη σημείωση",
+      "wrongAnswers": ["ο σύντομη σημείωση", "η σύντομος σημείωση", "το σύντομη σημείωση"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-125",
+      "type": "single-choice",
+      "prompt": "государственное министерство",
+      "promptLanguage": "ru",
+      "correctAnswer": "το δημόσιο υπουργείο",
+      "wrongAnswers": ["ο δημόσιο υπουργείο", "η δημόσιο υπουργείο", "τα δημόσιο υπουργείο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-126",
+      "type": "single-choice",
+      "prompt": "маленькие марки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά γραμματόσημα",
+      "wrongAnswers": ["το μικρά γραμματόσημα", "οι μικρά γραμματόσημα", "τα μικρό γραμματόσημα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-127",
+      "type": "single-choice",
+      "prompt": "маленькие козы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μικρές κατσίκες",
+      "wrongAnswers": ["η μικρές κατσίκες", "οι μικρή κατσίκες", "τα μικρές κατσίκες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-128",
+      "type": "single-choice",
+      "prompt": "молодые шведы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νεαροί Σουηδοί",
+      "wrongAnswers": ["η νεαροί Σουηδοί", "οι νεαρή Σουηδοί", "τα νεαροί Σουηδοί"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-129",
+      "type": "single-choice",
+      "prompt": "идеальный план",
+      "promptLanguage": "ru",
+      "correctAnswer": "το τέλειο σχέδιο",
+      "wrongAnswers": ["ο τέλειο σχέδιο", "η τέλειο σχέδιο", "τα τέλειο σχέδιο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-130",
+      "type": "single-choice",
+      "prompt": "открытая дорога",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ανοιχτός δρόμος",
+      "wrongAnswers": ["η ανοιχτός δρόμος", "ο ανοιχτή δρόμος", "το ανοιχτός δρόμος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-131",
+      "type": "single-choice",
+      "prompt": "больной пациент",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο άρρωστος ασθενής",
+      "wrongAnswers": ["η άρρωστος ασθενής", "ο άρρωστη ασθενής", "το άρρωστος ασθενής"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-132",
+      "type": "single-choice",
+      "prompt": "красивый друг",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ωραίος φίλος",
+      "wrongAnswers": ["η ωραίος φίλος", "ο ωραία φίλος", "το ωραίος φίλος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-133",
+      "type": "single-choice",
+      "prompt": "мягкие климатические условия",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ήπια κλίματα",
+      "wrongAnswers": ["ο ήπια κλίματα", "το ήπια κλίματα", "τα ήπιος κλίματα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-134",
+      "type": "single-choice",
+      "prompt": "длинная дорога",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο μακρύς δρόμος",
+      "wrongAnswers": ["η μακρύς δρόμος", "το μακρύς δρόμος", "ο μακρύς δρομός"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-135",
+      "type": "single-choice",
+      "prompt": "длинные верёвки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μακριά σχοινιά",
+      "wrongAnswers": ["ο μακριά σχοινιά", "το μακριά σχοινιά", "τα μακρύ σχοινιά"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-136",
+      "type": "single-choice",
+      "prompt": "обязательные правила",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι υποχρεωτικοί κανόνες",
+      "wrongAnswers": [
+        "η υποχρεωτικοί κανόνες",
+        "το υποχρεωτικοί κανόνες",
+        "οι υποχρεωτικός κανόνες"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-137",
+      "type": "single-choice",
+      "prompt": "святая икона",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ιερή εικόνα",
+      "wrongAnswers": ["ο ιερή εικόνα", "το ιερή εικόνα", "η ιερός εικόνα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-138",
+      "type": "single-choice",
+      "prompt": "любимый канадец",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο αγαπητός Καναδός",
+      "wrongAnswers": ["η αγαπητός Καναδός", "το αγαπητός Καναδός", "ο αγαπητή Καναδός"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-139",
+      "type": "single-choice",
+      "prompt": "маленькая рука",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό χέρι",
+      "wrongAnswers": ["η μικρό χέρι", "ο μικρό χέρι", "το μικρή χέρι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-140",
+      "type": "single-choice",
+      "prompt": "свежий артишок",
+      "promptLanguage": "ru",
+      "correctAnswer": "η φρέσκια αγκινάρα",
+      "wrongAnswers": ["ο φρέσκια αγκινάρα", "το φρέσκια αγκινάρα", "η φρέσκιος αγκινάρα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-141",
+      "type": "single-choice",
+      "prompt": "большая ложь",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μεγάλα ψέματα",
+      "wrongAnswers": ["ο μεγάλα ψέματα", "το μεγάλα ψέματα", "τα μεγάλος ψέματα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-142",
+      "type": "single-choice",
+      "prompt": "крепкий петух",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γερός κόκορας",
+      "wrongAnswers": ["η γερός κόκορας", "το γερός κόκορας", "ο γερή κόκορας"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-143",
+      "type": "single-choice",
+      "prompt": "больные люди",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άρρωστοι άνθρωποι",
+      "wrongAnswers": ["η άρρωστοι άνθρωποι", "το άρρωστοι άνθρωποι", "οι άρρωστος άνθρωποι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-144",
+      "type": "single-choice",
+      "prompt": "новые сумки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καινούριες τσάντες",
+      "wrongAnswers": ["η καινούριες τσάντες", "το καινούριες τσάντες", "οι καινούριος τσάντες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-145",
+      "type": "single-choice",
+      "prompt": "постоянные работы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μόνιμες δουλειές",
+      "wrongAnswers": ["ο μόνιμος δουλειές", "οι μόνιμος δουλειές", "η μόνιμη δουλειές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-146",
+      "type": "single-choice",
+      "prompt": "опытные полицейские",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι έμπειροι αστυνομικοί",
+      "wrongAnswers": ["η έμπειρη αστυνομικοί", "οι έμπειρη αστυνομικοί", "οι έμπειρος αστυνομικοί"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-147",
+      "type": "single-choice",
+      "prompt": "левое ухо",
+      "promptLanguage": "ru",
+      "correctAnswer": "το αριστερό αυτί",
+      "wrongAnswers": ["η αριστερή αυτί", "το αριστερή αυτί", "ο αριστερός αυτί"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-148",
+      "type": "single-choice",
+      "prompt": "постоянное проживание",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μόνιμη διαμονή",
+      "wrongAnswers": ["ο μόνιμη διαμονή", "η μόνιμος διαμονή", "το μόνιμη διαμονή"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-149",
+      "type": "single-choice",
+      "prompt": "необходимые точилки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι απαραίτητες ξύστρες",
+      "wrongAnswers": ["η απαραίτητες ξύστρες", "οι απαραίτητη ξύστρες", "οι απαραίτητος ξύστρες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-150",
+      "type": "single-choice",
+      "prompt": "центральные мэры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κεντρικοί δήμαρχοι",
+      "wrongAnswers": ["η κεντρική δήμαρχοι", "οι κεντρική δήμαρχοι", "οι κεντρικός δήμαρχοι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-151",
+      "type": "single-choice",
+      "prompt": "большие храмы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μεγάλοι ναοί",
+      "wrongAnswers": ["η μεγάλη ναοί", "οι μεγάλη ναοί", "οι μεγάλος ναοί"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-152",
+      "type": "single-choice",
+      "prompt": "особенные сумки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ιδιαίτερες τσάντες",
+      "wrongAnswers": ["η ιδιαίτερη τσάντες", "οι ιδιαίτερη τσάντες", "οι ιδιαίτερος τσάντες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-153",
+      "type": "single-choice",
+      "prompt": "грязные кухни",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι βρόμικες κουζίνες",
+      "wrongAnswers": ["η βρόμικη κουζίνες", "οι βρόμικη κουζίνες", "οι βρόμικος κουζίνες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-154",
+      "type": "single-choice",
+      "prompt": "последний урок",
+      "promptLanguage": "ru",
+      "correctAnswer": "το τελευταίο μάθημα",
+      "wrongAnswers": ["η τελευταία μάθημα", "το τελευταία μάθημα", "ο τελευταίος μάθημα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-155",
+      "type": "single-choice",
+      "prompt": "рождественская ёлка",
+      "promptLanguage": "ru",
+      "correctAnswer": "το χριστουγεννιάτικο δέντρο",
+      "wrongAnswers": [
+        "η χριστουγεννιάτικη δέντρο",
+        "το χριστουγεννιάτικη δέντρο",
+        "ο χριστουγεννιάτικος δέντρο"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-156",
+      "type": "single-choice",
+      "prompt": "запланированные прогулки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι προγραμματισμένοι περίπατοι",
+      "wrongAnswers": [
+        "η προγραμματισμένη περίπατοι",
+        "οι προγραμματισμένη περίπατοι",
+        "οι προγραμματισμένος περίπατοι"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-157",
+      "type": "single-choice",
+      "prompt": "бразильская музыка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η βραζιλιανική μουσική",
+      "wrongAnswers": [
+        "ο βραζιλιανική μουσική",
+        "η βραζιλιανικός μουσική",
+        "η βραζιλιανικές μουσική"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-158",
+      "type": "single-choice",
+      "prompt": "хороший артист",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο καλός καλλιτέχνης",
+      "wrongAnswers": ["η καλός καλλιτέχνης", "ο καλή καλλιτέχνης", "ο καλοί καλλιτέχνης"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-159",
+      "type": "single-choice",
+      "prompt": "медленные ритмы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αργοί ρυθμοί",
+      "wrongAnswers": ["ο αργοί ρυθμοί", "οι αργός ρυθμοί", "οι αργή ρυθμοί"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-160",
+      "type": "single-choice",
+      "prompt": "чистые, непорочные люди",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αγνοί άνθρωποι",
+      "wrongAnswers": ["ο αγνοί άνθρωποι", "οι αγνός άνθρωποι", "οι αγνή άνθρωποι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-161",
+      "type": "single-choice",
+      "prompt": "серьёзная бессонница",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σοβαρή αϋπνία",
+      "wrongAnswers": ["ο σοβαρή αϋπνία", "η σοβαρός αϋπνία", "η σοβαροί αϋπνία"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-162",
+      "type": "single-choice",
+      "prompt": "молодые женщины",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νεαρές γυναίκες",
+      "wrongAnswers": ["ο νεαρές γυναίκες", "οι νεαρός γυναίκες", "οι νεαρή γυναίκες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-163",
+      "type": "single-choice",
+      "prompt": "сильные дожди",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι δυνατές βροχές",
+      "wrongAnswers": ["ο δυνατές βροχές", "οι δυνατός βροχές", "οι δυνατή βροχές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-164",
+      "type": "single-choice",
+      "prompt": "подходящее решение",
+      "promptLanguage": "ru",
+      "correctAnswer": "η κατάλληλη λύση",
+      "wrongAnswers": ["ο κατάλληλη λύση", "η κατάλληλος λύση", "η κατάλληλοι λύση"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-165",
+      "type": "single-choice",
+      "prompt": "женщина-музыкант",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γυναικεία μουσικός",
+      "wrongAnswers": ["ο γυναικεία μουσικός", "η γυναικείος μουσικός", "η γυναικείοι μουσικός"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-166",
+      "type": "single-choice",
+      "prompt": "дорогие выпускники",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αγαπητοί απόφοιτοι",
+      "wrongAnswers": ["ο αγαπητοί απόφοιτοι", "οι αγαπητός απόφοιτοι", "οι αγαπητή απόφοιτοι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-167",
+      "type": "single-choice",
+      "prompt": "маленькая квартира",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό διαμέρισμα",
+      "wrongAnswers": ["ο μικρό διαμέρισμα", "το μικρή διαμέρισμα", "το μικροί διαμέρισμα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-168",
+      "type": "single-choice",
+      "prompt": "быстрый ученик",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γρήγορος μαθητής",
+      "wrongAnswers": ["η γρήγορος μαθητής", "ο γρήγορη μαθητής", "ο γρήγοροι μαθητής"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-169",
+      "type": "single-choice",
+      "prompt": "дорогая исландка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αγαπητή Ισλανδή",
+      "wrongAnswers": ["ο αγαπητός Ισλανδή", "η αγαπητός Ισλανδή", "το αγαπητή Ισλανδή"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-170",
+      "type": "single-choice",
+      "prompt": "короткий бег",
+      "promptLanguage": "ru",
+      "correctAnswer": "το σύντομο τρέξιμο",
+      "wrongAnswers": ["η σύντομο τρέξιμο", "το σύντομη τρέξιμο", "το σύντομος τρέξιμο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-171",
+      "type": "single-choice",
+      "prompt": "стеклянная ваза",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γυάλινο βάζο",
+      "wrongAnswers": ["η γυάλινο βάζο", "το γυάλινη βάζο", "το γυάλινος βάζο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-172",
+      "type": "single-choice",
+      "prompt": "прекрасные прогулки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι υπέροχες βόλτες",
+      "wrongAnswers": ["η υπέροχες βόλτες", "οι υπέροχη βόλτες", "οι υπέροχος βόλτες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-173",
+      "type": "single-choice",
+      "prompt": "холодные осени",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κρύα φθινόπωρα",
+      "wrongAnswers": ["η κρύα φθινόπωρα", "τα κρύος φθινόπωρα", "τα κρύο φθινόπωρα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-174",
+      "type": "single-choice",
+      "prompt": "плохие слова",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κακά λόγια",
+      "wrongAnswers": ["η κακά λόγια", "τα κακό λόγια", "τα κακή λόγια"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-175",
+      "type": "single-choice",
+      "prompt": "традиционная народная музыка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η παραδοσιακή λαϊκή μουσική",
+      "wrongAnswers": [
+        "ο παραδοσιακή λαϊκή μουσική",
+        "η παραδοσιακός λαϊκή μουσική",
+        "η παραδοσιακή λαϊκός μουσική"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-176",
+      "type": "single-choice",
+      "prompt": "старые места",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι παλιοί τόποι",
+      "wrongAnswers": ["η παλιοί τόποι", "οι παλιά τόποι", "οι παλιός τόποι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-177",
+      "type": "single-choice",
+      "prompt": "цифровой компьютер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ψηφιακός υπολογιστής",
+      "wrongAnswers": ["η ψηφιακός υπολογιστής", "ο ψηφιακή υπολογιστής", "ο ψηφιακό υπολογιστής"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-178",
+      "type": "single-choice",
+      "prompt": "любимые визиты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αγαπημένες επισκέψεις",
+      "wrongAnswers": [
+        "η αγαπημένες επισκέψεις",
+        "οι αγαπημένος επισκέψεις",
+        "οι αγαπημένη επισκέψεις"
+      ]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-179",
+      "type": "single-choice",
+      "prompt": "тёплые воды",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα χλιαρά νερά",
+      "wrongAnswers": ["η χλιαρά νερά", "τα χλιαρός νερά", "τα χλιαρό νερά"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-180",
+      "type": "single-choice",
+      "prompt": "второй ученик",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο δεύτερος μαθητής",
+      "wrongAnswers": ["η δεύτερος μαθητής", "ο δεύτερη μαθητής", "ο δεύτερο μαθητής"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-181",
+      "type": "single-choice",
+      "prompt": "любимые родители",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αγαπημένοι γονείς",
+      "wrongAnswers": ["η αγαπημένη γονείς", "οι αγαπημένη γονείς", "τα αγαπημένοι γονείς"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-182",
+      "type": "single-choice",
+      "prompt": "тонкая пыль",
+      "promptLanguage": "ru",
+      "correctAnswer": "η λεπτή σκόνη",
+      "wrongAnswers": ["ο λεπτός σκόνη", "η λεπτός σκόνη", "το λεπτή σκόνη"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-183",
+      "type": "single-choice",
+      "prompt": "островные кухни",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νησιώτικες κουζίνες",
+      "wrongAnswers": ["η νησιώτικη κουζίνες", "οι νησιώτικη κουζίνες", "τα νησιώτικες κουζίνες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-184",
+      "type": "single-choice",
+      "prompt": "полезные советы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι χρήσιμες συμβουλές",
+      "wrongAnswers": ["η χρήσιμη συμβουλές", "οι χρήσιμη συμβουλές", "τα χρήσιμες συμβουλές"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-185",
+      "type": "single-choice",
+      "prompt": "хорошая терапевт",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καλή παθολόγος",
+      "wrongAnswers": ["ο καλός παθολόγος", "η καλός παθολόγος", "το καλή παθολόγος"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-186",
+      "type": "single-choice",
+      "prompt": "маленькие квартиры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά διαμερίσματα",
+      "wrongAnswers": ["η μικρή διαμερίσματα", "τα μικρή διαμερίσματα", "ο μικρά διαμερίσματα"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-187",
+      "type": "single-choice",
+      "prompt": "тёплая куртка",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ζεστό μπουφάν",
+      "wrongAnswers": ["η ζεστή μπουφάν", "το ζεστή μπουφάν", "ο ζεστό μπουφάν"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-188",
+      "type": "single-choice",
+      "prompt": "хорошие пекарши",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλές φουρνάρισσες",
+      "wrongAnswers": ["η καλή φουρνάρισσες", "οι καλή φουρνάρισσες", "τα καλές φουρνάρισσες"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-189",
+      "type": "single-choice",
+      "prompt": "чистый детский сад",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καθαρό νηπιαγωγείο",
+      "wrongAnswers": ["η καθαρή νηπιαγωγείο", "το καθαρή νηπιαγωγείο", "ο καθαρό νηπιαγωγείο"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-190",
+      "type": "single-choice",
+      "prompt": "большой телевизор",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μεγάλη τηλεόραση",
+      "wrongAnswers": ["ο μεγάλος τηλεόραση", "η μεγάλος τηλεόραση", "το μεγάλη τηλεόραση"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-191",
+      "type": "single-choice",
+      "prompt": "полмесяца",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο μισός μήνας",
+      "wrongAnswers": ["η μισή μήνας", "ο μισή μήνας", "το μισός μήνας"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-192",
+      "type": "single-choice",
+      "prompt": "бельгийский флаг",
+      "promptLanguage": "ru",
+      "correctAnswer": "η βελγική σημαία",
+      "wrongAnswers": ["ο βελγικός σημαία", "η βελγικός σημαία", "το βελγική σημαία"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-193",
+      "type": "single-choice",
+      "prompt": "сладкий мёд",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό μέλι",
+      "wrongAnswers": ["η γλυκιά μέλι", "το γλυκιά μέλι", "τα γλυκά μέλι"]
+    },
+    {
+      "id": "greek-adjectives-nouns-01-194",
+      "type": "single-choice",
+      "prompt": "хороший документальный фильм",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καλό ντοκιμαντέρ",
+      "wrongAnswers": ["η καλή ντοκιμαντέρ", "το καλή ντοκιμαντέρ", "τα καλά ντοκιμαντέρ"]
+    }
+  ]
+}
