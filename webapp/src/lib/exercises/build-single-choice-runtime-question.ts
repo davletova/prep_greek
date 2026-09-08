@@ -18,5 +18,6 @@ export function buildSingleChoiceRuntimeQuestion(
     correctIndex: options.findIndex((option) => option === exercise.correctAnswer),
     translation: exercise.translation,
     explanation: exercise.explanation,
+    hint: exercise.hint,
   };
 }

@@ -41,6 +41,7 @@ export interface SingleChoiceRuntimeQuestion {
   correctIndex: number;
   translation?: string | undefined;
   explanation?: string | undefined;
+  hint?: string | undefined;
 }
 
 export interface InputExercise extends BaseExercise {

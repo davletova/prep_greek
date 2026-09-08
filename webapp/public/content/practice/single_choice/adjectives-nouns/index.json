@@ -1,8 +1,38 @@
 [
   {
-    "id": "nouns-adjectives-part-01",
-    "title": "Часть - 1",
-    "subtitle": "Веберите правильный перевод",
-    "fileName": "part-01.json"
+    "id": "nouns-adjectives-people",
+    "title": "Люди",
+    "subtitle": "Возраст, внешность и описание людей",
+    "indexFileName": "people/index.json"
+  },
+  {
+    "id": "nouns-adjectives-everyday-life",
+    "title": "Повседневная жизнь",
+    "subtitle": "Дом, покупки, одежда, услуги и деньги",
+    "indexFileName": "everyday-life/index.json"
+  },
+  {
+    "id": "nouns-adjectives-food",
+    "title": "Еда",
+    "subtitle": "Продукты, блюда, напитки и заведения",
+    "indexFileName": "food/index.json"
+  },
+  {
+    "id": "nouns-adjectives-education-communication",
+    "title": "Образование и общение",
+    "subtitle": "Учёба, языки, книги, технологии и связь",
+    "indexFileName": "education-communication/index.json"
+  },
+  {
+    "id": "nouns-adjectives-city-travel",
+    "title": "Город и путешествия",
+    "subtitle": "Городские места, транспорт, культуры и туризм",
+    "indexFileName": "city-travel/index.json"
+  },
+  {
+    "id": "nouns-adjectives-nature",
+    "title": "Природа",
+    "subtitle": "Животные, растения, ландшафт и погода",
+    "indexFileName": "nature/index.json"
   }
 ]

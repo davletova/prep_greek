@@ -56,9 +56,9 @@ export function usePracticeContentState(
   const [selectedSingleChoiceTopicId, setSelectedSingleChoiceTopicId] = useState<string | null>(
     null
   );
-  const [selectedSingleChoiceGroupId, setSelectedSingleChoiceGroupId] = useState<string | null>(
-    null
-  );
+  const [selectedSingleChoiceGroups, setSelectedSingleChoiceGroups] = useState<
+    SingleChoicePracticeGroupDefinition[]
+  >([]);
   const [selectedInputTopicId, setSelectedInputTopicId] = useState<string | null>(null);
   const [selectedListeningTopicId, setSelectedListeningTopicId] = useState<string | null>(null);
 
@@ -75,14 +75,8 @@ export function usePracticeContentState(
     loadListeningTopicDefinitions
   );
 
-  const selectedSingleChoiceGroup = useMemo(
-    () =>
-      singleChoiceTopicsState.data?.find(
-        (entry) =>
-          entry.id === selectedSingleChoiceGroupId && isSingleChoicePracticeGroupDefinition(entry)
-      ) as SingleChoicePracticeGroupDefinition | undefined,
-    [selectedSingleChoiceGroupId, singleChoiceTopicsState.data]
-  );
+  const selectedSingleChoiceGroup =
+    selectedSingleChoiceGroups[selectedSingleChoiceGroups.length - 1];
 
   const loadSelectedSingleChoiceGroup = useCallback(() => {
     if (!selectedSingleChoiceGroup) {
@@ -112,9 +106,22 @@ export function usePracticeContentState(
     [singleChoiceTopicsState]
   );
 
-  const availableSingleChoiceTopicsState = selectedSingleChoiceGroupId
-    ? singleChoiceGroupTopicsState
-    : rootSingleChoiceTopicsState;
+  const availableSingleChoiceTopicsState = useMemo<
+    LoadableState<SingleChoicePracticeTopicDefinition[]>
+  >(() => {
+    if (!selectedSingleChoiceGroup) {
+      return rootSingleChoiceTopicsState;
+    }
+
+    return {
+      ...singleChoiceGroupTopicsState,
+      data:
+        singleChoiceGroupTopicsState.data?.filter(
+          (entry): entry is SingleChoicePracticeTopicDefinition =>
+            !isSingleChoicePracticeGroupDefinition(entry)
+        ) ?? null,
+    };
+  }, [rootSingleChoiceTopicsState, selectedSingleChoiceGroup, singleChoiceGroupTopicsState]);
 
   const singleChoiceTopicListState = useMemo<LoadableState<TopicListItem[]>>(
     () => ({
@@ -175,16 +182,21 @@ export function usePracticeContentState(
 
   const closeSingleChoiceTopic = () => {
     setScreen(
-      selectedSingleChoiceGroupId
-        ? "practice-single-choice-group"
-        : "practice-single-choice-topics",
+      selectedSingleChoiceGroup ? "practice-single-choice-group" : "practice-single-choice-topics",
       { history: "replace" }
     );
   };
 
   const closeSingleChoiceGroup = () => {
-    setSelectedSingleChoiceGroupId(null);
     setSelectedSingleChoiceTopicId(null);
+
+    if (selectedSingleChoiceGroups.length > 1) {
+      setSelectedSingleChoiceGroups((groups) => groups.slice(0, -1));
+      setScreen("practice-single-choice-group", { history: "replace" });
+      return;
+    }
+
+    setSelectedSingleChoiceGroups([]);
     setScreen("practice-single-choice-topics", { history: "replace" });
   };
 
@@ -206,18 +218,32 @@ export function usePracticeContentState(
     setSelectedSingleChoiceTopicId(null);
 
     if (isSingleChoicePracticeGroupDefinition(entry)) {
-      setSelectedSingleChoiceGroupId(entry.id);
+      setSelectedSingleChoiceGroups([entry]);
       setScreen("practice-single-choice-group");
       return;
     }
 
-    setSelectedSingleChoiceGroupId(null);
+    setSelectedSingleChoiceGroups([]);
     setSelectedSingleChoiceTopicId(entry.id);
     setScreen("practice-single-choice-topic");
   };
 
   const openSingleChoiceGroupTopic = (topicId: string) => {
-    setSelectedSingleChoiceTopicId(topicId);
+    const entry = singleChoiceGroupTopicsState.data?.find((candidate) => candidate.id === topicId);
+
+    if (!entry) {
+      return;
+    }
+
+    setSelectedSingleChoiceTopicId(null);
+
+    if (isSingleChoicePracticeGroupDefinition(entry)) {
+      setSelectedSingleChoiceGroups((groups) => [...groups, entry]);
+      setScreen("practice-single-choice-group");
+      return;
+    }
+
+    setSelectedSingleChoiceTopicId(entry.id);
     setScreen("practice-single-choice-topic");
   };
 

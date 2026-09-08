@@ -50,6 +50,15 @@ describe("exercise schemas", () => {
     ).toBe(false);
   });
 
+  it("accepts single-choice exercises with a hint", () => {
+    expect(
+      singleChoiceExerciseSchema.safeParse({
+        ...validSingleChoiceExercise,
+        hint: "Обратите внимание на артикль.",
+      }).success
+    ).toBe(true);
+  });
+
   it("accepts single-choice exercises with at least one wrong answer", () => {
     expect(
       singleChoiceExerciseSchema.safeParse({

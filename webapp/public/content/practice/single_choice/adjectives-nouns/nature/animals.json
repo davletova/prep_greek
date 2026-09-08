@@ -1,0 +1,590 @@
+{
+  "title": "Животные",
+  "subtitle": "Практикуйте согласование в названиях и описаниях животных",
+  "items": [
+    {
+      "id": "nouns-adjectives-nature-animals-001",
+      "type": "single-choice",
+      "prompt": "маленькие козы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μικρές κατσίκες",
+      "wrongAnswers": ["ο μικρός κατσίκες", "οι μικροί κατσίκες", "η μικρή κατσίκες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-002",
+      "type": "single-choice",
+      "prompt": "крепкий петух",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γερός κόκορας",
+      "wrongAnswers": ["οι γεροί κόκορας", "η γερή κόκορας", "οι γερές κόκορας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-003",
+      "type": "single-choice",
+      "prompt": "дикие животные",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα άγρια ζώα",
+      "wrongAnswers": ["ο άγριος ζώα", "οι άγριοι ζώα", "οι άγριες ζώα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-004",
+      "type": "single-choice",
+      "prompt": "дикий волк",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο άγριος λύκος",
+      "wrongAnswers": ["οι άγριοι λύκος", "η άγρια λύκος", "οι άγριες λύκος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-005",
+      "type": "single-choice",
+      "prompt": "самки кошек",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι θηλυκές γάτες",
+      "wrongAnswers": ["ο θηλυκός γάτες", "οι θηλυκοί γάτες", "η θηλυκή γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-006",
+      "type": "single-choice",
+      "prompt": "дикое яйцо",
+      "promptLanguage": "ru",
+      "correctAnswer": "το άγριο αβγό",
+      "wrongAnswers": ["ο άγριος αβγό", "οι άγριοι αβγό", "η άγρια αβγό"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-007",
+      "type": "single-choice",
+      "prompt": "дикая собака",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο άγριος σκύλος",
+      "wrongAnswers": ["οι άγριοι σκύλος", "η άγρια σκύλος", "οι άγριες σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-008",
+      "type": "single-choice",
+      "prompt": "кот",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αρσενική γάτα",
+      "wrongAnswers": ["ο αρσενικός γάτα", "οι αρσενικοί γάτα", "οι αρσενικές γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-009",
+      "type": "single-choice",
+      "prompt": "маленькие собаки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μικροί σκύλοι",
+      "wrongAnswers": ["ο μικρός σκύλοι", "η μικρή σκύλοι", "οι μικρές σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-010",
+      "type": "single-choice",
+      "prompt": "маленькие мыши",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά ποντίκια",
+      "wrongAnswers": ["ο μικρός ποντίκια", "οι μικροί ποντίκια", "η μικρή ποντίκια"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-011",
+      "type": "single-choice",
+      "prompt": "дикие яйца",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα άγρια αβγά",
+      "wrongAnswers": ["ο άγριος αβγά", "οι άγριοι αβγά", "οι άγριες αβγά"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-012",
+      "type": "single-choice",
+      "prompt": "красивые птицы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα όμορφα πουλιά",
+      "wrongAnswers": ["ο όμορφος πουλιά", "οι όμορφοι πουλιά", "η όμορφη πουλιά"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-013",
+      "type": "single-choice",
+      "prompt": "редкая порода животного",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σπάνια ράτσα ζώου",
+      "wrongAnswers": ["ο σπάνιος ράτσα ζώου", "το σπάνιο ράτσα ζώου", "οι σπάνιοι ράτσα ζώου"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-014",
+      "type": "single-choice",
+      "prompt": "маленькие ягнята",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά αρνιά",
+      "wrongAnswers": ["ο μικρός αρνιά", "οι μικροί αρνιά", "η μικρή αρνιά"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-015",
+      "type": "single-choice",
+      "prompt": "кобели",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αρσενικοί σκύλοι",
+      "wrongAnswers": ["ο αρσενικός σκύλοι", "η αρσενική σκύλοι", "οι αρσενικές σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-016",
+      "type": "single-choice",
+      "prompt": "маленькие дельфины",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά δελφίνια",
+      "wrongAnswers": ["ο μικρός δελφίνια", "οι μικροί δελφίνια", "η μικρή δελφίνια"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-017",
+      "type": "single-choice",
+      "prompt": "маленькие кролики",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά κουνέλια",
+      "wrongAnswers": ["ο μικρός κουνέλια", "οι μικροί κουνέλια", "η μικρή κουνέλια"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-018",
+      "type": "single-choice",
+      "prompt": "маленький цыплёнок",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό κοτόπουλο",
+      "wrongAnswers": ["ο μικρός κοτόπουλο", "οι μικροί κοτόπουλο", "η μικρή κοτόπουλο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-019",
+      "type": "single-choice",
+      "prompt": "кудрявые коты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σγουροί γάτοι",
+      "wrongAnswers": ["ο σγουρός γάτοι", "η σγουρή γάτοι", "οι σγουρές γάτοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-020",
+      "type": "single-choice",
+      "prompt": "маленькая коза",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μικρή κατσίκα",
+      "wrongAnswers": ["ο μικρός κατσίκα", "οι μικροί κατσίκα", "οι μικρές κατσίκα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-021",
+      "type": "single-choice",
+      "prompt": "маленькие крылья",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά φτερά",
+      "wrongAnswers": ["ο μικρός φτερά", "οι μικροί φτερά", "η μικρή φτερά"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-022",
+      "type": "single-choice",
+      "prompt": "самец собаки",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο αρσενικός σκύλος",
+      "wrongAnswers": ["οι αρσενικοί σκύλος", "η αρσενική σκύλος", "οι αρσενικές σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-023",
+      "type": "single-choice",
+      "prompt": "крепкий осёл",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γερός γάιδαρος",
+      "wrongAnswers": ["οι γεροί γάιδαρος", "η γερή γάιδαρος", "οι γερές γάιδαρος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-024",
+      "type": "single-choice",
+      "prompt": "хорошие собаки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλοί σκύλοι",
+      "wrongAnswers": ["ο καλός σκύλοι", "η καλή σκύλοι", "οι καλές σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-025",
+      "type": "single-choice",
+      "prompt": "маленькое перо",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό φτερό",
+      "wrongAnswers": ["ο μικρός φτερό", "οι μικροί φτερό", "η μικρή φτερό"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-026",
+      "type": "single-choice",
+      "prompt": "дикое животное",
+      "promptLanguage": "ru",
+      "correctAnswer": "το άγριο ζώο",
+      "wrongAnswers": ["ο άγριος ζώο", "οι άγριοι ζώο", "η άγρια ζώο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-027",
+      "type": "single-choice",
+      "prompt": "самки животных",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα θηλυκά ζώα",
+      "wrongAnswers": ["ο θηλυκός ζώα", "οι θηλυκοί ζώα", "η θηλυκή ζώα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-028",
+      "type": "single-choice",
+      "prompt": "маленькие цыплята",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά κοτόπουλα",
+      "wrongAnswers": ["ο μικρός κοτόπουλα", "οι μικροί κοτόπουλα", "η μικρή κοτόπουλα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-029",
+      "type": "single-choice",
+      "prompt": "быстрый заяц",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γρήγορος λαγός",
+      "wrongAnswers": ["οι γρήγοροι λαγός", "η γρήγορη λαγός", "οι γρήγορες λαγός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-030",
+      "type": "single-choice",
+      "prompt": "хорошие свиньи",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καλά γουρούνια",
+      "wrongAnswers": ["ο καλός γουρούνια", "οι καλοί γουρούνια", "η καλή γουρούνια"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-031",
+      "type": "single-choice",
+      "prompt": "красивые кошки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι όμορφες γάτες",
+      "wrongAnswers": ["ο όμορφος γάτες", "οι όμορφοι γάτες", "η όμορφη γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-032",
+      "type": "single-choice",
+      "prompt": "маленькая мышь",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό ποντίκι",
+      "wrongAnswers": ["ο μικρός ποντίκι", "οι μικροί ποντίκι", "η μικρή ποντίκι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-033",
+      "type": "single-choice",
+      "prompt": "крепкий осёл",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γερό γαϊδούρι",
+      "wrongAnswers": ["ο γερός γαϊδούρι", "οι γεροί γαϊδούρι", "η γερή γαϊδούρι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-034",
+      "type": "single-choice",
+      "prompt": "быстрая лошадь",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γοργό άλογο",
+      "wrongAnswers": ["ο γοργός άλογο", "η γοργή άλογο", "οι γοργοί άλογο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-035",
+      "type": "single-choice",
+      "prompt": "редкие породы животных",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σπάνιες ράτσες ζώων",
+      "wrongAnswers": ["ο σπάνιος ράτσες ζώων", "η σπάνια ράτσες ζώων", "το σπάνιο ράτσες ζώων"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-036",
+      "type": "single-choice",
+      "prompt": "большая лошадь",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μεγάλο άλογο",
+      "wrongAnswers": ["ο μεγάλος άλογο", "οι μεγάλοι άλογο", "η μεγάλη άλογο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-037",
+      "type": "single-choice",
+      "prompt": "дикие кошки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άγριες γάτες",
+      "wrongAnswers": ["ο άγριος γάτες", "οι άγριοι γάτες", "η άγρια γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-038",
+      "type": "single-choice",
+      "prompt": "пустые мыши",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα άδεια ποντίκια",
+      "wrongAnswers": ["ο άδειος ποντίκια", "οι άδειοι ποντίκια", "οι άδειες ποντίκια"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-039",
+      "type": "single-choice",
+      "prompt": "маленький дельфин",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό δελφίνι",
+      "wrongAnswers": ["ο μικρός δελφίνι", "οι μικροί δελφίνι", "η μικρή δελφίνι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-040",
+      "type": "single-choice",
+      "prompt": "разноцветный орёл",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο πολύχρωμος αετός",
+      "wrongAnswers": ["η πολύχρωμη αετός", "το πολύχρωμο αετός", "οι πολύχρωμοι αετός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-041",
+      "type": "single-choice",
+      "prompt": "живые животные",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ζωντανά ζώα",
+      "wrongAnswers": ["ο ζωντανός ζώα", "οι ζωντανοί ζώα", "η ζωντανή ζώα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-042",
+      "type": "single-choice",
+      "prompt": "маленький кролик",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό κουνέλι",
+      "wrongAnswers": ["ο μικρός κουνέλι", "οι μικροί κουνέλι", "η μικρή κουνέλι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-043",
+      "type": "single-choice",
+      "prompt": "дикая кошка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η άγρια γάτα",
+      "wrongAnswers": ["ο άγριος γάτα", "οι άγριοι γάτα", "οι άγριες γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-044",
+      "type": "single-choice",
+      "prompt": "крепкие ослы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γεροί γάιδαροι",
+      "wrongAnswers": ["ο γερός γάιδαροι", "η γερή γάιδαροι", "οι γερές γάιδαροι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-045",
+      "type": "single-choice",
+      "prompt": "большие лошади",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μεγάλα άλογα",
+      "wrongAnswers": ["ο μεγάλος άλογα", "οι μεγάλοι άλογα", "η μεγάλη άλογα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-046",
+      "type": "single-choice",
+      "prompt": "красивая кошка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η όμορφη γάτα",
+      "wrongAnswers": ["ο όμορφος γάτα", "οι όμορφοι γάτα", "οι όμορφες γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-047",
+      "type": "single-choice",
+      "prompt": "самцы-коты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αρσενικές γάτες",
+      "wrongAnswers": ["ο αρσενικός γάτες", "οι αρσενικοί γάτες", "η αρσενική γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-048",
+      "type": "single-choice",
+      "prompt": "женское животное",
+      "promptLanguage": "ru",
+      "correctAnswer": "το θηλυκό ζώο",
+      "wrongAnswers": ["ο θηλυκός ζώο", "οι θηλυκοί ζώο", "η θηλυκή ζώο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-049",
+      "type": "single-choice",
+      "prompt": "белая курица",
+      "promptLanguage": "ru",
+      "correctAnswer": "η άσπρη κότα",
+      "wrongAnswers": ["ο άσπρος κότα", "οι άσπροι κότα", "οι άσπρες κότα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-050",
+      "type": "single-choice",
+      "prompt": "маленькие кошки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μικρές γάτες",
+      "wrongAnswers": ["ο μικρός γάτες", "οι μικροί γάτες", "η μικρή γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-051",
+      "type": "single-choice",
+      "prompt": "дикие волки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άγριοι λύκοι",
+      "wrongAnswers": ["ο άγριος λύκοι", "η άγρια λύκοι", "οι άγριες λύκοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-052",
+      "type": "single-choice",
+      "prompt": "белые курицы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άσπρες κότες",
+      "wrongAnswers": ["ο άσπρος κότες", "οι άσπροι κότες", "η άσπρη κότες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-053",
+      "type": "single-choice",
+      "prompt": "чёрная кошка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μαύρη γάτα",
+      "wrongAnswers": ["ο μαύρος γάτα", "οι μαύροι γάτα", "οι μαύρες γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-054",
+      "type": "single-choice",
+      "prompt": "хорошая собака",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο καλός σκύλος",
+      "wrongAnswers": ["οι καλοί σκύλος", "η καλή σκύλος", "οι καλές σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-055",
+      "type": "single-choice",
+      "prompt": "маленькая собака",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο μικρός σκύλος",
+      "wrongAnswers": ["οι μικροί σκύλος", "η μικρή σκύλος", "οι μικρές σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-056",
+      "type": "single-choice",
+      "prompt": "живое существо",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ζωντανό πλάσμα",
+      "wrongAnswers": ["ο ζωντανός πλάσμα", "οι ζωντανοί πλάσμα", "η ζωντανή πλάσμα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-057",
+      "type": "single-choice",
+      "prompt": "кошка-самка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η θηλυκή γάτα",
+      "wrongAnswers": ["ο θηλυκός γάτα", "οι θηλυκοί γάτα", "οι θηλυκές γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-058",
+      "type": "single-choice",
+      "prompt": "быстрые зайцы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γρήγοροι λαγοί",
+      "wrongAnswers": ["ο γρήγορος λαγοί", "η γρήγορη λαγοί", "οι γρήγορες λαγοί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-059",
+      "type": "single-choice",
+      "prompt": "хорошая свинья",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καλό γουρούνι",
+      "wrongAnswers": ["ο καλός γουρούνι", "οι καλοί γουρούνι", "η καλή γουρούνι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-060",
+      "type": "single-choice",
+      "prompt": "животные-самцы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα αρσενικά ζώα",
+      "wrongAnswers": ["ο αρσενικός ζώα", "οι αρσενικοί ζώα", "η αρσενική ζώα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-061",
+      "type": "single-choice",
+      "prompt": "живые существа",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ζωντανά πλάσματα",
+      "wrongAnswers": ["ο ζωντανός πλάσματα", "οι ζωντανοί πλάσματα", "η ζωντανή πλάσματα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-062",
+      "type": "single-choice",
+      "prompt": "чёрные собаки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μαύροι σκύλοι",
+      "wrongAnswers": ["ο μαύρος σκύλοι", "η μαύρη σκύλοι", "οι μαύρες σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-063",
+      "type": "single-choice",
+      "prompt": "быстрые лошади",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γοργά άλογα",
+      "wrongAnswers": ["ο γοργός άλογα", "η γοργή άλογα", "το γοργό άλογα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-064",
+      "type": "single-choice",
+      "prompt": "крепкие ослы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γερά γαϊδούρια",
+      "wrongAnswers": ["ο γερός γαϊδούρια", "οι γεροί γαϊδούρια", "η γερή γαϊδούρια"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-065",
+      "type": "single-choice",
+      "prompt": "кудрявый кот",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο σγουρός γάτος",
+      "wrongAnswers": ["οι σγουροί γάτος", "η σγουρή γάτος", "οι σγουρές γάτος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-066",
+      "type": "single-choice",
+      "prompt": "крепкие петухи",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γεροί κόκορες",
+      "wrongAnswers": ["ο γερός κόκορες", "η γερή κόκορες", "οι γερές κόκορες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-067",
+      "type": "single-choice",
+      "prompt": "красивая птица",
+      "promptLanguage": "ru",
+      "correctAnswer": "το όμορφο πουλί",
+      "wrongAnswers": ["ο όμορφος πουλί", "οι όμορφοι πουλί", "η όμορφη πουλί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-068",
+      "type": "single-choice",
+      "prompt": "маленькая кошка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μικρή γάτα",
+      "wrongAnswers": ["ο μικρός γάτα", "οι μικροί γάτα", "οι μικρές γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-069",
+      "type": "single-choice",
+      "prompt": "маленький ягнёнок",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό αρνί",
+      "wrongAnswers": ["ο μικρός αρνί", "οι μικροί αρνί", "η μικρή αρνί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-070",
+      "type": "single-choice",
+      "prompt": "чёрная собака",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο μαύρος σκύλος",
+      "wrongAnswers": ["οι μαύροι σκύλος", "η μαύρη σκύλος", "οι μαύρες σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-071",
+      "type": "single-choice",
+      "prompt": "чёрные кошки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μαύρες γάτες",
+      "wrongAnswers": ["ο μαύρος γάτες", "οι μαύροι γάτες", "η μαύρη γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-072",
+      "type": "single-choice",
+      "prompt": "дикие собаки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άγριοι σκύλοι",
+      "wrongAnswers": ["ο άγριος σκύλοι", "η άγρια σκύλοι", "οι άγριες σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-073",
+      "type": "single-choice",
+      "prompt": "самец животного",
+      "promptLanguage": "ru",
+      "correctAnswer": "το αρσενικό ζώο",
+      "wrongAnswers": ["ο αρσενικός ζώο", "οι αρσενικοί ζώο", "η αρσενική ζώο"]
+    }
+  ]
+}

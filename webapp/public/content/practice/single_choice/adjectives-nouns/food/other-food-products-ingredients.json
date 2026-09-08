@@ -1,0 +1,1134 @@
+{
+  "title": "Другие продукты и ингредиенты",
+  "subtitle": "Закрепите род и число в названиях продуктов и ингредиентов",
+  "items": [
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-001",
+      "type": "single-choice",
+      "prompt": "бельгийские сыры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα βελγικά τυριά",
+      "wrongAnswers": ["ο βελγικός τυριά", "οι βελγικοί τυριά", "η βελγική τυριά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-002",
+      "type": "single-choice",
+      "prompt": "вкусные салями",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα σαλάμια",
+      "wrongAnswers": ["ο νόστιμος σαλάμια", "οι νόστιμοι σαλάμια", "η νόστιμη σαλάμια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-003",
+      "type": "single-choice",
+      "prompt": "свежее молоко",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο γάλα",
+      "wrongAnswers": ["ο φρέσκος γάλα", "οι φρέσκοι γάλα", "η φρέσκια γάλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-004",
+      "type": "single-choice",
+      "prompt": "островные кухни",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νησιώτικες κουζίνες",
+      "wrongAnswers": ["ο νησιώτικος κουζίνες", "η νησιώτικη κουζίνες", "το νησιώτικο κουζίνες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-005",
+      "type": "single-choice",
+      "prompt": "сладкий мёд",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό μέλι",
+      "wrongAnswers": ["ο γλυκός μέλι", "οι γλυκοί μέλι", "η γλυκιά μέλι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-006",
+      "type": "single-choice",
+      "prompt": "утренние приёмы пищи",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα πρωινά γεύματα",
+      "wrongAnswers": ["ο πρωινός γεύματα", "οι πρωινοί γεύματα", "η πρωινή γεύματα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-007",
+      "type": "single-choice",
+      "prompt": "корейская кухня",
+      "promptLanguage": "ru",
+      "correctAnswer": "η κορεατική κουζίνα",
+      "wrongAnswers": ["ο κορεατικός κουζίνα", "το κορεατικό κουζίνα", "οι κορεατικοί κουζίνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-008",
+      "type": "single-choice",
+      "prompt": "сухие буханки хлеба",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ξηρά ψωμιά",
+      "wrongAnswers": ["ο ξηρός ψωμιά", "οι ξηροί ψωμιά", "η ξηρή ψωμιά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-009",
+      "type": "single-choice",
+      "prompt": "вкусная котлета",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο μπιφτέκι",
+      "wrongAnswers": ["ο νόστιμος μπιφτέκι", "οι νόστιμοι μπιφτέκι", "η νόστιμη μπιφτέκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-010",
+      "type": "single-choice",
+      "prompt": "лёгкие ужины",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ελαφριά βραδινά",
+      "wrongAnswers": ["ο ελαφρύς βραδινά", "οι ελαφριοί βραδινά", "οι ελαφριές βραδινά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-011",
+      "type": "single-choice",
+      "prompt": "полезные жиры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα υγιεινά λιπαρά",
+      "wrongAnswers": ["ο υγιεινός λιπαρά", "οι υγιεινοί λιπαρά", "η υγιεινή λιπαρά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-012",
+      "type": "single-choice",
+      "prompt": "вкусный завтрак",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο πρωινό",
+      "wrongAnswers": ["ο νόστιμος πρωινό", "οι νόστιμοι πρωινό", "η νόστιμη πρωινό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-013",
+      "type": "single-choice",
+      "prompt": "сладкий вкус",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά γεύση",
+      "wrongAnswers": ["ο γλυκός γεύση", "οι γλυκοί γεύση", "οι γλυκές γεύση"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-014",
+      "type": "single-choice",
+      "prompt": "умеренные блюда",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μέτρια φαγητά",
+      "wrongAnswers": ["ο μέτριος φαγητά", "οι μέτριοι φαγητά", "οι μέτριες φαγητά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-015",
+      "type": "single-choice",
+      "prompt": "полезные приёмы пищи",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα υγιεινά γεύματα",
+      "wrongAnswers": ["ο υγιεινός γεύματα", "οι υγιεινοί γεύματα", "η υγιεινή γεύματα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-016",
+      "type": "single-choice",
+      "prompt": "свежий хлеб",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο ψωμί",
+      "wrongAnswers": ["ο φρέσκος ψωμί", "οι φρέσκοι ψωμί", "η φρέσκια ψωμί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-017",
+      "type": "single-choice",
+      "prompt": "чистая соль",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καθαρό αλάτι",
+      "wrongAnswers": ["ο καθαρός αλάτι", "οι καθαροί αλάτι", "η καθαρή αλάτι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-018",
+      "type": "single-choice",
+      "prompt": "вкусные сладости",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα γλυκά",
+      "wrongAnswers": ["ο νόστιμος γλυκά", "οι νόστιμοι γλυκά", "η νόστιμη γλυκά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-019",
+      "type": "single-choice",
+      "prompt": "здоровые продукты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι υγιεινές τροφές",
+      "wrongAnswers": ["ο υγιεινός τροφές", "οι υγιεινοί τροφές", "η υγιεινή τροφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-020",
+      "type": "single-choice",
+      "prompt": "хорошие продукты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλές τροφές",
+      "wrongAnswers": ["ο καλός τροφές", "οι καλοί τροφές", "η καλή τροφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-021",
+      "type": "single-choice",
+      "prompt": "потрясающая еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καταπληκτικό φαγητό",
+      "wrongAnswers": ["ο καταπληκτικός φαγητό", "οι καταπληκτικοί φαγητό", "η καταπληκτική φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-022",
+      "type": "single-choice",
+      "prompt": "лёгкий обед",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ελαφρύ μεσημεριανό",
+      "wrongAnswers": ["ο ελαφρύς μεσημεριανό", "οι ελαφριοί μεσημεριανό", "η ελαφριά μεσημεριανό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-023",
+      "type": "single-choice",
+      "prompt": "свежие буханки хлеба",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα ψωμιά",
+      "wrongAnswers": ["ο φρέσκος ψωμιά", "οι φρέσκοι ψωμιά", "η φρέσκια ψωμιά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-024",
+      "type": "single-choice",
+      "prompt": "вкусный сэндвич",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο σάντουιτς",
+      "wrongAnswers": ["ο νόστιμος σάντουιτς", "οι νόστιμοι σάντουιτς", "η νόστιμη σάντουιτς"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-025",
+      "type": "single-choice",
+      "prompt": "вкусный суп",
+      "promptLanguage": "ru",
+      "correctAnswer": "η νόστιμη σούπα",
+      "wrongAnswers": ["ο νόστιμος σούπα", "οι νόστιμοι σούπα", "οι νόστιμες σούπα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-026",
+      "type": "single-choice",
+      "prompt": "достаточно воды",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα αρκετά νερά",
+      "wrongAnswers": ["ο αρκετός νερά", "οι αρκετοί νερά", "η αρκετή νερά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-027",
+      "type": "single-choice",
+      "prompt": "простая еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το απλό φαγητό",
+      "wrongAnswers": ["ο απλός φαγητό", "οι απλοί φαγητό", "η απλή φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-028",
+      "type": "single-choice",
+      "prompt": "свежая рыба",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο ψάρι",
+      "wrongAnswers": ["ο φρέσκος ψάρι", "οι φρέσκοι ψάρι", "η φρέσκια ψάρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-029",
+      "type": "single-choice",
+      "prompt": "японская еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ιαπωνικό φαγητό",
+      "wrongAnswers": ["ο ιαπωνικός φαγητό", "οι ιαπωνικοί φαγητό", "η ιαπωνική φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-030",
+      "type": "single-choice",
+      "prompt": "хорошая пища",
+      "promptLanguage": "ru",
+      "correctAnswer": "η καλή τροφή",
+      "wrongAnswers": ["ο καλός τροφή", "οι καλοί τροφή", "οι καλές τροφή"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-031",
+      "type": "single-choice",
+      "prompt": "разные виды свежего молока",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα γάλατα",
+      "wrongAnswers": ["ο φρέσκος γάλατα", "οι φρέσκοι γάλατα", "η φρέσκια γάλατα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-032",
+      "type": "single-choice",
+      "prompt": "маленькая шоколадная конфета",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό σοκολατάκι",
+      "wrongAnswers": ["ο μικρός σοκολατάκι", "οι μικροί σοκολατάκι", "η μικρή σοκολατάκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-033",
+      "type": "single-choice",
+      "prompt": "красивый торт",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ωραία τούρτα",
+      "wrongAnswers": ["ο ωραίος τούρτα", "οι ωραίοι τούρτα", "οι ωραίες τούρτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-034",
+      "type": "single-choice",
+      "prompt": "горячие супы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ζεστές σούπες",
+      "wrongAnswers": ["ο ζεστός σούπες", "οι ζεστοί σούπες", "η ζεστή σούπες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-035",
+      "type": "single-choice",
+      "prompt": "китайские кухни",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κινεζικές κουζίνες",
+      "wrongAnswers": ["ο κινεζικός κουζίνες", "οι κινεζικοί κουζίνες", "η κινεζική κουζίνες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-036",
+      "type": "single-choice",
+      "prompt": "сладкий пончик",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό ντόνατ",
+      "wrongAnswers": ["ο γλυκός ντόνατ", "οι γλυκοί ντόνατ", "η γλυκιά ντόνατ"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-037",
+      "type": "single-choice",
+      "prompt": "норвежская рыба",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νορβηγικά ψάρια",
+      "wrongAnswers": ["ο νορβηγικός ψάρια", "οι νορβηγικοί ψάρια", "η νορβηγική ψάρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-038",
+      "type": "single-choice",
+      "prompt": "завтрак",
+      "promptLanguage": "ru",
+      "correctAnswer": "το πρωινό γεύμα",
+      "wrongAnswers": ["ο πρωινός γεύμα", "οι πρωινοί γεύμα", "η πρωινή γεύμα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-039",
+      "type": "single-choice",
+      "prompt": "оставшийся хлеб",
+      "promptLanguage": "ru",
+      "correctAnswer": "το υπόλοιπο ψωμί",
+      "wrongAnswers": ["ο υπόλοιπος ψωμί", "οι υπόλοιποι ψωμί", "η υπόλοιπη ψωμί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-040",
+      "type": "single-choice",
+      "prompt": "сухой хлеб",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ξηρό ψωμί",
+      "wrongAnswers": ["ο ξηρός ψωμί", "οι ξηροί ψωμί", "η ξηρή ψωμί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-041",
+      "type": "single-choice",
+      "prompt": "полные мешки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γεμάτοι σάκοι",
+      "wrongAnswers": ["ο γεμάτος σάκοι", "η γεμάτη σάκοι", "οι γεμάτες σάκοι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-042",
+      "type": "single-choice",
+      "prompt": "средняя еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μέτριο φαγητό",
+      "wrongAnswers": ["ο μέτριος φαγητό", "οι μέτριοι φαγητό", "η μέτρια φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-043",
+      "type": "single-choice",
+      "prompt": "здоровая пища",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα υγιεινά φαγητά",
+      "wrongAnswers": ["ο υγιεινός φαγητά", "οι υγιεινοί φαγητά", "η υγιεινή φαγητά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-044",
+      "type": "single-choice",
+      "prompt": "хорошие макароны",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καλά μακαρόνια",
+      "wrongAnswers": ["ο καλός μακαρόνια", "οι καλοί μακαρόνια", "η καλή μακαρόνια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-045",
+      "type": "single-choice",
+      "prompt": "вкусные баклавы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμοι μπακλαβάδες",
+      "wrongAnswers": ["ο νόστιμος μπακλαβάδες", "η νόστιμη μπακλαβάδες", "οι νόστιμες μπακλαβάδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-046",
+      "type": "single-choice",
+      "prompt": "вкусная салями",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο σαλάμι",
+      "wrongAnswers": ["ο νόστιμος σαλάμι", "οι νόστιμοι σαλάμι", "η νόστιμη σαλάμι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-047",
+      "type": "single-choice",
+      "prompt": "молочный продукт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γαλακτοκομικό προϊόν",
+      "wrongAnswers": [
+        "ο γαλακτοκομικός προϊόν",
+        "οι γαλακτοκομικοί προϊόν",
+        "η γαλακτοκομική προϊόν"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-048",
+      "type": "single-choice",
+      "prompt": "вкусные закуски",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμοι μεζέδες",
+      "wrongAnswers": ["ο νόστιμος μεζέδες", "η νόστιμη μεζέδες", "οι νόστιμες μεζέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-049",
+      "type": "single-choice",
+      "prompt": "голландские сыры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ολλανδικά τυριά",
+      "wrongAnswers": ["ο ολλανδικός τυριά", "οι ολλανδικοί τυριά", "η ολλανδική τυριά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-050",
+      "type": "single-choice",
+      "prompt": "австрийские рецепты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αυστριακές συνταγές",
+      "wrongAnswers": ["ο αυστριακός συνταγές", "οι αυστριακοί συνταγές", "η αυστριακή συνταγές"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-051",
+      "type": "single-choice",
+      "prompt": "вкусное мороженое",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα παγωτά",
+      "wrongAnswers": ["ο νόστιμος παγωτά", "οι νόστιμοι παγωτά", "η νόστιμη παγωτά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-052",
+      "type": "single-choice",
+      "prompt": "необходимые продукты питания",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα απαραίτητα τρόφιμα",
+      "wrongAnswers": ["ο απαραίτητος τρόφιμα", "οι απαραίτητοι τρόφιμα", "η απαραίτητη τρόφιμα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-053",
+      "type": "single-choice",
+      "prompt": "дорогие василопиты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ακριβές βασιλόπιτες",
+      "wrongAnswers": ["ο ακριβός βασιλόπιτες", "οι ακριβοί βασιλόπιτες", "η ακριβή βασιλόπιτες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-054",
+      "type": "single-choice",
+      "prompt": "свежее масло",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο βούτυρο",
+      "wrongAnswers": ["ο φρέσκος βούτυρο", "οι φρέσκοι βούτυρο", "η φρέσκια βούτυρο"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-055",
+      "type": "single-choice",
+      "prompt": "красное мясо",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κόκκινο κρέας",
+      "wrongAnswers": ["ο κόκκινος κρέας", "οι κόκκινοι κρέας", "η κόκκινη κρέας"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-056",
+      "type": "single-choice",
+      "prompt": "разные виды белой муки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα άσπρα αλεύρια",
+      "wrongAnswers": ["ο άσπρος αλεύρια", "οι άσπροι αλεύρια", "η άσπρη αλεύρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-057",
+      "type": "single-choice",
+      "prompt": "вкусный касери",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο κασέρι",
+      "wrongAnswers": ["ο νόστιμος κασέρι", "οι νόστιμοι κασέρι", "η νόστιμη κασέρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-058",
+      "type": "single-choice",
+      "prompt": "белая мука",
+      "promptLanguage": "ru",
+      "correctAnswer": "το άσπρο αλεύρι",
+      "wrongAnswers": ["ο άσπρος αλεύρι", "οι άσπροι αλεύρι", "η άσπρη αλεύρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-059",
+      "type": "single-choice",
+      "prompt": "свежие йогурты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα γιαούρτια",
+      "wrongAnswers": ["ο φρέσκος γιαούρτια", "οι φρέσκοι γιαούρτια", "η φρέσκια γιαούρτια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-060",
+      "type": "single-choice",
+      "prompt": "маленькая сигарета",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό τσιγάρο",
+      "wrongAnswers": ["ο μικρός τσιγάρο", "οι μικροί τσιγάρο", "η μικρή τσιγάρο"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-061",
+      "type": "single-choice",
+      "prompt": "кислый уксус",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ξινό ξύδι",
+      "wrongAnswers": ["ο ξινός ξύδι", "η ξινή ξύδι", "οι ξινοί ξύδι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-062",
+      "type": "single-choice",
+      "prompt": "сладкий сахар",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά ζάχαρη",
+      "wrongAnswers": ["ο γλυκός ζάχαρη", "οι γλυκοί ζάχαρη", "οι γλυκές ζάχαρη"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-063",
+      "type": "single-choice",
+      "prompt": "целый хлеб",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ολόκληρο ψωμί",
+      "wrongAnswers": ["ο ολόκληρος ψωμί", "οι ολόκληροι ψωμί", "η ολόκληρη ψωμί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-064",
+      "type": "single-choice",
+      "prompt": "белая пищевая сода",
+      "promptLanguage": "ru",
+      "correctAnswer": "η λευκή μαγειρική σόδα",
+      "wrongAnswers": [
+        "ο λευκός μαγειρική σόδα",
+        "οι λευκοί μαγειρική σόδα",
+        "οι λευκές μαγειρική σόδα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-065",
+      "type": "single-choice",
+      "prompt": "здоровая еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το υγιεινό φαγητό",
+      "wrongAnswers": ["ο υγιεινός φαγητό", "οι υγιεινοί φαγητό", "η υγιεινή φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-066",
+      "type": "single-choice",
+      "prompt": "вкусный десерт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο γλυκό",
+      "wrongAnswers": ["ο νόστιμος γλυκό", "οι νόστιμοι γλυκό", "η νόστιμη γλυκό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-067",
+      "type": "single-choice",
+      "prompt": "вкусные пиццы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμες πίτσες",
+      "wrongAnswers": ["ο νόστιμος πίτσες", "οι νόστιμοι πίτσες", "η νόστιμη πίτσες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-068",
+      "type": "single-choice",
+      "prompt": "здоровый обед",
+      "promptLanguage": "ru",
+      "correctAnswer": "το υγιεινό γεύμα",
+      "wrongAnswers": ["ο υγιεινός γεύμα", "οι υγιεινοί γεύμα", "η υγιεινή γεύμα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-069",
+      "type": "single-choice",
+      "prompt": "турецкая кухня",
+      "promptLanguage": "ru",
+      "correctAnswer": "η τουρκική κουζίνα",
+      "wrongAnswers": ["ο τουρκικός κουζίνα", "οι τουρκικοί κουζίνα", "οι τουρκικές κουζίνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-070",
+      "type": "single-choice",
+      "prompt": "свежий йогурт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο γιαούρτι",
+      "wrongAnswers": ["ο φρέσκος γιαούρτι", "οι φρέσκοι γιαούρτι", "η φρέσκια γιαούρτι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-071",
+      "type": "single-choice",
+      "prompt": "вкусная пахлава",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο νόστιμος μπακλαβάς",
+      "wrongAnswers": ["οι νόστιμοι μπακλαβάς", "η νόστιμη μπακλαβάς", "οι νόστιμες μπακλαβάς"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-072",
+      "type": "single-choice",
+      "prompt": "сладкое молоко",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό γάλα",
+      "wrongAnswers": ["ο γλυκός γάλα", "οι γλυκοί γάλα", "η γλυκιά γάλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-073",
+      "type": "single-choice",
+      "prompt": "болгарские блюда",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα βουλγαρικά φαγητά",
+      "wrongAnswers": ["ο βουλγαρικός φαγητά", "οι βουλγαρικοί φαγητά", "η βουλγαρική φαγητά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-074",
+      "type": "single-choice",
+      "prompt": "чистая вода",
+      "promptLanguage": "ru",
+      "correctAnswer": "το αγνό νερό",
+      "wrongAnswers": ["ο αγνός νερό", "οι αγνοί νερό", "η αγνή νερό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-075",
+      "type": "single-choice",
+      "prompt": "голландский сыр",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ολλανδικό τυρί",
+      "wrongAnswers": ["ο ολλανδικός τυρί", "οι ολλανδικοί τυρί", "η ολλανδική τυρί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-076",
+      "type": "single-choice",
+      "prompt": "португальская еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το πορτογαλικό φαγητό",
+      "wrongAnswers": ["ο πορτογαλικός φαγητό", "οι πορτογαλικοί φαγητό", "η πορτογαλική φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-077",
+      "type": "single-choice",
+      "prompt": "холодные воды",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κρύα νερά",
+      "wrongAnswers": ["ο κρύος νερά", "οι κρύοι νερά", "οι κρύες νερά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-078",
+      "type": "single-choice",
+      "prompt": "итальянская паста",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ιταλικά ζυμαρικά",
+      "wrongAnswers": ["ο ιταλικός ζυμαρικά", "οι ιταλικοί ζυμαρικά", "η ιταλική ζυμαρικά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-079",
+      "type": "single-choice",
+      "prompt": "австралийское мясо",
+      "promptLanguage": "ru",
+      "correctAnswer": "το αυστραλιανό κρέας",
+      "wrongAnswers": ["ο αυστραλιανός κρέας", "οι αυστραλιανοί κρέας", "η αυστραλιανή κρέας"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-080",
+      "type": "single-choice",
+      "prompt": "австралийские виды мяса",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα αυστραλιανά κρέατα",
+      "wrongAnswers": ["ο αυστραλιανός κρέατα", "οι αυστραλιανοί κρέατα", "η αυστραλιανή κρέατα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-081",
+      "type": "single-choice",
+      "prompt": "свежее оливковое масло",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο ελαιόλαδο",
+      "wrongAnswers": ["ο φρέσκος ελαιόλαδο", "οι φρέσκοι ελαιόλαδο", "η φρέσκια ελαιόλαδο"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-082",
+      "type": "single-choice",
+      "prompt": "вкусные завтраки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα πρωινά",
+      "wrongAnswers": ["ο νόστιμος πρωινά", "οι νόστιμοι πρωινά", "η νόστιμη πρωινά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-083",
+      "type": "single-choice",
+      "prompt": "сладкая жвачка",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά τσίχλα",
+      "wrongAnswers": ["ο γλυκός τσίχλα", "οι γλυκοί τσίχλα", "οι γλυκές τσίχλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-084",
+      "type": "single-choice",
+      "prompt": "австрийские сыры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα αυστριακά τυριά",
+      "wrongAnswers": ["ο αυστριακός τυριά", "οι αυστριακοί τυριά", "η αυστριακή τυριά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-085",
+      "type": "single-choice",
+      "prompt": "китайская кухня",
+      "promptLanguage": "ru",
+      "correctAnswer": "η κινεζική κουζίνα",
+      "wrongAnswers": ["ο κινεζικός κουζίνα", "οι κινεζικοί κουζίνα", "οι κινεζικές κουζίνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-086",
+      "type": "single-choice",
+      "prompt": "сладкие шоколадки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γλυκές σοκολάτες",
+      "wrongAnswers": ["ο γλυκός σοκολάτες", "οι γλυκοί σοκολάτες", "η γλυκιά σοκολάτες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-087",
+      "type": "single-choice",
+      "prompt": "болгарская еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το βουλγαρικό φαγητό",
+      "wrongAnswers": ["ο βουλγαρικός φαγητό", "οι βουλγαρικοί φαγητό", "η βουλγαρική φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-088",
+      "type": "single-choice",
+      "prompt": "теплая вода",
+      "promptLanguage": "ru",
+      "correctAnswer": "το χλιαρό νερό",
+      "wrongAnswers": ["ο χλιαρός νερό", "οι χλιαροί νερό", "η χλιαρή νερό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-089",
+      "type": "single-choice",
+      "prompt": "норвежская рыба",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νορβηγικό ψάρι",
+      "wrongAnswers": ["ο νορβηγικός ψάρι", "οι νορβηγικοί ψάρι", "η νορβηγική ψάρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-090",
+      "type": "single-choice",
+      "prompt": "вкусные супы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμες σούπες",
+      "wrongAnswers": ["ο νόστιμος σούπες", "οι νόστιμοι σούπες", "η νόστιμη σούπες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-091",
+      "type": "single-choice",
+      "prompt": "маленькие шоколадки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά σοκολατάκια",
+      "wrongAnswers": ["ο μικρός σοκολατάκια", "οι μικροί σοκολατάκια", "η μικρή σοκολατάκια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-092",
+      "type": "single-choice",
+      "prompt": "половина пирога",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μισή πίτα",
+      "wrongAnswers": ["ο μισός πίτα", "οι μισοί πίτα", "οι μισές πίτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-093",
+      "type": "single-choice",
+      "prompt": "разные виды сладкого молока",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γλυκά γάλατα",
+      "wrongAnswers": ["ο γλυκός γάλατα", "οι γλυκοί γάλατα", "η γλυκιά γάλατα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-094",
+      "type": "single-choice",
+      "prompt": "датский сок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο δανέζικος χυμός",
+      "wrongAnswers": ["οι δανέζικοι χυμός", "η δανέζικη χυμός", "οι δανέζικες χυμός"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-095",
+      "type": "single-choice",
+      "prompt": "сладкие пончики",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γλυκά ντόνατ",
+      "wrongAnswers": ["ο γλυκός ντόνατ", "οι γλυκοί ντόνατ", "η γλυκιά ντόνατ"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-096",
+      "type": "single-choice",
+      "prompt": "маленькие креветочные снеки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά γαριδάκια",
+      "wrongAnswers": ["ο μικρός γαριδάκια", "οι μικροί γαριδάκια", "η μικρή γαριδάκια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-097",
+      "type": "single-choice",
+      "prompt": "чистый спирт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καθαρό οινόπνευμα",
+      "wrongAnswers": ["ο καθαρός οινόπνευμα", "οι καθαροί οινόπνευμα", "η καθαρή οινόπνευμα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-098",
+      "type": "single-choice",
+      "prompt": "традиционная еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το παραδοσιακό φαγητό",
+      "wrongAnswers": ["ο παραδοσιακός φαγητό", "οι παραδοσιακοί φαγητό", "η παραδοσιακή φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-099",
+      "type": "single-choice",
+      "prompt": "испанский сок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ισπανικός χυμός",
+      "wrongAnswers": ["οι ισπανικοί χυμός", "η ισπανική χυμός", "οι ισπανικές χυμός"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-100",
+      "type": "single-choice",
+      "prompt": "чистая вода",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καθαρό νερό",
+      "wrongAnswers": ["ο καθαρός νερό", "οι καθαροί νερό", "η καθαρή νερό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-101",
+      "type": "single-choice",
+      "prompt": "вкусная ветчина",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο ζαμπόν",
+      "wrongAnswers": ["ο νόστιμος ζαμπόν", "οι νόστιμοι ζαμπόν", "η νόστιμη ζαμπόν"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-102",
+      "type": "single-choice",
+      "prompt": "известные сыры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γνωστά τυριά",
+      "wrongAnswers": ["ο γνωστός τυριά", "οι γνωστοί τυριά", "η γνωστή τυριά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-103",
+      "type": "single-choice",
+      "prompt": "свежая фета",
+      "promptLanguage": "ru",
+      "correctAnswer": "η φρέσκια φέτα",
+      "wrongAnswers": ["ο φρέσκος φέτα", "οι φρέσκοι φέτα", "οι φρέσκες φέτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-104",
+      "type": "single-choice",
+      "prompt": "датские сыры",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα δανέζικα τυριά",
+      "wrongAnswers": ["ο δανέζικος τυριά", "οι δανέζικοι τυριά", "η δανέζικη τυριά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-105",
+      "type": "single-choice",
+      "prompt": "вкусные кашери",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα κασέρια",
+      "wrongAnswers": ["ο νόστιμος κασέρια", "οι νόστιμοι κασέρια", "η νόστιμη κασέρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-106",
+      "type": "single-choice",
+      "prompt": "сладкий креветочный снек",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό γαριδάκι",
+      "wrongAnswers": ["ο γλυκός γαριδάκι", "οι γλυκοί γαριδάκι", "η γλυκιά γαριδάκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-107",
+      "type": "single-choice",
+      "prompt": "свежие сливки",
+      "promptLanguage": "ru",
+      "correctAnswer": "η φρέσκια κρέμα",
+      "wrongAnswers": ["ο φρέσκος κρέμα", "οι φρέσκοι κρέμα", "οι φρέσκες κρέμα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-108",
+      "type": "single-choice",
+      "prompt": "дорогая василопита",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ακριβή βασιλόπιτα",
+      "wrongAnswers": ["ο ακριβός βασιλόπιτα", "οι ακριβοί βασιλόπιτα", "οι ακριβές βασιλόπιτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-109",
+      "type": "single-choice",
+      "prompt": "сладкий шоколад",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά σοκολάτα",
+      "wrongAnswers": ["ο γλυκός σοκολάτα", "οι γλυκοί σοκολάτα", "οι γλυκές σοκολάτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-110",
+      "type": "single-choice",
+      "prompt": "островная кухня",
+      "promptLanguage": "ru",
+      "correctAnswer": "η νησιώτικη κουζίνα",
+      "wrongAnswers": ["ο νησιώτικος κουζίνα", "το νησιώτικο κουζίνα", "οι νησιώτικοι κουζίνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-111",
+      "type": "single-choice",
+      "prompt": "австрийская кухня",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αυστριακή κουζίνα",
+      "wrongAnswers": ["ο αυστριακός κουζίνα", "οι αυστριακοί κουζίνα", "οι αυστριακές κουζίνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-112",
+      "type": "single-choice",
+      "prompt": "сладкий джем",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά μαρμελάδα",
+      "wrongAnswers": ["ο γλυκός μαρμελάδα", "οι γλυκοί μαρμελάδα", "οι γλυκές μαρμελάδα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-113",
+      "type": "single-choice",
+      "prompt": "итальянская паста",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ιταλικό ζυμαρικό",
+      "wrongAnswers": ["ο ιταλικός ζυμαρικό", "οι ιταλικοί ζυμαρικό", "η ιταλική ζυμαρικό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-114",
+      "type": "single-choice",
+      "prompt": "свежая рыба",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα ψάρια",
+      "wrongAnswers": ["ο φρέσκος ψάρια", "οι φρέσκοι ψάρια", "η φρέσκια ψάρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-115",
+      "type": "single-choice",
+      "prompt": "необходимая вода",
+      "promptLanguage": "ru",
+      "correctAnswer": "το απαραίτητο νερό",
+      "wrongAnswers": ["ο απαραίτητος νερό", "οι απαραίτητοι νερό", "η απαραίτητη νερό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-116",
+      "type": "single-choice",
+      "prompt": "теплые супы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι χλιαρές σούπες",
+      "wrongAnswers": ["ο χλιαρός σούπες", "οι χλιαροί σούπες", "η χλιαρή σούπες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-117",
+      "type": "single-choice",
+      "prompt": "домашняя сода",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σπιτική σόδα",
+      "wrongAnswers": ["ο σπιτικός σόδα", "οι σπιτικοί σόδα", "οι σπιτικές σόδα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-118",
+      "type": "single-choice",
+      "prompt": "вкусные гиросы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμοι γύροι",
+      "wrongAnswers": ["ο νόστιμος γύροι", "η νόστιμη γύροι", "οι νόστιμες γύροι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-119",
+      "type": "single-choice",
+      "prompt": "китайские рестораны",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κινεζικά εστιατόρια",
+      "wrongAnswers": ["ο κινεζικός εστιατόρια", "οι κινεζικοί εστιατόρια", "η κινεζική εστιατόρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-120",
+      "type": "single-choice",
+      "prompt": "вкусные котлеты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα μπιφτέκια",
+      "wrongAnswers": ["ο νόστιμος μπιφτέκια", "οι νόστιμοι μπιφτέκια", "η νόστιμη μπιφτέκια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-121",
+      "type": "single-choice",
+      "prompt": "сладкие пирожные",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γλυκές πάστες",
+      "wrongAnswers": ["ο γλυκός πάστες", "οι γλυκοί πάστες", "η γλυκιά πάστες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-122",
+      "type": "single-choice",
+      "prompt": "вкусная еда",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο φαγητό",
+      "wrongAnswers": ["ο νόστιμος φαγητό", "οι νόστιμοι φαγητό", "η νόστιμη φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-123",
+      "type": "single-choice",
+      "prompt": "сладкие джемы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γλυκές μαρμελάδες",
+      "wrongAnswers": ["ο γλυκός μαρμελάδες", "οι γλυκοί μαρμελάδες", "η γλυκιά μαρμελάδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-124",
+      "type": "single-choice",
+      "prompt": "корейские кухни",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κορεατικές κουζίνες",
+      "wrongAnswers": ["ο κορεατικός κουζίνες", "η κορεατική κουζίνες", "το κορεατικό κουζίνες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-125",
+      "type": "single-choice",
+      "prompt": "домашние супы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σπιτικές σούπες",
+      "wrongAnswers": ["ο σπιτικός σούπες", "οι σπιτικοί σούπες", "η σπιτική σούπες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-126",
+      "type": "single-choice",
+      "prompt": "целые буханки хлеба",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ολόκληρα ψωμιά",
+      "wrongAnswers": ["ο ολόκληρος ψωμιά", "οι ολόκληροι ψωμιά", "η ολόκληρη ψωμιά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-127",
+      "type": "single-choice",
+      "prompt": "оставшиеся буханки хлеба",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα υπόλοιπα ψωμιά",
+      "wrongAnswers": ["ο υπόλοιπος ψωμιά", "οι υπόλοιποι ψωμιά", "η υπόλοιπη ψωμιά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-128",
+      "type": "single-choice",
+      "prompt": "датский сыр",
+      "promptLanguage": "ru",
+      "correctAnswer": "το δανέζικο τυρί",
+      "wrongAnswers": ["ο δανέζικος τυρί", "οι δανέζικοι τυρί", "η δανέζικη τυρί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-129",
+      "type": "single-choice",
+      "prompt": "смешанные блюда",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ανακατεμένα φαγητά",
+      "wrongAnswers": ["ο ανακατεμένος φαγητά", "η ανακατεμένη φαγητά", "το ανακατεμένο φαγητά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-130",
+      "type": "single-choice",
+      "prompt": "основные злаки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα βασικά δημητριακά",
+      "wrongAnswers": ["ο βασικός δημητριακά", "οι βασικοί δημητριακά", "η βασική δημητριακά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-131",
+      "type": "single-choice",
+      "prompt": "здоровое питание",
+      "promptLanguage": "ru",
+      "correctAnswer": "η υγιεινή διατροφή",
+      "wrongAnswers": ["ο υγιεινός διατροφή", "οι υγιεινοί διατροφή", "οι υγιεινές διατροφή"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-132",
+      "type": "single-choice",
+      "prompt": "молочные продукты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γαλακτοκομικά προϊόντα",
+      "wrongAnswers": [
+        "ο γαλακτοκομικός προϊόντα",
+        "οι γαλακτοκομικοί προϊόντα",
+        "η γαλακτοκομική προϊόντα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-133",
+      "type": "single-choice",
+      "prompt": "сладкие вкусы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γλυκές γεύσεις",
+      "wrongAnswers": ["ο γλυκός γεύσεις", "οι γλυκοί γεύσεις", "η γλυκιά γεύσεις"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-134",
+      "type": "single-choice",
+      "prompt": "бельгийский сыр",
+      "promptLanguage": "ru",
+      "correctAnswer": "το βελγικό τυρί",
+      "wrongAnswers": ["ο βελγικός τυρί", "οι βελγικοί τυρί", "η βελγική τυρί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-135",
+      "type": "single-choice",
+      "prompt": "жареные закуски",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ψητοί μεζέδες",
+      "wrongAnswers": ["ο ψητός μεζέδες", "η ψητή μεζέδες", "οι ψητές μεζέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-136",
+      "type": "single-choice",
+      "prompt": "вкусное мороженое",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο παγωτό",
+      "wrongAnswers": ["ο νόστιμος παγωτό", "οι νόστιμοι παγωτό", "η νόστιμη παγωτό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-137",
+      "type": "single-choice",
+      "prompt": "австрийский сыр",
+      "promptLanguage": "ru",
+      "correctAnswer": "το αυστριακό τυρί",
+      "wrongAnswers": ["ο αυστριακός τυρί", "οι αυστριακοί τυρί", "η αυστριακή τυρί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-138",
+      "type": "single-choice",
+      "prompt": "критские виды хлеба",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κρητικά ψωμιά",
+      "wrongAnswers": ["ο κρητικός ψωμιά", "η κρητική ψωμιά", "το κρητικό ψωμιά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-139",
+      "type": "single-choice",
+      "prompt": "молочные производства",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γαλακτοκομικές παραγωγές",
+      "wrongAnswers": [
+        "ο γαλακτοκομικός παραγωγές",
+        "οι γαλακτοκομικοί παραγωγές",
+        "η γαλακτοκομική παραγωγές"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nouns-adjectives-education-communication-books-writing-print",
+    "title": "Книги, письмо и печатные материалы",
+    "subtitle": "Практикуйте согласование в лексике книг, письма и печати",
+    "fileName": "books-writing-print.json"
+  },
+  {
+    "id": "nouns-adjectives-education-communication-languages-grammar",
+    "title": "Языки, слова и грамматика",
+    "subtitle": "Выберите правильные формы слов о языках и грамматике",
+    "fileName": "languages-grammar.json"
+  },
+  {
+    "id": "nouns-adjectives-education-communication-lessons-exercises-learning",
+    "title": "Учёба, уроки и задания",
+    "subtitle": "Закрепите род и число в учебной лексике",
+    "fileName": "lessons-exercises-learning.json"
+  },
+  {
+    "id": "nouns-adjectives-education-communication-school-people-places",
+    "title": "Люди и места образования",
+    "subtitle": "Согласуйте названия людей, учебных заведений и мест",
+    "fileName": "school-people-places.json"
+  },
+  {
+    "id": "nouns-adjectives-education-communication-technology-media-communication",
+    "title": "Технологии, медиа и связь",
+    "subtitle": "Практикуйте согласование в лексике технологий и коммуникации",
+    "fileName": "technology-media-communication.json"
+  }
+]

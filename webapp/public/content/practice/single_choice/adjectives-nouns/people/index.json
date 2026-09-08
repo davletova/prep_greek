@@ -1,0 +1,50 @@
+[
+  {
+    "id": "nouns-adjectives-people-age-life-stages",
+    "title": "Люди, возраст и внешность",
+    "subtitle": "Согласуйте существительное и прилагательное в роде и числе",
+    "fileName": "age-life-stages.json"
+  },
+  {
+    "id": "nouns-adjectives-people-general-appearance",
+    "title": "Люди и внешность",
+    "subtitle": "Практикуйте формы слов при описании людей и внешности",
+    "fileName": "people-general-appearance.json"
+  },
+  {
+    "id": "nouns-adjectives-people-character-behavior",
+    "title": "Характер и поведение",
+    "subtitle": "Выберите правильную форму слов в описаниях характера и поведения",
+    "fileName": "character-behavior.json"
+  },
+  {
+    "id": "nouns-adjectives-people-emotions-states",
+    "title": "Эмоции и состояния",
+    "subtitle": "Практикуйте род и число в описаниях эмоций и состояний",
+    "fileName": "emotions-states.json"
+  },
+  {
+    "id": "nouns-adjectives-people-family-relatives",
+    "title": "Семья и родственники",
+    "subtitle": "Согласуйте существительные и прилагательные в семейной лексике",
+    "fileName": "family-relatives.json"
+  },
+  {
+    "id": "nouns-adjectives-people-friends-relationships",
+    "title": "Друзья и отношения",
+    "subtitle": "Выберите правильное согласование в словосочетаниях об отношениях",
+    "fileName": "friends-relationships.json"
+  },
+  {
+    "id": "nouns-adjectives-people-body-health-medicine",
+    "title": "Тело, здоровье и медицина",
+    "subtitle": "Закрепите согласование в словосочетаниях о здоровье и теле",
+    "fileName": "body-health-medicine.json"
+  },
+  {
+    "id": "nouns-adjectives-people-professions-work",
+    "title": "Профессии и работа",
+    "subtitle": "Закрепите род и число в названиях профессий и рабочих ситуаций",
+    "fileName": "professions-work.json"
+  }
+]

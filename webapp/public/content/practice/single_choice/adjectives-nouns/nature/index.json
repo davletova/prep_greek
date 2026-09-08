@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nouns-adjectives-nature-animals",
+    "title": "Животные",
+    "subtitle": "Практикуйте согласование в названиях и описаниях животных",
+    "fileName": "animals.json"
+  },
+  {
+    "id": "nouns-adjectives-nature-nature-landscape-environment",
+    "title": "Природа, ландшафт и окружающая среда",
+    "subtitle": "Согласуйте существительные и прилагательные в описаниях природы",
+    "fileName": "nature-landscape-environment.json"
+  },
+  {
+    "id": "nouns-adjectives-nature-plants-agriculture",
+    "title": "Растения и сельское хозяйство",
+    "subtitle": "Выберите правильные формы слов о растениях и сельском хозяйстве",
+    "fileName": "plants-agriculture.json"
+  },
+  {
+    "id": "nouns-adjectives-nature-weather-seasons",
+    "title": "Погода и времена года",
+    "subtitle": "Закрепите род и число в лексике погоды и времён года",
+    "fileName": "weather-seasons.json"
+  }
+]

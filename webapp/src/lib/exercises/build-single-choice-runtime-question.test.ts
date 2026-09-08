@@ -12,6 +12,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
     wrongAnswers: ["Пока", "Спасибо", "Извините"],
     translation: "Привет",
     explanation: "Common greeting",
+    hint: "Informal greeting",
   };
 
   it("builds a runtime question with all options", () => {
@@ -23,6 +24,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
       promptLanguage: exercise.promptLanguage,
       translation: exercise.translation,
       explanation: exercise.explanation,
+      hint: exercise.hint,
     });
     expect(question.options).toHaveLength(1 + exercise.wrongAnswers.length);
     expect(question.options).toEqual(

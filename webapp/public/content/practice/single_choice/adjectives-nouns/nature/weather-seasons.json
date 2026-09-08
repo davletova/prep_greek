@@ -1,0 +1,478 @@
+{
+  "title": "Погода и времена года",
+  "subtitle": "Закрепите род и число в лексике погоды и времён года",
+  "items": [
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-001",
+      "type": "single-choice",
+      "prompt": "слабые дожди",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ήπιες βροχές",
+      "wrongAnswers": ["ο ήπιος βροχές", "οι ήπιοι βροχές", "η ήπια βροχές"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-002",
+      "type": "single-choice",
+      "prompt": "северный ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο βόρειος άνεμος",
+      "wrongAnswers": ["οι βόρειοι άνεμος", "το βόρειο άνεμος", "τα βόρεια άνεμος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-003",
+      "type": "single-choice",
+      "prompt": "мягкие климатические условия",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ήπια κλίματα",
+      "wrongAnswers": ["ο ήπιος κλίματα", "οι ήπιοι κλίματα", "οι ήπιες κλίματα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-004",
+      "type": "single-choice",
+      "prompt": "сильные дожди",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι δυνατές βροχές",
+      "wrongAnswers": ["ο δυνατός βροχές", "οι δυνατοί βροχές", "η δυνατή βροχές"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-005",
+      "type": "single-choice",
+      "prompt": "холодные осени",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κρύα φθινόπωρα",
+      "wrongAnswers": ["ο κρύος φθινόπωρα", "οι κρύοι φθινόπωρα", "οι κρύες φθινόπωρα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-006",
+      "type": "single-choice",
+      "prompt": "сильные бури",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι δυνατές καταιγίδες",
+      "wrongAnswers": ["ο δυνατός καταιγίδες", "οι δυνατοί καταιγίδες", "η δυνατή καταιγίδες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-007",
+      "type": "single-choice",
+      "prompt": "сухая погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ξηρός καιρός",
+      "wrongAnswers": ["οι ξηροί καιρός", "η ξηρή καιρός", "οι ξηρές καιρός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-008",
+      "type": "single-choice",
+      "prompt": "красивая весна",
+      "promptLanguage": "ru",
+      "correctAnswer": "η όμορφη άνοιξη",
+      "wrongAnswers": ["ο όμορφος άνοιξη", "οι όμορφοι άνοιξη", "οι όμορφες άνοιξη"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-009",
+      "type": "single-choice",
+      "prompt": "холодные ночи",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κρύες νύχτες",
+      "wrongAnswers": ["ο κρύος νύχτες", "οι κρύοι νύχτες", "η κρύα νύχτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-010",
+      "type": "single-choice",
+      "prompt": "хорошая погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο καλός καιρός",
+      "wrongAnswers": ["οι καλοί καιρός", "η καλή καιρός", "οι καλές καιρός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-011",
+      "type": "single-choice",
+      "prompt": "лёгкие ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ήπιοι αέραδες",
+      "wrongAnswers": ["ο ήπιος αέραδες", "η ήπια αέραδες", "οι ήπιες αέραδες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-012",
+      "type": "single-choice",
+      "prompt": "красивый день",
+      "promptLanguage": "ru",
+      "correctAnswer": "η όμορφη ημέρα",
+      "wrongAnswers": ["ο όμορφος ημέρα", "οι όμορφοι ημέρα", "οι όμορφες ημέρα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-013",
+      "type": "single-choice",
+      "prompt": "естественные климатические условия",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φυσικά κλίματα",
+      "wrongAnswers": ["ο φυσικός κλίματα", "οι φυσικοί κλίματα", "η φυσική κλίματα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-014",
+      "type": "single-choice",
+      "prompt": "ночные ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νυχτερινοί αέραδες",
+      "wrongAnswers": ["ο νυχτερινός αέραδες", "η νυχτερινή αέραδες", "οι νυχτερινές αέραδες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-015",
+      "type": "single-choice",
+      "prompt": "лазурное небо",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γαλανός ουρανός",
+      "wrongAnswers": ["οι γαλανοί ουρανός", "η γαλανή ουρανός", "οι γαλανές ουρανός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-016",
+      "type": "single-choice",
+      "prompt": "быстрый ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γοργός αέρας",
+      "wrongAnswers": ["η γοργή αέρας", "το γοργό αέρας", "οι γοργοί αέρας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-017",
+      "type": "single-choice",
+      "prompt": "сильная буря",
+      "promptLanguage": "ru",
+      "correctAnswer": "η δυνατή καταιγίδα",
+      "wrongAnswers": ["ο δυνατός καταιγίδα", "οι δυνατοί καταιγίδα", "οι δυνατές καταιγίδα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-018",
+      "type": "single-choice",
+      "prompt": "густой туман",
+      "promptLanguage": "ru",
+      "correctAnswer": "η πυκνή ομίχλη",
+      "wrongAnswers": ["ο πυκνός ομίχλη", "το πυκνό ομίχλη", "οι πυκνοί ομίχλη"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-019",
+      "type": "single-choice",
+      "prompt": "сильный ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο δυνατός αέρας",
+      "wrongAnswers": ["οι δυνατοί αέρας", "η δυνατή αέρας", "οι δυνατές αέρας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-020",
+      "type": "single-choice",
+      "prompt": "сильный дождь",
+      "promptLanguage": "ru",
+      "correctAnswer": "η δυνατή βροχή",
+      "wrongAnswers": ["ο δυνατός βροχή", "οι δυνατοί βροχή", "οι δυνατές βροχή"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-021",
+      "type": "single-choice",
+      "prompt": "мягкий ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ήπιος αέρας",
+      "wrongAnswers": ["οι ήπιοι αέρας", "η ήπια αέρας", "οι ήπιες αέρας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-022",
+      "type": "single-choice",
+      "prompt": "умеренная погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο μέτριος καιρός",
+      "wrongAnswers": ["οι μέτριοι καιρός", "η μέτρια καιρός", "οι μέτριες καιρός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-023",
+      "type": "single-choice",
+      "prompt": "яркое полнолуние",
+      "promptLanguage": "ru",
+      "correctAnswer": "η φωτεινή πανσέληνος",
+      "wrongAnswers": ["ο φωτεινός πανσέληνος", "το φωτεινό πανσέληνος", "οι φωτεινοί πανσέληνος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-024",
+      "type": "single-choice",
+      "prompt": "плохая погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο άσχημος καιρός",
+      "wrongAnswers": ["οι άσχημοι καιρός", "η άσχημη καιρός", "οι άσχημες καιρός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-025",
+      "type": "single-choice",
+      "prompt": "частый дождь",
+      "promptLanguage": "ru",
+      "correctAnswer": "η συχνή βροχή",
+      "wrongAnswers": ["ο συχνός βροχή", "οι συχνοί βροχή", "οι συχνές βροχή"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-026",
+      "type": "single-choice",
+      "prompt": "плохой день",
+      "promptLanguage": "ru",
+      "correctAnswer": "η άσχημη μέρα",
+      "wrongAnswers": ["ο άσχημος μέρα", "οι άσχημοι μέρα", "οι άσχημες μέρα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-027",
+      "type": "single-choice",
+      "prompt": "холодные ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κρύοι άνεμοι",
+      "wrongAnswers": ["ο κρύος άνεμοι", "η κρύα άνεμοι", "οι κρύες άνεμοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-028",
+      "type": "single-choice",
+      "prompt": "сильные ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι δυνατοί άνεμοι",
+      "wrongAnswers": ["ο δυνατός άνεμοι", "η δυνατή άνεμοι", "οι δυνατές άνεμοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-029",
+      "type": "single-choice",
+      "prompt": "голубые небеса",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γαλανοί ουρανοί",
+      "wrongAnswers": ["ο γαλανός ουρανοί", "η γαλανή ουρανοί", "οι γαλανές ουρανοί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-030",
+      "type": "single-choice",
+      "prompt": "сильный мороз",
+      "promptLanguage": "ru",
+      "correctAnswer": "η σφοδρή παγωνιά",
+      "wrongAnswers": ["ο σφοδρός παγωνιά", "το σφοδρό παγωνιά", "οι σφοδροί παγωνιά"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-031",
+      "type": "single-choice",
+      "prompt": "умеренный климат",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ήπιο κλίμα",
+      "wrongAnswers": ["ο ήπιος κλίμα", "οι ήπιοι κλίμα", "η ήπια κλίμα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-032",
+      "type": "single-choice",
+      "prompt": "тёплая солнечная погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ζεστή λιακάδα",
+      "wrongAnswers": ["ο ζεστός λιακάδα", "οι ζεστοί λιακάδα", "οι ζεστές λιακάδα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-033",
+      "type": "single-choice",
+      "prompt": "частые слабые ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι συχνοί ασθενείς άνεμοι",
+      "wrongAnswers": [
+        "ο συχνός ασθενείς άνεμοι",
+        "η συχνή ασθενείς άνεμοι",
+        "οι συχνές ασθενείς άνεμοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-034",
+      "type": "single-choice",
+      "prompt": "сильная молния",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο δυνατός κεραυνός",
+      "wrongAnswers": ["οι δυνατοί κεραυνός", "η δυνατή κεραυνός", "οι δυνατές κεραυνός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-035",
+      "type": "single-choice",
+      "prompt": "густые туманы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι πυκνές ομίχλες",
+      "wrongAnswers": ["ο πυκνός ομίχλες", "η πυκνή ομίχλες", "το πυκνό ομίχλες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-036",
+      "type": "single-choice",
+      "prompt": "сильные ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι δυνατοί αέρηδες",
+      "wrongAnswers": ["ο δυνατός αέρηδες", "η δυνατή αέρηδες", "οι δυνατές αέρηδες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-037",
+      "type": "single-choice",
+      "prompt": "сухие времена",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ξηροί καιροί",
+      "wrongAnswers": ["ο ξηρός καιροί", "η ξηρή καιροί", "οι ξηρές καιροί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-038",
+      "type": "single-choice",
+      "prompt": "островные ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νησιώτικοι αέραδες",
+      "wrongAnswers": ["ο νησιώτικος αέραδες", "η νησιώτικη αέραδες", "το νησιώτικο αέραδες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-039",
+      "type": "single-choice",
+      "prompt": "быстрые ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γοργοί άνεμοι",
+      "wrongAnswers": ["ο γοργός άνεμοι", "η γοργή άνεμοι", "το γοργό άνεμοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-040",
+      "type": "single-choice",
+      "prompt": "сильный ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο δυνατός άνεμος",
+      "wrongAnswers": ["οι δυνατοί άνεμος", "η δυνατή άνεμος", "οι δυνατές άνεμος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-041",
+      "type": "single-choice",
+      "prompt": "ночной воздух",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο νυχτερινός αέρας",
+      "wrongAnswers": ["οι νυχτερινοί αέρας", "η νυχτερινή αέρας", "οι νυχτερινές αέρας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-042",
+      "type": "single-choice",
+      "prompt": "мягкий дождь",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ήπια βροχή",
+      "wrongAnswers": ["ο ήπιος βροχή", "οι ήπιοι βροχή", "οι ήπιες βροχή"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-043",
+      "type": "single-choice",
+      "prompt": "холодный воздух",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο κρύος αέρας",
+      "wrongAnswers": ["οι κρύοι αέρας", "η κρύα αέρας", "οι κρύες αέρας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-044",
+      "type": "single-choice",
+      "prompt": "частый слабый ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο συχνός ασθενής άνεμος",
+      "wrongAnswers": [
+        "οι συχνοί ασθενής άνεμος",
+        "η συχνή ασθενής άνεμος",
+        "οι συχνές ασθενής άνεμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-045",
+      "type": "single-choice",
+      "prompt": "естественный климат",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φυσικό κλίμα",
+      "wrongAnswers": ["ο φυσικός κλίμα", "οι φυσικοί κλίμα", "η φυσική κλίμα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-046",
+      "type": "single-choice",
+      "prompt": "норвежская погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο νορβηγικός καιρός",
+      "wrongAnswers": ["οι νορβηγικοί καιρός", "η νορβηγική καιρός", "οι νορβηγικές καιρός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-047",
+      "type": "single-choice",
+      "prompt": "холодные зимы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κρύοι χειμώνες",
+      "wrongAnswers": ["ο κρύος χειμώνες", "η κρύα χειμώνες", "οι κρύες χειμώνες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-048",
+      "type": "single-choice",
+      "prompt": "частые дожди",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι συχνές βροχές",
+      "wrongAnswers": ["ο συχνός βροχές", "οι συχνοί βροχές", "η συχνή βροχές"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-049",
+      "type": "single-choice",
+      "prompt": "белые облака",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα λευκά σύννεφα",
+      "wrongAnswers": ["ο λευκός σύννεφα", "οι λευκοί σύννεφα", "η λευκή σύννεφα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-050",
+      "type": "single-choice",
+      "prompt": "сильная жара",
+      "promptLanguage": "ru",
+      "correctAnswer": "η μεγάλη ζέστη",
+      "wrongAnswers": ["ο μεγάλος ζέστη", "οι μεγάλοι ζέστη", "οι μεγάλες ζέστη"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-051",
+      "type": "single-choice",
+      "prompt": "южные ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νότιοι άνεμοι",
+      "wrongAnswers": ["ο νότιος άνεμοι", "η νότια άνεμοι", "οι νότιες άνεμοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-052",
+      "type": "single-choice",
+      "prompt": "умеренная погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι μέτριοι καιροί",
+      "wrongAnswers": ["ο μέτριος καιροί", "η μέτρια καιροί", "οι μέτριες καιροί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-053",
+      "type": "single-choice",
+      "prompt": "норвежские погодные условия",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νορβηγικοί καιροί",
+      "wrongAnswers": ["ο νορβηγικός καιροί", "η νορβηγική καιροί", "οι νορβηγικές καιροί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-054",
+      "type": "single-choice",
+      "prompt": "плохая погода",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι άσχημοι καιροί",
+      "wrongAnswers": ["ο άσχημος καιροί", "η άσχημη καιροί", "οι άσχημες καιροί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-055",
+      "type": "single-choice",
+      "prompt": "сильные молнии",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι δυνατοί κεραυνοί",
+      "wrongAnswers": ["ο δυνατός κεραυνοί", "η δυνατή κεραυνοί", "οι δυνατές κεραυνοί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-056",
+      "type": "single-choice",
+      "prompt": "сильный холод",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μεγάλο κρύο",
+      "wrongAnswers": ["ο μεγάλος κρύο", "οι μεγάλοι κρύο", "η μεγάλη κρύο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-057",
+      "type": "single-choice",
+      "prompt": "южный ветер",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο νότιος άνεμος",
+      "wrongAnswers": ["οι νότιοι άνεμος", "η νότια άνεμος", "οι νότιες άνεμος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-058",
+      "type": "single-choice",
+      "prompt": "северные ветры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι βόρειοι άνεμοι",
+      "wrongAnswers": ["ο βόρειος άνεμοι", "η βόρειος άνεμοι", "το βόρειο άνεμοι"]
+    }
+  ]
+}

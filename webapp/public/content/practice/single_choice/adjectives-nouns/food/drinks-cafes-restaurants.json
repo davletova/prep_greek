@@ -1,0 +1,554 @@
+{
+  "title": "Напитки, кафе и рестораны",
+  "subtitle": "Практикуйте согласование в лексике напитков и заведений",
+  "items": [
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-001",
+      "type": "single-choice",
+      "prompt": "перемешанный кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ανακατεμένος καφές",
+      "wrongAnswers": ["η ανακατεμένη καφές", "το ανακατεμένο καφές", "οι ανακατεμένοι καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-002",
+      "type": "single-choice",
+      "prompt": "прохладительный апельсиновый напиток",
+      "promptLanguage": "ru",
+      "correctAnswer": "η δροσερή πορτοκαλάδα",
+      "wrongAnswers": [
+        "ο δροσερός πορτοκαλάδα",
+        "το δροσερό πορτοκαλάδα",
+        "οι δροσεροί πορτοκαλάδα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-003",
+      "type": "single-choice",
+      "prompt": "тепловатый кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο χλιαρός καφές",
+      "wrongAnswers": ["οι χλιαροί καφές", "η χλιαρή καφές", "οι χλιαρές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-004",
+      "type": "single-choice",
+      "prompt": "освежающий безалкогольный напиток",
+      "promptLanguage": "ru",
+      "correctAnswer": "το δροσιστικό αναψυκτικό",
+      "wrongAnswers": [
+        "ο δροσιστικός αναψυκτικό",
+        "η δροσιστική αναψυκτικό",
+        "οι δροσιστικοί αναψυκτικό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-005",
+      "type": "single-choice",
+      "prompt": "хорошие рестораны",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καλά εστιατόρια",
+      "wrongAnswers": ["ο καλός εστιατόρια", "οι καλοί εστιατόρια", "η καλή εστιατόρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-006",
+      "type": "single-choice",
+      "prompt": "любимая кофейня",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αγαπημένη καφετέρια",
+      "wrongAnswers": [
+        "ο αγαπημένος καφετέρια",
+        "το αγαπημένο καφετέρια",
+        "οι αγαπημένοι καφετέρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-007",
+      "type": "single-choice",
+      "prompt": "любимые таверны",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αγαπημένες ταβέρνες",
+      "wrongAnswers": ["ο αγαπημένος ταβέρνες", "η αγαπημένη ταβέρνες", "το αγαπημένο ταβέρνες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-008",
+      "type": "single-choice",
+      "prompt": "горячий кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο θερμός καφές",
+      "wrongAnswers": ["οι θερμοί καφές", "η θερμή καφές", "οι θερμές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-009",
+      "type": "single-choice",
+      "prompt": "турецкий чай",
+      "promptLanguage": "ru",
+      "correctAnswer": "το τουρκικό τσάι",
+      "wrongAnswers": ["ο τουρκικός τσάι", "οι τουρκικοί τσάι", "η τουρκική τσάι"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-010",
+      "type": "single-choice",
+      "prompt": "турецкий кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο τουρκικός καφές",
+      "wrongAnswers": ["οι τουρκικοί καφές", "η τουρκική καφές", "οι τουρκικές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-011",
+      "type": "single-choice",
+      "prompt": "порции хорошего узо",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα καλά ούζα",
+      "wrongAnswers": ["ο καλός ούζα", "οι καλοί ούζα", "η καλή ούζα"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-012",
+      "type": "single-choice",
+      "prompt": "дешёвый кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο φθηνός καφές",
+      "wrongAnswers": ["οι φθηνοί καφές", "η φθηνή καφές", "οι φθηνές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-013",
+      "type": "single-choice",
+      "prompt": "ирландский сок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ιρλανδικός χυμός",
+      "wrongAnswers": ["οι ιρλανδικοί χυμός", "η ιρλανδική χυμός", "οι ιρλανδικές χυμός"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-014",
+      "type": "single-choice",
+      "prompt": "тёплый кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ζεστός καφές",
+      "wrongAnswers": ["οι ζεστοί καφές", "η ζεστή καφές", "οι ζεστές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-015",
+      "type": "single-choice",
+      "prompt": "дорогой кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ακριβός καφές",
+      "wrongAnswers": ["οι ακριβοί καφές", "η ακριβή καφές", "οι ακριβές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-016",
+      "type": "single-choice",
+      "prompt": "любимая таверна",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αγαπημένη ταβέρνα",
+      "wrongAnswers": ["ο αγαπημένος ταβέρνα", "το αγαπημένο ταβέρνα", "οι αγαπημένοι ταβέρνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-017",
+      "type": "single-choice",
+      "prompt": "сладкий лимонад",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά λεμονάδα",
+      "wrongAnswers": ["ο γλυκός λεμονάδα", "οι γλυκοί λεμονάδα", "οι γλυκές λεμονάδα"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-018",
+      "type": "single-choice",
+      "prompt": "порции вкусного кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμοι καφέδες",
+      "wrongAnswers": ["ο νόστιμος καφέδες", "η νόστιμη καφέδες", "οι νόστιμες καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-019",
+      "type": "single-choice",
+      "prompt": "порции тёплого кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι χλιαροί καφέδες",
+      "wrongAnswers": ["ο χλιαρός καφέδες", "η χλιαρή καφέδες", "οι χλιαρές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-020",
+      "type": "single-choice",
+      "prompt": "порции домашнего кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι σπιτικοί καφέδες",
+      "wrongAnswers": ["ο σπιτικός καφέδες", "η σπιτική καφέδες", "οι σπιτικές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-021",
+      "type": "single-choice",
+      "prompt": "красное вино",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κόκκινο κρασί",
+      "wrongAnswers": ["ο κόκκινος κρασί", "οι κόκκινοι κρασί", "η κόκκινη κρασί"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-022",
+      "type": "single-choice",
+      "prompt": "бутылки холодного пива",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κρύες μπύρες",
+      "wrongAnswers": ["ο κρύος μπύρες", "οι κρύοι μπύρες", "η κρύα μπύρες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-023",
+      "type": "single-choice",
+      "prompt": "хороший кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο καλός καφές",
+      "wrongAnswers": ["οι καλοί καφές", "η καλή καφές", "οι καλές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-024",
+      "type": "single-choice",
+      "prompt": "холодная вода",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κρύο νερό",
+      "wrongAnswers": ["ο κρύος νερό", "οι κρύοι νερό", "η κρύα νερό"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-025",
+      "type": "single-choice",
+      "prompt": "холодный напиток",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κρύο ποτό",
+      "wrongAnswers": ["ο κρύος ποτό", "οι κρύοι ποτό", "η κρύα ποτό"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-026",
+      "type": "single-choice",
+      "prompt": "порции горячего кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ζεστοί καφέδες",
+      "wrongAnswers": ["ο ζεστός καφέδες", "η ζεστή καφέδες", "οι ζεστές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-027",
+      "type": "single-choice",
+      "prompt": "тихие бары",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ήσυχα μπαρ",
+      "wrongAnswers": ["ο ήσυχος μπαρ", "οι ήσυχοι μπαρ", "η ήσυχη μπαρ"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-028",
+      "type": "single-choice",
+      "prompt": "традиционные узери",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα παραδοσιακά ουζερί",
+      "wrongAnswers": ["ο παραδοσιακός ουζερί", "οι παραδοσιακοί ουζερί", "η παραδοσιακή ουζερί"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-029",
+      "type": "single-choice",
+      "prompt": "хорошее узо",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καλό ούζο",
+      "wrongAnswers": ["ο καλός ούζο", "οι καλοί ούζο", "η καλή ούζο"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-030",
+      "type": "single-choice",
+      "prompt": "любимое пиво",
+      "promptLanguage": "ru",
+      "correctAnswer": "η αγαπημένη μπίρα",
+      "wrongAnswers": ["ο αγαπημένος μπίρα", "το αγαπημένο μπίρα", "οι αγαπημένοι μπίρα"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-031",
+      "type": "single-choice",
+      "prompt": "порции кофе по-турецки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι τουρκικοί καφέδες",
+      "wrongAnswers": ["ο τουρκικός καφέδες", "η τουρκική καφέδες", "οι τουρκικές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-032",
+      "type": "single-choice",
+      "prompt": "порции горячего кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι θερμοί καφέδες",
+      "wrongAnswers": ["ο θερμός καφέδες", "η θερμή καφέδες", "οι θερμές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-033",
+      "type": "single-choice",
+      "prompt": "холодное шампанское",
+      "promptLanguage": "ru",
+      "correctAnswer": "η κρύα σαμπάνια",
+      "wrongAnswers": ["ο κρύος σαμπάνια", "οι κρύοι σαμπάνια", "οι κρύες σαμπάνια"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-034",
+      "type": "single-choice",
+      "prompt": "испанские соки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ισπανικοί χυμοί",
+      "wrongAnswers": ["ο ισπανικός χυμοί", "η ισπανική χυμοί", "οι ισπανικές χυμοί"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-035",
+      "type": "single-choice",
+      "prompt": "горячий чай",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ζεστό τσάι",
+      "wrongAnswers": ["ο ζεστός τσάι", "οι ζεστοί τσάι", "η ζεστή τσάι"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-036",
+      "type": "single-choice",
+      "prompt": "порции дорогого кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ακριβοί καφέδες",
+      "wrongAnswers": ["ο ακριβός καφέδες", "η ακριβή καφέδες", "οι ακριβές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-037",
+      "type": "single-choice",
+      "prompt": "сладкий сок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο γλυκός χυμός",
+      "wrongAnswers": ["οι γλυκοί χυμός", "η γλυκιά χυμός", "οι γλυκές χυμός"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-038",
+      "type": "single-choice",
+      "prompt": "домашний кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο σπιτικός καφές",
+      "wrongAnswers": ["οι σπιτικοί καφές", "η σπιτική καφές", "οι σπιτικές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-039",
+      "type": "single-choice",
+      "prompt": "итальянский кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ιταλικός καφές",
+      "wrongAnswers": ["οι ιταλικοί καφές", "η ιταλική καφές", "οι ιταλικές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-040",
+      "type": "single-choice",
+      "prompt": "порции послеобеденного кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι απογευματινοί καφέδες",
+      "wrongAnswers": [
+        "ο απογευματινός καφέδες",
+        "η απογευματινή καφέδες",
+        "οι απογευματινές καφέδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-041",
+      "type": "single-choice",
+      "prompt": "традиционный узери",
+      "promptLanguage": "ru",
+      "correctAnswer": "το παραδοσιακό ουζερί",
+      "wrongAnswers": ["ο παραδοσιακός ουζερί", "οι παραδοσιακοί ουζερί", "η παραδοσιακή ουζερί"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-042",
+      "type": "single-choice",
+      "prompt": "свежий сок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο φρέσκος χυμός",
+      "wrongAnswers": ["οι φρέσκοι χυμός", "η φρέσκια χυμός", "οι φρέσκες χυμός"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-043",
+      "type": "single-choice",
+      "prompt": "освежающие безалкогольные напитки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα δροσιστικά αναψυκτικά",
+      "wrongAnswers": [
+        "ο δροσιστικός αναψυκτικά",
+        "η δροσιστική αναψυκτικά",
+        "το δροσιστικό αναψυκτικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-044",
+      "type": "single-choice",
+      "prompt": "двойной кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο διπλός καφές",
+      "wrongAnswers": ["οι διπλοί καφές", "η διπλή καφές", "οι διπλές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-045",
+      "type": "single-choice",
+      "prompt": "свежие соки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι φρέσκοι χυμοί",
+      "wrongAnswers": ["ο φρέσκος χυμοί", "η φρέσκια χυμοί", "οι φρέσκες χυμοί"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-046",
+      "type": "single-choice",
+      "prompt": "корейские рестораны",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κορεατικά εστιατόρια",
+      "wrongAnswers": [
+        "ο κορεατικός εστιατόρια",
+        "η κορεατική εστιατόρια",
+        "το κορεατικό εστιατόρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-047",
+      "type": "single-choice",
+      "prompt": "порции размешанного кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ανακατεμένοι καφέδες",
+      "wrongAnswers": ["ο ανακατεμένος καφέδες", "η ανακατεμένη καφέδες", "το ανακατεμένο καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-048",
+      "type": "single-choice",
+      "prompt": "бутылки холодного шампанского",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κρύες σαμπάνιες",
+      "wrongAnswers": ["ο κρύος σαμπάνιες", "οι κρύοι σαμπάνιες", "η κρύα σαμπάνιες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-049",
+      "type": "single-choice",
+      "prompt": "порции хорошего кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι καλοί καφέδες",
+      "wrongAnswers": ["ο καλός καφέδες", "η καλή καφέδες", "οι καλές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-050",
+      "type": "single-choice",
+      "prompt": "бутылки любимого пива",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι αγαπημένες μπίρες",
+      "wrongAnswers": ["ο αγαπημένος μπίρες", "η αγαπημένη μπίρες", "το αγαπημένο μπίρες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-051",
+      "type": "single-choice",
+      "prompt": "хороший ресторан",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καλό εστιατόριο",
+      "wrongAnswers": ["ο καλός εστιατόριο", "οι καλοί εστιατόριο", "η καλή εστιατόριο"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-052",
+      "type": "single-choice",
+      "prompt": "холодное пиво",
+      "promptLanguage": "ru",
+      "correctAnswer": "η κρύα μπύρα",
+      "wrongAnswers": ["ο κρύος μπύρα", "οι κρύοι μπύρα", "οι κρύες μπύρα"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-053",
+      "type": "single-choice",
+      "prompt": "израильские соки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ισραηλινοί χυμοί",
+      "wrongAnswers": ["ο ισραηλινός χυμοί", "η ισραηλινή χυμοί", "οι ισραηλινές χυμοί"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-054",
+      "type": "single-choice",
+      "prompt": "холодные напитки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κρύα ποτά",
+      "wrongAnswers": ["ο κρύος ποτά", "οι κρύοι ποτά", "οι κρύες ποτά"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-055",
+      "type": "single-choice",
+      "prompt": "необходимое количество воды",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα απαραίτητα νερά",
+      "wrongAnswers": ["ο απαραίτητος νερά", "οι απαραίτητοι νερά", "η απαραίτητη νερά"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-056",
+      "type": "single-choice",
+      "prompt": "полный стакан",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γεμάτο ποτήρι",
+      "wrongAnswers": ["ο γεμάτος ποτήρι", "οι γεμάτοι ποτήρι", "η γεμάτη ποτήρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-057",
+      "type": "single-choice",
+      "prompt": "вкусный кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο νόστιμος καφές",
+      "wrongAnswers": ["οι νόστιμοι καφές", "η νόστιμη καφές", "οι νόστιμες καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-058",
+      "type": "single-choice",
+      "prompt": "утренний кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο πρωινός καφές",
+      "wrongAnswers": ["οι πρωινοί καφές", "η πρωινή καφές", "οι πρωινές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-059",
+      "type": "single-choice",
+      "prompt": "порции итальянского кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ιταλικοί καφέδες",
+      "wrongAnswers": ["ο ιταλικός καφέδες", "η ιταλική καφέδες", "οι ιταλικές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-060",
+      "type": "single-choice",
+      "prompt": "послеполуденный кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο απογευματινός καφές",
+      "wrongAnswers": ["οι απογευματινοί καφές", "η απογευματινή καφές", "οι απογευματινές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-061",
+      "type": "single-choice",
+      "prompt": "порции дешёвого кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι φθηνοί καφέδες",
+      "wrongAnswers": ["ο φθηνός καφέδες", "η φθηνή καφέδες", "οι φθηνές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-062",
+      "type": "single-choice",
+      "prompt": "двойные порции кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι διπλοί καφέδες",
+      "wrongAnswers": ["ο διπλός καφέδες", "η διπλή καφέδες", "οι διπλές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-063",
+      "type": "single-choice",
+      "prompt": "порции утреннего кофе",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι πρωινοί καφέδες",
+      "wrongAnswers": ["ο πρωινός καφέδες", "η πρωινή καφέδες", "οι πρωινές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-064",
+      "type": "single-choice",
+      "prompt": "корейский ресторан",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κορεατικό εστιατόριο",
+      "wrongAnswers": [
+        "ο κορεατικός εστιατόριο",
+        "η κορεατική εστιατόριο",
+        "οι κορεατικοί εστιατόριο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-065",
+      "type": "single-choice",
+      "prompt": "турецкие чаи",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα τουρκικά τσάγια",
+      "wrongAnswers": ["ο τουρκικός τσάγια", "οι τουρκικοί τσάγια", "η τουρκική τσάγια"]
+    }
+  ]
+}

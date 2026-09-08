@@ -194,5 +194,47 @@
       "singular": "еда",
       "plural": "блюда"
     }
+  },
+  {
+    "id": "beanie",
+    "lemma": "ο σκούφος",
+    "gender": "masculine",
+    "themeId": "clothes-shopping",
+    "forms": {
+      "singular": "σκούφος",
+      "plural": "σκούφοι"
+    },
+    "translations": {
+      "singular": "шапка",
+      "plural": "шапки"
+    }
+  },
+  {
+    "id": "blouse",
+    "lemma": "η μπλούζα",
+    "gender": "feminine",
+    "themeId": "clothes-shopping",
+    "forms": {
+      "singular": "μπλούζα",
+      "plural": "μπλούζες"
+    },
+    "translations": {
+      "singular": "блузка",
+      "plural": "блузки"
+    }
+  },
+  {
+    "id": "trousers",
+    "lemma": "το παντελόνι",
+    "gender": "neuter",
+    "themeId": "clothes-shopping",
+    "forms": {
+      "singular": "παντελόνι",
+      "plural": "παντελόνια"
+    },
+    "translations": {
+      "singular": "пара брюк",
+      "plural": "брюки"
+    }
   }
 ]

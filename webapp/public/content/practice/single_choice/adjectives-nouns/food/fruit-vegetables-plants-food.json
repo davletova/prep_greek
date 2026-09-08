@@ -1,0 +1,686 @@
+{
+  "title": "Овощи, фрукты и растительные продукты",
+  "subtitle": "Выберите правильные формы слов о растительных продуктах",
+  "items": [
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-001",
+      "type": "single-choice",
+      "prompt": "классичный бобовый продукт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κλασικό όσπριο",
+      "wrongAnswers": ["ο κλασικός όσπριο", "οι κλασικοί όσπριο", "η κλασική όσπριο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-002",
+      "type": "single-choice",
+      "prompt": "свежий шпинат",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα σπανάκια",
+      "wrongAnswers": ["ο φρέσκος σπανάκια", "οι φρέσκοι σπανάκια", "η φρέσκια σπανάκια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-003",
+      "type": "single-choice",
+      "prompt": "свежий огурец",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο αγγούρι",
+      "wrongAnswers": ["ο φρέσκος αγγούρι", "οι φρέσκοι αγγούρι", "η φρέσκια αγγούρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-004",
+      "type": "single-choice",
+      "prompt": "красная свёкла",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κόκκινα παντζάρια",
+      "wrongAnswers": ["ο κόκκινος παντζάρια", "οι κόκκινοι παντζάρια", "η κόκκινη παντζάρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-005",
+      "type": "single-choice",
+      "prompt": "сладкая морковь",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γλυκά καρότα",
+      "wrongAnswers": ["ο γλυκός καρότα", "οι γλυκοί καρότα", "η γλυκιά καρότα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-006",
+      "type": "single-choice",
+      "prompt": "израильский сок",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ισραηλινός χυμός",
+      "wrongAnswers": ["οι ισραηλινοί χυμός", "η ισραηλινή χυμός", "οι ισραηλινές χυμός"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-007",
+      "type": "single-choice",
+      "prompt": "красная свёкла",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κόκκινο παντζάρι",
+      "wrongAnswers": ["ο κόκκινος παντζάρι", "οι κόκκινοι παντζάρι", "η κόκκινη παντζάρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-008",
+      "type": "single-choice",
+      "prompt": "вкусные фрукты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα φρούτα",
+      "wrongAnswers": ["ο νόστιμος φρούτα", "οι νόστιμοι φρούτα", "η νόστιμη φρούτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-009",
+      "type": "single-choice",
+      "prompt": "жареные картофелины",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ψητές πατάτες",
+      "wrongAnswers": ["ο ψητός πατάτες", "οι ψητοί πατάτες", "η ψητή πατάτες"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-010",
+      "type": "single-choice",
+      "prompt": "вкусная картофелина",
+      "promptLanguage": "ru",
+      "correctAnswer": "η νόστιμη πατάτα",
+      "wrongAnswers": ["ο νόστιμος πατάτα", "οι νόστιμοι πατάτα", "οι νόστιμες πατάτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-011",
+      "type": "single-choice",
+      "prompt": "сладкие бананы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γλυκές μπανάνες",
+      "wrongAnswers": ["ο γλυκός μπανάνες", "οι γλυκοί μπανάνες", "η γλυκιά μπανάνες"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-012",
+      "type": "single-choice",
+      "prompt": "вкусная чечевица",
+      "promptLanguage": "ru",
+      "correctAnswer": "η νόστιμη φακή",
+      "wrongAnswers": ["ο νόστιμος φακή", "οι νόστιμοι φακή", "οι νόστιμες φακή"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-013",
+      "type": "single-choice",
+      "prompt": "вкусные деревенские салаты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμες χωριάτικες σαλάτες",
+      "wrongAnswers": [
+        "ο νόστιμος χωριάτικες σαλάτες",
+        "οι νόστιμοι χωριάτικες σαλάτες",
+        "η νόστιμη χωριάτικες σαλάτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-014",
+      "type": "single-choice",
+      "prompt": "свежие масла",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα λάδια",
+      "wrongAnswers": ["ο φρέσκος λάδια", "οι φρέσκοι λάδια", "η φρέσκια λάδια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-015",
+      "type": "single-choice",
+      "prompt": "маленькие кабачки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά κολοκυθάκια",
+      "wrongAnswers": ["ο μικρός κολοκυθάκια", "οι μικροί κολοκυθάκια", "η μικρή κολοκυθάκια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-016",
+      "type": "single-choice",
+      "prompt": "зелёный листовой салат",
+      "promptLanguage": "ru",
+      "correctAnswer": "το πράσινο μαρούλι",
+      "wrongAnswers": ["ο πράσινος μαρούλι", "οι πράσινοι μαρούλι", "η πράσινη μαρούλι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-017",
+      "type": "single-choice",
+      "prompt": "сочные дыни",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ζουμερά πεπόνια",
+      "wrongAnswers": ["ο ζουμερός πεπόνια", "η ζουμερή πεπόνια", "το ζουμερό πεπόνια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-018",
+      "type": "single-choice",
+      "prompt": "зелёный базилик",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο πράσινος βασιλικός",
+      "wrongAnswers": ["οι πράσινοι βασιλικός", "η πράσινη βασιλικός", "οι πράσινες βασιλικός"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-019",
+      "type": "single-choice",
+      "prompt": "орехи",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ξηροί καρποί",
+      "wrongAnswers": ["ο ξηρός καρποί", "η ξηρή καρποί", "οι ξηρές καρποί"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-020",
+      "type": "single-choice",
+      "prompt": "красный перец",
+      "promptLanguage": "ru",
+      "correctAnswer": "η κόκκινη πιπεριά",
+      "wrongAnswers": ["ο κόκκινος πιπεριά", "οι κόκκινοι πιπεριά", "οι κόκκινες πιπεριά"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-021",
+      "type": "single-choice",
+      "prompt": "свежие салаты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι φρέσκες σαλάτες",
+      "wrongAnswers": ["ο φρέσκος σαλάτες", "οι φρέσκοι σαλάτες", "η φρέσκια σαλάτες"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-022",
+      "type": "single-choice",
+      "prompt": "оранжевые яблоки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα πορτοκαλί μήλα",
+      "wrongAnswers": ["ο πορτοκαλής μήλα", "οι πορτοκαλιοί μήλα", "η πορτοκαλιά μήλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-023",
+      "type": "single-choice",
+      "prompt": "маленькие грецкие орехи",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά καρύδια",
+      "wrongAnswers": ["ο μικρός καρύδια", "οι μικροί καρύδια", "η μικρή καρύδια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-024",
+      "type": "single-choice",
+      "prompt": "маленькая фасоль",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό φασολάκι",
+      "wrongAnswers": ["ο μικρός φασολάκι", "οι μικροί φασολάκι", "η μικρή φασολάκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-025",
+      "type": "single-choice",
+      "prompt": "свежий салат",
+      "promptLanguage": "ru",
+      "correctAnswer": "η φρέσκια σαλάτα",
+      "wrongAnswers": ["ο φρέσκος σαλάτα", "οι φρέσκοι σαλάτα", "οι φρέσκες σαλάτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-026",
+      "type": "single-choice",
+      "prompt": "вкусный деревенский салат",
+      "promptLanguage": "ru",
+      "correctAnswer": "η νόστιμη χωριάτικη σαλάτα",
+      "wrongAnswers": [
+        "ο νόστιμος χωριάτικη σαλάτα",
+        "οι νόστιμοι χωριάτικη σαλάτα",
+        "οι νόστιμες χωριάτικη σαλάτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-027",
+      "type": "single-choice",
+      "prompt": "вкусная картошка",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι νόστιμες πατάτες",
+      "wrongAnswers": ["ο νόστιμος πατάτες", "οι νόστιμοι πατάτες", "η νόστιμη πατάτες"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-028",
+      "type": "single-choice",
+      "prompt": "классические бобовые",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κλασικά όσπρια",
+      "wrongAnswers": ["ο κλασικός όσπρια", "οι κλασικοί όσπρια", "η κλασική όσπρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-029",
+      "type": "single-choice",
+      "prompt": "свежий баклажан",
+      "promptLanguage": "ru",
+      "correctAnswer": "η φρέσκια μελιτζάνα",
+      "wrongAnswers": ["ο φρέσκος μελιτζάνα", "οι φρέσκοι μελιτζάνα", "οι φρέσκες μελιτζάνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-030",
+      "type": "single-choice",
+      "prompt": "красные перцы",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι κόκκινες πιπεριές",
+      "wrongAnswers": ["ο κόκκινος πιπεριές", "οι κόκκινοι πιπεριές", "η κόκκινη πιπεριές"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-031",
+      "type": "single-choice",
+      "prompt": "датские соки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι δανέζικοι χυμοί",
+      "wrongAnswers": ["ο δανέζικος χυμοί", "η δανέζικη χυμοί", "οι δανέζικες χυμοί"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-032",
+      "type": "single-choice",
+      "prompt": "свежий помидор",
+      "promptLanguage": "ru",
+      "correctAnswer": "η φρέσκια ντομάτα",
+      "wrongAnswers": ["ο φρέσκος ντομάτα", "οι φρέσκοι ντομάτα", "οι φρέσκες ντομάτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-033",
+      "type": "single-choice",
+      "prompt": "свежее масло",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο λάδι",
+      "wrongAnswers": ["ο φρέσκος λάδι", "οι φρέσκοι λάδι", "η φρέσκια λάδι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-034",
+      "type": "single-choice",
+      "prompt": "острый перец",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καυτό πιπέρι",
+      "wrongAnswers": ["ο καυτός πιπέρι", "η καυτή πιπέρι", "οι καυτοί πιπέρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-035",
+      "type": "single-choice",
+      "prompt": "сочный апельсин",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ζουμερό πορτοκάλι",
+      "wrongAnswers": ["ο ζουμερός πορτοκάλι", "η ζουμερή πορτοκάλι", "οι ζουμεροί πορτοκάλι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-036",
+      "type": "single-choice",
+      "prompt": "ирландские соки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ιρλανδικοί χυμοί",
+      "wrongAnswers": ["ο ιρλανδικός χυμοί", "η ιρλανδική χυμοί", "οι ιρλανδικές χυμοί"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-037",
+      "type": "single-choice",
+      "prompt": "маленький орех",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό καρύδι",
+      "wrongAnswers": ["ο μικρός καρύδι", "οι μικροί καρύδι", "η μικρή καρύδι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-038",
+      "type": "single-choice",
+      "prompt": "сладкий лимон",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό λεμόνι",
+      "wrongAnswers": ["ο γλυκός λεμόνι", "οι γλυκοί λεμόνι", "η γλυκιά λεμόνι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-039",
+      "type": "single-choice",
+      "prompt": "свежие артишоки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι φρέσκες αγκινάρες",
+      "wrongAnswers": ["ο φρέσκος αγκινάρες", "οι φρέσκοι αγκινάρες", "η φρέσκια αγκινάρες"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-040",
+      "type": "single-choice",
+      "prompt": "красные вишни",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κόκκινα κεράσια",
+      "wrongAnswers": ["ο κόκκινος κεράσια", "οι κόκκινοι κεράσια", "η κόκκινη κεράσια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-041",
+      "type": "single-choice",
+      "prompt": "сладкий лук",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γλυκά κρεμμύδια",
+      "wrongAnswers": ["ο γλυκός κρεμμύδια", "οι γλυκοί κρεμμύδια", "η γλυκιά κρεμμύδια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-042",
+      "type": "single-choice",
+      "prompt": "свежие брокколи",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα μπρόκολα",
+      "wrongAnswers": ["ο φρέσκος μπρόκολα", "οι φρέσκοι μπρόκολα", "η φρέσκια μπρόκολα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-043",
+      "type": "single-choice",
+      "prompt": "сладкий миндаль",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό αμύγδαλο",
+      "wrongAnswers": ["ο γλυκός αμύγδαλο", "οι γλυκοί αμύγδαλο", "η γλυκιά αμύγδαλο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-044",
+      "type": "single-choice",
+      "prompt": "маленькие чипсы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά πατατάκια",
+      "wrongAnswers": ["ο μικρός πατατάκια", "οι μικροί πατατάκια", "η μικρή πατατάκια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-045",
+      "type": "single-choice",
+      "prompt": "оранжевое яблоко",
+      "promptLanguage": "ru",
+      "correctAnswer": "το πορτοκαλί μήλο",
+      "wrongAnswers": ["ο πορτοκαλής μήλο", "οι πορτοκαλιοί μήλο", "η πορτοκαλιά μήλο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-046",
+      "type": "single-choice",
+      "prompt": "красное яблоко",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κόκκινο μήλο",
+      "wrongAnswers": ["ο κόκκινος μήλο", "οι κόκκινοι μήλο", "η κόκκινη μήλο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-047",
+      "type": "single-choice",
+      "prompt": "сладкие соки",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι γλυκοί χυμοί",
+      "wrongAnswers": ["ο γλυκός χυμοί", "η γλυκιά χυμοί", "οι γλυκές χυμοί"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-048",
+      "type": "single-choice",
+      "prompt": "свежие огурцы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα αγγούρια",
+      "wrongAnswers": ["ο φρέσκος αγγούρια", "οι φρέσκοι αγγούρια", "η φρέσκια αγγούρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-049",
+      "type": "single-choice",
+      "prompt": "зелёные салаты",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα πράσινα μαρούλια",
+      "wrongAnswers": ["ο πράσινος μαρούλια", "οι πράσινοι μαρούλια", "η πράσινη μαρούλια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-050",
+      "type": "single-choice",
+      "prompt": "маленький абрикос",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό βερίκοκο",
+      "wrongAnswers": ["ο μικρός βερίκοκο", "οι μικροί βερίκοκο", "η μικρή βερίκοκο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-051",
+      "type": "single-choice",
+      "prompt": "маленькие абрикосы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά βερίκοκα",
+      "wrongAnswers": ["ο μικρός βερίκοκα", "οι μικροί βερίκοκα", "η μικρή βερίκοκα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-052",
+      "type": "single-choice",
+      "prompt": "варёная картофелина",
+      "promptLanguage": "ru",
+      "correctAnswer": "η βραστή πατάτα",
+      "wrongAnswers": ["ο βραστός πατάτα", "οι βραστοί πατάτα", "οι βραστές πατάτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-053",
+      "type": "single-choice",
+      "prompt": "варёный ячмень",
+      "promptLanguage": "ru",
+      "correctAnswer": "το βραστό κριθάρι",
+      "wrongAnswers": ["ο βραστός κριθάρι", "οι βραστοί κριθάρι", "η βραστή κριθάρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-054",
+      "type": "single-choice",
+      "prompt": "маленький кабачок",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό κολοκυθάκι",
+      "wrongAnswers": ["ο μικρός κολοκυθάκι", "οι μικροί κολοκυθάκι", "η μικρή κολοκυθάκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-055",
+      "type": "single-choice",
+      "prompt": "сочные апельсины",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα ζουμερά πορτοκάλια",
+      "wrongAnswers": ["ο ζουμερός πορτοκάλια", "η ζουμερή πορτοκάλια", "το ζουμερό πορτοκάλια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-056",
+      "type": "single-choice",
+      "prompt": "красные яблоки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα κόκκινα μήλα",
+      "wrongAnswers": ["ο κόκκινος μήλα", "οι κόκκινοι μήλα", "η κόκκινη μήλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-057",
+      "type": "single-choice",
+      "prompt": "сладкий банан",
+      "promptLanguage": "ru",
+      "correctAnswer": "η γλυκιά μπανάνα",
+      "wrongAnswers": ["ο γλυκός μπανάνα", "οι γλυκοί μπανάνα", "οι γλυκές μπανάνα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-058",
+      "type": "single-choice",
+      "prompt": "маленькие фундуки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα μικρά φουντούκια",
+      "wrongAnswers": ["ο μικρός φουντούκια", "οι μικροί φουντούκια", "η μικρή φουντούκια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-059",
+      "type": "single-choice",
+      "prompt": "свежий шпинат",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο σπανάκι",
+      "wrongAnswers": ["ο φρέσκος σπανάκι", "οι φρέσκοι σπανάκι", "η φρέσκια σπανάκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-060",
+      "type": "single-choice",
+      "prompt": "свежая фасоль",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα φασόλια",
+      "wrongAnswers": ["ο φρέσκος φασόλια", "οι φρέσκοι φασόλια", "η φρέσκια φασόλια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-061",
+      "type": "single-choice",
+      "prompt": "вкусный фрукт",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο φρούτο",
+      "wrongAnswers": ["ο νόστιμος φρούτο", "οι νόστιμοι φρούτο", "η νόστιμη φρούτο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-062",
+      "type": "single-choice",
+      "prompt": "сладкий виноград",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό σταφύλι",
+      "wrongAnswers": ["ο γλυκός σταφύλι", "οι γλυκοί σταφύλι", "η γλυκιά σταφύλι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-063",
+      "type": "single-choice",
+      "prompt": "свежие помидоры",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι φρέσκες ντομάτες",
+      "wrongAnswers": ["ο φρέσκος ντομάτες", "οι φρέσκοι ντομάτες", "η φρέσκια ντομάτες"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-064",
+      "type": "single-choice",
+      "prompt": "зелёная капуста",
+      "promptLanguage": "ru",
+      "correctAnswer": "το πράσινο λάχανο",
+      "wrongAnswers": ["ο πράσινος λάχανο", "οι πράσινοι λάχανο", "η πράσινη λάχανο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-065",
+      "type": "single-choice",
+      "prompt": "хорошая кукуруза",
+      "promptLanguage": "ru",
+      "correctAnswer": "το καλό καλαμπόκι",
+      "wrongAnswers": ["ο καλός καλαμπόκι", "οι καλοί καλαμπόκι", "η καλή καλαμπόκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-066",
+      "type": "single-choice",
+      "prompt": "головки свежего чеснока",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα σκόρδα",
+      "wrongAnswers": ["ο φρέσκος σκόρδα", "οι φρέσκοι σκόρδα", "η φρέσκια σκόρδα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-067",
+      "type": "single-choice",
+      "prompt": "красная вишня",
+      "promptLanguage": "ru",
+      "correctAnswer": "το κόκκινο κεράσι",
+      "wrongAnswers": ["ο κόκκινος κεράσι", "οι κόκκινοι κεράσι", "η κόκκινη κεράσι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-068",
+      "type": "single-choice",
+      "prompt": "свежая брокколи",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο μπρόκολο",
+      "wrongAnswers": ["ο φρέσκος μπρόκολο", "οι φρέσκοι μπρόκολο", "η φρέσκια μπρόκολο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-069",
+      "type": "single-choice",
+      "prompt": "маленький фундук",
+      "promptLanguage": "ru",
+      "correctAnswer": "το μικρό φουντούκι",
+      "wrongAnswers": ["ο μικρός φουντούκι", "οι μικροί φουντούκι", "η μικρή φουντούκι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-070",
+      "type": "single-choice",
+      "prompt": "сухой орех",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο ξηρός καρπός",
+      "wrongAnswers": ["οι ξηροί καρπός", "η ξηρή καρπός", "οι ξηρές καρπός"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-071",
+      "type": "single-choice",
+      "prompt": "смешанный салат",
+      "promptLanguage": "ru",
+      "correctAnswer": "η ανακατεμένη σαλάτα",
+      "wrongAnswers": ["ο ανακατεμένος σαλάτα", "το ανακατεμένο σαλάτα", "οι ανακατεμένοι σαλάτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-072",
+      "type": "single-choice",
+      "prompt": "сладкий виноград",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γλυκά σταφύλια",
+      "wrongAnswers": ["ο γλυκός σταφύλια", "οι γλυκοί σταφύλια", "η γλυκιά σταφύλια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-073",
+      "type": "single-choice",
+      "prompt": "свежие овощи",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα φρέσκα λαχανικά",
+      "wrongAnswers": ["ο φρέσκος λαχανικά", "οι φρέσκοι λαχανικά", "η φρέσκια λαχανικά"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-074",
+      "type": "single-choice",
+      "prompt": "свежий овощ",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο λαχανικό",
+      "wrongAnswers": ["ο φρέσκος λαχανικό", "οι φρέσκοι λαχανικό", "η φρέσκια λαχανικό"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-075",
+      "type": "single-choice",
+      "prompt": "сладкий миндаль",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα γλυκά αμύγδαλα",
+      "wrongAnswers": ["ο γλυκός αμύγδαλα", "οι γλυκοί αμύγδαλα", "η γλυκιά αμύγδαλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-076",
+      "type": "single-choice",
+      "prompt": "вкусные арбузы",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα νόστιμα καρπούζια",
+      "wrongAnswers": ["ο νόστιμος καρπούζια", "οι νόστιμοι καρπούζια", "η νόστιμη καρπούζια"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-077",
+      "type": "single-choice",
+      "prompt": "смешанные салаты",
+      "promptLanguage": "ru",
+      "correctAnswer": "οι ανακατεμένες σαλάτες",
+      "wrongAnswers": ["ο ανακατεμένος σαλάτες", "η ανακατεμένη σαλάτες", "το ανακατεμένο σαλάτες"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-078",
+      "type": "single-choice",
+      "prompt": "свежий чеснок",
+      "promptLanguage": "ru",
+      "correctAnswer": "το φρέσκο σκόρδο",
+      "wrongAnswers": ["ο φρέσκος σκόρδο", "οι φρέσκοι σκόρδο", "η φρέσκια σκόρδο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-079",
+      "type": "single-choice",
+      "prompt": "сладкая морковь",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό καρότο",
+      "wrongAnswers": ["ο γλυκός καρότο", "οι γλυκοί καρότο", "η γλυκιά καρότο"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-080",
+      "type": "single-choice",
+      "prompt": "свежий горох",
+      "promptLanguage": "ru",
+      "correctAnswer": "ο φρέσκος αρακάς",
+      "wrongAnswers": ["οι φρέσκοι αρακάς", "η φρέσκια αρακάς", "οι φρέσκες αρακάς"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-081",
+      "type": "single-choice",
+      "prompt": "зелёные яблоки",
+      "promptLanguage": "ru",
+      "correctAnswer": "τα πράσινα μήλα",
+      "wrongAnswers": ["ο πράσινος μήλα", "οι πράσινοι μήλα", "η πράσινη μήλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-082",
+      "type": "single-choice",
+      "prompt": "сладкий лук",
+      "promptLanguage": "ru",
+      "correctAnswer": "το γλυκό κρεμμύδι",
+      "wrongAnswers": ["ο γλυκός κρεμμύδι", "οι γλυκοί κρεμμύδι", "η γλυκιά κρεμμύδι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-083",
+      "type": "single-choice",
+      "prompt": "вкусный арбуз",
+      "promptLanguage": "ru",
+      "correctAnswer": "το νόστιμο καρπούζι",
+      "wrongAnswers": ["ο νόστιμος καρπούζι", "οι νόστιμοι καρπούζι", "η νόστιμη καρπούζι"]
+    },
+    {
+      "id": "nouns-adjectives-food-fruit-vegetables-plants-food-084",
+      "type": "single-choice",
+      "prompt": "сочная дыня",
+      "promptLanguage": "ru",
+      "correctAnswer": "το ζουμερό πεπόνι",
+      "wrongAnswers": ["ο ζουμερός πεπόνι", "η ζουμερή πεπόνι", "οι ζουμεροί πεπόνι"]
+    }
+  ]
+}

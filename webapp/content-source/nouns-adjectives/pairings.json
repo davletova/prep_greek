@@ -898,5 +898,185 @@
       "singular": "какой-то салат",
       "plural": "какие-то салаты"
     }
+  },
+  {
+    "id": "new-beanie",
+    "nounId": "beanie",
+    "adjectiveId": "new",
+    "translations": {
+      "singular": "новая шапка",
+      "plural": "новые шапки"
+    }
+  },
+  {
+    "id": "new-blouse",
+    "nounId": "blouse",
+    "adjectiveId": "new",
+    "translations": {
+      "singular": "новая блузка",
+      "plural": "новые блузки"
+    }
+  },
+  {
+    "id": "new-trousers",
+    "nounId": "trousers",
+    "adjectiveId": "new",
+    "translations": {
+      "singular": "новая пара брюк",
+      "plural": "новые пары брюк"
+    }
+  },
+  {
+    "id": "old-beanie",
+    "nounId": "beanie",
+    "adjectiveId": "old",
+    "translations": {
+      "singular": "старая шапка",
+      "plural": "старые шапки"
+    }
+  },
+  {
+    "id": "old-blouse",
+    "nounId": "blouse",
+    "adjectiveId": "old",
+    "translations": {
+      "singular": "старая блузка",
+      "plural": "старые блузки"
+    }
+  },
+  {
+    "id": "old-trousers",
+    "nounId": "trousers",
+    "adjectiveId": "old",
+    "translations": {
+      "singular": "старая пара брюк",
+      "plural": "старые пары брюк"
+    }
+  },
+  {
+    "id": "clean-beanie",
+    "nounId": "beanie",
+    "adjectiveId": "clean",
+    "translations": {
+      "singular": "чистая шапка",
+      "plural": "чистые шапки"
+    }
+  },
+  {
+    "id": "clean-blouse",
+    "nounId": "blouse",
+    "adjectiveId": "clean",
+    "translations": {
+      "singular": "чистая блузка",
+      "plural": "чистые блузки"
+    }
+  },
+  {
+    "id": "clean-trousers",
+    "nounId": "trousers",
+    "adjectiveId": "clean",
+    "translations": {
+      "singular": "чистая пара брюк",
+      "plural": "чистые пары брюк"
+    }
+  },
+  {
+    "id": "red-beanie",
+    "nounId": "beanie",
+    "adjectiveId": "red",
+    "translations": {
+      "singular": "красная шапка",
+      "plural": "красные шапки"
+    }
+  },
+  {
+    "id": "red-blouse",
+    "nounId": "blouse",
+    "adjectiveId": "red",
+    "translations": {
+      "singular": "красная блузка",
+      "plural": "красные блузки"
+    }
+  },
+  {
+    "id": "red-trousers",
+    "nounId": "trousers",
+    "adjectiveId": "red",
+    "translations": {
+      "singular": "красная пара брюк",
+      "plural": "красные пары брюк"
+    }
+  },
+  {
+    "id": "black-beanie",
+    "nounId": "beanie",
+    "adjectiveId": "black",
+    "translations": {
+      "singular": "чёрная шапка",
+      "plural": "чёрные шапки"
+    }
+  },
+  {
+    "id": "black-blouse",
+    "nounId": "blouse",
+    "adjectiveId": "black",
+    "translations": {
+      "singular": "чёрная блузка",
+      "plural": "чёрные блузки"
+    }
+  },
+  {
+    "id": "black-trousers",
+    "nounId": "trousers",
+    "adjectiveId": "black",
+    "translations": {
+      "singular": "чёрная пара брюк",
+      "plural": "чёрные пары брюк"
+    }
+  },
+  {
+    "id": "this-beanie",
+    "nounId": "beanie",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "эта шапка",
+      "plural": "эти шапки"
+    }
+  },
+  {
+    "id": "this-blouse",
+    "nounId": "blouse",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "эта блузка",
+      "plural": "эти блузки"
+    }
+  },
+  {
+    "id": "this-trousers",
+    "nounId": "trousers",
+    "adjectiveId": "this",
+    "translations": {
+      "singular": "эта пара брюк",
+      "plural": "эти пары брюк"
+    }
+  },
+  {
+    "id": "some-beanie",
+    "nounId": "beanie",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какая-то шапка",
+      "plural": "какие-то шапки"
+    }
+  },
+  {
+    "id": "some-blouse",
+    "nounId": "blouse",
+    "adjectiveId": "some",
+    "translations": {
+      "singular": "какая-то блузка",
+      "plural": "какие-то блузки"
+    }
   }
 ]

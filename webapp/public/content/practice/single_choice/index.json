@@ -49,8 +49,8 @@
   },
   {
     "id": "nouns-adjectives",
-    "title": "Прилагательные и существительные",
-    "subtitle": "Выберите часть",
+    "title": "Существительные и прилагательные",
+    "subtitle": "Выберите раздел",
     "indexFileName": "adjectives-nouns/index.json"
   }
 ]

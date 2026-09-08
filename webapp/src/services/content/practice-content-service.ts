@@ -109,11 +109,11 @@ export function loadSingleChoiceTopicDefinitions(): Promise<SingleChoicePractice
 
 export function loadSingleChoiceGroupTopicDefinitions(
   group: SingleChoicePracticeGroupDefinition
-): Promise<SingleChoicePracticeTopicDefinition[]> {
+): Promise<SingleChoicePracticeIndexEntry[]> {
   const parentBaseUrl = group.baseUrl ?? singleChoicePracticeContent.baseUrl;
 
   return loadJsonContent<unknown>(`${parentBaseUrl}${group.indexFileName}`).then((content) =>
-    normalizeSingleChoiceTopicIndex(content, getGroupBaseUrl(group))
+    normalizeSingleChoiceRootIndex(content, getGroupBaseUrl(group))
   );
 }
 

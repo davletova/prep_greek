@@ -1,0 +1,1184 @@
+{
+  "title": "Мебель, домашние предметы и быт",
+  "subtitle": "Выберите правильные формы слов о мебели и домашнем быте",
+  "items": [
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-001",
+      "type": "single-choice",
+      "prompt": "деревянная мебель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το έπιπλο\nМножественное число: τα έπιπλα\n\nРод: средний",
+      "correctAnswer": "το ξύλινο έπιπλο",
+      "wrongAnswers": ["ο ξύλινος έπιπλο", "οι ξύλινοι έπιπλο", "η ξύλινη έπιπλο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-002",
+      "type": "single-choice",
+      "prompt": "мягкое одеяло",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουβέρτα\nМножественное число: οι κουβέρτες\n\nРод: женский",
+      "correctAnswer": "η μαλακή κουβέρτα",
+      "wrongAnswers": ["ο μαλακός κουβέρτα", "οι μαλακοί κουβέρτα", "οι μαλακές κουβέρτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-003",
+      "type": "single-choice",
+      "prompt": "открытые краны",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η βρύση\nМножественное число: οι βρύσες\n\nРод: женский",
+      "correctAnswer": "οι ανοιχτές βρύσες",
+      "wrongAnswers": ["ο ανοιχτός βρύσες", "οι ανοιχτοί βρύσες", "η ανοιχτή βρύσες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-004",
+      "type": "single-choice",
+      "prompt": "открытые радиаторы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το καλοριφέρ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα ανοιχτά καλοριφέρ",
+      "wrongAnswers": ["ο ανοιχτός καλοριφέρ", "οι ανοιχτοί καλοριφέρ", "η ανοιχτή καλοριφέρ"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-005",
+      "type": "single-choice",
+      "prompt": "деревянный стул",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "η ξύλινη καρέκλα",
+      "wrongAnswers": ["ο ξύλινος καρέκλα", "οι ξύλινοι καρέκλα", "οι ξύλινες καρέκλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-006",
+      "type": "single-choice",
+      "prompt": "белая салфетка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η χαρτοπετσέτα\nМножественное число: οι χαρτοπετσέτες\n\nРод: женский",
+      "correctAnswer": "η λευκή χαρτοπετσέτα",
+      "wrongAnswers": ["ο λευκός χαρτοπετσέτα", "οι λευκοί χαρτοπετσέτα", "οι λευκές χαρτοπετσέτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-007",
+      "type": "single-choice",
+      "prompt": "красивая рама",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κάδρο\nМножественное число: τα κάδρα\n\nРод: средний",
+      "correctAnswer": "το ωραίο κάδρο",
+      "wrongAnswers": ["ο ωραίος κάδρο", "οι ωραίοι κάδρο", "η ωραία κάδρο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-008",
+      "type": "single-choice",
+      "prompt": "открытый радиатор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το καλοριφέρ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το ανοιχτό καλοριφέρ",
+      "wrongAnswers": ["ο ανοιχτός καλοριφέρ", "οι ανοιχτοί καλοριφέρ", "η ανοιχτή καλοριφέρ"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-009",
+      "type": "single-choice",
+      "prompt": "пустые тарелки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πιάτο\nМножественное число: τα πιάτα\n\nРод: средний",
+      "correctAnswer": "τα άδεια πιάτα",
+      "wrongAnswers": ["ο άδειος πιάτα", "οι άδειοι πιάτα", "οι άδειες πιάτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-010",
+      "type": "single-choice",
+      "prompt": "новые матрасы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το στρώμα\nМножественное число: τα στρώματα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια στρώματα",
+      "wrongAnswers": ["ο καινούριος στρώματα", "οι καινούριοι στρώματα", "οι καινούριες στρώματα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-011",
+      "type": "single-choice",
+      "prompt": "прямая полка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ράφι\nМножественное число: τα ράφια\n\nРод: средний",
+      "correctAnswer": "το ίσιο ράφι",
+      "wrongAnswers": ["ο ίσιος ράφι", "οι ίσιοι ράφι", "η ίσια ράφι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-012",
+      "type": "single-choice",
+      "prompt": "удобный диван",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "ο άνετος καναπές",
+      "wrongAnswers": ["η άνετη καναπές", "το άνετο καναπές", "οι άνετοι καναπές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-013",
+      "type": "single-choice",
+      "prompt": "зелёные стулья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "οι πράσινες καρέκλες",
+      "wrongAnswers": ["ο πράσινος καρέκλες", "οι πράσινοι καρέκλες", "η πράσινη καρέκλες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-014",
+      "type": "single-choice",
+      "prompt": "бархатные диваны",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "οι βελούδινοι καναπέδες",
+      "wrongAnswers": ["ο βελούδινος καναπέδες", "η βελούδινη καναπέδες", "το βελούδινο καναπέδες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-015",
+      "type": "single-choice",
+      "prompt": "новый холодильник",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ψυγείο\nМножественное число: τα ψυγεία\n\nРод: средний",
+      "correctAnswer": "το καινούριο ψυγείο",
+      "wrongAnswers": ["ο καινούριος ψυγείο", "οι καινούριοι ψυγείο", "η καινούρια ψυγείο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-016",
+      "type": "single-choice",
+      "prompt": "низкий стол",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τραπέζι\nМножественное число: τα τραπέζια\n\nРод: средний",
+      "correctAnswer": "το χαμηλό τραπέζι",
+      "wrongAnswers": ["ο χαμηλός τραπέζι", "οι χαμηλοί τραπέζι", "η χαμηλή τραπέζι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-017",
+      "type": "single-choice",
+      "prompt": "современный диван",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "ο μοντέρνος καναπές",
+      "wrongAnswers": ["οι μοντέρνοι καναπές", "η μοντέρνα καναπές", "οι μοντέρνες καναπές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-018",
+      "type": "single-choice",
+      "prompt": "открытый ящик",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το συρτάρι\nМножественное число: τα συρτάρια\n\nРод: средний",
+      "correctAnswer": "το ανοιχτό συρτάρι",
+      "wrongAnswers": ["ο ανοιχτός συρτάρι", "οι ανοιχτοί συρτάρι", "η ανοιχτή συρτάρι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-019",
+      "type": "single-choice",
+      "prompt": "чистые ванны",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπανιέρα\nМножественное число: οι μπανιέρες\n\nРод: женский",
+      "correctAnswer": "οι καθαρές μπανιέρες",
+      "wrongAnswers": ["ο καθαρός μπανιέρες", "οι καθαροί μπανιέρες", "η καθαρή μπανιέρες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-020",
+      "type": "single-choice",
+      "prompt": "большие зеркала",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καθρέφτης\nМножественное число: οι καθρέφτες\n\nРод: мужской",
+      "correctAnswer": "οι μεγάλοι καθρέφτες",
+      "wrongAnswers": ["ο μεγάλος καθρέφτες", "η μεγάλη καθρέφτες", "οι μεγάλες καθρέφτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-021",
+      "type": "single-choice",
+      "prompt": "мягкие подушки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μαξιλάρι\nМножественное число: τα μαξιλάρια\n\nРод: средний",
+      "correctAnswer": "τα μαλακά μαξιλάρια",
+      "wrongAnswers": ["ο μαλακός μαξιλάρια", "οι μαλακοί μαξιλάρια", "η μαλακή μαξιλάρια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-022",
+      "type": "single-choice",
+      "prompt": "деревянный стол",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τραπέζι\nМножественное число: τα τραπέζια\n\nРод: средний",
+      "correctAnswer": "το ξύλινο τραπέζι",
+      "wrongAnswers": ["ο ξύλινος τραπέζι", "οι ξύλινοι τραπέζι", "η ξύλινη τραπέζι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-023",
+      "type": "single-choice",
+      "prompt": "новые кастрюли",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κατσαρόλα\nМножественное число: οι κατσαρόλες\n\nРод: женский",
+      "correctAnswer": "οι καινούριες κατσαρόλες",
+      "wrongAnswers": [
+        "ο καινούριος κατσαρόλες",
+        "οι καινούριοι κατσαρόλες",
+        "τα καινούρια κατσαρόλες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-024",
+      "type": "single-choice",
+      "prompt": "низкие стулья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "οι χαμηλές καρέκλες",
+      "wrongAnswers": ["ο χαμηλός καρέκλες", "οι χαμηλοί καρέκλες", "η χαμηλή καρέκλες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-025",
+      "type": "single-choice",
+      "prompt": "плотно закрывающиеся двери",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "οι σφιχτές πόρτες",
+      "wrongAnswers": ["ο σφιχτός πόρτες", "οι σφιχτοί πόρτες", "η σφιχτή πόρτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-026",
+      "type": "single-choice",
+      "prompt": "маленький шкафчик",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ντουλάπι\nМножественное число: τα ντουλάπια\n\nРод: средний",
+      "correctAnswer": "το μικρό ντουλάπι",
+      "wrongAnswers": ["ο μικρός ντουλάπι", "οι μικροί ντουλάπι", "η μικρή ντουλάπι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-027",
+      "type": "single-choice",
+      "prompt": "удобное кресло",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πολυθρόνα\nМножественное число: οι πολυθρόνες\n\nРод: женский",
+      "correctAnswer": "η άνετη πολυθρόνα",
+      "wrongAnswers": ["ο άνετος πολυθρόνα", "το άνετο πολυθρόνα", "οι άνετοι πολυθρόνα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-028",
+      "type": "single-choice",
+      "prompt": "деревянная мебель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το έπιπλο\nМножественное число: τα έπιπλα\n\nРод: средний",
+      "correctAnswer": "τα ξύλινα έπιπλα",
+      "wrongAnswers": ["ο ξύλινος έπιπλα", "οι ξύλινοι έπιπλα", "η ξύλινη έπιπλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-029",
+      "type": "single-choice",
+      "prompt": "новые светильники",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φωτιστικό\nМножественное число: τα φωτιστικά\n\nРод: средний",
+      "correctAnswer": "τα καινούρια φωτιστικά",
+      "wrongAnswers": [
+        "ο καινούριος φωτιστικά",
+        "οι καινούριοι φωτιστικά",
+        "οι καινούριες φωτιστικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-030",
+      "type": "single-choice",
+      "prompt": "тёплое одеяло",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πάπλωμα\nМножественное число: τα παπλώματα\n\nРод: средний",
+      "correctAnswer": "το ζεστό πάπλωμα",
+      "wrongAnswers": ["ο ζεστός πάπλωμα", "οι ζεστοί πάπλωμα", "η ζεστή πάπλωμα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-031",
+      "type": "single-choice",
+      "prompt": "деревянная скамья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο πάγκος\nМножественное число: οι πάγκοι\n\nРод: мужской",
+      "correctAnswer": "ο ξύλινος πάγκος",
+      "wrongAnswers": ["οι ξύλινοι πάγκος", "η ξύλινη πάγκος", "οι ξύλινες πάγκος"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-032",
+      "type": "single-choice",
+      "prompt": "белые салфетки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η χαρτοπετσέτα\nМножественное число: οι χαρτοπετσέτες\n\nРод: женский",
+      "correctAnswer": "οι λευκές χαρτοπετσέτες",
+      "wrongAnswers": ["ο λευκός χαρτοπετσέτες", "οι λευκοί χαρτοπετσέτες", "η λευκή χαρτοπετσέτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-033",
+      "type": "single-choice",
+      "prompt": "пустые коробки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κουτί\nМножественное число: τα κουτιά\n\nРод: средний",
+      "correctAnswer": "τα άδεια κουτιά",
+      "wrongAnswers": ["ο άδειος κουτιά", "οι άδειοι κουτιά", "οι άδειες κουτιά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-034",
+      "type": "single-choice",
+      "prompt": "чистые простыни",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σεντόνι\nМножественное число: τα σεντόνια\n\nРод: средний",
+      "correctAnswer": "τα καθαρά σεντόνια",
+      "wrongAnswers": ["ο καθαρός σεντόνια", "οι καθαροί σεντόνια", "η καθαρή σεντόνια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-035",
+      "type": "single-choice",
+      "prompt": "чистая ванна",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπανιέρα\nМножественное число: οι μπανιέρες\n\nРод: женский",
+      "correctAnswer": "η καθαρή μπανιέρα",
+      "wrongAnswers": ["ο καθαρός μπανιέρα", "οι καθαροί μπανιέρα", "οι καθαρές μπανιέρα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-036",
+      "type": "single-choice",
+      "prompt": "пустой почтовый ящик",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γραμματοκιβώτιο\nМножественное число: τα γραμματοκιβώτια\n\nРод: средний",
+      "correctAnswer": "το άδειο γραμματοκιβώτιο",
+      "wrongAnswers": [
+        "ο άδειος γραμματοκιβώτιο",
+        "οι άδειοι γραμματοκιβώτιο",
+        "η άδεια γραμματοκιβώτιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-037",
+      "type": "single-choice",
+      "prompt": "красивые рамки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κορνίζα\nМножественное число: οι κορνίζες\n\nРод: женский",
+      "correctAnswer": "οι όμορφες κορνίζες",
+      "wrongAnswers": ["ο όμορφος κορνίζες", "οι όμορφοι κορνίζες", "η όμορφη κορνίζες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-038",
+      "type": "single-choice",
+      "prompt": "пустые чашки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φλιτζάνι\nМножественное число: τα φλιτζάνια\n\nРод: средний",
+      "correctAnswer": "τα άδεια φλιτζάνια",
+      "wrongAnswers": ["ο άδειος φλιτζάνια", "οι άδειοι φλιτζάνια", "οι άδειες φλιτζάνια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-039",
+      "type": "single-choice",
+      "prompt": "пустые стаканы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ποτήρι\nМножественное число: τα ποτήρια\n\nРод: средний",
+      "correctAnswer": "τα άδεια ποτήρια",
+      "wrongAnswers": ["ο άδειος ποτήρια", "οι άδειοι ποτήρια", "οι άδειες ποτήρια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-040",
+      "type": "single-choice",
+      "prompt": "красивый ковёр",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το χαλί\nМножественное число: τα χαλιά\n\nРод: средний",
+      "correctAnswer": "το όμορφο χαλί",
+      "wrongAnswers": ["ο όμορφος χαλί", "οι όμορφοι χαλί", "η όμορφη χαλί"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-041",
+      "type": "single-choice",
+      "prompt": "деревянный футляр",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η θήκη\nМножественное число: οι θήκες\n\nРод: женский",
+      "correctAnswer": "η ξύλινη θήκη",
+      "wrongAnswers": ["ο ξύλινος θήκη", "οι ξύλινοι θήκη", "οι ξύλινες θήκη"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-042",
+      "type": "single-choice",
+      "prompt": "бархатные шторы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουρτίνα\nМножественное число: οι κουρτίνες\n\nРод: женский",
+      "correctAnswer": "οι βελούδινες κουρτίνες",
+      "wrongAnswers": ["ο βελούδινος κουρτίνες", "η βελούδινη κουρτίνες", "το βελούδινο κουρτίνες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-043",
+      "type": "single-choice",
+      "prompt": "большое зеркало",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καθρέφτης\nМножественное число: οι καθρέφτες\n\nРод: мужской",
+      "correctAnswer": "ο μεγάλος καθρέφτης",
+      "wrongAnswers": ["οι μεγάλοι καθρέφτης", "η μεγάλη καθρέφτης", "οι μεγάλες καθρέφτης"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-044",
+      "type": "single-choice",
+      "prompt": "деревянные столы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τραπέζι\nМножественное число: τα τραπέζια\n\nРод: средний",
+      "correctAnswer": "τα ξύλινα τραπέζια",
+      "wrongAnswers": ["ο ξύλινος τραπέζια", "οι ξύλινοι τραπέζια", "η ξύλινη τραπέζια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-045",
+      "type": "single-choice",
+      "prompt": "электрическая плита",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουζίνα\nМножественное число: οι κουζίνες\n\nРод: женский",
+      "correctAnswer": "η ηλεκτρική κουζίνα",
+      "wrongAnswers": ["ο ηλεκτρικός κουζίνα", "οι ηλεκτρικοί κουζίνα", "οι ηλεκτρικές κουζίνα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-046",
+      "type": "single-choice",
+      "prompt": "чистые мыла",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σαπούνι\nМножественное число: τα σαπούνια\n\nРод: средний",
+      "correctAnswer": "τα καθαρά σαπούνια",
+      "wrongAnswers": ["ο καθαρός σαπούνια", "οι καθαροί σαπούνια", "η καθαρή σαπούνια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-047",
+      "type": "single-choice",
+      "prompt": "деревянные стулья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "οι ξύλινες καρέκλες",
+      "wrongAnswers": ["ο ξύλινος καρέκλες", "οι ξύλινοι καρέκλες", "η ξύλινη καρέκλες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-048",
+      "type": "single-choice",
+      "prompt": "электрическая розетка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πρίζα\nМножественное число: οι πρίζες\n\nРод: женский",
+      "correctAnswer": "η ηλεκτρική πρίζα",
+      "wrongAnswers": ["ο ηλεκτρικός πρίζα", "οι ηλεκτρικοί πρίζα", "οι ηλεκτρικές πρίζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-049",
+      "type": "single-choice",
+      "prompt": "чистая скатерть",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τραπεζομάντιλο\nМножественное число: τα τραπεζομάντιλα\n\nРод: средний",
+      "correctAnswer": "το καθαρό τραπεζομάντιλο",
+      "wrongAnswers": [
+        "ο καθαρός τραπεζομάντιλο",
+        "οι καθαροί τραπεζομάντιλο",
+        "η καθαρή τραπεζομάντιλο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-050",
+      "type": "single-choice",
+      "prompt": "бархатный диван",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "ο βελούδινος καναπές",
+      "wrongAnswers": ["η βελούδινη καναπές", "το βελούδινο καναπές", "οι βελούδινοι καναπές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-051",
+      "type": "single-choice",
+      "prompt": "чистая циновка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η ψάθα\nМножественное число: οι ψάθες\n\nРод: женский",
+      "correctAnswer": "η καθαρή ψάθα",
+      "wrongAnswers": ["ο καθαρός ψάθα", "οι καθαροί ψάθα", "οι καθαρές ψάθα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-052",
+      "type": "single-choice",
+      "prompt": "тёплые одеяла",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουβέρτα\nМножественное число: οι κουβέρτες\n\nРод: женский",
+      "correctAnswer": "οι ζεστές κουβέρτες",
+      "wrongAnswers": ["ο ζεστός κουβέρτες", "οι ζεστοί κουβέρτες", "η ζεστή κουβέρτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-053",
+      "type": "single-choice",
+      "prompt": "чистые полотенца",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πετσέτα\nМножественное число: οι πετσέτες\n\nРод: женский",
+      "correctAnswer": "οι καθαρές πετσέτες",
+      "wrongAnswers": ["ο καθαρός πετσέτες", "οι καθαροί πετσέτες", "η καθαρή πετσέτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-054",
+      "type": "single-choice",
+      "prompt": "мягкие одеяла",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουβέρτα\nМножественное число: οι κουβέρτες\n\nРод: женский",
+      "correctAnswer": "οι μαλακές κουβέρτες",
+      "wrongAnswers": ["ο μαλακός κουβέρτες", "οι μαλακοί κουβέρτες", "η μαλακή κουβέρτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-055",
+      "type": "single-choice",
+      "prompt": "мягкие диваны",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "οι μαλακοί καναπέδες",
+      "wrongAnswers": ["ο μαλακός καναπέδες", "η μαλακή καναπέδες", "οι μαλακές καναπέδες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-056",
+      "type": "single-choice",
+      "prompt": "полные стаканы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ποτήρι\nМножественное число: τα ποτήρια\n\nРод: средний",
+      "correctAnswer": "τα γεμάτα ποτήρια",
+      "wrongAnswers": ["ο γεμάτος ποτήρια", "οι γεμάτοι ποτήρια", "η γεμάτη ποτήρια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-057",
+      "type": "single-choice",
+      "prompt": "низкие столы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τραπέζι\nМножественное число: τα τραπέζια\n\nРод: средний",
+      "correctAnswer": "τα χαμηλά τραπέζια",
+      "wrongAnswers": ["ο χαμηλός τραπέζια", "οι χαμηλοί τραπέζια", "η χαμηλή τραπέζια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-058",
+      "type": "single-choice",
+      "prompt": "мягкий диван",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "ο μαλακός καναπές",
+      "wrongAnswers": ["οι μαλακοί καναπές", "η μαλακή καναπές", "οι μαλακές καναπές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-059",
+      "type": "single-choice",
+      "prompt": "чистые скатерти",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τραπεζομάντιλο\nМножественное число: τα τραπεζομάντιλα\n\nРод: средний",
+      "correctAnswer": "τα καθαρά τραπεζομάντιλα",
+      "wrongAnswers": [
+        "ο καθαρός τραπεζομάντιλα",
+        "οι καθαροί τραπεζομάντιλα",
+        "η καθαρή τραπεζομάντιλα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-060",
+      "type": "single-choice",
+      "prompt": "тёплое одеяло",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουβέρτα\nМножественное число: οι κουβέρτες\n\nРод: женский",
+      "correctAnswer": "η ζεστή κουβέρτα",
+      "wrongAnswers": ["ο ζεστός κουβέρτα", "οι ζεστοί κουβέρτα", "οι ζεστές κουβέρτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-061",
+      "type": "single-choice",
+      "prompt": "одна односпальная кровать",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κρεβάτι\nМножественное число: τα κρεβάτια\n\nРод: средний",
+      "correctAnswer": "το μονό κρεβάτι",
+      "wrongAnswers": ["ο μονός κρεβάτι", "οι μονοί κρεβάτι", "η μονή κρεβάτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-062",
+      "type": "single-choice",
+      "prompt": "большая штора",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουρτίνα\nМножественное число: οι κουρτίνες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη κουρτίνα",
+      "wrongAnswers": ["ο μεγάλος κουρτίνα", "οι μεγάλοι κουρτίνα", "οι μεγάλες κουρτίνα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-063",
+      "type": "single-choice",
+      "prompt": "крепкий стул",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "η γερή καρέκλα",
+      "wrongAnswers": ["ο γερός καρέκλα", "οι γεροί καρέκλα", "οι γερές καρέκλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-064",
+      "type": "single-choice",
+      "prompt": "открытые ящики",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το συρτάρι\nМножественное число: τα συρτάρια\n\nРод: средний",
+      "correctAnswer": "τα ανοιχτά συρτάρια",
+      "wrongAnswers": ["ο ανοιχτός συρτάρια", "οι ανοιχτοί συρτάρια", "η ανοιχτή συρτάρια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-065",
+      "type": "single-choice",
+      "prompt": "чистая вилка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πιρούνι\nМножественное число: τα πιρούνια\n\nРод: средний",
+      "correctAnswer": "το καθαρό πιρούνι",
+      "wrongAnswers": ["ο καθαρός πιρούνι", "οι καθαροί πιρούνι", "η καθαρή πιρούνι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-066",
+      "type": "single-choice",
+      "prompt": "красивые ковры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το χαλί\nМножественное число: τα χαλιά\n\nРод: средний",
+      "correctAnswer": "τα όμορφα χαλιά",
+      "wrongAnswers": ["ο όμορφος χαλιά", "οι όμορφοι χαλιά", "η όμορφη χαλιά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-067",
+      "type": "single-choice",
+      "prompt": "удобные кресла",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πολυθρόνα\nМножественное число: οι πολυθρόνες\n\nРод: женский",
+      "correctAnswer": "οι άνετες πολυθρόνες",
+      "wrongAnswers": ["ο άνετος πολυθρόνες", "η άνετη πολυθρόνες", "το άνετο πολυθρόνες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-068",
+      "type": "single-choice",
+      "prompt": "украшенная стена",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο τοίχος\nМножественное число: οι τοίχοι\n\nРод: мужской",
+      "correctAnswer": "ο στολισμένος τοίχος",
+      "wrongAnswers": ["η στολισμένη τοίχος", "το στολισμένο τοίχος", "οι στολισμένοι τοίχος"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-069",
+      "type": "single-choice",
+      "prompt": "хорошая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η καλή τσάντα",
+      "wrongAnswers": ["ο καλός τσάντα", "οι καλοί τσάντα", "οι καλές τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-070",
+      "type": "single-choice",
+      "prompt": "открытый кран",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η βρύση\nМножественное число: οι βρύσες\n\nРод: женский",
+      "correctAnswer": "η ανοιχτή βρύση",
+      "wrongAnswers": ["ο ανοιχτός βρύση", "οι ανοιχτοί βρύση", "οι ανοιχτές βρύση"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-071",
+      "type": "single-choice",
+      "prompt": "новый светильник",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φωτιστικό\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το καινούριο φωτιστικό",
+      "wrongAnswers": ["ο καινούριος φωτιστικό", "οι καινούριοι φωτιστικό", "η καινούρια φωτιστικό"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-072",
+      "type": "single-choice",
+      "prompt": "новая стиральная машина",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πλυντήριο\nМножественное число: τα πλυντήρια\n\nРод: средний",
+      "correctAnswer": "το καινούριο πλυντήριο",
+      "wrongAnswers": ["ο καινούριος πλυντήριο", "οι καινούριοι πλυντήριο", "η καινούρια πλυντήριο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-073",
+      "type": "single-choice",
+      "prompt": "стеклянные банки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το βάζο\nМножественное число: τα βάζα\n\nРод: средний",
+      "correctAnswer": "τα γυάλινα βάζα",
+      "wrongAnswers": ["τα γυάλινος βάζα", "τα γυάλινη βάζα", "το γυάλινο βάζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-074",
+      "type": "single-choice",
+      "prompt": "ровные полки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ράφι\nМножественное число: τα ράφια\n\nРод: средний",
+      "correctAnswer": "τα ίσια ράφια",
+      "wrongAnswers": ["ο ίσιος ράφια", "οι ίσιοι ράφια", "οι ίσιες ράφια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-075",
+      "type": "single-choice",
+      "prompt": "пустая коробка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κουτί\nМножественное число: τα κουτιά\n\nРод: средний",
+      "correctAnswer": "το άδειο κουτί",
+      "wrongAnswers": ["ο άδειος κουτί", "οι άδειοι κουτί", "η άδεια κουτί"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-076",
+      "type": "single-choice",
+      "prompt": "кожаный диван",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "ο δερμάτινος καναπές",
+      "wrongAnswers": ["η δερμάτινη καναπές", "το δερμάτινο καναπές", "οι δερμάτινοι καναπές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-077",
+      "type": "single-choice",
+      "prompt": "чистые вилки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πιρούνι\nМножественное число: τα πιρούνια\n\nРод: средний",
+      "correctAnswer": "τα καθαρά πιρούνια",
+      "wrongAnswers": ["ο καθαρός πιρούνια", "οι καθαροί πιρούνια", "η καθαρή πιρούνια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-078",
+      "type": "single-choice",
+      "prompt": "новые холодильники",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ψυγείο\nМножественное число: τα ψυγεία\n\nРод: средний",
+      "correctAnswer": "τα καινούρια ψυγεία",
+      "wrongAnswers": ["ο καινούριος ψυγεία", "οι καινούριοι ψυγεία", "οι καινούριες ψυγεία"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-079",
+      "type": "single-choice",
+      "prompt": "новая кастрюля",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κατσαρόλα\nМножественное число: οι κατσαρόλες\n\nРод: женский",
+      "correctAnswer": "η καινούρια κατσαρόλα",
+      "wrongAnswers": [
+        "ο καινούριος κατσαρόλα",
+        "οι καινούριοι κατσαρόλα",
+        "οι καινούριες κατσαρόλα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-080",
+      "type": "single-choice",
+      "prompt": "пластиковый стакан",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ποτήρι\nМножественное число: τα ποτήρια\n\nРод: средний",
+      "correctAnswer": "το πλαστικό ποτήρι",
+      "wrongAnswers": ["ο πλαστικός ποτήρι", "η πλαστική ποτήρι", "οι πλαστικοί ποτήρι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-081",
+      "type": "single-choice",
+      "prompt": "большие камины",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τζάκι\nМножественное число: τα τζάκια\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα τζάκια",
+      "wrongAnswers": ["ο μεγάλος τζάκια", "οι μεγάλοι τζάκια", "η μεγάλη τζάκια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-082",
+      "type": "single-choice",
+      "prompt": "большой шкаф",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η ντουλάπα\nМножественное число: οι ντουλάπες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη ντουλάπα",
+      "wrongAnswers": ["ο μεγάλος ντουλάπα", "οι μεγάλοι ντουλάπα", "οι μεγάλες ντουλάπα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-083",
+      "type": "single-choice",
+      "prompt": "деревянные скамьи",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο πάγκος\nМножественное число: οι πάγκοι\n\nРод: мужской",
+      "correctAnswer": "οι ξύλινοι πάγκοι",
+      "wrongAnswers": ["ο ξύλινος πάγκοι", "η ξύλινη πάγκοι", "οι ξύλινες πάγκοι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-084",
+      "type": "single-choice",
+      "prompt": "красивые рамки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κάδρο\nМножественное число: τα κάδρα\n\nРод: средний",
+      "correctAnswer": "τα ωραία κάδρα",
+      "wrongAnswers": ["ο ωραίος κάδρα", "οι ωραίοι κάδρα", "οι ωραίες κάδρα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-085",
+      "type": "single-choice",
+      "prompt": "жёсткие стулья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "οι σκληρές καρέκλες",
+      "wrongAnswers": ["ο σκληρός καρέκλες", "οι σκληροί καρέκλες", "η σκληρή καρέκλες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-086",
+      "type": "single-choice",
+      "prompt": "большие вазы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το βάζο\nМножественное число: τα βάζα\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα βάζα",
+      "wrongAnswers": ["ο μεγάλος βάζα", "οι μεγάλοι βάζα", "η μεγάλη βάζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-087",
+      "type": "single-choice",
+      "prompt": "большая лестница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η σκάλα\nМножественное число: οι σκάλες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη σκάλα",
+      "wrongAnswers": ["ο μεγάλος σκάλα", "οι μεγάλοι σκάλα", "οι μεγάλες σκάλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-088",
+      "type": "single-choice",
+      "prompt": "большая стойка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο πάγκος\nМножественное число: οι πάγκοι\n\nРод: мужской",
+      "correctAnswer": "ο μεγάλος πάγκος",
+      "wrongAnswers": ["οι μεγάλοι πάγκος", "η μεγάλη πάγκος", "οι μεγάλες πάγκος"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-089",
+      "type": "single-choice",
+      "prompt": "удобная кровать",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κρεβάτι\nМножественное число: τα κρεβάτια\n\nРод: средний",
+      "correctAnswer": "το άνετο κρεβάτι",
+      "wrongAnswers": ["ο άνετος κρεβάτι", "η άνετη κρεβάτι", "οι άνετοι κρεβάτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-090",
+      "type": "single-choice",
+      "prompt": "чистое мыло",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σαπούνι\nМножественное число: τα σαπούνια\n\nРод: средний",
+      "correctAnswer": "το καθαρό σαπούνι",
+      "wrongAnswers": ["ο καθαρός σαπούνι", "οι καθαροί σαπούνι", "η καθαρή σαπούνι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-091",
+      "type": "single-choice",
+      "prompt": "жёсткий стул",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "η σκληρή καρέκλα",
+      "wrongAnswers": ["ο σκληρός καρέκλα", "οι σκληροί καρέκλα", "οι σκληρές καρέκλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-092",
+      "type": "single-choice",
+      "prompt": "современные диваны",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "οι μοντέρνοι καναπέδες",
+      "wrongAnswers": ["ο μοντέρνος καναπέδες", "τα μοντέρνα καναπέδες", "οι μοντέρνες καναπέδες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-093",
+      "type": "single-choice",
+      "prompt": "низкий стул",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "η χαμηλή καρέκλα",
+      "wrongAnswers": ["ο χαμηλός καρέκλα", "οι χαμηλοί καρέκλα", "οι χαμηλές καρέκλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-094",
+      "type": "single-choice",
+      "prompt": "кожаные диваны",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "οι δερμάτινοι καναπέδες",
+      "wrongAnswers": ["ο δερμάτινος καναπέδες", "η δερμάτινη καναπέδες", "το δερμάτινο καναπέδες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-095",
+      "type": "single-choice",
+      "prompt": "красивые украшения",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το στολίδι\nМножественное число: τα στολίδια\n\nРод: средний",
+      "correctAnswer": "τα όμορφα στολίδια",
+      "wrongAnswers": ["ο όμορφος στολίδια", "οι όμορφοι στολίδια", "η όμορφη στολίδια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-096",
+      "type": "single-choice",
+      "prompt": "удобные кровати",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κρεβάτι\nМножественное число: τα κρεβάτια\n\nРод: средний",
+      "correctAnswer": "τα άνετα κρεβάτια",
+      "wrongAnswers": ["ο άνετος κρεβάτια", "η άνετη κρεβάτια", "το άνετο κρεβάτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-097",
+      "type": "single-choice",
+      "prompt": "грязный пол",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πάτωμα\nМножественное число: τα πατώματα\n\nРод: средний",
+      "correctAnswer": "το βρόμικο πάτωμα",
+      "wrongAnswers": ["ο βρόμικος πάτωμα", "οι βρόμικοι πάτωμα", "η βρόμικη πάτωμα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-098",
+      "type": "single-choice",
+      "prompt": "односпальные кровати",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κρεβάτι\nМножественное число: τα κρεβάτια\n\nРод: средний",
+      "correctAnswer": "τα μονά κρεβάτια",
+      "wrongAnswers": ["ο μονός κρεβάτια", "οι μονοί κρεβάτια", "η μονή κρεβάτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-099",
+      "type": "single-choice",
+      "prompt": "мягкая подушка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μαξιλάρι\nМножественное число: τα μαξιλάρια\n\nРод: средний",
+      "correctAnswer": "το μαλακό μαξιλάρι",
+      "wrongAnswers": ["ο μαλακός μαξιλάρι", "οι μαλακοί μαξιλάρι", "η μαλακή μαξιλάρι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-100",
+      "type": "single-choice",
+      "prompt": "тёплые одеяла",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πάπλωμα\nМножественное число: τα παπλώματα\n\nРод: средний",
+      "correctAnswer": "τα ζεστά παπλώματα",
+      "wrongAnswers": ["ο ζεστός παπλώματα", "οι ζεστοί παπλώματα", "η ζεστή παπλώματα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-101",
+      "type": "single-choice",
+      "prompt": "новый матрас",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το στρώμα\nМножественное число: τα στρώματα\n\nРод: средний",
+      "correctAnswer": "το καινούριο στρώμα",
+      "wrongAnswers": ["ο καινούριος στρώμα", "οι καινούριοι στρώμα", "η καινούρια στρώμα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-102",
+      "type": "single-choice",
+      "prompt": "большие шторы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουρτίνα\nМножественное число: οι κουρτίνες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες κουρτίνες",
+      "wrongAnswers": ["ο μεγάλος κουρτίνες", "οι μεγάλοι κουρτίνες", "η μεγάλη κουρτίνες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-103",
+      "type": "single-choice",
+      "prompt": "маленькие шкафчики",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ντουλάπι\nМножественное число: τα ντουλάπια\n\nРод: средний",
+      "correctAnswer": "τα μικρά ντουλάπια",
+      "wrongAnswers": ["ο μικρός ντουλάπια", "οι μικροί ντουλάπια", "η μικρή ντουλάπια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-104",
+      "type": "single-choice",
+      "prompt": "пустая чашка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φλιτζάνι\nМножественное число: τα φλιτζάνια\n\nРод: средний",
+      "correctAnswer": "το άδειο φλιτζάνι",
+      "wrongAnswers": ["ο άδειος φλιτζάνι", "οι άδειοι φλιτζάνι", "η άδεια φλιτζάνι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-105",
+      "type": "single-choice",
+      "prompt": "открытые двери",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "οι ανοιχτές πόρτες",
+      "wrongAnswers": ["ο ανοιχτός πόρτες", "οι ανοιχτοί πόρτες", "η ανοιχτή πόρτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-106",
+      "type": "single-choice",
+      "prompt": "бархатная занавеска",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουρτίνα\nМножественное число: οι κουρτίνες\n\nРод: женский",
+      "correctAnswer": "η βελούδινη κουρτίνα",
+      "wrongAnswers": ["ο βελούδινος κουρτίνα", "το βελούδινο κουρτίνα", "οι βελούδινοι κουρτίνα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-107",
+      "type": "single-choice",
+      "prompt": "большой стол",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γραφείο\nМножественное число: τα γραφεία\n\nРод: средний",
+      "correctAnswer": "το μεγάλο γραφείο",
+      "wrongAnswers": ["ο μεγάλος γραφείο", "οι μεγάλοι γραφείο", "η μεγάλη γραφείο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-108",
+      "type": "single-choice",
+      "prompt": "красивая рамка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κορνίζα\nМножественное число: οι κορνίζες\n\nРод: женский",
+      "correctAnswer": "η όμορφη κορνίζα",
+      "wrongAnswers": ["ο όμορφος κορνίζα", "οι όμορφοι κορνίζα", "οι όμορφες κορνίζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-109",
+      "type": "single-choice",
+      "prompt": "большие шкафы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η ντουλάπα\nМножественное число: οι ντουλάπες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες ντουλάπες",
+      "wrongAnswers": ["ο μεγάλος ντουλάπες", "οι μεγάλοι ντουλάπες", "η μεγάλη ντουλάπες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-110",
+      "type": "single-choice",
+      "prompt": "старые стулья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρέκλα\nМножественное число: οι καρέκλες\n\nРод: женский",
+      "correctAnswer": "οι παλιές καρέκλες",
+      "wrongAnswers": ["ο παλιός καρέκλες", "οι παλιοί καρέκλες", "τα παλιά καρέκλες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-111",
+      "type": "single-choice",
+      "prompt": "чистая простыня",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σεντόνι\nМножественное число: τα σεντόνια\n\nРод: средний",
+      "correctAnswer": "το καθαρό σεντόνι",
+      "wrongAnswers": ["ο καθαρός σεντόνι", "οι καθαροί σεντόνι", "η καθαρή σεντόνι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-112",
+      "type": "single-choice",
+      "prompt": "удобные диваны",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καναπές\nМножественное число: οι καναπέδες\n\nРод: мужской",
+      "correctAnswer": "οι άνετοι καναπέδες",
+      "wrongAnswers": ["ο άνετος καναπέδες", "η άνετη καναπέδες", "το άνετο καναπέδες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-113",
+      "type": "single-choice",
+      "prompt": "грязные кухни",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κουζίνα\nМножественное число: οι κουζίνες\n\nРод: женский",
+      "correctAnswer": "οι βρόμικες κουζίνες",
+      "wrongAnswers": ["ο βρόμικος κουζίνες", "οι βρόμικοι κουζίνες", "η βρόμικη κουζίνες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-114",
+      "type": "single-choice",
+      "prompt": "грязный мусор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σκουπίδι\nМножественное число: τα σκουπίδια\n\nРод: средний",
+      "correctAnswer": "τα βρόμικα σκουπίδια",
+      "wrongAnswers": ["ο βρόμικος σκουπίδια", "οι βρόμικοι σκουπίδια", "η βρόμικη σκουπίδια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-115",
+      "type": "single-choice",
+      "prompt": "чистое полотенце",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πετσέτα\nМножественное число: οι πετσέτες\n\nРод: женский",
+      "correctAnswer": "η καθαρή πετσέτα",
+      "wrongAnswers": ["ο καθαρός πετσέτα", "οι καθαροί πετσέτα", "οι καθαρές πετσέτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-116",
+      "type": "single-choice",
+      "prompt": "новые стиральные машины",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πλυντήριο\nМножественное число: τα πλυντήρια\n\nРод: средний",
+      "correctAnswer": "τα καινούρια πλυντήρια",
+      "wrongAnswers": [
+        "ο καινούριος πλυντήρια",
+        "οι καινούριοι πλυντήρια",
+        "οι καινούριες πλυντήρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-117",
+      "type": "single-choice",
+      "prompt": "чистящие средства",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το απορρυπαντικό\nМножественное число: τα απορρυπαντικά\n\nРод: средний",
+      "correctAnswer": "τα καθαρά απορρυπαντικά",
+      "wrongAnswers": [
+        "ο καθαρός απορρυπαντικά",
+        "οι καθαροί απορρυπαντικά",
+        "η καθαρή απορρυπαντικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-118",
+      "type": "single-choice",
+      "prompt": "хорошее чистящее средство",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το καθαριστικό\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το καλό καθαριστικό",
+      "wrongAnswers": ["ο καλός καθαριστικό", "οι καλοί καθαριστικό", "η καλή καθαριστικό"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-119",
+      "type": "single-choice",
+      "prompt": "столько дел",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "οι τόσες δουλειές",
+      "wrongAnswers": ["ο τόσος δουλειές", "η τόση δουλειές", "το τόσο δουλειές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-120",
+      "type": "single-choice",
+      "prompt": "ежедневные обязанности",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η λειτουργία\nМножественное число: οι λειτουργίες\n\nРод: женский",
+      "correctAnswer": "οι καθημερινές λειτουργίες",
+      "wrongAnswers": [
+        "οι καθημερινός λειτουργίες",
+        "η καθημερινή λειτουργίες",
+        "οι καθημερινό λειτουργίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-121",
+      "type": "single-choice",
+      "prompt": "утомительные домашние дела",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "οι κουραστικές δουλειές του σπιτιού",
+      "wrongAnswers": [
+        "ο κουραστικός δουλειές του σπιτιού",
+        "οι κουραστικοί δουλειές του σπιτιού",
+        "η κουραστική δουλειές του σπιτιού"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-122",
+      "type": "single-choice",
+      "prompt": "чистые полы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πάτωμα\nМножественное число: τα πατώματα\n\nРод: средний",
+      "correctAnswer": "τα καθαρά πατώματα",
+      "wrongAnswers": ["ο καθαρός πατώματα", "οι καθαροί πατώματα", "η καθαρή πατώματα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-123",
+      "type": "single-choice",
+      "prompt": "грязный мусор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σκουπίδι\nМножественное число: τα σκουπίδια\n\nРод: средний",
+      "correctAnswer": "το βρόμικο σκουπίδι",
+      "wrongAnswers": ["ο βρόμικος σκουπίδι", "οι βρόμικοι σκουπίδι", "η βρόμικη σκουπίδι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-124",
+      "type": "single-choice",
+      "prompt": "домашние дела",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "οι οικιακές δουλειές",
+      "wrongAnswers": ["οι οικιακός δουλειές", "οι οικιακή δουλειές", "οι οικιακό δουλειές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-125",
+      "type": "single-choice",
+      "prompt": "оставшиеся дела",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "οι υπόλοιπες δουλειές",
+      "wrongAnswers": ["ο υπόλοιπος δουλειές", "οι υπόλοιποι δουλειές", "η υπόλοιπη δουλειές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-furniture-household-126",
+      "type": "single-choice",
+      "prompt": "необходимые поездки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μετακίνηση\nМножественное число: οι μετακινήσεις\n\nРод: женский",
+      "correctAnswer": "οι απαραίτητες μετακινήσεις",
+      "wrongAnswers": [
+        "ο απαραίτητος μετακινήσεις",
+        "οι απαραίτητοι μετακινήσεις",
+        "η απαραίτητη μετακινήσεις"
+      ]
+    }
+  ]
+}

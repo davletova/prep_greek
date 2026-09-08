@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nouns-adjectives-city-travel-city-places-institutions",
+    "title": "Городские места и учреждения",
+    "subtitle": "Практикуйте согласование в названиях городских мест и учреждений",
+    "fileName": "city-places-institutions.json"
+  },
+  {
+    "id": "nouns-adjectives-city-travel-nationalities-regions-cultures",
+    "title": "Национальности, регионы и культуры",
+    "subtitle": "Согласуйте названия национальностей, регионов и культур",
+    "fileName": "nationalities-regions-cultures.json"
+  },
+  {
+    "id": "nouns-adjectives-city-travel-roads-transport",
+    "title": "Дороги и транспорт",
+    "subtitle": "Выберите правильные формы слов о дорогах и транспорте",
+    "fileName": "roads-transport.json"
+  },
+  {
+    "id": "nouns-adjectives-city-travel-travel-tourism-accommodation",
+    "title": "Путешествия, туризм и проживание",
+    "subtitle": "Закрепите род и число в туристической лексике",
+    "fileName": "travel-tourism-accommodation.json"
+  }
+]

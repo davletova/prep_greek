@@ -1,0 +1,26 @@
+[
+  {
+    "id": "nouns-adjectives-food-dishes-cooking",
+    "title": "Блюда и приготовление пищи",
+    "subtitle": "Согласуйте названия блюд и способов приготовления с прилагательными",
+    "fileName": "dishes-cooking.json"
+  },
+  {
+    "id": "nouns-adjectives-food-drinks-cafes-restaurants",
+    "title": "Напитки, кафе и рестораны",
+    "subtitle": "Практикуйте согласование в лексике напитков и заведений",
+    "fileName": "drinks-cafes-restaurants.json"
+  },
+  {
+    "id": "nouns-adjectives-food-fruit-vegetables-plants-food",
+    "title": "Овощи, фрукты и растительные продукты",
+    "subtitle": "Выберите правильные формы слов о растительных продуктах",
+    "fileName": "fruit-vegetables-plants-food.json"
+  },
+  {
+    "id": "nouns-adjectives-food-other-food-products-ingredients",
+    "title": "Другие продукты и ингредиенты",
+    "subtitle": "Закрепите род и число в названиях продуктов и ингредиентов",
+    "fileName": "other-food-products-ingredients.json"
+  }
+]

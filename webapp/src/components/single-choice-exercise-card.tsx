@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import ExerciseHintDialog from "./exercise-hint-dialog.tsx";
 import PlaybackIcon from "./playback-icon.tsx";
 import type { SingleChoiceRuntimeQuestion } from "../types/exercises.ts";
 
@@ -24,12 +26,29 @@ export default function SingleChoiceExerciseCard({
   onPlayOption,
   onSelectAnswer,
 }: SingleChoiceExerciseCardProps) {
+  const [isHintOpen, setIsHintOpen] = useState(false);
   const isPromptInRussian = question.promptLanguage === "ru";
   const isPromptInGreek = question.promptLanguage === "el";
   const translationHint = showTranslationHint ? question.translation : undefined;
+  const hint = question.hint?.trim();
+
+  useEffect(() => {
+    setIsHintOpen(false);
+  }, [question.id]);
 
   return (
     <section className="practice-card">
+      {hint ? (
+        <button
+          className="practice-card__hint-button"
+          type="button"
+          aria-label="Открыть подсказку"
+          onClick={() => setIsHintOpen(true)}
+        >
+          i
+        </button>
+      ) : null}
+
       <div className="practice-card__prompt-block">
         <p className="practice-card__question">{question.prompt}</p>
         {translationHint ? (
@@ -92,6 +111,10 @@ export default function SingleChoiceExerciseCard({
           )
         )}
       </div>
+
+      {hint && isHintOpen ? (
+        <ExerciseHintDialog hint={hint} onClose={() => setIsHintOpen(false)} />
+      ) : null}
     </section>
   );
 }

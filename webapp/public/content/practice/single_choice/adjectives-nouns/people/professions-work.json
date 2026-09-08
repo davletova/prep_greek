@@ -1,0 +1,1519 @@
+{
+  "title": "Профессии и работа",
+  "subtitle": "Закрепите род и число в названиях профессий и рабочих ситуаций",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-professions-work-001",
+      "type": "single-choice",
+      "prompt": "хорошая парикмахерша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κομμώτρια\nМножественное число: οι κομμώτριες\n\nРод: женский",
+      "correctAnswer": "η καλή κομμώτρια",
+      "wrongAnswers": ["ο καλός κομμώτρια", "οι καλοί κομμώτρια", "οι καλές κομμώτρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-002",
+      "type": "single-choice",
+      "prompt": "хорошая преподавательница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καθηγήτρια\nМножественное число: οι καθηγήτριες\n\nРод: женский",
+      "correctAnswer": "η καλή καθηγήτρια",
+      "wrongAnswers": ["ο καλός καθηγήτρια", "οι καλοί καθηγήτρια", "οι καλές καθηγήτρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-003",
+      "type": "single-choice",
+      "prompt": "вежливая официантка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η σερβιτόρα\nМножественное число: οι σερβιτόρες\n\nРод: женский",
+      "correctAnswer": "η ευγενική σερβιτόρα",
+      "wrongAnswers": ["ο ευγενικός σερβιτόρα", "οι ευγενικοί σερβιτόρα", "οι ευγενικές σερβιτόρα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-004",
+      "type": "single-choice",
+      "prompt": "любимая учительница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δασκάλα\nМножественное число: οι δασκάλες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη δασκάλα",
+      "wrongAnswers": ["ο αγαπημένος δασκάλα", "το αγαπημένο δασκάλα", "οι αγαπημένοι δασκάλα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-005",
+      "type": "single-choice",
+      "prompt": "хороший кардиолог",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρδιολόγος\nМножественное число: οι καρδιολόγοι\n\nРод: женский",
+      "correctAnswer": "η καλή καρδιολόγος",
+      "wrongAnswers": ["ο καλός καρδιολόγος", "οι καλοί καρδιολόγος", "οι καλές καρδιολόγος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-006",
+      "type": "single-choice",
+      "prompt": "вежливый фармацевт",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο φαρμακοποιός\nМножественное число: οι φαρμακοποιοί\n\nРод: мужской",
+      "correctAnswer": "ο ευγενικός φαρμακοποιός",
+      "wrongAnswers": [
+        "οι ευγενικοί φαρμακοποιός",
+        "η ευγενική φαρμακοποιός",
+        "οι ευγενικές φαρμακοποιός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-007",
+      "type": "single-choice",
+      "prompt": "постоянные работы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "οι μόνιμες δουλειές",
+      "wrongAnswers": ["ο μόνιμος δουλειές", "οι μόνιμοι δουλειές", "η μόνιμη δουλειές"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-008",
+      "type": "single-choice",
+      "prompt": "опытные полицейские",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο αστυνομικός\nМножественное число: οι αστυνομικοί\n\nРод: мужской",
+      "correctAnswer": "οι έμπειροι αστυνομικοί",
+      "wrongAnswers": ["ο έμπειρος αστυνομικοί", "η έμπειρη αστυνομικοί", "οι έμπειρο αστυνομικοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-009",
+      "type": "single-choice",
+      "prompt": "центральные мэры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δήμαρχος\nМножественное число: οι δήμαρχοι\n\nРод: мужской",
+      "correctAnswer": "οι κεντρικοί δήμαρχοι",
+      "wrongAnswers": ["ο κεντρικός δήμαρχοι", "η κεντρική δήμαρχοι", "οι κεντρικές δήμαρχοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-010",
+      "type": "single-choice",
+      "prompt": "хороший художник",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καλλιτέχνης\nМножественное число: οι καλλιτέχνες\n\nРод: мужской",
+      "correctAnswer": "ο καλός καλλιτέχνης",
+      "wrongAnswers": ["οι καλοί καλλιτέχνης", "η καλή καλλιτέχνης", "οι καλές καλλιτέχνης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-011",
+      "type": "single-choice",
+      "prompt": "женщина-музыкант",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μουσικός\nМножественное число: οι μουσικοί\n\nРод: женский",
+      "correctAnswer": "η γυναικεία μουσικός",
+      "wrongAnswers": ["ο γυναικείος μουσικός", "οι γυναικείοι μουσικός", "οι γυναικείες μουσικός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-012",
+      "type": "single-choice",
+      "prompt": "хороший терапевт",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η παθολόγος\nМножественное число: οι None\n\nРод: женский",
+      "correctAnswer": "η καλή παθολόγος",
+      "wrongAnswers": ["ο καλός παθολόγος", "οι καλοί παθολόγος", "οι καλές παθολόγος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-013",
+      "type": "single-choice",
+      "prompt": "хорошие булочницы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φουρνάρισσα\nМножественное число: οι φουρνάρισσες\n\nРод: женский",
+      "correctAnswer": "οι καλές φουρνάρισσες",
+      "wrongAnswers": ["ο καλός φουρνάρισσες", "οι καλοί φουρνάρισσες", "η καλή φουρνάρισσες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-014",
+      "type": "single-choice",
+      "prompt": "хороший стоматолог",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο οδοντίατρος\nМножественное число: οι οδοντίατροι\n\nРод: мужской",
+      "correctAnswer": "ο καλός οδοντίατρος",
+      "wrongAnswers": ["οι καλοί οδοντίατρος", "η καλή οδοντίατρος", "οι καλές οδοντίατρος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-015",
+      "type": "single-choice",
+      "prompt": "ответственная учительница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δασκάλα\nМножественное число: οι δασκάλες\n\nРод: женский",
+      "correctAnswer": "η υπεύθυνη δασκάλα",
+      "wrongAnswers": ["ο υπεύθυνος δασκάλα", "οι υπεύθυνοι δασκάλα", "οι υπεύθυνες δασκάλα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-016",
+      "type": "single-choice",
+      "prompt": "хороший коллега",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο συνάδελφος\nМножественное число: οι συνάδελφοι\n\nРод: мужской",
+      "correctAnswer": "ο καλός συνάδελφος",
+      "wrongAnswers": ["οι καλοί συνάδελφος", "η καλή συνάδελφος", "οι καλές συνάδελφος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-017",
+      "type": "single-choice",
+      "prompt": "дружелюбные фармацевты",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο φαρμακοποιός\nМножественное число: οι φαρμακοποιοί\n\nРод: мужской",
+      "correctAnswer": "οι φιλικοί φαρμακοποιοί",
+      "wrongAnswers": ["ο φιλικός φαρμακοποιοί", "η φιλική φαρμακοποιοί", "οι φιλικές φαρμακοποιοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-018",
+      "type": "single-choice",
+      "prompt": "крупные компании",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η εταιρεία\nМножественное число: οι εταιρείες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες εταιρείες",
+      "wrongAnswers": ["ο μεγάλος εταιρείες", "οι μεγάλοι εταιρείες", "η μεγάλη εταιρείες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-019",
+      "type": "single-choice",
+      "prompt": "важные работы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η εργασία\nМножественное число: οι εργασίες\n\nРод: женский",
+      "correctAnswer": "οι σημαντικές εργασίες",
+      "wrongAnswers": ["ο σημαντικός εργασίες", "οι σημαντικοί εργασίες", "η σημαντική εργασίες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-020",
+      "type": "single-choice",
+      "prompt": "хорошая медсестра",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η νοσοκόμα\nМножественное число: οι νοσοκόμες\n\nРод: женский",
+      "correctAnswer": "η καλή νοσοκόμα",
+      "wrongAnswers": ["ο καλός νοσοκόμα", "οι καλοί νοσοκόμα", "οι καλές νοσοκόμα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-021",
+      "type": "single-choice",
+      "prompt": "опытный инженер",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μηχανικός\nМножественное число: οι μηχανικοί\n\nРод: мужской",
+      "correctAnswer": "ο έμπειρος μηχανικός",
+      "wrongAnswers": ["η έμπειρη μηχανικός", "ο έμπειρο μηχανικός", "οι έμπειροι μηχανικός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-022",
+      "type": "single-choice",
+      "prompt": "молодая архитектор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η αρχιτέκτονας\nМножественное число: οι αρχιτέκτονες\n\nРод: женский",
+      "correctAnswer": "η νέα αρχιτέκτονας",
+      "wrongAnswers": ["ο νέος αρχιτέκτονας", "οι νέοι αρχιτέκτονας", "οι νέες αρχιτέκτονας"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-023",
+      "type": "single-choice",
+      "prompt": "симпатичная фотограф",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φωτογράφος\nМножественное число: οι φωτογράφοι\n\nРод: женский",
+      "correctAnswer": "η συμπαθητική φωτογράφος",
+      "wrongAnswers": [
+        "ο συμπαθητικός φωτογράφος",
+        "οι συμπαθητικοί φωτογράφος",
+        "οι συμπαθητικές φωτογράφος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-024",
+      "type": "single-choice",
+      "prompt": "известный учитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο γνωστός δάσκαλος",
+      "wrongAnswers": ["οι γνωστοί δάσκαλος", "η γνωστή δάσκαλος", "οι γνωστές δάσκαλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-025",
+      "type": "single-choice",
+      "prompt": "хороший мясник",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο κρεοπώλης\nМножественное число: οι κρεοπώλες\n\nРод: мужской",
+      "correctAnswer": "ο καλός κρεοπώλης",
+      "wrongAnswers": ["οι καλοί κρεοπώλης", "η καλή κρεοπώλης", "οι καλές κρεοπώλης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-026",
+      "type": "single-choice",
+      "prompt": "большой завод",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το εργοστάσιο\nМножественное число: τα εργοστάσια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο εργοστάσιο",
+      "wrongAnswers": ["ο μεγάλος εργοστάσιο", "οι μεγάλοι εργοστάσιο", "η μεγάλη εργοστάσιο"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-027",
+      "type": "single-choice",
+      "prompt": "частый посетитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο επισκέπτης\nМножественное число: οι επισκέπτες\n\nРод: мужской",
+      "correctAnswer": "ο συχνός επισκέπτης",
+      "wrongAnswers": ["οι συχνοί επισκέπτης", "η συχνή επισκέπτης", "οι συχνές επισκέπτης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-028",
+      "type": "single-choice",
+      "prompt": "спокойный учитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο ήρεμος δάσκαλος",
+      "wrongAnswers": ["οι ήρεμοι δάσκαλος", "η ήρεμη δάσκαλος", "οι ήρεμες δάσκαλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-029",
+      "type": "single-choice",
+      "prompt": "симпатичные фотографы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο φωτογράφος\nМножественное число: οι φωτογράφοι\n\nРод: мужской",
+      "correctAnswer": "οι συμπαθητικοί φωτογράφοι",
+      "wrongAnswers": [
+        "ο συμπαθητικός φωτογράφοι",
+        "η συμπαθητική φωτογράφοι",
+        "οι συμπαθητικές φωτογράφοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-030",
+      "type": "single-choice",
+      "prompt": "трудные профессии",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το επάγγελμα\nМножественное число: τα επαγγέλματα\n\nРод: средний",
+      "correctAnswer": "τα δύσκολα επαγγέλματα",
+      "wrongAnswers": ["ο δύσκολος επαγγέλματα", "οι δύσκολοι επαγγέλματα", "η δύσκολη επαγγέλματα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-031",
+      "type": "single-choice",
+      "prompt": "вежливые учителя",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "οι ευγενικοί δάσκαλοι",
+      "wrongAnswers": ["ο ευγενικός δάσκαλοι", "η ευγενική δάσκαλοι", "οι ευγενικές δάσκαλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-032",
+      "type": "single-choice",
+      "prompt": "выдающийся учитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο σπουδαίος δάσκαλος",
+      "wrongAnswers": ["οι σπουδαίοι δάσκαλος", "η σπουδαία δάσκαλος", "οι σπουδαίες δάσκαλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-033",
+      "type": "single-choice",
+      "prompt": "опытный полицейский",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο αστυνομικός\nМножественное число: οι αστυνομικοί\n\nРод: мужской",
+      "correctAnswer": "ο έμπειρος αστυνομικός",
+      "wrongAnswers": ["η έμπειρη αστυνομικός", "ο έμπειρο αστυνομικός", "οι έμπειροι αστυνομικός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-034",
+      "type": "single-choice",
+      "prompt": "хорошие ораторы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η ομιλήτρια\nМножественное число: οι ομιλήτριες\n\nРод: женский",
+      "correctAnswer": "οι καλές ομιλήτριες",
+      "wrongAnswers": ["ο καλός ομιλήτριες", "οι καλοί ομιλήτριες", "η καλή ομιλήτριες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-035",
+      "type": "single-choice",
+      "prompt": "туристическое бюро",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γραφείο\nМножественное число: τα γραφεία\n\nРод: средний",
+      "correctAnswer": "το τουριστικό γραφείο",
+      "wrongAnswers": ["ο τουριστικός γραφείο", "οι τουριστικοί γραφείο", "η τουριστική γραφείο"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-036",
+      "type": "single-choice",
+      "prompt": "хорошая коллега",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η συνάδελφος\nМножественное число: οι συνάδελφοι\n\nРод: женский",
+      "correctAnswer": "η καλή συνάδελφος",
+      "wrongAnswers": ["ο καλός συνάδελφος", "οι καλοί συνάδελφος", "οι καλές συνάδελφος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-037",
+      "type": "single-choice",
+      "prompt": "вежливые фармацевты",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο φαρμακοποιός\nМножественное число: οι φαρμακοποιοί\n\nРод: мужской",
+      "correctAnswer": "οι ευγενικοί φαρμακοποιοί",
+      "wrongAnswers": [
+        "ο ευγενικός φαρμακοποιοί",
+        "η ευγενική φαρμακοποιοί",
+        "οι ευγενικές φαρμακοποιοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-038",
+      "type": "single-choice",
+      "prompt": "вежливый продавец",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο πωλητής\nМножественное число: οι πωλητές\n\nРод: мужской",
+      "correctAnswer": "ο ευγενικός πωλητής",
+      "wrongAnswers": ["οι ευγενικοί πωλητής", "η ευγενική πωλητής", "οι ευγενικές πωλητής"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-039",
+      "type": "single-choice",
+      "prompt": "большая мастерская",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το συνεργείο\nМножественное число: τα συνεργεία\n\nРод: средний",
+      "correctAnswer": "το μεγάλο συνεργείο",
+      "wrongAnswers": ["ο μεγάλος συνεργείο", "οι μεγάλοι συνεργείο", "η μεγάλη συνεργείο"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-040",
+      "type": "single-choice",
+      "prompt": "хорошие коллеги",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο συνάδελφος\nМножественное число: οι συνάδελφοι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί συνάδελφοι",
+      "wrongAnswers": ["ο καλός συνάδελφοι", "η καλή συνάδελφοι", "οι καλές συνάδελφοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-041",
+      "type": "single-choice",
+      "prompt": "хорошая директорша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η διευθύντρια\nМножественное число: οι διευθύντριες\n\nРод: женский",
+      "correctAnswer": "η καλή διευθύντρια",
+      "wrongAnswers": ["ο καλός διευθύντρια", "οι καλοί διευθύντρια", "οι καλές διευθύντρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-042",
+      "type": "single-choice",
+      "prompt": "много работы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "η πολλή δουλειά",
+      "wrongAnswers": ["η πολύς δουλειά", "το πολύ δουλειά", "οι πολλοί δουλειά"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-043",
+      "type": "single-choice",
+      "prompt": "мужская роль",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο ρόλος\nМножественное число: οι ρόλοι\n\nРод: мужской",
+      "correctAnswer": "ο αντρικός ρόλος",
+      "wrongAnswers": ["οι αντρικοί ρόλος", "η αντρική ρόλος", "οι αντρικές ρόλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-044",
+      "type": "single-choice",
+      "prompt": "известная журналистка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δημοσιογράφος\nМножественное число: οι δημοσιογράφοι\n\nРод: женский",
+      "correctAnswer": "η γνωστή δημοσιογράφος",
+      "wrongAnswers": [
+        "ο γνωστός δημοσιογράφος",
+        "οι γνωστοί δημοσιογράφος",
+        "οι γνωστές δημοσιογράφος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-045",
+      "type": "single-choice",
+      "prompt": "государственный служащий",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο υπάλληλος\nМножественное число: οι υπάλληλοι\n\nРод: мужской",
+      "correctAnswer": "ο κρατικός υπάλληλος",
+      "wrongAnswers": ["οι κρατικοί υπάλληλος", "η κρατική υπάλληλος", "οι κρατικές υπάλληλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-046",
+      "type": "single-choice",
+      "prompt": "туристические отрасли",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η βιομηχανία\nМножественное число: οι βιομηχανίες\n\nРод: женский",
+      "correctAnswer": "οι τουριστικές βιομηχανίες",
+      "wrongAnswers": [
+        "ο τουριστικός βιομηχανίες",
+        "οι τουριστικοί βιομηχανίες",
+        "η τουριστική βιομηχανίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-047",
+      "type": "single-choice",
+      "prompt": "женщины-музыканты",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μουσικός\nМножественное число: οι μουσικοί\n\nРод: мужской",
+      "correctAnswer": "οι γυναικείες μουσικοί",
+      "wrongAnswers": ["ο γυναικείος μουσικοί", "οι γυναικείοι μουσικοί", "τα γυναικεία μουσικοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-048",
+      "type": "single-choice",
+      "prompt": "женщины-полицейские",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η αστυνομικός\nМножественное число: οι αστυνομικοί\n\nРод: женский",
+      "correctAnswer": "οι γυναίκες αστυνομικοί",
+      "wrongAnswers": ["οι γυναίκες αστυνομικός", "η γυναίκες αστυνομική", "το γυναίκες αστυνομικό"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-049",
+      "type": "single-choice",
+      "prompt": "комические актёры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο ηθοποιός\nМножественное число: οι ηθοποιοί\n\nРод: мужской",
+      "correctAnswer": "οι κωμικοί ηθοποιοί",
+      "wrongAnswers": ["ο κωμικός ηθοποιοί", "η κωμική ηθοποιοί", "το κωμικό ηθοποιοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-050",
+      "type": "single-choice",
+      "prompt": "хороший риелтор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μεσίτης\nМножественное число: οι μεσίτες\n\nРод: мужской",
+      "correctAnswer": "ο καλός μεσίτης",
+      "wrongAnswers": ["οι καλοί μεσίτης", "η καλή μεσίτης", "οι καλές μεσίτης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-051",
+      "type": "single-choice",
+      "prompt": "спокойная учительница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δασκάλα\nМножественное число: οι δασκάλες\n\nРод: женский",
+      "correctAnswer": "η ήρεμη δασκάλα",
+      "wrongAnswers": ["ο ήρεμος δασκάλα", "οι ήρεμοι δασκάλα", "οι ήρεμες δασκάλα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-052",
+      "type": "single-choice",
+      "prompt": "личный помощник",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο βοηθός\nМножественное число: οι βοηθοί\n\nРод: мужской",
+      "correctAnswer": "ο προσωπικός βοηθός",
+      "wrongAnswers": ["οι προσωπικοί βοηθός", "η προσωπική βοηθός", "οι προσωπικές βοηθός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-053",
+      "type": "single-choice",
+      "prompt": "хорошие медсёстры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο νοσοκόμος\nМножественное число: οι νοσοκόμοι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί νοσοκόμοι",
+      "wrongAnswers": ["ο καλός νοσοκόμοι", "η καλή νοσοκόμοι", "οι καλές νοσοκόμοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-054",
+      "type": "single-choice",
+      "prompt": "личные помощники",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο βοηθός\nМножественное число: οι βοηθοί\n\nРод: мужской",
+      "correctAnswer": "οι προσωπικοί βοηθοί",
+      "wrongAnswers": ["ο προσωπικός βοηθοί", "η προσωπική βοηθοί", "οι προσωπικές βοηθοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-055",
+      "type": "single-choice",
+      "prompt": "хороший кассир",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο ταμίας\nМножественное число: οι ταμίες\n\nРод: мужской",
+      "correctAnswer": "ο καλός ταμίας",
+      "wrongAnswers": ["οι καλοί ταμίας", "η καλή ταμίας", "οι καλές ταμίας"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-056",
+      "type": "single-choice",
+      "prompt": "опытные кандидаты",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο υποψήφιος\nМножественное число: οι υποψήφιοι\n\nРод: мужской",
+      "correctAnswer": "οι έμπειροι υποψήφιοι",
+      "wrongAnswers": ["ο έμπειρος υποψήφιοι", "η έμπειρη υποψήφιοι", "οι έμπειρο υποψήφιοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-057",
+      "type": "single-choice",
+      "prompt": "хорошие секретари",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο γραμματέας\nМножественное число: οι γραμματείς\n\nРод: мужской",
+      "correctAnswer": "οι καλοί γραμματείς",
+      "wrongAnswers": ["ο καλός γραμματείς", "η καλή γραμματείς", "οι καλές γραμματείς"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-058",
+      "type": "single-choice",
+      "prompt": "хорошие терапевты",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η παθολόγος\nМножественное число: οι παθολόγοι\n\nРод: женский",
+      "correctAnswer": "οι καλές παθολόγοι",
+      "wrongAnswers": ["ο καλός παθολόγοι", "οι καλοί παθολόγοι", "η καλή παθολόγοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-059",
+      "type": "single-choice",
+      "prompt": "профессиональные помещения",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο χώρος\nМножественное число: οι χώροι\n\nРод: мужской",
+      "correctAnswer": "οι επαγγελματικοί χώροι",
+      "wrongAnswers": ["ο επαγγελματικός χώροι", "η επαγγελματική χώροι", "οι επαγγελματικές χώροι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-060",
+      "type": "single-choice",
+      "prompt": "любимые хирурги",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο χειρουργός\nМножественное число: οι χειρουργοί\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι χειρουργοί",
+      "wrongAnswers": [
+        "ο αγαπημένος χειρουργοί",
+        "η αγαπημένη χειρουργοί",
+        "το αγαπημένο χειρουργοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-061",
+      "type": "single-choice",
+      "prompt": "любимые учительницы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δασκάλα\nМножественное число: οι δασκάλες\n\nРод: женский",
+      "correctAnswer": "οι αγαπητές δασκάλες",
+      "wrongAnswers": ["ο αγαπητός δασκάλες", "οι αγαπητοί δασκάλες", "η αγαπητή δασκάλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-062",
+      "type": "single-choice",
+      "prompt": "хороший парикмахер",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο κομμωτής\nМножественное число: οι κομμωτές\n\nРод: мужской",
+      "correctAnswer": "ο καλός κομμωτής",
+      "wrongAnswers": ["οι καλοί κομμωτής", "η καλή κομμωτής", "οι καλές κομμωτής"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-063",
+      "type": "single-choice",
+      "prompt": "любимые врачи",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γιατρός\nМножественное число: οι γιατροί\n\nРод: женский",
+      "correctAnswer": "οι αγαπητές γιατροί",
+      "wrongAnswers": ["ο αγαπητός γιατροί", "οι αγαπητοί γιατροί", "η αγαπητή γιατροί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-064",
+      "type": "single-choice",
+      "prompt": "хороший повар",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μάγειρας\nМножественное число: οι μάγειρες\n\nРод: мужской",
+      "correctAnswer": "ο καλός μάγειρας",
+      "wrongAnswers": ["οι καλοί μάγειρας", "η καλή μάγειρας", "οι καλές μάγειρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-065",
+      "type": "single-choice",
+      "prompt": "трудная профессия",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το επάγγελμα\nМножественное число: τα επαγγέλματα\n\nРод: средний",
+      "correctAnswer": "το δύσκολο επάγγελμα",
+      "wrongAnswers": ["ο δύσκολος επάγγελμα", "οι δύσκολοι επάγγελμα", "η δύσκολη επάγγελμα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-066",
+      "type": "single-choice",
+      "prompt": "симпатичный фотограф",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο φωτογράφος\nМножественное число: οι φωτογράφοι\n\nРод: мужской",
+      "correctAnswer": "ο συμπαθητικός φωτογράφος",
+      "wrongAnswers": [
+        "οι συμπαθητικοί φωτογράφος",
+        "η συμπαθητική φωτογράφος",
+        "οι συμπαθητικές φωτογράφος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-067",
+      "type": "single-choice",
+      "prompt": "хорошая ораторша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η ομιλήτρια\nМножественное число: οι ομιλήτριες\n\nРод: женский",
+      "correctAnswer": "η καλή ομιλήτρια",
+      "wrongAnswers": ["ο καλός ομιλήτρια", "οι καλοί ομιλήτρια", "οι καλές ομιλήτρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-068",
+      "type": "single-choice",
+      "prompt": "любимые хирурги",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η χειρουργός\nМножественное число: οι χειρουργοί\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες χειρουργοί",
+      "wrongAnswers": [
+        "ο αγαπημένος χειρουργοί",
+        "η αγαπημένη χειρουργοί",
+        "το αγαπημένο χειρουργοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-069",
+      "type": "single-choice",
+      "prompt": "университетский профессор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καθηγητής\nМножественное число: οι καθηγητές\n\nРод: мужской",
+      "correctAnswer": "ο πανεπιστημιακός καθηγητής",
+      "wrongAnswers": [
+        "οι πανεπιστημιακοί καθηγητής",
+        "η πανεπιστημιακή καθηγητής",
+        "οι πανεπιστημιακές καθηγητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-070",
+      "type": "single-choice",
+      "prompt": "опытные инженеры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μηχανικός\nМножественное число: οι μηχανικοί\n\nРод: мужской",
+      "correctAnswer": "οι έμπειρες μηχανικοί",
+      "wrongAnswers": ["ο έμπειρος μηχανικοί", "η έμπειρη μηχανικοί", "οι έμπειρο μηχανικοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-071",
+      "type": "single-choice",
+      "prompt": "опытный адвокат",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δικηγόρος\nМножественное число: οι δικηγόροι\n\nРод: мужской",
+      "correctAnswer": "ο έμπειρος δικηγόρος",
+      "wrongAnswers": ["η έμπειρη δικηγόρος", "ο έμπειρο δικηγόρος", "οι έμπειροι δικηγόρος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-072",
+      "type": "single-choice",
+      "prompt": "женщина-полицейский",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η αστυνομικός\nМножественное число: οι αστυνομικοί\n\nРод: женский",
+      "correctAnswer": "η γυναίκα αστυνομικός",
+      "wrongAnswers": ["η γυναίκα αστυνομική", "το γυναίκα αστυνομικό", "η γυναίκα αστυνομικοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-073",
+      "type": "single-choice",
+      "prompt": "симпатичные секретари",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γραμματέας\nМножественное число: οι γραμματείς\n\nРод: женский",
+      "correctAnswer": "οι συμπαθητικές γραμματείς",
+      "wrongAnswers": [
+        "ο συμπαθητικός γραμματείς",
+        "οι συμπαθητικοί γραμματείς",
+        "η συμπαθητική γραμματείς"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-074",
+      "type": "single-choice",
+      "prompt": "вежливые продавщицы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πωλήτρια\nМножественное число: οι πωλήτριες\n\nРод: женский",
+      "correctAnswer": "οι ευγενικές πωλήτριες",
+      "wrongAnswers": ["ο ευγενικός πωλήτριες", "οι ευγενικοί πωλήτριες", "η ευγενική πωλήτριες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-075",
+      "type": "single-choice",
+      "prompt": "уважаемый мэр",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δήμαρχος\nМножественное число: οι δήμαρχοι\n\nРод: мужской",
+      "correctAnswer": "ο αγαπητός δήμαρχος",
+      "wrongAnswers": ["οι αγαπητοί δήμαρχος", "η αγαπητή δήμαρχος", "οι αγαπητές δήμαρχος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-076",
+      "type": "single-choice",
+      "prompt": "необходимая сверхурочная работа",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η υπερωρία\nМножественное число: οι υπερωρίες\n\nРод: женский",
+      "correctAnswer": "η απαραίτητη υπερωρία",
+      "wrongAnswers": [
+        "ο απαραίτητος υπερωρία",
+        "οι απαραίτητοι υπερωρία",
+        "οι απαραίτητες υπερωρία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-077",
+      "type": "single-choice",
+      "prompt": "известный специалист",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο ειδικός\nМножественное число: οι ειδικοί\n\nРод: мужской",
+      "correctAnswer": "ο γνωστός ειδικός",
+      "wrongAnswers": ["οι γνωστοί ειδικός", "η γνωστή ειδικός", "οι γνωστές ειδικός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-078",
+      "type": "single-choice",
+      "prompt": "хорошие мясники",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο κρεοπώλης\nМножественное число: οι κρεοπώλες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί κρεοπώλες",
+      "wrongAnswers": ["ο καλός κρεοπώλες", "η καλή κρεοπώλες", "οι καλές κρεοπώλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-079",
+      "type": "single-choice",
+      "prompt": "хорошие кардиологи",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καρδιολόγος\nМножественное число: οι καρδιολόγοι\n\nРод: женский",
+      "correctAnswer": "οι καλές καρδιολόγοι",
+      "wrongAnswers": ["ο καλός καρδιολόγοι", "οι καλοί καρδιολόγοι", "η καλή καρδιολόγοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-080",
+      "type": "single-choice",
+      "prompt": "хорошие кардиологи",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καρδιολόγος\nМножественное число: οι καρδιολόγοι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί καρδιολόγοι",
+      "wrongAnswers": ["ο καλός καρδιολόγοι", "η καλή καρδιολόγοι", "οι καλές καρδιολόγοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-081",
+      "type": "single-choice",
+      "prompt": "известная художница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η καλλιτέχνης\nМножественное число: οι καλλιτέχνες\n\nРод: женский",
+      "correctAnswer": "η γνωστή καλλιτέχνης",
+      "wrongAnswers": ["ο γνωστός καλλιτέχνης", "οι γνωστοί καλλιτέχνης", "οι γνωστές καλλιτέχνης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-082",
+      "type": "single-choice",
+      "prompt": "скучный учитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο βαρετός δάσκαλος",
+      "wrongAnswers": ["οι βαρετοί δάσκαλος", "η βαρετή δάσκαλος", "οι βαρετές δάσκαλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-083",
+      "type": "single-choice",
+      "prompt": "хорошая певица",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τραγουδίστρια\nМножественное число: οι τραγουδίστριες\n\nРод: женский",
+      "correctAnswer": "η καλή τραγουδίστρια",
+      "wrongAnswers": ["ο καλός τραγουδίστρια", "οι καλοί τραγουδίστρια", "οι καλές τραγουδίστρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-084",
+      "type": "single-choice",
+      "prompt": "опытные инженеры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μηχανικός\nМножественное число: οι μηχανικοί\n\nРод: мужской",
+      "correctAnswer": "οι έμπειροι μηχανικοί",
+      "wrongAnswers": ["ο έμπειρος μηχανικοί", "η έμπειρη μηχανικοί", "οι έμπειρο μηχανικοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-085",
+      "type": "single-choice",
+      "prompt": "хорошие педиатры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο παιδίατρος\nМножественное число: οι παιδίατροι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί παιδίατροι",
+      "wrongAnswers": ["ο καλός παιδίατροι", "η καλή παιδίατροι", "οι καλές παιδίατροι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-086",
+      "type": "single-choice",
+      "prompt": "вежливый официант",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο σερβιτόρος\nМножественное число: οι σερβιτόροι\n\nРод: мужской",
+      "correctAnswer": "ο ευγενικός σερβιτόρος",
+      "wrongAnswers": [
+        "οι ευγενικοί σερβιτόρος",
+        "η ευγενική σερβιτόρος",
+        "οι ευγενικές σερβιτόρος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-087",
+      "type": "single-choice",
+      "prompt": "хороший директор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο διευθυντής\nМножественное число: οι διευθυντές\n\nРод: мужской",
+      "correctAnswer": "ο καλός διευθυντής",
+      "wrongAnswers": ["οι καλοί διευθυντής", "η καλή διευθυντής", "οι καλές διευθυντής"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-088",
+      "type": "single-choice",
+      "prompt": "хороший профессор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καθηγητής\nМножественное число: οι καθηγητές\n\nРод: мужской",
+      "correctAnswer": "ο καλός καθηγητής",
+      "wrongAnswers": ["οι καλοί καθηγητής", "η καλή καθηγητής", "οι καλές καθηγητής"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-089",
+      "type": "single-choice",
+      "prompt": "дружелюбная фармацевтка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φαρμακοποιός\nМножественное число: οι φαρμακοποιοί\n\nРод: женский",
+      "correctAnswer": "η φιλική φαρμακοποιός",
+      "wrongAnswers": [
+        "ο φιλικός φαρμακοποιός",
+        "οι φιλικοί φαρμακοποιός",
+        "οι φιλικές φαρμακοποιός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-090",
+      "type": "single-choice",
+      "prompt": "постоянная работа",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "η μόνιμη δουλειά",
+      "wrongAnswers": ["ο μόνιμος δουλειά", "οι μόνιμοι δουλειά", "οι μόνιμες δουλειά"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-091",
+      "type": "single-choice",
+      "prompt": "оставшаяся работа",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δουλειά\nМножественное число: οι δουλειές\n\nРод: женский",
+      "correctAnswer": "η υπόλοιπη δουλειά",
+      "wrongAnswers": ["ο υπόλοιπος δουλειά", "οι υπόλοιποι δουλειά", "οι υπόλοιπες δουλειά"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-092",
+      "type": "single-choice",
+      "prompt": "хорошие стоматологи",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο οδοντίατρος\nМножественное число: οι οδοντίατροι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί οδοντίατροι",
+      "wrongAnswers": ["ο καλός οδοντίατροι", "η καλή οδοντίατροι", "οι καλές οδοντίατροι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-093",
+      "type": "single-choice",
+      "prompt": "хорошая сотрудница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η υπάλληλος\nМножественное число: οι υπάλληλοι\n\nРод: женский",
+      "correctAnswer": "η καλή υπάλληλος",
+      "wrongAnswers": ["ο καλός υπάλληλος", "οι καλοί υπάλληλος", "οι καλές υπάλληλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-094",
+      "type": "single-choice",
+      "prompt": "вежливые стоматологи",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η οδοντίατρος\nМножественное число: οι οδοντίατροι\n\nРод: женский",
+      "correctAnswer": "οι ευγενικές οδοντίατροι",
+      "wrongAnswers": [
+        "ο ευγενικός οδοντίατροι",
+        "οι ευγενικοί οδοντίατροι",
+        "η ευγενική οδοντίατροι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-095",
+      "type": "single-choice",
+      "prompt": "большие мастерские",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το συνεργείο\nМножественное число: τα συνεργεία\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα συνεργεία",
+      "wrongAnswers": ["ο μεγάλος συνεργεία", "οι μεγάλοι συνεργεία", "η μεγάλη συνεργεία"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-096",
+      "type": "single-choice",
+      "prompt": "хороший секретарь",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο γραμματέας\nМножественное число: οι γραμματείς\n\nРод: мужской",
+      "correctAnswer": "ο καλός γραμματέας",
+      "wrongAnswers": ["οι καλοί γραμματέας", "η καλή γραμματέας", "οι καλές γραμματέας"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-097",
+      "type": "single-choice",
+      "prompt": "хорошие сотрудницы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η υπάλληλος\nМножественное число: οι υπάλληλοι\n\nРод: женский",
+      "correctAnswer": "οι καλές υπάλληλοι",
+      "wrongAnswers": ["ο καλός υπάλληλοι", "οι καλοί υπάλληλοι", "η καλή υπάλληλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-098",
+      "type": "single-choice",
+      "prompt": "известный режиссёр",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο σκηνοθέτης\nМножественное число: οι σκηνοθέτες\n\nРод: мужской",
+      "correctAnswer": "ο γνωστός σκηνοθέτης",
+      "wrongAnswers": ["οι γνωστοί σκηνοθέτης", "η γνωστή σκηνοθέτης", "οι γνωστές σκηνοθέτης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-099",
+      "type": "single-choice",
+      "prompt": "дорогие учителя",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "οι αγαπητοί δάσκαλοι",
+      "wrongAnswers": ["ο αγαπητός δάσκαλοι", "η αγαπητή δάσκαλοι", "οι αγαπητές δάσκαλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-100",
+      "type": "single-choice",
+      "prompt": "хорошие танцовщицы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η χορεύτρια\nМножественное число: οι χορεύτριες\n\nРод: женский",
+      "correctAnswer": "οι καλές χορεύτριες",
+      "wrongAnswers": ["ο καλός χορεύτριες", "οι καλοί χορεύτριες", "η καλή χορεύτριες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-101",
+      "type": "single-choice",
+      "prompt": "хорошие пекари",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο φούρναρης\nМножественное число: οι φούρναρηδες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί φούρναρηδες",
+      "wrongAnswers": ["ο καλός φούρναρηδες", "η καλή φούρναρηδες", "οι καλές φούρναρηδες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-102",
+      "type": "single-choice",
+      "prompt": "вежливые официанты",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο σερβιτόρος\nМножественное число: οι σερβιτόροι\n\nРод: мужской",
+      "correctAnswer": "οι ευγενικοί σερβιτόροι",
+      "wrongAnswers": ["ο ευγενικός σερβιτόροι", "η ευγενική σερβιτόροι", "οι ευγενικές σερβιτόροι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-103",
+      "type": "single-choice",
+      "prompt": "театральный драматург",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο συγγραφέας\nМножественное число: οι συγγραφείς\n\nРод: мужской",
+      "correctAnswer": "ο θεατρικός συγγραφέας",
+      "wrongAnswers": [
+        "οι θεατρικοί συγγραφέας",
+        "η θεατρική συγγραφέας",
+        "οι θεατρικές συγγραφέας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-104",
+      "type": "single-choice",
+      "prompt": "хороший зеленщик",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μανάβης\nМножественное число: οι μανάβηδες\n\nРод: мужской",
+      "correctAnswer": "ο καλός μανάβης",
+      "wrongAnswers": ["οι καλοί μανάβης", "η καλή μανάβης", "οι καλές μανάβης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-105",
+      "type": "single-choice",
+      "prompt": "дружелюбный учитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο φιλικός δάσκαλος",
+      "wrongAnswers": ["οι φιλικοί δάσκαλος", "η φιλική δάσκαλος", "οι φιλικές δάσκαλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-106",
+      "type": "single-choice",
+      "prompt": "дорогие мэры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δήμαρχος\nМножественное число: οι δήμαρχοι\n\nРод: женский",
+      "correctAnswer": "οι αγαπητές δημάρχοι",
+      "wrongAnswers": ["ο αγαπητός δημάρχοι", "οι αγαπητοί δημάρχοι", "η αγαπητή δημάρχοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-107",
+      "type": "single-choice",
+      "prompt": "профессиональная сфера",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο χώρος\nМножественное число: οι χώροι\n\nРод: мужской",
+      "correctAnswer": "ο επαγγελματικός χώρος",
+      "wrongAnswers": [
+        "οι επαγγελματικοί χώρος",
+        "η επαγγελματική χώρος",
+        "οι επαγγελματικές χώρος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-108",
+      "type": "single-choice",
+      "prompt": "хорошая риэлторша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μεσίτρια\nМножественное число: οι μεσίτριες\n\nРод: женский",
+      "correctAnswer": "η καλή μεσίτρια",
+      "wrongAnswers": ["ο καλός μεσίτρια", "οι καλοί μεσίτρια", "οι καλές μεσίτρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-109",
+      "type": "single-choice",
+      "prompt": "молодые архитекторки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η αρχιτέκτονας\nМножественное число: οι αρχιτέκτονες\n\nРод: женский",
+      "correctAnswer": "οι νέες αρχιτέκτονες",
+      "wrongAnswers": ["ο νέος αρχιτέκτονες", "οι νέοι αρχιτέκτονες", "τα νέα αρχιτέκτονες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-110",
+      "type": "single-choice",
+      "prompt": "известные композиторы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο συνθέτης\nМножественное число: οι συνθέτες\n\nРод: мужской",
+      "correctAnswer": "οι γνωστοί συνθέτες",
+      "wrongAnswers": ["ο γνωστός συνθέτες", "η γνωστή συνθέτες", "οι γνωστές συνθέτες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-111",
+      "type": "single-choice",
+      "prompt": "опытная инженерша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μηχανικός\nМножественное число: οι μηχανικοί\n\nРод: женский",
+      "correctAnswer": "η έμπειρη μηχανικός",
+      "wrongAnswers": ["ο έμπειρος μηχανικός", "η έμπειρο μηχανικός", "οι έμπειροι μηχανικός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-112",
+      "type": "single-choice",
+      "prompt": "молодой архитектор",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο αρχιτέκτονας\nМножественное число: οι αρχιτέκτονες\n\nРод: мужской",
+      "correctAnswer": "ο νέος αρχιτέκτονας",
+      "wrongAnswers": ["οι νέοι αρχιτέκτονας", "η νέα αρχιτέκτονας", "οι νέες αρχιτέκτονας"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-113",
+      "type": "single-choice",
+      "prompt": "спортивная тренерша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γυμνάστρια\nМножественное число: οι γυμνάστριες\n\nРод: женский",
+      "correctAnswer": "η αθλητική γυμνάστρια",
+      "wrongAnswers": [
+        "ο αθλητικός γυμνάστρια",
+        "οι αθλητικοί γυμνάστρια",
+        "οι αθλητικές γυμνάστρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-114",
+      "type": "single-choice",
+      "prompt": "справедливый учитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο δίκαιος δάσκαλος",
+      "wrongAnswers": ["οι δίκαιοι δάσκαλος", "η δίκαιη δάσκαλος", "οι δίκαιες δάσκαλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-115",
+      "type": "single-choice",
+      "prompt": "симпатичная секретарша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γραμματέας\nМножественное число: οι γραμματείς\n\nРод: женский",
+      "correctAnswer": "η συμπαθητική γραμματέας",
+      "wrongAnswers": [
+        "ο συμπαθητικός γραμματέας",
+        "οι συμπαθητικοί γραμματέας",
+        "οι συμπαθητικές γραμματέας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-116",
+      "type": "single-choice",
+      "prompt": "дорогая няня",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η νταντά\nМножественное число: οι νταντάδες\n\nРод: женский",
+      "correctAnswer": "η αγαπητή νταντά",
+      "wrongAnswers": ["ο αγαπητός νταντά", "οι αγαπητοί νταντά", "οι αγαπητές νταντά"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-117",
+      "type": "single-choice",
+      "prompt": "известные учителя",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "οι γνωστοί δάσκαλοι",
+      "wrongAnswers": ["ο γνωστός δάσκαλοι", "η γνωστή δάσκαλοι", "οι γνωστές δάσκαλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-118",
+      "type": "single-choice",
+      "prompt": "безработная женщина",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η άνεργη γυναίκα",
+      "wrongAnswers": ["ο άνεργος γυναίκα", "οι άνεργοι γυναίκα", "οι άνεργες γυναίκα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-119",
+      "type": "single-choice",
+      "prompt": "большие заводы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το εργοστάσιο\nМножественное число: τα εργοστάσια\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα εργοστάσια",
+      "wrongAnswers": ["ο μεγάλος εργοστάσια", "οι μεγάλοι εργοστάσια", "η μεγάλη εργοστάσια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-120",
+      "type": "single-choice",
+      "prompt": "дорогие няни",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η νταντά\nМножественное число: οι νταντάδες\n\nРод: женский",
+      "correctAnswer": "οι αγαπητές νταντάδες",
+      "wrongAnswers": ["ο αγαπητός νταντάδες", "οι αγαπητοί νταντάδες", "η αγαπητή νταντάδες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-121",
+      "type": "single-choice",
+      "prompt": "дорогая учительница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δασκάλα\nМножественное число: οι δασκάλες\n\nРод: женский",
+      "correctAnswer": "η αγαπητή δασκάλα",
+      "wrongAnswers": ["ο αγαπητός δασκάλα", "οι αγαπητοί δασκάλα", "οι αγαπητές δασκάλα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-122",
+      "type": "single-choice",
+      "prompt": "дорогая мэр",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δήμαρχος\nМножественное число: οι δήμαρχοι\n\nРод: женский",
+      "correctAnswer": "η αγαπητή δήμαρχος",
+      "wrongAnswers": ["ο αγαπητός δήμαρχος", "οι αγαπητοί δήμαρχος", "οι αγαπητές δήμαρχος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-123",
+      "type": "single-choice",
+      "prompt": "дорогая врач",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γιατρός\nМножественное число: οι γιατροί\n\nРод: женский",
+      "correctAnswer": "η αγαπητή γιατρός",
+      "wrongAnswers": ["ο αγαπητός γιατρός", "οι αγαπητοί γιατρός", "οι αγαπητές γιατρός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-124",
+      "type": "single-choice",
+      "prompt": "хороший кардиолог",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο καρδιολόγος\nМножественное число: οι καρδιολόγοι\n\nРод: мужской",
+      "correctAnswer": "ο καλός καρδιολόγος",
+      "wrongAnswers": ["οι καλοί καρδιολόγος", "η καλή καρδιολόγος", "οι καλές καρδιολόγος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-125",
+      "type": "single-choice",
+      "prompt": "известные журналистки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δημοσιογράφος\nМножественное число: οι δημοσιογράφοι\n\nРод: женский",
+      "correctAnswer": "οι γνωστές δημοσιογράφοι",
+      "wrongAnswers": [
+        "ο γνωστός δημοσιογράφοι",
+        "οι γνωστοί δημοσιογράφοι",
+        "η γνωστή δημοσιογράφοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-126",
+      "type": "single-choice",
+      "prompt": "опытная адвокатесса",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η δικηγόρος\nМножественное число: οι δικηγόροι\n\nРод: женский",
+      "correctAnswer": "η έμπειρη δικηγόρος",
+      "wrongAnswers": ["ο έμπειρος δικηγόρος", "η έμπειρο δικηγόρος", "οι έμπειροι δικηγόρος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-127",
+      "type": "single-choice",
+      "prompt": "хорошие коллеги",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η συνάδελφος\nМножественное число: οι συνάδελφοι\n\nРод: женский",
+      "correctAnswer": "οι καλές συνάδελφοι",
+      "wrongAnswers": ["ο καλός συνάδελφοι", "οι καλοί συνάδελφοι", "η καλή συνάδελφοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-128",
+      "type": "single-choice",
+      "prompt": "хорошие ораторы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο ομιλητής\nМножественное число: οι ομιλητές\n\nРод: мужской",
+      "correctAnswer": "οι καλοί ομιλητές",
+      "wrongAnswers": ["ο καλός ομιλητές", "η καλή ομιλητές", "οι καλές ομιλητές"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-129",
+      "type": "single-choice",
+      "prompt": "хорошая пекарша",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φουρνάρισσα\nМножественное число: οι φουρνάρισσες\n\nРод: женский",
+      "correctAnswer": "η καλή φουρνάρισσα",
+      "wrongAnswers": ["ο καλός φουρνάρισσα", "οι καλοί φουρνάρισσα", "οι καλές φουρνάρισσα"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-130",
+      "type": "single-choice",
+      "prompt": "любимая хирург",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η χειρουργός\nМножественное число: οι χειρουργοί\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη χειρουργός",
+      "wrongAnswers": [
+        "ο αγαπημένος χειρουργός",
+        "το αγαπημένο χειρουργός",
+        "οι αγαπημένοι χειρουργός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-131",
+      "type": "single-choice",
+      "prompt": "государственные служащие",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο υπάλληλος\nМножественное число: οι υπάλληλοι\n\nРод: мужской",
+      "correctAnswer": "οι κρατικοί υπάλληλοι",
+      "wrongAnswers": ["ο κρατικός υπάλληλοι", "η κρατική υπάλληλοι", "οι κρατικές υπάλληλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-132",
+      "type": "single-choice",
+      "prompt": "дорогие врачи",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο γιατρός\nМножественное число: οι γιατροί\n\nРод: мужской",
+      "correctAnswer": "οι αγαπητοί γιατροί",
+      "wrongAnswers": ["ο αγαπητός γιατροί", "η αγαπητή γιατροί", "οι αγαπητές γιατροί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-133",
+      "type": "single-choice",
+      "prompt": "симпатичные фотографы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φωτογράφος\nМножественное число: οι φωτογράφοι\n\nРод: женский",
+      "correctAnswer": "οι συμπαθητικές φωτογράφοι",
+      "wrongAnswers": [
+        "ο συμπαθητικός φωτογράφοι",
+        "οι συμπαθητικοί φωτογράφοι",
+        "η συμπαθητική φωτογράφοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-134",
+      "type": "single-choice",
+      "prompt": "хороший педиатр",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο παιδίατρος\nМножественное число: οι παιδίατροι\n\nРод: мужской",
+      "correctAnswer": "ο καλός παιδίατρος",
+      "wrongAnswers": ["οι καλοί παιδίατρος", "η καλή παιδίατρος", "οι καλές παιδίατρος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-135",
+      "type": "single-choice",
+      "prompt": "хороший терапевт",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο παθολόγος\nМножественное число: οι None\n\nРод: мужской",
+      "correctAnswer": "ο καλός παθολόγος",
+      "wrongAnswers": ["οι καλοί παθολόγος", "η καλή παθολόγος", "οι καλές παθολόγος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-136",
+      "type": "single-choice",
+      "prompt": "туристическая индустрия",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η βιομηχανία\nМножественное число: οι βιομηχανίες\n\nРод: женский",
+      "correctAnswer": "η τουριστική βιομηχανία",
+      "wrongAnswers": [
+        "ο τουριστικός βιομηχανία",
+        "οι τουριστικοί βιομηχανία",
+        "οι τουριστικές βιομηχανία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-137",
+      "type": "single-choice",
+      "prompt": "известные специалисты",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο ειδικός\nМножественное число: οι ειδικοί\n\nРод: мужской",
+      "correctAnswer": "οι γνωστοί ειδικοί",
+      "wrongAnswers": ["ο γνωστός ειδικοί", "η γνωστή ειδικοί", "οι γνωστές ειδικοί"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-138",
+      "type": "single-choice",
+      "prompt": "безработный мужчина",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο άνεργος άντρας",
+      "wrongAnswers": ["οι άνεργοι άντρας", "η άνεργη άντρας", "οι άνεργες άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-139",
+      "type": "single-choice",
+      "prompt": "любимый бакалейщик",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μπακάλης\nМножественное число: οι μπακάληδες\n\nРод: мужской",
+      "correctAnswer": "ο αγαπητός μπακάλης",
+      "wrongAnswers": ["οι αγαπητοί μπακάλης", "η αγαπητή μπακάλης", "οι αγαπητές μπακάλης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-140",
+      "type": "single-choice",
+      "prompt": "вежливая стоматологиня",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η οδοντίατρος\nМножественное число: οι οδοντίατροι\n\nРод: женский",
+      "correctAnswer": "η ευγενική οδοντίατρος",
+      "wrongAnswers": [
+        "ο ευγενικός οδοντίατρος",
+        "οι ευγενικοί οδοντίατρος",
+        "οι ευγενικές οδοντίατρος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-141",
+      "type": "single-choice",
+      "prompt": "любимый учитель",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο αγαπητός δάσκαλος",
+      "wrongAnswers": ["οι αγαπητοί δάσκαλος", "η αγαπητή δάσκαλος", "οι αγαπητές δάσκαλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-142",
+      "type": "single-choice",
+      "prompt": "крупная компания",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η εταιρεία\nМножественное число: οι εταιρείες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη εταιρεία",
+      "wrongAnswers": ["ο μεγάλος εταιρεία", "οι μεγάλοι εταιρεία", "οι μεγάλες εταιρεία"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-143",
+      "type": "single-choice",
+      "prompt": "хорошие повара",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μάγειρας\nМножественное число: οι μάγειρες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί μάγειρες",
+      "wrongAnswers": ["ο καλός μάγειρες", "η καλή μάγειρες", "οι καλές μάγειρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-144",
+      "type": "single-choice",
+      "prompt": "хорошая танцовщица",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η χορεύτρια\nМножественное число: οι χορεύτριες\n\nРод: женский",
+      "correctAnswer": "η καλή χορεύτρια",
+      "wrongAnswers": ["ο καλός χορεύτρια", "οι καλοί χορεύτρια", "οι καλές χορεύτρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-145",
+      "type": "single-choice",
+      "prompt": "важная работа",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η εργασία\nМножественное число: οι εργασίες\n\nРод: женский",
+      "correctAnswer": "η σημαντική εργασία",
+      "wrongAnswers": ["ο σημαντικός εργασία", "οι σημαντικοί εργασία", "οι σημαντικές εργασία"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-146",
+      "type": "single-choice",
+      "prompt": "хорошие сотрудничества",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η συνεργασία\nМножественное число: οι συνεργασίες\n\nРод: женский",
+      "correctAnswer": "οι καλές συνεργασίες",
+      "wrongAnswers": ["ο καλός συνεργασίες", "οι καλοί συνεργασίες", "η καλή συνεργασίες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-147",
+      "type": "single-choice",
+      "prompt": "быстрая водительница",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η οδηγός\nМножественное число: οι οδηγοί\n\nРод: женский",
+      "correctAnswer": "η γρήγορη οδηγός",
+      "wrongAnswers": ["ο γρήγορος οδηγός", "οι γρήγοροι οδηγός", "οι γρήγορες οδηγός"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-148",
+      "type": "single-choice",
+      "prompt": "хороший выходной",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ρεπό\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το καλό ρεπό",
+      "wrongAnswers": ["ο καλός ρεπό", "οι καλοί ρεπό", "η καλή ρεπό"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-149",
+      "type": "single-choice",
+      "prompt": "хорошие кассиры",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο ταμίας\nМножественное число: οι ταμίες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί ταμίες",
+      "wrongAnswers": ["ο καλός ταμίες", "η καλή ταμίες", "οι καλές ταμίες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-150",
+      "type": "single-choice",
+      "prompt": "любимые бакалейщики",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μπακάλης\nМножественное число: οι μπακάληδες\n\nРод: мужской",
+      "correctAnswer": "οι αγαπητοί μπακάληδες",
+      "wrongAnswers": ["ο αγαπητός μπακάληδες", "η αγαπητή μπακάληδες", "οι αγαπητές μπακάληδες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-151",
+      "type": "single-choice",
+      "prompt": "известный журналист",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο δημοσιογράφος\nМножественное число: οι δημοσιογράφοι\n\nРод: мужской",
+      "correctAnswer": "ο γνωστός δημοσιογράφος",
+      "wrongAnswers": [
+        "οι γνωστοί δημοσιογράφος",
+        "η γνωστή δημοσιογράφος",
+        "οι γνωστές δημοσιογράφος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-152",
+      "type": "single-choice",
+      "prompt": "хорошие зеленщики",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο μανάβης\nМножественное число: οι μανάβηδες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί μανάβηδες",
+      "wrongAnswers": ["ο καλός μανάβηδες", "η καλή μανάβηδες", "οι καλές μανάβηδες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-153",
+      "type": "single-choice",
+      "prompt": "хороший пекарь",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο φούρναρης\nМножественное число: οι φούρναρηδες\n\nРод: мужской",
+      "correctAnswer": "ο καλός φούρναρης",
+      "wrongAnswers": ["οι καλοί φούρναρης", "η καλή φούρναρης", "οι καλές φούρναρης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-154",
+      "type": "single-choice",
+      "prompt": "безработные женщины",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι άνεργες γυναίκες",
+      "wrongAnswers": ["ο άνεργος γυναίκες", "οι άνεργοι γυναίκες", "η άνεργη γυναίκες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-155",
+      "type": "single-choice",
+      "prompt": "молодые архитекторы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο αρχιτέκτονας\nМножественное число: οι αρχιτέκτονες\n\nРод: мужской",
+      "correctAnswer": "οι νέοι αρχιτέκτονες",
+      "wrongAnswers": ["ο νέος αρχιτέκτονες", "τα νέα αρχιτέκτονες", "οι νέες αρχιτέκτονες"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-156",
+      "type": "single-choice",
+      "prompt": "известная режиссёр",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η σκηνοθέτης\nМножественное число: οι σκηνοθέτες\n\nРод: женский",
+      "correctAnswer": "η γνωστή σκηνοθέτης",
+      "wrongAnswers": ["ο γνωστός σκηνοθέτης", "οι γνωστοί σκηνοθέτης", "οι γνωστές σκηνοθέτης"]
+    },
+    {
+      "id": "nouns-adjectives-people-professions-work-157",
+      "type": "single-choice",
+      "prompt": "хороший певец",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο τραγουδιστής\nМножественное число: οι τραγουδιστές\n\nРод: мужской",
+      "correctAnswer": "ο καλός τραγουδιστής",
+      "wrongAnswers": ["οι καλοί τραγουδιστής", "η καλή τραγουδιστής", "οι καλές τραγουδιστής"]
+    }
+  ]
+}

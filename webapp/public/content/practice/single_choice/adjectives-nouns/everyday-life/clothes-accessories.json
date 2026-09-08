@@ -1,0 +1,1007 @@
+{
+  "title": "Одежда и аксессуары",
+  "subtitle": "Согласуйте названия одежды и аксессуаров с прилагательными",
+  "items": [
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-001",
+      "type": "single-choice",
+      "prompt": "обычные сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι κανονικές τσάντες",
+      "wrongAnswers": ["ο κανονικός τσάντες", "οι κανονικοί τσάντες", "η κανονική τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-002",
+      "type": "single-choice",
+      "prompt": "белые блузки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "οι άσπρες μπλούζες",
+      "wrongAnswers": ["ο άσπρος μπλούζες", "οι άσπροι μπλούζες", "η άσπρη μπλούζες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-003",
+      "type": "single-choice",
+      "prompt": "новые рубашки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πουκάμισο\nМножественное число: τα πουκάμισα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια πουκάμισα",
+      "wrongAnswers": [
+        "ο καινούριος πουκάμισα",
+        "οι καινούριοι πουκάμισα",
+        "οι καινούριες πουκάμισα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-004",
+      "type": "single-choice",
+      "prompt": "дорогие галстуки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γραβάτα\nМножественное число: οι γραβάτες\n\nРод: женский",
+      "correctAnswer": "οι αγαπητές γραβάτες",
+      "wrongAnswers": ["ο αγαπητός γραβάτες", "οι αγαπητοί γραβάτες", "η αγαπητή γραβάτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-005",
+      "type": "single-choice",
+      "prompt": "тёплая куртка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μπουφάν\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το ζεστό μπουφάν",
+      "wrongAnswers": ["ο ζεστός μπουφάν", "οι ζεστοί μπουφάν", "η ζεστή μπουφάν"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-006",
+      "type": "single-choice",
+      "prompt": "личные сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι προσωπικές τσάντες",
+      "wrongAnswers": ["ο προσωπικός τσάντες", "οι προσωπικοί τσάντες", "η προσωπική τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-007",
+      "type": "single-choice",
+      "prompt": "удобные тапочки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η παντόφλα\nМножественное число: οι παντόφλες\n\nРод: женский",
+      "correctAnswer": "οι άνετες παντόφλες",
+      "wrongAnswers": ["ο άνετος παντόφλες", "η άνετη παντόφλες", "το άνετο παντόφλες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-008",
+      "type": "single-choice",
+      "prompt": "тёплый шарф",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κασκόλ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το ζεστό κασκόλ",
+      "wrongAnswers": ["ο ζεστός κασκόλ", "οι ζεστοί κασκόλ", "η ζεστή κασκόλ"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-009",
+      "type": "single-choice",
+      "prompt": "тёплые куртки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μπουφάν\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα ζεστά μπουφάν",
+      "wrongAnswers": ["ο ζεστός μπουφάν", "οι ζεστοί μπουφάν", "η ζεστή μπουφάν"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-010",
+      "type": "single-choice",
+      "prompt": "тёплые шапки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο σκούφος\nМножественное число: οι σκούφοι\n\nРод: мужской",
+      "correctAnswer": "οι ζεστοί σκούφοι",
+      "wrongAnswers": ["ο ζεστός σκούφοι", "η ζεστή σκούφοι", "οι ζεστές σκούφοι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-011",
+      "type": "single-choice",
+      "prompt": "широкие брюки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παντελόνι\nМножественное число: τα παντελόνια\n\nРод: средний",
+      "correctAnswer": "το φαρδύ παντελόνι",
+      "wrongAnswers": ["ο φαρδύς παντελόνι", "οι φαρδιοί παντελόνι", "η φαρδιά παντελόνι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-012",
+      "type": "single-choice",
+      "prompt": "хорошие перчатки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γάντι\nМножественное число: τα γάντια\n\nРод: средний",
+      "correctAnswer": "τα καλά γάντια",
+      "wrongAnswers": ["ο καλός γάντια", "οι καλοί γάντια", "η καλή γάντια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-013",
+      "type": "single-choice",
+      "prompt": "широкие брюки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παντελόνι\nМножественное число: τα παντελόνια\n\nРод: средний",
+      "correctAnswer": "τα φαρδιά παντελόνια",
+      "wrongAnswers": ["ο φαρδύς παντελόνια", "οι φαρδιοί παντελόνια", "οι φαρδιές παντελόνια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-014",
+      "type": "single-choice",
+      "prompt": "особая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η ιδιαίτερη τσάντα",
+      "wrongAnswers": ["ο ιδιαίτερος τσάντα", "οι ιδιαίτεροι τσάντα", "οι ιδιαίτερες τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-015",
+      "type": "single-choice",
+      "prompt": "толстая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η χοντρή τσάντα",
+      "wrongAnswers": ["ο χοντρός τσάντα", "οι χοντροί τσάντα", "οι χοντρές τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-016",
+      "type": "single-choice",
+      "prompt": "оранжевая блузка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "η πορτοκαλιά μπλούζα",
+      "wrongAnswers": ["ο πορτοκαλής μπλούζα", "οι πορτοκαλιοί μπλούζα", "οι πορτοκαλιές μπλούζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-017",
+      "type": "single-choice",
+      "prompt": "новые костюмы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κοστούμι\nМножественное число: τα κοστούμια\n\nРод: средний",
+      "correctAnswer": "τα καινούρια κοστούμια",
+      "wrongAnswers": [
+        "ο καινούριος κοστούμια",
+        "οι καινούριοι κοστούμια",
+        "οι καινούριες κοστούμια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-018",
+      "type": "single-choice",
+      "prompt": "кожаная сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η δερμάτινη τσάντα",
+      "wrongAnswers": ["ο δερμάτινος τσάντα", "το δερμάτινο τσάντα", "οι δερμάτινοι τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-019",
+      "type": "single-choice",
+      "prompt": "новые платья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φόρεμα\nМножественное число: τα φορέματα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια φορέματα",
+      "wrongAnswers": ["ο καινούριος φορέματα", "οι καινούριοι φορέματα", "οι καινούριες φορέματα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-020",
+      "type": "single-choice",
+      "prompt": "жёлтая блузка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "η κίτρινη μπλούζα",
+      "wrongAnswers": ["ο κίτρινος μπλούζα", "οι κίτρινοι μπλούζα", "οι κίτρινες μπλούζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-021",
+      "type": "single-choice",
+      "prompt": "любимые брюки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παντελόνι\nМножественное число: τα παντελόνια\n\nРод: средний",
+      "correctAnswer": "το αγαπημένο παντελόνι",
+      "wrongAnswers": ["ο αγαπημένος παντελόνι", "η αγαπημένη παντελόνι", "οι αγαπημένοι παντελόνι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-022",
+      "type": "single-choice",
+      "prompt": "тёплая шапка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: ο σκούφος\nМножественное число: οι σκούφοι\n\nРод: мужской",
+      "correctAnswer": "ο ζεστός σκούφος",
+      "wrongAnswers": ["οι ζεστοί σκούφος", "η ζεστή σκούφος", "οι ζεστές σκούφος"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-023",
+      "type": "single-choice",
+      "prompt": "удобная тапочка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η παντόφλα\nМножественное число: οι παντόφλες\n\nРод: женский",
+      "correctAnswer": "η άνετη παντόφλα",
+      "wrongAnswers": ["ο άνετος παντόφλα", "το άνετο παντόφλα", "οι άνετοι παντόφλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-024",
+      "type": "single-choice",
+      "prompt": "разноцветная юбка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φούστα\nМножественное число: οι φούστες\n\nРод: женский",
+      "correctAnswer": "η πολύχρωμη φούστα",
+      "wrongAnswers": ["ο πολύχρωμος φούστα", "το πολύχρωμο φούστα", "οι πολύχρωμοι φούστα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-025",
+      "type": "single-choice",
+      "prompt": "новая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η νέα τσάντα",
+      "wrongAnswers": ["ο νέος τσάντα", "οι νέοι τσάντα", "οι νέες τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-026",
+      "type": "single-choice",
+      "prompt": "любимые перчатки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γάντι\nМножественное число: τα γάντια\n\nРод: средний",
+      "correctAnswer": "τα αγαπημένα γάντια",
+      "wrongAnswers": ["ο αγαπημένος γάντια", "η αγαπημένη γάντια", "το αγαπημένο γάντια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-027",
+      "type": "single-choice",
+      "prompt": "новые юбки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φούστα\nМножественное число: οι φούστες\n\nРод: женский",
+      "correctAnswer": "οι καινούριες φούστες",
+      "wrongAnswers": ["ο καινούριος φούστες", "οι καινούριοι φούστες", "τα καινούρια φούστες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-028",
+      "type": "single-choice",
+      "prompt": "женский фартук",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η ποδιά\nМножественное число: οι ποδιές\n\nРод: женский",
+      "correctAnswer": "η γυναικεία ποδιά",
+      "wrongAnswers": ["ο γυναικείος ποδιά", "οι γυναικείοι ποδιά", "οι γυναικείες ποδιά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-029",
+      "type": "single-choice",
+      "prompt": "немецкие сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι γερμανικές τσάντες",
+      "wrongAnswers": ["ο γερμανικός τσάντες", "οι γερμανικοί τσάντες", "η γερμανική τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-030",
+      "type": "single-choice",
+      "prompt": "удобные пижамы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η πιτζάμα\nМножественное число: οι πιτζάμες\n\nРод: женский",
+      "correctAnswer": "οι άνετες πιτζάμες",
+      "wrongAnswers": ["ο άνετος πιτζάμες", "η άνετη πιτζάμες", "το άνετο πιτζάμες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-031",
+      "type": "single-choice",
+      "prompt": "итальянские сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι ιταλικές τσάντες",
+      "wrongAnswers": ["ο ιταλικός τσάντες", "οι ιταλικοί τσάντες", "η ιταλική τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-032",
+      "type": "single-choice",
+      "prompt": "итальянская сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η ιταλική τσάντα",
+      "wrongAnswers": ["ο ιταλικός τσάντα", "οι ιταλικοί τσάντα", "οι ιταλικές τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-033",
+      "type": "single-choice",
+      "prompt": "удобная обувь",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παπούτσι\nМножественное число: τα παπούτσια\n\nРод: средний",
+      "correctAnswer": "το άνετο παπούτσι",
+      "wrongAnswers": ["ο άνετος παπούτσι", "η άνετη παπούτσι", "οι άνετοι παπούτσι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-034",
+      "type": "single-choice",
+      "prompt": "лёгкая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η ελαφριά τσάντα",
+      "wrongAnswers": ["ο ελαφρύς τσάντα", "οι ελαφριοί τσάντα", "οι ελαφριές τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-035",
+      "type": "single-choice",
+      "prompt": "синие джинсы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τζιν\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα μπλε τζιν",
+      "wrongAnswers": ["ο μπλε τζιν", "η μπλε τζιν", "το μπλε τζιν"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-036",
+      "type": "single-choice",
+      "prompt": "новый костюм",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κοστούμι\nМножественное число: τα κοστούμια\n\nРод: средний",
+      "correctAnswer": "το καινούριο κοστούμι",
+      "wrongAnswers": ["ο καινούριος κοστούμι", "οι καινούριοι κοστούμι", "η καινούρια κοστούμι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-037",
+      "type": "single-choice",
+      "prompt": "модные аксессуары",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το αξεσουάρ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα μοντέρνα αξεσουάρ",
+      "wrongAnswers": ["ο μοντέρνος αξεσουάρ", "οι μοντέρνοι αξεσουάρ", "οι μοντέρνες αξεσουάρ"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-038",
+      "type": "single-choice",
+      "prompt": "обычная сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η κανονική τσάντα",
+      "wrongAnswers": ["ο κανονικός τσάντα", "οι κανονικοί τσάντα", "οι κανονικές τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-039",
+      "type": "single-choice",
+      "prompt": "хороший пиджак",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σακάκι\nМножественное число: τα σακάκια\n\nРод: средний",
+      "correctAnswer": "το καλό σακάκι",
+      "wrongAnswers": ["ο καλός σακάκι", "οι καλοί σακάκι", "η καλή σακάκι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-040",
+      "type": "single-choice",
+      "prompt": "кожаная куртка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μπουφάν\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το δερμάτινο μπουφάν",
+      "wrongAnswers": ["ο δερμάτινος μπουφάν", "η δερμάτινη μπουφάν", "οι δερμάτινοι μπουφάν"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-041",
+      "type": "single-choice",
+      "prompt": "любимые брюки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παντελόνι\nМножественное число: τα παντελόνια\n\nРод: средний",
+      "correctAnswer": "τα αγαπημένα παντελόνια",
+      "wrongAnswers": [
+        "ο αγαπημένος παντελόνια",
+        "η αγαπημένη παντελόνια",
+        "το αγαπημένο παντελόνια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-042",
+      "type": "single-choice",
+      "prompt": "новые шапки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σκουφί\nМножественное число: τα σκουφιά\n\nРод: средний",
+      "correctAnswer": "τα καινούρια σκουφιά",
+      "wrongAnswers": ["ο καινούριος σκουφιά", "οι καινούριοι σκουφιά", "οι καινούριες σκουφιά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-043",
+      "type": "single-choice",
+      "prompt": "полная сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η γεμάτη τσάντα",
+      "wrongAnswers": ["ο γεμάτος τσάντα", "οι γεμάτοι τσάντα", "οι γεμάτες τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-044",
+      "type": "single-choice",
+      "prompt": "дешёвая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η φθηνή τσάντα",
+      "wrongAnswers": ["ο φθηνός τσάντα", "οι φθηνοί τσάντα", "οι φθηνές τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-045",
+      "type": "single-choice",
+      "prompt": "новая рубашка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το πουκάμισο\nМножественное число: τα πουκάμισα\n\nРод: средний",
+      "correctAnswer": "το καινούριο πουκάμισο",
+      "wrongAnswers": ["ο καινούριος πουκάμισο", "οι καινούριοι πουκάμισο", "η καινούρια πουκάμισο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-046",
+      "type": "single-choice",
+      "prompt": "новая шляпа",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το καπέλο\nМножественное число: τα καπέλα\n\nРод: средний",
+      "correctAnswer": "το καινούριο καπέλο",
+      "wrongAnswers": ["ο καινούριος καπέλο", "οι καινούριοι καπέλο", "η καινούρια καπέλο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-047",
+      "type": "single-choice",
+      "prompt": "новое платье",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φόρεμα\nМножественное число: τα φορέματα\n\nРод: средний",
+      "correctAnswer": "το καινούριο φόρεμα",
+      "wrongAnswers": ["ο καινούριος φόρεμα", "οι καινούριοι φόρεμα", "η καινούρια φόρεμα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-048",
+      "type": "single-choice",
+      "prompt": "жёлтые блузки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "οι κίτρινες μπλούζες",
+      "wrongAnswers": ["ο κίτρινος μπλούζες", "οι κίτρινοι μπλούζες", "η κίτρινη μπλούζες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-049",
+      "type": "single-choice",
+      "prompt": "новая блузка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "η καινούρια μπλούζα",
+      "wrongAnswers": ["ο καινούριος μπλούζα", "οι καινούριοι μπλούζα", "οι καινούριες μπλούζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-050",
+      "type": "single-choice",
+      "prompt": "мои сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι δικές μου τσάντες",
+      "wrongAnswers": ["ο δικός μου τσάντες", "η δική μου τσάντες", "το δικό μου τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-051",
+      "type": "single-choice",
+      "prompt": "новые блузки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "οι καινούριες μπλούζες",
+      "wrongAnswers": ["ο καινούριος μπλούζες", "οι καινούριοι μπλούζες", "τα καινούρια μπλούζες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-052",
+      "type": "single-choice",
+      "prompt": "новые сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι νέες τσάντες",
+      "wrongAnswers": ["ο νέος τσάντες", "οι νέοι τσάντες", "τα νέα τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-053",
+      "type": "single-choice",
+      "prompt": "обычные спортивные костюмы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φόρμα\nМножественное число: οι φόρμες\n\nРод: женский",
+      "correctAnswer": "οι κανονικές φόρμες",
+      "wrongAnswers": ["ο κανονικός φόρμες", "οι κανονικοί φόρμες", "η κανονική φόρμες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-054",
+      "type": "single-choice",
+      "prompt": "удобные туфли",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παπούτσι\nМножественное число: τα παπούτσια\n\nРод: средний",
+      "correctAnswer": "τα άνετα παπούτσια",
+      "wrongAnswers": ["ο άνετος παπούτσια", "η άνετη παπούτσια", "το άνετο παπούτσια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-055",
+      "type": "single-choice",
+      "prompt": "любимая майка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φανέλα\nМножественное число: οι φανέλες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη φανέλα",
+      "wrongAnswers": ["ο αγαπημένος φανέλα", "το αγαπημένο φανέλα", "οι αγαπημένοι φανέλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-056",
+      "type": "single-choice",
+      "prompt": "солнечные очки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γυαλί\nМножественное число: τα γυαλιά\n\nРод: средний",
+      "correctAnswer": "τα ηλιακά γυαλιά",
+      "wrongAnswers": ["τα ηλιακός γυαλιά", "τα ηλιακή γυαλιά", "τα ηλιακό γυαλιά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-057",
+      "type": "single-choice",
+      "prompt": "чистые очки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γυαλί\nМножественное число: τα γυαλιά\n\nРод: средний",
+      "correctAnswer": "τα καθαρά γυαλιά",
+      "wrongAnswers": ["ο καθαρός γυαλιά", "οι καθαροί γυαλιά", "η καθαρή γυαλιά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-058",
+      "type": "single-choice",
+      "prompt": "новая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η καινούρια τσάντα",
+      "wrongAnswers": ["ο καινούριος τσάντα", "οι καινούριοι τσάντα", "οι καινούριες τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-059",
+      "type": "single-choice",
+      "prompt": "обычный спортивный костюм",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φόρμα\nМножественное число: οι φόρμες\n\nРод: женский",
+      "correctAnswer": "η κανονική φόρμα",
+      "wrongAnswers": ["ο κανονικός φόρμα", "οι κανονικοί φόρμα", "οι κανονικές φόρμα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-060",
+      "type": "single-choice",
+      "prompt": "новые очки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γυαλί\nМножественное число: τα γυαλιά\n\nРод: средний",
+      "correctAnswer": "τα καινούρια γυαλιά",
+      "wrongAnswers": ["ο καινούριος γυαλιά", "οι καινούριοι γυαλιά", "οι καινούριες γυαλιά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-061",
+      "type": "single-choice",
+      "prompt": "чужая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η ξένη τσάντα",
+      "wrongAnswers": ["ο ξένος τσάντα", "οι ξένοι τσάντα", "οι ξένες τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-062",
+      "type": "single-choice",
+      "prompt": "новые шляпы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το καπέλο\nМножественное число: τα καπέλα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια καπέλα",
+      "wrongAnswers": ["ο καινούριος καπέλα", "οι καινούριοι καπέλα", "οι καινούριες καπέλα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-063",
+      "type": "single-choice",
+      "prompt": "модный аксессуар",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το αξεσουάρ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το μοντέρνο αξεσουάρ",
+      "wrongAnswers": ["ο μοντέρνος αξεσουάρ", "οι μοντέρνοι αξεσουάρ", "η μοντέρνα αξεσουάρ"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-064",
+      "type": "single-choice",
+      "prompt": "тёплые шарфы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κασκόλ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα ζεστά κασκόλ",
+      "wrongAnswers": ["ο ζεστός κασκόλ", "οι ζεστοί κασκόλ", "η ζεστή κασκόλ"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-065",
+      "type": "single-choice",
+      "prompt": "детская одежда",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ρούχο\nМножественное число: τα ρούχα\n\nРод: средний",
+      "correctAnswer": "τα παιδικά ρούχα",
+      "wrongAnswers": ["ο παιδικός ρούχα", "οι παιδικοί ρούχα", "η παιδική ρούχα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-066",
+      "type": "single-choice",
+      "prompt": "красивая маска",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μάσκα\nМножественное число: οι μάσκες\n\nРод: женский",
+      "correctAnswer": "η όμορφη μάσκα",
+      "wrongAnswers": ["ο όμορφος μάσκα", "οι όμορφοι μάσκα", "οι όμορφες μάσκα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-067",
+      "type": "single-choice",
+      "prompt": "красивые маски",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μάσκα\nМножественное число: οι μάσκες\n\nРод: женский",
+      "correctAnswer": "οι όμορφες μάσκες",
+      "wrongAnswers": ["ο όμορφος μάσκες", "οι όμορφοι μάσκες", "η όμορφη μάσκες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-068",
+      "type": "single-choice",
+      "prompt": "широкая блузка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "η φαρδιά μπλούζα",
+      "wrongAnswers": ["ο φαρδύς μπλούζα", "οι φαρδιοί μπλούζα", "οι φαρδιές μπλούζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-069",
+      "type": "single-choice",
+      "prompt": "красивые украшения",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το κόσμημα\nМножественное число: τα κοσμήματα\n\nРод: средний",
+      "correctAnswer": "τα όμορφα κοσμήματα",
+      "wrongAnswers": ["ο όμορφος κοσμήματα", "οι όμορφοι κοσμήματα", "η όμορφη κοσμήματα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-070",
+      "type": "single-choice",
+      "prompt": "кожаные куртки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μπουφάν\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα δερμάτινα μπουφάν",
+      "wrongAnswers": ["ο δερμάτινος μπουφάν", "η δερμάτινη μπουφάν", "το δερμάτινο μπουφάν"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-071",
+      "type": "single-choice",
+      "prompt": "любимая галстук",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η γραβάτα\nМножественное число: οι γραβάτες\n\nРод: женский",
+      "correctAnswer": "η αγαπητή γραβάτα",
+      "wrongAnswers": ["ο αγαπητός γραβάτα", "οι αγαπητοί γραβάτα", "οι αγαπητές γραβάτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-072",
+      "type": "single-choice",
+      "prompt": "лёгкие сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι ελαφριές τσάντες",
+      "wrongAnswers": ["ο ελαφρύς τσάντες", "οι ελαφριοί τσάντες", "τα ελαφριά τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-073",
+      "type": "single-choice",
+      "prompt": "новая шапка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σκουφί\nМножественное число: τα σκουφιά\n\nРод: средний",
+      "correctAnswer": "το καινούριο σκουφί",
+      "wrongAnswers": ["ο καινούριος σκουφί", "οι καινούριοι σκουφί", "η καινούρια σκουφί"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-074",
+      "type": "single-choice",
+      "prompt": "любимые майки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φανέλα\nМножественное число: οι φανέλες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες φανέλες",
+      "wrongAnswers": ["ο αγαπημένος φανέλες", "η αγαπημένη φανέλες", "το αγαπημένο φανέλες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-075",
+      "type": "single-choice",
+      "prompt": "тёплое пальто",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παλτό\nМножественное число: τα παλτά\n\nРод: средний",
+      "correctAnswer": "το ζεστό παλτό",
+      "wrongAnswers": ["ο ζεστός παλτό", "οι ζεστοί παλτό", "η ζεστή παλτό"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-076",
+      "type": "single-choice",
+      "prompt": "чистые носки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κάλτσα\nМножественное число: οι κάλτσες\n\nРод: женский",
+      "correctAnswer": "οι καθαρές κάλτσες",
+      "wrongAnswers": ["ο καθαρός κάλτσες", "οι καθαροί κάλτσες", "η καθαρή κάλτσες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-077",
+      "type": "single-choice",
+      "prompt": "новая мода",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μόδα\nМножественное число: οι μόδες\n\nРод: женский",
+      "correctAnswer": "η νέα μόδα",
+      "wrongAnswers": ["ο νέος μόδα", "οι νέοι μόδα", "οι νέες μόδα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-078",
+      "type": "single-choice",
+      "prompt": "детские сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι παιδικές τσάντες",
+      "wrongAnswers": ["ο παιδικός τσάντες", "οι παιδικοί τσάντες", "η παιδική τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-079",
+      "type": "single-choice",
+      "prompt": "хорошие пиджаки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το σακάκι\nМножественное число: τα σακάκια\n\nРод: средний",
+      "correctAnswer": "τα καλά σακάκια",
+      "wrongAnswers": ["ο καλός σακάκια", "οι καλοί σακάκια", "η καλή σακάκια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-080",
+      "type": "single-choice",
+      "prompt": "цветная юбка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φούστα\nМножественное число: οι φούστες\n\nРод: женский",
+      "correctAnswer": "η χρωματιστή φούστα",
+      "wrongAnswers": ["ο χρωματιστός φούστα", "οι χρωματιστοί φούστα", "οι χρωματιστές φούστα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-081",
+      "type": "single-choice",
+      "prompt": "хороший купальник",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μαγιό\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το καλό μαγιό",
+      "wrongAnswers": ["ο καλός μαγιό", "οι καλοί μαγιό", "η καλή μαγιό"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-082",
+      "type": "single-choice",
+      "prompt": "белая блузка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "η άσπρη μπλούζα",
+      "wrongAnswers": ["ο άσπρος μπλούζα", "οι άσπροι μπλούζα", "οι άσπρες μπλούζα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-083",
+      "type": "single-choice",
+      "prompt": "лёгкое пальто",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παλτό\nМножественное число: τα παλτά\n\nРод: средний",
+      "correctAnswer": "το ελαφρύ παλτό",
+      "wrongAnswers": ["ο ελαφρύς παλτό", "οι ελαφριοί παλτό", "η ελαφριά παλτό"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-084",
+      "type": "single-choice",
+      "prompt": "зелёная сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η πράσινη τσάντα",
+      "wrongAnswers": ["ο πράσινος τσάντα", "οι πράσινοι τσάντα", "οι πράσινες τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-085",
+      "type": "single-choice",
+      "prompt": "белое свадебное платье",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το νυφικό\nМножественное число: τα νυφικά\n\nРод: средний",
+      "correctAnswer": "το λευκό νυφικό",
+      "wrongAnswers": ["ο λευκός νυφικό", "οι λευκοί νυφικό", "η λευκή νυφικό"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-086",
+      "type": "single-choice",
+      "prompt": "оранжевые блузки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "οι πορτοκαλιές μπλούζες",
+      "wrongAnswers": ["ο πορτοκαλής μπλούζες", "οι πορτοκαλιοί μπλούζες", "τα πορτοκαλιά μπλούζες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-087",
+      "type": "single-choice",
+      "prompt": "широкие блузки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η μπλούζα\nМножественное число: οι μπλούζες\n\nРод: женский",
+      "correctAnswer": "οι φαρδιές μπλούζες",
+      "wrongAnswers": ["ο φαρδύς μπλούζες", "οι φαρδιοί μπλούζες", "τα φαρδιά μπλούζες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-088",
+      "type": "single-choice",
+      "prompt": "красивые платья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φουστάνι\nМножественное число: τα φουστάνια\n\nРод: средний",
+      "correctAnswer": "τα ωραία φουστάνια",
+      "wrongAnswers": ["ο ωραίος φουστάνια", "οι ωραίοι φουστάνια", "οι ωραίες φουστάνια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-089",
+      "type": "single-choice",
+      "prompt": "кожаные сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι δερμάτινες τσάντες",
+      "wrongAnswers": ["ο δερμάτινος τσάντες", "η δερμάτινη τσάντες", "το δερμάτινο τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-090",
+      "type": "single-choice",
+      "prompt": "традиционные костюмы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φορεσιά\nМножественное число: οι φορεσιές\n\nРод: женский",
+      "correctAnswer": "οι παραδοσιακές φορεσιές",
+      "wrongAnswers": [
+        "ο παραδοσιακός φορεσιές",
+        "οι παραδοσιακοί φορεσιές",
+        "η παραδοσιακή φορεσιές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-091",
+      "type": "single-choice",
+      "prompt": "красивое платье",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φουστάνι\nМножественное число: τα φουστάνια\n\nРод: средний",
+      "correctAnswer": "το ωραίο φουστάνι",
+      "wrongAnswers": ["ο ωραίος φουστάνι", "οι ωραίοι φουστάνι", "η ωραία φουστάνι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-092",
+      "type": "single-choice",
+      "prompt": "новая одежда",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ρούχο\nМножественное число: τα ρούχα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια ρούχα",
+      "wrongAnswers": ["ο καινούριος ρούχα", "οι καινούριοι ρούχα", "οι καινούριες ρούχα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-093",
+      "type": "single-choice",
+      "prompt": "голубые платья",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φόρεμα\nМножественное число: τα φορέματα\n\nРод: средний",
+      "correctAnswer": "τα γαλανά φορέματα",
+      "wrongAnswers": ["ο γαλανός φορέματα", "οι γαλανοί φορέματα", "η γαλανή φορέματα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-094",
+      "type": "single-choice",
+      "prompt": "новая одежда",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το ρούχο\nМножественное число: τα ρούχα\n\nРод: средний",
+      "correctAnswer": "το καινούριο ρούχο",
+      "wrongAnswers": ["ο καινούριος ρούχο", "οι καινούριοι ρούχο", "η καινούρια ρούχο"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-095",
+      "type": "single-choice",
+      "prompt": "цветные юбки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φούστα\nМножественное число: οι φούστες\n\nРод: женский",
+      "correctAnswer": "οι χρωματιστές φούστες",
+      "wrongAnswers": ["ο χρωματιστός φούστες", "οι χρωματιστοί φούστες", "η χρωματιστή φούστες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-096",
+      "type": "single-choice",
+      "prompt": "красная сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η κόκκινη τσάντα",
+      "wrongAnswers": ["ο κόκκινος τσάντα", "οι κόκκινοι τσάντα", "οι κόκκινες τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-097",
+      "type": "single-choice",
+      "prompt": "синие джинсы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το τζιν\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το μπλε τζιν",
+      "wrongAnswers": ["ο μπλε τζιν", "η μπλε τζιν", "οι μπλε τζιν"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-098",
+      "type": "single-choice",
+      "prompt": "понтийские костюмы",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φορεσιά\nМножественное число: οι φορεσιές\n\nРод: женский",
+      "correctAnswer": "οι ποντιακές φορεσιές",
+      "wrongAnswers": ["ο ποντιακός φορεσιές", "η ποντιακή φορεσιές", "το ποντιακό φορεσιές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-099",
+      "type": "single-choice",
+      "prompt": "моя сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η δική μου τσάντα",
+      "wrongAnswers": ["ο δικός μου τσάντα", "το δικό μου τσάντα", "οι δικοί μου τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-100",
+      "type": "single-choice",
+      "prompt": "тяжёлая сумка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η βαριά τσάντα",
+      "wrongAnswers": ["ο βαρύς τσάντα", "το βαρύ τσάντα", "οι βαριοί τσάντα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-101",
+      "type": "single-choice",
+      "prompt": "чистый носок",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η κάλτσα\nМножественное число: οι κάλτσες\n\nРод: женский",
+      "correctAnswer": "η καθαρή κάλτσα",
+      "wrongAnswers": ["ο καθαρός κάλτσα", "οι καθαροί κάλτσα", "οι καθαρές κάλτσα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-102",
+      "type": "single-choice",
+      "prompt": "тёплые пальто",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παλτό\nМножественное число: τα παλτά\n\nРод: средний",
+      "correctAnswer": "τα ζεστά παλτά",
+      "wrongAnswers": ["ο ζεστός παλτά", "οι ζεστοί παλτά", "η ζεστή παλτά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-103",
+      "type": "single-choice",
+      "prompt": "новая юбка",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η φούστα\nМножественное число: οι φούστες\n\nРод: женский",
+      "correctAnswer": "η καινούρια φούστα",
+      "wrongAnswers": ["ο καινούριος φούστα", "οι καινούριοι φούστα", "οι καινούριες φούστα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-104",
+      "type": "single-choice",
+      "prompt": "голубое платье",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το φόρεμα\nМножественное число: τα φορέματα\n\nРод: средний",
+      "correctAnswer": "το γαλανό φόρεμα",
+      "wrongAnswers": ["ο γαλανός φόρεμα", "οι γαλανοί φόρεμα", "η γαλανή φόρεμα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-105",
+      "type": "single-choice",
+      "prompt": "женские передники",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η ποδιά\nМножественное число: οι ποδιές\n\nРод: женский",
+      "correctAnswer": "οι γυναικείες ποδιές",
+      "wrongAnswers": ["ο γυναικείος ποδιές", "οι γυναικείοι ποδιές", "τα γυναικεία ποδιές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-106",
+      "type": "single-choice",
+      "prompt": "пустые сумки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι άδειες τσάντες",
+      "wrongAnswers": ["ο άδειος τσάντες", "οι άδειοι τσάντες", "τα άδεια τσάντες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-107",
+      "type": "single-choice",
+      "prompt": "лёгкие пальто",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το παλτό\nМножественное число: τα παλτά\n\nРод: средний",
+      "correctAnswer": "τα ελαφριά παλτά",
+      "wrongAnswers": ["ο ελαφρύς παλτά", "οι ελαφριοί παλτά", "οι ελαφριές παλτά"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-108",
+      "type": "single-choice",
+      "prompt": "новые солнечные очки",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το γυαλί\nМножественное число: τα γυαλιά\n\nРод: средний",
+      "correctAnswer": "τα καινούρια γυαλιά ηλίου",
+      "wrongAnswers": [
+        "ο καινούριος γυαλιά ηλίου",
+        "οι καινούριοι γυαλιά ηλίου",
+        "οι καινούριες γυαλιά ηλίου"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-clothes-accessories-109",
+      "type": "single-choice",
+      "prompt": "хорошие купальники",
+      "promptLanguage": "ru",
+      "hint": "Единственное число: το μαγιό\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα καλά μαγιό",
+      "wrongAnswers": ["ο καλός μαγιό", "οι καλοί μαγιό", "η καλή μαγιό"]
+    }
+  ]
+}

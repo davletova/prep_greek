@@ -1,0 +1,38 @@
+[
+  {
+    "id": "nouns-adjectives-everyday-life-clothes-accessories",
+    "title": "Одежда и аксессуары",
+    "subtitle": "Согласуйте названия одежды и аксессуаров с прилагательными",
+    "fileName": "clothes-accessories.json"
+  },
+  {
+    "id": "nouns-adjectives-everyday-life-documents-services",
+    "title": "Документы и услуги",
+    "subtitle": "Практикуйте согласование в лексике документов и услуг",
+    "fileName": "documents-services.json"
+  },
+  {
+    "id": "nouns-adjectives-everyday-life-furniture-household",
+    "title": "Мебель, домашние предметы и быт",
+    "subtitle": "Выберите правильные формы слов о мебели и домашнем быте",
+    "fileName": "furniture-household.json"
+  },
+  {
+    "id": "nouns-adjectives-everyday-life-home-rooms-buildings",
+    "title": "Дом, комнаты и здания",
+    "subtitle": "Закрепите род и число в названиях помещений и зданий",
+    "fileName": "home-rooms-buildings.json"
+  },
+  {
+    "id": "nouns-adjectives-everyday-life-money-banks-prices",
+    "title": "Деньги, банки и цены",
+    "subtitle": "Практикуйте формы слов в финансовой и ценовой лексике",
+    "fileName": "money-banks-prices.json"
+  },
+  {
+    "id": "nouns-adjectives-everyday-life-shops-goods-shopping",
+    "title": "Магазины, товары и покупки",
+    "subtitle": "Согласуйте существительные и прилагательные в лексике покупок",
+    "fileName": "shops-goods-shopping.json"
+  }
+]

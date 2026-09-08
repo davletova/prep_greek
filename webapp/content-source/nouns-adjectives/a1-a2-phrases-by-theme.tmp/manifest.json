@@ -1,0 +1,310 @@
+{
+  "source": "webapp/content-source/nouns-adjectives/a1-a2-phrases.tmp.txt",
+  "remainingCopy": "webapp/content-source/nouns-adjectives/a1-a2-phrases-unassigned.tmp.txt",
+  "total": 3884,
+  "assigned": 3884,
+  "unassigned": 0,
+  "subtopics": [
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "age-life-stages",
+      "title": "Возраст и этапы жизни",
+      "count": 96
+    },
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "body-health-medicine",
+      "title": "Тело, здоровье и медицина",
+      "count": 116
+    },
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "character-behavior",
+      "title": "Характер и поведение",
+      "count": 72
+    },
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "emotions-states",
+      "title": "Эмоции и состояния",
+      "count": 48
+    },
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "family-relatives",
+      "title": "Семья и родственники",
+      "count": 87
+    },
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "friends-relationships",
+      "title": "Друзья и отношения",
+      "count": 93
+    },
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "people-general-appearance",
+      "title": "Люди и внешность",
+      "count": 147
+    },
+    {
+      "theme": "01-people",
+      "themeTitle": "Люди",
+      "id": "professions-work",
+      "title": "Профессии и работа",
+      "count": 157
+    },
+    {
+      "theme": "02-everyday-life",
+      "themeTitle": "Повседневная жизнь",
+      "id": "clothes-accessories",
+      "title": "Одежда и аксессуары",
+      "count": 109
+    },
+    {
+      "theme": "02-everyday-life",
+      "themeTitle": "Повседневная жизнь",
+      "id": "documents-services",
+      "title": "Документы и услуги",
+      "count": 65
+    },
+    {
+      "theme": "02-everyday-life",
+      "themeTitle": "Повседневная жизнь",
+      "id": "furniture-household",
+      "title": "Мебель, домашние предметы и быт",
+      "count": 126
+    },
+    {
+      "theme": "02-everyday-life",
+      "themeTitle": "Повседневная жизнь",
+      "id": "home-rooms-buildings",
+      "title": "Дом, комнаты и здания",
+      "count": 157
+    },
+    {
+      "theme": "02-everyday-life",
+      "themeTitle": "Повседневная жизнь",
+      "id": "money-banks-prices",
+      "title": "Деньги, банки и цены",
+      "count": 51
+    },
+    {
+      "theme": "02-everyday-life",
+      "themeTitle": "Повседневная жизнь",
+      "id": "shops-goods-shopping",
+      "title": "Магазины, товары и покупки",
+      "count": 56
+    },
+    {
+      "theme": "03-food",
+      "themeTitle": "Еда",
+      "id": "dishes-cooking",
+      "title": "Блюда и приготовление пищи",
+      "count": 46
+    },
+    {
+      "theme": "03-food",
+      "themeTitle": "Еда",
+      "id": "drinks-cafes-restaurants",
+      "title": "Напитки, кафе и рестораны",
+      "count": 65
+    },
+    {
+      "theme": "03-food",
+      "themeTitle": "Еда",
+      "id": "fruit-vegetables-plants-food",
+      "title": "Овощи, фрукты и растительные продукты",
+      "count": 84
+    },
+    {
+      "theme": "03-food",
+      "themeTitle": "Еда",
+      "id": "other-food-products-ingredients",
+      "title": "Другие продукты и ингредиенты",
+      "count": 139
+    },
+    {
+      "theme": "04-education-communication",
+      "themeTitle": "Учёба и коммуникация",
+      "id": "books-writing-print",
+      "title": "Книги, письмо и печатные материалы",
+      "count": 150
+    },
+    {
+      "theme": "04-education-communication",
+      "themeTitle": "Учёба и коммуникация",
+      "id": "languages-grammar",
+      "title": "Языки, слова и грамматика",
+      "count": 108
+    },
+    {
+      "theme": "04-education-communication",
+      "themeTitle": "Учёба и коммуникация",
+      "id": "lessons-exercises-learning",
+      "title": "Учёба, уроки и задания",
+      "count": 90
+    },
+    {
+      "theme": "04-education-communication",
+      "themeTitle": "Учёба и коммуникация",
+      "id": "school-people-places",
+      "title": "Люди и места образования",
+      "count": 137
+    },
+    {
+      "theme": "04-education-communication",
+      "themeTitle": "Учёба и коммуникация",
+      "id": "technology-media-communication",
+      "title": "Технологии, медиа и связь",
+      "count": 71
+    },
+    {
+      "theme": "05-city-travel",
+      "themeTitle": "Город и путешествия",
+      "id": "city-places-institutions",
+      "title": "Городские места и учреждения",
+      "count": 75
+    },
+    {
+      "theme": "05-city-travel",
+      "themeTitle": "Город и путешествия",
+      "id": "nationalities-regions-cultures",
+      "title": "Национальности, регионы и культуры",
+      "count": 128
+    },
+    {
+      "theme": "05-city-travel",
+      "themeTitle": "Город и путешествия",
+      "id": "roads-transport",
+      "title": "Дороги и транспорт",
+      "count": 102
+    },
+    {
+      "theme": "05-city-travel",
+      "themeTitle": "Город и путешествия",
+      "id": "travel-tourism-accommodation",
+      "title": "Путешествия, туризм и проживание",
+      "count": 55
+    },
+    {
+      "theme": "06-nature",
+      "themeTitle": "Природа",
+      "id": "animals",
+      "title": "Животные",
+      "count": 73
+    },
+    {
+      "theme": "06-nature",
+      "themeTitle": "Природа",
+      "id": "nature-landscape-environment",
+      "title": "Природа, ландшафт и окружающая среда",
+      "count": 87
+    },
+    {
+      "theme": "06-nature",
+      "themeTitle": "Природа",
+      "id": "plants-agriculture",
+      "title": "Растения и сельское хозяйство",
+      "count": 46
+    },
+    {
+      "theme": "06-nature",
+      "themeTitle": "Природа",
+      "id": "weather-seasons",
+      "title": "Погода и времена года",
+      "count": 58
+    },
+    {
+      "theme": "07-time-leisure",
+      "themeTitle": "Время и досуг",
+      "id": "holidays-social-events",
+      "title": "Праздники и общественные события",
+      "count": 39
+    },
+    {
+      "theme": "07-time-leisure",
+      "themeTitle": "Время и досуг",
+      "id": "leisure-games-hobbies",
+      "title": "Отдых, игры и увлечения",
+      "count": 39
+    },
+    {
+      "theme": "07-time-leisure",
+      "themeTitle": "Время и досуг",
+      "id": "music-theatre-cinema",
+      "title": "Музыка, театр и кино",
+      "count": 124
+    },
+    {
+      "theme": "07-time-leisure",
+      "themeTitle": "Время и досуг",
+      "id": "sports-activity",
+      "title": "Спорт и физическая активность",
+      "count": 46
+    },
+    {
+      "theme": "07-time-leisure",
+      "themeTitle": "Время и досуг",
+      "id": "time-calendar",
+      "title": "Время и календарь",
+      "count": 134
+    },
+    {
+      "theme": "08-general",
+      "themeTitle": "Общие понятия",
+      "id": "ideas-decisions-results",
+      "title": "Идеи, решения и результаты",
+      "count": 133
+    },
+    {
+      "theme": "08-general",
+      "themeTitle": "Общие понятия",
+      "id": "materials-colors-shapes",
+      "title": "Материалы, цвета и формы",
+      "count": 58
+    },
+    {
+      "theme": "08-general",
+      "themeTitle": "Общие понятия",
+      "id": "numbers-order-sequence",
+      "title": "Числа, порядок и последовательность",
+      "count": 59
+    },
+    {
+      "theme": "08-general",
+      "themeTitle": "Общие понятия",
+      "id": "objects-tools",
+      "title": "Предметы и инструменты",
+      "count": 106
+    },
+    {
+      "theme": "08-general",
+      "themeTitle": "Общие понятия",
+      "id": "qualities-states-concepts",
+      "title": "Качества, состояния и понятия",
+      "count": 138
+    },
+    {
+      "theme": "08-general",
+      "themeTitle": "Общие понятия",
+      "id": "quantity-size-measurement",
+      "title": "Количество, размеры и измерения",
+      "count": 71
+    },
+    {
+      "theme": "08-general",
+      "themeTitle": "Общие понятия",
+      "id": "society-government-rules",
+      "title": "Общество, государство и правила",
+      "count": 43
+    }
+  ]
+}

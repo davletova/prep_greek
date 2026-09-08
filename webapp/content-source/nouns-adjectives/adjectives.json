@@ -473,5 +473,43 @@
         "plural": "παραδοσιακά"
       }
     }
+  },
+  {
+    "id": "red",
+    "lemma": "κόκκινος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "κόκκινος",
+        "plural": "κόκκινοι"
+      },
+      "feminine": {
+        "singular": "κόκκινη",
+        "plural": "κόκκινες"
+      },
+      "neuter": {
+        "singular": "κόκκινο",
+        "plural": "κόκκινα"
+      }
+    }
+  },
+  {
+    "id": "black",
+    "lemma": "μαύρος",
+    "construction": "article-adjective",
+    "forms": {
+      "masculine": {
+        "singular": "μαύρος",
+        "plural": "μαύροι"
+      },
+      "feminine": {
+        "singular": "μαύρη",
+        "plural": "μαύρες"
+      },
+      "neuter": {
+        "singular": "μαύρο",
+        "plural": "μαύρα"
+      }
+    }
   }
 ]

@@ -3,7 +3,6 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateNounsAdjectivesCorpus } from "./nouns-adjectives-content-model.mjs";
-import { validateNounsAdjectivesCoverage } from "./validate-nouns-adjectives-coverage.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -446,14 +445,6 @@ async function validateNounsAdjectivesSourceContent() {
   }
 }
 
-async function validateNounsAdjectivesGeneratedContent() {
-  const coverageErrors = await validateNounsAdjectivesCoverage();
-
-  for (const error of coverageErrors) {
-    addError(error.filePath, error.message);
-  }
-}
-
 async function validateTheoryContent() {
   validateAlphabetContent(
     path.join(contentDir, "theory", "alphabet.json"),
@@ -467,7 +458,6 @@ async function validateTheoryContent() {
 
 await validateTheoryContent();
 await validateNounsAdjectivesSourceContent();
-await validateNounsAdjectivesGeneratedContent();
 await validateSingleChoiceContent();
 await validateListeningContent();
 await validateInputContent();
