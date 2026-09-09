@@ -8,14 +8,6 @@ import { validateNounsAdjectivesCoverage } from "./validate-nouns-adjectives-cov
 
 const webappRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDir = path.join(webappRoot, "content-source", "nouns-adjectives");
-const outputDir = path.join(
-  webappRoot,
-  "public",
-  "content",
-  "practice",
-  "single_choice",
-  "nouns-adjectives"
-);
 const temporaryDirectories = [];
 
 afterEach(async () => {
@@ -28,7 +20,13 @@ afterEach(async () => {
 
 describe("nouns and adjectives coverage", () => {
   it("validates complete source and generated content", async () => {
-    await expect(validateNounsAdjectivesCoverage({ sourceDir, outputDir })).resolves.toEqual([]);
+    const temporaryOutputDir = await mkdtemp(path.join(os.tmpdir(), "nouns-adjectives-generated-"));
+    temporaryDirectories.push(temporaryOutputDir);
+    await generateNounsAdjectivesContent({ sourceDir, outputDir: temporaryOutputDir });
+
+    await expect(
+      validateNounsAdjectivesCoverage({ sourceDir, outputDir: temporaryOutputDir })
+    ).resolves.toEqual([]);
   });
 
   it("reports an adjective form missing from natural pairings", async () => {
