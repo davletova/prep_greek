@@ -5,6 +5,8 @@ import type { SingleChoiceRuntimeQuestion } from "../types/exercises.ts";
 
 interface SingleChoiceExerciseCardProps {
   question: SingleChoiceRuntimeQuestion;
+  currentPosition: number;
+  totalQuestions: number;
   hasAnswered: boolean;
   showTranslationHint: boolean;
   isPromptSpeaking: boolean;
@@ -17,6 +19,8 @@ interface SingleChoiceExerciseCardProps {
 
 export default function SingleChoiceExerciseCard({
   question,
+  currentPosition,
+  totalQuestions,
   hasAnswered,
   showTranslationHint,
   isPromptSpeaking,
@@ -38,6 +42,13 @@ export default function SingleChoiceExerciseCard({
 
   return (
     <section className="practice-card">
+      <span
+        className="practice-card__progress"
+        aria-label={`Вопрос ${currentPosition} из ${totalQuestions}`}
+      >
+        {currentPosition} / {totalQuestions}
+      </span>
+
       {hint ? (
         <button
           className="practice-card__hint-button"
