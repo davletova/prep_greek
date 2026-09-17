@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-001",
       "type": "single-choice",
       "prompt": "отдельный экземпляр",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αντίτυπο\nМножественное число: τα αντίτυπα\n\nРод: средний",
       "correctAnswer": "το ξεχωριστό αντίτυπο",
       "wrongAnswers": ["ο ξεχωριστός αντίτυπο", "οι ξεχωριστοί αντίτυπο", "η ξεχωριστή αντίτυπο"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-002",
       "type": "single-choice",
       "prompt": "подчёркнутые слова",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η λέξη\nМножественное число: οι λέξεις\n\nРод: женский",
       "correctAnswer": "οι υπογραμμισμένες λέξεις",
       "wrongAnswers": [
@@ -28,7 +28,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-003",
       "type": "single-choice",
       "prompt": "новые журналы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το περιοδικό\nМножественное число: τα περιοδικά\n\nРод: средний",
       "correctAnswer": "τα καινούρια περιοδικά",
       "wrongAnswers": [
@@ -41,7 +41,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-004",
       "type": "single-choice",
       "prompt": "важная страница",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σελίδα\nМножественное число: οι σελίδες\n\nРод: женский",
       "correctAnswer": "η σημαντική σελίδα",
       "wrongAnswers": ["ο σημαντικός σελίδα", "οι σημαντικοί σελίδα", "οι σημαντικές σελίδα"]
@@ -50,7 +50,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-005",
       "type": "single-choice",
       "prompt": "маленький эскиз",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σκίτσο\nМножественное число: τα σκίτσα\n\nРод: средний",
       "correctAnswer": "το μικρό σκίτσο",
       "wrongAnswers": ["ο μικρός σκίτσο", "οι μικροί σκίτσο", "η μικρή σκίτσο"]
@@ -59,7 +59,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-006",
       "type": "single-choice",
       "prompt": "краткая заметка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημείωση\nМножественное число: οι σημειώσεις\n\nРод: женский",
       "correctAnswer": "η σύντομη σημείωση",
       "wrongAnswers": ["ο σύντομος σημείωση", "οι σύντομοι σημείωση", "οι σύντομες σημείωση"]
@@ -68,7 +68,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-007",
       "type": "single-choice",
       "prompt": "хороший документальный фильм",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ντοκιμαντέρ\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "το καλό ντοκιμαντέρ",
       "wrongAnswers": ["ο καλός ντοκιμαντέρ", "οι καλοί ντοκιμαντέρ", "η καλή ντοκιμαντέρ"]
@@ -77,7 +77,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-008",
       "type": "single-choice",
       "prompt": "важные заголовки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τίτλος\nМножественное число: οι τίτλοι\n\nРод: мужской",
       "correctAnswer": "οι σημαντικοί τίτλοι",
       "wrongAnswers": ["ο σημαντικός τίτλοι", "η σημαντική τίτλοι", "οι σημαντικές τίτλοι"]
@@ -86,7 +86,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-009",
       "type": "single-choice",
       "prompt": "американские книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα αμερικανικά βιβλία",
       "wrongAnswers": ["ο αμερικανικός βιβλία", "οι αμερικανικοί βιβλία", "η αμερικανική βιβλία"]
@@ -95,7 +95,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-010",
       "type": "single-choice",
       "prompt": "известные имена",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το όνομα\nМножественное число: τα ονόματα\n\nРод: средний",
       "correctAnswer": "τα γνωστά ονόματα",
       "wrongAnswers": ["ο γνωστός ονόματα", "οι γνωστοί ονόματα", "η γνωστή ονόματα"]
@@ -104,7 +104,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-011",
       "type": "single-choice",
       "prompt": "французские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι γαλλικοί χάρτες",
       "wrongAnswers": ["ο γαλλικός χάρτες", "η γαλλική χάρτες", "οι γαλλικές χάρτες"]
@@ -113,7 +113,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-012",
       "type": "single-choice",
       "prompt": "классические древности",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αρχαιότητα\nМножественное число: οι αρχαιότητες\n\nРод: женский",
       "correctAnswer": "οι κλασικές αρχαιότητες",
       "wrongAnswers": ["ο κλασικός αρχαιότητες", "οι κλασικοί αρχαιότητες", "η κλασική αρχαιότητες"]
@@ -122,7 +122,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-013",
       "type": "single-choice",
       "prompt": "красивые сказки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παραμύθι\nМножественное число: τα παραμύθια\n\nРод: средний",
       "correctAnswer": "τα ωραία παραμύθια",
       "wrongAnswers": ["ο ωραίος παραμύθια", "οι ωραίοι παραμύθια", "οι ωραίες παραμύθια"]
@@ -131,7 +131,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-014",
       "type": "single-choice",
       "prompt": "греческая карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο ελληνικός χάρτης",
       "wrongAnswers": ["οι ελληνικοί χάρτης", "η ελληνική χάρτης", "οι ελληνικές χάρτης"]
@@ -140,7 +140,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-015",
       "type": "single-choice",
       "prompt": "африканские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι αφρικανικοί χάρτες",
       "wrongAnswers": ["ο αφρικανικός χάρτες", "η αφρικανική χάρτες", "οι αφρικανικές χάρτες"]
@@ -149,7 +149,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-016",
       "type": "single-choice",
       "prompt": "полезные путеводители",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο οδηγός\nМножественное число: οι οδηγοί\n\nРод: мужской",
       "correctAnswer": "οι χρήσιμοι οδηγοί",
       "wrongAnswers": ["ο χρήσιμος οδηγοί", "η χρήσιμη οδηγοί", "το χρήσιμο οδηγοί"]
@@ -158,7 +158,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-017",
       "type": "single-choice",
       "prompt": "болгарская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο βουλγαρικός χάρτης",
       "wrongAnswers": ["οι βουλγαρικοί χάρτης", "η βουλγαρική χάρτης", "οι βουλγαρικές χάρτης"]
@@ -167,7 +167,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-018",
       "type": "single-choice",
       "prompt": "тяжёлые книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα βαριά βιβλία",
       "wrongAnswers": ["ο βαρύς βιβλία", "το βαρύ βιβλία", "οι βαριοί βιβλία"]
@@ -176,7 +176,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-019",
       "type": "single-choice",
       "prompt": "подчёркнутый текст",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κείμενο\nМножественное число: τα κείμενα\n\nРод: средний",
       "correctAnswer": "το υπογραμμισμένο κείμενο",
       "wrongAnswers": [
@@ -189,7 +189,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-020",
       "type": "single-choice",
       "prompt": "краткие заметки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημείωση\nМножественное число: οι σημειώσεις\n\nРод: женский",
       "correctAnswer": "οι σύντομες σημειώσεις",
       "wrongAnswers": ["ο σύντομος σημειώσεις", "οι σύντομοι σημειώσεις", "η σύντομη σημειώσεις"]
@@ -198,7 +198,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-021",
       "type": "single-choice",
       "prompt": "французские книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα γαλλικά βιβλία",
       "wrongAnswers": ["ο γαλλικός βιβλία", "οι γαλλικοί βιβλία", "η γαλλική βιβλία"]
@@ -207,7 +207,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-022",
       "type": "single-choice",
       "prompt": "быстрое чтение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ανάγνωση\nМножественное число: οι αναγνώσεις\n\nРод: женский",
       "correctAnswer": "η γρήγορη ανάγνωση",
       "wrongAnswers": ["ο γρήγορος ανάγνωση", "οι γρήγοροι ανάγνωση", "οι γρήγορες ανάγνωση"]
@@ -216,7 +216,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-023",
       "type": "single-choice",
       "prompt": "русская книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το ρωσικό βιβλίο",
       "wrongAnswers": ["ο ρωσικός βιβλίο", "η ρωσική βιβλίο", "οι ρωσικοί βιβλίο"]
@@ -225,7 +225,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-024",
       "type": "single-choice",
       "prompt": "большие тома",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τόμος\nМножественное число: οι τόμοι\n\nРод: мужской",
       "correctAnswer": "οι μεγάλοι τόμοι",
       "wrongAnswers": ["ο μεγάλος τόμοι", "η μεγάλη τόμοι", "οι μεγάλες τόμοι"]
@@ -234,7 +234,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-025",
       "type": "single-choice",
       "prompt": "свежие статьи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το άρθρο\nМножественное число: τα άρθρα\n\nРод: средний",
       "correctAnswer": "τα φρέσκα άρθρα",
       "wrongAnswers": ["ο φρέσκος άρθρα", "οι φρέσκοι άρθρα", "η φρέσκια άρθρα"]
@@ -243,7 +243,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-026",
       "type": "single-choice",
       "prompt": "много книг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα πολλά βιβλία",
       "wrongAnswers": ["ο πολύς βιβλία", "η πολλή βιβλία", "το πολύ βιβλία"]
@@ -252,7 +252,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-027",
       "type": "single-choice",
       "prompt": "любимая книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το αγαπημένο βιβλίο",
       "wrongAnswers": ["ο αγαπημένος βιβλίο", "η αγαπημένη βιβλίο", "οι αγαπημένοι βιβλίο"]
@@ -261,7 +261,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-028",
       "type": "single-choice",
       "prompt": "любимый автор",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο συγγραφέας\nМножественное число: οι συγγραφείς\n\nРод: мужской",
       "correctAnswer": "ο αγαπημένος συγγραφέας",
       "wrongAnswers": [
@@ -274,7 +274,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-029",
       "type": "single-choice",
       "prompt": "хорошие чтения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το διάβασμα\nМножественное число: τα διαβάσματα\n\nРод: средний",
       "correctAnswer": "τα καλά διαβάσματα",
       "wrongAnswers": ["ο καλός διαβάσματα", "οι καλοί διαβάσματα", "η καλή διαβάσματα"]
@@ -283,7 +283,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-030",
       "type": "single-choice",
       "prompt": "важные замечания",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παρατήρηση\nМножественное число: οι παρατηρήσεις\n\nРод: женский",
       "correctAnswer": "οι σημαντικές παρατηρήσεις",
       "wrongAnswers": [
@@ -296,7 +296,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-031",
       "type": "single-choice",
       "prompt": "известная пословица",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παροιμία\nМножественное число: οι παροιμίες\n\nРод: женский",
       "correctAnswer": "η γνωστή παροιμία",
       "wrongAnswers": ["ο γνωστός παροιμία", "οι γνωστοί παροιμία", "οι γνωστές παροιμία"]
@@ -305,7 +305,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-032",
       "type": "single-choice",
       "prompt": "хорошие продолжения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συνέχεια\nМножественное число: οι συνέχειες\n\nРод: женский",
       "correctAnswer": "οι καλές συνέχειες",
       "wrongAnswers": ["ο καλός συνέχειες", "οι καλοί συνέχειες", "η καλή συνέχειες"]
@@ -314,7 +314,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-033",
       "type": "single-choice",
       "prompt": "финские книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα φινλανδικά βιβλία",
       "wrongAnswers": ["ο φινλανδικός βιβλία", "οι φινλανδικοί βιβλία", "η φινλανδική βιβλία"]
@@ -323,7 +323,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-034",
       "type": "single-choice",
       "prompt": "короткое сообщение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "το σύντομο μήνυμα",
       "wrongAnswers": ["ο σύντομος μήνυμα", "οι σύντομοι μήνυμα", "η σύντομη μήνυμα"]
@@ -332,7 +332,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-035",
       "type": "single-choice",
       "prompt": "французская книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το γαλλικό βιβλίο",
       "wrongAnswers": ["ο γαλλικός βιβλίο", "οι γαλλικοί βιβλίο", "η γαλλική βιβλίο"]
@@ -341,7 +341,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-036",
       "type": "single-choice",
       "prompt": "хорошие сценарии",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σενάριο\nМножественное число: τα σενάρια\n\nРод: средний",
       "correctAnswer": "τα καλά σενάρια",
       "wrongAnswers": ["ο καλός σενάρια", "οι καλοί σενάρια", "η καλή σενάρια"]
@@ -350,7 +350,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-037",
       "type": "single-choice",
       "prompt": "немецкие книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα γερμανικά βιβλία",
       "wrongAnswers": ["ο γερμανικός βιβλία", "οι γερμανικοί βιβλία", "η γερμανική βιβλία"]
@@ -359,7 +359,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-038",
       "type": "single-choice",
       "prompt": "быстрые чтения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ανάγνωση\nМножественное число: οι αναγνώσεις\n\nРод: женский",
       "correctAnswer": "οι γρήγορες αναγνώσεις",
       "wrongAnswers": ["ο γρήγορος αναγνώσεις", "οι γρήγοροι αναγνώσεις", "η γρήγορη αναγνώσεις"]
@@ -368,7 +368,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-039",
       "type": "single-choice",
       "prompt": "тонкие бумаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χαρτί\nМножественное число: τα χαρτιά\n\nРод: средний",
       "correctAnswer": "τα λεπτά χαρτιά",
       "wrongAnswers": ["ο λεπτός χαρτιά", "οι λεπτοί χαρτιά", "η λεπτή χαρτιά"]
@@ -377,7 +377,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-040",
       "type": "single-choice",
       "prompt": "священная книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το ιερό βιβλίο",
       "wrongAnswers": ["ο ιερός βιβλίο", "οι ιεροί βιβλίο", "η ιερή βιβλίο"]
@@ -386,7 +386,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-041",
       "type": "single-choice",
       "prompt": "корейская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο κορεατικός χάρτης",
       "wrongAnswers": ["η κορεατική χάρτης", "το κορεατικό χάρτης", "οι κορεατικοί χάρτης"]
@@ -395,7 +395,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-042",
       "type": "single-choice",
       "prompt": "европейская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο ευρωπαϊκός χάρτης",
       "wrongAnswers": ["οι ευρωπαϊκοί χάρτης", "η ευρωπαϊκή χάρτης", "οι ευρωπαϊκές χάρτης"]
@@ -404,7 +404,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-043",
       "type": "single-choice",
       "prompt": "известное имя",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το όνομα\nМножественное число: τα ονόματα\n\nРод: средний",
       "correctAnswer": "το γνωστό όνομα",
       "wrongAnswers": ["ο γνωστός όνομα", "οι γνωστοί όνομα", "η γνωστή όνομα"]
@@ -413,7 +413,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-044",
       "type": "single-choice",
       "prompt": "маленькие словари",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λεξικό\nМножественное число: τα λεξικά\n\nРод: средний",
       "correctAnswer": "τα μικρά λεξικά",
       "wrongAnswers": ["ο μικρός λεξικά", "οι μικροί λεξικά", "η μικρή λεξικά"]
@@ -422,7 +422,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-045",
       "type": "single-choice",
       "prompt": "классическая книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το κλασικό βιβλίο",
       "wrongAnswers": ["ο κλασικός βιβλίο", "οι κλασικοί βιβλίο", "η κλασική βιβλίο"]
@@ -431,7 +431,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-046",
       "type": "single-choice",
       "prompt": "немецкие карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι γερμανικοί χάρτες",
       "wrongAnswers": ["ο γερμανικός χάρτες", "η γερμανική χάρτες", "οι γερμανικές χάρτες"]
@@ -440,7 +440,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-047",
       "type": "single-choice",
       "prompt": "хорошие списки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η λίστα\nМножественное число: οι λίστες\n\nРод: женский",
       "correctAnswer": "οι καλές λίστες",
       "wrongAnswers": ["ο καλός λίστες", "οι καλοί λίστες", "η καλή λίστες"]
@@ -449,7 +449,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-048",
       "type": "single-choice",
       "prompt": "большая библиотека",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η βιβλιοθήκη\nМножественное число: οι βιβλιοθήκες\n\nРод: женский",
       "correctAnswer": "η μεγάλη βιβλιοθήκη",
       "wrongAnswers": ["ο μεγάλος βιβλιοθήκη", "οι μεγάλοι βιβλιοθήκη", "οι μεγάλες βιβλιοθήκη"]
@@ -458,7 +458,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-049",
       "type": "single-choice",
       "prompt": "большие плакаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αφίσα\nМножественное число: οι αφίσες\n\nРод: женский",
       "correctAnswer": "οι μεγάλες αφίσες",
       "wrongAnswers": ["ο μεγάλος αφίσες", "οι μεγάλοι αφίσες", "η μεγάλη αφίσες"]
@@ -467,7 +467,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-050",
       "type": "single-choice",
       "prompt": "греческая поэзия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ποίηση\nМножественное число: οι None\n\nРод: женский",
       "correctAnswer": "η ελληνική ποίηση",
       "wrongAnswers": ["ο ελληνικός ποίηση", "οι ελληνικοί ποίηση", "οι ελληνικές ποίηση"]
@@ -476,7 +476,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-051",
       "type": "single-choice",
       "prompt": "американская книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το αμερικανικό βιβλίο",
       "wrongAnswers": ["ο αμερικανικός βιβλίο", "οι αμερικανικοί βιβλίο", "η αμερικανική βιβλίο"]
@@ -485,7 +485,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-052",
       "type": "single-choice",
       "prompt": "театральные писатели",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο συγγραφέας\nМножественное число: οι συγγραφείς\n\nРод: мужской",
       "correctAnswer": "οι θεατρικοί συγγραφείς",
       "wrongAnswers": ["ο θεατρικός συγγραφείς", "η θεατρική συγγραφείς", "οι θεατρικές συγγραφείς"]
@@ -494,7 +494,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-053",
       "type": "single-choice",
       "prompt": "письменное сообщение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "το γραπτό μήνυμα",
       "wrongAnswers": ["ο γραπτός μήνυμα", "οι γραπτοί μήνυμα", "η γραπτή μήνυμα"]
@@ -503,7 +503,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-054",
       "type": "single-choice",
       "prompt": "цветная брошюра",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φυλλάδιο\nМножественное число: τα φυλλάδια\n\nРод: средний",
       "correctAnswer": "το χρωματιστό φυλλάδιο",
       "wrongAnswers": ["ο χρωματιστός φυλλάδιο", "οι χρωματιστοί φυλλάδιο", "η χρωματιστή φυλλάδιο"]
@@ -512,7 +512,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-055",
       "type": "single-choice",
       "prompt": "подчёркнутый заголовок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τίτλος\nМножественное число: οι τίτλοι\n\nРод: мужской",
       "correctAnswer": "ο υπογραμμισμένος τίτλος",
       "wrongAnswers": [
@@ -525,7 +525,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-056",
       "type": "single-choice",
       "prompt": "красивая картинка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εικόνα\nМножественное число: οι εικόνες\n\nРод: женский",
       "correctAnswer": "η όμορφη εικόνα",
       "wrongAnswers": ["ο όμορφος εικόνα", "οι όμορφοι εικόνα", "οι όμορφες εικόνα"]
@@ -534,7 +534,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-057",
       "type": "single-choice",
       "prompt": "красивые картинки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εικόνα\nМножественное число: οι εικόνες\n\nРод: женский",
       "correctAnswer": "οι όμορφες εικόνες",
       "wrongAnswers": ["ο όμορφος εικόνες", "οι όμορφοι εικόνες", "η όμορφη εικόνες"]
@@ -543,7 +543,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-058",
       "type": "single-choice",
       "prompt": "полные имена и фамилии",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ονοματεπώνυμο\nМножественное число: τα ονοματεπώνυμα\n\nРод: средний",
       "correctAnswer": "τα πλήρη ονοματεπώνυμα",
       "wrongAnswers": [
@@ -556,7 +556,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-059",
       "type": "single-choice",
       "prompt": "простые диаграммы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το διάγραμμα\nМножественное число: τα διαγράμματα\n\nРод: средний",
       "correctAnswer": "τα απλά διαγράμματα",
       "wrongAnswers": ["ο απλός διαγράμματα", "οι απλοί διαγράμματα", "η απλή διαγράμματα"]
@@ -565,7 +565,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-060",
       "type": "single-choice",
       "prompt": "финская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο φινλανδικός χάρτης",
       "wrongAnswers": ["οι φινλανδικοί χάρτης", "η φινλανδική χάρτης", "οι φινλανδικές χάρτης"]
@@ -574,7 +574,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-061",
       "type": "single-choice",
       "prompt": "европейские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι ευρωπαϊκοί χάρτες",
       "wrongAnswers": ["ο ευρωπαϊκός χάρτες", "η ευρωπαϊκή χάρτες", "οι ευρωπαϊκές χάρτες"]
@@ -583,7 +583,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-062",
       "type": "single-choice",
       "prompt": "написанные тексты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λόγος\nМножественное число: οι λόγοι\n\nРод: мужской",
       "correctAnswer": "οι γραπτοί λόγοι",
       "wrongAnswers": ["ο γραπτός λόγοι", "η γραπτή λόγοι", "οι γραπτές λόγοι"]
@@ -592,7 +592,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-063",
       "type": "single-choice",
       "prompt": "волшебные книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα μαγικά βιβλία",
       "wrongAnswers": ["ο μαγικός βιβλία", "οι μαγικοί βιβλία", "η μαγική βιβλία"]
@@ -601,7 +601,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-064",
       "type": "single-choice",
       "prompt": "толстая книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το χοντρό βιβλίο",
       "wrongAnswers": ["ο χοντρός βιβλίο", "οι χοντροί βιβλίο", "η χοντρή βιβλίο"]
@@ -610,7 +610,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-065",
       "type": "single-choice",
       "prompt": "африканская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο αφρικανικός χάρτης",
       "wrongAnswers": ["οι αφρικανικοί χάρτης", "η αφρικανική χάρτης", "οι αφρικανικές χάρτης"]
@@ -619,7 +619,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-066",
       "type": "single-choice",
       "prompt": "разноцветные рисунки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ζωγραφιά\nМножественное число: οι ζωγραφιές\n\nРод: женский",
       "correctAnswer": "οι πολύχρωμες ζωγραφιές",
       "wrongAnswers": ["ο πολύχρωμος ζωγραφιές", "η πολύχρωμη ζωγραφιές", "το πολύχρωμο ζωγραφιές"]
@@ -628,7 +628,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-067",
       "type": "single-choice",
       "prompt": "маленький словарь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λεξικό\nМножественное число: τα λεξικά\n\nРод: средний",
       "correctAnswer": "το μικρό λεξικό",
       "wrongAnswers": ["ο μικρός λεξικό", "οι μικροί λεξικό", "η μικρή λεξικό"]
@@ -637,7 +637,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-068",
       "type": "single-choice",
       "prompt": "известные истории",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ιστορία\nМножественное число: οι ιστορίες\n\nРод: женский",
       "correctAnswer": "οι γνωστές ιστορίες",
       "wrongAnswers": ["ο γνωστός ιστορίες", "οι γνωστοί ιστορίες", "η γνωστή ιστορίες"]
@@ -646,7 +646,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-069",
       "type": "single-choice",
       "prompt": "любимая фотография",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
       "correctAnswer": "η αγαπημένη φωτογραφία",
       "wrongAnswers": [
@@ -659,7 +659,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-070",
       "type": "single-choice",
       "prompt": "толстые книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα χοντρά βιβλία",
       "wrongAnswers": ["ο χοντρός βιβλία", "οι χοντροί βιβλία", "η χοντρή βιβλία"]
@@ -668,7 +668,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-071",
       "type": "single-choice",
       "prompt": "дешёвая книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το φθηνό βιβλίο",
       "wrongAnswers": ["ο φθηνός βιβλίο", "οι φθηνοί βιβλίο", "η φθηνή βιβλίο"]
@@ -677,7 +677,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-072",
       "type": "single-choice",
       "prompt": "египетская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο αιγυπτιακός χάρτης",
       "wrongAnswers": ["οι αιγυπτιακοί χάρτης", "η αιγυπτιακή χάρτης", "οι αιγυπτιακές χάρτης"]
@@ -686,7 +686,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-073",
       "type": "single-choice",
       "prompt": "классические книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα κλασικά βιβλία",
       "wrongAnswers": ["ο κλασικός βιβλία", "οι κλασικοί βιβλία", "η κλασική βιβλία"]
@@ -695,7 +695,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-074",
       "type": "single-choice",
       "prompt": "дорогие тексты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κείμενο\nМножественное число: τα κείμενα\n\nРод: средний",
       "correctAnswer": "τα ακριβά κείμενα",
       "wrongAnswers": ["ο ακριβός κείμενα", "οι ακριβοί κείμενα", "η ακριβή κείμενα"]
@@ -704,7 +704,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-075",
       "type": "single-choice",
       "prompt": "большой плакат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αφίσα\nМножественное число: οι αφίσες\n\nРод: женский",
       "correctAnswer": "η μεγάλη αφίσα",
       "wrongAnswers": ["ο μεγάλος αφίσα", "οι μεγάλοι αφίσα", "οι μεγάλες αφίσα"]
@@ -713,7 +713,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-076",
       "type": "single-choice",
       "prompt": "подчёркнутые тексты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κείμενο\nМножественное число: τα κείμενα\n\nРод: средний",
       "correctAnswer": "τα υπογραμμισμένα κείμενα",
       "wrongAnswers": [
@@ -726,7 +726,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-077",
       "type": "single-choice",
       "prompt": "простая листовка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φέιγ βολάν\nМножественное число: τα φέιγ βολάν\n\nРод: средний",
       "correctAnswer": "το απλό φέιγ βολάν",
       "wrongAnswers": ["ο απλός φέιγ βολάν", "οι απλοί φέιγ βολάν", "η απλή φέιγ βολάν"]
@@ -735,7 +735,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-078",
       "type": "single-choice",
       "prompt": "молодая литература",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η λογοτεχνία\nМножественное число: οι λογοτεχνίες\n\nРод: женский",
       "correctAnswer": "η νεαρή λογοτεχνία",
       "wrongAnswers": ["ο νεαρός λογοτεχνία", "οι νεαροί λογοτεχνία", "οι νεαρές λογοτεχνία"]
@@ -744,7 +744,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-079",
       "type": "single-choice",
       "prompt": "известная история",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ιστορία\nМножественное число: οι ιστορίες\n\nРод: женский",
       "correctAnswer": "η γνωστή ιστορία",
       "wrongAnswers": ["ο γνωστός ιστορία", "οι γνωστοί ιστορία", "οι γνωστές ιστορία"]
@@ -753,7 +753,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-080",
       "type": "single-choice",
       "prompt": "австрийская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο αυστριακός χάρτης",
       "wrongAnswers": ["οι αυστριακοί χάρτης", "η αυστριακή χάρτης", "οι αυστριακές χάρτης"]
@@ -762,7 +762,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-081",
       "type": "single-choice",
       "prompt": "подчёркнутые заголовки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τίτλος\nМножественное число: οι τίτλοι\n\nРод: мужской",
       "correctAnswer": "οι υπογραμμισμένοι τίτλοι",
       "wrongAnswers": [
@@ -775,7 +775,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-082",
       "type": "single-choice",
       "prompt": "современные этикетки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ετικέτα\nМножественное число: οι ετικέτες\n\nРод: женский",
       "correctAnswer": "οι σύγχρονες ετικέτες",
       "wrongAnswers": ["ο σύγχρονος ετικέτες", "οι σύγχρονοι ετικέτες", "η σύγχρονη ετικέτες"]
@@ -784,7 +784,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-083",
       "type": "single-choice",
       "prompt": "краткие заметки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σημείωμα\nМножественное число: τα σημειώματα\n\nРод: средний",
       "correctAnswer": "τα σύντομα σημειώματα",
       "wrongAnswers": ["ο σύντομος σημειώματα", "οι σύντομοι σημειώματα", "η σύντομη σημειώματα"]
@@ -793,7 +793,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-084",
       "type": "single-choice",
       "prompt": "хороший список",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η λίστα\nМножественное число: οι λίστες\n\nРод: женский",
       "correctAnswer": "η καλή λίστα",
       "wrongAnswers": ["ο καλός λίστα", "οι καλοί λίστα", "οι καλές λίστα"]
@@ -802,7 +802,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-085",
       "type": "single-choice",
       "prompt": "корейские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι κορεατικοί χάρτες",
       "wrongAnswers": ["ο κορεατικός χάρτες", "η κορεατική χάρτες", "το κορεατικό χάρτες"]
@@ -811,7 +811,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-086",
       "type": "single-choice",
       "prompt": "полные каталоги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κατάλογος\nМножественное число: οι κατάλογοι\n\nРод: мужской",
       "correctAnswer": "οι πλήρεις κατάλογοι",
       "wrongAnswers": ["ο πλήρης κατάλογοι", "η πλήρης κατάλογοι", "το πλήρες κατάλογοι"]
@@ -820,7 +820,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-087",
       "type": "single-choice",
       "prompt": "любимые писатели",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο συγγραφέας\nМножественное число: οι συγγραφείς\n\nРод: мужской",
       "correctAnswer": "οι αγαπημένοι συγγραφείς",
       "wrongAnswers": [
@@ -833,7 +833,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-088",
       "type": "single-choice",
       "prompt": "бельгийская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο βελγικός χάρτης",
       "wrongAnswers": ["οι βελγικοί χάρτης", "η βελγική χάρτης", "οι βελγικές χάρτης"]
@@ -842,7 +842,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-089",
       "type": "single-choice",
       "prompt": "английская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο αγγλικός χάρτης",
       "wrongAnswers": ["οι αγγλικοί χάρτης", "η αγγλική χάρτης", "οι αγγλικές χάρτης"]
@@ -851,7 +851,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-090",
       "type": "single-choice",
       "prompt": "новые книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα καινούρια βιβλία",
       "wrongAnswers": ["ο καινούριος βιβλία", "οι καινούριοι βιβλία", "οι καινούριες βιβλία"]
@@ -860,7 +860,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-091",
       "type": "single-choice",
       "prompt": "большой том",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τόμος\nМножественное число: οι None\n\nРод: мужской",
       "correctAnswer": "ο μεγάλος τόμος",
       "wrongAnswers": ["οι μεγάλοι τόμος", "η μεγάλη τόμος", "οι μεγάλες τόμος"]
@@ -869,7 +869,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-092",
       "type": "single-choice",
       "prompt": "английские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι αγγλικοί χάρτες",
       "wrongAnswers": ["ο αγγλικός χάρτες", "η αγγλική χάρτες", "οι αγγλικές χάρτες"]
@@ -878,7 +878,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-093",
       "type": "single-choice",
       "prompt": "шведская книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το σουηδικό βιβλίο",
       "wrongAnswers": ["ο σουηδικός βιβλίο", "οι σουηδικοί βιβλίο", "η σουηδική βιβλίο"]
@@ -887,7 +887,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-094",
       "type": "single-choice",
       "prompt": "простые схемы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σχεδιάγραμμα\nМножественное число: τα σχεδιαγράμματα\n\nРод: средний",
       "correctAnswer": "τα απλά σχεδιαγράμματα",
       "wrongAnswers": ["ο απλός σχεδιαγράμματα", "οι απλοί σχεδιαγράμματα", "η απλή σχεδιαγράμματα"]
@@ -896,7 +896,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-095",
       "type": "single-choice",
       "prompt": "шведские книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα σουηδικά βιβλία",
       "wrongAnswers": ["ο σουηδικός βιβλία", "οι σουηδικοί βιβλία", "η σουηδική βιβλία"]
@@ -905,7 +905,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-096",
       "type": "single-choice",
       "prompt": "какие книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "ποια βιβλία",
       "wrongAnswers": ["ποιος βιβλία", "ποιο βιβλία", "ποιοι βιβλία"]
@@ -914,7 +914,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-097",
       "type": "single-choice",
       "prompt": "современная этикетка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ετικέτα\nМножественное число: οι ετικέτες\n\nРод: женский",
       "correctAnswer": "η σύγχρονη ετικέτα",
       "wrongAnswers": ["ο σύγχρονος ετικέτα", "οι σύγχρονοι ετικέτα", "οι σύγχρονες ετικέτα"]
@@ -923,7 +923,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-098",
       "type": "single-choice",
       "prompt": "албанские книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα αλβανικά βιβλία",
       "wrongAnswers": ["ο αλβανικός βιβλία", "οι αλβανικοί βιβλία", "η αλβανική βιβλία"]
@@ -932,7 +932,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-099",
       "type": "single-choice",
       "prompt": "японские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι ιαπωνικοί χάρτες",
       "wrongAnswers": ["ο ιαπωνικός χάρτες", "η ιαπωνική χάρτες", "οι ιαπωνικές χάρτες"]
@@ -941,7 +941,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-100",
       "type": "single-choice",
       "prompt": "большие карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι μεγάλοι χάρτες",
       "wrongAnswers": ["ο μεγάλος χάρτες", "η μεγάλη χάρτες", "οι μεγάλες χάρτες"]
@@ -950,7 +950,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-101",
       "type": "single-choice",
       "prompt": "большие таблицы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πίνακας\nМножественное число: οι πίνακες\n\nРод: мужской",
       "correctAnswer": "οι μεγάλοι πίνακες",
       "wrongAnswers": ["ο μεγάλος πίνακες", "η μεγάλη πίνακες", "οι μεγάλες πίνακες"]
@@ -959,7 +959,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-102",
       "type": "single-choice",
       "prompt": "русские книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα ρωσικά βιβλία",
       "wrongAnswers": ["ο ρωσικός βιβλία", "η ρωσική βιβλία", "το ρωσικό βιβλία"]
@@ -968,7 +968,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-103",
       "type": "single-choice",
       "prompt": "финская книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το φινλανδικό βιβλίο",
       "wrongAnswers": ["ο φινλανδικός βιβλίο", "οι φινλανδικοί βιβλίο", "η φινλανδική βιβλίο"]
@@ -977,7 +977,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-104",
       "type": "single-choice",
       "prompt": "свежая статья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το άρθρο\nМножественное число: τα άρθρα\n\nРод: средний",
       "correctAnswer": "το φρέσκο άρθρο",
       "wrongAnswers": ["ο φρέσκος άρθρο", "οι φρέσκοι άρθρο", "η φρέσκια άρθρο"]
@@ -986,7 +986,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-105",
       "type": "single-choice",
       "prompt": "португальские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι πορτογαλικοί χάρτες",
       "wrongAnswers": ["ο πορτογαλικός χάρτες", "η πορτογαλική χάρτες", "οι πορτογαλικές χάρτες"]
@@ -995,7 +995,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-106",
       "type": "single-choice",
       "prompt": "хорошие стихи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο στίχος\nМножественное число: οι στίχοι\n\nРод: мужской",
       "correctAnswer": "οι καλοί στίχοι",
       "wrongAnswers": ["ο καλός στίχοι", "η καλή στίχοι", "οι καλές στίχοι"]
@@ -1004,7 +1004,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-107",
       "type": "single-choice",
       "prompt": "хороший стих",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο στίχος\nМножественное число: οι στίχοι\n\nРод: мужской",
       "correctAnswer": "ο καλός στίχος",
       "wrongAnswers": ["οι καλοί στίχος", "η καλή στίχος", "οι καλές στίχος"]
@@ -1013,7 +1013,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-108",
       "type": "single-choice",
       "prompt": "цветные брошюры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φυλλάδιο\nМножественное число: τα φυλλάδια\n\nРод: средний",
       "correctAnswer": "τα χρωματιστά φυλλάδια",
       "wrongAnswers": ["ο χρωματιστός φυλλάδια", "οι χρωματιστοί φυλλάδια", "η χρωματιστή φυλλάδια"]
@@ -1022,7 +1022,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-109",
       "type": "single-choice",
       "prompt": "рекламные брошюры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φυλλάδιο\nМножественное число: τα φυλλάδια\n\nРод: средний",
       "correctAnswer": "τα διαφημιστικά φυλλάδια",
       "wrongAnswers": [
@@ -1035,7 +1035,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-110",
       "type": "single-choice",
       "prompt": "важные страницы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σελίδα\nМножественное число: οι σελίδες\n\nРод: женский",
       "correctAnswer": "οι σημαντικές σελίδες",
       "wrongAnswers": ["ο σημαντικός σελίδες", "οι σημαντικοί σελίδες", "η σημαντική σελίδες"]
@@ -1044,7 +1044,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-111",
       "type": "single-choice",
       "prompt": "простая диаграмма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το διάγραμμα\nМножественное число: τα διαγράμματα\n\nРод: средний",
       "correctAnswer": "το απλό διάγραμμα",
       "wrongAnswers": ["ο απλός διάγραμμα", "οι απλοί διάγραμμα", "η απλή διάγραμμα"]
@@ -1053,7 +1053,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-112",
       "type": "single-choice",
       "prompt": "албанская книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το αλβανικό βιβλίο",
       "wrongAnswers": ["ο αλβανικός βιβλίο", "οι αλβανικοί βιβλίο", "η αλβανική βιβλίο"]
@@ -1062,7 +1062,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-113",
       "type": "single-choice",
       "prompt": "английские книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα αγγλικά βιβλία",
       "wrongAnswers": ["ο αγγλικός βιβλία", "οι αγγλικοί βιβλία", "η αγγλική βιβλία"]
@@ -1071,7 +1071,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-114",
       "type": "single-choice",
       "prompt": "уникальные книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα μοναδικά βιβλία",
       "wrongAnswers": ["ο μοναδικός βιβλία", "οι μοναδικοί βιβλία", "η μοναδική βιβλία"]
@@ -1080,7 +1080,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-115",
       "type": "single-choice",
       "prompt": "полный каталог",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κατάλογος\nМножественное число: οι κατάλογοι\n\nРод: мужской",
       "correctAnswer": "ο πλήρης κατάλογος",
       "wrongAnswers": ["το πλήρες κατάλογος", "οι πλήρεις κατάλογος", "τα πλήρη κατάλογος"]
@@ -1089,7 +1089,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-116",
       "type": "single-choice",
       "prompt": "важные письма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γράμμα\nМножественное число: τα γράμματα\n\nРод: средний",
       "correctAnswer": "τα σημαντικά γράμματα",
       "wrongAnswers": ["ο σημαντικός γράμματα", "οι σημαντικοί γράμματα", "η σημαντική γράμματα"]
@@ -1098,7 +1098,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-117",
       "type": "single-choice",
       "prompt": "простые листовки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φέιγ βολάν\nМножественное число: τα φέιγ βολάν\n\nРод: средний",
       "correctAnswer": "τα απλά φέιγ βολάν",
       "wrongAnswers": ["ο απλός φέιγ βολάν", "οι απλοί φέιγ βολάν", "η απλή φέιγ βολάν"]
@@ -1107,7 +1107,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-118",
       "type": "single-choice",
       "prompt": "греческие карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι ελληνικοί χάρτες",
       "wrongAnswers": ["ο ελληνικός χάρτες", "η ελληνική χάρτες", "οι ελληνικές χάρτες"]
@@ -1116,7 +1116,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-119",
       "type": "single-choice",
       "prompt": "хорошие документальные фильмы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ντοκιμαντέρ\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "τα καλά ντοκιμαντέρ",
       "wrongAnswers": ["ο καλός ντοκιμαντέρ", "οι καλοί ντοκιμαντέρ", "η καλή ντοκιμαντέρ"]
@@ -1125,7 +1125,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-120",
       "type": "single-choice",
       "prompt": "подчёркнутое слово",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η λέξη\nМножественное число: οι λέξεις\n\nРод: женский",
       "correctAnswer": "η υπογραμμισμένη λέξη",
       "wrongAnswers": [
@@ -1138,7 +1138,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-121",
       "type": "single-choice",
       "prompt": "японская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο ιαπωνικός χάρτης",
       "wrongAnswers": ["οι ιαπωνικοί χάρτης", "η ιαπωνική χάρτης", "οι ιαπωνικές χάρτης"]
@@ -1147,7 +1147,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-122",
       "type": "single-choice",
       "prompt": "известные пословицы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παροιμία\nМножественное число: οι παροιμίες\n\nРод: женский",
       "correctAnswer": "οι γνωστές παροιμίες",
       "wrongAnswers": ["ο γνωστός παροιμίες", "οι γνωστοί παροιμίες", "η γνωστή παροιμίες"]
@@ -1156,7 +1156,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-123",
       "type": "single-choice",
       "prompt": "спонтанная речь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λόγος\nМножественное число: οι λόγοι\n\nРод: мужской",
       "correctAnswer": "ο αυθόρμητος λόγος",
       "wrongAnswers": ["οι αυθόρμητοι λόγος", "η αυθόρμητη λόγος", "οι αυθόρμητες λόγος"]
@@ -1165,7 +1165,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-124",
       "type": "single-choice",
       "prompt": "краткие записи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γραφή\nМножественное число: οι γραφές\n\nРод: женский",
       "correctAnswer": "οι σύντομες γραφές",
       "wrongAnswers": ["ο σύντομος γραφές", "οι σύντομοι γραφές", "η σύντομη γραφές"]
@@ -1174,7 +1174,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-125",
       "type": "single-choice",
       "prompt": "красивая сказка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παραμύθι\nМножественное число: τα παραμύθια\n\nРод: средний",
       "correctAnswer": "το ωραίο παραμύθι",
       "wrongAnswers": ["ο ωραίος παραμύθι", "οι ωραίοι παραμύθι", "η ωραία παραμύθι"]
@@ -1183,7 +1183,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-126",
       "type": "single-choice",
       "prompt": "рекламные плакаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αφίσα\nМножественное число: οι αφίσες\n\nРод: женский",
       "correctAnswer": "οι διαφημιστικές αφίσες",
       "wrongAnswers": ["ο διαφημιστικός αφίσες", "οι διαφημιστικοί αφίσες", "η διαφημιστική αφίσες"]
@@ -1192,7 +1192,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-127",
       "type": "single-choice",
       "prompt": "любимые книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα αγαπημένα βιβλία",
       "wrongAnswers": ["ο αγαπημένος βιβλία", "η αγαπημένη βιβλία", "το αγαπημένο βιβλία"]
@@ -1201,7 +1201,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-128",
       "type": "single-choice",
       "prompt": "немецкая карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο γερμανικός χάρτης",
       "wrongAnswers": ["οι γερμανικοί χάρτης", "η γερμανική χάρτης", "οι γερμανικές χάρτης"]
@@ -1210,7 +1210,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-129",
       "type": "single-choice",
       "prompt": "хороший сценарий",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σενάριο\nМножественное число: τα σενάρια\n\nРод: средний",
       "correctAnswer": "το καλό σενάριο",
       "wrongAnswers": ["ο καλός σενάριο", "οι καλοί σενάριο", "η καλή σενάριο"]
@@ -1219,7 +1219,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-130",
       "type": "single-choice",
       "prompt": "краткие кроссворды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σταυρόλεξο\nМножественное число: τα σταυρόλεξα\n\nРод: средний",
       "correctAnswer": "τα σύντομα σταυρόλεξα",
       "wrongAnswers": ["ο σύντομος σταυρόλεξα", "οι σύντομοι σταυρόλεξα", "η σύντομη σταυρόλεξα"]
@@ -1228,7 +1228,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-131",
       "type": "single-choice",
       "prompt": "новая книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το καινούριο βιβλίο",
       "wrongAnswers": ["ο καινούριος βιβλίο", "οι καινούριοι βιβλίο", "η καινούρια βιβλίο"]
@@ -1237,7 +1237,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-132",
       "type": "single-choice",
       "prompt": "волшебная книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το μαγικό βιβλίο",
       "wrongAnswers": ["ο μαγικός βιβλίο", "οι μαγικοί βιβλίο", "η μαγική βιβλίο"]
@@ -1246,7 +1246,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-133",
       "type": "single-choice",
       "prompt": "смешная история",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ιστορία\nМножественное число: οι ιστορίες\n\nРод: женский",
       "correctAnswer": "η αστεία ιστορία",
       "wrongAnswers": ["ο αστείος ιστορία", "οι αστείοι ιστορία", "οι αστείες ιστορία"]
@@ -1255,7 +1255,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-134",
       "type": "single-choice",
       "prompt": "белые листы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χαρτί\nМножественное число: τα χαρτιά\n\nРод: средний",
       "correctAnswer": "τα λευκά χαρτιά",
       "wrongAnswers": ["ο λευκός χαρτιά", "οι λευκοί χαρτιά", "η λευκή χαρτιά"]
@@ -1264,7 +1264,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-135",
       "type": "single-choice",
       "prompt": "русские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι ρωσικοί χάρτες",
       "wrongAnswers": ["ο ρωσικός χάρτες", "η ρωσική χάρτες", "το ρωσικό χάρτες"]
@@ -1273,7 +1273,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-136",
       "type": "single-choice",
       "prompt": "немецкая книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το γερμανικό βιβλίο",
       "wrongAnswers": ["ο γερμανικός βιβλίο", "οι γερμανικοί βιβλίο", "η γερμανική βιβλίο"]
@@ -1282,7 +1282,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-137",
       "type": "single-choice",
       "prompt": "священные книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα ιερά βιβλία",
       "wrongAnswers": ["ο ιερός βιβλία", "οι ιεροί βιβλία", "η ιερή βιβλία"]
@@ -1291,7 +1291,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-138",
       "type": "single-choice",
       "prompt": "официальная речь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λόγος\nМножественное число: οι λόγοι\n\nРод: мужской",
       "correctAnswer": "ο επίσημος λόγος",
       "wrongAnswers": ["οι επίσημοι λόγος", "η επίσημη λόγος", "οι επίσημες λόγος"]
@@ -1300,7 +1300,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-139",
       "type": "single-choice",
       "prompt": "любимые фотографии",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
       "correctAnswer": "οι αγαπημένες φωτογραφίες",
       "wrongAnswers": [
@@ -1313,7 +1313,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-140",
       "type": "single-choice",
       "prompt": "краткое письмо",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γραφή\nМножественное число: οι γραφές\n\nРод: женский",
       "correctAnswer": "η σύντομη γραφή",
       "wrongAnswers": ["ο σύντομος γραφή", "οι σύντομοι γραφή", "οι σύντομες γραφή"]
@@ -1322,7 +1322,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-141",
       "type": "single-choice",
       "prompt": "короткая записка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σημείωμα\nМножественное число: τα σημειώματα\n\nРод: средний",
       "correctAnswer": "το σύντομο σημείωμα",
       "wrongAnswers": ["ο σύντομος σημείωμα", "οι σύντομοι σημείωμα", "η σύντομη σημείωμα"]
@@ -1331,7 +1331,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-142",
       "type": "single-choice",
       "prompt": "тяжёлая книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το βαρύ βιβλίο",
       "wrongAnswers": ["ο βαρύς βιβλίο", "η βαριά βιβλίο", "οι βαριοί βιβλίο"]
@@ -1340,7 +1340,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-143",
       "type": "single-choice",
       "prompt": "новый журнал",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το περιοδικό\nМножественное число: τα περιοδικά\n\nРод: средний",
       "correctAnswer": "το καινούριο περιοδικό",
       "wrongAnswers": ["ο καινούριος περιοδικό", "οι καινούριοι περιοδικό", "η καινούρια περιοδικό"]
@@ -1349,7 +1349,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-144",
       "type": "single-choice",
       "prompt": "единственная книга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "το μοναδικό βιβλίο",
       "wrongAnswers": ["ο μοναδικός βιβλίο", "οι μοναδικοί βιβλίο", "η μοναδική βιβλίο"]
@@ -1358,7 +1358,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-145",
       "type": "single-choice",
       "prompt": "театральные произведения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το έργο\nМножественное число: τα έργα\n\nРод: средний",
       "correctAnswer": "τα θεατρικά έργα",
       "wrongAnswers": ["ο θεατρικός έργα", "οι θεατρικοί έργα", "η θεατρική έργα"]
@@ -1367,7 +1367,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-146",
       "type": "single-choice",
       "prompt": "дешёвые книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα φθηνά βιβλία",
       "wrongAnswers": ["ο φθηνός βιβλία", "οι φθηνοί βιβλία", "η φθηνή βιβλία"]
@@ -1376,7 +1376,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-147",
       "type": "single-choice",
       "prompt": "старые книги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
       "correctAnswer": "τα παλιά βιβλία",
       "wrongAnswers": ["ο παλιός βιβλία", "οι παλιοί βιβλία", "οι παλιές βιβλία"]
@@ -1385,7 +1385,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-148",
       "type": "single-choice",
       "prompt": "исландские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι ισλανδικοί χάρτες",
       "wrongAnswers": ["ο ισλανδικός χάρτες", "η ισλανδική χάρτες", "οι ισλανδικές χάρτες"]
@@ -1394,7 +1394,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-149",
       "type": "single-choice",
       "prompt": "ежедневные газеты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εφημερίδα\nМножественное число: οι εφημερίδες\n\nРод: женский",
       "correctAnswer": "οι καθημερινές εφημερίδες",
       "wrongAnswers": [
@@ -1407,7 +1407,7 @@
       "id": "nouns-adjectives-education-communication-books-writing-print-150",
       "type": "single-choice",
       "prompt": "простая схема",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σχεδιάγραμμα\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "το απλό σχεδιάγραμμα",
       "wrongAnswers": ["ο απλός σχεδιάγραμμα", "οι απλοί σχεδιάγραμμα", "η απλή σχεδιάγραμμα"]

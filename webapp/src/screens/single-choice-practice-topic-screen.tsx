@@ -44,6 +44,15 @@ export default function SingleChoicePracticeTopicScreen({
     await speech.play("prompt", question.prompt);
   };
 
+  const handlePlayCorrectAnswer = async () => {
+    const correctAnswer = question?.options[question.correctIndex];
+    if (!correctAnswer || speech.isSpeaking("correct-answer")) {
+      return;
+    }
+
+    await speech.play("correct-answer", correctAnswer);
+  };
+
   const handlePlayOption = async (option: string, optionIndex: number) => {
     const optionKey = `option-${optionIndex}`;
 
@@ -102,9 +111,11 @@ export default function SingleChoicePracticeTopicScreen({
               hasAnswered={hasAnswered}
               showTranslationHint={showTranslationHint}
               isPromptSpeaking={speech.isSpeaking("prompt")}
+              isCorrectAnswerSpeaking={speech.isSpeaking("correct-answer")}
               isOptionSpeaking={(optionIndex) => speech.isSpeaking(`option-${optionIndex}`)}
               getAnswerClassName={getAnswerClassName}
               onPlayPrompt={handlePlayPrompt}
+              onPlayCorrectAnswer={handlePlayCorrectAnswer}
               onPlayOption={handlePlayOption}
               onSelectAnswer={selectAnswer}
             />

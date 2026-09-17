@@ -7,6 +7,7 @@ import {
 import type { InputExercise, ExerciseCollection } from "../types/exercises.ts";
 import {
   isSingleChoicePracticeGroupDefinition,
+  isSingleChoicePracticePlaceholderDefinition,
   type ListeningPracticeTopicDefinition,
   type SingleChoicePracticeGroupDefinition,
   type SingleChoicePracticeTopicDefinition,
@@ -100,7 +101,8 @@ export function usePracticeContentState(
       data:
         singleChoiceTopicsState.data?.filter(
           (entry): entry is SingleChoicePracticeTopicDefinition =>
-            !isSingleChoicePracticeGroupDefinition(entry)
+            !isSingleChoicePracticeGroupDefinition(entry) &&
+            !isSingleChoicePracticePlaceholderDefinition(entry)
         ) ?? null,
     }),
     [singleChoiceTopicsState]
@@ -118,7 +120,8 @@ export function usePracticeContentState(
       data:
         singleChoiceGroupTopicsState.data?.filter(
           (entry): entry is SingleChoicePracticeTopicDefinition =>
-            !isSingleChoicePracticeGroupDefinition(entry)
+            !isSingleChoicePracticeGroupDefinition(entry) &&
+            !isSingleChoicePracticePlaceholderDefinition(entry)
         ) ?? null,
     };
   }, [rootSingleChoiceTopicsState, selectedSingleChoiceGroup, singleChoiceGroupTopicsState]);
@@ -211,7 +214,7 @@ export function usePracticeContentState(
   const openSingleChoiceTopic = (topicId: string) => {
     const entry = singleChoiceTopicsState.data?.find((candidate) => candidate.id === topicId);
 
-    if (!entry) {
+    if (!entry || isSingleChoicePracticePlaceholderDefinition(entry)) {
       return;
     }
 
@@ -231,7 +234,7 @@ export function usePracticeContentState(
   const openSingleChoiceGroupTopic = (topicId: string) => {
     const entry = singleChoiceGroupTopicsState.data?.find((candidate) => candidate.id === topicId);
 
-    if (!entry) {
+    if (!entry || isSingleChoicePracticePlaceholderDefinition(entry)) {
       return;
     }
 

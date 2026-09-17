@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-people-emotions-states-001",
       "type": "single-choice",
       "prompt": "довольная клиентка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πελάτισσα\nМножественное число: οι πελάτισσες\n\nРод: женский",
       "correctAnswer": "η ευχαριστημένη πελάτισσα",
       "wrongAnswers": [
@@ -19,7 +19,7 @@
       "id": "nouns-adjectives-people-emotions-states-002",
       "type": "single-choice",
       "prompt": "сильная тревога",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγωνία\nМножественное число: οι αγωνίες\n\nРод: женский",
       "correctAnswer": "η έντονη αγωνία",
       "wrongAnswers": ["η έντονος αγωνία", "η έντονο αγωνία", "η έντονοι αγωνία"]
@@ -28,7 +28,7 @@
       "id": "nouns-adjectives-people-emotions-states-003",
       "type": "single-choice",
       "prompt": "большая радость",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η χαρά\nМножественное число: οι χαρές\n\nРод: женский",
       "correctAnswer": "η μεγάλη χαρά",
       "wrongAnswers": ["ο μεγάλος χαρά", "οι μεγάλοι χαρά", "οι μεγάλες χαρά"]
@@ -37,7 +37,7 @@
       "id": "nouns-adjectives-people-emotions-states-004",
       "type": "single-choice",
       "prompt": "огорчённые отцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πατέρας\nМножественное число: οι πατέρες\n\nРод: мужской",
       "correctAnswer": "οι στεναχωρημένοι πατέρες",
       "wrongAnswers": [
@@ -50,7 +50,7 @@
       "id": "nouns-adjectives-people-emotions-states-005",
       "type": "single-choice",
       "prompt": "большие печали",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η λύπη\nМножественное число: οι λύπες\n\nРод: женский",
       "correctAnswer": "οι μεγάλες λύπες",
       "wrongAnswers": ["ο μεγάλος λύπες", "οι μεγάλοι λύπες", "η μεγάλη λύπες"]
@@ -59,7 +59,7 @@
       "id": "nouns-adjectives-people-emotions-states-006",
       "type": "single-choice",
       "prompt": "большие тревоги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το άγχος\nМножественное число: τα άγχη\n\nРод: средний",
       "correctAnswer": "τα μεγάλα άγχη",
       "wrongAnswers": ["ο μεγάλος άγχη", "οι μεγάλοι άγχη", "η μεγάλη άγχη"]
@@ -68,7 +68,7 @@
       "id": "nouns-adjectives-people-emotions-states-007",
       "type": "single-choice",
       "prompt": "большая тревога",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το άγχος\nМножественное число: τα άγχη\n\nРод: средний",
       "correctAnswer": "το μεγάλο άγχος",
       "wrongAnswers": ["ο μεγάλος άγχος", "οι μεγάλοι άγχος", "η μεγάλη άγχος"]
@@ -77,7 +77,7 @@
       "id": "nouns-adjectives-people-emotions-states-008",
       "type": "single-choice",
       "prompt": "большие радости",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η χαρά\nМножественное число: οι χαρές\n\nРод: женский",
       "correctAnswer": "οι μεγάλες χαρές",
       "wrongAnswers": ["ο μεγάλος χαρές", "οι μεγάλοι χαρές", "η μεγάλη χαρές"]
@@ -86,7 +86,7 @@
       "id": "nouns-adjectives-people-emotions-states-009",
       "type": "single-choice",
       "prompt": "нежная ласка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χάδι\nМножественное число: τα χάδια\n\nРод: средний",
       "correctAnswer": "το τρυφερό χάδι",
       "wrongAnswers": ["ο τρυφερός χάδι", "η τρυφερή χάδι", "οι τρυφεροί χάδι"]
@@ -95,7 +95,7 @@
       "id": "nouns-adjectives-people-emotions-states-010",
       "type": "single-choice",
       "prompt": "грустный ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το λυπημένο παιδί",
       "wrongAnswers": ["ο λυπημένος παιδί", "η λυπημένη παιδί", "οι λυπημένοι παιδί"]
@@ -104,7 +104,7 @@
       "id": "nouns-adjectives-people-emotions-states-011",
       "type": "single-choice",
       "prompt": "большое счастье",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ευτυχία\nМножественное число: οι None\n\nРод: женский",
       "correctAnswer": "η μεγάλη ευτυχία",
       "wrongAnswers": ["ο μεγάλος ευτυχία", "οι μεγάλοι ευτυχία", "οι μεγάλες ευτυχία"]
@@ -113,7 +113,7 @@
       "id": "nouns-adjectives-people-emotions-states-012",
       "type": "single-choice",
       "prompt": "грустная женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η λυπημένη γυναίκα",
       "wrongAnswers": ["ο λυπημένος γυναίκα", "το λυπημένο γυναίκα", "οι λυπημένοι γυναίκα"]
@@ -122,7 +122,7 @@
       "id": "nouns-adjectives-people-emotions-states-013",
       "type": "single-choice",
       "prompt": "приятный сюрприз",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η έκπληξη\nМножественное число: οι εκπλήξεις\n\nРод: женский",
       "correctAnswer": "η ευχάριστη έκπληξη",
       "wrongAnswers": ["ο ευχάριστος έκπληξη", "οι ευχάριστοι έκπληξη", "οι ευχάριστες έκπληξη"]
@@ -131,7 +131,7 @@
       "id": "nouns-adjectives-people-emotions-states-014",
       "type": "single-choice",
       "prompt": "неприятная неудача",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ατυχία\nМножественное число: οι ατυχίες\n\nРод: женский",
       "correctAnswer": "η δυσάρεστη ατυχία",
       "wrongAnswers": ["η δυσάρεστος ατυχία", "η δυσάρεστο ατυχία", "η δυσάρεστοι ατυχία"]
@@ -140,7 +140,7 @@
       "id": "nouns-adjectives-people-emotions-states-015",
       "type": "single-choice",
       "prompt": "сильные тревоги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγωνία\nМножественное число: οι αγωνίες\n\nРод: женский",
       "correctAnswer": "οι έντονες αγωνίες",
       "wrongAnswers": ["οι έντονος αγωνίες", "η έντονη αγωνίες", "οι έντονο αγωνίες"]
@@ -149,7 +149,7 @@
       "id": "nouns-adjectives-people-emotions-states-016",
       "type": "single-choice",
       "prompt": "грустная мать",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μητέρα\nМножественное число: οι μητέρες\n\nРод: женский",
       "correctAnswer": "η στεναχωρημένη μητέρα",
       "wrongAnswers": [
@@ -162,7 +162,7 @@
       "id": "nouns-adjectives-people-emotions-states-017",
       "type": "single-choice",
       "prompt": "довольный ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ευχαριστημένο παιδί",
       "wrongAnswers": ["ο ευχαριστημένος παιδί", "η ευχαριστημένη παιδί", "οι ευχαριστημένοι παιδί"]
@@ -171,7 +171,7 @@
       "id": "nouns-adjectives-people-emotions-states-018",
       "type": "single-choice",
       "prompt": "сильная усталость",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κούραση\nМножественное число: οι None\n\nРод: женский",
       "correctAnswer": "η μεγάλη κούραση",
       "wrongAnswers": ["ο μεγάλος κούραση", "οι μεγάλοι κούραση", "οι μεγάλες κούραση"]
@@ -180,7 +180,7 @@
       "id": "nouns-adjectives-people-emotions-states-019",
       "type": "single-choice",
       "prompt": "довольные клиенты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πελάτης\nМножественное число: οι πελάτες\n\nРод: мужской",
       "correctAnswer": "οι ευχαριστημένοι πελάτες",
       "wrongAnswers": [
@@ -193,7 +193,7 @@
       "id": "nouns-adjectives-people-emotions-states-020",
       "type": "single-choice",
       "prompt": "утомительный шум",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο θόρυβος\nМножественное число: οι θόρυβοι\n\nРод: мужской",
       "correctAnswer": "ο κουραστικός θόρυβος",
       "wrongAnswers": ["οι κουραστικοί θόρυβος", "η κουραστική θόρυβος", "οι κουραστικές θόρυβος"]
@@ -202,7 +202,7 @@
       "id": "nouns-adjectives-people-emotions-states-021",
       "type": "single-choice",
       "prompt": "отличное настроение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η διάθεση\nМножественное число: οι διαθέσεις\n\nРод: женский",
       "correctAnswer": "η άριστη διάθεση",
       "wrongAnswers": ["ο άριστος διάθεση", "οι άριστοι διάθεση", "οι άριστες διάθεση"]
@@ -211,7 +211,7 @@
       "id": "nouns-adjectives-people-emotions-states-022",
       "type": "single-choice",
       "prompt": "грустные женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι λυπημένες γυναίκες",
       "wrongAnswers": ["ο λυπημένος γυναίκες", "η λυπημένη γυναίκες", "το λυπημένο γυναίκες"]
@@ -220,7 +220,7 @@
       "id": "nouns-adjectives-people-emotions-states-023",
       "type": "single-choice",
       "prompt": "счастливый ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ευτυχισμένο παιδί",
       "wrongAnswers": ["ο ευτυχισμένος παιδί", "οι ευτυχισμένοι παιδί", "η ευτυχισμένη παιδί"]
@@ -229,7 +229,7 @@
       "id": "nouns-adjectives-people-emotions-states-024",
       "type": "single-choice",
       "prompt": "грустные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα λυπημένα παιδιά",
       "wrongAnswers": ["ο λυπημένος παιδιά", "η λυπημένη παιδιά", "το λυπημένο παιδιά"]
@@ -238,7 +238,7 @@
       "id": "nouns-adjectives-people-emotions-states-025",
       "type": "single-choice",
       "prompt": "большие любви",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγάπη\nМножественное число: οι αγάπες\n\nРод: женский",
       "correctAnswer": "οι μεγάλες αγάπες",
       "wrongAnswers": ["ο μεγάλος αγάπες", "οι μεγάλοι αγάπες", "η μεγάλη αγάπες"]
@@ -247,7 +247,7 @@
       "id": "nouns-adjectives-people-emotions-states-026",
       "type": "single-choice",
       "prompt": "нежный поцелуй",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φιλί\nМножественное число: τα φιλιά\n\nРод: средний",
       "correctAnswer": "το τρυφερό φιλί",
       "wrongAnswers": ["ο τρυφερός φιλί", "η τρυφερή φιλί", "οι τρυφεροί φιλί"]
@@ -256,7 +256,7 @@
       "id": "nouns-adjectives-people-emotions-states-027",
       "type": "single-choice",
       "prompt": "красивый сон",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το όνειρο\nМножественное число: τα όνειρα\n\nРод: средний",
       "correctAnswer": "το ωραίο όνειρο",
       "wrongAnswers": ["ο ωραίος όνειρο", "οι ωραίοι όνειρο", "η ωραία όνειρο"]
@@ -265,7 +265,7 @@
       "id": "nouns-adjectives-people-emotions-states-028",
       "type": "single-choice",
       "prompt": "сильный шум",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο θόρυβος\nМножественное число: οι θόρυβοι\n\nРод: мужской",
       "correctAnswer": "ο δυνατός θόρυβος",
       "wrongAnswers": ["οι δυνατοί θόρυβος", "η δυνατή θόρυβος", "οι δυνατές θόρυβος"]
@@ -274,7 +274,7 @@
       "id": "nouns-adjectives-people-emotions-states-029",
       "type": "single-choice",
       "prompt": "милую улыбку",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χαμόγελο\nМножественное число: τα χαμόγελα\n\nРод: средний",
       "correctAnswer": "το γλυκό χαμόγελο",
       "wrongAnswers": ["ο γλυκός χαμόγελο", "οι γλυκοί χαμόγελο", "η γλυκιά χαμόγελο"]
@@ -283,7 +283,7 @@
       "id": "nouns-adjectives-people-emotions-states-030",
       "type": "single-choice",
       "prompt": "милые улыбки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χαμόγελο\nМножественное число: τα χαμόγελα\n\nРод: средний",
       "correctAnswer": "τα γλυκά χαμόγελα",
       "wrongAnswers": ["ο γλυκός χαμόγελα", "οι γλυκοί χαμόγελα", "η γλυκιά χαμόγελα"]
@@ -292,7 +292,7 @@
       "id": "nouns-adjectives-people-emotions-states-031",
       "type": "single-choice",
       "prompt": "большая трудность",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η δυσκολία\nМножественное число: οι δυσκολίες\n\nРод: женский",
       "correctAnswer": "η μεγάλη δυσκολία",
       "wrongAnswers": ["ο μεγάλος δυσκολία", "οι μεγάλοι δυσκολία", "οι μεγάλες δυσκολία"]
@@ -301,7 +301,7 @@
       "id": "nouns-adjectives-people-emotions-states-032",
       "type": "single-choice",
       "prompt": "огорчённый ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το στεναχωρημένο παιδί",
       "wrongAnswers": ["ο στεναχωρημένος παιδί", "η στεναχωρημένη παιδί", "οι στεναχωρημένοι παιδί"]
@@ -310,7 +310,7 @@
       "id": "nouns-adjectives-people-emotions-states-033",
       "type": "single-choice",
       "prompt": "плохие дни",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μέρα\nМножественное число: οι μέρες\n\nРод: женский",
       "correctAnswer": "οι άσχημες μέρες",
       "wrongAnswers": ["ο άσχημος μέρες", "οι άσχημοι μέρες", "η άσχημη μέρες"]
@@ -319,7 +319,7 @@
       "id": "nouns-adjectives-people-emotions-states-034",
       "type": "single-choice",
       "prompt": "приятные сюрпризы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η έκπληξη\nМножественное число: οι εκπλήξεις\n\nРод: женский",
       "correctAnswer": "οι ευχάριστες εκπλήξεις",
       "wrongAnswers": ["ο ευχάριστος εκπλήξεις", "οι ευχάριστοι εκπλήξεις", "η ευχάριστη εκπλήξεις"]
@@ -328,7 +328,7 @@
       "id": "nouns-adjectives-people-emotions-states-035",
       "type": "single-choice",
       "prompt": "абсолютная тишина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ησυχία\nМножественное число: οι None\n\nРод: женский",
       "correctAnswer": "η απόλυτη ησυχία",
       "wrongAnswers": ["η απόλυτος ησυχία", "η απόλυτο ησυχία", "η απόλυτοι ησυχία"]
@@ -337,7 +337,7 @@
       "id": "nouns-adjectives-people-emotions-states-036",
       "type": "single-choice",
       "prompt": "большая любовь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγάπη\nМножественное число: οι αγάπες\n\nРод: женский",
       "correctAnswer": "η μεγάλη αγάπη",
       "wrongAnswers": ["ο μεγάλος αγάπη", "οι μεγάλοι αγάπη", "οι μεγάλες αγάπη"]
@@ -346,7 +346,7 @@
       "id": "nouns-adjectives-people-emotions-states-037",
       "type": "single-choice",
       "prompt": "хорошие воспоминания",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μνήμη\nМножественное число: οι μνήμες\n\nРод: женский",
       "correctAnswer": "οι καλές μνήμες",
       "wrongAnswers": ["ο καλός μνήμες", "οι καλοί μνήμες", "η καλή μνήμες"]
@@ -355,7 +355,7 @@
       "id": "nouns-adjectives-people-emotions-states-038",
       "type": "single-choice",
       "prompt": "довольные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ευχαριστημένα παιδιά",
       "wrongAnswers": [
@@ -368,7 +368,7 @@
       "id": "nouns-adjectives-people-emotions-states-039",
       "type": "single-choice",
       "prompt": "непосредственный смех",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γέλιο\nМножественное число: τα γέλια\n\nРод: средний",
       "correctAnswer": "το αυθόρμητο γέλιο",
       "wrongAnswers": ["ο αυθόρμητος γέλιο", "οι αυθόρμητοι γέλιο", "η αυθόρμητη γέλιο"]
@@ -377,7 +377,7 @@
       "id": "nouns-adjectives-people-emotions-states-040",
       "type": "single-choice",
       "prompt": "грустные мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι λυπημένοι άντρες",
       "wrongAnswers": ["ο λυπημένος άντρες", "η λυπημένη άντρες", "το λυπημένο άντρες"]
@@ -386,7 +386,7 @@
       "id": "nouns-adjectives-people-emotions-states-041",
       "type": "single-choice",
       "prompt": "непосредственные смехи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γέλιο\nМножественное число: τα γέλια\n\nРод: средний",
       "correctAnswer": "τα αυθόρμητα γέλια",
       "wrongAnswers": ["ο αυθόρμητος γέλια", "οι αυθόρμητοι γέλια", "η αυθόρμητη γέλια"]
@@ -395,7 +395,7 @@
       "id": "nouns-adjectives-people-emotions-states-042",
       "type": "single-choice",
       "prompt": "красивые сны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το όνειρο\nМножественное число: τα όνειρα\n\nРод: средний",
       "correctAnswer": "τα ωραία όνειρα",
       "wrongAnswers": ["ο ωραίος όνειρα", "οι ωραίοι όνειρα", "οι ωραίες όνειρα"]
@@ -404,7 +404,7 @@
       "id": "nouns-adjectives-people-emotions-states-043",
       "type": "single-choice",
       "prompt": "большая печаль",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η λύπη\nМножественное число: οι λύπες\n\nРод: женский",
       "correctAnswer": "η μεγάλη λύπη",
       "wrongAnswers": ["ο μεγάλος λύπη", "οι μεγάλοι λύπη", "οι μεγάλες λύπη"]
@@ -413,7 +413,7 @@
       "id": "nouns-adjectives-people-emotions-states-044",
       "type": "single-choice",
       "prompt": "большие сердца",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η καρδιά\nМножественное число: οι καρδιές\n\nРод: женский",
       "correctAnswer": "οι μεγάλες καρδιές",
       "wrongAnswers": ["ο μεγάλος καρδιές", "οι μεγάλοι καρδιές", "η μεγάλη καρδιές"]
@@ -422,7 +422,7 @@
       "id": "nouns-adjectives-people-emotions-states-045",
       "type": "single-choice",
       "prompt": "счастливые люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι ευτυχισμένοι άνθρωποι",
       "wrongAnswers": [
@@ -435,7 +435,7 @@
       "id": "nouns-adjectives-people-emotions-states-046",
       "type": "single-choice",
       "prompt": "отличные настроения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η διάθεση\nМножественное число: οι διαθέσεις\n\nРод: женский",
       "correctAnswer": "οι άριστες διαθέσεις",
       "wrongAnswers": ["ο άριστος διαθέσεις", "οι άριστοι διαθέσεις", "η άριστη διαθέσεις"]
@@ -444,7 +444,7 @@
       "id": "nouns-adjectives-people-emotions-states-047",
       "type": "single-choice",
       "prompt": "неприятные несчастья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ατυχία\nМножественное число: οι ατυχίες\n\nРод: женский",
       "correctAnswer": "οι δυσάρεστες ατυχίες",
       "wrongAnswers": ["οι δυσάρεστος ατυχίες", "η δυσάρεστη ατυχίες", "οι δυσάρεστο ατυχίες"]
@@ -453,7 +453,7 @@
       "id": "nouns-adjectives-people-emotions-states-048",
       "type": "single-choice",
       "prompt": "горячие поздравления",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το συγχαρητήριο\nМножественное число: τα συγχαρητήρια\n\nРод: средний",
       "correctAnswer": "τα θερμά συγχαρητήρια",
       "wrongAnswers": ["ο θερμός συγχαρητήρια", "οι θερμοί συγχαρητήρια", "η θερμή συγχαρητήρια"]

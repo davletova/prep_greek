@@ -6,7 +6,7 @@
       "id": "greek-pronouns-001",
       "type": "single-choice",
       "prompt": "εγώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "я",
       "wrongAnswers": ["ты", "мы", "они"]
     },
@@ -14,7 +14,7 @@
       "id": "greek-pronouns-002",
       "type": "single-choice",
       "prompt": "εσύ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "ты",
       "wrongAnswers": ["я", "вы", "она"]
     },
@@ -22,7 +22,7 @@
       "id": "greek-pronouns-003",
       "type": "single-choice",
       "prompt": "αυτός",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "он",
       "wrongAnswers": ["она", "оно", "они"]
     },
@@ -30,7 +30,7 @@
       "id": "greek-pronouns-004",
       "type": "single-choice",
       "prompt": "αυτή",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "она",
       "wrongAnswers": ["он", "оно", "мы"]
     },
@@ -38,7 +38,7 @@
       "id": "greek-pronouns-005",
       "type": "single-choice",
       "prompt": "αυτό",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "оно",
       "wrongAnswers": ["он", "она", "вы"]
     },
@@ -46,7 +46,7 @@
       "id": "greek-pronouns-006",
       "type": "single-choice",
       "prompt": "εμείς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "мы",
       "wrongAnswers": ["я", "вы", "они"]
     },
@@ -54,7 +54,7 @@
       "id": "greek-pronouns-007",
       "type": "single-choice",
       "prompt": "εσείς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "вы",
       "wrongAnswers": ["ты", "мы", "они"]
     },
@@ -62,7 +62,7 @@
       "id": "greek-pronouns-008",
       "type": "single-choice",
       "prompt": "αυτοί",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "они, мужской род",
       "wrongAnswers": ["мы", "она", "они, женский род"]
     },
@@ -70,7 +70,7 @@
       "id": "greek-pronouns-009",
       "type": "single-choice",
       "prompt": "αυτές",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "они, женский род",
       "wrongAnswers": ["они, мужской род", "вы", "она"]
     },
@@ -78,7 +78,7 @@
       "id": "greek-pronouns-010",
       "type": "single-choice",
       "prompt": "αυτά",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "они, средний род",
       "wrongAnswers": ["они, мужской род", "они, женский род", "мы"]
     },
@@ -86,7 +86,7 @@
       "id": "greek-pronouns-011",
       "type": "single-choice",
       "prompt": "με",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "меня",
       "wrongAnswers": ["тебя", "нас", "их"]
     },
@@ -94,7 +94,7 @@
       "id": "greek-pronouns-012",
       "type": "single-choice",
       "prompt": "σε",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "тебя",
       "wrongAnswers": ["меня", "вас", "его"]
     },
@@ -102,7 +102,7 @@
       "id": "greek-pronouns-013",
       "type": "single-choice",
       "prompt": "τον",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "его",
       "wrongAnswers": ["её", "их", "нас"]
     },
@@ -110,7 +110,7 @@
       "id": "greek-pronouns-014",
       "type": "single-choice",
       "prompt": "την",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "её",
       "wrongAnswers": ["его", "их", "вас"]
     },
@@ -118,7 +118,7 @@
       "id": "greek-pronouns-015",
       "type": "single-choice",
       "prompt": "το",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "его, средний род",
       "wrongAnswers": ["её", "меня", "нас"]
     },
@@ -126,7 +126,7 @@
       "id": "greek-pronouns-016",
       "type": "single-choice",
       "prompt": "μας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "нас",
       "wrongAnswers": ["вас", "меня", "их"]
     },
@@ -134,7 +134,7 @@
       "id": "greek-pronouns-017",
       "type": "single-choice",
       "prompt": "σας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "вас",
       "wrongAnswers": ["нас", "тебя", "его"]
     },
@@ -142,7 +142,7 @@
       "id": "greek-pronouns-018",
       "type": "single-choice",
       "prompt": "τους",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "их, мужской род",
       "wrongAnswers": ["нас", "вас", "её"]
     },
@@ -150,7 +150,7 @@
       "id": "greek-pronouns-019",
       "type": "single-choice",
       "prompt": "τις",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "их, женский род",
       "wrongAnswers": ["его", "нас", "их, средний род"]
     },
@@ -158,7 +158,7 @@
       "id": "greek-pronouns-020",
       "type": "single-choice",
       "prompt": "τα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "их, средний род",
       "wrongAnswers": ["её", "вас", "их, женский род"]
     },
@@ -166,7 +166,7 @@
       "id": "greek-pronouns-021",
       "type": "single-choice",
       "prompt": "εμένα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "меня",
       "wrongAnswers": ["тебя", "нас", "вас"]
     },
@@ -174,7 +174,7 @@
       "id": "greek-pronouns-022",
       "type": "single-choice",
       "prompt": "εσένα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "тебя",
       "wrongAnswers": ["меня", "его", "их"]
     },
@@ -182,7 +182,7 @@
       "id": "greek-pronouns-023",
       "type": "single-choice",
       "prompt": "αυτόν",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "его",
       "wrongAnswers": ["её", "тебя", "нас"]
     },
@@ -190,7 +190,7 @@
       "id": "greek-pronouns-024",
       "type": "single-choice",
       "prompt": "αυτήν",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "её",
       "wrongAnswers": ["его", "меня", "вас"]
     },
@@ -198,7 +198,7 @@
       "id": "greek-pronouns-025",
       "type": "single-choice",
       "prompt": "εμάς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "нас",
       "wrongAnswers": ["вас", "меня", "их"]
     },
@@ -206,7 +206,7 @@
       "id": "greek-pronouns-026",
       "type": "single-choice",
       "prompt": "εσάς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "вас",
       "wrongAnswers": ["нас", "тебя", "его"]
     },
@@ -214,7 +214,7 @@
       "id": "greek-pronouns-027",
       "type": "single-choice",
       "prompt": "αυτούς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "их, мужской род",
       "wrongAnswers": ["нас", "вас", "её"]
     },
@@ -222,7 +222,7 @@
       "id": "greek-pronouns-028",
       "type": "single-choice",
       "prompt": "μου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "мой",
       "wrongAnswers": ["твой", "его", "их"]
     },
@@ -230,7 +230,7 @@
       "id": "greek-pronouns-029",
       "type": "single-choice",
       "prompt": "σου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "твой",
       "wrongAnswers": ["мой", "наш", "её"]
     },
@@ -238,7 +238,7 @@
       "id": "greek-pronouns-030",
       "type": "single-choice",
       "prompt": "του",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "его",
       "wrongAnswers": ["мой", "твой", "наш"]
     },
@@ -246,7 +246,7 @@
       "id": "greek-pronouns-031",
       "type": "single-choice",
       "prompt": "της",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "её",
       "wrongAnswers": ["его", "мой", "ваш"]
     },
@@ -254,7 +254,7 @@
       "id": "greek-pronouns-032",
       "type": "single-choice",
       "prompt": "μας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "наш",
       "wrongAnswers": ["мой", "твой", "их"]
     },
@@ -262,7 +262,7 @@
       "id": "greek-pronouns-033",
       "type": "single-choice",
       "prompt": "σας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "ваш",
       "wrongAnswers": ["наш", "мой", "его"]
     },
@@ -270,7 +270,7 @@
       "id": "greek-pronouns-034",
       "type": "single-choice",
       "prompt": "τους",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "их",
       "wrongAnswers": ["наш", "ваш", "её"]
     },
@@ -278,7 +278,7 @@
       "id": "greek-pronouns-035",
       "type": "single-choice",
       "prompt": "δικός μου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "мой собственный",
       "wrongAnswers": ["твой собственный", "наш собственный", "их собственный"]
     },
@@ -286,7 +286,7 @@
       "id": "greek-pronouns-036",
       "type": "single-choice",
       "prompt": "δική μου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "моя собственная",
       "wrongAnswers": ["твоя собственная", "его собственная", "их собственная"]
     },
@@ -294,7 +294,7 @@
       "id": "greek-pronouns-037",
       "type": "single-choice",
       "prompt": "δικό μου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "моё собственное",
       "wrongAnswers": ["твоё собственное", "наше собственное", "их собственное"]
     },
@@ -302,7 +302,7 @@
       "id": "greek-pronouns-038",
       "type": "single-choice",
       "prompt": "δικός σου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "твой собственный",
       "wrongAnswers": ["мой собственный", "его собственный", "наш собственный"]
     },
@@ -310,7 +310,7 @@
       "id": "greek-pronouns-039",
       "type": "single-choice",
       "prompt": "δικός του",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "его собственный",
       "wrongAnswers": ["мой собственный", "твой собственный", "наш собственный"]
     },
@@ -318,7 +318,7 @@
       "id": "greek-pronouns-040",
       "type": "single-choice",
       "prompt": "δικός της",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "её собственный",
       "wrongAnswers": ["его собственный", "мой собственный", "ваш собственный"]
     },
@@ -326,7 +326,7 @@
       "id": "greek-pronouns-041",
       "type": "single-choice",
       "prompt": "δικός μας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "наш собственный",
       "wrongAnswers": ["мой собственный", "твой собственный", "их собственный"]
     },
@@ -334,7 +334,7 @@
       "id": "greek-pronouns-042",
       "type": "single-choice",
       "prompt": "δικός σας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "ваш собственный",
       "wrongAnswers": ["наш собственный", "мой собственный", "его собственный"]
     },
@@ -342,7 +342,7 @@
       "id": "greek-pronouns-043",
       "type": "single-choice",
       "prompt": "δικός τους",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "их собственный",
       "wrongAnswers": ["наш собственный", "ваш собственный", "её собственный"]
     },
@@ -350,7 +350,7 @@
       "id": "greek-pronouns-044",
       "type": "single-choice",
       "prompt": "ο εαυτός μου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "я сам",
       "wrongAnswers": ["ты сам", "он сам", "мы сами"]
     },
@@ -358,7 +358,7 @@
       "id": "greek-pronouns-045",
       "type": "single-choice",
       "prompt": "τον εαυτό μου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "себя",
       "wrongAnswers": ["тебя", "его", "нас"]
     },
@@ -366,7 +366,7 @@
       "id": "greek-pronouns-046",
       "type": "single-choice",
       "prompt": "ο εαυτός σου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "ты сам",
       "wrongAnswers": ["я сам", "он сам", "они сами"]
     },
@@ -374,7 +374,7 @@
       "id": "greek-pronouns-047",
       "type": "single-choice",
       "prompt": "τον εαυτό σου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "себя",
       "wrongAnswers": ["меня", "его", "вас"]
     },
@@ -382,7 +382,7 @@
       "id": "greek-pronouns-048",
       "type": "single-choice",
       "prompt": "ο εαυτός του",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "он сам",
       "wrongAnswers": ["я сам", "ты сам", "вы сами"]
     },
@@ -390,7 +390,7 @@
       "id": "greek-pronouns-049",
       "type": "single-choice",
       "prompt": "τον εαυτό του",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "себя",
       "wrongAnswers": ["меня", "тебя", "нас"]
     },
@@ -398,7 +398,7 @@
       "id": "greek-pronouns-050",
       "type": "single-choice",
       "prompt": "ο εαυτός της",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "она сама",
       "wrongAnswers": ["он сам", "я сам", "они сами"]
     },
@@ -406,7 +406,7 @@
       "id": "greek-pronouns-051",
       "type": "single-choice",
       "prompt": "τον εαυτό της",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "себя",
       "wrongAnswers": ["его", "меня", "вас"]
     },
@@ -414,7 +414,7 @@
       "id": "greek-pronouns-052",
       "type": "single-choice",
       "prompt": "ο εαυτός μας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "мы сами",
       "wrongAnswers": ["я сам", "вы сами", "они сами"]
     },
@@ -422,7 +422,7 @@
       "id": "greek-pronouns-053",
       "type": "single-choice",
       "prompt": "ο εαυτός σας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "вы сами",
       "wrongAnswers": ["мы сами", "ты сам", "они сами"]
     },
@@ -430,7 +430,7 @@
       "id": "greek-pronouns-054",
       "type": "single-choice",
       "prompt": "ο εαυτός τους",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "они сами",
       "wrongAnswers": ["мы сами", "вы сами", "он сам"]
     },
@@ -438,7 +438,7 @@
       "id": "greek-pronouns-055",
       "type": "single-choice",
       "prompt": "αυτός",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "этот",
       "wrongAnswers": ["тот", "какой", "кто-то"]
     },
@@ -446,7 +446,7 @@
       "id": "greek-pronouns-056",
       "type": "single-choice",
       "prompt": "αυτή",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "эта",
       "wrongAnswers": ["та", "какая", "кто-то"]
     },
@@ -454,7 +454,7 @@
       "id": "greek-pronouns-057",
       "type": "single-choice",
       "prompt": "αυτό",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "это",
       "wrongAnswers": ["то", "что", "какое-то"]
     },
@@ -462,7 +462,7 @@
       "id": "greek-pronouns-058",
       "type": "single-choice",
       "prompt": "εκείνος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "тот",
       "wrongAnswers": ["этот", "кто", "какой-то"]
     },
@@ -470,7 +470,7 @@
       "id": "greek-pronouns-059",
       "type": "single-choice",
       "prompt": "εκείνη",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "та",
       "wrongAnswers": ["эта", "кто-то", "какая"]
     },
@@ -478,7 +478,7 @@
       "id": "greek-pronouns-060",
       "type": "single-choice",
       "prompt": "εκείνο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "то",
       "wrongAnswers": ["это", "что-то", "какое"]
     },
@@ -486,7 +486,7 @@
       "id": "greek-pronouns-061",
       "type": "single-choice",
       "prompt": "εκείνοι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "те, мужской род",
       "wrongAnswers": ["эти, мужской род", "мы", "вы"]
     },
@@ -494,7 +494,7 @@
       "id": "greek-pronouns-062",
       "type": "single-choice",
       "prompt": "εκείνες",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "те, женский род",
       "wrongAnswers": ["эти, женский род", "она", "они, средний род"]
     },
@@ -502,7 +502,7 @@
       "id": "greek-pronouns-063",
       "type": "single-choice",
       "prompt": "εκείνα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "те, средний род",
       "wrongAnswers": ["эти, средний род", "оно", "мы"]
     },
@@ -510,7 +510,7 @@
       "id": "greek-pronouns-064",
       "type": "single-choice",
       "prompt": "ποιος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "кто, мужской род",
       "wrongAnswers": ["что", "какая", "кто-то"]
     },
@@ -518,7 +518,7 @@
       "id": "greek-pronouns-065",
       "type": "single-choice",
       "prompt": "ποια",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "кто, женский род",
       "wrongAnswers": ["что", "какой", "никто"]
     },
@@ -526,7 +526,7 @@
       "id": "greek-pronouns-066",
       "type": "single-choice",
       "prompt": "ποιο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "какое",
       "wrongAnswers": ["кто", "что-то", "никто"]
     },
@@ -534,7 +534,7 @@
       "id": "greek-pronouns-067",
       "type": "single-choice",
       "prompt": "ποιοι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "кто, множественное число",
       "wrongAnswers": ["что", "кто-то", "ничего"]
     },
@@ -542,7 +542,7 @@
       "id": "greek-pronouns-068",
       "type": "single-choice",
       "prompt": "ποιες",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "какие, женский род",
       "wrongAnswers": ["какой", "кто-то", "ничто"]
     },
@@ -550,7 +550,7 @@
       "id": "greek-pronouns-069",
       "type": "single-choice",
       "prompt": "τι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "что",
       "wrongAnswers": ["кто", "какой", "чей"]
     },
@@ -558,7 +558,7 @@
       "id": "greek-pronouns-070",
       "type": "single-choice",
       "prompt": "πονού",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "чей",
       "wrongAnswers": ["кто", "что", "какой"]
     },
@@ -566,7 +566,7 @@
       "id": "greek-pronouns-071",
       "type": "single-choice",
       "prompt": "τίνος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "чей",
       "wrongAnswers": ["кто", "что", "какая"]
     },
@@ -574,7 +574,7 @@
       "id": "greek-pronouns-072",
       "type": "single-choice",
       "prompt": "κάποιος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "кто-то, мужской род",
       "wrongAnswers": ["никто", "что-то", "этот"]
     },
@@ -582,7 +582,7 @@
       "id": "greek-pronouns-073",
       "type": "single-choice",
       "prompt": "κάποια",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "кто-то, женский род",
       "wrongAnswers": ["никто", "что", "эта"]
     },
@@ -590,7 +590,7 @@
       "id": "greek-pronouns-074",
       "type": "single-choice",
       "prompt": "κάποιο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "что-то",
       "wrongAnswers": ["никто", "кто", "тот"]
     },
@@ -598,7 +598,7 @@
       "id": "greek-pronouns-075",
       "type": "single-choice",
       "prompt": "κάποιοι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "какие-то, мужской род",
       "wrongAnswers": ["никто", "какой", "те"]
     },
@@ -606,7 +606,7 @@
       "id": "greek-pronouns-076",
       "type": "single-choice",
       "prompt": "κάποιες",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "какие-то, женский род",
       "wrongAnswers": ["никто", "какая", "эти"]
     },
@@ -614,7 +614,7 @@
       "id": "greek-pronouns-077",
       "type": "single-choice",
       "prompt": "κάτι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "что-то",
       "wrongAnswers": ["кто-то", "ничего", "кто"]
     },
@@ -622,7 +622,7 @@
       "id": "greek-pronouns-078",
       "type": "single-choice",
       "prompt": "κανείς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "никто",
       "wrongAnswers": ["кто-то", "что-то", "этот"]
     },
@@ -630,7 +630,7 @@
       "id": "greek-pronouns-079",
       "type": "single-choice",
       "prompt": "κανένας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "никто",
       "wrongAnswers": ["кто-то", "что", "тот"]
     },
@@ -638,7 +638,7 @@
       "id": "greek-pronouns-080",
       "type": "single-choice",
       "prompt": "καμία",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "никто, женский род",
       "wrongAnswers": ["кто-то", "ничего", "эта"]
     },
@@ -646,7 +646,7 @@
       "id": "greek-pronouns-081",
       "type": "single-choice",
       "prompt": "καμιά",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "никто, женский род",
       "wrongAnswers": ["кто-то", "что-то", "та"]
     },
@@ -654,7 +654,7 @@
       "id": "greek-pronouns-082",
       "type": "single-choice",
       "prompt": "κανένα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "ничего",
       "wrongAnswers": ["кто-то", "что-то", "кто"]
     },
@@ -662,7 +662,7 @@
       "id": "greek-pronouns-083",
       "type": "single-choice",
       "prompt": "τίποτα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "ничего",
       "wrongAnswers": ["кто-то", "что-то", "никто"]
     },
@@ -670,7 +670,7 @@
       "id": "greek-pronouns-084",
       "type": "single-choice",
       "prompt": "που",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "который",
       "wrongAnswers": ["кто", "что", "этот"]
     },
@@ -678,7 +678,7 @@
       "id": "greek-pronouns-085",
       "type": "single-choice",
       "prompt": "ο οποίος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "который",
       "wrongAnswers": ["которая", "которое", "которые"]
     },
@@ -686,7 +686,7 @@
       "id": "greek-pronouns-086",
       "type": "single-choice",
       "prompt": "η οποία",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "которая",
       "wrongAnswers": ["который", "которое", "которые"]
     },
@@ -694,7 +694,7 @@
       "id": "greek-pronouns-087",
       "type": "single-choice",
       "prompt": "το οποίο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "которое",
       "wrongAnswers": ["который", "которая", "которые"]
     },
@@ -702,7 +702,7 @@
       "id": "greek-pronouns-088",
       "type": "single-choice",
       "prompt": "οι οποίοι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "которые, мужской род",
       "wrongAnswers": ["который", "которая", "которые, женский род"]
     },
@@ -710,7 +710,7 @@
       "id": "greek-pronouns-089",
       "type": "single-choice",
       "prompt": "οι οποίες",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "которые, женский род",
       "wrongAnswers": ["который", "которое", "которые, мужской род"]
     },
@@ -718,7 +718,7 @@
       "id": "greek-pronouns-090",
       "type": "single-choice",
       "prompt": "τα οποία",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "которые, средний род",
       "wrongAnswers": ["который", "которая", "которые, мужской род"]
     },
@@ -726,7 +726,7 @@
       "id": "greek-pronouns-091",
       "type": "single-choice",
       "prompt": "ο ένας τον άλλον",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "друг друга",
       "wrongAnswers": ["самого себя", "кто-то", "ничего"]
     },
@@ -734,7 +734,7 @@
       "id": "greek-pronouns-092",
       "type": "single-choice",
       "prompt": "η μία την άλλη",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "друг друга, женский род",
       "wrongAnswers": ["саму себя", "кто-то", "ничего"]
     },
@@ -742,7 +742,7 @@
       "id": "greek-pronouns-093",
       "type": "single-choice",
       "prompt": "το ένα το άλλο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "друг друга, средний род",
       "wrongAnswers": ["само себя", "что-то", "никто"]
     },
@@ -750,7 +750,7 @@
       "id": "greek-pronouns-094",
       "type": "single-choice",
       "prompt": "ο ένας στον άλλον",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "друг другу",
       "wrongAnswers": ["самому себе", "кто-то", "никому"]
     },
@@ -758,7 +758,7 @@
       "id": "greek-pronouns-095",
       "type": "single-choice",
       "prompt": "η μία στην άλλη",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "друг другу, женский род",
       "wrongAnswers": ["самой себе", "кому-то", "никому"]
     },
@@ -766,7 +766,7 @@
       "id": "greek-pronouns-reverse-101",
       "type": "single-choice",
       "prompt": "я",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εγώ",
       "wrongAnswers": ["εσύ", "εμείς", "αυτοί"]
     },
@@ -774,7 +774,7 @@
       "id": "greek-pronouns-reverse-102",
       "type": "single-choice",
       "prompt": "ты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εσύ",
       "wrongAnswers": ["εγώ", "εσείς", "αυτή"]
     },
@@ -782,7 +782,7 @@
       "id": "greek-pronouns-reverse-103",
       "type": "single-choice",
       "prompt": "он",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτός",
       "wrongAnswers": ["αυτή", "αυτό", "αυτοί"]
     },
@@ -790,7 +790,7 @@
       "id": "greek-pronouns-reverse-104",
       "type": "single-choice",
       "prompt": "она",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτή",
       "wrongAnswers": ["αυτός", "αυτό", "εμείς"]
     },
@@ -798,7 +798,7 @@
       "id": "greek-pronouns-reverse-105",
       "type": "single-choice",
       "prompt": "оно",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτό",
       "wrongAnswers": ["αυτός", "αυτή", "εσείς"]
     },
@@ -806,7 +806,7 @@
       "id": "greek-pronouns-reverse-106",
       "type": "single-choice",
       "prompt": "мы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εμείς",
       "wrongAnswers": ["εγώ", "εσείς", "αυτοί"]
     },
@@ -814,7 +814,7 @@
       "id": "greek-pronouns-reverse-107",
       "type": "single-choice",
       "prompt": "вы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εσείς",
       "wrongAnswers": ["εσύ", "εμείς", "αυτές"]
     },
@@ -822,7 +822,7 @@
       "id": "greek-pronouns-reverse-108",
       "type": "single-choice",
       "prompt": "они, мужской род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτοί",
       "wrongAnswers": ["αυτές", "αυτά", "εμείς"]
     },
@@ -830,7 +830,7 @@
       "id": "greek-pronouns-reverse-109",
       "type": "single-choice",
       "prompt": "они, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτές",
       "wrongAnswers": ["αυτοί", "αυτά", "εσείς"]
     },
@@ -838,7 +838,7 @@
       "id": "greek-pronouns-reverse-110",
       "type": "single-choice",
       "prompt": "они, средний род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτά",
       "wrongAnswers": ["αυτοί", "αυτές", "εμείς"]
     },
@@ -846,7 +846,7 @@
       "id": "greek-pronouns-reverse-111",
       "type": "single-choice",
       "prompt": "меня",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "με",
       "wrongAnswers": ["σε", "μας", "τους"]
     },
@@ -854,7 +854,7 @@
       "id": "greek-pronouns-reverse-112",
       "type": "single-choice",
       "prompt": "тебя",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "σε",
       "wrongAnswers": ["με", "σας", "τον"]
     },
@@ -862,7 +862,7 @@
       "id": "greek-pronouns-reverse-113",
       "type": "single-choice",
       "prompt": "его",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τον",
       "wrongAnswers": ["την", "τους", "μας"]
     },
@@ -870,7 +870,7 @@
       "id": "greek-pronouns-reverse-114",
       "type": "single-choice",
       "prompt": "её",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "την",
       "wrongAnswers": ["τον", "τις", "σας"]
     },
@@ -878,7 +878,7 @@
       "id": "greek-pronouns-reverse-115",
       "type": "single-choice",
       "prompt": "его, средний род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το",
       "wrongAnswers": ["την", "με", "τα"]
     },
@@ -886,7 +886,7 @@
       "id": "greek-pronouns-reverse-116",
       "type": "single-choice",
       "prompt": "нас",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "μας",
       "wrongAnswers": ["σας", "με", "τους"]
     },
@@ -894,7 +894,7 @@
       "id": "greek-pronouns-reverse-117",
       "type": "single-choice",
       "prompt": "вас",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "σας",
       "wrongAnswers": ["μας", "σε", "τον"]
     },
@@ -902,7 +902,7 @@
       "id": "greek-pronouns-reverse-118",
       "type": "single-choice",
       "prompt": "их, мужской род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τους",
       "wrongAnswers": ["τις", "τα", "μας"]
     },
@@ -910,7 +910,7 @@
       "id": "greek-pronouns-reverse-119",
       "type": "single-choice",
       "prompt": "их, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τις",
       "wrongAnswers": ["τους", "τα", "την"]
     },
@@ -918,7 +918,7 @@
       "id": "greek-pronouns-reverse-120",
       "type": "single-choice",
       "prompt": "их, средний род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα",
       "wrongAnswers": ["τους", "τις", "το"]
     },
@@ -926,7 +926,7 @@
       "id": "greek-pronouns-reverse-121",
       "type": "single-choice",
       "prompt": "меня, сильная форма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εμένα",
       "wrongAnswers": ["εσένα", "εμάς", "εσάς"]
     },
@@ -934,7 +934,7 @@
       "id": "greek-pronouns-reverse-122",
       "type": "single-choice",
       "prompt": "тебя, сильная форма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εσένα",
       "wrongAnswers": ["εμένα", "αυτόν", "αυτούς"]
     },
@@ -942,7 +942,7 @@
       "id": "greek-pronouns-reverse-123",
       "type": "single-choice",
       "prompt": "его, сильная форма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτόν",
       "wrongAnswers": ["αυτήν", "εσένα", "εμάς"]
     },
@@ -950,7 +950,7 @@
       "id": "greek-pronouns-reverse-124",
       "type": "single-choice",
       "prompt": "её, сильная форма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτήν",
       "wrongAnswers": ["αυτόν", "εμένα", "εσάς"]
     },
@@ -958,7 +958,7 @@
       "id": "greek-pronouns-reverse-125",
       "type": "single-choice",
       "prompt": "нас, сильная форма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εμάς",
       "wrongAnswers": ["εσάς", "εμένα", "αυτούς"]
     },
@@ -966,7 +966,7 @@
       "id": "greek-pronouns-reverse-126",
       "type": "single-choice",
       "prompt": "вас, сильная форма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εσάς",
       "wrongAnswers": ["εμάς", "εσένα", "αυτόν"]
     },
@@ -974,7 +974,7 @@
       "id": "greek-pronouns-reverse-127",
       "type": "single-choice",
       "prompt": "их, сильная форма мужского рода",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτούς",
       "wrongAnswers": ["εμάς", "εσάς", "αυτήν"]
     },
@@ -982,7 +982,7 @@
       "id": "greek-pronouns-reverse-128",
       "type": "single-choice",
       "prompt": "мой",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "μου",
       "wrongAnswers": ["σου", "του", "τους"]
     },
@@ -990,7 +990,7 @@
       "id": "greek-pronouns-reverse-129",
       "type": "single-choice",
       "prompt": "твой",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "σου",
       "wrongAnswers": ["μου", "μας", "της"]
     },
@@ -998,7 +998,7 @@
       "id": "greek-pronouns-reverse-130",
       "type": "single-choice",
       "prompt": "его, притяжательное",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "του",
       "wrongAnswers": ["μου", "σου", "μας"]
     },
@@ -1006,7 +1006,7 @@
       "id": "greek-pronouns-reverse-131",
       "type": "single-choice",
       "prompt": "её, притяжательное",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "της",
       "wrongAnswers": ["του", "μου", "σας"]
     },
@@ -1014,7 +1014,7 @@
       "id": "greek-pronouns-reverse-132",
       "type": "single-choice",
       "prompt": "наш",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "μας",
       "wrongAnswers": ["μου", "σου", "τους"]
     },
@@ -1022,7 +1022,7 @@
       "id": "greek-pronouns-reverse-133",
       "type": "single-choice",
       "prompt": "ваш",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "σας",
       "wrongAnswers": ["μας", "μου", "του"]
     },
@@ -1030,7 +1030,7 @@
       "id": "greek-pronouns-reverse-134",
       "type": "single-choice",
       "prompt": "их, притяжательное",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τους",
       "wrongAnswers": ["μας", "σας", "της"]
     },
@@ -1038,7 +1038,7 @@
       "id": "greek-pronouns-reverse-135",
       "type": "single-choice",
       "prompt": "мой собственный",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικός μου",
       "wrongAnswers": ["δικός σου", "δικός μας", "δικός τους"]
     },
@@ -1046,7 +1046,7 @@
       "id": "greek-pronouns-reverse-136",
       "type": "single-choice",
       "prompt": "моя собственная",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δική μου",
       "wrongAnswers": ["δική σου", "δική του", "δική τους"]
     },
@@ -1054,7 +1054,7 @@
       "id": "greek-pronouns-reverse-137",
       "type": "single-choice",
       "prompt": "моё собственное",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικό μου",
       "wrongAnswers": ["δικό σου", "δικό μας", "δικό τους"]
     },
@@ -1062,7 +1062,7 @@
       "id": "greek-pronouns-reverse-138",
       "type": "single-choice",
       "prompt": "твой собственный",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικός σου",
       "wrongAnswers": ["δικός μου", "δικός του", "δικός μας"]
     },
@@ -1070,7 +1070,7 @@
       "id": "greek-pronouns-reverse-139",
       "type": "single-choice",
       "prompt": "его собственный",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικός του",
       "wrongAnswers": ["δικός μου", "δικός σου", "δικός μας"]
     },
@@ -1078,7 +1078,7 @@
       "id": "greek-pronouns-reverse-140",
       "type": "single-choice",
       "prompt": "её собственный",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικός της",
       "wrongAnswers": ["δικός του", "δικός μου", "δικός σας"]
     },
@@ -1086,7 +1086,7 @@
       "id": "greek-pronouns-reverse-141",
       "type": "single-choice",
       "prompt": "наш собственный",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικός μας",
       "wrongAnswers": ["δικός μου", "δικός σου", "δικός τους"]
     },
@@ -1094,7 +1094,7 @@
       "id": "greek-pronouns-reverse-142",
       "type": "single-choice",
       "prompt": "ваш собственный",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικός σας",
       "wrongAnswers": ["δικός μας", "δικός μου", "δικός του"]
     },
@@ -1102,7 +1102,7 @@
       "id": "greek-pronouns-reverse-143",
       "type": "single-choice",
       "prompt": "их собственный",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "δικός τους",
       "wrongAnswers": ["δικός μας", "δικός σας", "δικός της"]
     },
@@ -1110,7 +1110,7 @@
       "id": "greek-pronouns-reverse-144",
       "type": "single-choice",
       "prompt": "я сам",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο εαυτός μου",
       "wrongAnswers": ["ο εαυτός σου", "ο εαυτός του", "ο εαυτός μας"]
     },
@@ -1118,7 +1118,7 @@
       "id": "greek-pronouns-reverse-145",
       "type": "single-choice",
       "prompt": "себя, о себе в 1 лице",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τον εαυτό μου",
       "wrongAnswers": ["τον εαυτό σου", "τον εαυτό του", "τον εαυτό μας"]
     },
@@ -1126,7 +1126,7 @@
       "id": "greek-pronouns-reverse-146",
       "type": "single-choice",
       "prompt": "ты сам",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο εαυτός σου",
       "wrongAnswers": ["ο εαυτός μου", "ο εαυτός του", "ο εαυτός τους"]
     },
@@ -1134,7 +1134,7 @@
       "id": "greek-pronouns-reverse-147",
       "type": "single-choice",
       "prompt": "себя, о себе во 2 лице",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τον εαυτό σου",
       "wrongAnswers": ["τον εαυτό μου", "τον εαυτό του", "τον εαυτό σας"]
     },
@@ -1142,7 +1142,7 @@
       "id": "greek-pronouns-reverse-148",
       "type": "single-choice",
       "prompt": "он сам",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο εαυτός του",
       "wrongAnswers": ["ο εαυτός μου", "ο εαυτός σου", "ο εαυτός σας"]
     },
@@ -1150,7 +1150,7 @@
       "id": "greek-pronouns-reverse-149",
       "type": "single-choice",
       "prompt": "себя, о нём самом",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τον εαυτό του",
       "wrongAnswers": ["τον εαυτό μου", "τον εαυτό σου", "τον εαυτό μας"]
     },
@@ -1158,7 +1158,7 @@
       "id": "greek-pronouns-reverse-150",
       "type": "single-choice",
       "prompt": "она сама",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο εαυτός της",
       "wrongAnswers": ["ο εαυτός του", "ο εαυτός μου", "ο εαυτός τους"]
     },
@@ -1166,7 +1166,7 @@
       "id": "greek-pronouns-reverse-151",
       "type": "single-choice",
       "prompt": "себя, о ней самой",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τον εαυτό της",
       "wrongAnswers": ["τον εαυτό του", "τον εαυτό μου", "τον εαυτό σας"]
     },
@@ -1174,7 +1174,7 @@
       "id": "greek-pronouns-reverse-152",
       "type": "single-choice",
       "prompt": "мы сами",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο εαυτός μας",
       "wrongAnswers": ["ο εαυτός μου", "ο εαυτός σας", "ο εαυτός τους"]
     },
@@ -1182,7 +1182,7 @@
       "id": "greek-pronouns-reverse-153",
       "type": "single-choice",
       "prompt": "вы сами",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο εαυτός σας",
       "wrongAnswers": ["ο εαυτός μας", "ο εαυτός σου", "ο εαυτός τους"]
     },
@@ -1190,7 +1190,7 @@
       "id": "greek-pronouns-reverse-154",
       "type": "single-choice",
       "prompt": "они сами",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο εαυτός τους",
       "wrongAnswers": ["ο εαυτός μας", "ο εαυτός σας", "ο εαυτός του"]
     },
@@ -1198,7 +1198,7 @@
       "id": "greek-pronouns-reverse-155",
       "type": "single-choice",
       "prompt": "этот",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτός",
       "wrongAnswers": ["εκείνος", "ποιος", "κάποιος"]
     },
@@ -1206,7 +1206,7 @@
       "id": "greek-pronouns-reverse-156",
       "type": "single-choice",
       "prompt": "эта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτή",
       "wrongAnswers": ["εκείνη", "ποια", "κάποια"]
     },
@@ -1214,7 +1214,7 @@
       "id": "greek-pronouns-reverse-157",
       "type": "single-choice",
       "prompt": "это",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "αυτό",
       "wrongAnswers": ["εκείνο", "τι", "κάποιο"]
     },
@@ -1222,7 +1222,7 @@
       "id": "greek-pronouns-reverse-158",
       "type": "single-choice",
       "prompt": "тот",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εκείνος",
       "wrongAnswers": ["αυτός", "ποιος", "κάποιος"]
     },
@@ -1231,14 +1231,14 @@
       "type": "single-choice",
       "prompt": "та",
       "correctAnswer": "εκείνη",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "wrongAnswers": ["αυτή", "κάποια", "ποια"]
     },
     {
       "id": "greek-pronouns-reverse-160",
       "type": "single-choice",
       "prompt": "то",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εκείνο",
       "wrongAnswers": ["αυτό", "κάτι", "ποιο"]
     },
@@ -1246,7 +1246,7 @@
       "id": "greek-pronouns-reverse-161",
       "type": "single-choice",
       "prompt": "те, мужской род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εκείνοι",
       "wrongAnswers": ["αυτοί", "εμείς", "εσείς"]
     },
@@ -1254,7 +1254,7 @@
       "id": "greek-pronouns-reverse-162",
       "type": "single-choice",
       "prompt": "те, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εκείνες",
       "wrongAnswers": ["αυτές", "αυτά", "αυτή"]
     },
@@ -1262,7 +1262,7 @@
       "id": "greek-pronouns-reverse-163",
       "type": "single-choice",
       "prompt": "те, средний род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "εκείνα",
       "wrongAnswers": ["αυτά", "αυτό", "εμείς"]
     },
@@ -1270,7 +1270,7 @@
       "id": "greek-pronouns-reverse-164",
       "type": "single-choice",
       "prompt": "кто, мужской род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ποιος",
       "wrongAnswers": ["τι", "ποια", "κάποιος"]
     },
@@ -1278,7 +1278,7 @@
       "id": "greek-pronouns-reverse-165",
       "type": "single-choice",
       "prompt": "кто, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ποια",
       "wrongAnswers": ["τι", "ποιος", "κανείς"]
     },
@@ -1286,7 +1286,7 @@
       "id": "greek-pronouns-reverse-166",
       "type": "single-choice",
       "prompt": "какое",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ποιο",
       "wrongAnswers": ["ποιος", "κάτι", "κανένα"]
     },
@@ -1294,7 +1294,7 @@
       "id": "greek-pronouns-reverse-167",
       "type": "single-choice",
       "prompt": "кто, множественное число",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ποιοι",
       "wrongAnswers": ["τι", "κάποιοι", "τίποτα"]
     },
@@ -1302,7 +1302,7 @@
       "id": "greek-pronouns-reverse-168",
       "type": "single-choice",
       "prompt": "какие, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ποιες",
       "wrongAnswers": ["ποιος", "κάποιες", "κανένα"]
     },
@@ -1310,7 +1310,7 @@
       "id": "greek-pronouns-reverse-169",
       "type": "single-choice",
       "prompt": "что",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τι",
       "wrongAnswers": ["ποιος", "ποιο", "πονού"]
     },
@@ -1318,7 +1318,7 @@
       "id": "greek-pronouns-reverse-170",
       "type": "single-choice",
       "prompt": "чей, разговорное",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "πονού",
       "wrongAnswers": ["ποιος", "τι", "ποιο"]
     },
@@ -1326,7 +1326,7 @@
       "id": "greek-pronouns-reverse-171",
       "type": "single-choice",
       "prompt": "чей, книжное",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τίνος",
       "wrongAnswers": ["ποιος", "τι", "ποια"]
     },
@@ -1334,7 +1334,7 @@
       "id": "greek-pronouns-reverse-172",
       "type": "single-choice",
       "prompt": "кто-то, мужской род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κάποιος",
       "wrongAnswers": ["κανείς", "κάτι", "αυτός"]
     },
@@ -1342,6 +1342,7 @@
       "id": "greek-pronouns-reverse-173",
       "type": "single-choice",
       "prompt": "кто-то, женский род",
+      "speechTarget": "options",
       "correctAnswer": "κάποια",
       "wrongAnswers": ["καμία", "τι", "αυτή"]
     },
@@ -1349,7 +1350,7 @@
       "id": "greek-pronouns-reverse-174",
       "type": "single-choice",
       "prompt": "что-то",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κάποιο",
       "wrongAnswers": ["κανένα", "ποιος", "εκείνο"]
     },
@@ -1357,7 +1358,7 @@
       "id": "greek-pronouns-reverse-175",
       "type": "single-choice",
       "prompt": "какие-то, мужской род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κάποιοι",
       "wrongAnswers": ["κανείς", "ποιος", "εκείνοι"]
     },
@@ -1365,7 +1366,7 @@
       "id": "greek-pronouns-reverse-176",
       "type": "single-choice",
       "prompt": "какие-то, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κάποιες",
       "wrongAnswers": ["καμία", "ποια", "αυτές"]
     },
@@ -1373,7 +1374,7 @@
       "id": "greek-pronouns-reverse-177",
       "type": "single-choice",
       "prompt": "что-то",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κάτι",
       "wrongAnswers": ["κάποιος", "τίποτα", "ποιος"]
     },
@@ -1381,7 +1382,7 @@
       "id": "greek-pronouns-reverse-178",
       "type": "single-choice",
       "prompt": "никто",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κανείς",
       "wrongAnswers": ["κάποιος", "κάτι", "αυτός"]
     },
@@ -1389,7 +1390,7 @@
       "id": "greek-pronouns-reverse-179",
       "type": "single-choice",
       "prompt": "никто",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κανένας",
       "wrongAnswers": ["κάποιος", "τι", "εκείνος"]
     },
@@ -1397,7 +1398,7 @@
       "id": "greek-pronouns-reverse-180",
       "type": "single-choice",
       "prompt": "никто, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "καμία",
       "wrongAnswers": ["κάποια", "τίποτα", "αυτή"]
     },
@@ -1405,7 +1406,7 @@
       "id": "greek-pronouns-reverse-181",
       "type": "single-choice",
       "prompt": "никто, женский род, разговорное",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "καμιά",
       "wrongAnswers": ["κάποια", "κάτι", "εκείνη"]
     },
@@ -1413,7 +1414,7 @@
       "id": "greek-pronouns-reverse-182",
       "type": "single-choice",
       "prompt": "ничего",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "κανένα",
       "wrongAnswers": ["κάποιος", "κάτι", "ποιος"]
     },
@@ -1421,7 +1422,7 @@
       "id": "greek-pronouns-reverse-183",
       "type": "single-choice",
       "prompt": "ничего",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τίποτα",
       "wrongAnswers": ["κάποιος", "κάτι", "κανείς"]
     },
@@ -1429,7 +1430,7 @@
       "id": "greek-pronouns-reverse-184",
       "type": "single-choice",
       "prompt": "который",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "που",
       "wrongAnswers": ["ποιος", "τι", "αυτός"]
     },
@@ -1437,7 +1438,7 @@
       "id": "greek-pronouns-reverse-185",
       "type": "single-choice",
       "prompt": "который",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο οποίος",
       "wrongAnswers": ["η οποία", "το οποίο", "οι οποίοι"]
     },
@@ -1445,7 +1446,7 @@
       "id": "greek-pronouns-reverse-186",
       "type": "single-choice",
       "prompt": "которая",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η οποία",
       "wrongAnswers": ["ο οποίος", "το οποίο", "οι οποίες"]
     },
@@ -1453,7 +1454,7 @@
       "id": "greek-pronouns-reverse-187",
       "type": "single-choice",
       "prompt": "которое",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το οποίο",
       "wrongAnswers": ["ο οποίος", "η οποία", "τα οποία"]
     },
@@ -1461,7 +1462,7 @@
       "id": "greek-pronouns-reverse-188",
       "type": "single-choice",
       "prompt": "которые, мужской род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι οποίοι",
       "wrongAnswers": ["ο οποίος", "η οποία", "οι οποίες"]
     },
@@ -1469,7 +1470,7 @@
       "id": "greek-pronouns-reverse-189",
       "type": "single-choice",
       "prompt": "которые, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι οποίες",
       "wrongAnswers": ["ο οποίος", "το οποίο", "οι οποίοι"]
     },
@@ -1477,7 +1478,7 @@
       "id": "greek-pronouns-reverse-190",
       "type": "single-choice",
       "prompt": "которые, средний род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα οποία",
       "wrongAnswers": ["ο οποίος", "η οποία", "οι οποίοι"]
     },
@@ -1485,7 +1486,7 @@
       "id": "greek-pronouns-reverse-091",
       "type": "single-choice",
       "prompt": "друг друга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο ένας τον άλλον",
       "wrongAnswers": ["ο εαυτός μου", "κάποιος", "τίποτα"]
     },
@@ -1493,7 +1494,7 @@
       "id": "greek-pronouns-reverse-192",
       "type": "single-choice",
       "prompt": "друг друга, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η μία την άλλη",
       "wrongAnswers": ["τον εαυτό της", "κάποια", "τίποτα"]
     },
@@ -1501,7 +1502,7 @@
       "id": "greek-pronouns-reverse-193",
       "type": "single-choice",
       "prompt": "друг друга, средний род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το ένα το άλλο",
       "wrongAnswers": ["τον εαυτό του", "κάτι", "κανείς"]
     },
@@ -1509,7 +1510,7 @@
       "id": "greek-pronouns-reverse-194",
       "type": "single-choice",
       "prompt": "друг другу",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο ένας στον άλλον",
       "wrongAnswers": ["τον εαυτό μου", "κάποιος", "κανέναν"]
     },
@@ -1517,7 +1518,7 @@
       "id": "greek-pronouns-reverse-195",
       "type": "single-choice",
       "prompt": "друг другу, женский род",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η μία στην άλλη",
       "wrongAnswers": ["τον εαυτό της", "κάποια", "καμία"]
     }

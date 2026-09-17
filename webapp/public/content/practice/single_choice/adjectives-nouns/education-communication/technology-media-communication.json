@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-001",
       "type": "single-choice",
       "prompt": "новая машина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
       "correctAnswer": "η καινούρια μηχανή",
       "wrongAnswers": ["ο καινούριος μηχανή", "οι καινούριοι μηχανή", "οι καινούριες μηχανή"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-002",
       "type": "single-choice",
       "prompt": "цифровой компьютер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
       "correctAnswer": "ο ψηφιακός υπολογιστής",
       "wrongAnswers": [
@@ -28,7 +28,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-003",
       "type": "single-choice",
       "prompt": "большой телевизор",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τηλεόραση\nМножественное число: οι τηλεοράσεις\n\nРод: женский",
       "correctAnswer": "η μεγάλη τηλεόραση",
       "wrongAnswers": ["ο μεγάλος τηλεόραση", "οι μεγάλοι τηλεόραση", "οι μεγάλες τηλεόραση"]
@@ -37,7 +37,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-004",
       "type": "single-choice",
       "prompt": "электронный микрофон",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μικρόφωνο\nМножественное число: τα μικρόφωνα\n\nРод: средний",
       "correctAnswer": "το ηλεκτρονικό μικρόφωνο",
       "wrongAnswers": [
@@ -50,7 +50,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-005",
       "type": "single-choice",
       "prompt": "электронное сообщение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "το ηλεκτρονικό μήνυμα",
       "wrongAnswers": ["ο ηλεκτρονικός μήνυμα", "οι ηλεκτρονικοί μήνυμα", "η ηλεκτρονική μήνυμα"]
@@ -59,7 +59,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-006",
       "type": "single-choice",
       "prompt": "цифровые часы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ρολόι\nМножественное число: τα ρολόγια\n\nРод: средний",
       "correctAnswer": "το ψηφιακό ρολόι",
       "wrongAnswers": ["ο ψηφιακός ρολόι", "οι ψηφιακοί ρολόι", "η ψηφιακή ρολόι"]
@@ -68,7 +68,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-007",
       "type": "single-choice",
       "prompt": "новые мобильные телефоны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τηλέφωνο\nМножественное число: τα τηλέφωνα\n\nРод: средний",
       "correctAnswer": "τα καινούρια κινητά τηλέφωνα",
       "wrongAnswers": [
@@ -81,7 +81,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-008",
       "type": "single-choice",
       "prompt": "новые компьютеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
       "correctAnswer": "οι καινούριοι υπολογιστές",
       "wrongAnswers": [
@@ -94,7 +94,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-009",
       "type": "single-choice",
       "prompt": "короткие сообщения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "τα σύντομα μηνύματα",
       "wrongAnswers": ["ο σύντομος μηνύματα", "οι σύντομοι μηνύματα", "η σύντομη μηνύματα"]
@@ -103,7 +103,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-010",
       "type": "single-choice",
       "prompt": "электрический свет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φως\nМножественное число: τα φώτα\n\nРод: средний",
       "correctAnswer": "το ηλεκτρικό φως",
       "wrongAnswers": ["ο ηλεκτρικός φως", "οι ηλεκτρικοί φως", "η ηλεκτρική φως"]
@@ -112,7 +112,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-011",
       "type": "single-choice",
       "prompt": "новые лифты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ασανσέρ\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "τα καινούρια ασανσέρ",
       "wrongAnswers": ["ο καινούριος ασανσέρ", "οι καινούριοι ασανσέρ", "οι καινούριες ασανσέρ"]
@@ -121,7 +121,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-012",
       "type": "single-choice",
       "prompt": "цифровые часы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ρολόι\nМножественное число: τα ρολόγια\n\nРод: средний",
       "correctAnswer": "τα ψηφιακά ρολόγια",
       "wrongAnswers": ["ο ψηφιακός ρολόγια", "οι ψηφιακοί ρολόγια", "η ψηφιακή ρολόγια"]
@@ -130,7 +130,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-013",
       "type": "single-choice",
       "prompt": "электронное устройство",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συσκευή\nМножественное число: οι συσκευές\n\nРод: женский",
       "correctAnswer": "η ηλεκτρονική συσκευή",
       "wrongAnswers": [
@@ -143,7 +143,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-014",
       "type": "single-choice",
       "prompt": "новые устройства",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συσκευή\nМножественное число: οι συσκευές\n\nРод: женский",
       "correctAnswer": "οι καινούριες συσκευές",
       "wrongAnswers": ["ο καινούριος συσκευές", "οι καινούριοι συσκευές", "η καινούρια συσκευές"]
@@ -152,7 +152,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-015",
       "type": "single-choice",
       "prompt": "электрические розетки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πρίζα\nМножественное число: οι πρίζες\n\nРод: женский",
       "correctAnswer": "οι ηλεκτρικές πρίζες",
       "wrongAnswers": ["ο ηλεκτρικός πρίζες", "οι ηλεκτρικοί πρίζες", "η ηλεκτρική πρίζες"]
@@ -161,7 +161,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-016",
       "type": "single-choice",
       "prompt": "любимые фотоаппараты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
       "correctAnswer": "οι αγαπημένες φωτογραφικές μηχανές",
       "wrongAnswers": [
@@ -174,7 +174,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-017",
       "type": "single-choice",
       "prompt": "новые радиоприёмники",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ραδιόφωνο\nМножественное число: τα ραδιόφωνα\n\nРод: средний",
       "correctAnswer": "τα νέα ραδιόφωνα",
       "wrongAnswers": ["ο νέος ραδιόφωνα", "οι νέοι ραδιόφωνα", "οι νέες ραδιόφωνα"]
@@ -183,7 +183,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-018",
       "type": "single-choice",
       "prompt": "электрические огни",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φως\nМножественное число: τα φώτα\n\nРод: средний",
       "correctAnswer": "τα ηλεκτρικά φώτα",
       "wrongAnswers": ["ο ηλεκτρικός φώτα", "οι ηλεκτρικοί φώτα", "η ηλεκτρική φώτα"]
@@ -192,7 +192,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-019",
       "type": "single-choice",
       "prompt": "новые программы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πρόγραμμα\nМножественное число: τα προγράμματα\n\nРод: средний",
       "correctAnswer": "τα καινούρια προγράμματα",
       "wrongAnswers": [
@@ -205,7 +205,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-020",
       "type": "single-choice",
       "prompt": "краткие телефонные звонки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τηλεφώνημα\nМножественное число: τα τηλεφωνήματα\n\nРод: средний",
       "correctAnswer": "τα σύντομα τηλεφωνήματα",
       "wrongAnswers": [
@@ -218,7 +218,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-021",
       "type": "single-choice",
       "prompt": "электронные устройства",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συσκευή\nМножественное число: οι συσκευές\n\nРод: женский",
       "correctAnswer": "οι ηλεκτρονικές συσκευές",
       "wrongAnswers": [
@@ -231,7 +231,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-022",
       "type": "single-choice",
       "prompt": "новый компьютер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
       "correctAnswer": "ο καινούριος υπολογιστής",
       "wrongAnswers": [
@@ -244,7 +244,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-023",
       "type": "single-choice",
       "prompt": "новый радиоприёмник",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ραδιόφωνο\nМножественное число: τα ραδιόφωνα\n\nРод: средний",
       "correctAnswer": "το νέο ραδιόφωνο",
       "wrongAnswers": ["ο νέος ραδιόφωνο", "οι νέοι ραδιόφωνο", "η νέα ραδιόφωνο"]
@@ -253,7 +253,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-024",
       "type": "single-choice",
       "prompt": "хорошая радиостанция",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο σταθμός\nМножественное число: οι σταθμοί\n\nРод: мужской",
       "correctAnswer": "ο καλός ραδιοφωνικός σταθμός",
       "wrongAnswers": [
@@ -266,7 +266,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-025",
       "type": "single-choice",
       "prompt": "быстрый интернет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ίντερνετ\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "το γρήγορο ίντερνετ",
       "wrongAnswers": ["ο γρήγορος ίντερνετ", "οι γρήγοροι ίντερνετ", "η γρήγορη ίντερνετ"]
@@ -275,7 +275,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-026",
       "type": "single-choice",
       "prompt": "электронные сообщения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "τα ηλεκτρονικά μηνύματα",
       "wrongAnswers": [
@@ -288,7 +288,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-027",
       "type": "single-choice",
       "prompt": "быстрые машины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
       "correctAnswer": "οι γρήγορες μηχανές",
       "wrongAnswers": ["ο γρήγορος μηχανές", "οι γρήγοροι μηχανές", "η γρήγορη μηχανές"]
@@ -297,7 +297,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-028",
       "type": "single-choice",
       "prompt": "любимый фотоаппарат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
       "correctAnswer": "η αγαπημένη φωτογραφική μηχανή",
       "wrongAnswers": [
@@ -310,7 +310,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-029",
       "type": "single-choice",
       "prompt": "электронный банкомат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ΑΤΜ\nМножественное число: τα ΑΤΜ\n\nРод: средний",
       "correctAnswer": "το ηλεκτρονικό ΑΤΜ",
       "wrongAnswers": ["ο ηλεκτρονικός ΑΤΜ", "οι ηλεκτρονικοί ΑΤΜ", "η ηλεκτρονική ΑΤΜ"]
@@ -319,7 +319,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-030",
       "type": "single-choice",
       "prompt": "технологические продукты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το προϊόν\nМножественное число: τα προϊόντα\n\nРод: средний",
       "correctAnswer": "τα τεχνολογικά προϊόντα",
       "wrongAnswers": [
@@ -332,7 +332,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-031",
       "type": "single-choice",
       "prompt": "быстрый интернет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το διαδίκτυο\nМножественное число: τα διαδίκτυα\n\nРод: средний",
       "correctAnswer": "το γρήγορο διαδίκτυο",
       "wrongAnswers": ["ο γρήγορος διαδίκτυο", "οι γρήγοροι διαδίκτυο", "η γρήγορη διαδίκτυο"]
@@ -341,7 +341,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-032",
       "type": "single-choice",
       "prompt": "технологические устройства",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συσκευή\nМножественное число: οι συσκευές\n\nРод: женский",
       "correctAnswer": "οι τεχνολογικές συσκευές",
       "wrongAnswers": [
@@ -354,7 +354,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-033",
       "type": "single-choice",
       "prompt": "электронные банкоматы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ΑΤΜ\nМножественное число: τα ΑΤΜ\n\nРод: средний",
       "correctAnswer": "τα ηλεκτρονικά ΑΤΜ",
       "wrongAnswers": ["ο ηλεκτρονικός ΑΤΜ", "οι ηλεκτρονικοί ΑΤΜ", "η ηλεκτρονική ΑΤΜ"]
@@ -363,7 +363,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-034",
       "type": "single-choice",
       "prompt": "письменные сообщения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "τα γραπτά μηνύματα",
       "wrongAnswers": ["ο γραπτός μηνύματα", "οι γραπτοί μηνύματα", "η γραπτή μηνύματα"]
@@ -372,7 +372,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-035",
       "type": "single-choice",
       "prompt": "электронные компьютеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
       "correctAnswer": "οι ηλεκτρονικοί υπολογιστές",
       "wrongAnswers": [
@@ -385,7 +385,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-036",
       "type": "single-choice",
       "prompt": "быстрая машина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
       "correctAnswer": "η γρήγορη μηχανή",
       "wrongAnswers": ["ο γρήγορος μηχανή", "οι γρήγοροι μηχανή", "οι γρήγορες μηχανή"]
@@ -394,7 +394,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-037",
       "type": "single-choice",
       "prompt": "новый мобильный телефон",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τηλέφωνο\nМножественное число: τα τηλέφωνα\n\nРод: средний",
       "correctAnswer": "το καινούριο κινητό τηλέφωνο",
       "wrongAnswers": [
@@ -407,7 +407,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-038",
       "type": "single-choice",
       "prompt": "цифровые компьютеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
       "correctAnswer": "οι ψηφιακοί υπολογιστές",
       "wrongAnswers": ["ο ψηφιακός υπολογιστές", "η ψηφιακή υπολογιστές", "οι ψηφιακές υπολογιστές"]
@@ -416,7 +416,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-039",
       "type": "single-choice",
       "prompt": "современный телефон",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τηλέφωνο\nМножественное число: τα τηλέφωνα\n\nРод: средний",
       "correctAnswer": "το σύγχρονο τηλέφωνο",
       "wrongAnswers": ["ο σύγχρονος τηλέφωνο", "οι σύγχρονοι τηλέφωνο", "η σύγχρονη τηλέφωνο"]
@@ -425,7 +425,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-040",
       "type": "single-choice",
       "prompt": "технологические компьютеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
       "correctAnswer": "οι τεχνολογικοί υπολογιστές",
       "wrongAnswers": [
@@ -438,7 +438,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-041",
       "type": "single-choice",
       "prompt": "электрический ток",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ρεύμα\nМножественное число: τα ρεύματα\n\nРод: средний",
       "correctAnswer": "το ηλεκτρικό ρεύμα",
       "wrongAnswers": ["ο ηλεκτρικός ρεύμα", "οι ηλεκτρικοί ρεύμα", "η ηλεκτρική ρεύμα"]
@@ -447,7 +447,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-042",
       "type": "single-choice",
       "prompt": "электронный факс",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φαξ\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "το ηλεκτρονικό φαξ",
       "wrongAnswers": ["ο ηλεκτρονικός φαξ", "οι ηλεκτρονικοί φαξ", "η ηλεκτρονική φαξ"]
@@ -456,7 +456,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-043",
       "type": "single-choice",
       "prompt": "большие телевизоры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τηλεόραση\nМножественное число: οι τηλεοράσεις\n\nРод: женский",
       "correctAnswer": "οι μεγάλες τηλεοράσεις",
       "wrongAnswers": ["ο μεγάλος τηλεοράσεις", "οι μεγάλοι τηλεοράσεις", "η μεγάλη τηλεοράσεις"]
@@ -465,7 +465,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-044",
       "type": "single-choice",
       "prompt": "быстрые интернеты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το διαδίκτυο\nМножественное число: τα διαδίκτυα\n\nРод: средний",
       "correctAnswer": "τα γρήγορα διαδίκτυα",
       "wrongAnswers": ["ο γρήγορος διαδίκτυα", "οι γρήγοροι διαδίκτυα", "η γρήγορη διαδίκτυα"]
@@ -474,7 +474,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-045",
       "type": "single-choice",
       "prompt": "хорошие радиостанции",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο σταθμός\nМножественное число: οι σταθμοί\n\nРод: мужской",
       "correctAnswer": "οι καλοί ραδιοφωνικοί σταθμοί",
       "wrongAnswers": [
@@ -487,7 +487,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-046",
       "type": "single-choice",
       "prompt": "новое устройство",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συσκευή\nМножественное число: οι συσκευές\n\nРод: женский",
       "correctAnswer": "η καινούρια συσκευή",
       "wrongAnswers": ["ο καινούριος συσκευή", "οι καινούριοι συσκευή", "οι καινούριες συσκευή"]
@@ -496,7 +496,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-047",
       "type": "single-choice",
       "prompt": "современные телефоны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τηλέφωνο\nМножественное число: τα τηλέφωνα\n\nРод: средний",
       "correctAnswer": "τα σύγχρονα τηλέφωνα",
       "wrongAnswers": ["ο σύγχρονος τηλέφωνα", "οι σύγχρονοι τηλέφωνα", "η σύγχρονη τηλέφωνα"]
@@ -505,7 +505,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-048",
       "type": "single-choice",
       "prompt": "электронные микрофоны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μικρόφωνο\nМножественное число: τα μικρόφωνα\n\nРод: средний",
       "correctAnswer": "τα ηλεκτρονικά μικρόφωνα",
       "wrongAnswers": [
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-049",
       "type": "single-choice",
       "prompt": "электронный компьютер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
       "correctAnswer": "ο ηλεκτρονικός υπολογιστής",
       "wrongAnswers": [
@@ -531,7 +531,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-050",
       "type": "single-choice",
       "prompt": "яркие огни",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φως\nМножественное число: τα φώτα\n\nРод: средний",
       "correctAnswer": "τα λαμπρά φώτα",
       "wrongAnswers": ["ο λαμπρός φώτα", "η λαμπρή φώτα", "το λαμπρό φώτα"]
@@ -540,7 +540,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-051",
       "type": "single-choice",
       "prompt": "важная презентация",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η προβολή\nМножественное число: οι προβολές\n\nРод: женский",
       "correctAnswer": "η σημαντική προβολή",
       "wrongAnswers": ["ο σημαντικός προβολή", "οι σημαντικοί προβολή", "οι σημαντικές προβολή"]
@@ -549,7 +549,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-052",
       "type": "single-choice",
       "prompt": "полезная веб-страница",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ιστοσελίδα\nМножественное число: οι ιστοσελίδες\n\nРод: женский",
       "correctAnswer": "η χρήσιμη ιστοσελίδα",
       "wrongAnswers": ["ο χρήσιμος ιστοσελίδα", "το χρήσιμο ιστοσελίδα", "οι χρήσιμοι ιστοσελίδα"]
@@ -558,7 +558,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-053",
       "type": "single-choice",
       "prompt": "ежедневная газета",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εφημερίδα\nМножественное число: οι εφημερίδες\n\nРод: женский",
       "correctAnswer": "η καθημερινή εφημερίδα",
       "wrongAnswers": [
@@ -571,7 +571,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-054",
       "type": "single-choice",
       "prompt": "важные уведомления",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ειδοποίηση\nМножественное число: οι ειδοποιήσεις\n\nРод: женский",
       "correctAnswer": "οι σημαντικές ειδοποιήσεις",
       "wrongAnswers": [
@@ -584,7 +584,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-055",
       "type": "single-choice",
       "prompt": "популярная радиопередача",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εκπομπή\nМножественное число: οι εκπομπές\n\nРод: женский",
       "correctAnswer": "η δημοφιλής ραδιοφωνική εκπομπή",
       "wrongAnswers": [
@@ -597,7 +597,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-056",
       "type": "single-choice",
       "prompt": "хорошая реклама",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η διαφήμιση\nМножественное число: οι διαφημίσεις\n\nРод: женский",
       "correctAnswer": "η καλή διαφήμιση",
       "wrongAnswers": ["ο καλός διαφήμιση", "οι καλοί διαφήμιση", "οι καλές διαφήμιση"]
@@ -606,7 +606,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-057",
       "type": "single-choice",
       "prompt": "открытые новости",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το νέο\nМножественное число: τα νέα\n\nРод: средний",
       "correctAnswer": "τα ανοιχτά νέα",
       "wrongAnswers": ["ο ανοιχτός νέα", "οι ανοιχτοί νέα", "η ανοιχτή νέα"]
@@ -615,7 +615,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-058",
       "type": "single-choice",
       "prompt": "цифровая фотография",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
       "correctAnswer": "η ψηφιακή φωτογραφία",
       "wrongAnswers": ["ο ψηφιακός φωτογραφία", "οι ψηφιακοί φωτογραφία", "οι ψηφιακές φωτογραφία"]
@@ -624,7 +624,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-059",
       "type": "single-choice",
       "prompt": "старая фотография",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
       "correctAnswer": "η παλιά φωτογραφία",
       "wrongAnswers": ["ο παλιός φωτογραφία", "οι παλιοί φωτογραφία", "οι παλιές φωτογραφία"]
@@ -633,7 +633,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-060",
       "type": "single-choice",
       "prompt": "важная информация",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πληροφορία\nМножественное число: οι πληροφορίες\n\nРод: женский",
       "correctAnswer": "οι σημαντικές πληροφορίες",
       "wrongAnswers": [
@@ -646,7 +646,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-061",
       "type": "single-choice",
       "prompt": "хорошие объявления",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η διαφήμιση\nМножественное число: οι διαφημίσεις\n\nРод: женский",
       "correctAnswer": "οι καλές διαφημίσεις",
       "wrongAnswers": ["ο καλός διαφημίσεις", "οι καλοί διαφημίσεις", "η καλή διαφημίσεις"]
@@ -655,7 +655,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-062",
       "type": "single-choice",
       "prompt": "цифровые фотографии",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
       "correctAnswer": "οι ψηφιακές φωτογραφίες",
       "wrongAnswers": ["ο ψηφιακός φωτογραφίες", "οι ψηφιακοί φωτογραφίες", "η ψηφιακή φωτογραφίες"]
@@ -664,7 +664,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-063",
       "type": "single-choice",
       "prompt": "телевизионная передача",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εκπομπή\nМножественное число: οι εκπομπές\n\nРод: женский",
       "correctAnswer": "η τηλεοπτική εκπομπή",
       "wrongAnswers": ["ο τηλεοπτικός εκπομπή", "το τηλεοπτικό εκπομπή", "οι τηλεοπτικοί εκπομπή"]
@@ -673,7 +673,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-064",
       "type": "single-choice",
       "prompt": "полезные веб-сайты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ιστοσελίδα\nМножественное число: οι ιστοσελίδες\n\nРод: женский",
       "correctAnswer": "οι χρήσιμες ιστοσελίδες",
       "wrongAnswers": ["ο χρήσιμος ιστοσελίδες", "η χρήσιμη ιστοσελίδες", "το χρήσιμο ιστοσελίδες"]
@@ -682,7 +682,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-065",
       "type": "single-choice",
       "prompt": "важная информация",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πληροφορία\nМножественное число: οι πληροφορίες\n\nРод: женский",
       "correctAnswer": "η σημαντική πληροφορία",
       "wrongAnswers": [
@@ -695,7 +695,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-066",
       "type": "single-choice",
       "prompt": "телевизионные передачи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εκπομπή\nМножественное число: οι εκπομπές\n\nРод: женский",
       "correctAnswer": "οι τηλεοπτικές εκπομπές",
       "wrongAnswers": ["ο τηλεοπτικός εκπομπές", "η τηλεοπτική εκπομπές", "το τηλεοπτικό εκπομπές"]
@@ -704,7 +704,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-067",
       "type": "single-choice",
       "prompt": "важные показы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η προβολή\nМножественное число: οι προβολές\n\nРод: женский",
       "correctAnswer": "οι σημαντικές προβολές",
       "wrongAnswers": ["ο σημαντικός προβολές", "οι σημαντικοί προβολές", "η σημαντική προβολές"]
@@ -713,7 +713,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-068",
       "type": "single-choice",
       "prompt": "популярные радиопередачи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εκπομπή\nМножественное число: οι εκπομπές\n\nРод: женский",
       "correctAnswer": "οι δημοφιλείς ραδιοφωνικές εκπομπές",
       "wrongAnswers": [
@@ -726,7 +726,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-069",
       "type": "single-choice",
       "prompt": "любимый сериал",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σειρά\nМножественное число: οι σειρές\n\nРод: женский",
       "correctAnswer": "η αγαπημένη σειρά",
       "wrongAnswers": ["ο αγαπημένος σειρά", "το αγαπημένο σειρά", "οι αγαπημένοι σειρά"]
@@ -735,7 +735,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-070",
       "type": "single-choice",
       "prompt": "основные новости",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η είδηση\nМножественное число: οι ειδήσεις\n\nРод: женский",
       "correctAnswer": "οι βασικές ειδήσεις",
       "wrongAnswers": ["ο βασικός ειδήσεις", "οι βασικοί ειδήσεις", "η βασική ειδήσεις"]
@@ -744,7 +744,7 @@
       "id": "nouns-adjectives-education-communication-technology-media-communication-071",
       "type": "single-choice",
       "prompt": "последние новости",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η είδηση\nМножественное число: οι ειδήσεις\n\nРод: женский",
       "correctAnswer": "οι τελευταίες ειδήσεις",
       "wrongAnswers": ["ο τελευταίος ειδήσεις", "οι τελευταίοι ειδήσεις", "η τελευταία ειδήσεις"]

@@ -36,10 +36,20 @@ describe("content files", () => {
       const indexContent = await readJson(indexPath);
       expect(Array.isArray(indexContent)).toBe(true);
 
-      const entries = indexContent as Array<{ fileName?: string; indexFileName?: string }>;
+      const entries = indexContent as Array<{
+        fileName?: string;
+        indexFileName?: string;
+        disabled?: boolean;
+      }>;
       let topicCount = 0;
 
       for (const entry of entries) {
+        if (entry.disabled) {
+          expect(entry.fileName).toBeUndefined();
+          expect(entry.indexFileName).toBeUndefined();
+          continue;
+        }
+
         if (entry.indexFileName) {
           topicCount += await validateIndex(resolve(dirname(indexPath), entry.indexFileName));
           continue;

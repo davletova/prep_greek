@@ -9,12 +9,9 @@ import type {
   TextInputExercise,
 } from "../types/exercises";
 
-const promptLanguageSchema = z.enum(["el", "ru"]);
-
 const baseExerciseSchema = z.object({
   id: z.string(),
   prompt: z.string(),
-  promptLanguage: promptLanguageSchema.optional(),
   translation: z.string().optional(),
   explanation: z.string().optional(),
   hint: z.string().optional(),
@@ -28,6 +25,7 @@ const wrongAnswersSchema = z
 export const singleChoiceExerciseSchema: z.ZodType<SingleChoiceExercise> =
   baseExerciseSchema.extend({
     type: z.literal("single-choice"),
+    speechTarget: z.enum(["prompt", "options", "correctAnswer"]),
     correctAnswer: z.string(),
     wrongAnswers: wrongAnswersSchema,
   });

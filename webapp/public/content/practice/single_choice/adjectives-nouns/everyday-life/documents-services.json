@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-001",
       "type": "single-choice",
       "prompt": "публичный адрес",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η διεύθυνση\nМножественное число: οι διευθύνσεις\n\nРод: женский",
       "correctAnswer": "η δημόσια διεύθυνση",
       "wrongAnswers": ["ο δημόσιος διεύθυνση", "οι δημόσιοι διεύθυνση", "οι δημόσιες διεύθυνση"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-002",
       "type": "single-choice",
       "prompt": "краткий телефонный звонок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τηλεφώνημα\nМножественное число: τα τηλεφωνήματα\n\nРод: средний",
       "correctAnswer": "το σύντομο τηλεφώνημα",
       "wrongAnswers": ["ο σύντομος τηλεφώνημα", "οι σύντομοι τηλεφώνημα", "η σύντομη τηλεφώνημα"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-003",
       "type": "single-choice",
       "prompt": "заказные письма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η επιστολή\nМножественное число: οι επιστολές\n\nРод: женский",
       "correctAnswer": "οι συστημένες επιστολές",
       "wrongAnswers": ["ο συστημένος επιστολές", "η συστημένη επιστολές", "το συστημένο επιστολές"]
@@ -33,7 +33,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-004",
       "type": "single-choice",
       "prompt": "государственный ЗАГС",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ληξιαρχείο\nМножественное число: τα ληξιαρχεία\n\nРод: средний",
       "correctAnswer": "το δημόσιο ληξιαρχείο",
       "wrongAnswers": ["ο δημόσιος ληξιαρχείο", "οι δημόσιοι ληξιαρχείο", "η δημόσια ληξιαρχείο"]
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-005",
       "type": "single-choice",
       "prompt": "новые карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάρτα\nМножественное число: οι κάρτες\n\nРод: женский",
       "correctAnswer": "οι νέες κάρτες",
       "wrongAnswers": ["ο νέος κάρτες", "οι νέοι κάρτες", "τα νέα κάρτες"]
@@ -51,7 +51,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-006",
       "type": "single-choice",
       "prompt": "личное резюме",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιογραφικό\nМножественное число: τα βιογραφικά\n\nРод: средний",
       "correctAnswer": "το προσωπικό βιογραφικό",
       "wrongAnswers": [
@@ -64,7 +64,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-007",
       "type": "single-choice",
       "prompt": "хорошие паспорта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το διαβατήριο\nМножественное число: τα διαβατήρια\n\nРод: средний",
       "correctAnswer": "τα καλά διαβατήρια",
       "wrongAnswers": ["ο καλός διαβατήρια", "οι καλοί διαβατήρια", "η καλή διαβατήρια"]
@@ -73,7 +73,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-008",
       "type": "single-choice",
       "prompt": "официальный документ",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το έγγραφο\nМножественное число: τα έγγραφα\n\nРод: средний",
       "correctAnswer": "το επίσημο έγγραφο",
       "wrongAnswers": ["ο επίσημος έγγραφο", "οι επίσημοι έγγραφο", "η επίσημη έγγραφο"]
@@ -82,7 +82,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-009",
       "type": "single-choice",
       "prompt": "большое заявление",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αίτηση\nМножественное число: οι αιτήσεις\n\nРод: женский",
       "correctAnswer": "η μεγάλη αίτηση",
       "wrongAnswers": ["ο μεγάλος αίτηση", "οι μεγάλοι αίτηση", "οι μεγάλες αίτηση"]
@@ -91,7 +91,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-010",
       "type": "single-choice",
       "prompt": "государственная служба",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υπηρεσία\nМножественное число: οι υπηρεσίες\n\nРод: женский",
       "correctAnswer": "η κρατική υπηρεσία",
       "wrongAnswers": ["ο κρατικός υπηρεσία", "οι κρατικοί υπηρεσία", "οι κρατικές υπηρεσία"]
@@ -100,7 +100,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-011",
       "type": "single-choice",
       "prompt": "большие заявления",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αίτηση\nМножественное число: οι αιτήσεις\n\nРод: женский",
       "correctAnswer": "οι μεγάλες αιτήσεις",
       "wrongAnswers": ["ο μεγάλος αιτήσεις", "οι μεγάλοι αιτήσεις", "η μεγάλη αιτήσεις"]
@@ -109,7 +109,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-012",
       "type": "single-choice",
       "prompt": "полицейские удостоверения личности",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ταυτότητα\nМножественное число: οι ταυτότητες\n\nРод: женский",
       "correctAnswer": "οι αστυνομικές ταυτότητες",
       "wrongAnswers": [
@@ -122,7 +122,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-013",
       "type": "single-choice",
       "prompt": "визитная карточка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάρτα\nМножественное число: οι κάρτες\n\nРод: женский",
       "correctAnswer": "η επαγγελματική κάρτα",
       "wrongAnswers": [
@@ -135,7 +135,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-014",
       "type": "single-choice",
       "prompt": "важный документ",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το έγγραφο\nМножественное число: τα έγγραφα\n\nРод: средний",
       "correctAnswer": "το σημαντικό έγγραφο",
       "wrongAnswers": ["ο σημαντικός έγγραφο", "οι σημαντικοί έγγραφο", "η σημαντική έγγραφο"]
@@ -144,7 +144,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-015",
       "type": "single-choice",
       "prompt": "личные резюме",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιογραφικό\nМножественное число: τα βιογραφικά\n\nРод: средний",
       "correctAnswer": "τα προσωπικά βιογραφικά",
       "wrongAnswers": [
@@ -157,7 +157,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-016",
       "type": "single-choice",
       "prompt": "точный заказ",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παραγγελία\nМножественное число: οι παραγγελίες\n\nРод: женский",
       "correctAnswer": "η ακριβής παραγγελία",
       "wrongAnswers": ["οι ακριβές παραγγελία", "οι ακριβείς παραγγελία", "η ακριβή παραγγελία"]
@@ -166,7 +166,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-017",
       "type": "single-choice",
       "prompt": "официальная печать",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σφραγίδα\nМножественное число: οι σφραγίδες\n\nРод: женский",
       "correctAnswer": "η επίσημη σφραγίδα",
       "wrongAnswers": ["ο επίσημος σφραγίδα", "οι επίσημοι σφραγίδα", "οι επίσημες σφραγίδα"]
@@ -175,7 +175,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-018",
       "type": "single-choice",
       "prompt": "важные документы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το έγγραφο\nМножественное число: τα έγγραφα\n\nРод: средний",
       "correctAnswer": "τα σημαντικά έγγραφα",
       "wrongAnswers": ["ο σημαντικός έγγραφα", "οι σημαντικοί έγγραφα", "η σημαντική έγγραφα"]
@@ -184,7 +184,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-019",
       "type": "single-choice",
       "prompt": "заказной конверт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φάκελος\nМножественное число: οι φάκελοι\n\nРод: мужской",
       "correctAnswer": "ο συστημένος φάκελος",
       "wrongAnswers": ["η συστημένη φάκελος", "το συστημένο φάκελος", "οι συστημένοι φάκελος"]
@@ -193,7 +193,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-020",
       "type": "single-choice",
       "prompt": "простая фамилия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το επώνυμο\nМножественное число: τα επώνυμα\n\nРод: средний",
       "correctAnswer": "το απλό επώνυμο",
       "wrongAnswers": ["ο απλός επώνυμο", "οι απλοί επώνυμο", "η απλή επώνυμο"]
@@ -202,7 +202,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-021",
       "type": "single-choice",
       "prompt": "государственные почтовые отделения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταχυδρομείο\nМножественное число: τα ταχυδρομεία\n\nРод: средний",
       "correctAnswer": "τα δημόσια ταχυδρομεία",
       "wrongAnswers": [
@@ -215,7 +215,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-022",
       "type": "single-choice",
       "prompt": "официальное свидетельство",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πιστοποιητικό\nМножественное число: τα πιστοποιητικά\n\nРод: средний",
       "correctAnswer": "το επίσημο πιστοποιητικό",
       "wrongAnswers": [
@@ -228,7 +228,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-023",
       "type": "single-choice",
       "prompt": "хороший паспорт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το διαβατήριο\nМножественное число: τα διαβατήρια\n\nРод: средний",
       "correctAnswer": "το καλό διαβατήριο",
       "wrongAnswers": ["ο καλός διαβατήριο", "οι καλοί διαβατήριο", "η καλή διαβατήριο"]
@@ -237,7 +237,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-024",
       "type": "single-choice",
       "prompt": "официальные печати",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σφραγίδα\nМножественное число: οι σφραγίδες\n\nРод: женский",
       "correctAnswer": "οι επίσημες σφραγίδες",
       "wrongAnswers": ["ο επίσημος σφραγίδες", "οι επίσημοι σφραγίδες", "η επίσημη σφραγίδες"]
@@ -246,7 +246,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-025",
       "type": "single-choice",
       "prompt": "заказное письмо",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γράμμα\nМножественное число: τα γράμματα\n\nРод: средний",
       "correctAnswer": "το συστημένο γράμμα",
       "wrongAnswers": ["ο συστημένος γράμμα", "η συστημένη γράμμα", "οι συστημένοι γράμμα"]
@@ -255,7 +255,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-026",
       "type": "single-choice",
       "prompt": "ответственные получатели",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο αποδέκτης\nМножественное число: οι αποδέκτες\n\nРод: мужской",
       "correctAnswer": "οι υπεύθυνοι αποδέκτες",
       "wrongAnswers": ["ο υπεύθυνος αποδέκτες", "η υπεύθυνη αποδέκτες", "οι υπεύθυνες αποδέκτες"]
@@ -264,7 +264,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-027",
       "type": "single-choice",
       "prompt": "официальные документы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το έγγραφο\nМножественное число: τα έγγραφα\n\nРод: средний",
       "correctAnswer": "τα επίσημα έγγραφα",
       "wrongAnswers": ["ο επίσημος έγγραφα", "οι επίσημοι έγγραφα", "η επίσημη έγγραφα"]
@@ -273,7 +273,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-028",
       "type": "single-choice",
       "prompt": "необходимая записная книжка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ατζέντα\nМножественное число: οι ατζέντες\n\nРод: женский",
       "correctAnswer": "η απαραίτητη ατζέντα",
       "wrongAnswers": ["ο απαραίτητος ατζέντα", "οι απαραίτητοι ατζέντα", "οι απαραίτητες ατζέντα"]
@@ -282,7 +282,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-029",
       "type": "single-choice",
       "prompt": "простые фамилии",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το επώνυμο\nМножественное число: τα επώνυμα\n\nРод: средний",
       "correctAnswer": "τα απλά επώνυμα",
       "wrongAnswers": ["ο απλός επώνυμα", "οι απλοί επώνυμα", "η απλή επώνυμα"]
@@ -291,7 +291,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-030",
       "type": "single-choice",
       "prompt": "полицейское удостоверение личности",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ταυτότητα\nМножественное число: οι ταυτότητες\n\nРод: женский",
       "correctAnswer": "η αστυνομική ταυτότητα",
       "wrongAnswers": [
@@ -304,7 +304,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-031",
       "type": "single-choice",
       "prompt": "личные книжки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλιάριο\nМножественное число: τα βιβλιάρια\n\nРод: средний",
       "correctAnswer": "τα προσωπικά βιβλιάρια",
       "wrongAnswers": ["ο προσωπικός βιβλιάρια", "οι προσωπικοί βιβλιάρια", "η προσωπική βιβλιάρια"]
@@ -313,7 +313,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-032",
       "type": "single-choice",
       "prompt": "личные сообщения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "τα προσωπικά μηνύματα",
       "wrongAnswers": ["ο προσωπικός μηνύματα", "οι προσωπικοί μηνύματα", "η προσωπική μηνύματα"]
@@ -322,7 +322,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-033",
       "type": "single-choice",
       "prompt": "старые разрешения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η άδεια\nМножественное число: οι άδειες\n\nРод: женский",
       "correctAnswer": "οι παλιές άδειες",
       "wrongAnswers": ["ο παλιός άδειες", "οι παλιοί άδειες", "τα παλιά άδειες"]
@@ -331,7 +331,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-034",
       "type": "single-choice",
       "prompt": "государственная почта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταχυδρομείο\nМножественное число: τα ταχυδρομεία\n\nРод: средний",
       "correctAnswer": "το δημόσιο ταχυδρομείο",
       "wrongAnswers": ["ο δημόσιος ταχυδρομείο", "οι δημόσιοι ταχυδρομείο", "η δημόσια ταχυδρομείο"]
@@ -340,7 +340,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-035",
       "type": "single-choice",
       "prompt": "старое разрешение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η άδεια\nМножественное число: οι άδειες\n\nРод: женский",
       "correctAnswer": "η παλιά άδεια",
       "wrongAnswers": ["ο παλιός άδεια", "οι παλιοί άδεια", "οι παλιές άδεια"]
@@ -349,7 +349,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-036",
       "type": "single-choice",
       "prompt": "заказные посылки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δέμα\nМножественное число: τα δέματα\n\nРод: средний",
       "correctAnswer": "τα συστημένα δέματα",
       "wrongAnswers": ["ο συστημένος δέματα", "η συστημένη δέματα", "το συστημένο δέματα"]
@@ -358,7 +358,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-037",
       "type": "single-choice",
       "prompt": "пустые почтовые ящики",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γραμματοκιβώτιο\nМножественное число: τα γραμματοκιβώτια\n\nРод: средний",
       "correctAnswer": "τα άδεια γραμματοκιβώτια",
       "wrongAnswers": [
@@ -371,7 +371,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-038",
       "type": "single-choice",
       "prompt": "ответственный получатель",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο αποδέκτης\nМножественное число: οι αποδέκτες\n\nРод: мужской",
       "correctAnswer": "ο υπεύθυνος αποδέκτης",
       "wrongAnswers": ["οι υπεύθυνοι αποδέκτης", "η υπεύθυνη αποδέκτης", "οι υπεύθυνες αποδέκτης"]
@@ -380,7 +380,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-039",
       "type": "single-choice",
       "prompt": "заказное письмо",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η επιστολή\nМножественное число: οι επιστολές\n\nРод: женский",
       "correctAnswer": "η συστημένη επιστολή",
       "wrongAnswers": ["ο συστημένος επιστολή", "το συστημένο επιστολή", "οι συστημένοι επιστολή"]
@@ -389,7 +389,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-040",
       "type": "single-choice",
       "prompt": "важное уведомление",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ειδοποίηση\nМножественное число: οι ειδοποιήσεις\n\nРод: женский",
       "correctAnswer": "η σημαντική ειδοποίηση",
       "wrongAnswers": [
@@ -402,7 +402,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-041",
       "type": "single-choice",
       "prompt": "официальные приглашения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πρόσκληση\nМножественное число: οι προσκλήσεις\n\nРод: женский",
       "correctAnswer": "οι επίσημες προσκλήσεις",
       "wrongAnswers": ["ο επίσημος προσκλήσεις", "οι επίσημοι προσκλήσεις", "η επίσημη προσκλήσεις"]
@@ -411,7 +411,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-042",
       "type": "single-choice",
       "prompt": "официальные сертификаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πιστοποιητικό\nМножественное число: τα πιστοποιητικά\n\nРод: средний",
       "correctAnswer": "τα επίσημα πιστοποιητικά",
       "wrongAnswers": [
@@ -424,7 +424,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-043",
       "type": "single-choice",
       "prompt": "закрытые конверты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φάκελος\nМножественное число: οι φάκελοι\n\nРод: мужской",
       "correctAnswer": "οι κλειστοί φάκελοι",
       "wrongAnswers": ["ο κλειστός φάκελοι", "οι κλειστή φάκελοι", "οι κλειστό φάκελοι"]
@@ -433,7 +433,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-044",
       "type": "single-choice",
       "prompt": "заказные письма",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γράμμα\nМножественное число: τα γράμματα\n\nРод: средний",
       "correctAnswer": "τα συστημένα γράμματα",
       "wrongAnswers": ["ο συστημένος γράμματα", "η συστημένη γράμματα", "το συστημένο γράμματα"]
@@ -442,7 +442,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-045",
       "type": "single-choice",
       "prompt": "государственная налоговая служба",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εφορία\nМножественное число: οι εφορίες\n\nРод: женский",
       "correctAnswer": "η δημόσια εφορία",
       "wrongAnswers": ["ο δημόσιος εφορία", "οι δημόσιοι εφορία", "οι δημόσιες εφορία"]
@@ -451,7 +451,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-046",
       "type": "single-choice",
       "prompt": "заказные конверты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φάκελος\nМножественное число: οι φάκελοι\n\nРод: мужской",
       "correctAnswer": "οι συστημένοι φάκελοι",
       "wrongAnswers": ["ο συστημένος φάκελοι", "η συστημένη φάκελοι", "το συστημένο φάκελοι"]
@@ -460,7 +460,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-047",
       "type": "single-choice",
       "prompt": "необходимый билет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το εισιτήριο\nМножественное число: τα εισιτήρια\n\nРод: средний",
       "correctAnswer": "το απαραίτητο εισιτήριο",
       "wrongAnswers": [
@@ -473,7 +473,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-048",
       "type": "single-choice",
       "prompt": "личная книжка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλιάριο\nМножественное число: τα βιβλιάρια\n\nРод: средний",
       "correctAnswer": "το προσωπικό βιβλιάριο",
       "wrongAnswers": ["ο προσωπικός βιβλιάριο", "οι προσωπικοί βιβλιάριο", "η προσωπική βιβλιάριο"]
@@ -482,7 +482,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-049",
       "type": "single-choice",
       "prompt": "хорошее собеседование",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συνέντευξη\nМножественное число: οι συνεντεύξεις\n\nРод: женский",
       "correctAnswer": "η καλή συνέντευξη",
       "wrongAnswers": ["ο καλός συνέντευξη", "οι καλοί συνέντευξη", "οι καλές συνέντευξη"]
@@ -491,7 +491,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-050",
       "type": "single-choice",
       "prompt": "официальное приглашение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πρόσκληση\nМножественное число: οι προσκλήσεις\n\nРод: женский",
       "correctAnswer": "η επίσημη πρόσκληση",
       "wrongAnswers": ["ο επίσημος πρόσκληση", "οι επίσημοι πρόσκληση", "οι επίσημες πρόσκληση"]
@@ -500,7 +500,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-051",
       "type": "single-choice",
       "prompt": "точные заказы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παραγγελία\nМножественное число: οι παραγγελίες\n\nРод: женский",
       "correctAnswer": "οι ακριβείς παραγγελίες",
       "wrongAnswers": ["η ακριβής παραγγελίες", "οι ακριβές παραγγελίες", "η ακριβή παραγγελίες"]
@@ -509,7 +509,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-052",
       "type": "single-choice",
       "prompt": "государственная служба",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υπηρεσία\nМножественное число: οι υπηρεσίες\n\nРод: женский",
       "correctAnswer": "η δημόσια υπηρεσία",
       "wrongAnswers": ["ο δημόσιος υπηρεσία", "οι δημόσιοι υπηρεσία", "οι δημόσιες υπηρεσία"]
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-053",
       "type": "single-choice",
       "prompt": "государственные ЗАГСы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ληξιαρχείο\nМножественное число: τα ληξιαρχεία\n\nРод: средний",
       "correctAnswer": "τα δημόσια ληξιαρχεία",
       "wrongAnswers": ["ο δημόσιος ληξιαρχεία", "οι δημόσιοι ληξιαρχεία", "οι δημόσιες ληξιαρχεία"]
@@ -527,7 +527,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-054",
       "type": "single-choice",
       "prompt": "официальное объявление",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγγελία\nМножественное число: οι αγγελίες\n\nРод: женский",
       "correctAnswer": "η επίσημη αγγελία",
       "wrongAnswers": ["ο επίσημος αγγελία", "οι επίσημοι αγγελία", "οι επίσημες αγγελία"]
@@ -536,7 +536,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-055",
       "type": "single-choice",
       "prompt": "важное письмо",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γράμμα\nМножественное число: τα γράμματα\n\nРод: средний",
       "correctAnswer": "το σημαντικό γράμμα",
       "wrongAnswers": ["ο σημαντικός γράμμα", "οι σημαντικοί γράμμα", "η σημαντική γράμμα"]
@@ -545,7 +545,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-056",
       "type": "single-choice",
       "prompt": "заказная посылка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δέμα\nМножественное число: τα δέματα\n\nРод: средний",
       "correctAnswer": "το συστημένο δέμα",
       "wrongAnswers": ["ο συστημένος δέμα", "η συστημένη δέμα", "οι συστημένοι δέμα"]
@@ -554,7 +554,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-057",
       "type": "single-choice",
       "prompt": "маленькая посылка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δέμα\nМножественное число: τα δέματα\n\nРод: средний",
       "correctAnswer": "το μικρό δέμα",
       "wrongAnswers": ["ο μικρός δέμα", "οι μικροί δέμα", "η μικρή δέμα"]
@@ -563,7 +563,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-058",
       "type": "single-choice",
       "prompt": "личная подпись",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υπογραφή\nМножественное число: οι υπογραφές\n\nРод: женский",
       "correctAnswer": "η προσωπική υπογραφή",
       "wrongAnswers": ["ο προσωπικός υπογραφή", "οι προσωπικοί υπογραφή", "οι προσωπικές υπογραφή"]
@@ -572,7 +572,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-059",
       "type": "single-choice",
       "prompt": "полное имя и фамилия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ονοματεπώνυμο\nМножественное число: τα ονοματεπώνυμα\n\nРод: средний",
       "correctAnswer": "το πλήρες ονοματεπώνυμο",
       "wrongAnswers": [
@@ -585,7 +585,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-060",
       "type": "single-choice",
       "prompt": "новая карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάρτα\nМножественное число: οι κάρτες\n\nРод: женский",
       "correctAnswer": "η νέα κάρτα",
       "wrongAnswers": ["ο νέος κάρτα", "οι νέοι κάρτα", "οι νέες κάρτα"]
@@ -594,7 +594,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-061",
       "type": "single-choice",
       "prompt": "визитные карточки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάρτα\nМножественное число: οι κάρτες\n\nРод: женский",
       "correctAnswer": "οι επαγγελματικές κάρτες",
       "wrongAnswers": [
@@ -607,7 +607,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-062",
       "type": "single-choice",
       "prompt": "публичное слушание",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ακρόαση\nМножественное число: οι ακροάσεις\n\nРод: женский",
       "correctAnswer": "η δημόσια ακρόαση",
       "wrongAnswers": ["ο δημόσιος ακρόαση", "οι δημόσιοι ακρόαση", "οι δημόσιες ακρόαση"]
@@ -616,7 +616,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-063",
       "type": "single-choice",
       "prompt": "маленькие посылки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δέμα\nМножественное число: τα δέματα\n\nРод: средний",
       "correctAnswer": "τα μικρά δέματα",
       "wrongAnswers": ["ο μικρός δέματα", "οι μικροί δέματα", "η μικρή δέματα"]
@@ -625,7 +625,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-064",
       "type": "single-choice",
       "prompt": "официальные объявления",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγγελία\nМножественное число: οι αγγελίες\n\nРод: женский",
       "correctAnswer": "οι επίσημες αγγελίες",
       "wrongAnswers": ["ο επίσημος αγγελίες", "οι επίσημοι αγγελίες", "η επίσημη αγγελίες"]
@@ -634,7 +634,7 @@
       "id": "nouns-adjectives-everyday-life-documents-services-065",
       "type": "single-choice",
       "prompt": "отличное обслуживание",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εξυπηρέτηση\nМножественное число: οι εξυπηρετήσεις\n\nРод: женский",
       "correctAnswer": "η άριστη εξυπηρέτηση",
       "wrongAnswers": ["ο άριστος εξυπηρέτηση", "οι άριστοι εξυπηρέτηση", "οι άριστες εξυπηρέτηση"]

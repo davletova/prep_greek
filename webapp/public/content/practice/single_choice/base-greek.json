@@ -6,7 +6,7 @@
       "id": "choice4-basic-greek-001",
       "type": "single-choice",
       "prompt": "Γεια",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Привет",
       "wrongAnswers": ["Пока", "Спасибо", "Извините"]
     },
@@ -14,7 +14,7 @@
       "id": "choice4-basic-greek-002",
       "type": "single-choice",
       "prompt": "Γεια σου",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Привет тебе",
       "wrongAnswers": ["Доброе утро", "До встречи", "Как дела?"]
     },
@@ -22,7 +22,7 @@
       "id": "choice4-basic-greek-003",
       "type": "single-choice",
       "prompt": "Γεια σας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Здравствуйте",
       "wrongAnswers": ["Спокойной ночи", "Меня зовут", "Я не понимаю"]
     },
@@ -30,7 +30,7 @@
       "id": "choice4-basic-greek-004",
       "type": "single-choice",
       "prompt": "Καλημέρα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Доброе утро",
       "wrongAnswers": ["Добрый вечер", "До завтра", "Спасибо"]
     },
@@ -38,7 +38,7 @@
       "id": "choice4-basic-greek-005",
       "type": "single-choice",
       "prompt": "Καλησπέρα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Добрый вечер",
       "wrongAnswers": ["Доброе утро", "Пожалуйста", "Мне приятно"]
     },
@@ -46,7 +46,7 @@
       "id": "choice4-basic-greek-006",
       "type": "single-choice",
       "prompt": "Καληνύχτα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Спокойной ночи",
       "wrongAnswers": ["Добрый день", "До свидания", "Добро пожаловать"]
     },
@@ -54,7 +54,7 @@
       "id": "choice4-basic-greek-007",
       "type": "single-choice",
       "prompt": "Αντίο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "До свидания",
       "wrongAnswers": ["Здравствуйте", "Простите", "Хорошо"]
     },
@@ -62,7 +62,7 @@
       "id": "choice4-basic-greek-008",
       "type": "single-choice",
       "prompt": "Τα λέμε",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Увидимся",
       "wrongAnswers": ["Я голоден", "Как тебя зовут?", "Пожалуйста"]
     },
@@ -70,7 +70,7 @@
       "id": "choice4-basic-greek-009",
       "type": "single-choice",
       "prompt": "Τα λέμε αύριο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Увидимся завтра",
       "wrongAnswers": ["Увидимся вечером", "До свидания навсегда", "Я завтракаю"]
     },
@@ -78,7 +78,7 @@
       "id": "choice4-basic-greek-010",
       "type": "single-choice",
       "prompt": "Ευχαριστώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Спасибо",
       "wrongAnswers": ["Извините", "Пока", "Я устал"]
     },
@@ -86,7 +86,7 @@
       "id": "choice4-basic-greek-011",
       "type": "single-choice",
       "prompt": "Ευχαριστώ πολύ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Большое спасибо",
       "wrongAnswers": ["Очень плохо", "Добро пожаловать", "Ничего страшного"]
     },
@@ -94,7 +94,7 @@
       "id": "choice4-basic-greek-012",
       "type": "single-choice",
       "prompt": "Παρακαλώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Пожалуйста",
       "wrongAnswers": ["Спасибо", "Почему?", "Я не знаю"]
     },
@@ -102,7 +102,7 @@
       "id": "choice4-basic-greek-013",
       "type": "single-choice",
       "prompt": "Συγγνώμη",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Извините",
       "wrongAnswers": ["Добро пожаловать", "Спокойной ночи", "Я согласен"]
     },
@@ -110,7 +110,7 @@
       "id": "choice4-basic-greek-014",
       "type": "single-choice",
       "prompt": "Δεν πειράζει",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Ничего страшного",
       "wrongAnswers": ["Я не понимаю", "Где туалет?", "Очень приятно"]
     },
@@ -118,7 +118,7 @@
       "id": "choice4-basic-greek-015",
       "type": "single-choice",
       "prompt": "Καλώς ήρθες",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Добро пожаловать",
       "wrongAnswers": ["До встречи", "Я из России", "Мне холодно"]
     },
@@ -126,7 +126,7 @@
       "id": "choice4-basic-greek-016",
       "type": "single-choice",
       "prompt": "Πώς είσαι;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Как ты?",
       "wrongAnswers": ["Кто ты?", "Где ты?", "Сколько стоит?"]
     },
@@ -134,7 +134,7 @@
       "id": "choice4-basic-greek-017",
       "type": "single-choice",
       "prompt": "Πώς είστε;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Как вы?",
       "wrongAnswers": ["Кто вы?", "Вы откуда?", "Вы говорите?"]
     },
@@ -142,7 +142,7 @@
       "id": "choice4-basic-greek-018",
       "type": "single-choice",
       "prompt": "Τι κάνεις;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Как дела?",
       "wrongAnswers": ["Что это?", "Куда ты идёшь?", "Сколько тебе лет?"]
     },
@@ -150,7 +150,7 @@
       "id": "choice4-basic-greek-019",
       "type": "single-choice",
       "prompt": "Καλά",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Хорошо",
       "wrongAnswers": ["Плохо", "Поздно", "Дорого"]
     },
@@ -158,7 +158,7 @@
       "id": "choice4-basic-greek-020",
       "type": "single-choice",
       "prompt": "Πολύ καλά",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Очень хорошо",
       "wrongAnswers": ["Очень плохо", "Очень дорого", "Очень поздно"]
     },
@@ -166,7 +166,7 @@
       "id": "choice4-basic-greek-021",
       "type": "single-choice",
       "prompt": "Έτσι κι έτσι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Так себе",
       "wrongAnswers": ["Очень приятно", "До завтра", "Конечно"]
     },
@@ -174,7 +174,7 @@
       "id": "choice4-basic-greek-022",
       "type": "single-choice",
       "prompt": "Δεν είμαι καλά",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Мне нехорошо",
       "wrongAnswers": ["Я не дома", "Я не говорю", "Я не работаю"]
     },
@@ -182,7 +182,7 @@
       "id": "choice4-basic-greek-023",
       "type": "single-choice",
       "prompt": "Πώς σε λένε;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Как тебя зовут?",
       "wrongAnswers": ["Откуда ты?", "Сколько стоит?", "Где ты живёшь?"]
     },
@@ -190,7 +190,7 @@
       "id": "choice4-basic-greek-024",
       "type": "single-choice",
       "prompt": "Πώς σας λένε;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Как вас зовут?",
       "wrongAnswers": ["Как вы себя чувствуете?", "Что вы хотите?", "Где вы работаете?"]
     },
@@ -198,7 +198,7 @@
       "id": "choice4-basic-greek-025",
       "type": "single-choice",
       "prompt": "Με λένε Άννα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Меня зовут Анна",
       "wrongAnswers": ["Я из Афин", "Я говорю по-гречески", "Мне нравится Анна"]
     },
@@ -206,7 +206,7 @@
       "id": "choice4-basic-greek-026",
       "type": "single-choice",
       "prompt": "Το όνομά μου είναι Νίκος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Моё имя Никос",
       "wrongAnswers": ["Мой дом здесь", "Моя работа хорошая", "Мой друг Никос"]
     },
@@ -214,7 +214,7 @@
       "id": "choice4-basic-greek-027",
       "type": "single-choice",
       "prompt": "Χάρηκα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Приятно познакомиться",
       "wrongAnswers": ["Я устал", "Я заблудился", "Мне жарко"]
     },
@@ -222,7 +222,7 @@
       "id": "choice4-basic-greek-028",
       "type": "single-choice",
       "prompt": "Κι εγώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я тоже",
       "wrongAnswers": ["Только я", "Не сейчас", "Никогда"]
     },
@@ -230,7 +230,7 @@
       "id": "choice4-basic-greek-029",
       "type": "single-choice",
       "prompt": "Από πού είσαι;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Откуда ты?",
       "wrongAnswers": ["Куда ты идёшь?", "Как тебя зовут?", "Почему ты здесь?"]
     },
@@ -238,7 +238,7 @@
       "id": "choice4-basic-greek-030",
       "type": "single-choice",
       "prompt": "Από πού είστε;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Откуда вы?",
       "wrongAnswers": ["Где вы сейчас?", "Сколько вас?", "Что вы пьёте?"]
     },
@@ -246,7 +246,7 @@
       "id": "choice4-basic-greek-031",
       "type": "single-choice",
       "prompt": "Είμαι από τη Ρωσία",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я из России",
       "wrongAnswers": ["Я в России", "Я люблю Россию", "Я говорю по-русски"]
     },
@@ -254,7 +254,7 @@
       "id": "choice4-basic-greek-032",
       "type": "single-choice",
       "prompt": "Είμαι από την Κύπρο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я с Кипра",
       "wrongAnswers": ["Я еду на Кипр", "Я живу в Афинах", "Я говорю по-английски"]
     },
@@ -262,7 +262,7 @@
       "id": "choice4-basic-greek-033",
       "type": "single-choice",
       "prompt": "Είμαι από την Ελλάδα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я из Греции",
       "wrongAnswers": ["Я в Греции", "Я люблю греческий", "Я учу английский"]
     },
@@ -270,7 +270,7 @@
       "id": "choice4-basic-greek-034",
       "type": "single-choice",
       "prompt": "Πού μένεις;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Где ты живёшь?",
       "wrongAnswers": ["Где ты работаешь?", "Что ты ешь?", "Когда ты придёшь?"]
     },
@@ -278,7 +278,7 @@
       "id": "choice4-basic-greek-035",
       "type": "single-choice",
       "prompt": "Μένω στην Αθήνα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я живу в Афинах",
       "wrongAnswers": ["Я работаю в Афинах", "Я еду в Афины", "Я из Афин"]
     },
@@ -286,7 +286,7 @@
       "id": "choice4-basic-greek-036",
       "type": "single-choice",
       "prompt": "Μένω εδώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я живу здесь",
       "wrongAnswers": ["Я иду туда", "Я работаю здесь", "Я ем здесь"]
     },
@@ -294,7 +294,7 @@
       "id": "choice4-basic-greek-037",
       "type": "single-choice",
       "prompt": "Πόσο χρονών είσαι;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Сколько тебе лет?",
       "wrongAnswers": ["Который час?", "Сколько это стоит?", "Какой сегодня день?"]
     },
@@ -302,7 +302,7 @@
       "id": "choice4-basic-greek-038",
       "type": "single-choice",
       "prompt": "Είμαι είκοσι χρονών",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Мне двадцать лет",
       "wrongAnswers": ["Сейчас двадцать часов", "Это стоит двадцать евро", "Я живу двадцать дней"]
     },
@@ -310,7 +310,7 @@
       "id": "choice4-basic-greek-039",
       "type": "single-choice",
       "prompt": "Μιλάς ελληνικά;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Ты говоришь по-гречески?",
       "wrongAnswers": ["Ты понимаешь русский?", "Ты живёшь в Греции?", "Ты любишь музыку?"]
     },
@@ -318,7 +318,7 @@
       "id": "choice4-basic-greek-040",
       "type": "single-choice",
       "prompt": "Μιλάτε αγγλικά;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Вы говорите по-английски?",
       "wrongAnswers": ["Вы понимаете греческий?", "Вы работаете здесь?", "Вы хотите кофе?"]
     },
@@ -326,7 +326,7 @@
       "id": "choice4-basic-greek-041",
       "type": "single-choice",
       "prompt": "Μιλάω λίγο ελληνικά",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я немного говорю по-гречески",
       "wrongAnswers": [
         "Я хорошо говорю по-русски",
@@ -338,7 +338,7 @@
       "id": "choice4-basic-greek-042",
       "type": "single-choice",
       "prompt": "Δεν μιλάω ελληνικά",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я не говорю по-гречески",
       "wrongAnswers": ["Я не понимаю русский", "Я не живу здесь", "Я не знаю дорогу"]
     },
@@ -346,7 +346,7 @@
       "id": "choice4-basic-greek-043",
       "type": "single-choice",
       "prompt": "Δεν καταλαβαίνω",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я не понимаю",
       "wrongAnswers": ["Я не хочу", "Я не могу", "Я не помню"]
     },
@@ -354,7 +354,7 @@
       "id": "choice4-basic-greek-044",
       "type": "single-choice",
       "prompt": "Καταλαβαίνω",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я понимаю",
       "wrongAnswers": ["Я спрашиваю", "Я работаю", "Я забываю"]
     },
@@ -362,7 +362,7 @@
       "id": "choice4-basic-greek-045",
       "type": "single-choice",
       "prompt": "Μπορείς να το επαναλάβεις;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Можешь повторить это?",
       "wrongAnswers": ["Можешь закрыть дверь?", "Можешь заплатить?", "Можешь прийти завтра?"]
     },
@@ -370,7 +370,7 @@
       "id": "choice4-basic-greek-046",
       "type": "single-choice",
       "prompt": "Μιλήστε πιο αργά, παρακαλώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Говорите медленнее, пожалуйста",
       "wrongAnswers": [
         "Пишите быстрее, пожалуйста",
@@ -382,7 +382,7 @@
       "id": "choice4-basic-greek-047",
       "type": "single-choice",
       "prompt": "Τι σημαίνει αυτό;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Что это значит?",
       "wrongAnswers": ["Где это находится?", "Сколько это стоит?", "Кто это сказал?"]
     },
@@ -390,7 +390,7 @@
       "id": "choice4-basic-greek-048",
       "type": "single-choice",
       "prompt": "Πώς το λένε στα ελληνικά;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Как это называется по-гречески?",
       "wrongAnswers": ["Как это пишется по-русски?", "Где это продаётся?", "Когда это начинается?"]
     },
@@ -398,7 +398,7 @@
       "id": "choice4-basic-greek-049",
       "type": "single-choice",
       "prompt": "Ναι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Да",
       "wrongAnswers": ["Нет", "Может быть", "Никогда"]
     },
@@ -406,7 +406,7 @@
       "id": "choice4-basic-greek-050",
       "type": "single-choice",
       "prompt": "Όχι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Нет",
       "wrongAnswers": ["Да", "Спасибо", "Сейчас"]
     },
@@ -414,7 +414,7 @@
       "id": "choice4-basic-greek-051",
       "type": "single-choice",
       "prompt": "Ίσως",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Может быть",
       "wrongAnswers": ["Всегда", "Никогда", "Сейчас"]
     },
@@ -422,7 +422,7 @@
       "id": "choice4-basic-greek-052",
       "type": "single-choice",
       "prompt": "Εντάξει",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Хорошо",
       "wrongAnswers": ["Плохо", "Поздно", "Далеко"]
     },
@@ -430,7 +430,7 @@
       "id": "choice4-basic-greek-053",
       "type": "single-choice",
       "prompt": "Σίγουρα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Конечно",
       "wrongAnswers": ["Возможно", "Никогда", "Случайно"]
     },
@@ -438,7 +438,7 @@
       "id": "choice4-basic-greek-054",
       "type": "single-choice",
       "prompt": "Τώρα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Сейчас",
       "wrongAnswers": ["Завтра", "Вчера", "Позже"]
     },
@@ -446,7 +446,7 @@
       "id": "choice4-basic-greek-055",
       "type": "single-choice",
       "prompt": "Σήμερα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Сегодня",
       "wrongAnswers": ["Завтра", "Вчера", "Неделя"]
     },
@@ -454,7 +454,7 @@
       "id": "choice4-basic-greek-056",
       "type": "single-choice",
       "prompt": "Αύριο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Завтра",
       "wrongAnswers": ["Сегодня", "Вчера", "Утром"]
     },
@@ -462,7 +462,7 @@
       "id": "choice4-basic-greek-057",
       "type": "single-choice",
       "prompt": "Χθες",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Вчера",
       "wrongAnswers": ["Сегодня", "Завтра", "Вечером"]
     },
@@ -470,7 +470,7 @@
       "id": "choice4-basic-greek-058",
       "type": "single-choice",
       "prompt": "Το πρωί",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Утром",
       "wrongAnswers": ["Вечером", "Ночью", "Зимой"]
     },
@@ -478,7 +478,7 @@
       "id": "choice4-basic-greek-059",
       "type": "single-choice",
       "prompt": "Το βράδυ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Вечером",
       "wrongAnswers": ["Утром", "Днём", "Летом"]
     },
@@ -486,7 +486,7 @@
       "id": "choice4-basic-greek-060",
       "type": "single-choice",
       "prompt": "Πού είναι η τουαλέτα;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Где туалет?",
       "wrongAnswers": ["Где остановка?", "Где банк?", "Где море?"]
     },
@@ -494,7 +494,7 @@
       "id": "choice4-basic-greek-061",
       "type": "single-choice",
       "prompt": "Πού είναι το ξενοδοχείο;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Где отель?",
       "wrongAnswers": ["Где ресторан?", "Где аптека?", "Где школа?"]
     },
@@ -502,7 +502,7 @@
       "id": "choice4-basic-greek-062",
       "type": "single-choice",
       "prompt": "Πού είναι η στάση;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Где остановка?",
       "wrongAnswers": ["Где туалет?", "Где пляж?", "Где билет?"]
     },
@@ -510,7 +510,7 @@
       "id": "choice4-basic-greek-063",
       "type": "single-choice",
       "prompt": "Θέλω νερό",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я хочу воды",
       "wrongAnswers": ["Я хочу хлеб", "Я пью кофе", "Я покупаю воду"]
     },
@@ -518,7 +518,7 @@
       "id": "choice4-basic-greek-064",
       "type": "single-choice",
       "prompt": "Θέλω καφέ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я хочу кофе",
       "wrongAnswers": ["Я хочу чай", "Я люблю воду", "Я пью молоко"]
     },
@@ -526,7 +526,7 @@
       "id": "choice4-basic-greek-065",
       "type": "single-choice",
       "prompt": "Έναν καφέ, παρακαλώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Один кофе, пожалуйста",
       "wrongAnswers": ["Один билет, пожалуйста", "Один хлеб, пожалуйста", "Один стол, пожалуйста"]
     },
@@ -534,7 +534,7 @@
       "id": "choice4-basic-greek-066",
       "type": "single-choice",
       "prompt": "Το μενού, παρακαλώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Меню, пожалуйста",
       "wrongAnswers": ["Счёт, пожалуйста", "Вода, пожалуйста", "Ключ, пожалуйста"]
     },
@@ -542,7 +542,7 @@
       "id": "choice4-basic-greek-067",
       "type": "single-choice",
       "prompt": "Τον λογαριασμό, παρακαλώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Счёт, пожалуйста",
       "wrongAnswers": ["Меню, пожалуйста", "Такси, пожалуйста", "Кофе, пожалуйста"]
     },
@@ -550,7 +550,7 @@
       "id": "choice4-basic-greek-068",
       "type": "single-choice",
       "prompt": "Πόσο κάνει;",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Сколько стоит?",
       "wrongAnswers": ["Где находится?", "Как называется?", "Кто это?"]
     },
@@ -558,7 +558,7 @@
       "id": "choice4-basic-greek-069",
       "type": "single-choice",
       "prompt": "Είναι ακριβό",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Это дорого",
       "wrongAnswers": ["Это дешево", "Это красиво", "Это далеко"]
     },
@@ -566,7 +566,7 @@
       "id": "choice4-basic-greek-070",
       "type": "single-choice",
       "prompt": "Είναι φτηνό",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Это дешево",
       "wrongAnswers": ["Это дорого", "Это новое", "Это трудно"]
     },
@@ -574,7 +574,7 @@
       "id": "choice4-basic-greek-071",
       "type": "single-choice",
       "prompt": "Νερό",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Вода",
       "wrongAnswers": ["Хлеб", "Молоко", "Сок"]
     },
@@ -582,7 +582,7 @@
       "id": "choice4-basic-greek-072",
       "type": "single-choice",
       "prompt": "Ψωμί",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Хлеб",
       "wrongAnswers": ["Вода", "Сыр", "Рыба"]
     },
@@ -590,7 +590,7 @@
       "id": "choice4-basic-greek-073",
       "type": "single-choice",
       "prompt": "Καφές",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Кофе",
       "wrongAnswers": ["Чай", "Сок", "Суп"]
     },
@@ -598,7 +598,7 @@
       "id": "choice4-basic-greek-074",
       "type": "single-choice",
       "prompt": "Τσάι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Чай",
       "wrongAnswers": ["Кофе", "Молоко", "Вино"]
     },
@@ -606,7 +606,7 @@
       "id": "choice4-basic-greek-075",
       "type": "single-choice",
       "prompt": "Φαγητό",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Еда",
       "wrongAnswers": ["Вода", "Дом", "Деньги"]
     },
@@ -614,7 +614,7 @@
       "id": "choice4-basic-greek-076",
       "type": "single-choice",
       "prompt": "Σπίτι",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Дом",
       "wrongAnswers": ["Улица", "Магазин", "Город"]
     },
@@ -622,7 +622,7 @@
       "id": "choice4-basic-greek-077",
       "type": "single-choice",
       "prompt": "Δρόμος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Улица",
       "wrongAnswers": ["Дом", "Море", "Комната"]
     },
@@ -630,7 +630,7 @@
       "id": "choice4-basic-greek-078",
       "type": "single-choice",
       "prompt": "Πόλη",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Город",
       "wrongAnswers": ["Страна", "Улица", "Пляж"]
     },
@@ -638,7 +638,7 @@
       "id": "choice4-basic-greek-079",
       "type": "single-choice",
       "prompt": "Χώρα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Страна",
       "wrongAnswers": ["Город", "Дом", "Море"]
     },
@@ -646,7 +646,7 @@
       "id": "choice4-basic-greek-080",
       "type": "single-choice",
       "prompt": "Θάλασσα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Море",
       "wrongAnswers": ["Гора", "Река", "Пляж"]
     },
@@ -654,7 +654,7 @@
       "id": "choice4-basic-greek-081",
       "type": "single-choice",
       "prompt": "Φίλος",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Друг",
       "wrongAnswers": ["Брат", "Отец", "Учитель"]
     },
@@ -662,7 +662,7 @@
       "id": "choice4-basic-greek-082",
       "type": "single-choice",
       "prompt": "Φίλη",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Подруга",
       "wrongAnswers": ["Мать", "Сестра", "Дочь"]
     },
@@ -670,7 +670,7 @@
       "id": "choice4-basic-greek-083",
       "type": "single-choice",
       "prompt": "Οικογένεια",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Семья",
       "wrongAnswers": ["Работа", "Школа", "Страна"]
     },
@@ -678,7 +678,7 @@
       "id": "choice4-basic-greek-084",
       "type": "single-choice",
       "prompt": "Μητέρα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Мать",
       "wrongAnswers": ["Отец", "Сестра", "Дочь"]
     },
@@ -686,7 +686,7 @@
       "id": "choice4-basic-greek-085",
       "type": "single-choice",
       "prompt": "Πατέρας",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Отец",
       "wrongAnswers": ["Мать", "Брат", "Сын"]
     },
@@ -694,7 +694,7 @@
       "id": "choice4-basic-greek-086",
       "type": "single-choice",
       "prompt": "Αδερφός",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Брат",
       "wrongAnswers": ["Сестра", "Друг", "Отец"]
     },
@@ -702,7 +702,7 @@
       "id": "choice4-basic-greek-087",
       "type": "single-choice",
       "prompt": "Αδερφή",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Сестра",
       "wrongAnswers": ["Брат", "Подруга", "Мать"]
     },
@@ -710,7 +710,7 @@
       "id": "choice4-basic-greek-088",
       "type": "single-choice",
       "prompt": "Εγώ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Я",
       "wrongAnswers": ["Ты", "Он", "Мы"]
     },
@@ -718,7 +718,7 @@
       "id": "choice4-basic-greek-089",
       "type": "single-choice",
       "prompt": "Εσύ",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Ты",
       "wrongAnswers": ["Я", "Он", "Они"]
     },
@@ -726,7 +726,7 @@
       "id": "choice4-basic-greek-090",
       "type": "single-choice",
       "prompt": "Αυτός",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Он",
       "wrongAnswers": ["Она", "Оно", "Они"]
     },
@@ -734,7 +734,7 @@
       "id": "choice4-basic-greek-091",
       "type": "single-choice",
       "prompt": "Αυτή",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Она",
       "wrongAnswers": ["Он", "Оно", "Мы"]
     },
@@ -742,7 +742,7 @@
       "id": "choice4-basic-greek-092",
       "type": "single-choice",
       "prompt": "Εμείς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Мы",
       "wrongAnswers": ["Вы", "Они", "Я"]
     },
@@ -750,7 +750,7 @@
       "id": "choice4-basic-greek-093",
       "type": "single-choice",
       "prompt": "Εσείς",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Вы",
       "wrongAnswers": ["Мы", "Они", "Ты"]
     },
@@ -758,7 +758,7 @@
       "id": "choice4-basic-greek-094",
       "type": "single-choice",
       "prompt": "Αυτοί",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Они",
       "wrongAnswers": ["Мы", "Вы", "Он"]
     },
@@ -766,7 +766,7 @@
       "id": "choice4-basic-greek-095",
       "type": "single-choice",
       "prompt": "Ένα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Один",
       "wrongAnswers": ["Два", "Три", "Десять"]
     },
@@ -774,7 +774,7 @@
       "id": "choice4-basic-greek-096",
       "type": "single-choice",
       "prompt": "Δύο",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Два",
       "wrongAnswers": ["Один", "Четыре", "Семь"]
     },
@@ -782,7 +782,7 @@
       "id": "choice4-basic-greek-097",
       "type": "single-choice",
       "prompt": "Τρία",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Три",
       "wrongAnswers": ["Пять", "Два", "Восемь"]
     },
@@ -790,7 +790,7 @@
       "id": "choice4-basic-greek-098",
       "type": "single-choice",
       "prompt": "Τέσσερα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Четыре",
       "wrongAnswers": ["Три", "Шесть", "Девять"]
     },
@@ -798,7 +798,7 @@
       "id": "choice4-basic-greek-099",
       "type": "single-choice",
       "prompt": "Πέντε",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Пять",
       "wrongAnswers": ["Четыре", "Семь", "Десять"]
     },
@@ -806,7 +806,7 @@
       "id": "choice4-basic-greek-100",
       "type": "single-choice",
       "prompt": "Δέκα",
-      "promptLanguage": "el",
+      "speechTarget": "prompt",
       "correctAnswer": "Десять",
       "wrongAnswers": ["Один", "Пять", "Девять"]
     }

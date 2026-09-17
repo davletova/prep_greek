@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-001",
       "type": "single-choice",
       "prompt": "вежливая клиентка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πελάτισσα\nМножественное число: οι πελάτισσες\n\nРод: женский",
       "correctAnswer": "η ευγενική πελάτισσα",
       "wrongAnswers": ["ο ευγενικός πελάτισσα", "οι ευγενικοί πελάτισσα", "οι ευγενικές πελάτισσα"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-002",
       "type": "single-choice",
       "prompt": "дорогой господин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κύριος\nМножественное число: οι κύριοι\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός κύριος",
       "wrongAnswers": ["οι αγαπητοί κύριος", "η αγαπητή κύριος", "οι αγαπητές κύριος"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-003",
       "type": "single-choice",
       "prompt": "крепкие мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι γεροί άντρες",
       "wrongAnswers": ["ο γερός άντρες", "η γερή άντρες", "οι γερές άντρες"]
@@ -33,7 +33,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-004",
       "type": "single-choice",
       "prompt": "иностранные жители",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κάτοικος\nМножественное число: οι κάτοικοι\n\nРод: мужской",
       "correctAnswer": "οι ξένοι κάτοικοι",
       "wrongAnswers": ["ο ξένος κάτοικοι", "η ξένη κάτοικοι", "οι ξένες κάτοικοι"]
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-005",
       "type": "single-choice",
       "prompt": "хорошие африканки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αφρικανή\nМножественное число: οι Αφρικανές\n\nРод: женский",
       "correctAnswer": "οι καλές Αφρικανές",
       "wrongAnswers": ["ο καλός Αφρικανές", "οι καλοί Αφρικανές", "η καλή Αφρικανές"]
@@ -51,7 +51,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-006",
       "type": "single-choice",
       "prompt": "печальный мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο λυπημένος άντρας",
       "wrongAnswers": ["η λυπημένη άντρας", "το λυπημένο άντρας", "οι λυπημένοι άντρας"]
@@ -60,7 +60,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-007",
       "type": "single-choice",
       "prompt": "красивая внешность",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εμφάνιση\nМножественное число: οι εμφανίσεις\n\nРод: женский",
       "correctAnswer": "η ωραία εμφάνιση",
       "wrongAnswers": ["ο ωραίος εμφάνιση", "οι ωραίοι εμφάνιση", "οι ωραίες εμφάνιση"]
@@ -69,7 +69,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-008",
       "type": "single-choice",
       "prompt": "красивый болгарин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Βούλγαρος\nМножественное число: οι Βούλγαροι\n\nРод: мужской",
       "correctAnswer": "ο όμορφος Βούλγαρος",
       "wrongAnswers": ["οι όμορφοι Βούλγαρος", "η όμορφη Βούλγαρος", "οι όμορφες Βούλγαρος"]
@@ -78,7 +78,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-009",
       "type": "single-choice",
       "prompt": "некрасивое пятно",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λεκές\nМножественное число: οι λεκέδες\n\nРод: мужской",
       "correctAnswer": "ο άσχημος λεκές",
       "wrongAnswers": ["οι άσχημοι λεκές", "η άσχημη λεκές", "οι άσχημες λεκές"]
@@ -87,7 +87,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-010",
       "type": "single-choice",
       "prompt": "безработные мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι άνεργοι άντρες",
       "wrongAnswers": ["ο άνεργος άντρες", "η άνεργη άντρες", "οι άνεργες άντρες"]
@@ -96,7 +96,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-011",
       "type": "single-choice",
       "prompt": "иностранные жительницы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάτοικος\nМножественное число: οι κάτοικοι\n\nРод: женский",
       "correctAnswer": "οι ξένες κάτοικοι",
       "wrongAnswers": ["ο ξένος κάτοικοι", "οι ξένοι κάτοικοι", "η ξένη κάτοικοι"]
@@ -105,7 +105,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-012",
       "type": "single-choice",
       "prompt": "живой человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο ζωντανός άνθρωπος",
       "wrongAnswers": ["οι ζωντανοί άνθρωπος", "η ζωντανή άνθρωπος", "οι ζωντανές άνθρωπος"]
@@ -114,7 +114,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-013",
       "type": "single-choice",
       "prompt": "дорогой француз",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Γάλλος\nМножественное число: οι Γάλλοι\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Γάλλος",
       "wrongAnswers": ["οι αγαπητοί Γάλλος", "η αγαπητή Γάλλος", "οι αγαπητές Γάλλος"]
@@ -123,7 +123,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-014",
       "type": "single-choice",
       "prompt": "дорогая француженка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Γαλλίδα\nМножественное число: οι Γαλλίδες\n\nРод: женский",
       "correctAnswer": "η αγαπητή Γαλλίδα",
       "wrongAnswers": ["ο αγαπητός Γαλλίδα", "οι αγαπητοί Γαλλίδα", "οι αγαπητές Γαλλίδα"]
@@ -132,7 +132,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-015",
       "type": "single-choice",
       "prompt": "сильные голоса",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
       "correctAnswer": "οι δυνατές φωνές",
       "wrongAnswers": ["ο δυνατός φωνές", "οι δυνατοί φωνές", "η δυνατή φωνές"]
@@ -141,7 +141,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-016",
       "type": "single-choice",
       "prompt": "темноволосый ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το μελαχρινό παιδί",
       "wrongAnswers": ["ο μελαχρινός παιδί", "οι μελαχρινοί παιδί", "η μελαχρινή παιδί"]
@@ -150,7 +150,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-017",
       "type": "single-choice",
       "prompt": "такие люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι τέτοιοι άνθρωποι",
       "wrongAnswers": ["ο τέτοιος άνθρωποι", "τα τέτοια άνθρωποι", "το τέτοιο άνθρωποι"]
@@ -159,7 +159,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-018",
       "type": "single-choice",
       "prompt": "светловолосый мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο ξανθός άντρας",
       "wrongAnswers": ["η ξανθιά άντρας", "το ξανθό άντρας", "οι ξανθοί άντρας"]
@@ -168,7 +168,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-019",
       "type": "single-choice",
       "prompt": "неизвестная женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η άγνωστη γυναίκα",
       "wrongAnswers": ["ο άγνωστος γυναίκα", "οι άγνωστοι γυναίκα", "οι άγνωστες γυναίκα"]
@@ -177,7 +177,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-020",
       "type": "single-choice",
       "prompt": "улыбающийся клоун",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κλόουν\nМножественное число: οι None\n\nРод: мужской",
       "correctAnswer": "ο γελαστός κλόουν",
       "wrongAnswers": ["οι γελαστοί κλόουν", "η γελαστή κλόουν", "οι γελαστές κλόουν"]
@@ -186,7 +186,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-021",
       "type": "single-choice",
       "prompt": "немногие люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι λίγοι άνθρωποι",
       "wrongAnswers": ["ο λίγος άνθρωποι", "η λίγη άνθρωποι", "οι λίγες άνθρωποι"]
@@ -195,7 +195,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-022",
       "type": "single-choice",
       "prompt": "единственная женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η μόνη γυναίκα",
       "wrongAnswers": ["ο μόνος γυναίκα", "οι μόνοι γυναίκα", "οι μόνες γυναίκα"]
@@ -204,7 +204,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-023",
       "type": "single-choice",
       "prompt": "высокий мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο ψηλός άντρας",
       "wrongAnswers": ["οι ψηλοί άντρας", "η ψηλή άντρας", "οι ψηλές άντρας"]
@@ -213,7 +213,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-024",
       "type": "single-choice",
       "prompt": "хорошие победительницы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η νικήτρια\nМножественное число: οι νικήτριες\n\nРод: женский",
       "correctAnswer": "οι καλές νικήτριες",
       "wrongAnswers": ["ο καλός νικήτριες", "οι καλοί νικήτριες", "η καλή νικήτριες"]
@@ -222,7 +222,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-025",
       "type": "single-choice",
       "prompt": "стройные женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι λεπτές γυναίκες",
       "wrongAnswers": ["ο λεπτός γυναίκες", "οι λεπτοί γυναίκες", "η λεπτή γυναίκες"]
@@ -231,7 +231,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-026",
       "type": "single-choice",
       "prompt": "худые мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι αδύνατοι άντρες",
       "wrongAnswers": ["ο αδύνατος άντρες", "η αδύνατη άντρες", "οι αδύνατες άντρες"]
@@ -240,7 +240,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-027",
       "type": "single-choice",
       "prompt": "неизвестная воровка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κλέφτρα\nМножественное число: οι κλέφτρες\n\nРод: женский",
       "correctAnswer": "η άγνωστη κλέφτρα",
       "wrongAnswers": ["ο άγνωστος κλέφτρα", "οι άγνωστοι κλέφτρα", "οι άγνωστες κλέφτρα"]
@@ -249,7 +249,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-028",
       "type": "single-choice",
       "prompt": "известные русские женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ρωσίδα\nМножественное число: οι Ρωσίδες\n\nРод: женский",
       "correctAnswer": "οι γνωστές Ρωσίδες",
       "wrongAnswers": ["ο γνωστός Ρωσίδες", "οι γνωστοί Ρωσίδες", "η γνωστή Ρωσίδες"]
@@ -258,7 +258,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-029",
       "type": "single-choice",
       "prompt": "низкорослая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η κοντή γυναίκα",
       "wrongAnswers": ["ο κοντός γυναίκα", "οι κοντοί γυναίκα", "οι κοντές γυναίκα"]
@@ -267,7 +267,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-030",
       "type": "single-choice",
       "prompt": "дорогие француженки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Γαλλίδα\nМножественное число: οι Γαλλίδες\n\nРод: женский",
       "correctAnswer": "οι αγαπητές Γαλλίδες",
       "wrongAnswers": ["ο αγαπητός Γαλλίδες", "οι αγαπητοί Γαλλίδες", "η αγαπητή Γαλλίδες"]
@@ -276,7 +276,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-031",
       "type": "single-choice",
       "prompt": "неизвестный человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο άγνωστος άνθρωπος",
       "wrongAnswers": ["οι άγνωστοι άνθρωπος", "η άγνωστη άνθρωπος", "οι άγνωστες άνθρωπος"]
@@ -285,7 +285,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-032",
       "type": "single-choice",
       "prompt": "худая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η αδύνατη γυναίκα",
       "wrongAnswers": ["ο αδύνατος γυναίκα", "οι αδύνατοι γυναίκα", "οι αδύνατες γυναίκα"]
@@ -294,7 +294,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-033",
       "type": "single-choice",
       "prompt": "мужские имена",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το όνομα\nМножественное число: τα ονόματα\n\nРод: средний",
       "correctAnswer": "τα αντρικά ονόματα",
       "wrongAnswers": ["ο αντρικός ονόματα", "οι αντρικοί ονόματα", "η αντρική ονόματα"]
@@ -303,7 +303,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-034",
       "type": "single-choice",
       "prompt": "тот мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "εκείνος ο άντρας",
       "wrongAnswers": ["εκείνη η άντρας", "εκείνο το άντρας", "εκείνοι οι άντρας"]
@@ -312,7 +312,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-035",
       "type": "single-choice",
       "prompt": "любимая голландка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ολλανδή\nМножественное число: οι Ολλανδές\n\nРод: женский",
       "correctAnswer": "η αγαπημένη Ολλανδή",
       "wrongAnswers": ["ο αγαπημένος Ολλανδή", "το αγαπημένο Ολλανδή", "οι αγαπημένοι Ολλανδή"]
@@ -321,7 +321,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-036",
       "type": "single-choice",
       "prompt": "хороший австриец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αυστριακός\nМножественное число: οι Αυστριακοί\n\nРод: мужской",
       "correctAnswer": "ο καλός Αυστριακός",
       "wrongAnswers": ["οι καλοί Αυστριακός", "η καλή Αυστριακός", "οι καλές Αυστριακός"]
@@ -330,7 +330,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-037",
       "type": "single-choice",
       "prompt": "темноволосые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα μελαχρινά παιδιά",
       "wrongAnswers": ["ο μελαχρινός παιδιά", "οι μελαχρινοί παιδιά", "η μελαχρινή παιδιά"]
@@ -339,7 +339,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-038",
       "type": "single-choice",
       "prompt": "светловолосые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ξανθά παιδιά",
       "wrongAnswers": ["ο ξανθός παιδιά", "η ξανθιά παιδιά", "το ξανθό παιδιά"]
@@ -348,7 +348,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-039",
       "type": "single-choice",
       "prompt": "хорошие женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι καλές γυναίκες",
       "wrongAnswers": ["ο καλός γυναίκες", "οι καλοί γυναίκες", "η καλή γυναίκες"]
@@ -357,7 +357,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-040",
       "type": "single-choice",
       "prompt": "большой мир",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κόσμος\nМножественное число: οι κόσμοι\n\nРод: мужской",
       "correctAnswer": "ο μεγάλος κόσμος",
       "wrongAnswers": ["οι μεγάλοι κόσμος", "η μεγάλη κόσμος", "οι μεγάλες κόσμος"]
@@ -366,7 +366,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-041",
       "type": "single-choice",
       "prompt": "обычные люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι συνηθισμένοι άνθρωποι",
       "wrongAnswers": [
@@ -379,7 +379,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-042",
       "type": "single-choice",
       "prompt": "простые люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι απλοί άνθρωποι",
       "wrongAnswers": ["ο απλός άνθρωποι", "η απλή άνθρωποι", "οι απλές άνθρωποι"]
@@ -388,7 +388,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-043",
       "type": "single-choice",
       "prompt": "дорогие канадки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Καναδή\nМножественное число: οι Καναδές\n\nРод: женский",
       "correctAnswer": "οι αγαπητές Καναδές",
       "wrongAnswers": ["ο αγαπητός Καναδές", "οι αγαπητοί Καναδές", "η αγαπητή Καναδές"]
@@ -397,7 +397,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-044",
       "type": "single-choice",
       "prompt": "вежливый клиент",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πελάτης\nМножественное число: οι πελάτες\n\nРод: мужской",
       "correctAnswer": "ο ευγενικός πελάτης",
       "wrongAnswers": ["οι ευγενικοί πελάτης", "η ευγενική πελάτης", "οι ευγενικές πελάτης"]
@@ -406,7 +406,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-045",
       "type": "single-choice",
       "prompt": "неизвестные свидетели",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο μάρτυρας\nМножественное число: οι μάρτυρες\n\nРод: мужской",
       "correctAnswer": "οι άγνωστοι μάρτυρες",
       "wrongAnswers": ["ο άγνωστος μάρτυρες", "η άγνωστη μάρτυρες", "οι άγνωστες μάρτυρες"]
@@ -415,7 +415,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-046",
       "type": "single-choice",
       "prompt": "японская маска",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μάσκα\nМножественное число: οι μάσκες\n\nРод: женский",
       "correctAnswer": "η ιαπωνική μάσκα",
       "wrongAnswers": ["ο ιαπωνικός μάσκα", "οι ιαπωνικοί μάσκα", "οι ιαπωνικές μάσκα"]
@@ -424,7 +424,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-047",
       "type": "single-choice",
       "prompt": "стройные мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι λεπτοί άντρες",
       "wrongAnswers": ["ο λεπτός άντρες", "η λεπτή άντρες", "οι λεπτές άντρες"]
@@ -433,7 +433,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-048",
       "type": "single-choice",
       "prompt": "женский голос",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
       "correctAnswer": "η γυναικεία φωνή",
       "wrongAnswers": ["ο γυναικείος φωνή", "οι γυναικείοι φωνή", "οι γυναικείες φωνή"]
@@ -442,7 +442,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-049",
       "type": "single-choice",
       "prompt": "те мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "εκείνοι οι άντρες",
       "wrongAnswers": ["εκείνος ο άντρες", "εκείνη η άντρες", "εκείνο το άντρες"]
@@ -451,7 +451,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-050",
       "type": "single-choice",
       "prompt": "красивые болгарки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Βουλγάρα\nМножественное число: οι Βουλγάρες\n\nРод: женский",
       "correctAnswer": "οι όμορφες Βουλγάρες",
       "wrongAnswers": ["ο όμορφος Βουλγάρες", "οι όμορφοι Βουλγάρες", "η όμορφη Βουλγάρες"]
@@ -460,7 +460,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-051",
       "type": "single-choice",
       "prompt": "стройная женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η λεπτή γυναίκα",
       "wrongAnswers": ["ο λεπτός γυναίκα", "οι λεπτοί γυναίκα", "οι λεπτές γυναίκα"]
@@ -469,7 +469,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-052",
       "type": "single-choice",
       "prompt": "обычный человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο συνηθισμένος άνθρωπος",
       "wrongAnswers": [
@@ -482,7 +482,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-053",
       "type": "single-choice",
       "prompt": "сумасшедшие люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι τρελοί άνθρωποι",
       "wrongAnswers": ["ο τρελός άνθρωποι", "η τρελή άνθρωποι", "οι τρελές άνθρωποι"]
@@ -491,7 +491,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-054",
       "type": "single-choice",
       "prompt": "американские женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι αμερικανίδες γυναίκες",
       "wrongAnswers": ["ο αμερικανός γυναίκες", "η αμερικανίδα γυναίκες", "οι αμερικανό γυναίκες"]
@@ -500,7 +500,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-055",
       "type": "single-choice",
       "prompt": "хорошие австрийки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αυστριακή\nМножественное число: οι Αυστριακές\n\nРод: женский",
       "correctAnswer": "οι καλές Αυστριακές",
       "wrongAnswers": ["ο καλός Αυστριακές", "οι καλοί Αυστριακές", "η καλή Αυστριακές"]
@@ -509,7 +509,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-056",
       "type": "single-choice",
       "prompt": "тонкая талия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μέση\nМножественное число: οι μέσες\n\nРод: женский",
       "correctAnswer": "η λεπτή μέση",
       "wrongAnswers": ["ο λεπτός μέση", "οι λεπτοί μέση", "οι λεπτές μέση"]
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-057",
       "type": "single-choice",
       "prompt": "такой человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο τέτοιος άνθρωπος",
       "wrongAnswers": ["η τέτοια άνθρωπος", "το τέτοιο άνθρωπος", "οι τέτοιοι άνθρωπος"]
@@ -527,7 +527,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-058",
       "type": "single-choice",
       "prompt": "белокурая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η ξανθιά γυναίκα",
       "wrongAnswers": ["ο ξανθός γυναίκα", "το ξανθό γυναίκα", "οι ξανθοί γυναίκα"]
@@ -536,7 +536,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-059",
       "type": "single-choice",
       "prompt": "многие люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι πολλοί άνθρωποι",
       "wrongAnswers": ["οι πολύς άνθρωποι", "η πολλή άνθρωποι", "το πολύ άνθρωποι"]
@@ -545,7 +545,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-060",
       "type": "single-choice",
       "prompt": "красивые внешности",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εμφάνιση\nМножественное число: οι εμφανίσεις\n\nРод: женский",
       "correctAnswer": "οι ωραίες εμφανίσεις",
       "wrongAnswers": ["ο ωραίος εμφανίσεις", "οι ωραίοι εμφανίσεις", "τα ωραία εμφανίσεις"]
@@ -554,7 +554,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-061",
       "type": "single-choice",
       "prompt": "брюнетки-женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι μελαχρινές γυναίκες",
       "wrongAnswers": ["ο μελαχρινός γυναίκες", "οι μελαχρινοί γυναίκες", "η μελαχρινή γυναίκες"]
@@ -563,7 +563,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-062",
       "type": "single-choice",
       "prompt": "симпатичная соседка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γειτόνισσα\nМножественное число: οι γειτόνισσες\n\nРод: женский",
       "correctAnswer": "η συμπαθητική γειτόνισσα",
       "wrongAnswers": [
@@ -576,7 +576,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-063",
       "type": "single-choice",
       "prompt": "мужские голоса",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
       "correctAnswer": "οι αντρικές φωνές",
       "wrongAnswers": ["ο αντρικός φωνές", "οι αντρικοί φωνές", "η αντρική φωνές"]
@@ -585,7 +585,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-064",
       "type": "single-choice",
       "prompt": "брюнеты-мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι μελαχρινοί άντρες",
       "wrongAnswers": ["ο μελαχρινός άντρες", "η μελαχρινή άντρες", "οι μελαχρινές άντρες"]
@@ -594,7 +594,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-065",
       "type": "single-choice",
       "prompt": "неизвестная свидетельница",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μάρτυρας\nМножественное число: οι μάρτυρες\n\nРод: женский",
       "correctAnswer": "η άγνωστη μάρτυρας",
       "wrongAnswers": ["ο άγνωστος μάρτυρας", "οι άγνωστοι μάρτυρας", "οι άγνωστες μάρτυρας"]
@@ -603,7 +603,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-066",
       "type": "single-choice",
       "prompt": "разные люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι διάφοροι άνθρωποι",
       "wrongAnswers": ["ο διάφορος άνθρωποι", "η διάφορη άνθρωποι", "οι διάφορες άνθρωποι"]
@@ -612,7 +612,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-067",
       "type": "single-choice",
       "prompt": "хороший мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο καλός άντρας",
       "wrongAnswers": ["οι καλοί άντρας", "η καλή άντρας", "οι καλές άντρας"]
@@ -621,7 +621,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-068",
       "type": "single-choice",
       "prompt": "улыбчивые клоуны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κλόουν\nМножественное число: οι None\n\nРод: мужской",
       "correctAnswer": "οι γελαστοί κλόουν",
       "wrongAnswers": ["ο γελαστός κλόουν", "η γελαστή κλόουν", "οι γελαστές κλόουν"]
@@ -630,7 +630,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-069",
       "type": "single-choice",
       "prompt": "серьёзные мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι σοβαροί άντρες",
       "wrongAnswers": ["ο σοβαρός άντρες", "η σοβαρή άντρες", "οι σοβαρές άντρες"]
@@ -639,7 +639,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-070",
       "type": "single-choice",
       "prompt": "красивая болгарка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Βουλγάρα\nМножественное число: οι Βουλγάρες\n\nРод: женский",
       "correctAnswer": "η όμορφη Βουλγάρα",
       "wrongAnswers": ["ο όμορφος Βουλγάρα", "οι όμορφοι Βουλγάρα", "οι όμορφες Βουλγάρα"]
@@ -648,7 +648,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-071",
       "type": "single-choice",
       "prompt": "счастливый человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο ευτυχισμένος άνθρωπος",
       "wrongAnswers": [
@@ -661,7 +661,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-072",
       "type": "single-choice",
       "prompt": "мужской голос",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
       "correctAnswer": "η αντρική φωνή",
       "wrongAnswers": ["ο αντρικός φωνή", "οι αντρικοί φωνή", "οι αντρικές φωνή"]
@@ -670,7 +670,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-073",
       "type": "single-choice",
       "prompt": "неизвестный вор",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κλέφτης\nМножественное число: οι κλέφτες\n\nРод: мужской",
       "correctAnswer": "ο άγνωστος κλέφτης",
       "wrongAnswers": ["οι άγνωστοι κλέφτης", "η άγνωστη κλέφτης", "οι άγνωστες κλέφτης"]
@@ -679,7 +679,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-074",
       "type": "single-choice",
       "prompt": "красивая бразильянка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Βραζιλιάνα\nМножественное число: οι Βραζιλιάνες\n\nРод: женский",
       "correctAnswer": "η όμορφη Βραζιλιάνα",
       "wrongAnswers": ["ο όμορφος Βραζιλιάνα", "οι όμορφοι Βραζιλιάνα", "οι όμορφες Βραζιλιάνα"]
@@ -688,7 +688,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-075",
       "type": "single-choice",
       "prompt": "улыбчивые лица",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πρόσωπο\nМножественное число: τα πρόσωπα\n\nРод: средний",
       "correctAnswer": "τα γελαστά πρόσωπα",
       "wrongAnswers": ["ο γελαστός πρόσωπα", "οι γελαστοί πρόσωπα", "η γελαστή πρόσωπα"]
@@ -697,7 +697,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-076",
       "type": "single-choice",
       "prompt": "постоянные жители",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κάτοικος\nМножественное число: οι κάτοικοι\n\nРод: мужской",
       "correctAnswer": "οι μόνιμοι κάτοικοι",
       "wrongAnswers": ["ο μόνιμος κάτοικοι", "η μόνιμη κάτοικοι", "οι μόνιμες κάτοικοι"]
@@ -706,7 +706,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-077",
       "type": "single-choice",
       "prompt": "человеческое лицо",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πρόσωπο\nМножественное число: τα πρόσωπα\n\nРод: средний",
       "correctAnswer": "το ανθρώπινο πρόσωπο",
       "wrongAnswers": ["ο ανθρώπινος πρόσωπο", "οι ανθρώπινοι πρόσωπο", "η ανθρώπινη πρόσωπο"]
@@ -715,7 +715,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-078",
       "type": "single-choice",
       "prompt": "единственный человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το άτομο\nМножественное число: τα άτομα\n\nРод: средний",
       "correctAnswer": "το μοναδικό άτομο",
       "wrongAnswers": ["ο μοναδικός άτομο", "οι μοναδικοί άτομο", "η μοναδική άτομο"]
@@ -724,7 +724,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-079",
       "type": "single-choice",
       "prompt": "единственные люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το άτομο\nМножественное число: τα άτομα\n\nРод: средний",
       "correctAnswer": "τα μοναδικά άτομα",
       "wrongAnswers": ["ο μοναδικός άτομα", "οι μοναδικοί άτομα", "η μοναδική άτομα"]
@@ -733,7 +733,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-080",
       "type": "single-choice",
       "prompt": "живые люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι ζωντανοί άνθρωποι",
       "wrongAnswers": ["ο ζωντανός άνθρωποι", "η ζωντανή άνθρωποι", "οι ζωντανές άνθρωποι"]
@@ -742,7 +742,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-081",
       "type": "single-choice",
       "prompt": "вежливые датчанки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Δανή\nМножественное число: οι Δανές\n\nРод: женский",
       "correctAnswer": "οι ευγενικές Δανές",
       "wrongAnswers": ["ο ευγενικός Δανές", "οι ευγενικοί Δανές", "η ευγενική Δανές"]
@@ -751,7 +751,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-082",
       "type": "single-choice",
       "prompt": "любимые голландцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ολλανδός\nМножественное число: οι Ολλανδοί\n\nРод: мужской",
       "correctAnswer": "οι αγαπημένοι Ολλανδοί",
       "wrongAnswers": ["ο αγαπημένος Ολλανδοί", "η αγαπημένη Ολλανδοί", "το αγαπημένο Ολλανδοί"]
@@ -760,7 +760,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-083",
       "type": "single-choice",
       "prompt": "худой ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το αδύνατο παιδί",
       "wrongAnswers": ["ο αδύνατος παιδί", "οι αδύνατοι παιδί", "η αδύνατη παιδί"]
@@ -769,7 +769,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-084",
       "type": "single-choice",
       "prompt": "те же самые мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι ίδιοι άντρες",
       "wrongAnswers": ["ο ίδιος άντρες", "τα ίδια άντρες", "οι ίδιες άντρες"]
@@ -778,7 +778,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-085",
       "type": "single-choice",
       "prompt": "низкий мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο κοντός άντρας",
       "wrongAnswers": ["οι κοντοί άντρας", "η κοντή άντρας", "οι κοντές άντρας"]
@@ -787,7 +787,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-086",
       "type": "single-choice",
       "prompt": "иностранец-житель",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κάτοικος\nМножественное число: οι κάτοικοι\n\nРод: мужской",
       "correctAnswer": "ο ξένος κάτοικος",
       "wrongAnswers": ["οι ξένοι κάτοικος", "η ξένη κάτοικος", "οι ξένες κάτοικος"]
@@ -796,7 +796,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-087",
       "type": "single-choice",
       "prompt": "богатые соседи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
       "correctAnswer": "οι πλούσιοι γείτονες",
       "wrongAnswers": ["ο πλούσιος γείτονες", "τα πλούσια γείτονες", "οι πλούσιες γείτονες"]
@@ -805,7 +805,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-088",
       "type": "single-choice",
       "prompt": "вьющиеся волосы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τρίχα\nМножественное число: οι τρίχες\n\nРод: женский",
       "correctAnswer": "οι σγουρές τρίχες",
       "wrongAnswers": ["ο σγουρός τρίχες", "οι σγουροί τρίχες", "η σγουρή τρίχες"]
@@ -814,7 +814,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-089",
       "type": "single-choice",
       "prompt": "простой человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο απλός άνθρωπος",
       "wrongAnswers": ["οι απλοί άνθρωπος", "η απλή άνθρωπος", "οι απλές άνθρωπος"]
@@ -823,7 +823,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-090",
       "type": "single-choice",
       "prompt": "американка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η αμερικανίδα γυναίκα",
       "wrongAnswers": ["ο αμερικανός γυναίκα", "η αμερικανό γυναίκα", "οι αμερικανοί γυναίκα"]
@@ -832,7 +832,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-091",
       "type": "single-choice",
       "prompt": "серьёзный мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο σοβαρός άντρας",
       "wrongAnswers": ["οι σοβαροί άντρας", "η σοβαρή άντρας", "οι σοβαρές άντρας"]
@@ -841,7 +841,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-092",
       "type": "single-choice",
       "prompt": "счастливый человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο τυχερός άνθρωπος",
       "wrongAnswers": ["οι τυχεροί άνθρωπος", "η τυχερή άνθρωπος", "οι τυχερές άνθρωπος"]
@@ -850,7 +850,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-093",
       "type": "single-choice",
       "prompt": "светловолосые мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι ξανθοί άντρες",
       "wrongAnswers": ["ο ξανθός άντρες", "η ξανθιά άντρες", "το ξανθό άντρες"]
@@ -859,7 +859,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-094",
       "type": "single-choice",
       "prompt": "здоровый мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο γερός άντρας",
       "wrongAnswers": ["οι γεροί άντρας", "η γερή άντρας", "οι γερές άντρας"]
@@ -868,7 +868,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-095",
       "type": "single-choice",
       "prompt": "неизвестные женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι άγνωστες γυναίκες",
       "wrongAnswers": ["ο άγνωστος γυναίκες", "οι άγνωστοι γυναίκες", "η άγνωστη γυναίκες"]
@@ -877,7 +877,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-096",
       "type": "single-choice",
       "prompt": "худой мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο αδύνατος άντρας",
       "wrongAnswers": ["οι αδύνατοι άντρας", "η αδύνατη άντρας", "οι αδύνατες άντρας"]
@@ -886,7 +886,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-097",
       "type": "single-choice",
       "prompt": "стройный мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο λεπτός άντρας",
       "wrongAnswers": ["οι λεπτοί άντρας", "η λεπτή άντρας", "οι λεπτές άντρας"]
@@ -895,7 +895,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-098",
       "type": "single-choice",
       "prompt": "соседние соседи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
       "correctAnswer": "οι διπλανοί γείτονες",
       "wrongAnswers": ["ο διπλανός γείτονες", "η διπλανή γείτονες", "οι διπλανές γείτονες"]
@@ -904,7 +904,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-099",
       "type": "single-choice",
       "prompt": "известный тип",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τύπος\nМножественное число: οι τύποι\n\nРод: мужской",
       "correctAnswer": "ο γνωστός τύπος",
       "wrongAnswers": ["οι γνωστοί τύπος", "η γνωστή τύπος", "οι γνωστές τύπος"]
@@ -913,7 +913,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-100",
       "type": "single-choice",
       "prompt": "худые женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι αδύνατες γυναίκες",
       "wrongAnswers": ["ο αδύνατος γυναίκες", "οι αδύνατοι γυναίκες", "η αδύνατη γυναίκες"]
@@ -922,7 +922,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-101",
       "type": "single-choice",
       "prompt": "одинокие женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι μόνες γυναίκες",
       "wrongAnswers": ["ο μόνος γυναίκες", "οι μόνοι γυναίκες", "η μόνη γυναίκες"]
@@ -931,7 +931,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-102",
       "type": "single-choice",
       "prompt": "высокие женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι ψηλές γυναίκες",
       "wrongAnswers": ["ο ψηλός γυναίκες", "οι ψηλοί γυναίκες", "η ψηλή γυναίκες"]
@@ -940,7 +940,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-103",
       "type": "single-choice",
       "prompt": "счастливые люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι τυχεροί άνθρωποι",
       "wrongAnswers": ["ο τυχερός άνθρωποι", "η τυχερή άνθρωποι", "οι τυχερές άνθρωποι"]
@@ -949,7 +949,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-104",
       "type": "single-choice",
       "prompt": "богатый человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο πλούσιος άνθρωπος",
       "wrongAnswers": ["οι πλούσιοι άνθρωπος", "η πλούσια άνθρωπος", "οι πλούσιες άνθρωπος"]
@@ -958,7 +958,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-105",
       "type": "single-choice",
       "prompt": "опытный кандидат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο υποψήφιος\nМножественное число: οι υποψήφιοι\n\nРод: мужской",
       "correctAnswer": "ο έμπειρος υποψήφιος",
       "wrongAnswers": ["η έμπειρη υποψήφιος", "ο έμπειρο υποψήφιος", "οι έμπειροι υποψήφιος"]
@@ -967,7 +967,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-106",
       "type": "single-choice",
       "prompt": "иностранная жительница",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάτοικος\nМножественное число: οι κάτοικοι\n\nРод: женский",
       "correctAnswer": "η ξένη κάτοικος",
       "wrongAnswers": ["ο ξένος κάτοικος", "οι ξένοι κάτοικος", "οι ξένες κάτοικος"]
@@ -976,7 +976,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-107",
       "type": "single-choice",
       "prompt": "американские мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνδρας\nМножественное число: οι άνδρες\n\nРод: мужской",
       "correctAnswer": "οι αμερικανοί άνδρες",
       "wrongAnswers": ["ο αμερικανός άνδρες", "η αμερικανίδα άνδρες", "οι αμερικανό άνδρες"]
@@ -985,7 +985,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-108",
       "type": "single-choice",
       "prompt": "улыбающееся лицо",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πρόσωπο\nМножественное число: τα πρόσωπα\n\nРод: средний",
       "correctAnswer": "το γελαστό πρόσωπο",
       "wrongAnswers": ["ο γελαστός πρόσωπο", "οι γελαστοί πρόσωπο", "η γελαστή πρόσωπο"]
@@ -994,7 +994,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-109",
       "type": "single-choice",
       "prompt": "хорошая африканка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αφρικανή\nМножественное число: οι Αφρικανές\n\nРод: женский",
       "correctAnswer": "η καλή Αφρικανή",
       "wrongAnswers": ["ο καλός Αφρικανή", "οι καλοί Αφρικανή", "οι καλές Αφρικανή"]
@@ -1003,7 +1003,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-110",
       "type": "single-choice",
       "prompt": "та женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "εκείνη η γυναίκα",
       "wrongAnswers": ["εκείνος ο γυναίκα", "εκείνο το γυναίκα", "εκείνοι οι γυναίκα"]
@@ -1012,7 +1012,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-111",
       "type": "single-choice",
       "prompt": "одинокие мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι μόνοι άντρες",
       "wrongAnswers": ["ο μόνος άντρες", "η μόνη άντρες", "οι μόνες άντρες"]
@@ -1021,7 +1021,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-112",
       "type": "single-choice",
       "prompt": "дорогая госпожа",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κυρία\nМножественное число: οι κυρίες\n\nРод: женский",
       "correctAnswer": "η αγαπητή κυρία",
       "wrongAnswers": ["ο αγαπητός κυρία", "οι αγαπητοί κυρία", "οι αγαπητές κυρία"]
@@ -1030,7 +1030,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-113",
       "type": "single-choice",
       "prompt": "вьющиеся волосы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μαλλί\nМножественное число: τα μαλλιά\n\nРод: средний",
       "correctAnswer": "τα σγουρά μαλλιά",
       "wrongAnswers": ["ο σγουρός μαλλιά", "οι σγουροί μαλλιά", "η σγουρή μαλλιά"]
@@ -1039,7 +1039,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-114",
       "type": "single-choice",
       "prompt": "серьёзные женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι σοβαρές γυναίκες",
       "wrongAnswers": ["ο σοβαρός γυναίκες", "οι σοβαροί γυναίκες", "η σοβαρή γυναίκες"]
@@ -1048,7 +1048,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-115",
       "type": "single-choice",
       "prompt": "частые посетители",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο επισκέπτης\nМножественное число: οι επισκέπτες\n\nРод: мужской",
       "correctAnswer": "οι συχνοί επισκέπτες",
       "wrongAnswers": ["ο συχνός επισκέπτες", "η συχνή επισκέπτες", "οι συχνές επισκέπτες"]
@@ -1057,7 +1057,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-116",
       "type": "single-choice",
       "prompt": "низкорослые мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι κοντοί άντρες",
       "wrongAnswers": ["ο κοντός άντρες", "η κοντή άντρες", "οι κοντές άντρες"]
@@ -1066,7 +1066,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-117",
       "type": "single-choice",
       "prompt": "неизвестные люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι άγνωστοι άνθρωποι",
       "wrongAnswers": ["ο άγνωστος άνθρωποι", "η άγνωστη άνθρωποι", "οι άγνωστες άνθρωποι"]
@@ -1075,7 +1075,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-118",
       "type": "single-choice",
       "prompt": "хорошая победительница",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η νικήτρια\nМножественное число: οι νικήτριες\n\nРод: женский",
       "correctAnswer": "η καλή νικήτρια",
       "wrongAnswers": ["ο καλός νικήτρια", "οι καλοί νικήτρια", "οι καλές νικήτρια"]
@@ -1084,7 +1084,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-119",
       "type": "single-choice",
       "prompt": "высокая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η ψηλή γυναίκα",
       "wrongAnswers": ["ο ψηλός γυναίκα", "οι ψηλοί γυναίκα", "οι ψηλές γυναίκα"]
@@ -1093,7 +1093,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-120",
       "type": "single-choice",
       "prompt": "длинные волосы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μαλλί\nМножественное число: τα μαλλιά\n\nРод: средний",
       "correctAnswer": "τα μακριά μαλλιά",
       "wrongAnswers": ["ο μακρύς μαλλιά", "οι μακριοί μαλλιά", "οι μακριές μαλλιά"]
@@ -1102,7 +1102,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-121",
       "type": "single-choice",
       "prompt": "брюнет-мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο μελαχρινός άντρας",
       "wrongAnswers": ["οι μελαχρινοί άντρας", "η μελαχρινή άντρας", "οι μελαχρινές άντρας"]
@@ -1111,7 +1111,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-122",
       "type": "single-choice",
       "prompt": "неизвестные воры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κλέφτης\nМножественное число: οι κλέφτες\n\nРод: мужской",
       "correctAnswer": "οι άγνωστοι κλέφτες",
       "wrongAnswers": ["ο άγνωστος κλέφτες", "η άγνωστη κλέφτες", "οι άγνωστες κλέφτες"]
@@ -1120,7 +1120,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-123",
       "type": "single-choice",
       "prompt": "толстые мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι χοντροί άντρες",
       "wrongAnswers": ["ο χοντρός άντρες", "η χοντρή άντρες", "οι χοντρές άντρες"]
@@ -1129,7 +1129,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-124",
       "type": "single-choice",
       "prompt": "та же самая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η ίδια γυναίκα",
       "wrongAnswers": ["ο ίδιος γυναίκα", "οι ίδιοι γυναίκα", "οι ίδιες γυναίκα"]
@@ -1138,7 +1138,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-125",
       "type": "single-choice",
       "prompt": "дружелюбная соседка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γειτόνισσα\nМножественное число: οι γειτόνισσες\n\nРод: женский",
       "correctAnswer": "η φιλική γειτόνισσα",
       "wrongAnswers": ["ο φιλικός γειτόνισσα", "οι φιλικοί γειτόνισσα", "οι φιλικές γειτόνισσα"]
@@ -1147,7 +1147,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-126",
       "type": "single-choice",
       "prompt": "известный актёр",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο ηθοποιός\nМножественное число: οι None\n\nРод: мужской",
       "correctAnswer": "ο γνωστός ηθοποιός",
       "wrongAnswers": ["οι γνωστοί ηθοποιός", "η γνωστή ηθοποιός", "οι γνωστές ηθοποιός"]
@@ -1156,7 +1156,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-127",
       "type": "single-choice",
       "prompt": "низкие женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι κοντές γυναίκες",
       "wrongAnswers": ["ο κοντός γυναίκες", "οι κοντοί γυναίκες", "η κοντή γυναίκες"]
@@ -1165,7 +1165,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-128",
       "type": "single-choice",
       "prompt": "толстый мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο χοντρός άντρας",
       "wrongAnswers": ["οι χοντροί άντρας", "η χοντρή άντρας", "οι χοντρές άντρας"]
@@ -1174,7 +1174,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-129",
       "type": "single-choice",
       "prompt": "известные журналисты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο δημοσιογράφος\nМножественное число: οι δημοσιογράφοι\n\nРод: мужской",
       "correctAnswer": "οι γνωστοί δημοσιογράφοι",
       "wrongAnswers": [
@@ -1187,7 +1187,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-130",
       "type": "single-choice",
       "prompt": "особенные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ιδιαίτερα παιδιά",
       "wrongAnswers": ["ο ιδιαίτερος παιδιά", "οι ιδιαίτεροι παιδιά", "η ιδιαίτερη παιδιά"]
@@ -1196,7 +1196,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-131",
       "type": "single-choice",
       "prompt": "симпатичный сосед",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
       "correctAnswer": "ο συμπαθητικός γείτονας",
       "wrongAnswers": [
@@ -1209,7 +1209,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-132",
       "type": "single-choice",
       "prompt": "те женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "εκείνες οι γυναίκες",
       "wrongAnswers": ["εκείνος ο γυναίκες", "εκείνη η γυναίκες", "εκείνο το γυναίκες"]
@@ -1218,7 +1218,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-133",
       "type": "single-choice",
       "prompt": "блондинки-женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι ξανθιές γυναίκες",
       "wrongAnswers": ["ο ξανθός γυναίκες", "η ξανθιά γυναίκες", "το ξανθό γυναίκες"]
@@ -1227,7 +1227,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-134",
       "type": "single-choice",
       "prompt": "вежливые клиенты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πελάτης\nМножественное число: οι πελάτες\n\nРод: мужской",
       "correctAnswer": "οι ευγενικοί πελάτες",
       "wrongAnswers": ["ο ευγενικός πελάτες", "η ευγενική πελάτες", "οι ευγενικές πελάτες"]
@@ -1236,7 +1236,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-135",
       "type": "single-choice",
       "prompt": "дорогие господа",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κύριος\nМножественное число: οι κύριοι\n\nРод: мужской",
       "correctAnswer": "οι αγαπητοί κύριοι",
       "wrongAnswers": ["ο αγαπητός κύριοι", "η αγαπητή κύριοι", "οι αγαπητές κύριοι"]
@@ -1245,7 +1245,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-136",
       "type": "single-choice",
       "prompt": "неизвестные воровки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κλέφτρα\nМножественное число: οι κλέφτρες\n\nРод: женский",
       "correctAnswer": "οι άγνωστες κλέφτρες",
       "wrongAnswers": ["ο άγνωστος κλέφτρες", "οι άγνωστοι κλέφτρες", "η άγνωστη κλέφτρες"]
@@ -1254,7 +1254,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-137",
       "type": "single-choice",
       "prompt": "неизвестный свидетель",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο μάρτυρας\nМножественное число: οι μάρτυρες\n\nРод: мужской",
       "correctAnswer": "ο άγνωστος μάρτυρας",
       "wrongAnswers": ["οι άγνωστοι μάρτυρας", "η άγνωστη μάρτυρας", "οι άγνωστες μάρτυρας"]
@@ -1263,7 +1263,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-138",
       "type": "single-choice",
       "prompt": "те же самые женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι ίδιες γυναίκες",
       "wrongAnswers": ["ο ίδιος γυναίκες", "οι ίδιοι γυναίκες", "τα ίδια γυναίκες"]
@@ -1272,7 +1272,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-139",
       "type": "single-choice",
       "prompt": "мужские роли",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο ρόλος\nМножественное число: οι ρόλοι\n\nРод: мужской",
       "correctAnswer": "οι αντρικοί ρόλοι",
       "wrongAnswers": ["ο αντρικός ρόλοι", "η αντρική ρόλοι", "οι αντρικές ρόλοι"]
@@ -1281,7 +1281,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-140",
       "type": "single-choice",
       "prompt": "кудрявый волос",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τρίχα\nМножественное число: οι τρίχες\n\nРод: женский",
       "correctAnswer": "η σγουρή τρίχα",
       "wrongAnswers": ["ο σγουρός τρίχα", "οι σγουροί τρίχα", "οι σγουρές τρίχα"]
@@ -1290,7 +1290,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-141",
       "type": "single-choice",
       "prompt": "уродливые простачки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κορόιδο\nМножественное число: τα κορόιδα\n\nРод: средний",
       "correctAnswer": "τα άσχημα κορόιδα",
       "wrongAnswers": ["ο άσχημος κορόιδα", "οι άσχημοι κορόιδα", "η άσχημη κορόιδα"]
@@ -1299,7 +1299,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-142",
       "type": "single-choice",
       "prompt": "высокие мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι ψηλοί άντρες",
       "wrongAnswers": ["ο ψηλός άντρες", "η ψηλή άντρες", "οι ψηλές άντρες"]
@@ -1308,7 +1308,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-143",
       "type": "single-choice",
       "prompt": "темноволосая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η μελαχρινή γυναίκα",
       "wrongAnswers": ["ο μελαχρινός γυναίκα", "οι μελαχρινοί γυναίκα", "οι μελαχρινές γυναίκα"]
@@ -1317,7 +1317,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-144",
       "type": "single-choice",
       "prompt": "единственный мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο μόνος άντρας",
       "wrongAnswers": ["οι μόνοι άντρας", "η μόνη άντρας", "οι μόνες άντρας"]
@@ -1326,7 +1326,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-145",
       "type": "single-choice",
       "prompt": "неизвестные свидетельницы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μάρτυρας\nМножественное число: οι μάρτυρες\n\nРод: женский",
       "correctAnswer": "οι άγνωστες μάρτυρες",
       "wrongAnswers": ["ο άγνωστος μάρτυρες", "οι άγνωστοι μάρτυρες", "η άγνωστη μάρτυρες"]
@@ -1335,7 +1335,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-146",
       "type": "single-choice",
       "prompt": "известная святая",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγία\nМножественное число: οι αγίες\n\nРод: женский",
       "correctAnswer": "η γνωστή αγία",
       "wrongAnswers": ["ο γνωστός αγία", "οι γνωστοί αγία", "οι γνωστές αγία"]
@@ -1344,7 +1344,7 @@
       "id": "nouns-adjectives-people-people-general-appearance-147",
       "type": "single-choice",
       "prompt": "известные святые",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγία\nМножественное число: οι αγίες\n\nРод: женский",
       "correctAnswer": "οι γνωστές αγίες",
       "wrongAnswers": ["ο γνωστός αγίες", "οι γνωστοί αγίες", "η γνωστή αγίες"]

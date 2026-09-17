@@ -26,7 +26,7 @@ describe("nouns and adjectives generator", () => {
     expect(questions).toHaveLength(expectedQuestionCount);
 
     for (const question of questions) {
-      expect(question.promptLanguage).toBe("el");
+      expect(question.speechTarget).toBe("prompt");
       expect(question.translation.length).toBeGreaterThan(0);
       expect(question).not.toHaveProperty("explanation");
       expect(new Set([question.correctAnswer, ...question.wrongAnswers]).size).toBe(4);

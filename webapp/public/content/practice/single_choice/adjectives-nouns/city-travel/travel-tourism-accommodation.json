@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-001",
       "type": "single-choice",
       "prompt": "точные экскурсии",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εκδρομή\nМножественное число: οι εκδρομές\n\nРод: женский",
       "correctAnswer": "οι ακριβείς εκδρομές",
       "wrongAnswers": ["ο ακριβής εκδρομές", "η ακριβής εκδρομές", "το ακριβές εκδρομές"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-002",
       "type": "single-choice",
       "prompt": "французская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο γαλλικός χάρτης",
       "wrongAnswers": ["οι γαλλικοί χάρτης", "η γαλλική χάρτης", "οι γαλλικές χάρτης"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-003",
       "type": "single-choice",
       "prompt": "канадские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι καναδικοί χάρτες",
       "wrongAnswers": ["ο καναδικός χάρτες", "η καναδική χάρτες", "οι καναδικές χάρτες"]
@@ -33,7 +33,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-004",
       "type": "single-choice",
       "prompt": "конечный пункт назначения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο προορισμός\nМножественное число: οι προορισμοί\n\nРод: мужской",
       "correctAnswer": "ο τελικός προορισμός",
       "wrongAnswers": ["η τελική προορισμός", "το τελικό προορισμός", "οι τελικοί προορισμός"]
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-005",
       "type": "single-choice",
       "prompt": "старые места",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τόπος\nМножественное число: οι τόποι\n\nРод: мужской",
       "correctAnswer": "οι παλιοί τόποι",
       "wrongAnswers": ["ο παλιός τόποι", "η παλιά τόποι", "οι παλιές τόποι"]
@@ -51,7 +51,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-006",
       "type": "single-choice",
       "prompt": "островная деревня",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χωριό\nМножественное число: τα χωριά\n\nРод: средний",
       "correctAnswer": "το νησιώτικο χωριό",
       "wrongAnswers": ["ο νησιώτικος χωριό", "η νησιώτικη χωριό", "οι νησιώτικοι χωριό"]
@@ -60,7 +60,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-007",
       "type": "single-choice",
       "prompt": "большой кемпинг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κάμπινγκ\nМножественное число: τα κάμπινγκ\n\nРод: средний",
       "correctAnswer": "το μεγάλο κάμπινγκ",
       "wrongAnswers": ["ο μεγάλος κάμπινγκ", "οι μεγάλοι κάμπινγκ", "η μεγάλη κάμπινγκ"]
@@ -69,7 +69,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-008",
       "type": "single-choice",
       "prompt": "старое место",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τόπος\nМножественное число: οι τόποι\n\nРод: мужской",
       "correctAnswer": "ο παλιός τόπος",
       "wrongAnswers": ["οι παλιοί τόπος", "η παλιά τόπος", "οι παλιές τόπος"]
@@ -78,7 +78,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-009",
       "type": "single-choice",
       "prompt": "запланированные поездки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "τα προγραμματισμένα ταξίδια",
       "wrongAnswers": [
@@ -91,7 +91,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-010",
       "type": "single-choice",
       "prompt": "современный туризм",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τουρισμός\nМножественное число: οι None\n\nРод: мужской",
       "correctAnswer": "ο σύγχρονος τουρισμός",
       "wrongAnswers": ["οι σύγχρονοι τουρισμός", "η σύγχρονη τουρισμός", "οι σύγχρονες τουρισμός"]
@@ -100,7 +100,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-011",
       "type": "single-choice",
       "prompt": "далёкие поездки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "τα μακρινά ταξίδια",
       "wrongAnswers": ["ο μακρινός ταξίδια", "η μακρινή ταξίδια", "το μακρινό ταξίδια"]
@@ -109,7 +109,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-012",
       "type": "single-choice",
       "prompt": "авиационные поездки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "τα αεροπορικά ταξίδια",
       "wrongAnswers": ["ο αεροπορικός ταξίδια", "η αεροπορική ταξίδια", "το αεροπορικό ταξίδια"]
@@ -118,7 +118,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-013",
       "type": "single-choice",
       "prompt": "конечные пункты назначения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο προορισμός\nМножественное число: οι προορισμοί\n\nРод: мужской",
       "correctAnswer": "οι τελικοί προορισμοί",
       "wrongAnswers": ["ο τελικός προορισμοί", "η τελική προορισμοί", "το τελικό προορισμοί"]
@@ -127,7 +127,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-014",
       "type": "single-choice",
       "prompt": "маленькие деревни",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χωριό\nМножественное число: τα χωριά\n\nРод: средний",
       "correctAnswer": "τα μικρά χωριά",
       "wrongAnswers": ["ο μικρός χωριά", "οι μικροί χωριά", "η μικρή χωριά"]
@@ -136,7 +136,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-015",
       "type": "single-choice",
       "prompt": "точная экскурсия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εκδρομή\nМножественное число: οι εκδρομές\n\nРод: женский",
       "correctAnswer": "η ακριβή εκδρομή",
       "wrongAnswers": ["ο ακριβής εκδρομή", "η ακριβής εκδρομή", "το ακριβές εκδρομή"]
@@ -145,7 +145,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-016",
       "type": "single-choice",
       "prompt": "международный аэропорт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αεροδρόμιο\nМножественное число: τα αεροδρόμια\n\nРод: средний",
       "correctAnswer": "το διεθνές αεροδρόμιο",
       "wrongAnswers": ["ο διεθνής αεροδρόμιο", "οι διεθνείς αεροδρόμιο", "η διεθνής αεροδρόμιο"]
@@ -154,7 +154,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-017",
       "type": "single-choice",
       "prompt": "центральное туристическое агентство",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γραφείο\nМножественное число: τα γραφεία\n\nРод: средний",
       "correctAnswer": "το κεντρικό ταξιδιωτικό γραφείο",
       "wrongAnswers": [
@@ -167,7 +167,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-018",
       "type": "single-choice",
       "prompt": "туристические агентства",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γραφείο\nМножественное число: τα γραφεία\n\nРод: средний",
       "correctAnswer": "τα τουριστικά γραφεία",
       "wrongAnswers": ["ο τουριστικός γραφεία", "οι τουριστικοί γραφεία", "η τουριστική γραφεία"]
@@ -176,7 +176,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-019",
       "type": "single-choice",
       "prompt": "важные достопримечательности",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αξιοθέατο\nМножественное число: τα αξιοθέατα\n\nРод: средний",
       "correctAnswer": "τα σημαντικά αξιοθέατα",
       "wrongAnswers": ["ο σημαντικός αξιοθέατα", "οι σημαντικοί αξιοθέατα", "η σημαντική αξιοθέατα"]
@@ -185,7 +185,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-020",
       "type": "single-choice",
       "prompt": "хорошая туристка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τουρίστρια\nМножественное число: οι τουρίστριες\n\nРод: женский",
       "correctAnswer": "η καλή τουρίστρια",
       "wrongAnswers": ["ο καλός τουρίστρια", "οι καλοί τουρίστρια", "οι καλές τουρίστρια"]
@@ -194,7 +194,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-021",
       "type": "single-choice",
       "prompt": "центральные туристические агентства",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το γραφείο\nМножественное число: τα γραφεία\n\nРод: средний",
       "correctAnswer": "τα κεντρικά ταξιδιωτικά γραφεία",
       "wrongAnswers": [
@@ -207,7 +207,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-022",
       "type": "single-choice",
       "prompt": "доступные места",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η θέση\nМножественное число: οι θέσεις\n\nРод: женский",
       "correctAnswer": "οι διαθέσιμες θέσεις",
       "wrongAnswers": ["ο διαθέσιμος θέσεις", "οι διαθέσιμοι θέσεις", "η διαθέσιμη θέσεις"]
@@ -216,7 +216,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-023",
       "type": "single-choice",
       "prompt": "большой лагерь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κατασκήνωση\nМножественное число: οι κατασκηνώσεις\n\nРод: женский",
       "correctAnswer": "η μεγάλη κατασκήνωση",
       "wrongAnswers": ["ο μεγάλος κατασκήνωση", "οι μεγάλοι κατασκήνωση", "οι μεγάλες κατασκήνωση"]
@@ -225,7 +225,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-024",
       "type": "single-choice",
       "prompt": "хорошие туристки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τουρίστρια\nМножественное число: οι τουρίστριες\n\nРод: женский",
       "correctAnswer": "οι καλές τουρίστριες",
       "wrongAnswers": ["ο καλός τουρίστριες", "οι καλοί τουρίστριες", "η καλή τουρίστριες"]
@@ -234,7 +234,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-025",
       "type": "single-choice",
       "prompt": "необходимые билеты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το εισιτήριο\nМножественное число: τα εισιτήρια\n\nРод: средний",
       "correctAnswer": "τα απαραίτητα εισιτήρια",
       "wrongAnswers": [
@@ -247,7 +247,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-026",
       "type": "single-choice",
       "prompt": "долгое путешествие",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "το μακρύ ταξίδι",
       "wrongAnswers": ["ο μακρύς ταξίδι", "οι μακριοί ταξίδι", "η μακριά ταξίδι"]
@@ -256,7 +256,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-027",
       "type": "single-choice",
       "prompt": "авиапутешествие",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "το αεροπορικό ταξίδι",
       "wrongAnswers": ["ο αεροπορικός ταξίδι", "η αεροπορική ταξίδι", "οι αεροπορικοί ταξίδι"]
@@ -265,7 +265,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-028",
       "type": "single-choice",
       "prompt": "короткий полёт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πτήση\nМножественное число: οι πτήσεις\n\nРод: женский",
       "correctAnswer": "η σύντομη πτήση",
       "wrongAnswers": ["ο σύντομος πτήση", "οι σύντομοι πτήση", "οι σύντομες πτήση"]
@@ -274,7 +274,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-029",
       "type": "single-choice",
       "prompt": "большие лагеря",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κατασκήνωση\nМножественное число: οι κατασκηνώσεις\n\nРод: женский",
       "correctAnswer": "οι μεγάλες κατασκηνώσεις",
       "wrongAnswers": [
@@ -287,7 +287,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-030",
       "type": "single-choice",
       "prompt": "хорошие туристы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τουρίστας\nМножественное число: οι τουρίστες\n\nРод: мужской",
       "correctAnswer": "οι καλοί τουρίστες",
       "wrongAnswers": ["ο καλός τουρίστες", "η καλή τουρίστες", "οι καλές τουρίστες"]
@@ -296,7 +296,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-031",
       "type": "single-choice",
       "prompt": "маленький чемодан",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η βαλίτσα\nМножественное число: οι βαλίτσες\n\nРод: женский",
       "correctAnswer": "η μικρή βαλίτσα",
       "wrongAnswers": ["ο μικρός βαλίτσα", "οι μικροί βαλίτσα", "οι μικρές βαλίτσα"]
@@ -305,7 +305,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-032",
       "type": "single-choice",
       "prompt": "красивые места",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τοποθεσία\nМножественное число: οι τοποθεσίες\n\nРод: женский",
       "correctAnswer": "οι όμορφες τοποθεσίες",
       "wrongAnswers": ["ο όμορφος τοποθεσίες", "οι όμορφοι τοποθεσίες", "η όμορφη τοποθεσίες"]
@@ -314,7 +314,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-033",
       "type": "single-choice",
       "prompt": "туристический гид",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο οδηγός\nМножественное число: οι οδηγοί\n\nРод: мужской",
       "correctAnswer": "ο τουριστικός οδηγός",
       "wrongAnswers": ["οι τουριστικοί οδηγός", "η τουριστική οδηγός", "οι τουριστικές οδηγός"]
@@ -323,7 +323,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-034",
       "type": "single-choice",
       "prompt": "хороший турист",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τουρίστας\nМножественное число: οι τουρίστες\n\nРод: мужской",
       "correctAnswer": "ο καλός τουρίστας",
       "wrongAnswers": ["οι καλοί τουρίστας", "η καλή τουρίστας", "οι καλές τουρίστας"]
@@ -332,7 +332,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-035",
       "type": "single-choice",
       "prompt": "деловые поездки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "τα επαγγελματικά ταξίδια",
       "wrongAnswers": [
@@ -345,7 +345,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-036",
       "type": "single-choice",
       "prompt": "запланированная поездка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "το προγραμματισμένο ταξίδι",
       "wrongAnswers": [
@@ -358,7 +358,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-037",
       "type": "single-choice",
       "prompt": "туристические гиды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο οδηγός\nМножественное число: οι οδηγοί\n\nРод: мужской",
       "correctAnswer": "οι τουριστικοί οδηγοί",
       "wrongAnswers": ["ο τουριστικός οδηγοί", "η τουριστική οδηγοί", "οι τουριστικές οδηγοί"]
@@ -367,7 +367,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-038",
       "type": "single-choice",
       "prompt": "деловая поездка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταξίδι\nМножественное число: τα ταξίδια\n\nРод: средний",
       "correctAnswer": "το επαγγελματικό ταξίδι",
       "wrongAnswers": [
@@ -380,7 +380,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-039",
       "type": "single-choice",
       "prompt": "маленькие чемоданы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η βαλίτσα\nМножественное число: οι βαλίτσες\n\nРод: женский",
       "correctAnswer": "οι μικρές βαλίτσες",
       "wrongAnswers": ["ο μικρός βαλίτσες", "οι μικροί βαλίτσες", "η μικρή βαλίτσες"]
@@ -389,7 +389,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-040",
       "type": "single-choice",
       "prompt": "одноместный номер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάμαρα\nМножественное число: οι κάμαρες\n\nРод: женский",
       "correctAnswer": "η μονόκλινη κάμαρα",
       "wrongAnswers": ["ο μονόκλινος κάμαρα", "οι μονόκλινοι κάμαρα", "οι μονόκλινες κάμαρα"]
@@ -398,7 +398,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-041",
       "type": "single-choice",
       "prompt": "красивая гостиница",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ξενοδοχείο\nМножественное число: τα ξενοδοχεία\n\nРод: средний",
       "correctAnswer": "το όμορφο ξενοδοχείο",
       "wrongAnswers": ["ο όμορφος ξενοδοχείο", "οι όμορφοι ξενοδοχείο", "η όμορφη ξενοδοχείο"]
@@ -407,7 +407,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-042",
       "type": "single-choice",
       "prompt": "доступные номера",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "τα διαθέσιμα δωμάτια",
       "wrongAnswers": ["ο διαθέσιμος δωμάτια", "οι διαθέσιμοι δωμάτια", "η διαθέσιμη δωμάτια"]
@@ -416,7 +416,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-043",
       "type": "single-choice",
       "prompt": "удобный двухместный номер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "το άνετο δίκλινο δωμάτιο",
       "wrongAnswers": [
@@ -429,7 +429,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-044",
       "type": "single-choice",
       "prompt": "маленькие пансионы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο ξενώνας\nМножественное число: οι ξενώνες\n\nРод: мужской",
       "correctAnswer": "οι μικροί ξενώνες",
       "wrongAnswers": ["ο μικρός ξενώνες", "η μικρή ξενώνες", "οι μικρές ξενώνες"]
@@ -438,7 +438,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-045",
       "type": "single-choice",
       "prompt": "пустой одноместный номер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "το άδειο μονόκλινο δωμάτιο",
       "wrongAnswers": [
@@ -451,7 +451,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-046",
       "type": "single-choice",
       "prompt": "одноместные комнаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάμαρα\nМножественное число: οι κάμαρες\n\nРод: женский",
       "correctAnswer": "οι μονόκλινες κάμαρες",
       "wrongAnswers": ["ο μονόκλινος κάμαρες", "οι μονόκλινοι κάμαρες", "η μονόκλινη κάμαρες"]
@@ -460,7 +460,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-047",
       "type": "single-choice",
       "prompt": "одноместные помещения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χώρος\nМножественное число: οι χώροι\n\nРод: мужской",
       "correctAnswer": "οι μονόκλινοι χώροι",
       "wrongAnswers": ["ο μονόκλινος χώροι", "η μονόκλινη χώροι", "οι μονόκλινες χώροι"]
@@ -469,7 +469,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-048",
       "type": "single-choice",
       "prompt": "одноместные номера",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "τα μονόκλινα δωμάτια",
       "wrongAnswers": ["ο μονόκλινος δωμάτια", "οι μονόκλινοι δωμάτια", "η μονόκλινη δωμάτια"]
@@ -478,7 +478,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-049",
       "type": "single-choice",
       "prompt": "одноместное помещение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χώρος\nМножественное число: οι χώροι\n\nРод: мужской",
       "correctAnswer": "ο μονόκλινος χώρος",
       "wrongAnswers": ["οι μονόκλινοι χώρος", "η μονόκλινη χώρος", "οι μονόκλινες χώρος"]
@@ -487,7 +487,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-050",
       "type": "single-choice",
       "prompt": "пустые одноместные номера",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "τα άδεια μονόκλινα δωμάτια",
       "wrongAnswers": [
@@ -500,7 +500,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-051",
       "type": "single-choice",
       "prompt": "двухместный номер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "το διπλό δωμάτιο",
       "wrongAnswers": ["ο διπλός δωμάτιο", "οι διπλοί δωμάτιο", "η διπλή δωμάτιο"]
@@ -509,7 +509,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-052",
       "type": "single-choice",
       "prompt": "одноместный номер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "το μονόκλινο δωμάτιο",
       "wrongAnswers": ["ο μονόκλινος δωμάτιο", "οι μονόκλινοι δωμάτιο", "η μονόκλινη δωμάτιο"]
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-053",
       "type": "single-choice",
       "prompt": "удобные двухместные номера",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
       "correctAnswer": "τα άνετα δίκλινα δωμάτια",
       "wrongAnswers": [
@@ -531,7 +531,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-054",
       "type": "single-choice",
       "prompt": "красивые отели",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ξενοδοχείο\nМножественное число: τα ξενοδοχεία\n\nРод: средний",
       "correctAnswer": "τα όμορφα ξενοδοχεία",
       "wrongAnswers": ["ο όμορφος ξενοδοχεία", "οι όμορφοι ξενοδοχεία", "η όμορφη ξενοδοχεία"]
@@ -540,7 +540,7 @@
       "id": "nouns-adjectives-city-travel-travel-tourism-accommodation-055",
       "type": "single-choice",
       "prompt": "маленький пансион",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο ξενώνας\nМножественное число: οι ξενώνες\n\nРод: мужской",
       "correctAnswer": "ο μικρός ξενώνας",
       "wrongAnswers": ["οι μικροί ξενώνας", "η μικρή ξενώνας", "οι μικρές ξενώνας"]

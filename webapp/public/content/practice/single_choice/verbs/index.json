@@ -1,0 +1,68 @@
+[
+  {
+    "id": "verbs-movement-travel",
+    "title": "Движение, направление и путешествия",
+    "subtitle": "Выберите правильную форму глагола",
+    "fileName": "movement-travel.json"
+  },
+  {
+    "id": "verbs-home-daily-life",
+    "title": "Дом, быт и повседневные действия",
+    "subtitle": "Домашние дела и ежедневные занятия",
+    "disabled": true
+  },
+  {
+    "id": "verbs-food-shopping",
+    "title": "Еда, приготовление пищи и покупки",
+    "subtitle": "Продукты, готовка, магазины и оплата",
+    "disabled": true
+  },
+  {
+    "id": "verbs-communication-information",
+    "title": "Общение и передача информации",
+    "subtitle": "Разговоры, вопросы и обмен информацией",
+    "disabled": true
+  },
+  {
+    "id": "verbs-study-work",
+    "title": "Учёба, работа и выполнение заданий",
+    "subtitle": "Обучение, профессии и рабочие действия",
+    "disabled": true
+  },
+  {
+    "id": "verbs-thinking-decisions",
+    "title": "Мысли, знания и принятие решений",
+    "subtitle": "Понимание, выбор и размышления",
+    "disabled": true
+  },
+  {
+    "id": "verbs-feelings-relationships",
+    "title": "Чувства, желания и отношения",
+    "subtitle": "Эмоции и взаимодействие с людьми",
+    "disabled": true
+  },
+  {
+    "id": "verbs-health-rest-activity",
+    "title": "Тело, здоровье, отдых и физическая активность",
+    "subtitle": "Самочувствие, спорт и восстановление",
+    "disabled": true
+  },
+  {
+    "id": "verbs-changes-actions-with-objects",
+    "title": "Изменения, создание и действия с предметами",
+    "subtitle": "Выберите правильную форму глагола",
+    "fileName": "changes-actions-with-objects.json"
+  },
+  {
+    "id": "verbs-nature-environment",
+    "title": "Природа, погода и окружающий мир",
+    "subtitle": "Погодные явления и природные процессы",
+    "disabled": true
+  },
+  {
+    "id": "verbs-misc",
+    "title": "Разное",
+    "subtitle": "Глаголы общего употребления",
+    "disabled": true
+  }
+]

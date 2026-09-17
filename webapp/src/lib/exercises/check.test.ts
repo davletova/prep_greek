@@ -7,6 +7,7 @@ describe("checkExerciseAnswer", () => {
     id: "choice-1",
     type: "single-choice",
     prompt: "Γεια",
+    speechTarget: "prompt",
     correctAnswer: "Привет",
     wrongAnswers: ["Пока", "Спасибо", "Извините"],
   };

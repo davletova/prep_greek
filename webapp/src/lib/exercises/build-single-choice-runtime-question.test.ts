@@ -7,7 +7,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
     id: "choice-1",
     type: "single-choice",
     prompt: "Γεια",
-    promptLanguage: "el",
+    speechTarget: "prompt",
     correctAnswer: "Привет",
     wrongAnswers: ["Пока", "Спасибо", "Извините"],
     translation: "Привет",
@@ -21,7 +21,7 @@ describe("buildSingleChoiceRuntimeQuestion", () => {
     expect(question).toMatchObject({
       id: exercise.id,
       prompt: exercise.prompt,
-      promptLanguage: exercise.promptLanguage,
+      speechTarget: exercise.speechTarget,
       translation: exercise.translation,
       explanation: exercise.explanation,
       hint: exercise.hint,

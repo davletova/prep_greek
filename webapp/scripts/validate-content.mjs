@@ -52,9 +52,9 @@ function validateExerciseCollectionSettings(filePath, value) {
   }
 }
 
-function validatePromptLanguage(filePath, value, field) {
-  if (value !== undefined && value !== "el" && value !== "ru") {
-    addError(filePath, `${field} must be either "el" or "ru" when provided`);
+function validateSpeechTarget(filePath, value, field) {
+  if (value !== "prompt" && value !== "options" && value !== "correctAnswer") {
+    addError(filePath, `${field} must be "prompt", "options" or "correctAnswer"`);
   }
 }
 
@@ -74,7 +74,7 @@ function validateUniqueExerciseIds(filePath, items) {
   }
 }
 
-function validateSingleChoiceExercise(filePath, item, index) {
+function validateSingleChoiceExercise(filePath, item, index, requiresSpeechTarget = true) {
   const location = `items[${index}]`;
 
   if (!isString(item.id)) {
@@ -85,7 +85,9 @@ function validateSingleChoiceExercise(filePath, item, index) {
     addError(filePath, `${location}.prompt must be a non-empty string`);
   }
 
-  validatePromptLanguage(filePath, item.promptLanguage, `${location}.promptLanguage`);
+  if (requiresSpeechTarget) {
+    validateSpeechTarget(filePath, item.speechTarget, `${location}.speechTarget`);
+  }
   validateOptionalString(filePath, item.translation, `${location}.translation`);
   validateOptionalString(filePath, item.explanation, `${location}.explanation`);
 
@@ -123,7 +125,6 @@ function validateInputExercise(filePath, item, index) {
     addError(filePath, `${location}.prompt must be a non-empty string`);
   }
 
-  validatePromptLanguage(filePath, item.promptLanguage, `${location}.promptLanguage`);
   validateOptionalString(filePath, item.translation, `${location}.translation`);
   validateOptionalString(filePath, item.explanation, `${location}.explanation`);
   validateOptionalString(filePath, item.context, `${location}.context`);
@@ -191,7 +192,7 @@ function validateListeningExercise(filePath, item, index) {
     addError(filePath, `${location}.transcript must be a non-empty string`);
   }
 
-  validateSingleChoiceExercise(filePath, item, index);
+  validateSingleChoiceExercise(filePath, item, index, false);
 }
 
 function validateExerciseCollection(filePath, content, expectedType) {
@@ -333,6 +334,17 @@ function validatePracticeIndexItem(indexPath, item, index, allowGroups) {
 
   const hasFileName = isString(item.fileName);
   const hasIndexFileName = isString(item.indexFileName);
+
+  if (item.disabled !== undefined && item.disabled !== true) {
+    addError(indexPath, `${location}.disabled must be true when provided`);
+  }
+
+  if (item.disabled === true) {
+    if (hasFileName || hasIndexFileName) {
+      addError(indexPath, `${location} must not reference content when disabled`);
+    }
+    return null;
+  }
 
   if (hasFileName === hasIndexFileName) {
     addError(indexPath, `${location} must define exactly one of fileName or indexFileName`);

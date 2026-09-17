@@ -13,7 +13,7 @@ export function buildSingleChoiceRuntimeQuestion(
   return {
     id: exercise.id,
     prompt: exercise.prompt,
-    promptLanguage: exercise.promptLanguage,
+    speechTarget: exercise.speechTarget,
     options: options as NonEmptyArray<string>,
     correctIndex: options.findIndex((option) => option === exercise.correctAnswer),
     translation: exercise.translation,

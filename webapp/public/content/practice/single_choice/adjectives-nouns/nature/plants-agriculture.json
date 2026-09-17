@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-001",
       "type": "single-choice",
       "prompt": "зеленый лист",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το πράσινο φύλλο",
       "wrongAnswers": ["ο πράσινος φύλλο", "οι πράσινοι φύλλο", "η πράσινη φύλλο"]
     },
@@ -14,7 +14,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-002",
       "type": "single-choice",
       "prompt": "свежий артишок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η φρέσκια αγκινάρα",
       "wrongAnswers": ["ο φρέσκος αγκινάρα", "οι φρέσκοι αγκινάρα", "οι φρέσκες αγκινάρα"]
     },
@@ -22,7 +22,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-003",
       "type": "single-choice",
       "prompt": "рождественская елка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το χριστουγεννιάτικο δέντρο",
       "wrongAnswers": [
         "ο χριστουγεννιάτικος δέντρο",
@@ -34,7 +34,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-004",
       "type": "single-choice",
       "prompt": "красивый жасмин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το όμορφο γιασεμί",
       "wrongAnswers": ["ο όμορφος γιασεμί", "οι όμορφοι γιασεμί", "η όμορφη γιασεμί"]
     },
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-005",
       "type": "single-choice",
       "prompt": "красивые жасмины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα όμορφα γιασεμιά",
       "wrongAnswers": ["ο όμορφος γιασεμιά", "οι όμορφοι γιασεμιά", "η όμορφη γιασεμιά"]
     },
@@ -50,7 +50,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-006",
       "type": "single-choice",
       "prompt": "красивые яблони",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφες μηλιές",
       "wrongAnswers": ["ο όμορφος μηλιές", "οι όμορφοι μηλιές", "η όμορφη μηλιές"]
     },
@@ -58,7 +58,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-007",
       "type": "single-choice",
       "prompt": "особенный орегано",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η ξεχωριστή ρίγανη",
       "wrongAnswers": ["ο ξεχωριστός ρίγανη", "οι ξεχωριστοί ρίγανη", "οι ξεχωριστές ρίγανη"]
     },
@@ -66,7 +66,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-008",
       "type": "single-choice",
       "prompt": "новые растения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα καινούρια φυτά",
       "wrongAnswers": ["ο καινούριος φυτά", "οι καινούριοι φυτά", "οι καινούριες φυτά"]
     },
@@ -74,7 +74,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-009",
       "type": "single-choice",
       "prompt": "молочные отрасли",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι γαλακτοκομικοί τομείς",
       "wrongAnswers": [
         "ο γαλακτοκομικός τομείς",
@@ -86,7 +86,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-010",
       "type": "single-choice",
       "prompt": "зеленые базилики",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι πράσινοι βασιλικοί",
       "wrongAnswers": ["ο πράσινος βασιλικοί", "η πράσινη βασιλικοί", "οι πράσινες βασιλικοί"]
     },
@@ -94,7 +94,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-011",
       "type": "single-choice",
       "prompt": "любимый лавр",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η αγαπητή δάφνη",
       "wrongAnswers": ["ο αγαπητός δάφνη", "οι αγαπητοί δάφνη", "οι αγαπητές δάφνη"]
     },
@@ -102,7 +102,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-012",
       "type": "single-choice",
       "prompt": "большие виноградные лозы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα μεγάλα αμπέλια",
       "wrongAnswers": ["ο μεγάλος αμπέλια", "οι μεγάλοι αμπέλια", "η μεγάλη αμπέλια"]
     },
@@ -110,7 +110,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-013",
       "type": "single-choice",
       "prompt": "богатые поля",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα πλούσια χωράφια",
       "wrongAnswers": ["ο πλούσιος χωράφια", "οι πλούσιοι χωράφια", "οι πλούσιες χωράφια"]
     },
@@ -118,7 +118,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-014",
       "type": "single-choice",
       "prompt": "красивые розовые кусты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφες τριανταφυλλιές",
       "wrongAnswers": [
         "ο όμορφος τριανταφυλλιές",
@@ -130,7 +130,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-015",
       "type": "single-choice",
       "prompt": "большое дерево",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το μεγάλο δέντρο",
       "wrongAnswers": ["ο μεγάλος δέντρο", "οι μεγάλοι δέντρο", "η μεγάλη δέντρο"]
     },
@@ -138,7 +138,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-016",
       "type": "single-choice",
       "prompt": "маленькие фасолинки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα μικρά φασολάκια",
       "wrongAnswers": ["ο μικρός φασολάκια", "οι μικροί φασολάκια", "η μικρή φασολάκια"]
     },
@@ -146,7 +146,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-017",
       "type": "single-choice",
       "prompt": "голландские сады",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι ολλανδικοί κήποι",
       "wrongAnswers": ["ο ολλανδικός κήποι", "η ολλανδική κήποι", "οι ολλανδικές κήποι"]
     },
@@ -154,7 +154,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-018",
       "type": "single-choice",
       "prompt": "красивый цветок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το όμορφο άνθος",
       "wrongAnswers": ["ο όμορφος άνθος", "οι όμορφοι άνθος", "η όμορφη άνθος"]
     },
@@ -162,7 +162,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-019",
       "type": "single-choice",
       "prompt": "разноцветные цветы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα πολύχρωμα λουλούδια",
       "wrongAnswers": ["ο πολύχρωμος λουλούδια", "η πολύχρωμη λουλούδια", "το πολύχρωμο λουλούδια"]
     },
@@ -170,7 +170,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-020",
       "type": "single-choice",
       "prompt": "любимый лист",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το αγαπημένο φύλλο",
       "wrongAnswers": ["ο αγαπημένος φύλλο", "η αγαπημένη φύλλο", "οι αγαπημένοι φύλλο"]
     },
@@ -178,7 +178,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-021",
       "type": "single-choice",
       "prompt": "рождественские деревья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα χριστουγεννιάτικα δέντρα",
       "wrongAnswers": [
         "ο χριστουγεννιάτικος δέντρα",
@@ -190,7 +190,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-022",
       "type": "single-choice",
       "prompt": "большой виноградник",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το μεγάλο αμπέλι",
       "wrongAnswers": ["ο μεγάλος αμπέλι", "οι μεγάλοι αμπέλι", "η μεγάλη αμπέλι"]
     },
@@ -198,7 +198,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-023",
       "type": "single-choice",
       "prompt": "молочное производство",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η γαλακτοκομική παραγωγή",
       "wrongAnswers": [
         "ο γαλακτοκομικός παραγωγή",
@@ -210,7 +210,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-024",
       "type": "single-choice",
       "prompt": "новое растение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το καινούριο φυτό",
       "wrongAnswers": ["ο καινούριος φυτό", "οι καινούριοι φυτό", "η καινούρια φυτό"]
     },
@@ -218,7 +218,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-025",
       "type": "single-choice",
       "prompt": "крепкая цветная капуста",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το γερό κουνουπίδι",
       "wrongAnswers": ["ο γερός κουνουπίδι", "οι γεροί κουνουπίδι", "η γερή κουνουπίδι"]
     },
@@ -226,7 +226,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-026",
       "type": "single-choice",
       "prompt": "молочный сектор",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο γαλακτοκομικός τομέας",
       "wrongAnswers": [
         "οι γαλακτοκομικοί τομέας",
@@ -238,7 +238,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-027",
       "type": "single-choice",
       "prompt": "зелёный сад",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο πράσινος κήπος",
       "wrongAnswers": ["οι πράσινοι κήπος", "η πράσινη κήπος", "οι πράσινες κήπος"]
     },
@@ -246,7 +246,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-028",
       "type": "single-choice",
       "prompt": "большие деревья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα μεγάλα δέντρα",
       "wrongAnswers": ["ο μεγάλος δέντρα", "οι μεγάλοι δέντρα", "η μεγάλη δέντρα"]
     },
@@ -254,7 +254,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-029",
       "type": "single-choice",
       "prompt": "новые цветы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα καινούρια λουλούδια",
       "wrongAnswers": [
         "ο καινούριος λουλούδια",
@@ -266,7 +266,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-030",
       "type": "single-choice",
       "prompt": "свежая фасолина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το φρέσκο φασόλι",
       "wrongAnswers": ["ο φρέσκος φασόλι", "οι φρέσκοι φασόλι", "η φρέσκια φασόλι"]
     },
@@ -274,7 +274,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-031",
       "type": "single-choice",
       "prompt": "большой апельсиновый дерево",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η μεγάλη πορτοκαλιά",
       "wrongAnswers": ["ο μεγάλος πορτοκαλιά", "οι μεγάλοι πορτοκαλιά", "οι μεγάλες πορτοκαλιά"]
     },
@@ -282,7 +282,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-032",
       "type": "single-choice",
       "prompt": "красивые цветы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα όμορφα άνθη",
       "wrongAnswers": ["ο όμορφος άνθη", "οι όμορφοι άνθη", "η όμορφη άνθη"]
     },
@@ -290,7 +290,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-033",
       "type": "single-choice",
       "prompt": "большие апельсиновые деревья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι μεγάλες πορτοκαλιές",
       "wrongAnswers": ["ο μεγάλος πορτοκαλιές", "οι μεγάλοι πορτοκαλιές", "η μεγάλη πορτοκαλιές"]
     },
@@ -298,7 +298,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-034",
       "type": "single-choice",
       "prompt": "украшенные деревья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα στολισμένα δέντρα",
       "wrongAnswers": ["ο στολισμένος δέντρα", "η στολισμένη δέντρα", "το στολισμένο δέντρα"]
     },
@@ -306,7 +306,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-035",
       "type": "single-choice",
       "prompt": "любимая ромашка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το αγαπημένο χαμομήλι",
       "wrongAnswers": ["ο αγαπημένος χαμομήλι", "η αγαπημένη χαμομήλι", "οι αγαπημένοι χαμομήλι"]
     },
@@ -314,7 +314,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-036",
       "type": "single-choice",
       "prompt": "японские жасмины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα ιαπωνικά γιασεμιά",
       "wrongAnswers": ["ο ιαπωνικός γιασεμιά", "οι ιαπωνικοί γιασεμιά", "η ιαπωνική γιασεμιά"]
     },
@@ -322,7 +322,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-037",
       "type": "single-choice",
       "prompt": "любимые лавры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι αγαπητές δάφνες",
       "wrongAnswers": ["ο αγαπητός δάφνες", "οι αγαπητοί δάφνες", "η αγαπητή δάφνες"]
     },
@@ -330,7 +330,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-038",
       "type": "single-choice",
       "prompt": "любимые листья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα αγαπημένα φύλλα",
       "wrongAnswers": ["ο αγαπημένος φύλλα", "η αγαπημένη φύλλα", "το αγαπημένο φύλλα"]
     },
@@ -338,7 +338,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-039",
       "type": "single-choice",
       "prompt": "красная гвоздика",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το κόκκινο γαρίφαλο",
       "wrongAnswers": ["ο κόκκινος γαρίφαλο", "οι κόκκινοι γαρίφαλο", "η κόκκινη γαρίφαλο"]
     },
@@ -346,7 +346,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-040",
       "type": "single-choice",
       "prompt": "любимые ромашки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα αγαπημένα χαμομήλια",
       "wrongAnswers": ["ο αγαπημένος χαμομήλια", "η αγαπημένη χαμομήλια", "το αγαπημένο χαμομήλια"]
     },
@@ -354,7 +354,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-041",
       "type": "single-choice",
       "prompt": "красивая роза",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η όμορφη τριανταφυλλιά",
       "wrongAnswers": [
         "ο όμορφος τριανταφυλλιά",
@@ -366,7 +366,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-042",
       "type": "single-choice",
       "prompt": "зелёные капусты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα πράσινα λάχανα",
       "wrongAnswers": ["ο πράσινος λάχανα", "οι πράσινοι λάχανα", "η πράσινη λάχανα"]
     },
@@ -374,7 +374,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-043",
       "type": "single-choice",
       "prompt": "голландский сад",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο ολλανδικός κήπος",
       "wrongAnswers": ["οι ολλανδικοί κήπος", "η ολλανδική κήπος", "οι ολλανδικές κήπος"]
     },
@@ -382,7 +382,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-044",
       "type": "single-choice",
       "prompt": "крепкие цветные капусты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα γερά κουνουπίδια",
       "wrongAnswers": ["ο γερός κουνουπίδια", "οι γεροί κουνουπίδια", "η γερή κουνουπίδια"]
     },
@@ -390,7 +390,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-045",
       "type": "single-choice",
       "prompt": "красивая яблоня",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η όμορφη μηλιά",
       "wrongAnswers": ["ο όμορφος μηλιά", "οι όμορφοι μηλιά", "οι όμορφες μηλιά"]
     },
@@ -398,7 +398,7 @@
       "id": "nouns-adjectives-nature-plants-agriculture-046",
       "type": "single-choice",
       "prompt": "красные гвоздики",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα κόκκινα γαρίφαλα",
       "wrongAnswers": ["ο κόκκινος γαρίφαλα", "οι κόκκινοι γαρίφαλα", "η κόκκινη γαρίφαλα"]
     }

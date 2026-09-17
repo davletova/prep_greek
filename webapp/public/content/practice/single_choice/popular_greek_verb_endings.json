@@ -8,7 +8,7 @@
       "prompt": "είμαι",
       "correctAnswer": "я есть",
       "wrongAnswers": ["ты есть", "он есть", "мы есть"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-002",
@@ -16,7 +16,7 @@
       "prompt": "είσαι",
       "correctAnswer": "ты есть",
       "wrongAnswers": ["я есть", "он есть", "мы есть"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-003",
@@ -24,7 +24,7 @@
       "prompt": "είναι",
       "correctAnswer": "он есть",
       "wrongAnswers": ["я есть", "ты есть", "мы есть"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-004",
@@ -32,7 +32,7 @@
       "prompt": "είμαστε",
       "correctAnswer": "мы есть",
       "wrongAnswers": ["я есть", "ты есть", "он есть"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-005",
@@ -40,7 +40,7 @@
       "prompt": "είστε",
       "correctAnswer": "вы есть",
       "wrongAnswers": ["я есть", "ты есть", "он есть"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-006",
@@ -48,7 +48,7 @@
       "prompt": "είναι",
       "correctAnswer": "они есть",
       "wrongAnswers": ["я есть", "ты есть", "он есть"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-007",
@@ -56,7 +56,7 @@
       "prompt": "έχω",
       "correctAnswer": "имею",
       "wrongAnswers": ["имеешь", "имеет", "имеем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-008",
@@ -64,7 +64,7 @@
       "prompt": "έχεις",
       "correctAnswer": "имеешь",
       "wrongAnswers": ["имею", "имеет", "имеем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-009",
@@ -72,7 +72,7 @@
       "prompt": "έχει",
       "correctAnswer": "имеет",
       "wrongAnswers": ["имею", "имеешь", "имеем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-010",
@@ -80,7 +80,7 @@
       "prompt": "έχουμε",
       "correctAnswer": "имеем",
       "wrongAnswers": ["имею", "имеешь", "имеет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-011",
@@ -88,7 +88,7 @@
       "prompt": "έχετε",
       "correctAnswer": "имеете",
       "wrongAnswers": ["имею", "имеешь", "имеет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-012",
@@ -96,7 +96,7 @@
       "prompt": "έχουν",
       "correctAnswer": "имеют",
       "wrongAnswers": ["имею", "имеешь", "имеет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-013",
@@ -104,7 +104,7 @@
       "prompt": "κάνω",
       "correctAnswer": "делаю",
       "wrongAnswers": ["делаешь", "делает", "делаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-014",
@@ -112,7 +112,7 @@
       "prompt": "κάνεις",
       "correctAnswer": "делаешь",
       "wrongAnswers": ["делаю", "делает", "делаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-015",
@@ -120,7 +120,7 @@
       "prompt": "κάνει",
       "correctAnswer": "делает",
       "wrongAnswers": ["делаю", "делаешь", "делаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-016",
@@ -128,7 +128,7 @@
       "prompt": "κάνουμε",
       "correctAnswer": "делаем",
       "wrongAnswers": ["делаю", "делаешь", "делает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-017",
@@ -136,7 +136,7 @@
       "prompt": "κάνετε",
       "correctAnswer": "делаете",
       "wrongAnswers": ["делаю", "делаешь", "делает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-018",
@@ -144,7 +144,7 @@
       "prompt": "κάνουν",
       "correctAnswer": "делают",
       "wrongAnswers": ["делаю", "делаешь", "делает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-019",
@@ -152,7 +152,7 @@
       "prompt": "λέω",
       "correctAnswer": "говорю",
       "wrongAnswers": ["говоришь", "говорит", "говорим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-020",
@@ -160,7 +160,7 @@
       "prompt": "λες",
       "correctAnswer": "говоришь",
       "wrongAnswers": ["говорю", "говорит", "говорим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-021",
@@ -168,7 +168,7 @@
       "prompt": "λέει",
       "correctAnswer": "говорит",
       "wrongAnswers": ["говорю", "говоришь", "говорим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-022",
@@ -176,7 +176,7 @@
       "prompt": "λέμε",
       "correctAnswer": "говорим",
       "wrongAnswers": ["говорю", "говоришь", "говорит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-023",
@@ -184,7 +184,7 @@
       "prompt": "λέτε",
       "correctAnswer": "говорите",
       "wrongAnswers": ["говорю", "говоришь", "говорит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-024",
@@ -192,7 +192,7 @@
       "prompt": "λένε",
       "correctAnswer": "говорят",
       "wrongAnswers": ["говорю", "говоришь", "говорит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-025",
@@ -200,7 +200,7 @@
       "prompt": "θέλω",
       "correctAnswer": "хочу",
       "wrongAnswers": ["хочешь", "хочет", "хотим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-026",
@@ -208,7 +208,7 @@
       "prompt": "θέλεις",
       "correctAnswer": "хочешь",
       "wrongAnswers": ["хочу", "хочет", "хотим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-027",
@@ -216,7 +216,7 @@
       "prompt": "θέλει",
       "correctAnswer": "хочет",
       "wrongAnswers": ["хочу", "хочешь", "хотим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-028",
@@ -224,7 +224,7 @@
       "prompt": "θέλουμε",
       "correctAnswer": "хотим",
       "wrongAnswers": ["хочу", "хочешь", "хочет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-029",
@@ -232,7 +232,7 @@
       "prompt": "θέλετε",
       "correctAnswer": "хотите",
       "wrongAnswers": ["хочу", "хочешь", "хочет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-030",
@@ -240,7 +240,7 @@
       "prompt": "θέλουν",
       "correctAnswer": "хотят",
       "wrongAnswers": ["хочу", "хочешь", "хочет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-031",
@@ -248,7 +248,7 @@
       "prompt": "ξέρω",
       "correctAnswer": "знаю",
       "wrongAnswers": ["знаешь", "знает", "знаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-032",
@@ -256,7 +256,7 @@
       "prompt": "ξέρεις",
       "correctAnswer": "знаешь",
       "wrongAnswers": ["знаю", "знает", "знаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-033",
@@ -264,7 +264,7 @@
       "prompt": "ξέρει",
       "correctAnswer": "знает",
       "wrongAnswers": ["знаю", "знаешь", "знаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-034",
@@ -272,7 +272,7 @@
       "prompt": "ξέρουμε",
       "correctAnswer": "знаем",
       "wrongAnswers": ["знаю", "знаешь", "знает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-035",
@@ -280,7 +280,7 @@
       "prompt": "ξέρετε",
       "correctAnswer": "знаете",
       "wrongAnswers": ["знаю", "знаешь", "знает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-036",
@@ -288,7 +288,7 @@
       "prompt": "ξέρουν",
       "correctAnswer": "знают",
       "wrongAnswers": ["знаю", "знаешь", "знает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-037",
@@ -296,7 +296,7 @@
       "prompt": "μπορώ",
       "correctAnswer": "могу",
       "wrongAnswers": ["можешь", "может", "можем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-038",
@@ -304,7 +304,7 @@
       "prompt": "μπορείς",
       "correctAnswer": "можешь",
       "wrongAnswers": ["могу", "может", "можем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-039",
@@ -312,7 +312,7 @@
       "prompt": "μπορεί",
       "correctAnswer": "может",
       "wrongAnswers": ["могу", "можешь", "можем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-040",
@@ -320,7 +320,7 @@
       "prompt": "μπορούμε",
       "correctAnswer": "можем",
       "wrongAnswers": ["могу", "можешь", "может"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-041",
@@ -328,7 +328,7 @@
       "prompt": "μπορείτε",
       "correctAnswer": "можете",
       "wrongAnswers": ["могу", "можешь", "может"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-042",
@@ -336,7 +336,7 @@
       "prompt": "μπορούν",
       "correctAnswer": "могут",
       "wrongAnswers": ["могу", "можешь", "может"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-043",
@@ -344,7 +344,7 @@
       "prompt": "πάω",
       "correctAnswer": "иду",
       "wrongAnswers": ["идёшь", "идёт", "идём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-044",
@@ -352,7 +352,7 @@
       "prompt": "πας",
       "correctAnswer": "идёшь",
       "wrongAnswers": ["иду", "идёт", "идём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-045",
@@ -360,7 +360,7 @@
       "prompt": "πάει",
       "correctAnswer": "идёт",
       "wrongAnswers": ["иду", "идёшь", "идём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-046",
@@ -368,7 +368,7 @@
       "prompt": "πάμε",
       "correctAnswer": "идём",
       "wrongAnswers": ["иду", "идёшь", "идёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-047",
@@ -376,7 +376,7 @@
       "prompt": "πάτε",
       "correctAnswer": "идёте",
       "wrongAnswers": ["иду", "идёшь", "идёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-048",
@@ -384,7 +384,7 @@
       "prompt": "πάνε",
       "correctAnswer": "идут",
       "wrongAnswers": ["иду", "идёшь", "идёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-049",
@@ -392,7 +392,7 @@
       "prompt": "πηγαίνω",
       "correctAnswer": "иду",
       "wrongAnswers": ["идёшь", "идёт", "идём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-050",
@@ -400,7 +400,7 @@
       "prompt": "πηγαίνεις",
       "correctAnswer": "идёшь",
       "wrongAnswers": ["иду", "идёт", "идём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-051",
@@ -408,7 +408,7 @@
       "prompt": "πηγαίνει",
       "correctAnswer": "идёт",
       "wrongAnswers": ["иду", "идёшь", "идём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-052",
@@ -416,7 +416,7 @@
       "prompt": "πηγαίνουμε",
       "correctAnswer": "идём",
       "wrongAnswers": ["иду", "идёшь", "идёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-053",
@@ -424,7 +424,7 @@
       "prompt": "πηγαίνετε",
       "correctAnswer": "идёте",
       "wrongAnswers": ["иду", "идёшь", "идёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-054",
@@ -432,7 +432,7 @@
       "prompt": "πηγαίνουν",
       "correctAnswer": "идут",
       "wrongAnswers": ["иду", "идёшь", "идёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-055",
@@ -440,7 +440,7 @@
       "prompt": "έρχομαι",
       "correctAnswer": "прихожу",
       "wrongAnswers": ["приходишь", "приходит", "приходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-056",
@@ -448,7 +448,7 @@
       "prompt": "έρχεσαι",
       "correctAnswer": "приходишь",
       "wrongAnswers": ["прихожу", "приходит", "приходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-057",
@@ -456,7 +456,7 @@
       "prompt": "έρχεται",
       "correctAnswer": "приходит",
       "wrongAnswers": ["прихожу", "приходишь", "приходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-058",
@@ -464,7 +464,7 @@
       "prompt": "ερχόμαστε",
       "correctAnswer": "приходим",
       "wrongAnswers": ["прихожу", "приходишь", "приходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-059",
@@ -472,7 +472,7 @@
       "prompt": "έρχεστε",
       "correctAnswer": "приходите",
       "wrongAnswers": ["прихожу", "приходишь", "приходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-060",
@@ -480,7 +480,7 @@
       "prompt": "έρχονται",
       "correctAnswer": "приходят",
       "wrongAnswers": ["прихожу", "приходишь", "приходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-061",
@@ -488,7 +488,7 @@
       "prompt": "φεύγω",
       "correctAnswer": "ухожу",
       "wrongAnswers": ["уходишь", "уходит", "уходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-062",
@@ -496,7 +496,7 @@
       "prompt": "φεύγεις",
       "correctAnswer": "уходишь",
       "wrongAnswers": ["ухожу", "уходит", "уходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-063",
@@ -504,7 +504,7 @@
       "prompt": "φεύγει",
       "correctAnswer": "уходит",
       "wrongAnswers": ["ухожу", "уходишь", "уходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-064",
@@ -512,7 +512,7 @@
       "prompt": "φεύγουμε",
       "correctAnswer": "уходим",
       "wrongAnswers": ["ухожу", "уходишь", "уходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-065",
@@ -520,7 +520,7 @@
       "prompt": "φεύγετε",
       "correctAnswer": "уходите",
       "wrongAnswers": ["ухожу", "уходишь", "уходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-066",
@@ -528,7 +528,7 @@
       "prompt": "φεύγουν",
       "correctAnswer": "уходят",
       "wrongAnswers": ["ухожу", "уходишь", "уходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-067",
@@ -536,7 +536,7 @@
       "prompt": "μένω",
       "correctAnswer": "живу",
       "wrongAnswers": ["живёшь", "живёт", "живём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-068",
@@ -544,7 +544,7 @@
       "prompt": "μένεις",
       "correctAnswer": "живёшь",
       "wrongAnswers": ["живу", "живёт", "живём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-069",
@@ -552,7 +552,7 @@
       "prompt": "μένει",
       "correctAnswer": "живёт",
       "wrongAnswers": ["живу", "живёшь", "живём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-070",
@@ -560,7 +560,7 @@
       "prompt": "μένουμε",
       "correctAnswer": "живём",
       "wrongAnswers": ["живу", "живёшь", "живёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-071",
@@ -568,7 +568,7 @@
       "prompt": "μένετε",
       "correctAnswer": "живёте",
       "wrongAnswers": ["живу", "живёшь", "живёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-072",
@@ -576,7 +576,7 @@
       "prompt": "μένουν",
       "correctAnswer": "живут",
       "wrongAnswers": ["живу", "живёшь", "живёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-073",
@@ -584,7 +584,7 @@
       "prompt": "μένω",
       "correctAnswer": "остаюсь",
       "wrongAnswers": ["остаёшься", "остаётся", "остаёмся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-074",
@@ -592,7 +592,7 @@
       "prompt": "μένεις",
       "correctAnswer": "остаёшься",
       "wrongAnswers": ["остаюсь", "остаётся", "остаёмся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-075",
@@ -600,7 +600,7 @@
       "prompt": "μένει",
       "correctAnswer": "остаётся",
       "wrongAnswers": ["остаюсь", "остаёшься", "остаёмся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-076",
@@ -608,7 +608,7 @@
       "prompt": "μένουμε",
       "correctAnswer": "остаёмся",
       "wrongAnswers": ["остаюсь", "остаёшься", "остаётся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-077",
@@ -616,7 +616,7 @@
       "prompt": "μένετε",
       "correctAnswer": "остаётесь",
       "wrongAnswers": ["остаюсь", "остаёшься", "остаётся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-078",
@@ -624,7 +624,7 @@
       "prompt": "μένουν",
       "correctAnswer": "остаются",
       "wrongAnswers": ["остаюсь", "остаёшься", "остаётся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-079",
@@ -632,7 +632,7 @@
       "prompt": "βλέπω",
       "correctAnswer": "вижу",
       "wrongAnswers": ["видишь", "видит", "видим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-080",
@@ -640,7 +640,7 @@
       "prompt": "βλέπεις",
       "correctAnswer": "видишь",
       "wrongAnswers": ["вижу", "видит", "видим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-081",
@@ -648,7 +648,7 @@
       "prompt": "βλέπει",
       "correctAnswer": "видит",
       "wrongAnswers": ["вижу", "видишь", "видим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-082",
@@ -656,7 +656,7 @@
       "prompt": "βλέπουμε",
       "correctAnswer": "видим",
       "wrongAnswers": ["вижу", "видишь", "видит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-083",
@@ -664,7 +664,7 @@
       "prompt": "βλέπετε",
       "correctAnswer": "видите",
       "wrongAnswers": ["вижу", "видишь", "видит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-084",
@@ -672,7 +672,7 @@
       "prompt": "βλέπουν",
       "correctAnswer": "видят",
       "wrongAnswers": ["вижу", "видишь", "видит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-085",
@@ -680,7 +680,7 @@
       "prompt": "βλέπω",
       "correctAnswer": "смотрю",
       "wrongAnswers": ["смотришь", "смотрит", "смотрим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-086",
@@ -688,7 +688,7 @@
       "prompt": "βλέπεις",
       "correctAnswer": "смотришь",
       "wrongAnswers": ["смотрю", "смотрит", "смотрим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-087",
@@ -696,7 +696,7 @@
       "prompt": "βλέπει",
       "correctAnswer": "смотрит",
       "wrongAnswers": ["смотрю", "смотришь", "смотрим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-088",
@@ -704,7 +704,7 @@
       "prompt": "βλέπουμε",
       "correctAnswer": "смотрим",
       "wrongAnswers": ["смотрю", "смотришь", "смотрит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-089",
@@ -712,7 +712,7 @@
       "prompt": "βλέπετε",
       "correctAnswer": "смотрите",
       "wrongAnswers": ["смотрю", "смотришь", "смотрит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-090",
@@ -720,7 +720,7 @@
       "prompt": "βλέπουν",
       "correctAnswer": "смотрят",
       "wrongAnswers": ["смотрю", "смотришь", "смотрит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-091",
@@ -728,7 +728,7 @@
       "prompt": "ακούω",
       "correctAnswer": "слышу",
       "wrongAnswers": ["слышишь", "слышит", "слышим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-092",
@@ -736,7 +736,7 @@
       "prompt": "ακούς",
       "correctAnswer": "слышишь",
       "wrongAnswers": ["слышу", "слышит", "слышим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-093",
@@ -744,7 +744,7 @@
       "prompt": "ακούει",
       "correctAnswer": "слышит",
       "wrongAnswers": ["слышу", "слышишь", "слышим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-094",
@@ -752,7 +752,7 @@
       "prompt": "ακούμε",
       "correctAnswer": "слышим",
       "wrongAnswers": ["слышу", "слышишь", "слышит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-095",
@@ -760,7 +760,7 @@
       "prompt": "ακούτε",
       "correctAnswer": "слышите",
       "wrongAnswers": ["слышу", "слышишь", "слышит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-096",
@@ -768,7 +768,7 @@
       "prompt": "ακούνε",
       "correctAnswer": "слышат",
       "wrongAnswers": ["слышу", "слышишь", "слышит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-097",
@@ -776,7 +776,7 @@
       "prompt": "ακούω",
       "correctAnswer": "слушаю",
       "wrongAnswers": ["слушаешь", "слушает", "слушаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-098",
@@ -784,7 +784,7 @@
       "prompt": "ακούς",
       "correctAnswer": "слушаешь",
       "wrongAnswers": ["слушаю", "слушает", "слушаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-099",
@@ -792,7 +792,7 @@
       "prompt": "ακούει",
       "correctAnswer": "слушает",
       "wrongAnswers": ["слушаю", "слушаешь", "слушаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-100",
@@ -800,7 +800,7 @@
       "prompt": "ακούμε",
       "correctAnswer": "слушаем",
       "wrongAnswers": ["слушаю", "слушаешь", "слушает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-101",
@@ -808,7 +808,7 @@
       "prompt": "ακούτε",
       "correctAnswer": "слушаете",
       "wrongAnswers": ["слушаю", "слушаешь", "слушает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-102",
@@ -816,7 +816,7 @@
       "prompt": "ακούνε",
       "correctAnswer": "слушают",
       "wrongAnswers": ["слушаю", "слушаешь", "слушает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-103",
@@ -824,7 +824,7 @@
       "prompt": "τρώω",
       "correctAnswer": "ем",
       "wrongAnswers": ["ешь", "ест", "едим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-104",
@@ -832,7 +832,7 @@
       "prompt": "τρως",
       "correctAnswer": "ешь",
       "wrongAnswers": ["ем", "ест", "едим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-105",
@@ -840,7 +840,7 @@
       "prompt": "τρώει",
       "correctAnswer": "ест",
       "wrongAnswers": ["ем", "ешь", "едим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-106",
@@ -848,7 +848,7 @@
       "prompt": "τρώμε",
       "correctAnswer": "едим",
       "wrongAnswers": ["ем", "ешь", "ест"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-107",
@@ -856,7 +856,7 @@
       "prompt": "τρώτε",
       "correctAnswer": "едите",
       "wrongAnswers": ["ем", "ешь", "ест"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-108",
@@ -864,7 +864,7 @@
       "prompt": "τρώνε",
       "correctAnswer": "едят",
       "wrongAnswers": ["ем", "ешь", "ест"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-109",
@@ -872,7 +872,7 @@
       "prompt": "πίνω",
       "correctAnswer": "пью",
       "wrongAnswers": ["пьёшь", "пьёт", "пьём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-110",
@@ -880,7 +880,7 @@
       "prompt": "πίνεις",
       "correctAnswer": "пьёшь",
       "wrongAnswers": ["пью", "пьёт", "пьём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-111",
@@ -888,7 +888,7 @@
       "prompt": "πίνει",
       "correctAnswer": "пьёт",
       "wrongAnswers": ["пью", "пьёшь", "пьём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-112",
@@ -896,7 +896,7 @@
       "prompt": "πίνουμε",
       "correctAnswer": "пьём",
       "wrongAnswers": ["пью", "пьёшь", "пьёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-113",
@@ -904,7 +904,7 @@
       "prompt": "πίνετε",
       "correctAnswer": "пьёте",
       "wrongAnswers": ["пью", "пьёшь", "пьёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-114",
@@ -912,7 +912,7 @@
       "prompt": "πίνουν",
       "correctAnswer": "пьют",
       "wrongAnswers": ["пью", "пьёшь", "пьёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-115",
@@ -920,7 +920,7 @@
       "prompt": "διαβάζω",
       "correctAnswer": "читаю",
       "wrongAnswers": ["читаешь", "читает", "читаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-116",
@@ -928,7 +928,7 @@
       "prompt": "διαβάζεις",
       "correctAnswer": "читаешь",
       "wrongAnswers": ["читаю", "читает", "читаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-117",
@@ -936,7 +936,7 @@
       "prompt": "διαβάζει",
       "correctAnswer": "читает",
       "wrongAnswers": ["читаю", "читаешь", "читаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-118",
@@ -944,7 +944,7 @@
       "prompt": "διαβάζουμε",
       "correctAnswer": "читаем",
       "wrongAnswers": ["читаю", "читаешь", "читает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-119",
@@ -952,7 +952,7 @@
       "prompt": "διαβάζετε",
       "correctAnswer": "читаете",
       "wrongAnswers": ["читаю", "читаешь", "читает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-120",
@@ -960,7 +960,7 @@
       "prompt": "διαβάζουν",
       "correctAnswer": "читают",
       "wrongAnswers": ["читаю", "читаешь", "читает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-121",
@@ -968,7 +968,7 @@
       "prompt": "γράφω",
       "correctAnswer": "пишу",
       "wrongAnswers": ["пишешь", "пишет", "пишем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-122",
@@ -976,7 +976,7 @@
       "prompt": "γράφεις",
       "correctAnswer": "пишешь",
       "wrongAnswers": ["пишу", "пишет", "пишем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-123",
@@ -984,7 +984,7 @@
       "prompt": "γράφει",
       "correctAnswer": "пишет",
       "wrongAnswers": ["пишу", "пишешь", "пишем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-124",
@@ -992,7 +992,7 @@
       "prompt": "γράφουμε",
       "correctAnswer": "пишем",
       "wrongAnswers": ["пишу", "пишешь", "пишет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-125",
@@ -1000,7 +1000,7 @@
       "prompt": "γράφετε",
       "correctAnswer": "пишете",
       "wrongAnswers": ["пишу", "пишешь", "пишет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-126",
@@ -1008,7 +1008,7 @@
       "prompt": "γράφουν",
       "correctAnswer": "пишут",
       "wrongAnswers": ["пишу", "пишешь", "пишет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-127",
@@ -1016,7 +1016,7 @@
       "prompt": "μιλάω",
       "correctAnswer": "говорю",
       "wrongAnswers": ["говоришь", "говорит", "говорим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-128",
@@ -1024,7 +1024,7 @@
       "prompt": "μιλάς",
       "correctAnswer": "говоришь",
       "wrongAnswers": ["говорю", "говорит", "говорим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-129",
@@ -1032,7 +1032,7 @@
       "prompt": "μιλάει",
       "correctAnswer": "говорит",
       "wrongAnswers": ["говорю", "говоришь", "говорим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-130",
@@ -1040,7 +1040,7 @@
       "prompt": "μιλάμε",
       "correctAnswer": "говорим",
       "wrongAnswers": ["говорю", "говоришь", "говорит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-131",
@@ -1048,7 +1048,7 @@
       "prompt": "μιλάτε",
       "correctAnswer": "говорите",
       "wrongAnswers": ["говорю", "говоришь", "говорит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-132",
@@ -1056,7 +1056,7 @@
       "prompt": "μιλάνε",
       "correctAnswer": "говорят",
       "wrongAnswers": ["говорю", "говоришь", "говорит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-133",
@@ -1064,7 +1064,7 @@
       "prompt": "καταλαβαίνω",
       "correctAnswer": "понимаю",
       "wrongAnswers": ["понимаешь", "понимает", "понимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-134",
@@ -1072,7 +1072,7 @@
       "prompt": "καταλαβαίνεις",
       "correctAnswer": "понимаешь",
       "wrongAnswers": ["понимаю", "понимает", "понимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-135",
@@ -1080,7 +1080,7 @@
       "prompt": "καταλαβαίνει",
       "correctAnswer": "понимает",
       "wrongAnswers": ["понимаю", "понимаешь", "понимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-136",
@@ -1088,7 +1088,7 @@
       "prompt": "καταλαβαίνουμε",
       "correctAnswer": "понимаем",
       "wrongAnswers": ["понимаю", "понимаешь", "понимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-137",
@@ -1096,7 +1096,7 @@
       "prompt": "καταλαβαίνετε",
       "correctAnswer": "понимаете",
       "wrongAnswers": ["понимаю", "понимаешь", "понимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-138",
@@ -1104,7 +1104,7 @@
       "prompt": "καταλαβαίνουν",
       "correctAnswer": "понимают",
       "wrongAnswers": ["понимаю", "понимаешь", "понимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-139",
@@ -1112,7 +1112,7 @@
       "prompt": "μαθαίνω",
       "correctAnswer": "учу",
       "wrongAnswers": ["учишь", "учит", "учим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-140",
@@ -1120,7 +1120,7 @@
       "prompt": "μαθαίνεις",
       "correctAnswer": "учишь",
       "wrongAnswers": ["учу", "учит", "учим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-141",
@@ -1128,7 +1128,7 @@
       "prompt": "μαθαίνει",
       "correctAnswer": "учит",
       "wrongAnswers": ["учу", "учишь", "учим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-142",
@@ -1136,7 +1136,7 @@
       "prompt": "μαθαίνουμε",
       "correctAnswer": "учим",
       "wrongAnswers": ["учу", "учишь", "учит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-143",
@@ -1144,7 +1144,7 @@
       "prompt": "μαθαίνετε",
       "correctAnswer": "учите",
       "wrongAnswers": ["учу", "учишь", "учит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-144",
@@ -1152,7 +1152,7 @@
       "prompt": "μαθαίνουν",
       "correctAnswer": "учат",
       "wrongAnswers": ["учу", "учишь", "учит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-145",
@@ -1160,7 +1160,7 @@
       "prompt": "μαθαίνω",
       "correctAnswer": "узнаю",
       "wrongAnswers": ["узнаёшь", "узнаёт", "узнаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-146",
@@ -1168,7 +1168,7 @@
       "prompt": "μαθαίνεις",
       "correctAnswer": "узнаёшь",
       "wrongAnswers": ["узнаю", "узнаёт", "узнаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-147",
@@ -1176,7 +1176,7 @@
       "prompt": "μαθαίνει",
       "correctAnswer": "узнаёт",
       "wrongAnswers": ["узнаю", "узнаёшь", "узнаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-148",
@@ -1184,7 +1184,7 @@
       "prompt": "μαθαίνουμε",
       "correctAnswer": "узнаём",
       "wrongAnswers": ["узнаю", "узнаёшь", "узнаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-149",
@@ -1192,7 +1192,7 @@
       "prompt": "μαθαίνετε",
       "correctAnswer": "узнаёте",
       "wrongAnswers": ["узнаю", "узнаёшь", "узнаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-150",
@@ -1200,7 +1200,7 @@
       "prompt": "μαθαίνουν",
       "correctAnswer": "узнают",
       "wrongAnswers": ["узнаю", "узнаёшь", "узнаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-151",
@@ -1208,7 +1208,7 @@
       "prompt": "δουλεύω",
       "correctAnswer": "работаю",
       "wrongAnswers": ["работаешь", "работает", "работаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-152",
@@ -1216,7 +1216,7 @@
       "prompt": "δουλεύεις",
       "correctAnswer": "работаешь",
       "wrongAnswers": ["работаю", "работает", "работаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-153",
@@ -1224,7 +1224,7 @@
       "prompt": "δουλεύει",
       "correctAnswer": "работает",
       "wrongAnswers": ["работаю", "работаешь", "работаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-154",
@@ -1232,7 +1232,7 @@
       "prompt": "δουλεύουμε",
       "correctAnswer": "работаем",
       "wrongAnswers": ["работаю", "работаешь", "работает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-155",
@@ -1240,7 +1240,7 @@
       "prompt": "δουλεύετε",
       "correctAnswer": "работаете",
       "wrongAnswers": ["работаю", "работаешь", "работает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-156",
@@ -1248,7 +1248,7 @@
       "prompt": "δουλεύουν",
       "correctAnswer": "работают",
       "wrongAnswers": ["работаю", "работаешь", "работает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-157",
@@ -1256,7 +1256,7 @@
       "prompt": "σπουδάζω",
       "correctAnswer": "учусь",
       "wrongAnswers": ["учишься", "учится", "учимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-158",
@@ -1264,7 +1264,7 @@
       "prompt": "σπουδάζεις",
       "correctAnswer": "учишься",
       "wrongAnswers": ["учусь", "учится", "учимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-159",
@@ -1272,7 +1272,7 @@
       "prompt": "σπουδάζει",
       "correctAnswer": "учится",
       "wrongAnswers": ["учусь", "учишься", "учимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-160",
@@ -1280,7 +1280,7 @@
       "prompt": "σπουδάζουμε",
       "correctAnswer": "учимся",
       "wrongAnswers": ["учусь", "учишься", "учится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-161",
@@ -1288,7 +1288,7 @@
       "prompt": "σπουδάζετε",
       "correctAnswer": "учитесь",
       "wrongAnswers": ["учусь", "учишься", "учится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-162",
@@ -1296,7 +1296,7 @@
       "prompt": "σπουδάζουν",
       "correctAnswer": "учатся",
       "wrongAnswers": ["учусь", "учишься", "учится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-163",
@@ -1304,7 +1304,7 @@
       "prompt": "διδάσκω",
       "correctAnswer": "преподаю",
       "wrongAnswers": ["преподаёшь", "преподаёт", "преподаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-164",
@@ -1312,7 +1312,7 @@
       "prompt": "διδάσκεις",
       "correctAnswer": "преподаёшь",
       "wrongAnswers": ["преподаю", "преподаёт", "преподаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-165",
@@ -1320,7 +1320,7 @@
       "prompt": "διδάσκει",
       "correctAnswer": "преподаёт",
       "wrongAnswers": ["преподаю", "преподаёшь", "преподаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-166",
@@ -1328,7 +1328,7 @@
       "prompt": "διδάσκουμε",
       "correctAnswer": "преподаём",
       "wrongAnswers": ["преподаю", "преподаёшь", "преподаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-167",
@@ -1336,7 +1336,7 @@
       "prompt": "διδάσκετε",
       "correctAnswer": "преподаёте",
       "wrongAnswers": ["преподаю", "преподаёшь", "преподаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-168",
@@ -1344,7 +1344,7 @@
       "prompt": "διδάσκουν",
       "correctAnswer": "преподают",
       "wrongAnswers": ["преподаю", "преподаёшь", "преподаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-169",
@@ -1352,7 +1352,7 @@
       "prompt": "ρωτάω",
       "correctAnswer": "спрашиваю",
       "wrongAnswers": ["спрашиваешь", "спрашивает", "спрашиваем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-170",
@@ -1360,7 +1360,7 @@
       "prompt": "ρωτάς",
       "correctAnswer": "спрашиваешь",
       "wrongAnswers": ["спрашиваю", "спрашивает", "спрашиваем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-171",
@@ -1368,7 +1368,7 @@
       "prompt": "ρωτάει",
       "correctAnswer": "спрашивает",
       "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашиваем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-172",
@@ -1376,7 +1376,7 @@
       "prompt": "ρωτάμε",
       "correctAnswer": "спрашиваем",
       "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-173",
@@ -1384,7 +1384,7 @@
       "prompt": "ρωτάτε",
       "correctAnswer": "спрашиваете",
       "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-174",
@@ -1392,7 +1392,7 @@
       "prompt": "ρωτάνε",
       "correctAnswer": "спрашивают",
       "wrongAnswers": ["спрашиваю", "спрашиваешь", "спрашивает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-175",
@@ -1400,7 +1400,7 @@
       "prompt": "απαντάω",
       "correctAnswer": "отвечаю",
       "wrongAnswers": ["отвечаешь", "отвечает", "отвечаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-176",
@@ -1408,7 +1408,7 @@
       "prompt": "απαντάς",
       "correctAnswer": "отвечаешь",
       "wrongAnswers": ["отвечаю", "отвечает", "отвечаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-177",
@@ -1416,7 +1416,7 @@
       "prompt": "απαντάει",
       "correctAnswer": "отвечает",
       "wrongAnswers": ["отвечаю", "отвечаешь", "отвечаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-178",
@@ -1424,7 +1424,7 @@
       "prompt": "απαντάμε",
       "correctAnswer": "отвечаем",
       "wrongAnswers": ["отвечаю", "отвечаешь", "отвечает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-179",
@@ -1432,7 +1432,7 @@
       "prompt": "απαντάτε",
       "correctAnswer": "отвечаете",
       "wrongAnswers": ["отвечаю", "отвечаешь", "отвечает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-180",
@@ -1440,7 +1440,7 @@
       "prompt": "απαντάνε",
       "correctAnswer": "отвечают",
       "wrongAnswers": ["отвечаю", "отвечаешь", "отвечает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-181",
@@ -1448,7 +1448,7 @@
       "prompt": "περιμένω",
       "correctAnswer": "жду",
       "wrongAnswers": ["ждёшь", "ждёт", "ждём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-182",
@@ -1456,7 +1456,7 @@
       "prompt": "περιμένεις",
       "correctAnswer": "ждёшь",
       "wrongAnswers": ["жду", "ждёт", "ждём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-183",
@@ -1464,7 +1464,7 @@
       "prompt": "περιμένει",
       "correctAnswer": "ждёт",
       "wrongAnswers": ["жду", "ждёшь", "ждём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-184",
@@ -1472,7 +1472,7 @@
       "prompt": "περιμένουμε",
       "correctAnswer": "ждём",
       "wrongAnswers": ["жду", "ждёшь", "ждёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-185",
@@ -1480,7 +1480,7 @@
       "prompt": "περιμένετε",
       "correctAnswer": "ждёте",
       "wrongAnswers": ["жду", "ждёшь", "ждёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-186",
@@ -1488,7 +1488,7 @@
       "prompt": "περιμένουν",
       "correctAnswer": "ждут",
       "wrongAnswers": ["жду", "ждёшь", "ждёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-187",
@@ -1496,7 +1496,7 @@
       "prompt": "παίρνω",
       "correctAnswer": "беру",
       "wrongAnswers": ["берёшь", "берёт", "берём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-188",
@@ -1504,7 +1504,7 @@
       "prompt": "παίρνεις",
       "correctAnswer": "берёшь",
       "wrongAnswers": ["беру", "берёт", "берём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-189",
@@ -1512,7 +1512,7 @@
       "prompt": "παίρνει",
       "correctAnswer": "берёт",
       "wrongAnswers": ["беру", "берёшь", "берём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-190",
@@ -1520,7 +1520,7 @@
       "prompt": "παίρνουμε",
       "correctAnswer": "берём",
       "wrongAnswers": ["беру", "берёшь", "берёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-191",
@@ -1528,7 +1528,7 @@
       "prompt": "παίρνετε",
       "correctAnswer": "берёте",
       "wrongAnswers": ["беру", "берёшь", "берёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-192",
@@ -1536,7 +1536,7 @@
       "prompt": "παίρνουν",
       "correctAnswer": "берут",
       "wrongAnswers": ["беру", "берёшь", "берёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-193",
@@ -1544,7 +1544,7 @@
       "prompt": "παίρνω",
       "correctAnswer": "получаю",
       "wrongAnswers": ["получаешь", "получает", "получаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-194",
@@ -1552,7 +1552,7 @@
       "prompt": "παίρνεις",
       "correctAnswer": "получаешь",
       "wrongAnswers": ["получаю", "получает", "получаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-195",
@@ -1560,7 +1560,7 @@
       "prompt": "παίρνει",
       "correctAnswer": "получает",
       "wrongAnswers": ["получаю", "получаешь", "получаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-196",
@@ -1568,7 +1568,7 @@
       "prompt": "παίρνουμε",
       "correctAnswer": "получаем",
       "wrongAnswers": ["получаю", "получаешь", "получает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-197",
@@ -1576,7 +1576,7 @@
       "prompt": "παίρνετε",
       "correctAnswer": "получаете",
       "wrongAnswers": ["получаю", "получаешь", "получает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-198",
@@ -1584,7 +1584,7 @@
       "prompt": "παίρνουν",
       "correctAnswer": "получают",
       "wrongAnswers": ["получаю", "получаешь", "получает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-199",
@@ -1592,7 +1592,7 @@
       "prompt": "δίνω",
       "correctAnswer": "даю",
       "wrongAnswers": ["даёшь", "даёт", "даём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-200",
@@ -1600,7 +1600,7 @@
       "prompt": "δίνεις",
       "correctAnswer": "даёшь",
       "wrongAnswers": ["даю", "даёт", "даём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-201",
@@ -1608,7 +1608,7 @@
       "prompt": "δίνει",
       "correctAnswer": "даёт",
       "wrongAnswers": ["даю", "даёшь", "даём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-202",
@@ -1616,7 +1616,7 @@
       "prompt": "δίνουμε",
       "correctAnswer": "даём",
       "wrongAnswers": ["даю", "даёшь", "даёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-203",
@@ -1624,7 +1624,7 @@
       "prompt": "δίνετε",
       "correctAnswer": "даёте",
       "wrongAnswers": ["даю", "даёшь", "даёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-204",
@@ -1632,7 +1632,7 @@
       "prompt": "δίνουν",
       "correctAnswer": "дают",
       "wrongAnswers": ["даю", "даёшь", "даёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-205",
@@ -1640,7 +1640,7 @@
       "prompt": "βρίσκω",
       "correctAnswer": "нахожу",
       "wrongAnswers": ["находишь", "находит", "находим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-206",
@@ -1648,7 +1648,7 @@
       "prompt": "βρίσκεις",
       "correctAnswer": "находишь",
       "wrongAnswers": ["нахожу", "находит", "находим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-207",
@@ -1656,7 +1656,7 @@
       "prompt": "βρίσκει",
       "correctAnswer": "находит",
       "wrongAnswers": ["нахожу", "находишь", "находим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-208",
@@ -1664,7 +1664,7 @@
       "prompt": "βρίσκουμε",
       "correctAnswer": "находим",
       "wrongAnswers": ["нахожу", "находишь", "находит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-209",
@@ -1672,7 +1672,7 @@
       "prompt": "βρίσκετε",
       "correctAnswer": "находите",
       "wrongAnswers": ["нахожу", "находишь", "находит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-210",
@@ -1680,7 +1680,7 @@
       "prompt": "βρίσκουν",
       "correctAnswer": "находят",
       "wrongAnswers": ["нахожу", "находишь", "находит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-211",
@@ -1688,7 +1688,7 @@
       "prompt": "χάνω",
       "correctAnswer": "теряю",
       "wrongAnswers": ["теряешь", "теряет", "теряем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-212",
@@ -1696,7 +1696,7 @@
       "prompt": "χάνεις",
       "correctAnswer": "теряешь",
       "wrongAnswers": ["теряю", "теряет", "теряем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-213",
@@ -1704,7 +1704,7 @@
       "prompt": "χάνει",
       "correctAnswer": "теряет",
       "wrongAnswers": ["теряю", "теряешь", "теряем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-214",
@@ -1712,7 +1712,7 @@
       "prompt": "χάνουμε",
       "correctAnswer": "теряем",
       "wrongAnswers": ["теряю", "теряешь", "теряет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-215",
@@ -1720,7 +1720,7 @@
       "prompt": "χάνετε",
       "correctAnswer": "теряете",
       "wrongAnswers": ["теряю", "теряешь", "теряет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-216",
@@ -1728,7 +1728,7 @@
       "prompt": "χάνουν",
       "correctAnswer": "теряют",
       "wrongAnswers": ["теряю", "теряешь", "теряет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-217",
@@ -1736,7 +1736,7 @@
       "prompt": "ψάχνω",
       "correctAnswer": "ищу",
       "wrongAnswers": ["ищешь", "ищет", "ищем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-218",
@@ -1744,7 +1744,7 @@
       "prompt": "ψάχνεις",
       "correctAnswer": "ищешь",
       "wrongAnswers": ["ищу", "ищет", "ищем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-219",
@@ -1752,7 +1752,7 @@
       "prompt": "ψάχνει",
       "correctAnswer": "ищет",
       "wrongAnswers": ["ищу", "ищешь", "ищем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-220",
@@ -1760,7 +1760,7 @@
       "prompt": "ψάχνουμε",
       "correctAnswer": "ищем",
       "wrongAnswers": ["ищу", "ищешь", "ищет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-221",
@@ -1768,7 +1768,7 @@
       "prompt": "ψάχνετε",
       "correctAnswer": "ищете",
       "wrongAnswers": ["ищу", "ищешь", "ищет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-222",
@@ -1776,7 +1776,7 @@
       "prompt": "ψάχνουν",
       "correctAnswer": "ищут",
       "wrongAnswers": ["ищу", "ищешь", "ищет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-223",
@@ -1784,7 +1784,7 @@
       "prompt": "αγοράζω",
       "correctAnswer": "покупаю",
       "wrongAnswers": ["покупаешь", "покупает", "покупаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-224",
@@ -1792,7 +1792,7 @@
       "prompt": "αγοράζεις",
       "correctAnswer": "покупаешь",
       "wrongAnswers": ["покупаю", "покупает", "покупаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-225",
@@ -1800,7 +1800,7 @@
       "prompt": "αγοράζει",
       "correctAnswer": "покупает",
       "wrongAnswers": ["покупаю", "покупаешь", "покупаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-226",
@@ -1808,7 +1808,7 @@
       "prompt": "αγοράζουμε",
       "correctAnswer": "покупаем",
       "wrongAnswers": ["покупаю", "покупаешь", "покупает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-227",
@@ -1816,7 +1816,7 @@
       "prompt": "αγοράζετε",
       "correctAnswer": "покупаете",
       "wrongAnswers": ["покупаю", "покупаешь", "покупает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-228",
@@ -1824,7 +1824,7 @@
       "prompt": "αγοράζουν",
       "correctAnswer": "покупают",
       "wrongAnswers": ["покупаю", "покупаешь", "покупает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-229",
@@ -1832,7 +1832,7 @@
       "prompt": "πουλάω",
       "correctAnswer": "продаю",
       "wrongAnswers": ["продаёшь", "продаёт", "продаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-230",
@@ -1840,7 +1840,7 @@
       "prompt": "πουλάς",
       "correctAnswer": "продаёшь",
       "wrongAnswers": ["продаю", "продаёт", "продаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-231",
@@ -1848,7 +1848,7 @@
       "prompt": "πουλάει",
       "correctAnswer": "продаёт",
       "wrongAnswers": ["продаю", "продаёшь", "продаём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-232",
@@ -1856,7 +1856,7 @@
       "prompt": "πουλάμε",
       "correctAnswer": "продаём",
       "wrongAnswers": ["продаю", "продаёшь", "продаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-233",
@@ -1864,7 +1864,7 @@
       "prompt": "πουλάτε",
       "correctAnswer": "продаёте",
       "wrongAnswers": ["продаю", "продаёшь", "продаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-234",
@@ -1872,7 +1872,7 @@
       "prompt": "πουλάνε",
       "correctAnswer": "продают",
       "wrongAnswers": ["продаю", "продаёшь", "продаёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-235",
@@ -1880,7 +1880,7 @@
       "prompt": "πληρώνω",
       "correctAnswer": "плачу",
       "wrongAnswers": ["платишь", "платит", "платим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-236",
@@ -1888,7 +1888,7 @@
       "prompt": "πληρώνεις",
       "correctAnswer": "платишь",
       "wrongAnswers": ["плачу", "платит", "платим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-237",
@@ -1896,7 +1896,7 @@
       "prompt": "πληρώνει",
       "correctAnswer": "платит",
       "wrongAnswers": ["плачу", "платишь", "платим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-238",
@@ -1904,7 +1904,7 @@
       "prompt": "πληρώνουμε",
       "correctAnswer": "платим",
       "wrongAnswers": ["плачу", "платишь", "платит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-239",
@@ -1912,7 +1912,7 @@
       "prompt": "πληρώνετε",
       "correctAnswer": "платите",
       "wrongAnswers": ["плачу", "платишь", "платит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-240",
@@ -1920,7 +1920,7 @@
       "prompt": "πληρώνουν",
       "correctAnswer": "платят",
       "wrongAnswers": ["плачу", "платишь", "платит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-241",
@@ -1928,7 +1928,7 @@
       "prompt": "ανοίγω",
       "correctAnswer": "открываю",
       "wrongAnswers": ["открываешь", "открывает", "открываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-242",
@@ -1936,7 +1936,7 @@
       "prompt": "ανοίγεις",
       "correctAnswer": "открываешь",
       "wrongAnswers": ["открываю", "открывает", "открываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-243",
@@ -1944,7 +1944,7 @@
       "prompt": "ανοίγει",
       "correctAnswer": "открывает",
       "wrongAnswers": ["открываю", "открываешь", "открываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-244",
@@ -1952,7 +1952,7 @@
       "prompt": "ανοίγουμε",
       "correctAnswer": "открываем",
       "wrongAnswers": ["открываю", "открываешь", "открывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-245",
@@ -1960,7 +1960,7 @@
       "prompt": "ανοίγετε",
       "correctAnswer": "открываете",
       "wrongAnswers": ["открываю", "открываешь", "открывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-246",
@@ -1968,7 +1968,7 @@
       "prompt": "ανοίγουν",
       "correctAnswer": "открывают",
       "wrongAnswers": ["открываю", "открываешь", "открывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-247",
@@ -1976,7 +1976,7 @@
       "prompt": "κλείνω",
       "correctAnswer": "закрываю",
       "wrongAnswers": ["закрываешь", "закрывает", "закрываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-248",
@@ -1984,7 +1984,7 @@
       "prompt": "κλείνεις",
       "correctAnswer": "закрываешь",
       "wrongAnswers": ["закрываю", "закрывает", "закрываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-249",
@@ -1992,7 +1992,7 @@
       "prompt": "κλείνει",
       "correctAnswer": "закрывает",
       "wrongAnswers": ["закрываю", "закрываешь", "закрываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-250",
@@ -2000,7 +2000,7 @@
       "prompt": "κλείνουμε",
       "correctAnswer": "закрываем",
       "wrongAnswers": ["закрываю", "закрываешь", "закрывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-251",
@@ -2008,7 +2008,7 @@
       "prompt": "κλείνετε",
       "correctAnswer": "закрываете",
       "wrongAnswers": ["закрываю", "закрываешь", "закрывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-252",
@@ -2016,7 +2016,7 @@
       "prompt": "κλείνουν",
       "correctAnswer": "закрывают",
       "wrongAnswers": ["закрываю", "закрываешь", "закрывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-253",
@@ -2024,7 +2024,7 @@
       "prompt": "μπαίνω",
       "correctAnswer": "вхожу",
       "wrongAnswers": ["входишь", "входит", "входим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-254",
@@ -2032,7 +2032,7 @@
       "prompt": "μπαίνεις",
       "correctAnswer": "входишь",
       "wrongAnswers": ["вхожу", "входит", "входим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-255",
@@ -2040,7 +2040,7 @@
       "prompt": "μπαίνει",
       "correctAnswer": "входит",
       "wrongAnswers": ["вхожу", "входишь", "входим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-256",
@@ -2048,7 +2048,7 @@
       "prompt": "μπαίνουμε",
       "correctAnswer": "входим",
       "wrongAnswers": ["вхожу", "входишь", "входит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-257",
@@ -2056,7 +2056,7 @@
       "prompt": "μπαίνετε",
       "correctAnswer": "входите",
       "wrongAnswers": ["вхожу", "входишь", "входит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-258",
@@ -2064,7 +2064,7 @@
       "prompt": "μπαίνουν",
       "correctAnswer": "входят",
       "wrongAnswers": ["вхожу", "входишь", "входит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-259",
@@ -2072,7 +2072,7 @@
       "prompt": "βγαίνω",
       "correctAnswer": "выхожу",
       "wrongAnswers": ["выходишь", "выходит", "выходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-260",
@@ -2080,7 +2080,7 @@
       "prompt": "βγαίνεις",
       "correctAnswer": "выходишь",
       "wrongAnswers": ["выхожу", "выходит", "выходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-261",
@@ -2088,7 +2088,7 @@
       "prompt": "βγαίνει",
       "correctAnswer": "выходит",
       "wrongAnswers": ["выхожу", "выходишь", "выходим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-262",
@@ -2096,7 +2096,7 @@
       "prompt": "βγαίνουμε",
       "correctAnswer": "выходим",
       "wrongAnswers": ["выхожу", "выходишь", "выходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-263",
@@ -2104,7 +2104,7 @@
       "prompt": "βγαίνετε",
       "correctAnswer": "выходите",
       "wrongAnswers": ["выхожу", "выходишь", "выходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-264",
@@ -2112,7 +2112,7 @@
       "prompt": "βγαίνουν",
       "correctAnswer": "выходят",
       "wrongAnswers": ["выхожу", "выходишь", "выходит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-265",
@@ -2120,7 +2120,7 @@
       "prompt": "ανεβαίνω",
       "correctAnswer": "поднимаюсь",
       "wrongAnswers": ["поднимаешься", "поднимается", "поднимаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-266",
@@ -2128,7 +2128,7 @@
       "prompt": "ανεβαίνεις",
       "correctAnswer": "поднимаешься",
       "wrongAnswers": ["поднимаюсь", "поднимается", "поднимаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-267",
@@ -2136,7 +2136,7 @@
       "prompt": "ανεβαίνει",
       "correctAnswer": "поднимается",
       "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-268",
@@ -2144,7 +2144,7 @@
       "prompt": "ανεβαίνουμε",
       "correctAnswer": "поднимаемся",
       "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-269",
@@ -2152,7 +2152,7 @@
       "prompt": "ανεβαίνετε",
       "correctAnswer": "поднимаетесь",
       "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-270",
@@ -2160,7 +2160,7 @@
       "prompt": "ανεβαίνουν",
       "correctAnswer": "поднимаются",
       "wrongAnswers": ["поднимаюсь", "поднимаешься", "поднимается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-271",
@@ -2168,7 +2168,7 @@
       "prompt": "κατεβαίνω",
       "correctAnswer": "спускаюсь",
       "wrongAnswers": ["спускаешься", "спускается", "спускаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-272",
@@ -2176,7 +2176,7 @@
       "prompt": "κατεβαίνεις",
       "correctAnswer": "спускаешься",
       "wrongAnswers": ["спускаюсь", "спускается", "спускаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-273",
@@ -2184,7 +2184,7 @@
       "prompt": "κατεβαίνει",
       "correctAnswer": "спускается",
       "wrongAnswers": ["спускаюсь", "спускаешься", "спускаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-274",
@@ -2192,7 +2192,7 @@
       "prompt": "κατεβαίνουμε",
       "correctAnswer": "спускаемся",
       "wrongAnswers": ["спускаюсь", "спускаешься", "спускается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-275",
@@ -2200,7 +2200,7 @@
       "prompt": "κατεβαίνετε",
       "correctAnswer": "спускаетесь",
       "wrongAnswers": ["спускаюсь", "спускаешься", "спускается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-276",
@@ -2208,7 +2208,7 @@
       "prompt": "κατεβαίνουν",
       "correctAnswer": "спускаются",
       "wrongAnswers": ["спускаюсь", "спускаешься", "спускается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-277",
@@ -2216,7 +2216,7 @@
       "prompt": "κάθομαι",
       "correctAnswer": "сижу",
       "wrongAnswers": ["сидишь", "сидит", "сидим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-278",
@@ -2224,7 +2224,7 @@
       "prompt": "κάθεσαι",
       "correctAnswer": "сидишь",
       "wrongAnswers": ["сижу", "сидит", "сидим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-279",
@@ -2232,7 +2232,7 @@
       "prompt": "κάθεται",
       "correctAnswer": "сидит",
       "wrongAnswers": ["сижу", "сидишь", "сидим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-280",
@@ -2240,7 +2240,7 @@
       "prompt": "καθόμαστε",
       "correctAnswer": "сидим",
       "wrongAnswers": ["сижу", "сидишь", "сидит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-281",
@@ -2248,7 +2248,7 @@
       "prompt": "κάθεστε",
       "correctAnswer": "сидите",
       "wrongAnswers": ["сижу", "сидишь", "сидит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-282",
@@ -2256,7 +2256,7 @@
       "prompt": "κάθονται",
       "correctAnswer": "сидят",
       "wrongAnswers": ["сижу", "сидишь", "сидит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-283",
@@ -2264,7 +2264,7 @@
       "prompt": "στέκομαι",
       "correctAnswer": "стою",
       "wrongAnswers": ["стоишь", "стоит", "стоим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-284",
@@ -2272,7 +2272,7 @@
       "prompt": "στέκεσαι",
       "correctAnswer": "стоишь",
       "wrongAnswers": ["стою", "стоит", "стоим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-285",
@@ -2280,7 +2280,7 @@
       "prompt": "στέκεται",
       "correctAnswer": "стоит",
       "wrongAnswers": ["стою", "стоишь", "стоим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-286",
@@ -2288,7 +2288,7 @@
       "prompt": "στεκόμαστε",
       "correctAnswer": "стоим",
       "wrongAnswers": ["стою", "стоишь", "стоит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-287",
@@ -2296,7 +2296,7 @@
       "prompt": "στέκεστε",
       "correctAnswer": "стоите",
       "wrongAnswers": ["стою", "стоишь", "стоит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-288",
@@ -2304,7 +2304,7 @@
       "prompt": "στέκονται",
       "correctAnswer": "стоят",
       "wrongAnswers": ["стою", "стоишь", "стоит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-289",
@@ -2312,7 +2312,7 @@
       "prompt": "κοιμάμαι",
       "correctAnswer": "сплю",
       "wrongAnswers": ["спишь", "спит", "спим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-290",
@@ -2320,7 +2320,7 @@
       "prompt": "κοιμάσαι",
       "correctAnswer": "спишь",
       "wrongAnswers": ["сплю", "спит", "спим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-291",
@@ -2328,7 +2328,7 @@
       "prompt": "κοιμάται",
       "correctAnswer": "спит",
       "wrongAnswers": ["сплю", "спишь", "спим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-292",
@@ -2336,7 +2336,7 @@
       "prompt": "κοιμόμαστε",
       "correctAnswer": "спим",
       "wrongAnswers": ["сплю", "спишь", "спит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-293",
@@ -2344,7 +2344,7 @@
       "prompt": "κοιμάστε",
       "correctAnswer": "спите",
       "wrongAnswers": ["сплю", "спишь", "спит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-294",
@@ -2352,7 +2352,7 @@
       "prompt": "κοιμούνται",
       "correctAnswer": "спят",
       "wrongAnswers": ["сплю", "спишь", "спит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-295",
@@ -2360,7 +2360,7 @@
       "prompt": "ξυπνάω",
       "correctAnswer": "просыпаюсь",
       "wrongAnswers": ["просыпаешься", "просыпается", "просыпаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-296",
@@ -2368,7 +2368,7 @@
       "prompt": "ξυπνάς",
       "correctAnswer": "просыпаешься",
       "wrongAnswers": ["просыпаюсь", "просыпается", "просыпаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-297",
@@ -2376,7 +2376,7 @@
       "prompt": "ξυπνάει",
       "correctAnswer": "просыпается",
       "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-298",
@@ -2384,7 +2384,7 @@
       "prompt": "ξυπνάμε",
       "correctAnswer": "просыпаемся",
       "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-299",
@@ -2392,7 +2392,7 @@
       "prompt": "ξυπνάτε",
       "correctAnswer": "просыпаетесь",
       "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-300",
@@ -2400,7 +2400,7 @@
       "prompt": "ξυπνάνε",
       "correctAnswer": "просыпаются",
       "wrongAnswers": ["просыпаюсь", "просыпаешься", "просыпается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-301",
@@ -2408,7 +2408,7 @@
       "prompt": "θυμάμαι",
       "correctAnswer": "помню",
       "wrongAnswers": ["помнишь", "помнит", "помним"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-302",
@@ -2416,7 +2416,7 @@
       "prompt": "θυμάσαι",
       "correctAnswer": "помнишь",
       "wrongAnswers": ["помню", "помнит", "помним"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-303",
@@ -2424,7 +2424,7 @@
       "prompt": "θυμάται",
       "correctAnswer": "помнит",
       "wrongAnswers": ["помню", "помнишь", "помним"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-304",
@@ -2432,7 +2432,7 @@
       "prompt": "θυμόμαστε",
       "correctAnswer": "помним",
       "wrongAnswers": ["помню", "помнишь", "помнит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-305",
@@ -2440,7 +2440,7 @@
       "prompt": "θυμάστε",
       "correctAnswer": "помните",
       "wrongAnswers": ["помню", "помнишь", "помнит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-306",
@@ -2448,7 +2448,7 @@
       "prompt": "θυμούνται",
       "correctAnswer": "помнят",
       "wrongAnswers": ["помню", "помнишь", "помнит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-307",
@@ -2456,7 +2456,7 @@
       "prompt": "ξεχνάω",
       "correctAnswer": "забываю",
       "wrongAnswers": ["забываешь", "забывает", "забываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-308",
@@ -2464,7 +2464,7 @@
       "prompt": "ξεχνάς",
       "correctAnswer": "забываешь",
       "wrongAnswers": ["забываю", "забывает", "забываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-309",
@@ -2472,7 +2472,7 @@
       "prompt": "ξεχνάει",
       "correctAnswer": "забывает",
       "wrongAnswers": ["забываю", "забываешь", "забываем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-310",
@@ -2480,7 +2480,7 @@
       "prompt": "ξεχνάμε",
       "correctAnswer": "забываем",
       "wrongAnswers": ["забываю", "забываешь", "забывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-311",
@@ -2488,7 +2488,7 @@
       "prompt": "ξεχνάτε",
       "correctAnswer": "забываете",
       "wrongAnswers": ["забываю", "забываешь", "забывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-312",
@@ -2496,7 +2496,7 @@
       "prompt": "ξεχνάνε",
       "correctAnswer": "забывают",
       "wrongAnswers": ["забываю", "забываешь", "забывает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-313",
@@ -2504,7 +2504,7 @@
       "prompt": "χρειάζομαι",
       "correctAnswer": "нуждаюсь",
       "wrongAnswers": ["нуждаешься", "нуждается", "нуждаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-314",
@@ -2512,7 +2512,7 @@
       "prompt": "χρειάζεσαι",
       "correctAnswer": "нуждаешься",
       "wrongAnswers": ["нуждаюсь", "нуждается", "нуждаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-315",
@@ -2520,7 +2520,7 @@
       "prompt": "χρειάζεται",
       "correctAnswer": "нуждается",
       "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-316",
@@ -2528,7 +2528,7 @@
       "prompt": "χρειαζόμαστε",
       "correctAnswer": "нуждаемся",
       "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-317",
@@ -2536,7 +2536,7 @@
       "prompt": "χρειάζεστε",
       "correctAnswer": "нуждаетесь",
       "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-318",
@@ -2544,7 +2544,7 @@
       "prompt": "χρειάζονται",
       "correctAnswer": "нуждаются",
       "wrongAnswers": ["нуждаюсь", "нуждаешься", "нуждается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-319",
@@ -2552,7 +2552,7 @@
       "prompt": "βοηθάω",
       "correctAnswer": "помогаю",
       "wrongAnswers": ["помогаешь", "помогает", "помогаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-320",
@@ -2560,7 +2560,7 @@
       "prompt": "βοηθάς",
       "correctAnswer": "помогаешь",
       "wrongAnswers": ["помогаю", "помогает", "помогаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-321",
@@ -2568,7 +2568,7 @@
       "prompt": "βοηθάει",
       "correctAnswer": "помогает",
       "wrongAnswers": ["помогаю", "помогаешь", "помогаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-322",
@@ -2576,7 +2576,7 @@
       "prompt": "βοηθάμε",
       "correctAnswer": "помогаем",
       "wrongAnswers": ["помогаю", "помогаешь", "помогает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-323",
@@ -2584,7 +2584,7 @@
       "prompt": "βοηθάτε",
       "correctAnswer": "помогаете",
       "wrongAnswers": ["помогаю", "помогаешь", "помогает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-324",
@@ -2592,7 +2592,7 @@
       "prompt": "βοηθάνε",
       "correctAnswer": "помогают",
       "wrongAnswers": ["помогаю", "помогаешь", "помогает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-325",
@@ -2600,7 +2600,7 @@
       "prompt": "αρέσω",
       "correctAnswer": "нравлюсь",
       "wrongAnswers": ["нравишься", "нравится", "нравимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-326",
@@ -2608,7 +2608,7 @@
       "prompt": "αρέσεις",
       "correctAnswer": "нравишься",
       "wrongAnswers": ["нравлюсь", "нравится", "нравимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-327",
@@ -2616,7 +2616,7 @@
       "prompt": "αρέσει",
       "correctAnswer": "нравится",
       "wrongAnswers": ["нравлюсь", "нравишься", "нравимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-328",
@@ -2624,7 +2624,7 @@
       "prompt": "αρέσουμε",
       "correctAnswer": "нравимся",
       "wrongAnswers": ["нравлюсь", "нравишься", "нравится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-329",
@@ -2632,7 +2632,7 @@
       "prompt": "αρέσετε",
       "correctAnswer": "нравитесь",
       "wrongAnswers": ["нравлюсь", "нравишься", "нравится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-330",
@@ -2640,7 +2640,7 @@
       "prompt": "αρέσουν",
       "correctAnswer": "нравятся",
       "wrongAnswers": ["нравлюсь", "нравишься", "нравится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-331",
@@ -2648,7 +2648,7 @@
       "prompt": "αγαπώ",
       "correctAnswer": "люблю",
       "wrongAnswers": ["любишь", "любит", "любим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-332",
@@ -2656,7 +2656,7 @@
       "prompt": "αγαπάς",
       "correctAnswer": "любишь",
       "wrongAnswers": ["люблю", "любит", "любим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-333",
@@ -2664,7 +2664,7 @@
       "prompt": "αγαπάει",
       "correctAnswer": "любит",
       "wrongAnswers": ["люблю", "любишь", "любим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-334",
@@ -2672,7 +2672,7 @@
       "prompt": "αγαπάμε",
       "correctAnswer": "любим",
       "wrongAnswers": ["люблю", "любишь", "любит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-335",
@@ -2680,7 +2680,7 @@
       "prompt": "αγαπάτε",
       "correctAnswer": "любите",
       "wrongAnswers": ["люблю", "любишь", "любит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-336",
@@ -2688,7 +2688,7 @@
       "prompt": "αγαπάνε",
       "correctAnswer": "любят",
       "wrongAnswers": ["люблю", "любишь", "любит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-337",
@@ -2696,7 +2696,7 @@
       "prompt": "μισώ",
       "correctAnswer": "ненавижу",
       "wrongAnswers": ["ненавидишь", "ненавидит", "ненавидим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-338",
@@ -2704,7 +2704,7 @@
       "prompt": "μισείς",
       "correctAnswer": "ненавидишь",
       "wrongAnswers": ["ненавижу", "ненавидит", "ненавидим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-339",
@@ -2712,7 +2712,7 @@
       "prompt": "μισεί",
       "correctAnswer": "ненавидит",
       "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-340",
@@ -2720,7 +2720,7 @@
       "prompt": "μισούμε",
       "correctAnswer": "ненавидим",
       "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-341",
@@ -2728,7 +2728,7 @@
       "prompt": "μισείτε",
       "correctAnswer": "ненавидите",
       "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-342",
@@ -2736,7 +2736,7 @@
       "prompt": "μισούν",
       "correctAnswer": "ненавидят",
       "wrongAnswers": ["ненавижу", "ненавидишь", "ненавидит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-343",
@@ -2744,7 +2744,7 @@
       "prompt": "παίζω",
       "correctAnswer": "играю",
       "wrongAnswers": ["играешь", "играет", "играем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-344",
@@ -2752,7 +2752,7 @@
       "prompt": "παίζεις",
       "correctAnswer": "играешь",
       "wrongAnswers": ["играю", "играет", "играем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-345",
@@ -2760,7 +2760,7 @@
       "prompt": "παίζει",
       "correctAnswer": "играет",
       "wrongAnswers": ["играю", "играешь", "играем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-346",
@@ -2768,7 +2768,7 @@
       "prompt": "παίζουμε",
       "correctAnswer": "играем",
       "wrongAnswers": ["играю", "играешь", "играет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-347",
@@ -2776,7 +2776,7 @@
       "prompt": "παίζετε",
       "correctAnswer": "играете",
       "wrongAnswers": ["играю", "играешь", "играет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-348",
@@ -2784,7 +2784,7 @@
       "prompt": "παίζουν",
       "correctAnswer": "играют",
       "wrongAnswers": ["играю", "играешь", "играет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-349",
@@ -2792,7 +2792,7 @@
       "prompt": "οδηγώ",
       "correctAnswer": "вожу",
       "wrongAnswers": ["водишь", "водит", "водим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-350",
@@ -2800,7 +2800,7 @@
       "prompt": "οδηγείς",
       "correctAnswer": "водишь",
       "wrongAnswers": ["вожу", "водит", "водим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-351",
@@ -2808,7 +2808,7 @@
       "prompt": "οδηγεί",
       "correctAnswer": "водит",
       "wrongAnswers": ["вожу", "водишь", "водим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-352",
@@ -2816,7 +2816,7 @@
       "prompt": "οδηγούμε",
       "correctAnswer": "водим",
       "wrongAnswers": ["вожу", "водишь", "водит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-353",
@@ -2824,7 +2824,7 @@
       "prompt": "οδηγείτε",
       "correctAnswer": "водите",
       "wrongAnswers": ["вожу", "водишь", "водит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-354",
@@ -2832,7 +2832,7 @@
       "prompt": "οδηγούν",
       "correctAnswer": "водят",
       "wrongAnswers": ["вожу", "водишь", "водит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-355",
@@ -2840,7 +2840,7 @@
       "prompt": "ταξιδεύω",
       "correctAnswer": "путешествую",
       "wrongAnswers": ["путешествуешь", "путешествует", "путешествуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-356",
@@ -2848,7 +2848,7 @@
       "prompt": "ταξιδεύεις",
       "correctAnswer": "путешествуешь",
       "wrongAnswers": ["путешествую", "путешествует", "путешествуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-357",
@@ -2856,7 +2856,7 @@
       "prompt": "ταξιδεύει",
       "correctAnswer": "путешествует",
       "wrongAnswers": ["путешествую", "путешествуешь", "путешествуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-358",
@@ -2864,7 +2864,7 @@
       "prompt": "ταξιδεύουμε",
       "correctAnswer": "путешествуем",
       "wrongAnswers": ["путешествую", "путешествуешь", "путешествует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-359",
@@ -2872,7 +2872,7 @@
       "prompt": "ταξιδεύετε",
       "correctAnswer": "путешествуете",
       "wrongAnswers": ["путешествую", "путешествуешь", "путешествует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-360",
@@ -2880,7 +2880,7 @@
       "prompt": "ταξιδεύουν",
       "correctAnswer": "путешествуют",
       "wrongAnswers": ["путешествую", "путешествуешь", "путешествует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-361",
@@ -2888,7 +2888,7 @@
       "prompt": "γυρίζω",
       "correctAnswer": "возвращаюсь",
       "wrongAnswers": ["возвращаешься", "возвращается", "возвращаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-362",
@@ -2896,7 +2896,7 @@
       "prompt": "γυρίζεις",
       "correctAnswer": "возвращаешься",
       "wrongAnswers": ["возвращаюсь", "возвращается", "возвращаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-363",
@@ -2904,7 +2904,7 @@
       "prompt": "γυρίζει",
       "correctAnswer": "возвращается",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-364",
@@ -2912,7 +2912,7 @@
       "prompt": "γυρίζουμε",
       "correctAnswer": "возвращаемся",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-365",
@@ -2920,7 +2920,7 @@
       "prompt": "γυρίζετε",
       "correctAnswer": "возвращаетесь",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-366",
@@ -2928,7 +2928,7 @@
       "prompt": "γυρίζουν",
       "correctAnswer": "возвращаются",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-367",
@@ -2936,7 +2936,7 @@
       "prompt": "επιστρέφω",
       "correctAnswer": "возвращаюсь",
       "wrongAnswers": ["возвращаешься", "возвращается", "возвращаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-368",
@@ -2944,7 +2944,7 @@
       "prompt": "επιστρέφεις",
       "correctAnswer": "возвращаешься",
       "wrongAnswers": ["возвращаюсь", "возвращается", "возвращаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-369",
@@ -2952,7 +2952,7 @@
       "prompt": "επιστρέφει",
       "correctAnswer": "возвращается",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-370",
@@ -2960,7 +2960,7 @@
       "prompt": "επιστρέφουμε",
       "correctAnswer": "возвращаемся",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-371",
@@ -2968,7 +2968,7 @@
       "prompt": "επιστρέφετε",
       "correctAnswer": "возвращаетесь",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-372",
@@ -2976,7 +2976,7 @@
       "prompt": "επιστρέφουν",
       "correctAnswer": "возвращаются",
       "wrongAnswers": ["возвращаюсь", "возвращаешься", "возвращается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-373",
@@ -2984,7 +2984,7 @@
       "prompt": "αρχίζω",
       "correctAnswer": "начинаю",
       "wrongAnswers": ["начинаешь", "начинает", "начинаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-374",
@@ -2992,7 +2992,7 @@
       "prompt": "αρχίζεις",
       "correctAnswer": "начинаешь",
       "wrongAnswers": ["начинаю", "начинает", "начинаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-375",
@@ -3000,7 +3000,7 @@
       "prompt": "αρχίζει",
       "correctAnswer": "начинает",
       "wrongAnswers": ["начинаю", "начинаешь", "начинаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-376",
@@ -3008,7 +3008,7 @@
       "prompt": "αρχίζουμε",
       "correctAnswer": "начинаем",
       "wrongAnswers": ["начинаю", "начинаешь", "начинает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-377",
@@ -3016,7 +3016,7 @@
       "prompt": "αρχίζετε",
       "correctAnswer": "начинаете",
       "wrongAnswers": ["начинаю", "начинаешь", "начинает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-378",
@@ -3024,7 +3024,7 @@
       "prompt": "αρχίζουν",
       "correctAnswer": "начинают",
       "wrongAnswers": ["начинаю", "начинаешь", "начинает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-379",
@@ -3032,7 +3032,7 @@
       "prompt": "τελειώνω",
       "correctAnswer": "заканчиваю",
       "wrongAnswers": ["заканчиваешь", "заканчивает", "заканчиваем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-380",
@@ -3040,7 +3040,7 @@
       "prompt": "τελειώνεις",
       "correctAnswer": "заканчиваешь",
       "wrongAnswers": ["заканчиваю", "заканчивает", "заканчиваем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-381",
@@ -3048,7 +3048,7 @@
       "prompt": "τελειώνει",
       "correctAnswer": "заканчивает",
       "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчиваем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-382",
@@ -3056,7 +3056,7 @@
       "prompt": "τελειώνουμε",
       "correctAnswer": "заканчиваем",
       "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчивает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-383",
@@ -3064,7 +3064,7 @@
       "prompt": "τελειώνετε",
       "correctAnswer": "заканчиваете",
       "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчивает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-384",
@@ -3072,7 +3072,7 @@
       "prompt": "τελειώνουν",
       "correctAnswer": "заканчивают",
       "wrongAnswers": ["заканчиваю", "заканчиваешь", "заканчивает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-385",
@@ -3080,7 +3080,7 @@
       "prompt": "στέλνω",
       "correctAnswer": "отправляю",
       "wrongAnswers": ["отправляешь", "отправляет", "отправляем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-386",
@@ -3088,7 +3088,7 @@
       "prompt": "στέλνεις",
       "correctAnswer": "отправляешь",
       "wrongAnswers": ["отправляю", "отправляет", "отправляем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-387",
@@ -3096,7 +3096,7 @@
       "prompt": "στέλνει",
       "correctAnswer": "отправляет",
       "wrongAnswers": ["отправляю", "отправляешь", "отправляем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-388",
@@ -3104,7 +3104,7 @@
       "prompt": "στέλνουμε",
       "correctAnswer": "отправляем",
       "wrongAnswers": ["отправляю", "отправляешь", "отправляет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-389",
@@ -3112,7 +3112,7 @@
       "prompt": "στέλνετε",
       "correctAnswer": "отправляете",
       "wrongAnswers": ["отправляю", "отправляешь", "отправляет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-390",
@@ -3120,7 +3120,7 @@
       "prompt": "στέλνουν",
       "correctAnswer": "отправляют",
       "wrongAnswers": ["отправляю", "отправляешь", "отправляет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-391",
@@ -3128,7 +3128,7 @@
       "prompt": "φέρνω",
       "correctAnswer": "приношу",
       "wrongAnswers": ["приносишь", "приносит", "приносим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-392",
@@ -3136,7 +3136,7 @@
       "prompt": "φέρνεις",
       "correctAnswer": "приносишь",
       "wrongAnswers": ["приношу", "приносит", "приносим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-393",
@@ -3144,7 +3144,7 @@
       "prompt": "φέρνει",
       "correctAnswer": "приносит",
       "wrongAnswers": ["приношу", "приносишь", "приносим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-394",
@@ -3152,7 +3152,7 @@
       "prompt": "φέρνουμε",
       "correctAnswer": "приносим",
       "wrongAnswers": ["приношу", "приносишь", "приносит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-395",
@@ -3160,7 +3160,7 @@
       "prompt": "φέρνετε",
       "correctAnswer": "приносите",
       "wrongAnswers": ["приношу", "приносишь", "приносит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-396",
@@ -3168,7 +3168,7 @@
       "prompt": "φέρνουν",
       "correctAnswer": "приносят",
       "wrongAnswers": ["приношу", "приносишь", "приносит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-397",
@@ -3176,7 +3176,7 @@
       "prompt": "φοράω",
       "correctAnswer": "ношу",
       "wrongAnswers": ["носишь", "носит", "носим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-398",
@@ -3184,7 +3184,7 @@
       "prompt": "φοράς",
       "correctAnswer": "носишь",
       "wrongAnswers": ["ношу", "носит", "носим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-399",
@@ -3192,7 +3192,7 @@
       "prompt": "φοράει",
       "correctAnswer": "носит",
       "wrongAnswers": ["ношу", "носишь", "носим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-400",
@@ -3200,7 +3200,7 @@
       "prompt": "φοράμε",
       "correctAnswer": "носим",
       "wrongAnswers": ["ношу", "носишь", "носит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-401",
@@ -3208,7 +3208,7 @@
       "prompt": "φοράτε",
       "correctAnswer": "носите",
       "wrongAnswers": ["ношу", "носишь", "носит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-402",
@@ -3216,7 +3216,7 @@
       "prompt": "φοράνε",
       "correctAnswer": "носят",
       "wrongAnswers": ["ношу", "носишь", "носит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-403",
@@ -3224,7 +3224,7 @@
       "prompt": "βάζω",
       "correctAnswer": "кладу",
       "wrongAnswers": ["кладёшь", "кладёт", "кладём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-404",
@@ -3232,7 +3232,7 @@
       "prompt": "βάζεις",
       "correctAnswer": "кладёшь",
       "wrongAnswers": ["кладу", "кладёт", "кладём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-405",
@@ -3240,7 +3240,7 @@
       "prompt": "βάζει",
       "correctAnswer": "кладёт",
       "wrongAnswers": ["кладу", "кладёшь", "кладём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-406",
@@ -3248,7 +3248,7 @@
       "prompt": "βάζουμε",
       "correctAnswer": "кладём",
       "wrongAnswers": ["кладу", "кладёшь", "кладёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-407",
@@ -3256,7 +3256,7 @@
       "prompt": "βάζετε",
       "correctAnswer": "кладёте",
       "wrongAnswers": ["кладу", "кладёшь", "кладёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-408",
@@ -3264,7 +3264,7 @@
       "prompt": "βάζουν",
       "correctAnswer": "кладут",
       "wrongAnswers": ["кладу", "кладёшь", "кладёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-409",
@@ -3272,7 +3272,7 @@
       "prompt": "βγάζω",
       "correctAnswer": "вынимаю",
       "wrongAnswers": ["вынимаешь", "вынимает", "вынимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-410",
@@ -3280,7 +3280,7 @@
       "prompt": "βγάζεις",
       "correctAnswer": "вынимаешь",
       "wrongAnswers": ["вынимаю", "вынимает", "вынимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-411",
@@ -3288,7 +3288,7 @@
       "prompt": "βγάζει",
       "correctAnswer": "вынимает",
       "wrongAnswers": ["вынимаю", "вынимаешь", "вынимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-412",
@@ -3296,7 +3296,7 @@
       "prompt": "βγάζουμε",
       "correctAnswer": "вынимаем",
       "wrongAnswers": ["вынимаю", "вынимаешь", "вынимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-413",
@@ -3304,7 +3304,7 @@
       "prompt": "βγάζετε",
       "correctAnswer": "вынимаете",
       "wrongAnswers": ["вынимаю", "вынимаешь", "вынимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-414",
@@ -3312,7 +3312,7 @@
       "prompt": "βγάζουν",
       "correctAnswer": "вынимают",
       "wrongAnswers": ["вынимаю", "вынимаешь", "вынимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-415",
@@ -3320,7 +3320,7 @@
       "prompt": "κρατάω",
       "correctAnswer": "держу",
       "wrongAnswers": ["держишь", "держит", "держим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-416",
@@ -3328,7 +3328,7 @@
       "prompt": "κρατάς",
       "correctAnswer": "держишь",
       "wrongAnswers": ["держу", "держит", "держим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-417",
@@ -3336,7 +3336,7 @@
       "prompt": "κρατάει",
       "correctAnswer": "держит",
       "wrongAnswers": ["держу", "держишь", "держим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-418",
@@ -3344,7 +3344,7 @@
       "prompt": "κρατάμε",
       "correctAnswer": "держим",
       "wrongAnswers": ["держу", "держишь", "держит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-419",
@@ -3352,7 +3352,7 @@
       "prompt": "κρατάτε",
       "correctAnswer": "держите",
       "wrongAnswers": ["держу", "держишь", "держит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-420",
@@ -3360,7 +3360,7 @@
       "prompt": "κρατάνε",
       "correctAnswer": "держат",
       "wrongAnswers": ["держу", "держишь", "держит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-421",
@@ -3368,7 +3368,7 @@
       "prompt": "αφήνω",
       "correctAnswer": "оставляю",
       "wrongAnswers": ["оставляешь", "оставляет", "оставляем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-422",
@@ -3376,7 +3376,7 @@
       "prompt": "αφήνεις",
       "correctAnswer": "оставляешь",
       "wrongAnswers": ["оставляю", "оставляет", "оставляем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-423",
@@ -3384,7 +3384,7 @@
       "prompt": "αφήνει",
       "correctAnswer": "оставляет",
       "wrongAnswers": ["оставляю", "оставляешь", "оставляем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-424",
@@ -3392,7 +3392,7 @@
       "prompt": "αφήνουμε",
       "correctAnswer": "оставляем",
       "wrongAnswers": ["оставляю", "оставляешь", "оставляет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-425",
@@ -3400,7 +3400,7 @@
       "prompt": "αφήνετε",
       "correctAnswer": "оставляете",
       "wrongAnswers": ["оставляю", "оставляешь", "оставляет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-426",
@@ -3408,7 +3408,7 @@
       "prompt": "αφήνουν",
       "correctAnswer": "оставляют",
       "wrongAnswers": ["оставляю", "оставляешь", "оставляет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-427",
@@ -3416,7 +3416,7 @@
       "prompt": "βάζω",
       "correctAnswer": "ставлю",
       "wrongAnswers": ["ставишь", "ставит", "ставим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-428",
@@ -3424,7 +3424,7 @@
       "prompt": "βάζεις",
       "correctAnswer": "ставишь",
       "wrongAnswers": ["ставлю", "ставит", "ставим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-429",
@@ -3432,7 +3432,7 @@
       "prompt": "βάζει",
       "correctAnswer": "ставит",
       "wrongAnswers": ["ставлю", "ставишь", "ставим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-430",
@@ -3440,7 +3440,7 @@
       "prompt": "βάζουμε",
       "correctAnswer": "ставим",
       "wrongAnswers": ["ставлю", "ставишь", "ставит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-431",
@@ -3448,7 +3448,7 @@
       "prompt": "βάζετε",
       "correctAnswer": "ставите",
       "wrongAnswers": ["ставлю", "ставишь", "ставит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-432",
@@ -3456,7 +3456,7 @@
       "prompt": "βάζουν",
       "correctAnswer": "ставят",
       "wrongAnswers": ["ставлю", "ставишь", "ставит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-433",
@@ -3464,7 +3464,7 @@
       "prompt": "βγάζω",
       "correctAnswer": "снимаю",
       "wrongAnswers": ["снимаешь", "снимает", "снимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-434",
@@ -3472,7 +3472,7 @@
       "prompt": "βγάζεις",
       "correctAnswer": "снимаешь",
       "wrongAnswers": ["снимаю", "снимает", "снимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-435",
@@ -3480,7 +3480,7 @@
       "prompt": "βγάζει",
       "correctAnswer": "снимает",
       "wrongAnswers": ["снимаю", "снимаешь", "снимаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-436",
@@ -3488,7 +3488,7 @@
       "prompt": "βγάζουμε",
       "correctAnswer": "снимаем",
       "wrongAnswers": ["снимаю", "снимаешь", "снимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-437",
@@ -3496,7 +3496,7 @@
       "prompt": "βγάζετε",
       "correctAnswer": "снимаете",
       "wrongAnswers": ["снимаю", "снимаешь", "снимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-438",
@@ -3504,7 +3504,7 @@
       "prompt": "βγάζουν",
       "correctAnswer": "снимают",
       "wrongAnswers": ["снимаю", "снимаешь", "снимает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-439",
@@ -3512,7 +3512,7 @@
       "prompt": "μαγειρεύω",
       "correctAnswer": "готовлю",
       "wrongAnswers": ["готовишь", "готовит", "готовим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-440",
@@ -3520,7 +3520,7 @@
       "prompt": "μαγειρεύεις",
       "correctAnswer": "готовишь",
       "wrongAnswers": ["готовлю", "готовит", "готовим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-441",
@@ -3528,7 +3528,7 @@
       "prompt": "μαγειρεύει",
       "correctAnswer": "готовит",
       "wrongAnswers": ["готовлю", "готовишь", "готовим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-442",
@@ -3536,7 +3536,7 @@
       "prompt": "μαγειρεύουμε",
       "correctAnswer": "готовим",
       "wrongAnswers": ["готовлю", "готовишь", "готовит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-443",
@@ -3544,7 +3544,7 @@
       "prompt": "μαγειρεύετε",
       "correctAnswer": "готовите",
       "wrongAnswers": ["готовлю", "готовишь", "готовит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-444",
@@ -3552,7 +3552,7 @@
       "prompt": "μαγειρεύουν",
       "correctAnswer": "готовят",
       "wrongAnswers": ["готовлю", "готовишь", "готовит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-445",
@@ -3560,7 +3560,7 @@
       "prompt": "πλένω",
       "correctAnswer": "мою",
       "wrongAnswers": ["моешь", "моет", "моем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-446",
@@ -3568,7 +3568,7 @@
       "prompt": "πλένεις",
       "correctAnswer": "моешь",
       "wrongAnswers": ["мою", "моет", "моем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-447",
@@ -3576,7 +3576,7 @@
       "prompt": "πλένει",
       "correctAnswer": "моет",
       "wrongAnswers": ["мою", "моешь", "моем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-448",
@@ -3584,7 +3584,7 @@
       "prompt": "πλένουμε",
       "correctAnswer": "моем",
       "wrongAnswers": ["мою", "моешь", "моет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-449",
@@ -3592,7 +3592,7 @@
       "prompt": "πλένετε",
       "correctAnswer": "моете",
       "wrongAnswers": ["мою", "моешь", "моет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-450",
@@ -3600,7 +3600,7 @@
       "prompt": "πλένουν",
       "correctAnswer": "моют",
       "wrongAnswers": ["мою", "моешь", "моет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-451",
@@ -3608,7 +3608,7 @@
       "prompt": "καθαρίζω",
       "correctAnswer": "убираю",
       "wrongAnswers": ["убираешь", "убирает", "убираем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-452",
@@ -3616,7 +3616,7 @@
       "prompt": "καθαρίζεις",
       "correctAnswer": "убираешь",
       "wrongAnswers": ["убираю", "убирает", "убираем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-453",
@@ -3624,7 +3624,7 @@
       "prompt": "καθαρίζει",
       "correctAnswer": "убирает",
       "wrongAnswers": ["убираю", "убираешь", "убираем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-454",
@@ -3632,7 +3632,7 @@
       "prompt": "καθαρίζουμε",
       "correctAnswer": "убираем",
       "wrongAnswers": ["убираю", "убираешь", "убирает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-455",
@@ -3640,7 +3640,7 @@
       "prompt": "καθαρίζετε",
       "correctAnswer": "убираете",
       "wrongAnswers": ["убираю", "убираешь", "убирает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-456",
@@ -3648,7 +3648,7 @@
       "prompt": "καθαρίζουν",
       "correctAnswer": "убирают",
       "wrongAnswers": ["убираю", "убираешь", "убирает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-457",
@@ -3656,7 +3656,7 @@
       "prompt": "ζω",
       "correctAnswer": "живу",
       "wrongAnswers": ["живёшь", "живёт", "живём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-458",
@@ -3664,7 +3664,7 @@
       "prompt": "ζεις",
       "correctAnswer": "живёшь",
       "wrongAnswers": ["живу", "живёт", "живём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-459",
@@ -3672,7 +3672,7 @@
       "prompt": "ζει",
       "correctAnswer": "живёт",
       "wrongAnswers": ["живу", "живёшь", "живём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-460",
@@ -3680,7 +3680,7 @@
       "prompt": "ζούμε",
       "correctAnswer": "живём",
       "wrongAnswers": ["живу", "живёшь", "живёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-461",
@@ -3688,7 +3688,7 @@
       "prompt": "ζείτε",
       "correctAnswer": "живёте",
       "wrongAnswers": ["живу", "живёшь", "живёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-462",
@@ -3696,7 +3696,7 @@
       "prompt": "ζουν",
       "correctAnswer": "живут",
       "wrongAnswers": ["живу", "живёшь", "живёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-463",
@@ -3704,7 +3704,7 @@
       "prompt": "πεθαίνω",
       "correctAnswer": "умираю",
       "wrongAnswers": ["умираешь", "умирает", "умираем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-464",
@@ -3712,7 +3712,7 @@
       "prompt": "πεθαίνεις",
       "correctAnswer": "умираешь",
       "wrongAnswers": ["умираю", "умирает", "умираем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-465",
@@ -3720,7 +3720,7 @@
       "prompt": "πεθαίνει",
       "correctAnswer": "умирает",
       "wrongAnswers": ["умираю", "умираешь", "умираем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-466",
@@ -3728,7 +3728,7 @@
       "prompt": "πεθαίνουμε",
       "correctAnswer": "умираем",
       "wrongAnswers": ["умираю", "умираешь", "умирает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-467",
@@ -3736,7 +3736,7 @@
       "prompt": "πεθαίνετε",
       "correctAnswer": "умираете",
       "wrongAnswers": ["умираю", "умираешь", "умирает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-468",
@@ -3744,7 +3744,7 @@
       "prompt": "πεθαίνουν",
       "correctAnswer": "умирают",
       "wrongAnswers": ["умираю", "умираешь", "умирает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-469",
@@ -3752,7 +3752,7 @@
       "prompt": "γεννιέμαι",
       "correctAnswer": "рождаюсь",
       "wrongAnswers": ["рождаешься", "рождается", "рождаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-470",
@@ -3760,7 +3760,7 @@
       "prompt": "γεννιέσαι",
       "correctAnswer": "рождаешься",
       "wrongAnswers": ["рождаюсь", "рождается", "рождаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-471",
@@ -3768,7 +3768,7 @@
       "prompt": "γεννιέται",
       "correctAnswer": "рождается",
       "wrongAnswers": ["рождаюсь", "рождаешься", "рождаемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-472",
@@ -3776,7 +3776,7 @@
       "prompt": "γεννιόμαστε",
       "correctAnswer": "рождаемся",
       "wrongAnswers": ["рождаюсь", "рождаешься", "рождается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-473",
@@ -3784,7 +3784,7 @@
       "prompt": "γεννιέστε",
       "correctAnswer": "рождаетесь",
       "wrongAnswers": ["рождаюсь", "рождаешься", "рождается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-474",
@@ -3792,7 +3792,7 @@
       "prompt": "γεννιούνται",
       "correctAnswer": "рождаются",
       "wrongAnswers": ["рождаюсь", "рождаешься", "рождается"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-475",
@@ -3800,7 +3800,7 @@
       "prompt": "νιώθω",
       "correctAnswer": "чувствую",
       "wrongAnswers": ["чувствуешь", "чувствует", "чувствуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-476",
@@ -3808,7 +3808,7 @@
       "prompt": "νιώθεις",
       "correctAnswer": "чувствуешь",
       "wrongAnswers": ["чувствую", "чувствует", "чувствуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-477",
@@ -3816,7 +3816,7 @@
       "prompt": "νιώθει",
       "correctAnswer": "чувствует",
       "wrongAnswers": ["чувствую", "чувствуешь", "чувствуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-478",
@@ -3824,7 +3824,7 @@
       "prompt": "νιώθουμε",
       "correctAnswer": "чувствуем",
       "wrongAnswers": ["чувствую", "чувствуешь", "чувствует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-479",
@@ -3832,7 +3832,7 @@
       "prompt": "νιώθετε",
       "correctAnswer": "чувствуете",
       "wrongAnswers": ["чувствую", "чувствуешь", "чувствует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-480",
@@ -3840,7 +3840,7 @@
       "prompt": "νιώθουν",
       "correctAnswer": "чувствуют",
       "wrongAnswers": ["чувствую", "чувствуешь", "чувствует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-481",
@@ -3848,7 +3848,7 @@
       "prompt": "σκέφτομαι",
       "correctAnswer": "думаю",
       "wrongAnswers": ["думаешь", "думает", "думаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-482",
@@ -3856,7 +3856,7 @@
       "prompt": "σκέφτεσαι",
       "correctAnswer": "думаешь",
       "wrongAnswers": ["думаю", "думает", "думаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-483",
@@ -3864,7 +3864,7 @@
       "prompt": "σκέφτεται",
       "correctAnswer": "думает",
       "wrongAnswers": ["думаю", "думаешь", "думаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-484",
@@ -3872,7 +3872,7 @@
       "prompt": "σκεφτόμαστε",
       "correctAnswer": "думаем",
       "wrongAnswers": ["думаю", "думаешь", "думает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-485",
@@ -3880,7 +3880,7 @@
       "prompt": "σκέφτεστε",
       "correctAnswer": "думаете",
       "wrongAnswers": ["думаю", "думаешь", "думает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-486",
@@ -3888,7 +3888,7 @@
       "prompt": "σκέφτονται",
       "correctAnswer": "думают",
       "wrongAnswers": ["думаю", "думаешь", "думает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-487",
@@ -3896,7 +3896,7 @@
       "prompt": "πιστεύω",
       "correctAnswer": "верю",
       "wrongAnswers": ["веришь", "верит", "верим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-488",
@@ -3904,7 +3904,7 @@
       "prompt": "πιστεύεις",
       "correctAnswer": "веришь",
       "wrongAnswers": ["верю", "верит", "верим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-489",
@@ -3912,7 +3912,7 @@
       "prompt": "πιστεύει",
       "correctAnswer": "верит",
       "wrongAnswers": ["верю", "веришь", "верим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-490",
@@ -3920,7 +3920,7 @@
       "prompt": "πιστεύουμε",
       "correctAnswer": "верим",
       "wrongAnswers": ["верю", "веришь", "верит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-491",
@@ -3928,7 +3928,7 @@
       "prompt": "πιστεύετε",
       "correctAnswer": "верите",
       "wrongAnswers": ["верю", "веришь", "верит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-492",
@@ -3936,7 +3936,7 @@
       "prompt": "πιστεύουν",
       "correctAnswer": "верят",
       "wrongAnswers": ["верю", "веришь", "верит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-493",
@@ -3944,7 +3944,7 @@
       "prompt": "ελπίζω",
       "correctAnswer": "надеюсь",
       "wrongAnswers": ["надеешься", "надеется", "надеемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-494",
@@ -3952,7 +3952,7 @@
       "prompt": "ελπίζεις",
       "correctAnswer": "надеешься",
       "wrongAnswers": ["надеюсь", "надеется", "надеемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-495",
@@ -3960,7 +3960,7 @@
       "prompt": "ελπίζει",
       "correctAnswer": "надеется",
       "wrongAnswers": ["надеюсь", "надеешься", "надеемся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-496",
@@ -3968,7 +3968,7 @@
       "prompt": "ελπίζουμε",
       "correctAnswer": "надеемся",
       "wrongAnswers": ["надеюсь", "надеешься", "надеется"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-497",
@@ -3976,7 +3976,7 @@
       "prompt": "ελπίζετε",
       "correctAnswer": "надеетесь",
       "wrongAnswers": ["надеюсь", "надеешься", "надеется"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-498",
@@ -3984,7 +3984,7 @@
       "prompt": "ελπίζουν",
       "correctAnswer": "надеются",
       "wrongAnswers": ["надеюсь", "надеешься", "надеется"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-499",
@@ -3992,7 +3992,7 @@
       "prompt": "φοβάμαι",
       "correctAnswer": "боюсь",
       "wrongAnswers": ["боишься", "боится", "боимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-500",
@@ -4000,7 +4000,7 @@
       "prompt": "φοβάσαι",
       "correctAnswer": "боишься",
       "wrongAnswers": ["боюсь", "боится", "боимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-501",
@@ -4008,7 +4008,7 @@
       "prompt": "φοβάται",
       "correctAnswer": "боится",
       "wrongAnswers": ["боюсь", "боишься", "боимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-502",
@@ -4016,7 +4016,7 @@
       "prompt": "φοβόμαστε",
       "correctAnswer": "боимся",
       "wrongAnswers": ["боюсь", "боишься", "боится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-503",
@@ -4024,7 +4024,7 @@
       "prompt": "φοβάστε",
       "correctAnswer": "боитесь",
       "wrongAnswers": ["боюсь", "боишься", "боится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-504",
@@ -4032,7 +4032,7 @@
       "prompt": "φοβούνται",
       "correctAnswer": "боятся",
       "wrongAnswers": ["боюсь", "боишься", "боится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-505",
@@ -4040,7 +4040,7 @@
       "prompt": "γελάω",
       "correctAnswer": "смеюсь",
       "wrongAnswers": ["смеёшься", "смеётся", "смеёмся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-506",
@@ -4048,7 +4048,7 @@
       "prompt": "γελάς",
       "correctAnswer": "смеёшься",
       "wrongAnswers": ["смеюсь", "смеётся", "смеёмся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-507",
@@ -4056,7 +4056,7 @@
       "prompt": "γελάει",
       "correctAnswer": "смеётся",
       "wrongAnswers": ["смеюсь", "смеёшься", "смеёмся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-508",
@@ -4064,7 +4064,7 @@
       "prompt": "γελάμε",
       "correctAnswer": "смеёмся",
       "wrongAnswers": ["смеюсь", "смеёшься", "смеётся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-509",
@@ -4072,7 +4072,7 @@
       "prompt": "γελάτε",
       "correctAnswer": "смеётесь",
       "wrongAnswers": ["смеюсь", "смеёшься", "смеётся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-510",
@@ -4080,7 +4080,7 @@
       "prompt": "γελάνε",
       "correctAnswer": "смеются",
       "wrongAnswers": ["смеюсь", "смеёшься", "смеётся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-511",
@@ -4088,7 +4088,7 @@
       "prompt": "κλαίω",
       "correctAnswer": "плачу",
       "wrongAnswers": ["плачешь", "плачет", "плачем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-512",
@@ -4096,7 +4096,7 @@
       "prompt": "κλαις",
       "correctAnswer": "плачешь",
       "wrongAnswers": ["плачу", "плачет", "плачем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-513",
@@ -4104,7 +4104,7 @@
       "prompt": "κλαίει",
       "correctAnswer": "плачет",
       "wrongAnswers": ["плачу", "плачешь", "плачем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-514",
@@ -4112,7 +4112,7 @@
       "prompt": "κλαίμε",
       "correctAnswer": "плачем",
       "wrongAnswers": ["плачу", "плачешь", "плачет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-515",
@@ -4120,7 +4120,7 @@
       "prompt": "κλαίτε",
       "correctAnswer": "плачете",
       "wrongAnswers": ["плачу", "плачешь", "плачет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-516",
@@ -4128,7 +4128,7 @@
       "prompt": "κλαίνε",
       "correctAnswer": "плачут",
       "wrongAnswers": ["плачу", "плачешь", "плачет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-517",
@@ -4136,7 +4136,7 @@
       "prompt": "χορεύω",
       "correctAnswer": "танцую",
       "wrongAnswers": ["танцуешь", "танцует", "танцуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-518",
@@ -4144,7 +4144,7 @@
       "prompt": "χορεύεις",
       "correctAnswer": "танцуешь",
       "wrongAnswers": ["танцую", "танцует", "танцуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-519",
@@ -4152,7 +4152,7 @@
       "prompt": "χορεύει",
       "correctAnswer": "танцует",
       "wrongAnswers": ["танцую", "танцуешь", "танцуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-520",
@@ -4160,7 +4160,7 @@
       "prompt": "χορεύουμε",
       "correctAnswer": "танцуем",
       "wrongAnswers": ["танцую", "танцуешь", "танцует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-521",
@@ -4168,7 +4168,7 @@
       "prompt": "χορεύετε",
       "correctAnswer": "танцуете",
       "wrongAnswers": ["танцую", "танцуешь", "танцует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-522",
@@ -4176,7 +4176,7 @@
       "prompt": "χορεύουν",
       "correctAnswer": "танцуют",
       "wrongAnswers": ["танцую", "танцуешь", "танцует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-523",
@@ -4184,7 +4184,7 @@
       "prompt": "τραγουδάω",
       "correctAnswer": "пою",
       "wrongAnswers": ["поёшь", "поёт", "поём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-524",
@@ -4192,7 +4192,7 @@
       "prompt": "τραγουδάς",
       "correctAnswer": "поёшь",
       "wrongAnswers": ["пою", "поёт", "поём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-525",
@@ -4200,7 +4200,7 @@
       "prompt": "τραγουδάει",
       "correctAnswer": "поёт",
       "wrongAnswers": ["пою", "поёшь", "поём"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-526",
@@ -4208,7 +4208,7 @@
       "prompt": "τραγουδάμε",
       "correctAnswer": "поём",
       "wrongAnswers": ["пою", "поёшь", "поёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-527",
@@ -4216,7 +4216,7 @@
       "prompt": "τραγουδάτε",
       "correctAnswer": "поёте",
       "wrongAnswers": ["пою", "поёшь", "поёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-528",
@@ -4224,7 +4224,7 @@
       "prompt": "τραγουδάνε",
       "correctAnswer": "поют",
       "wrongAnswers": ["пою", "поёшь", "поёт"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-529",
@@ -4232,7 +4232,7 @@
       "prompt": "φταίω",
       "correctAnswer": "я виноват",
       "wrongAnswers": ["ты виноват", "он виноват", "мы виноваты"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-530",
@@ -4240,7 +4240,7 @@
       "prompt": "φταις",
       "correctAnswer": "ты виноват",
       "wrongAnswers": ["я виноват", "он виноват", "мы виноваты"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-531",
@@ -4248,7 +4248,7 @@
       "prompt": "φταίει",
       "correctAnswer": "он виноват",
       "wrongAnswers": ["я виноват", "ты виноват", "мы виноваты"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-532",
@@ -4256,7 +4256,7 @@
       "prompt": "φταίμε",
       "correctAnswer": "мы виноваты",
       "wrongAnswers": ["я виноват", "ты виноват", "он виноват"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-533",
@@ -4264,7 +4264,7 @@
       "prompt": "φταίτε",
       "correctAnswer": "вы виноваты",
       "wrongAnswers": ["я виноват", "ты виноват", "он виноват"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-534",
@@ -4272,7 +4272,7 @@
       "prompt": "φταίνε",
       "correctAnswer": "они виноваты",
       "wrongAnswers": ["я виноват", "ты виноват", "он виноват"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-535",
@@ -4280,7 +4280,7 @@
       "prompt": "προσέχω",
       "correctAnswer": "я внимателен",
       "wrongAnswers": ["ты внимателен", "он внимателен", "мы внимательны"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-536",
@@ -4288,7 +4288,7 @@
       "prompt": "προσέχεις",
       "correctAnswer": "ты внимателен",
       "wrongAnswers": ["я внимателен", "он внимателен", "мы внимательны"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-537",
@@ -4296,7 +4296,7 @@
       "prompt": "προσέχει",
       "correctAnswer": "он внимателен",
       "wrongAnswers": ["я внимателен", "ты внимателен", "мы внимательны"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-538",
@@ -4304,7 +4304,7 @@
       "prompt": "προσέχουμε",
       "correctAnswer": "мы внимательны",
       "wrongAnswers": ["я внимателен", "ты внимателен", "он внимателен"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-539",
@@ -4312,7 +4312,7 @@
       "prompt": "προσέχετε",
       "correctAnswer": "вы внимательны",
       "wrongAnswers": ["я внимателен", "ты внимателен", "он внимателен"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-540",
@@ -4320,7 +4320,7 @@
       "prompt": "προσέχουν",
       "correctAnswer": "они внимательны",
       "wrongAnswers": ["я внимателен", "ты внимателен", "он внимателен"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-541",
@@ -4328,7 +4328,7 @@
       "prompt": "δοκιμάζω",
       "correctAnswer": "пробую",
       "wrongAnswers": ["пробуешь", "пробует", "пробуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-542",
@@ -4336,7 +4336,7 @@
       "prompt": "δοκιμάζεις",
       "correctAnswer": "пробуешь",
       "wrongAnswers": ["пробую", "пробует", "пробуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-543",
@@ -4344,7 +4344,7 @@
       "prompt": "δοκιμάζει",
       "correctAnswer": "пробует",
       "wrongAnswers": ["пробую", "пробуешь", "пробуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-544",
@@ -4352,7 +4352,7 @@
       "prompt": "δοκιμάζουμε",
       "correctAnswer": "пробуем",
       "wrongAnswers": ["пробую", "пробуешь", "пробует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-545",
@@ -4360,7 +4360,7 @@
       "prompt": "δοκιμάζετε",
       "correctAnswer": "пробуете",
       "wrongAnswers": ["пробую", "пробуешь", "пробует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-546",
@@ -4368,7 +4368,7 @@
       "prompt": "δοκιμάζουν",
       "correctAnswer": "пробуют",
       "wrongAnswers": ["пробую", "пробуешь", "пробует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-547",
@@ -4376,7 +4376,7 @@
       "prompt": "χρησιμοποιώ",
       "correctAnswer": "использую",
       "wrongAnswers": ["используешь", "использует", "используем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-548",
@@ -4384,7 +4384,7 @@
       "prompt": "χρησιμοποιείς",
       "correctAnswer": "используешь",
       "wrongAnswers": ["использую", "использует", "используем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-549",
@@ -4392,7 +4392,7 @@
       "prompt": "χρησιμοποιεί",
       "correctAnswer": "использует",
       "wrongAnswers": ["использую", "используешь", "используем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-550",
@@ -4400,7 +4400,7 @@
       "prompt": "χρησιμοποιούμε",
       "correctAnswer": "используем",
       "wrongAnswers": ["использую", "используешь", "использует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-551",
@@ -4408,7 +4408,7 @@
       "prompt": "χρησιμοποιείτε",
       "correctAnswer": "используете",
       "wrongAnswers": ["использую", "используешь", "использует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-552",
@@ -4416,7 +4416,7 @@
       "prompt": "χρησιμοποιούν",
       "correctAnswer": "используют",
       "wrongAnswers": ["использую", "используешь", "использует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-553",
@@ -4424,7 +4424,7 @@
       "prompt": "χτίζω",
       "correctAnswer": "строю",
       "wrongAnswers": ["строишь", "строит", "строим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-554",
@@ -4432,7 +4432,7 @@
       "prompt": "χτίζεις",
       "correctAnswer": "строишь",
       "wrongAnswers": ["строю", "строит", "строим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-555",
@@ -4440,7 +4440,7 @@
       "prompt": "χτίζει",
       "correctAnswer": "строит",
       "wrongAnswers": ["строю", "строишь", "строим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-556",
@@ -4448,7 +4448,7 @@
       "prompt": "χτίζουμε",
       "correctAnswer": "строим",
       "wrongAnswers": ["строю", "строишь", "строит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-557",
@@ -4456,7 +4456,7 @@
       "prompt": "χτίζετε",
       "correctAnswer": "строите",
       "wrongAnswers": ["строю", "строишь", "строит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-558",
@@ -4464,7 +4464,7 @@
       "prompt": "χτίζουν",
       "correctAnswer": "строят",
       "wrongAnswers": ["строю", "строишь", "строит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-559",
@@ -4472,7 +4472,7 @@
       "prompt": "αλλάζω",
       "correctAnswer": "меняю",
       "wrongAnswers": ["меняешь", "меняет", "меняем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-560",
@@ -4480,7 +4480,7 @@
       "prompt": "αλλάζεις",
       "correctAnswer": "меняешь",
       "wrongAnswers": ["меняю", "меняет", "меняем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-561",
@@ -4488,7 +4488,7 @@
       "prompt": "αλλάζει",
       "correctAnswer": "меняет",
       "wrongAnswers": ["меняю", "меняешь", "меняем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-562",
@@ -4496,7 +4496,7 @@
       "prompt": "αλλάζουμε",
       "correctAnswer": "меняем",
       "wrongAnswers": ["меняю", "меняешь", "меняет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-563",
@@ -4504,7 +4504,7 @@
       "prompt": "αλλάζετε",
       "correctAnswer": "меняете",
       "wrongAnswers": ["меняю", "меняешь", "меняет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-564",
@@ -4512,7 +4512,7 @@
       "prompt": "αλλάζουν",
       "correctAnswer": "меняют",
       "wrongAnswers": ["меняю", "меняешь", "меняет"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-565",
@@ -4520,7 +4520,7 @@
       "prompt": "νοικιάζω",
       "correctAnswer": "арендую",
       "wrongAnswers": ["арендуешь", "арендует", "арендуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-566",
@@ -4528,7 +4528,7 @@
       "prompt": "νοικιάζεις",
       "correctAnswer": "арендуешь",
       "wrongAnswers": ["арендую", "арендует", "арендуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-567",
@@ -4536,7 +4536,7 @@
       "prompt": "νοικιάζει",
       "correctAnswer": "арендует",
       "wrongAnswers": ["арендую", "арендуешь", "арендуем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-568",
@@ -4544,7 +4544,7 @@
       "prompt": "νοικιάζουμε",
       "correctAnswer": "арендуем",
       "wrongAnswers": ["арендую", "арендуешь", "арендует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-569",
@@ -4552,7 +4552,7 @@
       "prompt": "νοικιάζετε",
       "correctAnswer": "арендуете",
       "wrongAnswers": ["арендую", "арендуешь", "арендует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-570",
@@ -4560,7 +4560,7 @@
       "prompt": "νοικιάζουν",
       "correctAnswer": "арендуют",
       "wrongAnswers": ["арендую", "арендуешь", "арендует"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-571",
@@ -4568,7 +4568,7 @@
       "prompt": "κοστίζω",
       "correctAnswer": "стою",
       "wrongAnswers": ["стоишь", "стоит", "стоим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-572",
@@ -4576,7 +4576,7 @@
       "prompt": "κοστίζεις",
       "correctAnswer": "стоишь",
       "wrongAnswers": ["стою", "стоит", "стоим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-573",
@@ -4584,7 +4584,7 @@
       "prompt": "κοστίζει",
       "correctAnswer": "стоит",
       "wrongAnswers": ["стою", "стоишь", "стоим"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-574",
@@ -4592,7 +4592,7 @@
       "prompt": "κοστίζουμε",
       "correctAnswer": "стоим",
       "wrongAnswers": ["стою", "стоишь", "стоит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-575",
@@ -4600,7 +4600,7 @@
       "prompt": "κοστίζετε",
       "correctAnswer": "стоите",
       "wrongAnswers": ["стою", "стоишь", "стоит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-576",
@@ -4608,7 +4608,7 @@
       "prompt": "κοστίζουν",
       "correctAnswer": "стоят",
       "wrongAnswers": ["стою", "стоишь", "стоит"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-577",
@@ -4616,7 +4616,7 @@
       "prompt": "γνωρίζω",
       "correctAnswer": "знакомлюсь",
       "wrongAnswers": ["знакомишься", "знакомится", "знакомимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-578",
@@ -4624,7 +4624,7 @@
       "prompt": "γνωρίζεις",
       "correctAnswer": "знакомишься",
       "wrongAnswers": ["знакомлюсь", "знакомится", "знакомимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-579",
@@ -4632,7 +4632,7 @@
       "prompt": "γνωρίζει",
       "correctAnswer": "знакомится",
       "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомимся"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-580",
@@ -4640,7 +4640,7 @@
       "prompt": "γνωρίζουμε",
       "correctAnswer": "знакомимся",
       "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-581",
@@ -4648,7 +4648,7 @@
       "prompt": "γνωρίζετε",
       "correctAnswer": "знакомитесь",
       "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-582",
@@ -4656,7 +4656,7 @@
       "prompt": "γνωρίζουν",
       "correctAnswer": "знакомятся",
       "wrongAnswers": ["знакомлюсь", "знакомишься", "знакомится"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-583",
@@ -4664,7 +4664,7 @@
       "prompt": "γνωρίζω",
       "correctAnswer": "знаю",
       "wrongAnswers": ["знаешь", "знает", "знаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-584",
@@ -4672,7 +4672,7 @@
       "prompt": "γνωρίζεις",
       "correctAnswer": "знаешь",
       "wrongAnswers": ["знаю", "знает", "знаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-585",
@@ -4680,7 +4680,7 @@
       "prompt": "γνωρίζει",
       "correctAnswer": "знает",
       "wrongAnswers": ["знаю", "знаешь", "знаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-586",
@@ -4688,7 +4688,7 @@
       "prompt": "γνωρίζουμε",
       "correctAnswer": "знаем",
       "wrongAnswers": ["знаю", "знаешь", "знает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-587",
@@ -4696,7 +4696,7 @@
       "prompt": "γνωρίζετε",
       "correctAnswer": "знаете",
       "wrongAnswers": ["знаю", "знаешь", "знает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-588",
@@ -4704,7 +4704,7 @@
       "prompt": "γνωρίζουν",
       "correctAnswer": "знают",
       "wrongAnswers": ["знаю", "знаешь", "знает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-589",
@@ -4712,7 +4712,7 @@
       "prompt": "συναντάω",
       "correctAnswer": "встречаю",
       "wrongAnswers": ["встречаешь", "встречает", "встречаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-590",
@@ -4720,7 +4720,7 @@
       "prompt": "συναντάς",
       "correctAnswer": "встречаешь",
       "wrongAnswers": ["встречаю", "встречает", "встречаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-591",
@@ -4728,7 +4728,7 @@
       "prompt": "συναντάει",
       "correctAnswer": "встречает",
       "wrongAnswers": ["встречаю", "встречаешь", "встречаем"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-592",
@@ -4736,7 +4736,7 @@
       "prompt": "συναντάμε",
       "correctAnswer": "встречаем",
       "wrongAnswers": ["встречаю", "встречаешь", "встречает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-593",
@@ -4744,7 +4744,7 @@
       "prompt": "συναντάτε",
       "correctAnswer": "встречаете",
       "wrongAnswers": ["встречаю", "встречаешь", "встречает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     },
     {
       "id": "popular-greek-verb-endings-594",
@@ -4752,7 +4752,7 @@
       "prompt": "συναντάνε",
       "correctAnswer": "встречают",
       "wrongAnswers": ["встречаю", "встречаешь", "встречает"],
-      "promptLanguage": "el"
+      "speechTarget": "prompt"
     }
   ]
 }

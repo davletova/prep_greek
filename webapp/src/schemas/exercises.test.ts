@@ -9,7 +9,7 @@ const validSingleChoiceExercise = {
   id: "choice-1",
   type: "single-choice",
   prompt: "Γεια",
-  promptLanguage: "el",
+  speechTarget: "prompt",
   correctAnswer: "Привет",
   wrongAnswers: ["Пока", "Спасибо", "Извините"],
 };
@@ -31,21 +31,36 @@ const validListeningExercise = {
 };
 
 describe("exercise schemas", () => {
-  it("accepts supported prompt languages", () => {
+  it("accepts supported speech targets", () => {
     expect(singleChoiceExerciseSchema.safeParse(validSingleChoiceExercise).success).toBe(true);
     expect(
       singleChoiceExerciseSchema.safeParse({
         ...validSingleChoiceExercise,
-        promptLanguage: "ru",
+        speechTarget: "options",
+      }).success
+    ).toBe(true);
+    expect(
+      singleChoiceExerciseSchema.safeParse({
+        ...validSingleChoiceExercise,
+        speechTarget: "correctAnswer",
       }).success
     ).toBe(true);
   });
 
-  it("rejects unsupported prompt languages", () => {
+  it("rejects unsupported speech targets", () => {
     expect(
       singleChoiceExerciseSchema.safeParse({
         ...validSingleChoiceExercise,
-        promptLanguage: "en",
+        speechTarget: "answer",
+      }).success
+    ).toBe(false);
+  });
+
+  it("requires a speech target", () => {
+    expect(
+      singleChoiceExerciseSchema.safeParse({
+        ...validSingleChoiceExercise,
+        speechTarget: undefined,
       }).success
     ).toBe(false);
   });

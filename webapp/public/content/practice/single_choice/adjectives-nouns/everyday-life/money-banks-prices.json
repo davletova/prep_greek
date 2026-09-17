@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-001",
       "type": "single-choice",
       "prompt": "крупные покупки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγορά\nМножественное число: οι αγορές\n\nРод: женский",
       "correctAnswer": "οι μεγάλες αγορές",
       "wrongAnswers": ["ο μεγάλος αγορές", "οι μεγάλοι αγορές", "η μεγάλη αγορές"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-002",
       "type": "single-choice",
       "prompt": "сниженные счета",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λογαριασμός\nМножественное число: οι λογαριασμοί\n\nРод: мужской",
       "correctAnswer": "οι μειωμένοι λογαριασμοί",
       "wrongAnswers": [
@@ -28,7 +28,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-003",
       "type": "single-choice",
       "prompt": "дорогие часы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ρολόι\nМножественное число: τα ρολόγια\n\nРод: средний",
       "correctAnswer": "το ακριβό ρολόι",
       "wrongAnswers": ["ο ακριβός ρολόι", "οι ακριβοί ρολόι", "η ακριβή ρολόι"]
@@ -37,7 +37,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-004",
       "type": "single-choice",
       "prompt": "льготный билет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το εισιτήριο\nМножественное число: τα εισιτήρια\n\nРод: средний",
       "correctAnswer": "το μειωμένο εισιτήριο",
       "wrongAnswers": ["ο μειωμένος εισιτήριο", "οι μειωμένοι εισιτήριο", "η μειωμένη εισιτήριο"]
@@ -46,7 +46,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-005",
       "type": "single-choice",
       "prompt": "важные банковские книжки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλιάριο\nМножественное число: τα βιβλιάρια\n\nРод: средний",
       "correctAnswer": "τα σημαντικά βιβλιάρια τράπεζας",
       "wrongAnswers": [
@@ -59,7 +59,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-006",
       "type": "single-choice",
       "prompt": "дорогие нефтепродукты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πετρέλαιο\nМножественное число: τα πετρέλαια\n\nРод: средний",
       "correctAnswer": "τα ακριβά πετρέλαια",
       "wrongAnswers": ["ο ακριβός πετρέλαια", "οι ακριβοί πετρέλαια", "η ακριβή πετρέλαια"]
@@ -68,7 +68,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-007",
       "type": "single-choice",
       "prompt": "дорогая марка автомобиля",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μάρκα\nМножественное число: οι μάρκες\n\nРод: женский",
       "correctAnswer": "η ακριβή μάρκα αυτοκινήτου",
       "wrongAnswers": [
@@ -81,7 +81,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-008",
       "type": "single-choice",
       "prompt": "важная банковская книжка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βιβλιάριο\nМножественное число: τα βιβλιάρια\n\nРод: средний",
       "correctAnswer": "το σημαντικό βιβλιάριο τράπεζας",
       "wrongAnswers": [
@@ -94,7 +94,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-009",
       "type": "single-choice",
       "prompt": "кредитная карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάρτα\nМножественное число: οι κάρτες\n\nРод: женский",
       "correctAnswer": "η πιστωτική κάρτα",
       "wrongAnswers": ["η πιστωτικός κάρτα", "η πιστωτικό κάρτα", "η πιστωτικοί κάρτα"]
@@ -103,7 +103,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-010",
       "type": "single-choice",
       "prompt": "довольный клиент",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πελάτης\nМножественное число: οι πελάτες\n\nРод: мужской",
       "correctAnswer": "ο ευχαριστημένος πελάτης",
       "wrongAnswers": [
@@ -116,7 +116,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-011",
       "type": "single-choice",
       "prompt": "важный вклад",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κατάθεση\nМножественное число: οι καταθέσεις\n\nРод: женский",
       "correctAnswer": "η σημαντική κατάθεση",
       "wrongAnswers": ["ο σημαντικός κατάθεση", "οι σημαντικοί κατάθεση", "οι σημαντικές κατάθεση"]
@@ -125,7 +125,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-012",
       "type": "single-choice",
       "prompt": "вторые снятия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ανάληψη\nМножественное число: οι αναλήψεις\n\nРод: женский",
       "correctAnswer": "οι δεύτερες αναλήψεις",
       "wrongAnswers": ["ο δεύτερος αναλήψεις", "οι δεύτεροι αναλήψεις", "η δεύτερη αναλήψεις"]
@@ -134,7 +134,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-013",
       "type": "single-choice",
       "prompt": "кредитные карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κάρτα\nМножественное число: οι κάρτες\n\nРод: женский",
       "correctAnswer": "οι πιστωτικές κάρτες",
       "wrongAnswers": ["οι πιστωτικός κάρτες", "η πιστωτική κάρτες", "οι πιστωτικό κάρτες"]
@@ -143,7 +143,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-014",
       "type": "single-choice",
       "prompt": "большие деньги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χρήμα\nМножественное число: τα χρήματα\n\nРод: средний",
       "correctAnswer": "τα πολλά χρήματα",
       "wrongAnswers": ["τα πολύς χρήματα", "η πολλή χρήματα", "το πολύ χρήματα"]
@@ -152,7 +152,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-015",
       "type": "single-choice",
       "prompt": "частые снятия денег",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ανάληψη\nМножественное число: οι αναλήψεις\n\nРод: женский",
       "correctAnswer": "οι συχνές αναλήψεις χρημάτων",
       "wrongAnswers": [
@@ -165,7 +165,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-016",
       "type": "single-choice",
       "prompt": "дорогая сумка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
       "correctAnswer": "η ακριβή τσάντα",
       "wrongAnswers": ["η ακριβής τσάντα", "οι ακριβές τσάντα", "οι ακριβείς τσάντα"]
@@ -174,7 +174,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-017",
       "type": "single-choice",
       "prompt": "пустая касса",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταμείο\nМножественное число: τα ταμεία\n\nРод: средний",
       "correctAnswer": "το άδειο ταμείο",
       "wrongAnswers": ["ο άδειος ταμείο", "οι άδειοι ταμείο", "η άδεια ταμείο"]
@@ -183,7 +183,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-018",
       "type": "single-choice",
       "prompt": "положительные доходы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αποδοχή\nМножественное число: οι αποδοχές\n\nРод: женский",
       "correctAnswer": "οι θετικές αποδοχές",
       "wrongAnswers": ["οι θετικός αποδοχές", "η θετική αποδοχές", "οι θετικό αποδοχές"]
@@ -192,7 +192,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-019",
       "type": "single-choice",
       "prompt": "полные копилки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο κουμπαράς\nМножественное число: οι κουμπαράδες\n\nРод: мужской",
       "correctAnswer": "οι γεμάτοι κουμπαράδες",
       "wrongAnswers": ["ο γεμάτος κουμπαράδες", "η γεμάτη κουμπαράδες", "οι γεμάτες κουμπαράδες"]
@@ -201,7 +201,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-020",
       "type": "single-choice",
       "prompt": "кожаные кошельки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πορτοφόλι\nМножественное число: τα πορτοφόλια\n\nРод: средний",
       "correctAnswer": "τα δερμάτινα πορτοφόλια",
       "wrongAnswers": [
@@ -214,7 +214,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-021",
       "type": "single-choice",
       "prompt": "дорогой счёт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λογαριασμός\nМножественное число: οι λογαριασμοί\n\nРод: мужской",
       "correctAnswer": "ο ακριβός λογαριασμός",
       "wrongAnswers": ["οι ακριβοί λογαριασμός", "η ακριβή λογαριασμός", "οι ακριβές λογαριασμός"]
@@ -223,7 +223,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-022",
       "type": "single-choice",
       "prompt": "значительные вклады",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κατάθεση\nМножественное число: οι καταθέσεις\n\nРод: женский",
       "correctAnswer": "οι σημαντικές καταθέσεις",
       "wrongAnswers": [
@@ -236,7 +236,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-023",
       "type": "single-choice",
       "prompt": "хорошие сборы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τέλος\nМножественное число: τα τέλη\n\nРод: средний",
       "correctAnswer": "τα καλά τέλη",
       "wrongAnswers": ["ο καλός τέλη", "οι καλοί τέλη", "η καλή τέλη"]
@@ -245,7 +245,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-024",
       "type": "single-choice",
       "prompt": "доступные наличные",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μετρητό\nМножественное число: τα μετρητά\n\nРод: средний",
       "correctAnswer": "τα διαθέσιμα μετρητά",
       "wrongAnswers": ["ο διαθέσιμος μετρητά", "οι διαθέσιμοι μετρητά", "η διαθέσιμη μετρητά"]
@@ -254,7 +254,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-025",
       "type": "single-choice",
       "prompt": "сниженный счёт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λογαριασμός\nМножественное число: οι λογαριασμοί\n\nРод: мужской",
       "correctAnswer": "ο μειωμένος λογαριασμός",
       "wrongAnswers": [
@@ -267,7 +267,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-026",
       "type": "single-choice",
       "prompt": "свободные рынки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγορά\nМножественное число: οι αγορές\n\nРод: женский",
       "correctAnswer": "οι ελεύθερες αγορές",
       "wrongAnswers": ["ο ελεύθερος αγορές", "οι ελεύθεροι αγορές", "η ελεύθερη αγορές"]
@@ -276,7 +276,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-027",
       "type": "single-choice",
       "prompt": "сниженные цены",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τιμή\nМножественное число: οι τιμές\n\nРод: женский",
       "correctAnswer": "οι μειωμένες τιμές",
       "wrongAnswers": ["ο μειωμένος τιμές", "οι μειωμένοι τιμές", "η μειωμένη τιμές"]
@@ -285,7 +285,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-028",
       "type": "single-choice",
       "prompt": "большая скидка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η έκπτωση\nМножественное число: οι εκπτώσεις\n\nРод: женский",
       "correctAnswer": "η μεγάλη έκπτωση",
       "wrongAnswers": ["ο μεγάλος έκπτωση", "οι μεγάλοι έκπτωση", "οι μεγάλες έκπτωση"]
@@ -294,7 +294,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-029",
       "type": "single-choice",
       "prompt": "высокие зарплаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο μισθός\nМножественное число: οι μισθοί\n\nРод: мужской",
       "correctAnswer": "οι μεγάλοι μισθοί",
       "wrongAnswers": ["ο μεγάλος μισθοί", "η μεγάλη μισθοί", "οι μεγάλες μισθοί"]
@@ -303,7 +303,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-030",
       "type": "single-choice",
       "prompt": "дорогие часы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ρολόι\nМножественное число: τα ρολόγια\n\nРод: средний",
       "correctAnswer": "τα ακριβά ρολόγια",
       "wrongAnswers": ["ο ακριβός ρολόγια", "οι ακριβοί ρολόγια", "η ακριβή ρολόγια"]
@@ -312,7 +312,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-031",
       "type": "single-choice",
       "prompt": "дорогие евро",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ευρώ\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "τα ακριβά ευρώ",
       "wrongAnswers": ["ο ακριβός ευρώ", "οι ακριβοί ευρώ", "η ακριβή ευρώ"]
@@ -321,7 +321,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-032",
       "type": "single-choice",
       "prompt": "второе снятие",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ανάληψη\nМножественное число: οι αναλήψεις\n\nРод: женский",
       "correctAnswer": "η δεύτερη ανάληψη",
       "wrongAnswers": ["ο δεύτερος ανάληψη", "οι δεύτεροι ανάληψη", "οι δεύτερες ανάληψη"]
@@ -330,7 +330,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-033",
       "type": "single-choice",
       "prompt": "свободный рынок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγορά\nМножественное число: οι αγορές\n\nРод: женский",
       "correctAnswer": "η ελεύθερη αγορά",
       "wrongAnswers": ["ο ελεύθερος αγορά", "οι ελεύθεροι αγορά", "οι ελεύθερες αγορά"]
@@ -339,7 +339,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-034",
       "type": "single-choice",
       "prompt": "важные цены",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τιμή\nМножественное число: οι τιμές\n\nРод: женский",
       "correctAnswer": "οι σημαντικές τιμές",
       "wrongAnswers": ["ο σημαντικός τιμές", "οι σημαντικοί τιμές", "η σημαντική τιμές"]
@@ -348,7 +348,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-035",
       "type": "single-choice",
       "prompt": "большая зарплата",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο μισθός\nМножественное число: οι μισθοί\n\nРод: мужской",
       "correctAnswer": "ο μεγάλος μισθός",
       "wrongAnswers": ["οι μεγάλοι μισθός", "η μεγάλη μισθός", "οι μεγάλες μισθός"]
@@ -357,7 +357,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-036",
       "type": "single-choice",
       "prompt": "дорогая аренда",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ενοίκιο\nМножественное число: τα ενοίκια\n\nРод: средний",
       "correctAnswer": "τα ακριβά ενοίκια",
       "wrongAnswers": ["ο ακριβός ενοίκια", "οι ακριβοί ενοίκια", "η ακριβή ενοίκια"]
@@ -366,7 +366,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-037",
       "type": "single-choice",
       "prompt": "новые аренды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ενοικίαση\nМножественное число: οι ενοικιάσεις\n\nРод: женский",
       "correctAnswer": "οι καινούριες ενοικιάσεις",
       "wrongAnswers": [
@@ -379,7 +379,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-038",
       "type": "single-choice",
       "prompt": "дорогие счета",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λογαριασμός\nМножественное число: οι λογαριασμοί\n\nРод: мужской",
       "correctAnswer": "οι ακριβοί λογαριασμοί",
       "wrongAnswers": ["ο ακριβός λογαριασμοί", "η ακριβή λογαριασμοί", "οι ακριβές λογαριασμοί"]
@@ -388,7 +388,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-039",
       "type": "single-choice",
       "prompt": "дорогое топливо",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πετρέλαιο\nМножественное число: τα πετρέλαια\n\nРод: средний",
       "correctAnswer": "το ακριβό πετρέλαιο",
       "wrongAnswers": ["ο ακριβός πετρέλαιο", "οι ακριβοί πετρέλαιο", "η ακριβή πετρέλαιο"]
@@ -397,7 +397,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-040",
       "type": "single-choice",
       "prompt": "льготные билеты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το εισιτήριο\nМножественное число: τα εισιτήρια\n\nРод: средний",
       "correctAnswer": "τα μειωμένα εισιτήρια",
       "wrongAnswers": ["ο μειωμένος εισιτήρια", "οι μειωμένοι εισιτήρια", "η μειωμένη εισιτήρια"]
@@ -406,7 +406,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-041",
       "type": "single-choice",
       "prompt": "сниженная цена",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τιμή\nМножественное число: οι τιμές\n\nРод: женский",
       "correctAnswer": "η μειωμένη τιμή",
       "wrongAnswers": ["ο μειωμένος τιμή", "οι μειωμένοι τιμή", "οι μειωμένες τιμή"]
@@ -415,7 +415,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-042",
       "type": "single-choice",
       "prompt": "большие деньги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λεφτό\nМножественное число: τα λεφτά\n\nРод: средний",
       "correctAnswer": "τα περισσότερα λεφτά",
       "wrongAnswers": ["ο περισσότερος λεφτά", "οι περισσότεροι λεφτά", "η περισσότερη λεφτά"]
@@ -424,7 +424,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-043",
       "type": "single-choice",
       "prompt": "скрытые сокровища",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο θησαυρός\nМножественное число: οι θησαυροί\n\nРод: мужской",
       "correctAnswer": "οι κρυμμένοι θησαυροί",
       "wrongAnswers": ["ο κρυμμένος θησαυροί", "η κρυμμένη θησαυροί", "το κρυμμένο θησαυροί"]
@@ -433,7 +433,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-044",
       "type": "single-choice",
       "prompt": "большие скидки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η έκπτωση\nМножественное число: οι εκπτώσεις\n\nРод: женский",
       "correctAnswer": "οι μεγάλες εκπτώσεις",
       "wrongAnswers": ["ο μεγάλος εκπτώσεις", "οι μεγάλοι εκπτώσεις", "η μεγάλη εκπτώσεις"]
@@ -442,7 +442,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-045",
       "type": "single-choice",
       "prompt": "частое снятие денег",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ανάληψη\nМножественное число: οι αναλήψεις\n\nРод: женский",
       "correctAnswer": "η συχνή ανάληψη χρημάτων",
       "wrongAnswers": [
@@ -455,7 +455,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-046",
       "type": "single-choice",
       "prompt": "пустые кассы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ταμείο\nМножественное число: τα ταμεία\n\nРод: средний",
       "correctAnswer": "τα άδεια ταμεία",
       "wrongAnswers": ["ο άδειος ταμεία", "οι άδειοι ταμεία", "οι άδειες ταμεία"]
@@ -464,7 +464,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-047",
       "type": "single-choice",
       "prompt": "маленькие деньги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χρήμα\nМножественное число: τα χρήματα\n\nРод: средний",
       "correctAnswer": "τα λίγα χρήματα",
       "wrongAnswers": ["ο λίγος χρήματα", "οι λίγοι χρήματα", "η λίγη χρήματα"]
@@ -473,7 +473,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-048",
       "type": "single-choice",
       "prompt": "дорогой евро",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ευρώ\nМножественное число: τα None\n\nРод: средний",
       "correctAnswer": "το ακριβό ευρώ",
       "wrongAnswers": ["ο ακριβός ευρώ", "οι ακριβοί ευρώ", "η ακριβή ευρώ"]
@@ -482,7 +482,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-049",
       "type": "single-choice",
       "prompt": "дорогая арендная плата",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ενοίκιο\nМножественное число: τα ενοίκια\n\nРод: средний",
       "correctAnswer": "το ακριβό ενοίκιο",
       "wrongAnswers": ["ο ακριβός ενοίκιο", "οι ακριβοί ενοίκιο", "η ακριβή ενοίκιο"]
@@ -491,7 +491,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-050",
       "type": "single-choice",
       "prompt": "маленькие деньги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λεφτό\nМножественное число: τα λεφτά\n\nРод: средний",
       "correctAnswer": "τα λίγα λεφτά",
       "wrongAnswers": ["ο λίγος λεφτά", "οι λίγοι λεφτά", "η λίγη λεφτά"]
@@ -500,7 +500,7 @@
       "id": "nouns-adjectives-everyday-life-money-banks-prices-051",
       "type": "single-choice",
       "prompt": "дорогие сумки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
       "correctAnswer": "οι ακριβές τσάντες",
       "wrongAnswers": ["η ακριβής τσάντες", "οι ακριβείς τσάντες", "η ακριβή τσάντες"]

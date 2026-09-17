@@ -20,4 +20,24 @@ describe("toTopicListItems", () => {
       },
     ]);
   });
+
+  it("preserves the disabled state for placeholder topics", () => {
+    expect(
+      toTopicListItems([
+        {
+          id: "topic-1",
+          title: "Topic 1",
+          subtitle: "Subtitle 1",
+          disabled: true,
+        },
+      ])
+    ).toEqual([
+      {
+        id: "topic-1",
+        title: "Topic 1",
+        subtitle: "Subtitle 1",
+        disabled: true,
+      },
+    ]);
+  });
 });

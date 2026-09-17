@@ -10,9 +10,11 @@ interface SingleChoiceExerciseCardProps {
   hasAnswered: boolean;
   showTranslationHint: boolean;
   isPromptSpeaking: boolean;
+  isCorrectAnswerSpeaking: boolean;
   isOptionSpeaking: (optionIndex: number) => boolean;
   getAnswerClassName: (index: number) => string;
   onPlayPrompt: () => void;
+  onPlayCorrectAnswer: () => void;
   onPlayOption: (option: string, optionIndex: number) => void;
   onSelectAnswer: (index: number) => void;
 }
@@ -24,15 +26,18 @@ export default function SingleChoiceExerciseCard({
   hasAnswered,
   showTranslationHint,
   isPromptSpeaking,
+  isCorrectAnswerSpeaking,
   isOptionSpeaking,
   getAnswerClassName,
   onPlayPrompt,
+  onPlayCorrectAnswer,
   onPlayOption,
   onSelectAnswer,
 }: SingleChoiceExerciseCardProps) {
   const [isHintOpen, setIsHintOpen] = useState(false);
-  const isPromptInRussian = question.promptLanguage === "ru";
-  const isPromptInGreek = question.promptLanguage === "el";
+  const shouldSpeakPrompt = question.speechTarget === "prompt";
+  const shouldSpeakCorrectAnswer = question.speechTarget === "correctAnswer";
+  const shouldSpeakOptions = question.speechTarget === "options";
   const translationHint = showTranslationHint ? question.translation : undefined;
   const hint = question.hint?.trim();
 
@@ -69,25 +74,27 @@ export default function SingleChoiceExerciseCard({
         ) : null}
       </div>
 
-      {!isPromptInRussian ? (
+      {shouldSpeakPrompt || shouldSpeakCorrectAnswer ? (
         <div className="practice-card__play-wrap">
           <button
-            className={`alphabet-card__play practice-card__play ${
-              isPromptInGreek ? "practice-card__play--el" : ""
-            } ${isPromptSpeaking ? "practice-card__play--active" : ""}`}
+            className={`alphabet-card__play practice-card__play practice-card__play--el ${
+              isPromptSpeaking || isCorrectAnswerSpeaking ? "practice-card__play--active" : ""
+            }`}
             type="button"
-            aria-label={`Озвучить ${question.prompt}`}
-            onClick={onPlayPrompt}
-            disabled={isPromptSpeaking}
+            aria-label={
+              shouldSpeakCorrectAnswer ? "Озвучить правильный ответ" : `Озвучить ${question.prompt}`
+            }
+            onClick={shouldSpeakCorrectAnswer ? onPlayCorrectAnswer : onPlayPrompt}
+            disabled={isPromptSpeaking || isCorrectAnswerSpeaking}
           >
-            <PlaybackIcon isPlaying={isPromptSpeaking} />
+            <PlaybackIcon isPlaying={isPromptSpeaking || isCorrectAnswerSpeaking} />
           </button>
         </div>
       ) : null}
 
       <div className="practice-card__answers">
         {question.options.map((option, index) =>
-          isPromptInRussian ? (
+          shouldSpeakOptions ? (
             <div key={`${question.id}-${index}`} className="practice-card__answer-row">
               <button
                 className={getAnswerClassName(index)}

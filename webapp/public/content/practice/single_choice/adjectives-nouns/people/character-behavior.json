@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-people-character-behavior-001",
       "type": "single-choice",
       "prompt": "хорошие манеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συμπεριφορά\nМножественное число: οι συμπεριφορές\n\nРод: женский",
       "correctAnswer": "οι καλές συμπεριφορές",
       "wrongAnswers": ["ο καλός συμπεριφορές", "οι καλοί συμπεριφορές", "η καλή συμπεριφορές"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-people-character-behavior-002",
       "type": "single-choice",
       "prompt": "спонтанное решение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η απόφαση\nМножественное число: οι αποφάσεις\n\nРод: женский",
       "correctAnswer": "η αυθόρμητη απόφαση",
       "wrongAnswers": ["ο αυθόρμητος απόφαση", "οι αυθόρμητοι απόφαση", "οι αυθόρμητες απόφαση"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-people-character-behavior-003",
       "type": "single-choice",
       "prompt": "хорошая привычка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συνήθεια\nМножественное число: οι συνήθειες\n\nРод: женский",
       "correctAnswer": "η καλή συνήθεια",
       "wrongAnswers": ["ο καλός συνήθεια", "οι καλοί συνήθεια", "οι καλές συνήθεια"]
@@ -33,7 +33,7 @@
       "id": "nouns-adjectives-people-character-behavior-004",
       "type": "single-choice",
       "prompt": "чистые люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι αγνοί άνθρωποι",
       "wrongAnswers": ["ο αγνός άνθρωποι", "η αγνή άνθρωποι", "οι αγνές άνθρωποι"]
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-people-character-behavior-005",
       "type": "single-choice",
       "prompt": "плохие слова",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λόγος\nМножественное число: τα λόγια\n\nРод: мужской в единственном числе, средний во множественном числе",
       "correctAnswer": "τα κακά λόγια",
       "wrongAnswers": ["ο κακός λόγια", "οι κακοί λόγια", "η κακή λόγια"]
@@ -51,7 +51,7 @@
       "id": "nouns-adjectives-people-character-behavior-006",
       "type": "single-choice",
       "prompt": "хорошее поведение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συμπεριφορά\nМножественное число: οι συμπεριφορές\n\nРод: женский",
       "correctAnswer": "η καλή συμπεριφορά",
       "wrongAnswers": ["ο καλός συμπεριφορά", "οι καλοί συμπεριφορά", "οι καλές συμπεριφορά"]
@@ -60,7 +60,7 @@
       "id": "nouns-adjectives-people-character-behavior-007",
       "type": "single-choice",
       "prompt": "чувствительный человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο αισθηματικός άνθρωπος",
       "wrongAnswers": [
@@ -73,7 +73,7 @@
       "id": "nouns-adjectives-people-character-behavior-008",
       "type": "single-choice",
       "prompt": "хорошие привычки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συνήθεια\nМножественное число: οι συνήθειες\n\nРод: женский",
       "correctAnswer": "οι καλές συνήθειες",
       "wrongAnswers": ["ο καλός συνήθειες", "οι καλοί συνήθειες", "η καλή συνήθειες"]
@@ -82,7 +82,7 @@
       "id": "nouns-adjectives-people-character-behavior-009",
       "type": "single-choice",
       "prompt": "спонтанные решения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η απόφαση\nМножественное число: οι αποφάσεις\n\nРод: женский",
       "correctAnswer": "οι αυθόρμητες αποφάσεις",
       "wrongAnswers": ["ο αυθόρμητος αποφάσεις", "οι αυθόρμητοι αποφάσεις", "η αυθόρμητη αποφάσεις"]
@@ -91,7 +91,7 @@
       "id": "nouns-adjectives-people-character-behavior-010",
       "type": "single-choice",
       "prompt": "значимый характер",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χαρακτήρας\nМножественное число: οι χαρακτήρες\n\nРод: мужской",
       "correctAnswer": "ο σημαντικός χαρακτήρας",
       "wrongAnswers": [
@@ -104,7 +104,7 @@
       "id": "nouns-adjectives-people-character-behavior-011",
       "type": "single-choice",
       "prompt": "вежливые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ευγενικά παιδιά",
       "wrongAnswers": ["ο ευγενικός παιδιά", "οι ευγενικοί παιδιά", "η ευγενική παιδιά"]
@@ -113,7 +113,7 @@
       "id": "nouns-adjectives-people-character-behavior-012",
       "type": "single-choice",
       "prompt": "справедливые суждения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κρίση\nМножественное число: οι κρίσεις\n\nРод: женский",
       "correctAnswer": "οι δίκαιες κρίσεις",
       "wrongAnswers": ["ο δίκαιος κρίσεις", "οι δίκαιοι κρίσεις", "η δίκαιη κρίσεις"]
@@ -122,7 +122,7 @@
       "id": "nouns-adjectives-people-character-behavior-013",
       "type": "single-choice",
       "prompt": "ответственный ученик",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
       "correctAnswer": "ο υπεύθυνος μαθητής",
       "wrongAnswers": ["οι υπεύθυνοι μαθητής", "η υπεύθυνη μαθητής", "οι υπεύθυνες μαθητής"]
@@ -131,7 +131,7 @@
       "id": "nouns-adjectives-people-character-behavior-014",
       "type": "single-choice",
       "prompt": "серьёзная женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η σοβαρή γυναίκα",
       "wrongAnswers": ["ο σοβαρός γυναίκα", "οι σοβαροί γυναίκα", "οι σοβαρές γυναίκα"]
@@ -140,7 +140,7 @@
       "id": "nouns-adjectives-people-character-behavior-015",
       "type": "single-choice",
       "prompt": "общительные люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι κοινωνικοί άνθρωποι",
       "wrongAnswers": ["ο κοινωνικός άνθρωποι", "η κοινωνική άνθρωποι", "οι κοινωνικές άνθρωποι"]
@@ -149,7 +149,7 @@
       "id": "nouns-adjectives-people-character-behavior-016",
       "type": "single-choice",
       "prompt": "независимые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ανεξάρτητα παιδιά",
       "wrongAnswers": ["ο ανεξάρτητος παιδιά", "οι ανεξάρτητοι παιδιά", "η ανεξάρτητη παιδιά"]
@@ -158,7 +158,7 @@
       "id": "nouns-adjectives-people-character-behavior-017",
       "type": "single-choice",
       "prompt": "дружелюбные женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι φιλικές γυναίκες",
       "wrongAnswers": ["ο φιλικός γυναίκες", "οι φιλικοί γυναίκες", "η φιλική γυναίκες"]
@@ -167,7 +167,7 @@
       "id": "nouns-adjectives-people-character-behavior-018",
       "type": "single-choice",
       "prompt": "общительный человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο κοινωνικός άνθρωπος",
       "wrongAnswers": ["οι κοινωνικοί άνθρωπος", "η κοινωνική άνθρωπος", "οι κοινωνικές άνθρωπος"]
@@ -176,7 +176,7 @@
       "id": "nouns-adjectives-people-character-behavior-019",
       "type": "single-choice",
       "prompt": "полезный пользователь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χρήστης\nМножественное число: οι χρήστες\n\nРод: мужской",
       "correctAnswer": "ο χρήσιμος χρήστης",
       "wrongAnswers": ["η χρήσιμη χρήστης", "ο χρήσιμο χρήστης", "οι χρήσιμοι χρήστης"]
@@ -185,7 +185,7 @@
       "id": "nouns-adjectives-people-character-behavior-020",
       "type": "single-choice",
       "prompt": "симпатичный ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το συμπαθητικό παιδί",
       "wrongAnswers": ["ο συμπαθητικός παιδί", "οι συμπαθητικοί παιδί", "η συμπαθητική παιδί"]
@@ -194,7 +194,7 @@
       "id": "nouns-adjectives-people-character-behavior-021",
       "type": "single-choice",
       "prompt": "сумасшедший ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το τρελό παιδί",
       "wrongAnswers": ["ο τρελός παιδί", "οι τρελοί παιδί", "η τρελή παιδί"]
@@ -203,7 +203,7 @@
       "id": "nouns-adjectives-people-character-behavior-022",
       "type": "single-choice",
       "prompt": "дружелюбная женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η φιλική γυναίκα",
       "wrongAnswers": ["ο φιλικός γυναίκα", "οι φιλικοί γυναίκα", "οι φιλικές γυναίκα"]
@@ -212,7 +212,7 @@
       "id": "nouns-adjectives-people-character-behavior-023",
       "type": "single-choice",
       "prompt": "хорошие победители",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο νικητής\nМножественное число: οι νικητές\n\nРод: мужской",
       "correctAnswer": "οι καλοί νικητές",
       "wrongAnswers": ["ο καλός νικητές", "η καλή νικητές", "οι καλές νικητές"]
@@ -221,7 +221,7 @@
       "id": "nouns-adjectives-people-character-behavior-024",
       "type": "single-choice",
       "prompt": "важные персонажи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χαρακτήρας\nМножественное число: οι χαρακτήρες\n\nРод: мужской",
       "correctAnswer": "οι σημαντικοί χαρακτήρες",
       "wrongAnswers": [
@@ -234,7 +234,7 @@
       "id": "nouns-adjectives-people-character-behavior-025",
       "type": "single-choice",
       "prompt": "чувствительные люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι αισθηματικοί άνθρωποι",
       "wrongAnswers": [
@@ -247,7 +247,7 @@
       "id": "nouns-adjectives-people-character-behavior-026",
       "type": "single-choice",
       "prompt": "плохие женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι κακές γυναίκες",
       "wrongAnswers": ["ο κακός γυναίκες", "οι κακοί γυναίκες", "η κακή γυναίκες"]
@@ -256,7 +256,7 @@
       "id": "nouns-adjectives-people-character-behavior-027",
       "type": "single-choice",
       "prompt": "спокойные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ήρεμα παιδιά",
       "wrongAnswers": ["ο ήρεμος παιδιά", "οι ήρεμοι παιδιά", "η ήρεμη παιδιά"]
@@ -265,7 +265,7 @@
       "id": "nouns-adjectives-people-character-behavior-028",
       "type": "single-choice",
       "prompt": "ответственный ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το υπεύθυνο παιδί",
       "wrongAnswers": ["ο υπεύθυνος παιδί", "οι υπεύθυνοι παιδί", "η υπεύθυνη παιδί"]
@@ -274,7 +274,7 @@
       "id": "nouns-adjectives-people-character-behavior-029",
       "type": "single-choice",
       "prompt": "спокойный ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ήρεμο παιδί",
       "wrongAnswers": ["ο ήρεμος παιδί", "οι ήρεμοι παιδί", "η ήρεμη παιδί"]
@@ -283,7 +283,7 @@
       "id": "nouns-adjectives-people-character-behavior-030",
       "type": "single-choice",
       "prompt": "вежливый учитель",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
       "correctAnswer": "ο ευγενικός δάσκαλος",
       "wrongAnswers": ["οι ευγενικοί δάσκαλος", "η ευγενική δάσκαλος", "οι ευγενικές δάσκαλος"]
@@ -292,7 +292,7 @@
       "id": "nouns-adjectives-people-character-behavior-031",
       "type": "single-choice",
       "prompt": "забавные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι αστείοι φίλοι",
       "wrongAnswers": ["ο αστείος φίλοι", "τα αστεία φίλοι", "οι αστείες φίλοι"]
@@ -301,7 +301,7 @@
       "id": "nouns-adjectives-people-character-behavior-032",
       "type": "single-choice",
       "prompt": "весёлые ученики",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
       "correctAnswer": "οι γελαστοί μαθητές",
       "wrongAnswers": ["ο γελαστός μαθητές", "η γελαστή μαθητές", "οι γελαστές μαθητές"]
@@ -310,7 +310,7 @@
       "id": "nouns-adjectives-people-character-behavior-033",
       "type": "single-choice",
       "prompt": "ответственные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα υπεύθυνα παιδιά",
       "wrongAnswers": ["ο υπεύθυνος παιδιά", "οι υπεύθυνοι παιδιά", "η υπεύθυνη παιδιά"]
@@ -319,7 +319,7 @@
       "id": "nouns-adjectives-people-character-behavior-034",
       "type": "single-choice",
       "prompt": "похожий способ",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τρόπος\nМножественное число: οι τρόποι\n\nРод: мужской",
       "correctAnswer": "ο όμοιος τρόπος",
       "wrongAnswers": ["οι όμοιοι τρόπος", "η όμοια τρόπος", "οι όμοιες τρόπος"]
@@ -328,7 +328,7 @@
       "id": "nouns-adjectives-people-character-behavior-035",
       "type": "single-choice",
       "prompt": "похожие способы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τρόπος\nМножественное число: οι τρόποι\n\nРод: мужской",
       "correctAnswer": "οι όμοιοι τρόποι",
       "wrongAnswers": ["ο όμοιος τρόποι", "τα όμοια τρόποι", "οι όμοιες τρόποι"]
@@ -337,7 +337,7 @@
       "id": "nouns-adjectives-people-character-behavior-036",
       "type": "single-choice",
       "prompt": "простое жест",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η χειρονομία\nМножественное число: οι χειρονομίες\n\nРод: женский",
       "correctAnswer": "η απλή χειρονομία",
       "wrongAnswers": ["ο απλός χειρονομία", "οι απλοί χειρονομία", "οι απλές χειρονομία"]
@@ -346,7 +346,7 @@
       "id": "nouns-adjectives-people-character-behavior-037",
       "type": "single-choice",
       "prompt": "независимая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η ανεξάρτητη γυναίκα",
       "wrongAnswers": ["ο ανεξάρτητος γυναίκα", "οι ανεξάρτητοι γυναίκα", "οι ανεξάρτητες γυναίκα"]
@@ -355,7 +355,7 @@
       "id": "nouns-adjectives-people-character-behavior-038",
       "type": "single-choice",
       "prompt": "хороший способ",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τρόπος\nМножественное число: οι τρόποι\n\nРод: мужской",
       "correctAnswer": "ο καλός τρόπος",
       "wrongAnswers": ["οι καλοί τρόπος", "η καλή τρόπος", "οι καλές τρόπος"]
@@ -364,7 +364,7 @@
       "id": "nouns-adjectives-people-character-behavior-039",
       "type": "single-choice",
       "prompt": "святая мать",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μητέρα\nМножественное число: οι μητέρες\n\nРод: женский",
       "correctAnswer": "η αγία μητέρα",
       "wrongAnswers": ["ο άγιος μητέρα", "το άγιο μητέρα", "οι άγιοι μητέρα"]
@@ -373,7 +373,7 @@
       "id": "nouns-adjectives-people-character-behavior-040",
       "type": "single-choice",
       "prompt": "плохие мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι κακοί άντρες",
       "wrongAnswers": ["ο κακός άντρες", "η κακή άντρες", "οι κακές άντρες"]
@@ -382,7 +382,7 @@
       "id": "nouns-adjectives-people-character-behavior-041",
       "type": "single-choice",
       "prompt": "частое нытьё",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γκρίνια\nМножественное число: οι γκρίνιες\n\nРод: женский",
       "correctAnswer": "η συχνή γκρίνια",
       "wrongAnswers": ["ο συχνός γκρίνια", "οι συχνοί γκρίνια", "οι συχνές γκρίνια"]
@@ -391,7 +391,7 @@
       "id": "nouns-adjectives-people-character-behavior-042",
       "type": "single-choice",
       "prompt": "сумасшедшие дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα τρελά παιδιά",
       "wrongAnswers": ["ο τρελός παιδιά", "οι τρελοί παιδιά", "η τρελή παιδιά"]
@@ -400,7 +400,7 @@
       "id": "nouns-adjectives-people-character-behavior-043",
       "type": "single-choice",
       "prompt": "вежливое приветствие",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χαιρετισμός\nМножественное число: οι χαιρετισμοί\n\nРод: мужской",
       "correctAnswer": "ο ευγενικός χαιρετισμός",
       "wrongAnswers": [
@@ -413,7 +413,7 @@
       "id": "nouns-adjectives-people-character-behavior-044",
       "type": "single-choice",
       "prompt": "святое дитя",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το άγιο παιδί",
       "wrongAnswers": ["ο άγιος παιδί", "η αγία παιδί", "οι άγιοι παιδί"]
@@ -422,7 +422,7 @@
       "id": "nouns-adjectives-people-character-behavior-045",
       "type": "single-choice",
       "prompt": "правильные причины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο λόγος\nМножественное число: οι λόγοι\n\nРод: мужской",
       "correctAnswer": "οι σωστοί λόγοι",
       "wrongAnswers": ["ο σωστός λόγοι", "η σωστή λόγοι", "οι σωστές λόγοι"]
@@ -431,7 +431,7 @@
       "id": "nouns-adjectives-people-character-behavior-046",
       "type": "single-choice",
       "prompt": "хорошие мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι καλοί άντρες",
       "wrongAnswers": ["ο καλός άντρες", "η καλή άντρες", "οι καλές άντρες"]
@@ -440,7 +440,7 @@
       "id": "nouns-adjectives-people-character-behavior-047",
       "type": "single-choice",
       "prompt": "нежное сердце",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η καρδιά\nМножественное число: οι καρδιές\n\nРод: женский",
       "correctAnswer": "η τρυφερή καρδιά",
       "wrongAnswers": ["ο τρυφερός καρδιά", "το τρυφερό καρδιά", "οι τρυφεροί καρδιά"]
@@ -449,7 +449,7 @@
       "id": "nouns-adjectives-people-character-behavior-048",
       "type": "single-choice",
       "prompt": "независимый ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ανεξάρτητο παιδί",
       "wrongAnswers": ["ο ανεξάρτητος παιδί", "οι ανεξάρτητοι παιδί", "η ανεξάρτητη παιδί"]
@@ -458,7 +458,7 @@
       "id": "nouns-adjectives-people-character-behavior-049",
       "type": "single-choice",
       "prompt": "простые жесты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η χειρονομία\nМножественное число: οι χειρονομίες\n\nРод: женский",
       "correctAnswer": "οι απλές χειρονομίες",
       "wrongAnswers": ["ο απλός χειρονομίες", "οι απλοί χειρονομίες", "η απλή χειρονομίες"]
@@ -467,7 +467,7 @@
       "id": "nouns-adjectives-people-character-behavior-050",
       "type": "single-choice",
       "prompt": "плохой ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το κακό παιδί",
       "wrongAnswers": ["ο κακός παιδί", "οι κακοί παιδί", "η κακή παιδί"]
@@ -476,7 +476,7 @@
       "id": "nouns-adjectives-people-character-behavior-051",
       "type": "single-choice",
       "prompt": "чистые души",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ψυχή\nМножественное число: οι ψυχές\n\nРод: женский",
       "correctAnswer": "οι αγνές ψυχές",
       "wrongAnswers": ["ο αγνός ψυχές", "οι αγνοί ψυχές", "η αγνή ψυχές"]
@@ -485,7 +485,7 @@
       "id": "nouns-adjectives-people-character-behavior-052",
       "type": "single-choice",
       "prompt": "правильные манеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τρόπος\nМножественное число: οι τρόποι\n\nРод: мужской",
       "correctAnswer": "οι σωστοί τρόποι",
       "wrongAnswers": ["ο σωστός τρόποι", "η σωστή τρόποι", "οι σωστές τρόποι"]
@@ -494,7 +494,7 @@
       "id": "nouns-adjectives-people-character-behavior-053",
       "type": "single-choice",
       "prompt": "независимые женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι ανεξάρτητες γυναίκες",
       "wrongAnswers": ["ο ανεξάρτητος γυναίκες", "οι ανεξάρτητοι γυναίκες", "η ανεξάρτητη γυναίκες"]
@@ -503,7 +503,7 @@
       "id": "nouns-adjectives-people-character-behavior-054",
       "type": "single-choice",
       "prompt": "сумасшедший человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο τρελός άνθρωπος",
       "wrongAnswers": ["οι τρελοί άνθρωπος", "η τρελή άνθρωπος", "οι τρελές άνθρωπος"]
@@ -512,7 +512,7 @@
       "id": "nouns-adjectives-people-character-behavior-055",
       "type": "single-choice",
       "prompt": "спокойные учителя",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
       "correctAnswer": "οι ήρεμοι δάσκαλοι",
       "wrongAnswers": ["ο ήρεμος δάσκαλοι", "η ήρεμη δάσκαλοι", "οι ήρεμες δάσκαλοι"]
@@ -521,7 +521,7 @@
       "id": "nouns-adjectives-people-character-behavior-056",
       "type": "single-choice",
       "prompt": "плохой мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο κακός άντρας",
       "wrongAnswers": ["οι κακοί άντρας", "η κακή άντρας", "οι κακές άντρας"]
@@ -530,7 +530,7 @@
       "id": "nouns-adjectives-people-character-behavior-057",
       "type": "single-choice",
       "prompt": "справедливые учителя",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
       "correctAnswer": "οι δίκαιοι δάσκαλοι",
       "wrongAnswers": ["ο δίκαιος δάσκαλοι", "η δίκαιη δάσκαλοι", "οι δίκαιες δάσκαλοι"]
@@ -539,7 +539,7 @@
       "id": "nouns-adjectives-people-character-behavior-058",
       "type": "single-choice",
       "prompt": "независимый человек",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "ο ανεξάρτητος άνθρωπος",
       "wrongAnswers": [
@@ -552,7 +552,7 @@
       "id": "nouns-adjectives-people-character-behavior-059",
       "type": "single-choice",
       "prompt": "хорошие манеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο τρόπος\nМножественное число: οι τρόποι\n\nРод: мужской",
       "correctAnswer": "οι καλοί τρόποι",
       "wrongAnswers": ["ο καλός τρόποι", "η καλή τρόποι", "οι καλές τρόποι"]
@@ -561,7 +561,7 @@
       "id": "nouns-adjectives-people-character-behavior-060",
       "type": "single-choice",
       "prompt": "безумные идеи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ιδέα\nМножественное число: οι ιδέες\n\nРод: женский",
       "correctAnswer": "οι τρελές ιδέες",
       "wrongAnswers": ["ο τρελός ιδέες", "οι τρελοί ιδέες", "η τρελή ιδέες"]
@@ -570,7 +570,7 @@
       "id": "nouns-adjectives-people-character-behavior-061",
       "type": "single-choice",
       "prompt": "чистая душа",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ψυχή\nМножественное число: οι ψυχές\n\nРод: женский",
       "correctAnswer": "η αγνή ψυχή",
       "wrongAnswers": ["ο αγνός ψυχή", "οι αγνοί ψυχή", "οι αγνές ψυχή"]
@@ -579,7 +579,7 @@
       "id": "nouns-adjectives-people-character-behavior-062",
       "type": "single-choice",
       "prompt": "нежные сердца",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η καρδιά\nМножественное число: οι καρδιές\n\nРод: женский",
       "correctAnswer": "οι τρυφερές καρδιές",
       "wrongAnswers": ["ο τρυφερός καρδιές", "η τρυφερή καρδιές", "το τρυφερό καρδιές"]
@@ -588,7 +588,7 @@
       "id": "nouns-adjectives-people-character-behavior-063",
       "type": "single-choice",
       "prompt": "плохие дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα κακά παιδιά",
       "wrongAnswers": ["ο κακός παιδιά", "οι κακοί παιδιά", "η κακή παιδιά"]
@@ -597,7 +597,7 @@
       "id": "nouns-adjectives-people-character-behavior-064",
       "type": "single-choice",
       "prompt": "уродливый болван",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κορόιδο\nМножественное число: τα κορόιδα\n\nРод: средний",
       "correctAnswer": "το άσχημο κορόιδο",
       "wrongAnswers": ["ο άσχημος κορόιδο", "οι άσχημοι κορόιδο", "η άσχημη κορόιδο"]
@@ -606,7 +606,7 @@
       "id": "nouns-adjectives-people-character-behavior-065",
       "type": "single-choice",
       "prompt": "большое терпение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υπομονή\nМножественное число: οι None\n\nРод: женский",
       "correctAnswer": "η μεγάλη υπομονή",
       "wrongAnswers": ["ο μεγάλος υπομονή", "οι μεγάλοι υπομονή", "οι μεγάλες υπομονή"]
@@ -615,7 +615,7 @@
       "id": "nouns-adjectives-people-character-behavior-066",
       "type": "single-choice",
       "prompt": "независимые люди",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
       "correctAnswer": "οι ανεξάρτητοι άνθρωποι",
       "wrongAnswers": ["ο ανεξάρτητος άνθρωποι", "η ανεξάρτητη άνθρωποι", "οι ανεξάρτητες άνθρωποι"]
@@ -624,7 +624,7 @@
       "id": "nouns-adjectives-people-character-behavior-067",
       "type": "single-choice",
       "prompt": "разные мнения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η άποψη\nМножественное число: οι απόψεις\n\nРод: женский",
       "correctAnswer": "οι διαφορετικές απόψεις",
       "wrongAnswers": ["ο διαφορετικός απόψεις", "οι διαφορετικοί απόψεις", "η διαφορετική απόψεις"]
@@ -633,7 +633,7 @@
       "id": "nouns-adjectives-people-character-behavior-068",
       "type": "single-choice",
       "prompt": "счастливый ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το τυχερό παιδί",
       "wrongAnswers": ["ο τυχερός παιδί", "οι τυχεροί παιδί", "η τυχερή παιδί"]
@@ -642,7 +642,7 @@
       "id": "nouns-adjectives-people-character-behavior-069",
       "type": "single-choice",
       "prompt": "дружелюбные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα φιλικά παιδιά",
       "wrongAnswers": ["ο φιλικός παιδιά", "οι φιλικοί παιδιά", "η φιλική παιδιά"]
@@ -651,7 +651,7 @@
       "id": "nouns-adjectives-people-character-behavior-070",
       "type": "single-choice",
       "prompt": "хорошая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η καλή γυναίκα",
       "wrongAnswers": ["ο καλός γυναίκα", "οι καλοί γυναίκα", "οι καλές γυναίκα"]
@@ -660,7 +660,7 @@
       "id": "nouns-adjectives-people-character-behavior-071",
       "type": "single-choice",
       "prompt": "плохая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η κακή γυναίκα",
       "wrongAnswers": ["ο κακός γυναίκα", "οι κακοί γυναίκα", "οι κακές γυναίκα"]
@@ -669,7 +669,7 @@
       "id": "nouns-adjectives-people-character-behavior-072",
       "type": "single-choice",
       "prompt": "медленные движения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κίνηση\nМножественное число: οι κινήσεις\n\nРод: женский",
       "correctAnswer": "οι αργές κινήσεις",
       "wrongAnswers": ["ο αργός κινήσεις", "οι αργοί κινήσεις", "η αργή κινήσεις"]

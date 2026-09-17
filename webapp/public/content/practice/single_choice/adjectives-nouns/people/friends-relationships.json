@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-people-friends-relationships-001",
       "type": "single-choice",
       "prompt": "хорошие соседи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
       "correctAnswer": "οι καλοί γείτονες",
       "wrongAnswers": ["ο καλός γείτονες", "η καλή γείτονες", "οι καλές γείτονες"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-people-friends-relationships-002",
       "type": "single-choice",
       "prompt": "красивый друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο ωραίος φίλος",
       "wrongAnswers": ["οι ωραίοι φίλος", "η ωραία φίλος", "οι ωραίες φίλος"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-people-friends-relationships-003",
       "type": "single-choice",
       "prompt": "любимые визиты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η επίσκεψη\nМножественное число: οι επισκέψεις\n\nРод: женский",
       "correctAnswer": "οι αγαπημένες επισκέψεις",
       "wrongAnswers": [
@@ -37,7 +37,7 @@
       "id": "nouns-adjectives-people-friends-relationships-004",
       "type": "single-choice",
       "prompt": "любимая подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "η αγαπημένη φίλη",
       "wrongAnswers": ["ο αγαπημένος φίλη", "το αγαπημένο φίλη", "οι αγαπημένοι φίλη"]
@@ -46,7 +46,7 @@
       "id": "nouns-adjectives-people-friends-relationships-005",
       "type": "single-choice",
       "prompt": "любимые объятия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγκαλιά\nМножественное число: οι αγκαλιές\n\nРод: женский",
       "correctAnswer": "οι αγαπημένες αγκαλιές",
       "wrongAnswers": ["ο αγαπημένος αγκαλιές", "η αγαπημένη αγκαλιές", "το αγαπημένο αγκαλιές"]
@@ -55,7 +55,7 @@
       "id": "nouns-adjectives-people-friends-relationships-006",
       "type": "single-choice",
       "prompt": "тёплый приём",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υποδοχή\nМножественное число: οι υποδοχές\n\nРод: женский",
       "correctAnswer": "η θερμή υποδοχή",
       "wrongAnswers": ["ο θερμός υποδοχή", "οι θερμοί υποδοχή", "οι θερμές υποδοχή"]
@@ -64,7 +64,7 @@
       "id": "nouns-adjectives-people-friends-relationships-007",
       "type": "single-choice",
       "prompt": "некоторые друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "κάποιοι φίλοι",
       "wrongAnswers": ["κάποιος φίλοι", "κάποια φίλοι", "κάποιο φίλοι"]
@@ -73,7 +73,7 @@
       "id": "nouns-adjectives-people-friends-relationships-008",
       "type": "single-choice",
       "prompt": "любые друзья, которые хотят",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "όποιοι φίλοι θέλουν",
       "wrongAnswers": ["όποιος φίλοι θέλουν", "όποια φίλοι θέλουν", "όποιο φίλοι θέλουν"]
@@ -82,7 +82,7 @@
       "id": "nouns-adjectives-people-friends-relationships-009",
       "type": "single-choice",
       "prompt": "простое извинение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συγγνώμη\nМножественное число: οι συγγνώμες\n\nРод: женский",
       "correctAnswer": "η απλή συγγνώμη",
       "wrongAnswers": ["ο απλός συγγνώμη", "οι απλοί συγγνώμη", "οι απλές συγγνώμη"]
@@ -91,7 +91,7 @@
       "id": "nouns-adjectives-people-friends-relationships-010",
       "type": "single-choice",
       "prompt": "хорошее знакомство",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γνωριμία\nМножественное число: οι γνωριμίες\n\nРод: женский",
       "correctAnswer": "η καλή γνωριμία",
       "wrongAnswers": ["ο καλός γνωριμία", "οι καλοί γνωριμία", "οι καλές γνωριμία"]
@@ -100,7 +100,7 @@
       "id": "nouns-adjectives-people-friends-relationships-011",
       "type": "single-choice",
       "prompt": "иностранец-друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο ξένος φίλος",
       "wrongAnswers": ["οι ξένοι φίλος", "η ξένη φίλος", "οι ξένες φίλος"]
@@ -109,7 +109,7 @@
       "id": "nouns-adjectives-people-friends-relationships-012",
       "type": "single-choice",
       "prompt": "дружеские приветствия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το χαιρέτισμα\nМножественное число: τα χαιρετίσματα\n\nРод: средний",
       "correctAnswer": "τα φιλικά χαιρετίσματα",
       "wrongAnswers": ["ο φιλικός χαιρετίσματα", "οι φιλικοί χαιρετίσματα", "η φιλική χαιρετίσματα"]
@@ -118,7 +118,7 @@
       "id": "nouns-adjectives-people-friends-relationships-013",
       "type": "single-choice",
       "prompt": "другая подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "η άλλη φίλη",
       "wrongAnswers": ["ο άλλος φίλη", "το άλλο φίλη", "οι άλλοι φίλη"]
@@ -127,7 +127,7 @@
       "id": "nouns-adjectives-people-friends-relationships-014",
       "type": "single-choice",
       "prompt": "новые друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι καινούριοι φίλοι",
       "wrongAnswers": ["ο καινούριος φίλοι", "τα καινούρια φίλοι", "οι καινούριες φίλοι"]
@@ -136,7 +136,7 @@
       "id": "nouns-adjectives-people-friends-relationships-015",
       "type": "single-choice",
       "prompt": "любимый друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο αγαπημένος φίλος",
       "wrongAnswers": ["η αγαπημένη φίλος", "το αγαπημένο φίλος", "οι αγαπημένοι φίλος"]
@@ -145,7 +145,7 @@
       "id": "nouns-adjectives-people-friends-relationships-016",
       "type": "single-choice",
       "prompt": "какая-то подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "κάποια φίλη",
       "wrongAnswers": ["κάποιος φίλη", "κάποιο φίλη", "κάποιοι φίλη"]
@@ -154,7 +154,7 @@
       "id": "nouns-adjectives-people-friends-relationships-017",
       "type": "single-choice",
       "prompt": "красивая пара",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ζευγάρι\nМножественное число: τα ζευγάρια\n\nРод: средний",
       "correctAnswer": "το ωραίο ζευγάρι",
       "wrongAnswers": ["ο ωραίος ζευγάρι", "οι ωραίοι ζευγάρι", "η ωραία ζευγάρι"]
@@ -163,7 +163,7 @@
       "id": "nouns-adjectives-people-friends-relationships-018",
       "type": "single-choice",
       "prompt": "красивая подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "η ωραία φίλη",
       "wrongAnswers": ["ο ωραίος φίλη", "οι ωραίοι φίλη", "οι ωραίες φίλη"]
@@ -172,7 +172,7 @@
       "id": "nouns-adjectives-people-friends-relationships-019",
       "type": "single-choice",
       "prompt": "уверенный друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο σίγουρος φίλος",
       "wrongAnswers": ["οι σίγουροι φίλος", "η σίγουρη φίλος", "οι σίγουρες φίλος"]
@@ -181,7 +181,7 @@
       "id": "nouns-adjectives-people-friends-relationships-020",
       "type": "single-choice",
       "prompt": "мои друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι δικοί μου φίλοι",
       "wrongAnswers": ["ο δικός μου φίλοι", "η δική μου φίλοι", "το δικό μου φίλοι"]
@@ -190,7 +190,7 @@
       "id": "nouns-adjectives-people-friends-relationships-021",
       "type": "single-choice",
       "prompt": "уверенные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι σίγουροι φίλοι",
       "wrongAnswers": ["ο σίγουρος φίλοι", "η σίγουρη φίλοι", "οι σίγουρες φίλοι"]
@@ -199,7 +199,7 @@
       "id": "nouns-adjectives-people-friends-relationships-022",
       "type": "single-choice",
       "prompt": "хороший друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο καλός φίλος",
       "wrongAnswers": ["οι καλοί φίλος", "η καλή φίλος", "οι καλές φίλος"]
@@ -208,7 +208,7 @@
       "id": "nouns-adjectives-people-friends-relationships-023",
       "type": "single-choice",
       "prompt": "хорошая соседка по комнате",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συγκάτοικος\nМножественное число: οι συγκάτοικοι\n\nРод: женский",
       "correctAnswer": "η καλή συγκάτοικος",
       "wrongAnswers": ["ο καλός συγκάτοικος", "οι καλοί συγκάτοικος", "οι καλές συγκάτοικος"]
@@ -217,7 +217,7 @@
       "id": "nouns-adjectives-people-friends-relationships-024",
       "type": "single-choice",
       "prompt": "милые соседки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γειτόνισσα\nМножественное число: οι γειτόνισσες\n\nРод: женский",
       "correctAnswer": "οι συμπαθητικές γειτόνισσες",
       "wrongAnswers": [
@@ -230,7 +230,7 @@
       "id": "nouns-adjectives-people-friends-relationships-025",
       "type": "single-choice",
       "prompt": "одна подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "μία φίλη",
       "wrongAnswers": ["ένας φίλη", "ένα φίλη", "μία φίλες"]
@@ -239,7 +239,7 @@
       "id": "nouns-adjectives-people-friends-relationships-026",
       "type": "single-choice",
       "prompt": "радостный друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο χαρούμενος φίλος",
       "wrongAnswers": ["η χαρούμενη φίλος", "το χαρούμενο φίλος", "οι χαρούμενοι φίλος"]
@@ -248,7 +248,7 @@
       "id": "nouns-adjectives-people-friends-relationships-027",
       "type": "single-choice",
       "prompt": "особенные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι ξεχωριστοί φίλοι",
       "wrongAnswers": ["ο ξεχωριστός φίλοι", "η ξεχωριστή φίλοι", "οι ξεχωριστές φίλοι"]
@@ -257,7 +257,7 @@
       "id": "nouns-adjectives-people-friends-relationships-028",
       "type": "single-choice",
       "prompt": "австралийские друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι αυστραλιανοί φίλοι",
       "wrongAnswers": ["ο αυστραλιανός φίλοι", "η αυστραλιανή φίλοι", "οι αυστραλιανές φίλοι"]
@@ -266,7 +266,7 @@
       "id": "nouns-adjectives-people-friends-relationships-029",
       "type": "single-choice",
       "prompt": "личное сообщение",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήνυμα\nМножественное число: τα μηνύματα\n\nРод: средний",
       "correctAnswer": "το προσωπικό μήνυμα",
       "wrongAnswers": ["ο προσωπικός μήνυμα", "οι προσωπικοί μήνυμα", "η προσωπική μήνυμα"]
@@ -275,7 +275,7 @@
       "id": "nouns-adjectives-people-friends-relationships-030",
       "type": "single-choice",
       "prompt": "эти подруги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "αυτές οι φίλες",
       "wrongAnswers": ["αυτός ο φίλες", "αυτή η φίλες", "αυτό το φίλες"]
@@ -284,7 +284,7 @@
       "id": "nouns-adjectives-people-friends-relationships-031",
       "type": "single-choice",
       "prompt": "несколько подруг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "μερικές φίλες",
       "wrongAnswers": ["μερικός φίλες", "μερική φίλες", "μερικό φίλες"]
@@ -293,7 +293,7 @@
       "id": "nouns-adjectives-people-friends-relationships-032",
       "type": "single-choice",
       "prompt": "другой друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο άλλος φίλος",
       "wrongAnswers": ["η άλλη φίλος", "το άλλο φίλος", "οι άλλοι φίλος"]
@@ -302,7 +302,7 @@
       "id": "nouns-adjectives-people-friends-relationships-033",
       "type": "single-choice",
       "prompt": "новые друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι νέοι φίλοι",
       "wrongAnswers": ["ο νέος φίλοι", "τα νέα φίλοι", "οι νέες φίλοι"]
@@ -311,7 +311,7 @@
       "id": "nouns-adjectives-people-friends-relationships-034",
       "type": "single-choice",
       "prompt": "соболезнования",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το συλλυπητήριο\nМножественное число: τα συλλυπητήρια\n\nРод: средний",
       "correctAnswer": "τα θερμά συλλυπητήρια",
       "wrongAnswers": ["ο θερμός συλλυπητήρια", "οι θερμοί συλλυπητήρια", "η θερμή συλλυπητήρια"]
@@ -320,7 +320,7 @@
       "id": "nouns-adjectives-people-friends-relationships-035",
       "type": "single-choice",
       "prompt": "приглашённые подруги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "οι καλεσμένες φίλες",
       "wrongAnswers": ["ο καλεσμένος φίλες", "η καλεσμένη φίλες", "το καλεσμένο φίλες"]
@@ -329,7 +329,7 @@
       "id": "nouns-adjectives-people-friends-relationships-036",
       "type": "single-choice",
       "prompt": "дорогие дамы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κυρία\nМножественное число: οι κυρίες\n\nРод: женский",
       "correctAnswer": "οι αγαπητές κυρίες",
       "wrongAnswers": ["ο αγαπητός κυρίες", "οι αγαπητοί κυρίες", "η αγαπητή κυρίες"]
@@ -338,7 +338,7 @@
       "id": "nouns-adjectives-people-friends-relationships-037",
       "type": "single-choice",
       "prompt": "хорошие друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι ωραίοι φίλοι",
       "wrongAnswers": ["ο ωραίος φίλοι", "τα ωραία φίλοι", "οι ωραίες φίλοι"]
@@ -347,7 +347,7 @@
       "id": "nouns-adjectives-people-friends-relationships-038",
       "type": "single-choice",
       "prompt": "приглашённая подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "η καλεσμένη φίλη",
       "wrongAnswers": ["ο καλεσμένος φίλη", "το καλεσμένο φίλη", "οι καλεσμένοι φίλη"]
@@ -356,7 +356,7 @@
       "id": "nouns-adjectives-people-friends-relationships-039",
       "type": "single-choice",
       "prompt": "тесная связь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σχέση\nМножественное число: οι σχέσεις\n\nРод: женский",
       "correctAnswer": "η στενή σχέση",
       "wrongAnswers": ["ο στενός σχέση", "οι στενοί σχέση", "οι στενές σχέση"]
@@ -365,7 +365,7 @@
       "id": "nouns-adjectives-people-friends-relationships-040",
       "type": "single-choice",
       "prompt": "хорошие подруги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "οι ωραίες φίλες",
       "wrongAnswers": ["ο ωραίος φίλες", "οι ωραίοι φίλες", "τα ωραία φίλες"]
@@ -374,7 +374,7 @@
       "id": "nouns-adjectives-people-friends-relationships-041",
       "type": "single-choice",
       "prompt": "хорошие компании",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παρέα\nМножественное число: οι παρέες\n\nРод: женский",
       "correctAnswer": "οι καλές παρέες",
       "wrongAnswers": ["ο καλός παρέες", "οι καλοί παρέες", "η καλή παρέες"]
@@ -383,7 +383,7 @@
       "id": "nouns-adjectives-people-friends-relationships-042",
       "type": "single-choice",
       "prompt": "какой-то друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "κάποιος φίλος",
       "wrongAnswers": ["κάποια φίλος", "κάποιο φίλος", "κάποιοι φίλος"]
@@ -392,7 +392,7 @@
       "id": "nouns-adjectives-people-friends-relationships-043",
       "type": "single-choice",
       "prompt": "особенный друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο ξεχωριστός φίλος",
       "wrongAnswers": ["οι ξεχωριστοί φίλος", "η ξεχωριστή φίλος", "οι ξεχωριστές φίλος"]
@@ -401,7 +401,7 @@
       "id": "nouns-adjectives-people-friends-relationships-044",
       "type": "single-choice",
       "prompt": "нежные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι τρυφεροί φίλοι",
       "wrongAnswers": ["ο τρυφερός φίλοι", "η τρυφερή φίλοι", "το τρυφερό φίλοι"]
@@ -410,7 +410,7 @@
       "id": "nouns-adjectives-people-friends-relationships-045",
       "type": "single-choice",
       "prompt": "все друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "όλοι οι φίλοι",
       "wrongAnswers": ["όλος ο φίλοι", "όλη η φίλοι", "όλες οι φίλοι"]
@@ -419,7 +419,7 @@
       "id": "nouns-adjectives-people-friends-relationships-046",
       "type": "single-choice",
       "prompt": "другие друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι άλλοι φίλοι",
       "wrongAnswers": ["ο άλλος φίλοι", "η άλλη φίλοι", "το άλλο φίλοι"]
@@ -428,7 +428,7 @@
       "id": "nouns-adjectives-people-friends-relationships-047",
       "type": "single-choice",
       "prompt": "несколько друзей",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "μερικοί φίλοι",
       "wrongAnswers": ["μερικός φίλοι", "μερική φίλοι", "μερικό φίλοι"]
@@ -437,7 +437,7 @@
       "id": "nouns-adjectives-people-friends-relationships-048",
       "type": "single-choice",
       "prompt": "новый друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο καινούριος φίλος",
       "wrongAnswers": ["οι καινούριοι φίλος", "η καινούρια φίλος", "οι καινούριες φίλος"]
@@ -446,7 +446,7 @@
       "id": "nouns-adjectives-people-friends-relationships-049",
       "type": "single-choice",
       "prompt": "иностранные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι ξένοι φίλοι",
       "wrongAnswers": ["ο ξένος φίλοι", "η ξένη φίλοι", "οι ξένες φίλοι"]
@@ -455,7 +455,7 @@
       "id": "nouns-adjectives-people-friends-relationships-050",
       "type": "single-choice",
       "prompt": "хорошая компания",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παρέα\nМножественное число: οι παρέες\n\nРод: женский",
       "correctAnswer": "η καλή παρέα",
       "wrongAnswers": ["ο καλός παρέα", "οι καλοί παρέα", "οι καλές παρέα"]
@@ -464,7 +464,7 @@
       "id": "nouns-adjectives-people-friends-relationships-051",
       "type": "single-choice",
       "prompt": "хорошие соседи по квартире",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο συγκάτοικος\nМножественное число: οι συγκάτοικοι\n\nРод: мужской",
       "correctAnswer": "οι καλοί συγκάτοικοι",
       "wrongAnswers": ["ο καλός συγκάτοικοι", "η καλή συγκάτοικοι", "οι καλές συγκάτοικοι"]
@@ -473,7 +473,7 @@
       "id": "nouns-adjectives-people-friends-relationships-052",
       "type": "single-choice",
       "prompt": "замечательный друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο καταπληκτικός φίλος",
       "wrongAnswers": ["οι καταπληκτικοί φίλος", "η καταπληκτική φίλος", "οι καταπληκτικές φίλος"]
@@ -482,7 +482,7 @@
       "id": "nouns-adjectives-people-friends-relationships-053",
       "type": "single-choice",
       "prompt": "какая угодно подруга, которая хочет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "όποια φίλη θέλει",
       "wrongAnswers": ["όποιος φίλη θέλει", "όποιο φίλη θέλει", "όποιοι φίλη θέλει"]
@@ -491,7 +491,7 @@
       "id": "nouns-adjectives-people-friends-relationships-054",
       "type": "single-choice",
       "prompt": "тёплые приёмы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υποδοχή\nМножественное число: οι υποδοχές\n\nРод: женский",
       "correctAnswer": "οι θερμές υποδοχές",
       "wrongAnswers": ["ο θερμός υποδοχές", "οι θερμοί υποδοχές", "η θερμή υποδοχές"]
@@ -500,7 +500,7 @@
       "id": "nouns-adjectives-people-friends-relationships-055",
       "type": "single-choice",
       "prompt": "хорошие подруги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "οι καλές φίλες",
       "wrongAnswers": ["ο καλός φίλες", "οι καλοί φίλες", "η καλή φίλες"]
@@ -509,7 +509,7 @@
       "id": "nouns-adjectives-people-friends-relationships-056",
       "type": "single-choice",
       "prompt": "нежный друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο τρυφερός φίλος",
       "wrongAnswers": ["η τρυφερή φίλος", "το τρυφερό φίλος", "οι τρυφεροί φίλος"]
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-people-friends-relationships-057",
       "type": "single-choice",
       "prompt": "хорошие друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι καλοί φίλοι",
       "wrongAnswers": ["ο καλός φίλοι", "η καλή φίλοι", "οι καλές φίλοι"]
@@ -527,7 +527,7 @@
       "id": "nouns-adjectives-people-friends-relationships-058",
       "type": "single-choice",
       "prompt": "некоторые подруги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "κάποιες φίλες",
       "wrongAnswers": ["κάποιος φίλες", "κάποια φίλες", "κάποιο φίλες"]
@@ -536,7 +536,7 @@
       "id": "nouns-adjectives-people-friends-relationships-059",
       "type": "single-choice",
       "prompt": "хорошие соседи по квартире",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συγκάτοικος\nМножественное число: οι συγκάτοικοι\n\nРод: женский",
       "correctAnswer": "οι καλές συγκάτοικοι",
       "wrongAnswers": ["ο καλός συγκάτοικοι", "οι καλοί συγκάτοικοι", "η καλή συγκάτοικοι"]
@@ -545,7 +545,7 @@
       "id": "nouns-adjectives-people-friends-relationships-060",
       "type": "single-choice",
       "prompt": "хороший сосед",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
       "correctAnswer": "ο καλός γείτονας",
       "wrongAnswers": ["οι καλοί γείτονας", "η καλή γείτονας", "οι καλές γείτονας"]
@@ -554,7 +554,7 @@
       "id": "nouns-adjectives-people-friends-relationships-061",
       "type": "single-choice",
       "prompt": "какие бы подруги ни хотели",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "όποιες φίλες θέλουν",
       "wrongAnswers": ["όποιος φίλες θέλουν", "όποια φίλες θέλουν", "όποιο φίλες θέλουν"]
@@ -563,7 +563,7 @@
       "id": "nouns-adjectives-people-friends-relationships-062",
       "type": "single-choice",
       "prompt": "хорошие знакомства",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γνωριμία\nМножественное число: οι γνωριμίες\n\nРод: женский",
       "correctAnswer": "οι καλές γνωριμίες",
       "wrongAnswers": ["ο καλός γνωριμίες", "οι καλοί γνωριμίες", "η καλή γνωριμίες"]
@@ -572,7 +572,7 @@
       "id": "nouns-adjectives-people-friends-relationships-063",
       "type": "single-choice",
       "prompt": "новый друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο νέος φίλος",
       "wrongAnswers": ["οι νέοι φίλος", "η νέα φίλος", "οι νέες φίλος"]
@@ -581,7 +581,7 @@
       "id": "nouns-adjectives-people-friends-relationships-064",
       "type": "single-choice",
       "prompt": "друзья детства",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι παιδικοί φίλοι",
       "wrongAnswers": ["ο παιδικός φίλοι", "η παιδική φίλοι", "οι παιδικές φίλοι"]
@@ -590,7 +590,7 @@
       "id": "nouns-adjectives-people-friends-relationships-065",
       "type": "single-choice",
       "prompt": "любимый визит",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η επίσκεψη\nМножественное число: οι επισκέψεις\n\nРод: женский",
       "correctAnswer": "η αγαπημένη επίσκεψη",
       "wrongAnswers": ["ο αγαπημένος επίσκεψη", "το αγαπημένο επίσκεψη", "οι αγαπημένοι επίσκεψη"]
@@ -599,7 +599,7 @@
       "id": "nouns-adjectives-people-friends-relationships-066",
       "type": "single-choice",
       "prompt": "один друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ένας φίλος",
       "wrongAnswers": ["μία φίλος", "ένα φίλος", "ένας φίλοι"]
@@ -608,7 +608,7 @@
       "id": "nouns-adjectives-people-friends-relationships-067",
       "type": "single-choice",
       "prompt": "хорошая подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "η καλή φίλη",
       "wrongAnswers": ["ο καλός φίλη", "οι καλοί φίλη", "οι καλές φίλη"]
@@ -617,7 +617,7 @@
       "id": "nouns-adjectives-people-friends-relationships-068",
       "type": "single-choice",
       "prompt": "сосед рядом",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
       "correctAnswer": "ο διπλανός γείτονας",
       "wrongAnswers": ["οι διπλανοί γείτονας", "η διπλανή γείτονας", "οι διπλανές γείτονας"]
@@ -626,7 +626,7 @@
       "id": "nouns-adjectives-people-friends-relationships-069",
       "type": "single-choice",
       "prompt": "хороший сосед по комнате",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο συγκάτοικος\nМножественное число: οι συγκάτοικοι\n\nРод: мужской",
       "correctAnswer": "ο καλός συγκάτοικος",
       "wrongAnswers": ["οι καλοί συγκάτοικος", "η καλή συγκάτοικος", "οι καλές συγκάτοικος"]
@@ -635,7 +635,7 @@
       "id": "nouns-adjectives-people-friends-relationships-070",
       "type": "single-choice",
       "prompt": "этот друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "αυτός ο φίλος",
       "wrongAnswers": ["αυτή η φίλος", "αυτό το φίλος", "αυτοί οι φίλος"]
@@ -644,7 +644,7 @@
       "id": "nouns-adjectives-people-friends-relationships-071",
       "type": "single-choice",
       "prompt": "особый друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο ιδιαίτερος φίλος",
       "wrongAnswers": ["οι ιδιαίτεροι φίλος", "η ιδιαίτερη φίλος", "οι ιδιαίτερες φίλος"]
@@ -653,7 +653,7 @@
       "id": "nouns-adjectives-people-friends-relationships-072",
       "type": "single-choice",
       "prompt": "потрясающие друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι καταπληκτικοί φίλοι",
       "wrongAnswers": ["ο καταπληκτικός φίλοι", "η καταπληκτική φίλοι", "οι καταπληκτικές φίλοι"]
@@ -662,7 +662,7 @@
       "id": "nouns-adjectives-people-friends-relationships-073",
       "type": "single-choice",
       "prompt": "человеческие отношения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σχέση\nМножественное число: οι σχέσεις\n\nРод: женский",
       "correctAnswer": "οι ανθρώπινες σχέσεις",
       "wrongAnswers": ["ο ανθρώπινος σχέσεις", "οι ανθρώπινοι σχέσεις", "η ανθρώπινη σχέσεις"]
@@ -671,7 +671,7 @@
       "id": "nouns-adjectives-people-friends-relationships-074",
       "type": "single-choice",
       "prompt": "другие подруги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "οι άλλες φίλες",
       "wrongAnswers": ["ο άλλος φίλες", "η άλλη φίλες", "το άλλο φίλες"]
@@ -680,7 +680,7 @@
       "id": "nouns-adjectives-people-friends-relationships-075",
       "type": "single-choice",
       "prompt": "любимые подруги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "οι αγαπημένες φίλες",
       "wrongAnswers": ["ο αγαπημένος φίλες", "η αγαπημένη φίλες", "το αγαπημένο φίλες"]
@@ -689,7 +689,7 @@
       "id": "nouns-adjectives-people-friends-relationships-076",
       "type": "single-choice",
       "prompt": "дружелюбные соседки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γειτόνισσα\nМножественное число: οι γειτόνισσες\n\nРод: женский",
       "correctAnswer": "οι φιλικές γειτόνισσες",
       "wrongAnswers": ["ο φιλικός γειτόνισσες", "οι φιλικοί γειτόνισσες", "η φιλική γειτόνισσες"]
@@ -698,7 +698,7 @@
       "id": "nouns-adjectives-people-friends-relationships-077",
       "type": "single-choice",
       "prompt": "единственный друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο μοναδικός φίλος",
       "wrongAnswers": ["οι μοναδικοί φίλος", "η μοναδική φίλος", "οι μοναδικές φίλος"]
@@ -707,7 +707,7 @@
       "id": "nouns-adjectives-people-friends-relationships-078",
       "type": "single-choice",
       "prompt": "смешной друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο αστείος φίλος",
       "wrongAnswers": ["οι αστείοι φίλος", "η αστεία φίλος", "οι αστείες φίλος"]
@@ -716,7 +716,7 @@
       "id": "nouns-adjectives-people-friends-relationships-079",
       "type": "single-choice",
       "prompt": "хорошее сотрудничество",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συνεργασία\nМножественное число: οι συνεργασίες\n\nРод: женский",
       "correctAnswer": "η καλή συνεργασία",
       "wrongAnswers": ["ο καλός συνεργασία", "οι καλοί συνεργασία", "οι καλές συνεργασία"]
@@ -725,7 +725,7 @@
       "id": "nouns-adjectives-people-friends-relationships-080",
       "type": "single-choice",
       "prompt": "любимые друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι αγαπημένοι φίλοι",
       "wrongAnswers": ["ο αγαπημένος φίλοι", "η αγαπημένη φίλοι", "το αγαπημένο φίλοι"]
@@ -734,7 +734,7 @@
       "id": "nouns-adjectives-people-friends-relationships-081",
       "type": "single-choice",
       "prompt": "старый друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο παλιός φίλος",
       "wrongAnswers": ["οι παλιοί φίλος", "η παλιά φίλος", "οι παλιές φίλος"]
@@ -743,7 +743,7 @@
       "id": "nouns-adjectives-people-friends-relationships-082",
       "type": "single-choice",
       "prompt": "единственные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι μοναδικοί φίλοι",
       "wrongAnswers": ["ο μοναδικός φίλοι", "η μοναδική φίλοι", "οι μοναδικές φίλοι"]
@@ -752,7 +752,7 @@
       "id": "nouns-adjectives-people-friends-relationships-083",
       "type": "single-choice",
       "prompt": "красивые пары",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ζευγάρι\nМножественное число: τα ζευγάρια\n\nРод: средний",
       "correctAnswer": "τα ωραία ζευγάρια",
       "wrongAnswers": ["ο ωραίος ζευγάρια", "οι ωραίοι ζευγάρια", "οι ωραίες ζευγάρια"]
@@ -761,7 +761,7 @@
       "id": "nouns-adjectives-people-friends-relationships-084",
       "type": "single-choice",
       "prompt": "любой друг, который хочет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "όποιος φίλος θέλει",
       "wrongAnswers": ["όποια φίλος θέλει", "όποιο φίλος θέλει", "όποιοι φίλος θέλει"]
@@ -770,7 +770,7 @@
       "id": "nouns-adjectives-people-friends-relationships-085",
       "type": "single-choice",
       "prompt": "эти друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "αυτοί οι φίλοι",
       "wrongAnswers": ["αυτός ο φίλοι", "αυτή η φίλοι", "αυτό το φίλοι"]
@@ -779,7 +779,7 @@
       "id": "nouns-adjectives-people-friends-relationships-086",
       "type": "single-choice",
       "prompt": "нежные поцелуи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φιλί\nМножественное число: τα φιλιά\n\nРод: средний",
       "correctAnswer": "τα τρυφερά φιλιά",
       "wrongAnswers": ["ο τρυφερός φιλιά", "η τρυφερή φιλιά", "το τρυφερό φιλιά"]
@@ -788,7 +788,7 @@
       "id": "nouns-adjectives-people-friends-relationships-087",
       "type": "single-choice",
       "prompt": "эта подруга",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
       "correctAnswer": "αυτή η φίλη",
       "wrongAnswers": ["αυτός ο φίλη", "αυτό το φίλη", "αυτοί οι φίλη"]
@@ -797,7 +797,7 @@
       "id": "nouns-adjectives-people-friends-relationships-088",
       "type": "single-choice",
       "prompt": "хорошие встречи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η συνάντηση\nМножественное число: οι συναντήσεις\n\nРод: женский",
       "correctAnswer": "οι καλές συναντήσεις",
       "wrongAnswers": ["ο καλός συναντήσεις", "οι καλοί συναντήσεις", "η καλή συναντήσεις"]
@@ -806,7 +806,7 @@
       "id": "nouns-adjectives-people-friends-relationships-089",
       "type": "single-choice",
       "prompt": "радостные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι χαρούμενοι φίλοι",
       "wrongAnswers": ["ο χαρούμενος φίλοι", "η χαρούμενη φίλοι", "το χαρούμενο φίλοι"]
@@ -815,7 +815,7 @@
       "id": "nouns-adjectives-people-friends-relationships-090",
       "type": "single-choice",
       "prompt": "мой друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο δικός μου φίλος",
       "wrongAnswers": ["η δική μου φίλος", "το δικό μου φίλος", "οι δικοί μου φίλος"]
@@ -824,7 +824,7 @@
       "id": "nouns-adjectives-people-friends-relationships-091",
       "type": "single-choice",
       "prompt": "тесные отношения",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σχέση\nМножественное число: οι σχέσεις\n\nРод: женский",
       "correctAnswer": "οι στενές σχέσεις",
       "wrongAnswers": ["ο στενός σχέσεις", "οι στενοί σχέσεις", "η στενή σχέσεις"]
@@ -833,7 +833,7 @@
       "id": "nouns-adjectives-people-friends-relationships-092",
       "type": "single-choice",
       "prompt": "особенные друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι ιδιαίτεροι φίλοι",
       "wrongAnswers": ["ο ιδιαίτερος φίλοι", "η ιδιαίτερη φίλοι", "οι ιδιαίτερες φίλοι"]
@@ -842,7 +842,7 @@
       "id": "nouns-adjectives-people-friends-relationships-093",
       "type": "single-choice",
       "prompt": "симпатичные соседи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
       "correctAnswer": "οι συμπαθητικοί γείτονες",
       "wrongAnswers": [

@@ -71,6 +71,7 @@ export default function TopicListScreen({
               className="card-button"
               type="button"
               onClick={() => onOpenTopic(topic.id)}
+              disabled={topic.disabled}
               key={topic.id}
             >
               <div className="card-button__text">

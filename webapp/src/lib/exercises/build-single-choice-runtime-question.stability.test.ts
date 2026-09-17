@@ -6,7 +6,7 @@ const exercise: SingleChoiceExercise = {
   id: "choice-1",
   type: "single-choice",
   prompt: "Γεια",
-  promptLanguage: "el",
+  speechTarget: "prompt",
   correctAnswer: "Привет",
   wrongAnswers: ["Пока", "Спасибо", "Извините"],
 };

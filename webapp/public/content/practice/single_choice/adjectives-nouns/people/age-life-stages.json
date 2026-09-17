@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-people-age-life-stages-001",
       "type": "single-choice",
       "prompt": "уставший старик",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γέρος\nМножественное число: οι γέροι\n\nРод: мужской",
       "correctAnswer": "ο κουρασμένος γέρος",
       "wrongAnswers": ["η κουρασμένη γέρος", "το κουρασμένο γέρος", "οι κουρασμένοι γέρος"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-people-age-life-stages-002",
       "type": "single-choice",
       "prompt": "молодые англичанки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αγγλίδα\nМножественное число: οι Αγγλίδες\n\nРод: женский",
       "correctAnswer": "οι νέες Αγγλίδες",
       "wrongAnswers": ["ο νέος Αγγλίδες", "τα νέα Αγγλίδες", "το νέο Αγγλίδες"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-people-age-life-stages-003",
       "type": "single-choice",
       "prompt": "молодые женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "οι νεαρές γυναίκες",
       "wrongAnswers": ["ο νεαρός γυναίκες", "η νεαρή γυναίκες", "το νεαρό γυναίκες"]
@@ -33,7 +33,7 @@
       "id": "nouns-adjectives-people-age-life-stages-004",
       "type": "single-choice",
       "prompt": "дружелюбный ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το φιλικό παιδί",
       "wrongAnswers": ["ο φιλικός παιδί", "η φιλική παιδί", "οι φιλικοί παιδί"]
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-people-age-life-stages-005",
       "type": "single-choice",
       "prompt": "уставший ученик",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
       "correctAnswer": "ο κουρασμένος μαθητής",
       "wrongAnswers": ["η κουρασμένη μαθητής", "το κουρασμένο μαθητής", "οι κουρασμένοι μαθητής"]
@@ -51,7 +51,7 @@
       "id": "nouns-adjectives-people-age-life-stages-006",
       "type": "single-choice",
       "prompt": "молодой бразилец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Βραζιλιάνος\nМножественное число: οι Βραζιλιάνοι\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Βραζιλιάνος",
       "wrongAnswers": ["η νεαρή Βραζιλιάνος", "το νεαρό Βραζιλιάνος", "οι νεαροί Βραζιλιάνος"]
@@ -60,7 +60,7 @@
       "id": "nouns-adjectives-people-age-life-stages-007",
       "type": "single-choice",
       "prompt": "уставшие дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα κουρασμένα παιδιά",
       "wrongAnswers": ["ο κουρασμένος παιδιά", "η κουρασμένη παιδιά", "το κουρασμένο παιδιά"]
@@ -69,7 +69,7 @@
       "id": "nouns-adjectives-people-age-life-stages-008",
       "type": "single-choice",
       "prompt": "молодые подростки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο έφηβος\nМножественное число: οι έφηβοι\n\nРод: мужской",
       "correctAnswer": "οι νεαροί έφηβοι",
       "wrongAnswers": ["ο νεαρός έφηβοι", "η νεαρή έφηβοι", "το νεαρό έφηβοι"]
@@ -78,7 +78,7 @@
       "id": "nouns-adjectives-people-age-life-stages-009",
       "type": "single-choice",
       "prompt": "молодая немка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Γερμανίδα\nМножественное число: οι Γερμανίδες\n\nРод: женский",
       "correctAnswer": "η νεαρή Γερμανίδα",
       "wrongAnswers": ["ο νεαρός Γερμανίδα", "το νεαρό Γερμανίδα", "οι νεαροί Γερμανίδα"]
@@ -87,7 +87,7 @@
       "id": "nouns-adjectives-people-age-life-stages-010",
       "type": "single-choice",
       "prompt": "молодые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα νεαρά παιδιά",
       "wrongAnswers": ["ο νεαρός παιδιά", "η νεαρή παιδιά", "το νεαρό παιδιά"]
@@ -96,7 +96,7 @@
       "id": "nouns-adjectives-people-age-life-stages-011",
       "type": "single-choice",
       "prompt": "молодой кореец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Κορεάτης\nМножественное число: οι Κορεάτες\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Κορεάτης",
       "wrongAnswers": ["η νεαρή Κορεάτης", "το νεαρό Κορεάτης", "οι νεαροί Κορεάτης"]
@@ -105,7 +105,7 @@
       "id": "nouns-adjectives-people-age-life-stages-012",
       "type": "single-choice",
       "prompt": "молодые кореянки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Κορεάτισσα\nМножественное число: οι Κορεάτισσες\n\nРод: женский",
       "correctAnswer": "οι νέες Κορεάτισσες",
       "wrongAnswers": ["ο νέος Κορεάτισσες", "τα νέα Κορεάτισσες", "το νέο Κορεάτισσες"]
@@ -114,7 +114,7 @@
       "id": "nouns-adjectives-people-age-life-stages-013",
       "type": "single-choice",
       "prompt": "молодой подросток",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο έφηβος\nМножественное число: οι έφηβοι\n\nРод: мужской",
       "correctAnswer": "ο νεαρός έφηβος",
       "wrongAnswers": ["η νεαρή έφηβος", "το νεαρό έφηβος", "οι νεαροί έφηβος"]
@@ -123,7 +123,7 @@
       "id": "nouns-adjectives-people-age-life-stages-014",
       "type": "single-choice",
       "prompt": "бойкие дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ζωηρά παιδιά",
       "wrongAnswers": ["ο ζωηρός παιδιά", "η ζωηρή παιδιά", "το ζωηρό παιδιά"]
@@ -132,7 +132,7 @@
       "id": "nouns-adjectives-people-age-life-stages-015",
       "type": "single-choice",
       "prompt": "лучший ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το καλύτερο παιδί",
       "wrongAnswers": ["ο καλύτερος παιδί", "η καλύτερη παιδί", "οι καλύτεροι παιδί"]
@@ -141,7 +141,7 @@
       "id": "nouns-adjectives-people-age-life-stages-016",
       "type": "single-choice",
       "prompt": "маленький младенец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μωρό\nМножественное число: τα μωρά\n\nРод: средний",
       "correctAnswer": "το μικρό μωρό",
       "wrongAnswers": ["ο μικρός μωρό", "η μικρή μωρό", "οι μικροί μωρό"]
@@ -150,7 +150,7 @@
       "id": "nouns-adjectives-people-age-life-stages-017",
       "type": "single-choice",
       "prompt": "молодая финка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Φινλανδή\nМножественное число: οι Φινλανδές\n\nРод: женский",
       "correctAnswer": "η νεαρή Φινλανδή",
       "wrongAnswers": ["ο νεαρός Φινλανδή", "το νεαρό Φινλανδή", "οι νεαροί Φινλανδή"]
@@ -159,7 +159,7 @@
       "id": "nouns-adjectives-people-age-life-stages-018",
       "type": "single-choice",
       "prompt": "лучшие дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα καλύτερα παιδιά",
       "wrongAnswers": ["ο καλύτερος παιδιά", "η καλύτερη παιδιά", "το καλύτερο παιδιά"]
@@ -168,7 +168,7 @@
       "id": "nouns-adjectives-people-age-life-stages-019",
       "type": "single-choice",
       "prompt": "симпатичные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα συμπαθητικά παιδιά",
       "wrongAnswers": ["ο συμπαθητικός παιδιά", "η συμπαθητική παιδιά", "το συμπαθητικό παιδιά"]
@@ -177,7 +177,7 @@
       "id": "nouns-adjectives-people-age-life-stages-020",
       "type": "single-choice",
       "prompt": "этот ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "αυτό το παιδί",
       "wrongAnswers": ["αυτός ο παιδί", "αυτή η παιδί", "αυτοί οι παιδί"]
@@ -186,7 +186,7 @@
       "id": "nouns-adjectives-people-age-life-stages-021",
       "type": "single-choice",
       "prompt": "вежливый ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ευγενικό παιδί",
       "wrongAnswers": ["ο ευγενικός παιδί", "η ευγενική παιδί", "οι ευγενικοί παιδί"]
@@ -195,7 +195,7 @@
       "id": "nouns-adjectives-people-age-life-stages-022",
       "type": "single-choice",
       "prompt": "маленькие начальники",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αφεντικό\nМножественное число: τα αφεντικά\n\nРод: средний",
       "correctAnswer": "τα μικρά αφεντικά",
       "wrongAnswers": ["ο μικρός αφεντικά", "η μικρή αφεντικά", "το μικρό αφεντικά"]
@@ -204,7 +204,7 @@
       "id": "nouns-adjectives-people-age-life-stages-023",
       "type": "single-choice",
       "prompt": "счастливые замужние женщины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παντρεμένη\nМножественное число: οι παντρεμένες\n\nРод: женский",
       "correctAnswer": "οι ευτυχισμένες παντρεμένες",
       "wrongAnswers": [
@@ -217,7 +217,7 @@
       "id": "nouns-adjectives-people-age-life-stages-024",
       "type": "single-choice",
       "prompt": "серьёзные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα σοβαρά παιδιά",
       "wrongAnswers": ["ο σοβαρός παιδιά", "η σοβαρή παιδιά", "το σοβαρό παιδιά"]
@@ -226,7 +226,7 @@
       "id": "nouns-adjectives-people-age-life-stages-025",
       "type": "single-choice",
       "prompt": "несколько детей",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "μερικά παιδιά",
       "wrongAnswers": ["μερικός παιδιά", "μερική παιδιά", "μερικό παιδιά"]
@@ -235,7 +235,7 @@
       "id": "nouns-adjectives-people-age-life-stages-026",
       "type": "single-choice",
       "prompt": "святые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα άγια παιδιά",
       "wrongAnswers": ["ο άγιος παιδιά", "η αγία παιδιά", "το άγιο παιδιά"]
@@ -244,7 +244,7 @@
       "id": "nouns-adjectives-people-age-life-stages-027",
       "type": "single-choice",
       "prompt": "молодые кандидатки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υποψήφια\nМножественное число: οι υποψήφιες\n\nРод: женский",
       "correctAnswer": "οι νεαρές υποψήφιες",
       "wrongAnswers": ["ο νεαρός υποψήφιες", "η νεαρή υποψήφιες", "το νεαρό υποψήφιες"]
@@ -253,7 +253,7 @@
       "id": "nouns-adjectives-people-age-life-stages-028",
       "type": "single-choice",
       "prompt": "молодая австралийка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αυστραλή\nМножественное число: οι Αυστραλές\n\nРод: женский",
       "correctAnswer": "η νεαρή Αυστραλή",
       "wrongAnswers": ["ο νεαρός Αυστραλή", "το νεαρό Αυστραλή", "οι νεαροί Αυστραλή"]
@@ -262,7 +262,7 @@
       "id": "nouns-adjectives-people-age-life-stages-029",
       "type": "single-choice",
       "prompt": "маленький ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το μικρό παιδί",
       "wrongAnswers": ["ο μικρός παιδί", "η μικρή παιδί", "οι μικροί παιδί"]
@@ -271,7 +271,7 @@
       "id": "nouns-adjectives-people-age-life-stages-030",
       "type": "single-choice",
       "prompt": "одни и те же дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα ίδια παιδιά",
       "wrongAnswers": ["ο ίδιος παιδιά", "το ίδιο παιδιά", "οι ίδιοι παιδιά"]
@@ -280,7 +280,7 @@
       "id": "nouns-adjectives-people-age-life-stages-031",
       "type": "single-choice",
       "prompt": "молодая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η νεαρή γυναίκα",
       "wrongAnswers": ["ο νεαρός γυναίκα", "το νεαρό γυναίκα", "οι νεαροί γυναίκα"]
@@ -289,7 +289,7 @@
       "id": "nouns-adjectives-people-age-life-stages-032",
       "type": "single-choice",
       "prompt": "крепкие дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα γερά παιδιά",
       "wrongAnswers": ["ο γερός παιδιά", "η γερή παιδιά", "το γερό παιδιά"]
@@ -298,7 +298,7 @@
       "id": "nouns-adjectives-people-age-life-stages-033",
       "type": "single-choice",
       "prompt": "юные португалки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Πορτογαλίδα\nМножественное число: οι Πορτογαλίδες\n\nРод: женский",
       "correctAnswer": "οι νεαρές Πορτογαλίδες",
       "wrongAnswers": ["ο νεαρός Πορτογαλίδες", "η νεαρή Πορτογαλίδες", "το νεαρό Πορτογαλίδες"]
@@ -307,7 +307,7 @@
       "id": "nouns-adjectives-people-age-life-stages-034",
       "type": "single-choice",
       "prompt": "юный швед",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Σουηδός\nМножественное число: οι Σουηδοί\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Σουηδός",
       "wrongAnswers": ["η νεαρή Σουηδός", "το νεαρό Σουηδός", "οι νεαροί Σουηδός"]
@@ -316,7 +316,7 @@
       "id": "nouns-adjectives-people-age-life-stages-035",
       "type": "single-choice",
       "prompt": "расстроенные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα στεναχωρημένα παιδιά",
       "wrongAnswers": [
@@ -329,7 +329,7 @@
       "id": "nouns-adjectives-people-age-life-stages-036",
       "type": "single-choice",
       "prompt": "молодая китаянка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Κινέζα\nМножественное число: οι Κινέζες\n\nРод: женский",
       "correctAnswer": "η νέα Κινέζα",
       "wrongAnswers": ["ο νέος Κινέζα", "το νέο Κινέζα", "οι νέοι Κινέζα"]
@@ -338,7 +338,7 @@
       "id": "nouns-adjectives-people-age-life-stages-037",
       "type": "single-choice",
       "prompt": "маленькие дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα μικρά παιδιά",
       "wrongAnswers": ["ο μικρός παιδιά", "η μικρή παιδιά", "το μικρό παιδιά"]
@@ -347,7 +347,7 @@
       "id": "nouns-adjectives-people-age-life-stages-038",
       "type": "single-choice",
       "prompt": "особенный ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ιδιαίτερο παιδί",
       "wrongAnswers": ["ο ιδιαίτερος παιδί", "η ιδιαίτερη παιδί", "οι ιδιαίτεροι παιδί"]
@@ -356,7 +356,7 @@
       "id": "nouns-adjectives-people-age-life-stages-039",
       "type": "single-choice",
       "prompt": "молодая незнакомка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η άγνωστη\nМножественное число: οι άγνωστες\n\nРод: женский",
       "correctAnswer": "η νεαρή άγνωστη",
       "wrongAnswers": ["ο νεαρός άγνωστη", "το νεαρό άγνωστη", "οι νεαροί άγνωστη"]
@@ -365,7 +365,7 @@
       "id": "nouns-adjectives-people-age-life-stages-040",
       "type": "single-choice",
       "prompt": "эти дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "αυτά τα παιδιά",
       "wrongAnswers": ["αυτός ο παιδιά", "αυτή η παιδιά", "αυτό το παιδιά"]
@@ -374,7 +374,7 @@
       "id": "nouns-adjectives-people-age-life-stages-041",
       "type": "single-choice",
       "prompt": "маленькие мальчики",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αγόρι\nМножественное число: τα αγόρια\n\nРод: средний",
       "correctAnswer": "τα μικρά αγόρια",
       "wrongAnswers": ["ο μικρός αγόρια", "η μικρή αγόρια", "το μικρό αγόρια"]
@@ -383,7 +383,7 @@
       "id": "nouns-adjectives-people-age-life-stages-042",
       "type": "single-choice",
       "prompt": "маленький мальчик",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αγόρι\nМножественное число: τα αγόρια\n\nРод: средний",
       "correctAnswer": "το μικρό αγόρι",
       "wrongAnswers": ["ο μικρός αγόρι", "η μικρή αγόρι", "οι μικροί αγόρι"]
@@ -392,7 +392,7 @@
       "id": "nouns-adjectives-people-age-life-stages-043",
       "type": "single-choice",
       "prompt": "радостные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα χαρούμενα παιδιά",
       "wrongAnswers": ["ο χαρούμενος παιδιά", "η χαρούμενη παιδιά", "το χαρούμενο παιδιά"]
@@ -401,7 +401,7 @@
       "id": "nouns-adjectives-people-age-life-stages-044",
       "type": "single-choice",
       "prompt": "незнакомый ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το άγνωστο παιδί",
       "wrongAnswers": ["ο άγνωστος παιδί", "η άγνωστη παιδί", "οι άγνωστοι παιδί"]
@@ -410,7 +410,7 @@
       "id": "nouns-adjectives-people-age-life-stages-045",
       "type": "single-choice",
       "prompt": "молодые незнакомки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η άγνωστη\nМножественное число: οι άγνωστες\n\nРод: женский",
       "correctAnswer": "οι νεαρές άγνωστες",
       "wrongAnswers": ["ο νεαρός άγνωστες", "η νεαρή άγνωστες", "το νεαρό άγνωστες"]
@@ -419,7 +419,7 @@
       "id": "nouns-adjectives-people-age-life-stages-046",
       "type": "single-choice",
       "prompt": "радостный ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το χαρούμενο παιδί",
       "wrongAnswers": ["ο χαρούμενος παιδί", "η χαρούμενη παιδί", "οι χαρούμενοι παιδί"]
@@ -428,7 +428,7 @@
       "id": "nouns-adjectives-people-age-life-stages-047",
       "type": "single-choice",
       "prompt": "удачливые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα τυχερά παιδιά",
       "wrongAnswers": ["ο τυχερός παιδιά", "η τυχερή παιδιά", "το τυχερό παιδιά"]
@@ -437,7 +437,7 @@
       "id": "nouns-adjectives-people-age-life-stages-048",
       "type": "single-choice",
       "prompt": "безработные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα άνεργα παιδιά",
       "wrongAnswers": ["ο άνεργος παιδιά", "η άνεργη παιδιά", "το άνεργο παιδιά"]
@@ -446,7 +446,7 @@
       "id": "nouns-adjectives-people-age-life-stages-049",
       "type": "single-choice",
       "prompt": "тот ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "εκείνο το παιδί",
       "wrongAnswers": ["εκείνος ο παιδί", "εκείνη η παιδί", "εκείνοι οι παιδί"]
@@ -455,7 +455,7 @@
       "id": "nouns-adjectives-people-age-life-stages-050",
       "type": "single-choice",
       "prompt": "молодые японки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Γιαπωνέζα\nМножественное число: οι Γιαπωνέζες\n\nРод: женский",
       "correctAnswer": "οι νεαρές Γιαπωνέζες",
       "wrongAnswers": ["ο νεαρός Γιαπωνέζες", "η νεαρή Γιαπωνέζες", "το νεαρό Γιαπωνέζες"]
@@ -464,7 +464,7 @@
       "id": "nouns-adjectives-people-age-life-stages-051",
       "type": "single-choice",
       "prompt": "молодой мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο νεαρός άντρας",
       "wrongAnswers": ["η νεαρή άντρας", "το νεαρό άντρας", "οι νεαροί άντρας"]
@@ -473,7 +473,7 @@
       "id": "nouns-adjectives-people-age-life-stages-052",
       "type": "single-choice",
       "prompt": "светловолосый ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ξανθό παιδί",
       "wrongAnswers": ["ο ξανθός παιδί", "η ξανθή παιδί", "οι ξανθοί παιδί"]
@@ -482,7 +482,7 @@
       "id": "nouns-adjectives-people-age-life-stages-053",
       "type": "single-choice",
       "prompt": "молодые египтянки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αιγύπτια\nМножественное число: οι Αιγύπτιες\n\nРод: женский",
       "correctAnswer": "οι νεαρές Αιγύπτιες",
       "wrongAnswers": ["ο νεαρός Αιγύπτιες", "η νεαρή Αιγύπτιες", "το νεαρό Αιγύπτιες"]
@@ -491,7 +491,7 @@
       "id": "nouns-adjectives-people-age-life-stages-054",
       "type": "single-choice",
       "prompt": "молодые китайцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Κινέζος\nМножественное число: οι Κινέζοι\n\nРод: мужской",
       "correctAnswer": "οι νέοι Κινέζοι",
       "wrongAnswers": ["ο νέος Κινέζοι", "τα νέα Κινέζοι", "το νέο Κινέζοι"]
@@ -500,7 +500,7 @@
       "id": "nouns-adjectives-people-age-life-stages-055",
       "type": "single-choice",
       "prompt": "неизвестные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα άγνωστα παιδιά",
       "wrongAnswers": ["ο άγνωστος παιδιά", "η άγνωστη παιδιά", "το άγνωστο παιδιά"]
@@ -509,7 +509,7 @@
       "id": "nouns-adjectives-people-age-life-stages-056",
       "type": "single-choice",
       "prompt": "один ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "ένα παιδί",
       "wrongAnswers": ["ένας παιδί", "μία παιδί", "ένα παιδιά"]
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-people-age-life-stages-057",
       "type": "single-choice",
       "prompt": "юная девушка-подросток",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η έφηβη\nМножественное число: οι έφηβες\n\nРод: женский",
       "correctAnswer": "η νεαρή έφηβη",
       "wrongAnswers": ["ο νεαρός έφηβη", "το νεαρό έφηβη", "οι νεαροί έφηβη"]
@@ -527,7 +527,7 @@
       "id": "nouns-adjectives-people-age-life-stages-058",
       "type": "single-choice",
       "prompt": "любимые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα αγαπημένα παιδιά",
       "wrongAnswers": ["ο αγαπημένος παιδιά", "η αγαπημένη παιδιά", "το αγαπημένο παιδιά"]
@@ -536,7 +536,7 @@
       "id": "nouns-adjectives-people-age-life-stages-059",
       "type": "single-choice",
       "prompt": "серьезный ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το σοβαρό παιδί",
       "wrongAnswers": ["ο σοβαρός παιδί", "η σοβαρή παιδί", "οι σοβαροί παιδί"]
@@ -545,7 +545,7 @@
       "id": "nouns-adjectives-people-age-life-stages-060",
       "type": "single-choice",
       "prompt": "молодые египтяне",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αιγύπτιος\nМножественное число: οι Αιγύπτιοι\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Αιγύπτιοι",
       "wrongAnswers": ["ο νεαρός Αιγύπτιοι", "η νεαρή Αιγύπτιοι", "το νεαρό Αιγύπτιοι"]
@@ -554,7 +554,7 @@
       "id": "nouns-adjectives-people-age-life-stages-061",
       "type": "single-choice",
       "prompt": "молодая кореянка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Κορεάτισσα\nМножественное число: οι Κορεάτισσες\n\nРод: женский",
       "correctAnswer": "η νέα Κορεάτισσα",
       "wrongAnswers": ["ο νέος Κορεάτισσα", "το νέο Κορεάτισσα", "οι νέοι Κορεάτισσα"]
@@ -563,7 +563,7 @@
       "id": "nouns-adjectives-people-age-life-stages-062",
       "type": "single-choice",
       "prompt": "юные девушки-подростки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η έφηβη\nМножественное число: οι έφηβες\n\nРод: женский",
       "correctAnswer": "οι νεαρές έφηβες",
       "wrongAnswers": ["ο νεαρός έφηβες", "η νεαρή έφηβες", "το νεαρό έφηβες"]
@@ -572,7 +572,7 @@
       "id": "nouns-adjectives-people-age-life-stages-063",
       "type": "single-choice",
       "prompt": "те дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "εκείνα τα παιδιά",
       "wrongAnswers": ["εκείνος ο παιδιά", "εκείνη η παιδιά", "εκείνο το παιδιά"]
@@ -581,7 +581,7 @@
       "id": "nouns-adjectives-people-age-life-stages-064",
       "type": "single-choice",
       "prompt": "радостная пожилая женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ηλικιωμένη\nМножественное число: οι ηλικιωμένες\n\nРод: женский",
       "correctAnswer": "η χαρούμενη ηλικιωμένη",
       "wrongAnswers": [
@@ -594,7 +594,7 @@
       "id": "nouns-adjectives-people-age-life-stages-065",
       "type": "single-choice",
       "prompt": "усталые старики",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο γέρος\nМножественное число: οι γέροι\n\nРод: мужской",
       "correctAnswer": "οι κουρασμένοι γέροι",
       "wrongAnswers": ["ο κουρασμένος γέροι", "η κουρασμένη γέροι", "το κουρασμένο γέροι"]
@@ -603,7 +603,7 @@
       "id": "nouns-adjectives-people-age-life-stages-066",
       "type": "single-choice",
       "prompt": "молодая албанка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αλβανίδα\nМножественное число: οι Αλβανίδες\n\nРод: женский",
       "correctAnswer": "η νεαρή Αλβανίδα",
       "wrongAnswers": ["ο νεαρός Αλβανίδα", "το νεαρό Αλβανίδα", "οι νεαροί Αλβανίδα"]
@@ -612,7 +612,7 @@
       "id": "nouns-adjectives-people-age-life-stages-067",
       "type": "single-choice",
       "prompt": "здоровый ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το γερό παιδί",
       "wrongAnswers": ["ο γερός παιδί", "η γερή παιδί", "οι γεροί παιδί"]
@@ -621,7 +621,7 @@
       "id": "nouns-adjectives-people-age-life-stages-068",
       "type": "single-choice",
       "prompt": "красивая девушка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η κοπέλα\nМножественное число: οι κοπέλες\n\nРод: женский",
       "correctAnswer": "η όμορφη κοπέλα",
       "wrongAnswers": ["ο όμορφος κοπέλα", "το όμορφο κοπέλα", "οι όμορφοι κοπέλα"]
@@ -630,7 +630,7 @@
       "id": "nouns-adjectives-people-age-life-stages-069",
       "type": "single-choice",
       "prompt": "какой-то ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "κάποιο παιδί",
       "wrongAnswers": ["κάποιος παιδί", "κάποια παιδί", "κάποιοι παιδί"]
@@ -639,7 +639,7 @@
       "id": "nouns-adjectives-people-age-life-stages-070",
       "type": "single-choice",
       "prompt": "дорогие выпускницы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η απόφοιτη\nМножественное число: οι απόφοιτες\n\nРод: женский",
       "correctAnswer": "οι αγαπητές απόφοιτες",
       "wrongAnswers": ["ο αγαπητός απόφοιτες", "η αγαπητή απόφοιτες", "το αγαπητό απόφοιτες"]
@@ -648,7 +648,7 @@
       "id": "nouns-adjectives-people-age-life-stages-071",
       "type": "single-choice",
       "prompt": "маленькая девочка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κορίτσι\nМножественное число: τα κορίτσια\n\nРод: средний",
       "correctAnswer": "το μικρό κορίτσι",
       "wrongAnswers": ["ο μικρός κορίτσι", "η μικρή κορίτσι", "οι μικροί κορίτσι"]
@@ -657,7 +657,7 @@
       "id": "nouns-adjectives-people-age-life-stages-072",
       "type": "single-choice",
       "prompt": "слабые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα αδύνατα παιδιά",
       "wrongAnswers": ["ο αδύνατος παιδιά", "η αδύνατη παιδιά", "το αδύνατο παιδιά"]
@@ -666,7 +666,7 @@
       "id": "nouns-adjectives-people-age-life-stages-073",
       "type": "single-choice",
       "prompt": "радостный пожилой мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο ηλικιωμένος\nМножественное число: οι ηλικιωμένοι\n\nРод: мужской",
       "correctAnswer": "ο χαρούμενος ηλικιωμένος",
       "wrongAnswers": [
@@ -679,7 +679,7 @@
       "id": "nouns-adjectives-people-age-life-stages-074",
       "type": "single-choice",
       "prompt": "любые дети, которые захотят",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "όποια παιδιά θέλουν",
       "wrongAnswers": ["όποιος παιδιά θέλουν", "όποιο παιδιά θέλουν", "όποιοι παιδιά θέλουν"]
@@ -688,7 +688,7 @@
       "id": "nouns-adjectives-people-age-life-stages-075",
       "type": "single-choice",
       "prompt": "каждая из учениц",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
       "correctAnswer": "καθεμία από τις μαθήτριες",
       "wrongAnswers": [
@@ -701,7 +701,7 @@
       "id": "nouns-adjectives-people-age-life-stages-076",
       "type": "single-choice",
       "prompt": "маленький начальник",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αφεντικό\nМножественное число: τα αφεντικά\n\nРод: средний",
       "correctAnswer": "το μικρό αφεντικό",
       "wrongAnswers": ["ο μικρός αφεντικό", "η μικρή αφεντικό", "οι μικροί αφεντικό"]
@@ -710,7 +710,7 @@
       "id": "nouns-adjectives-people-age-life-stages-077",
       "type": "single-choice",
       "prompt": "молодой ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το νεαρό παιδί",
       "wrongAnswers": ["ο νεαρός παιδί", "η νεαρή παιδί", "οι νεαροί παιδί"]
@@ -719,7 +719,7 @@
       "id": "nouns-adjectives-people-age-life-stages-078",
       "type": "single-choice",
       "prompt": "молодые мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι νεαροί άντρες",
       "wrongAnswers": ["ο νεαρός άντρες", "η νεαρή άντρες", "το νεαρό άντρες"]
@@ -728,7 +728,7 @@
       "id": "nouns-adjectives-people-age-life-stages-079",
       "type": "single-choice",
       "prompt": "молодая кандидатка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η υποψήφια\nМножественное число: οι υποψήφιες\n\nРод: женский",
       "correctAnswer": "η νεαρή υποψήφια",
       "wrongAnswers": ["ο νεαρός υποψήφια", "το νεαρό υποψήφια", "οι νεαροί υποψήφια"]
@@ -737,7 +737,7 @@
       "id": "nouns-adjectives-people-age-life-stages-080",
       "type": "single-choice",
       "prompt": "маленькие младенцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μωρό\nМножественное число: τα μωρά\n\nРод: средний",
       "correctAnswer": "τα μικρά μωρά",
       "wrongAnswers": ["ο μικρός μωρά", "η μικρή μωρά", "το μικρό μωρά"]
@@ -746,7 +746,7 @@
       "id": "nouns-adjectives-people-age-life-stages-081",
       "type": "single-choice",
       "prompt": "молодые незнакомцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άγνωστος\nМножественное число: οι άγνωστοι\n\nРод: мужской",
       "correctAnswer": "οι νεαροί άγνωστοι",
       "wrongAnswers": ["ο νεαρός άγνωστοι", "η νεαρή άγνωστοι", "το νεαρό άγνωστοι"]
@@ -755,7 +755,7 @@
       "id": "nouns-adjectives-people-age-life-stages-082",
       "type": "single-choice",
       "prompt": "нежный ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το τρυφερό παιδί",
       "wrongAnswers": ["ο τρυφερός παιδί", "η τρυφερή παιδί", "οι τρυφεροί παιδί"]
@@ -764,7 +764,7 @@
       "id": "nouns-adjectives-people-age-life-stages-083",
       "type": "single-choice",
       "prompt": "молодой англичанин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Άγγλος\nМножественное число: οι Άγγλοι\n\nРод: мужской",
       "correctAnswer": "ο νέος Άγγλος",
       "wrongAnswers": ["η νέα Άγγλος", "το νέο Άγγλος", "οι νέοι Άγγλος"]
@@ -773,7 +773,7 @@
       "id": "nouns-adjectives-people-age-life-stages-084",
       "type": "single-choice",
       "prompt": "молодой китаец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Κινέζος\nМножественное число: οι Κινέζοι\n\nРод: мужской",
       "correctAnswer": "ο νέος Κινέζος",
       "wrongAnswers": ["η νέα Κινέζος", "το νέο Κινέζος", "οι νέοι Κινέζος"]
@@ -782,7 +782,7 @@
       "id": "nouns-adjectives-people-age-life-stages-085",
       "type": "single-choice",
       "prompt": "маленькие девочки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κορίτσι\nМножественное число: τα κορίτσια\n\nРод: средний",
       "correctAnswer": "τα μικρά κορίτσια",
       "wrongAnswers": ["ο μικρός κορίτσια", "η μικρή κορίτσια", "το μικρό κορίτσια"]
@@ -791,7 +791,7 @@
       "id": "nouns-adjectives-people-age-life-stages-086",
       "type": "single-choice",
       "prompt": "молодая норвежка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Νορβηγίδα\nМножественное число: οι Νορβηγίδες\n\nРод: женский",
       "correctAnswer": "η νεαρή Νορβηγίδα",
       "wrongAnswers": ["ο νεαρός Νορβηγίδα", "το νεαρό Νορβηγίδα", "οι νεαροί Νορβηγίδα"]
@@ -800,7 +800,7 @@
       "id": "nouns-adjectives-people-age-life-stages-087",
       "type": "single-choice",
       "prompt": "молодые норвежки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Νορβηγίδα\nМножественное число: οι Νορβηγίδες\n\nРод: женский",
       "correctAnswer": "οι νεαρές Νορβηγίδες",
       "wrongAnswers": ["ο νεαρός Νορβηγίδες", "η νεαρή Νορβηγίδες", "το νεαρό Νορβηγίδες"]
@@ -809,7 +809,7 @@
       "id": "nouns-adjectives-people-age-life-stages-088",
       "type": "single-choice",
       "prompt": "бойкий ребёнок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το ζωηρό παιδί",
       "wrongAnswers": ["ο ζωηρός παιδί", "η ζωηρή παιδί", "οι ζωηροί παιδί"]
@@ -818,7 +818,7 @@
       "id": "nouns-adjectives-people-age-life-stages-089",
       "type": "single-choice",
       "prompt": "любимые ирландцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ιρλανδός\nМножественное число: οι Ιρλανδοί\n\nРод: мужской",
       "correctAnswer": "οι αγαπημένοι Ιρλανδοί",
       "wrongAnswers": ["ο αγαπημένος Ιρλανδοί", "η αγαπημένη Ιρλανδοί", "το αγαπημένο Ιρλανδοί"]
@@ -827,7 +827,7 @@
       "id": "nouns-adjectives-people-age-life-stages-090",
       "type": "single-choice",
       "prompt": "молодой египтянин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αιγύπτιος\nМножественное число: οι Αιγύπτιοι\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Αιγύπτιος",
       "wrongAnswers": ["η νεαρή Αιγύπτιος", "το νεαρό Αιγύπτιος", "οι νεαροί Αιγύπτιος"]
@@ -836,7 +836,7 @@
       "id": "nouns-adjectives-people-age-life-stages-091",
       "type": "single-choice",
       "prompt": "молодые немки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Γερμανίδα\nМножественное число: οι Γερμανίδες\n\nРод: женский",
       "correctAnswer": "οι νεαρές Γερμανίδες",
       "wrongAnswers": ["ο νεαρός Γερμανίδες", "η νεαρή Γερμανίδες", "το νεαρό Γερμανίδες"]
@@ -845,7 +845,7 @@
       "id": "nouns-adjectives-people-age-life-stages-092",
       "type": "single-choice",
       "prompt": "молодой незнакомец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άγνωστος\nМножественное число: οι άγνωστοι\n\nРод: мужской",
       "correctAnswer": "ο νεαρός άγνωστος",
       "wrongAnswers": ["η νεαρή άγνωστος", "το νεαρό άγνωστος", "οι νεαροί άγνωστος"]
@@ -854,7 +854,7 @@
       "id": "nouns-adjectives-people-age-life-stages-093",
       "type": "single-choice",
       "prompt": "низкорослые дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα κοντά παιδιά",
       "wrongAnswers": ["ο κοντός παιδιά", "η κοντή παιδιά", "το κοντό παιδιά"]
@@ -863,7 +863,7 @@
       "id": "nouns-adjectives-people-age-life-stages-094",
       "type": "single-choice",
       "prompt": "невысокий ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το κοντό παιδί",
       "wrongAnswers": ["ο κοντός παιδί", "η κοντή παιδί", "οι κοντοί παιδί"]
@@ -872,7 +872,7 @@
       "id": "nouns-adjectives-people-age-life-stages-095",
       "type": "single-choice",
       "prompt": "уставший ребенок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "το κουρασμένο παιδί",
       "wrongAnswers": ["ο κουρασμένος παιδί", "η κουρασμένη παιδί", "οι κουρασμένοι παιδί"]
@@ -881,7 +881,7 @@
       "id": "nouns-adjectives-people-age-life-stages-096",
       "type": "single-choice",
       "prompt": "нежные дети",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
       "correctAnswer": "τα τρυφερά παιδιά",
       "wrongAnswers": ["ο τρυφερός παιδιά", "η τρυφερή παιδιά", "το τρυφερό παιδιά"]

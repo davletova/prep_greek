@@ -8,6 +8,7 @@ import type {
   ListeningPracticeTopicDefinition,
   SingleChoicePracticeGroupDefinition,
   SingleChoicePracticeIndexEntry,
+  SingleChoicePracticePlaceholderDefinition,
   SingleChoicePracticeTopicDefinition,
 } from "../../types/practice-topic.ts";
 import { loadJsonContent } from "../../lib/content-loader.ts";
@@ -64,6 +65,17 @@ function isSingleChoicePracticeGroupDefinition(
   return isIndexEntryBase(value) && typeof value.indexFileName === "string";
 }
 
+function isSingleChoicePracticePlaceholderDefinition(
+  value: unknown
+): value is SingleChoicePracticePlaceholderDefinition {
+  return (
+    isIndexEntryBase(value) &&
+    value.disabled === true &&
+    value.fileName === undefined &&
+    value.indexFileName === undefined
+  );
+}
+
 function normalizeSingleChoiceTopicIndex(
   content: unknown,
   baseUrl: string
@@ -83,7 +95,9 @@ function normalizeSingleChoiceRootIndex(
     !Array.isArray(content) ||
     !content.every(
       (entry) =>
-        isSingleChoicePracticeTopicDefinition(entry) || isSingleChoicePracticeGroupDefinition(entry)
+        isSingleChoicePracticeTopicDefinition(entry) ||
+        isSingleChoicePracticeGroupDefinition(entry) ||
+        isSingleChoicePracticePlaceholderDefinition(entry)
     )
   ) {
     throw new Error("Invalid single-choice practice index format");

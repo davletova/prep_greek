@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-001",
       "type": "single-choice",
       "prompt": "классичный бобовый продукт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το όσπριο\nМножественное число: τα όσπρια\n\nРод: средний",
       "correctAnswer": "το κλασικό όσπριο",
       "wrongAnswers": ["ο κλασικός όσπριο", "οι κλασικοί όσπριο", "η κλασική όσπριο"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-002",
       "type": "single-choice",
       "prompt": "свежий шпинат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπανάκι\nМножественное число: τα σπανάκια\n\nРод: средний",
       "correctAnswer": "τα φρέσκα σπανάκια",
       "wrongAnswers": ["ο φρέσκος σπανάκια", "οι φρέσκοι σπανάκια", "η φρέσκια σπανάκια"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-003",
       "type": "single-choice",
       "prompt": "свежий огурец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αγγούρι\nМножественное число: τα αγγούρια\n\nРод: средний",
       "correctAnswer": "το φρέσκο αγγούρι",
       "wrongAnswers": ["ο φρέσκος αγγούρι", "οι φρέσκοι αγγούρι", "η φρέσκια αγγούρι"]
@@ -33,7 +33,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-004",
       "type": "single-choice",
       "prompt": "красная свёкла",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παντζάρι\nМножественное число: τα παντζάρια\n\nРод: средний",
       "correctAnswer": "τα κόκκινα παντζάρια",
       "wrongAnswers": ["ο κόκκινος παντζάρια", "οι κόκκινοι παντζάρια", "η κόκκινη παντζάρια"]
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-005",
       "type": "single-choice",
       "prompt": "сладкая морковь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το καρότο\nМножественное число: τα καρότα\n\nРод: средний",
       "correctAnswer": "τα γλυκά καρότα",
       "wrongAnswers": ["ο γλυκός καρότα", "οι γλυκοί καρότα", "η γλυκιά καρότα"]
@@ -51,7 +51,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-006",
       "type": "single-choice",
       "prompt": "израильский сок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
       "correctAnswer": "ο ισραηλινός χυμός",
       "wrongAnswers": ["οι ισραηλινοί χυμός", "η ισραηλινή χυμός", "οι ισραηλινές χυμός"]
@@ -60,7 +60,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-007",
       "type": "single-choice",
       "prompt": "красная свёкла",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το παντζάρι\nМножественное число: τα παντζάρια\n\nРод: средний",
       "correctAnswer": "το κόκκινο παντζάρι",
       "wrongAnswers": ["ο κόκκινος παντζάρι", "οι κόκκινοι παντζάρι", "η κόκκινη παντζάρι"]
@@ -69,7 +69,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-008",
       "type": "single-choice",
       "prompt": "вкусные фрукты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φρούτο\nМножественное число: τα φρούτα\n\nРод: средний",
       "correctAnswer": "τα νόστιμα φρούτα",
       "wrongAnswers": ["ο νόστιμος φρούτα", "οι νόστιμοι φρούτα", "η νόστιμη φρούτα"]
@@ -78,7 +78,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-009",
       "type": "single-choice",
       "prompt": "жареные картофелины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
       "correctAnswer": "οι ψητές πατάτες",
       "wrongAnswers": ["ο ψητός πατάτες", "οι ψητοί πατάτες", "η ψητή πατάτες"]
@@ -87,7 +87,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-010",
       "type": "single-choice",
       "prompt": "вкусная картофелина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
       "correctAnswer": "η νόστιμη πατάτα",
       "wrongAnswers": ["ο νόστιμος πατάτα", "οι νόστιμοι πατάτα", "οι νόστιμες πατάτα"]
@@ -96,7 +96,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-011",
       "type": "single-choice",
       "prompt": "сладкие бананы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μπανάνα\nМножественное число: οι μπανάνες\n\nРод: женский",
       "correctAnswer": "οι γλυκές μπανάνες",
       "wrongAnswers": ["ο γλυκός μπανάνες", "οι γλυκοί μπανάνες", "η γλυκιά μπανάνες"]
@@ -105,7 +105,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-012",
       "type": "single-choice",
       "prompt": "вкусная чечевица",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η φακή\nМножественное число: οι φακές\n\nРод: женский",
       "correctAnswer": "η νόστιμη φακή",
       "wrongAnswers": ["ο νόστιμος φακή", "οι νόστιμοι φακή", "οι νόστιμες φακή"]
@@ -114,7 +114,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-013",
       "type": "single-choice",
       "prompt": "вкусные деревенские салаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σαλάτα\nМножественное число: οι σαλάτες\n\nРод: женский",
       "correctAnswer": "οι νόστιμες χωριάτικες σαλάτες",
       "wrongAnswers": [
@@ -127,7 +127,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-014",
       "type": "single-choice",
       "prompt": "свежие масла",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λάδι\nМножественное число: τα λάδια\n\nРод: средний",
       "correctAnswer": "τα φρέσκα λάδια",
       "wrongAnswers": ["ο φρέσκος λάδια", "οι φρέσκοι λάδια", "η φρέσκια λάδια"]
@@ -136,7 +136,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-015",
       "type": "single-choice",
       "prompt": "маленькие кабачки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κολοκυθάκι\nМножественное число: τα κολοκυθάκια\n\nРод: средний",
       "correctAnswer": "τα μικρά κολοκυθάκια",
       "wrongAnswers": ["ο μικρός κολοκυθάκια", "οι μικροί κολοκυθάκια", "η μικρή κολοκυθάκια"]
@@ -145,7 +145,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-016",
       "type": "single-choice",
       "prompt": "зелёный листовой салат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μαρούλι\nМножественное число: τα μαρούλια\n\nРод: средний",
       "correctAnswer": "το πράσινο μαρούλι",
       "wrongAnswers": ["ο πράσινος μαρούλι", "οι πράσινοι μαρούλι", "η πράσινη μαρούλι"]
@@ -154,7 +154,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-017",
       "type": "single-choice",
       "prompt": "сочные дыни",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πεπόνι\nМножественное число: τα πεπόνια\n\nРод: средний",
       "correctAnswer": "τα ζουμερά πεπόνια",
       "wrongAnswers": ["ο ζουμερός πεπόνια", "η ζουμερή πεπόνια", "το ζουμερό πεπόνια"]
@@ -163,7 +163,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-018",
       "type": "single-choice",
       "prompt": "зелёный базилик",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο βασιλικός\nМножественное число: οι βασιλικοί\n\nРод: мужской",
       "correctAnswer": "ο πράσινος βασιλικός",
       "wrongAnswers": ["οι πράσινοι βασιλικός", "η πράσινη βασιλικός", "οι πράσινες βασιλικός"]
@@ -172,7 +172,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-019",
       "type": "single-choice",
       "prompt": "орехи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο καρπός\nМножественное число: οι καρποί\n\nРод: мужской",
       "correctAnswer": "οι ξηροί καρποί",
       "wrongAnswers": ["ο ξηρός καρποί", "η ξηρή καρποί", "οι ξηρές καρποί"]
@@ -181,7 +181,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-020",
       "type": "single-choice",
       "prompt": "красный перец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πιπεριά\nМножественное число: οι πιπεριές\n\nРод: женский",
       "correctAnswer": "η κόκκινη πιπεριά",
       "wrongAnswers": ["ο κόκκινος πιπεριά", "οι κόκκινοι πιπεριά", "οι κόκκινες πιπεριά"]
@@ -190,7 +190,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-021",
       "type": "single-choice",
       "prompt": "свежие салаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σαλάτα\nМножественное число: οι σαλάτες\n\nРод: женский",
       "correctAnswer": "οι φρέσκες σαλάτες",
       "wrongAnswers": ["ο φρέσκος σαλάτες", "οι φρέσκοι σαλάτες", "η φρέσκια σαλάτες"]
@@ -199,7 +199,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-022",
       "type": "single-choice",
       "prompt": "оранжевые яблоки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήλο\nМножественное число: τα μήλα\n\nРод: средний",
       "correctAnswer": "τα πορτοκαλί μήλα",
       "wrongAnswers": ["ο πορτοκαλής μήλα", "οι πορτοκαλιοί μήλα", "η πορτοκαλιά μήλα"]
@@ -208,7 +208,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-023",
       "type": "single-choice",
       "prompt": "маленькие грецкие орехи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το καρύδι\nМножественное число: τα καρύδια\n\nРод: средний",
       "correctAnswer": "τα μικρά καρύδια",
       "wrongAnswers": ["ο μικρός καρύδια", "οι μικροί καρύδια", "η μικρή καρύδια"]
@@ -217,7 +217,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-024",
       "type": "single-choice",
       "prompt": "маленькая фасоль",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φασολάκι\nМножественное число: τα φασολάκια\n\nРод: средний",
       "correctAnswer": "το μικρό φασολάκι",
       "wrongAnswers": ["ο μικρός φασολάκι", "οι μικροί φασολάκι", "η μικρή φασολάκι"]
@@ -226,7 +226,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-025",
       "type": "single-choice",
       "prompt": "свежий салат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σαλάτα\nМножественное число: οι σαλάτες\n\nРод: женский",
       "correctAnswer": "η φρέσκια σαλάτα",
       "wrongAnswers": ["ο φρέσκος σαλάτα", "οι φρέσκοι σαλάτα", "οι φρέσκες σαλάτα"]
@@ -235,7 +235,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-026",
       "type": "single-choice",
       "prompt": "вкусный деревенский салат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σαλάτα\nМножественное число: οι σαλάτες\n\nРод: женский",
       "correctAnswer": "η νόστιμη χωριάτικη σαλάτα",
       "wrongAnswers": [
@@ -248,7 +248,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-027",
       "type": "single-choice",
       "prompt": "вкусная картошка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
       "correctAnswer": "οι νόστιμες πατάτες",
       "wrongAnswers": ["ο νόστιμος πατάτες", "οι νόστιμοι πατάτες", "η νόστιμη πατάτες"]
@@ -257,7 +257,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-028",
       "type": "single-choice",
       "prompt": "классические бобовые",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το όσπριο\nМножественное число: τα όσπρια\n\nРод: средний",
       "correctAnswer": "τα κλασικά όσπρια",
       "wrongAnswers": ["ο κλασικός όσπρια", "οι κλασικοί όσπρια", "η κλασική όσπρια"]
@@ -266,7 +266,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-029",
       "type": "single-choice",
       "prompt": "свежий баклажан",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μελιτζάνα\nМножественное число: οι μελιτζάνες\n\nРод: женский",
       "correctAnswer": "η φρέσκια μελιτζάνα",
       "wrongAnswers": ["ο φρέσκος μελιτζάνα", "οι φρέσκοι μελιτζάνα", "οι φρέσκες μελιτζάνα"]
@@ -275,7 +275,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-030",
       "type": "single-choice",
       "prompt": "красные перцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πιπεριά\nМножественное число: οι πιπεριές\n\nРод: женский",
       "correctAnswer": "οι κόκκινες πιπεριές",
       "wrongAnswers": ["ο κόκκινος πιπεριές", "οι κόκκινοι πιπεριές", "η κόκκινη πιπεριές"]
@@ -284,7 +284,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-031",
       "type": "single-choice",
       "prompt": "датские соки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
       "correctAnswer": "οι δανέζικοι χυμοί",
       "wrongAnswers": ["ο δανέζικος χυμοί", "η δανέζικη χυμοί", "οι δανέζικες χυμοί"]
@@ -293,7 +293,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-032",
       "type": "single-choice",
       "prompt": "свежий помидор",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ντομάτα\nМножественное число: οι ντομάτες\n\nРод: женский",
       "correctAnswer": "η φρέσκια ντομάτα",
       "wrongAnswers": ["ο φρέσκος ντομάτα", "οι φρέσκοι ντομάτα", "οι φρέσκες ντομάτα"]
@@ -302,7 +302,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-033",
       "type": "single-choice",
       "prompt": "свежее масло",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λάδι\nМножественное число: τα λάδια\n\nРод: средний",
       "correctAnswer": "το φρέσκο λάδι",
       "wrongAnswers": ["ο φρέσκος λάδι", "οι φρέσκοι λάδι", "η φρέσκια λάδι"]
@@ -311,7 +311,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-034",
       "type": "single-choice",
       "prompt": "острый перец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πιπέρι\nМножественное число: τα πιπέρια\n\nРод: средний",
       "correctAnswer": "το καυτό πιπέρι",
       "wrongAnswers": ["ο καυτός πιπέρι", "η καυτή πιπέρι", "οι καυτοί πιπέρι"]
@@ -320,7 +320,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-035",
       "type": "single-choice",
       "prompt": "сочный апельсин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πορτοκάλι\nМножественное число: τα πορτοκάλια\n\nРод: средний",
       "correctAnswer": "το ζουμερό πορτοκάλι",
       "wrongAnswers": ["ο ζουμερός πορτοκάλι", "η ζουμερή πορτοκάλι", "οι ζουμεροί πορτοκάλι"]
@@ -329,7 +329,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-036",
       "type": "single-choice",
       "prompt": "ирландские соки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
       "correctAnswer": "οι ιρλανδικοί χυμοί",
       "wrongAnswers": ["ο ιρλανδικός χυμοί", "η ιρλανδική χυμοί", "οι ιρλανδικές χυμοί"]
@@ -338,7 +338,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-037",
       "type": "single-choice",
       "prompt": "маленький орех",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το καρύδι\nМножественное число: τα καρύδια\n\nРод: средний",
       "correctAnswer": "το μικρό καρύδι",
       "wrongAnswers": ["ο μικρός καρύδι", "οι μικροί καρύδι", "η μικρή καρύδι"]
@@ -347,7 +347,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-038",
       "type": "single-choice",
       "prompt": "сладкий лимон",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λεμόνι\nМножественное число: τα λεμόνια\n\nРод: средний",
       "correctAnswer": "το γλυκό λεμόνι",
       "wrongAnswers": ["ο γλυκός λεμόνι", "οι γλυκοί λεμόνι", "η γλυκιά λεμόνι"]
@@ -356,7 +356,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-039",
       "type": "single-choice",
       "prompt": "свежие артишоки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αγκινάρα\nМножественное число: οι αγκινάρες\n\nРод: женский",
       "correctAnswer": "οι φρέσκες αγκινάρες",
       "wrongAnswers": ["ο φρέσκος αγκινάρες", "οι φρέσκοι αγκινάρες", "η φρέσκια αγκινάρες"]
@@ -365,7 +365,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-040",
       "type": "single-choice",
       "prompt": "красные вишни",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κεράσι\nМножественное число: τα κεράσια\n\nРод: средний",
       "correctAnswer": "τα κόκκινα κεράσια",
       "wrongAnswers": ["ο κόκκινος κεράσια", "οι κόκκινοι κεράσια", "η κόκκινη κεράσια"]
@@ -374,7 +374,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-041",
       "type": "single-choice",
       "prompt": "сладкий лук",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κρεμμύδι\nМножественное число: τα κρεμμύδια\n\nРод: средний",
       "correctAnswer": "τα γλυκά κρεμμύδια",
       "wrongAnswers": ["ο γλυκός κρεμμύδια", "οι γλυκοί κρεμμύδια", "η γλυκιά κρεμμύδια"]
@@ -383,7 +383,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-042",
       "type": "single-choice",
       "prompt": "свежие брокколи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μπρόκολο\nМножественное число: τα μπρόκολα\n\nРод: средний",
       "correctAnswer": "τα φρέσκα μπρόκολα",
       "wrongAnswers": ["ο φρέσκος μπρόκολα", "οι φρέσκοι μπρόκολα", "η φρέσκια μπρόκολα"]
@@ -392,7 +392,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-043",
       "type": "single-choice",
       "prompt": "сладкий миндаль",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αμύγδαλο\nМножественное число: τα αμύγδαλα\n\nРод: средний",
       "correctAnswer": "το γλυκό αμύγδαλο",
       "wrongAnswers": ["ο γλυκός αμύγδαλο", "οι γλυκοί αμύγδαλο", "η γλυκιά αμύγδαλο"]
@@ -401,7 +401,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-044",
       "type": "single-choice",
       "prompt": "маленькие чипсы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πατατάκι\nМножественное число: τα πατατάκια\n\nРод: средний",
       "correctAnswer": "τα μικρά πατατάκια",
       "wrongAnswers": ["ο μικρός πατατάκια", "οι μικροί πατατάκια", "η μικρή πατατάκια"]
@@ -410,7 +410,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-045",
       "type": "single-choice",
       "prompt": "оранжевое яблоко",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήλο\nМножественное число: τα μήλα\n\nРод: средний",
       "correctAnswer": "το πορτοκαλί μήλο",
       "wrongAnswers": ["ο πορτοκαλής μήλο", "οι πορτοκαλιοί μήλο", "η πορτοκαλιά μήλο"]
@@ -419,7 +419,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-046",
       "type": "single-choice",
       "prompt": "красное яблоко",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήλο\nМножественное число: τα μήλα\n\nРод: средний",
       "correctAnswer": "το κόκκινο μήλο",
       "wrongAnswers": ["ο κόκκινος μήλο", "οι κόκκινοι μήλο", "η κόκκινη μήλο"]
@@ -428,7 +428,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-047",
       "type": "single-choice",
       "prompt": "сладкие соки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
       "correctAnswer": "οι γλυκοί χυμοί",
       "wrongAnswers": ["ο γλυκός χυμοί", "η γλυκιά χυμοί", "οι γλυκές χυμοί"]
@@ -437,7 +437,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-048",
       "type": "single-choice",
       "prompt": "свежие огурцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αγγούρι\nМножественное число: τα αγγούρια\n\nРод: средний",
       "correctAnswer": "τα φρέσκα αγγούρια",
       "wrongAnswers": ["ο φρέσκος αγγούρια", "οι φρέσκοι αγγούρια", "η φρέσκια αγγούρια"]
@@ -446,7 +446,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-049",
       "type": "single-choice",
       "prompt": "зелёные салаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μαρούλι\nМножественное число: τα μαρούλια\n\nРод: средний",
       "correctAnswer": "τα πράσινα μαρούλια",
       "wrongAnswers": ["ο πράσινος μαρούλια", "οι πράσινοι μαρούλια", "η πράσινη μαρούλια"]
@@ -455,7 +455,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-050",
       "type": "single-choice",
       "prompt": "маленький абрикос",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βερίκοκο\nМножественное число: τα βερίκοκα\n\nРод: средний",
       "correctAnswer": "το μικρό βερίκοκο",
       "wrongAnswers": ["ο μικρός βερίκοκο", "οι μικροί βερίκοκο", "η μικρή βερίκοκο"]
@@ -464,7 +464,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-051",
       "type": "single-choice",
       "prompt": "маленькие абрикосы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το βερίκοκο\nМножественное число: τα βερίκοκα\n\nРод: средний",
       "correctAnswer": "τα μικρά βερίκοκα",
       "wrongAnswers": ["ο μικρός βερίκοκα", "οι μικροί βερίκοκα", "η μικρή βερίκοκα"]
@@ -473,7 +473,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-052",
       "type": "single-choice",
       "prompt": "варёная картофелина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
       "correctAnswer": "η βραστή πατάτα",
       "wrongAnswers": ["ο βραστός πατάτα", "οι βραστοί πατάτα", "οι βραστές πατάτα"]
@@ -482,7 +482,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-053",
       "type": "single-choice",
       "prompt": "варёный ячмень",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κριθάρι\nМножественное число: τα κριθάρια\n\nРод: средний",
       "correctAnswer": "το βραστό κριθάρι",
       "wrongAnswers": ["ο βραστός κριθάρι", "οι βραστοί κριθάρι", "η βραστή κριθάρι"]
@@ -491,7 +491,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-054",
       "type": "single-choice",
       "prompt": "маленький кабачок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κολοκυθάκι\nМножественное число: τα κολοκυθάκια\n\nРод: средний",
       "correctAnswer": "το μικρό κολοκυθάκι",
       "wrongAnswers": ["ο μικρός κολοκυθάκι", "οι μικροί κολοκυθάκι", "η μικρή κολοκυθάκι"]
@@ -500,7 +500,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-055",
       "type": "single-choice",
       "prompt": "сочные апельсины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πορτοκάλι\nМножественное число: τα πορτοκάλια\n\nРод: средний",
       "correctAnswer": "τα ζουμερά πορτοκάλια",
       "wrongAnswers": ["ο ζουμερός πορτοκάλια", "η ζουμερή πορτοκάλια", "το ζουμερό πορτοκάλια"]
@@ -509,7 +509,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-056",
       "type": "single-choice",
       "prompt": "красные яблоки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήλο\nМножественное число: τα μήλα\n\nРод: средний",
       "correctAnswer": "τα κόκκινα μήλα",
       "wrongAnswers": ["ο κόκκινος μήλα", "οι κόκκινοι μήλα", "η κόκκινη μήλα"]
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-057",
       "type": "single-choice",
       "prompt": "сладкий банан",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μπανάνα\nМножественное число: οι μπανάνες\n\nРод: женский",
       "correctAnswer": "η γλυκιά μπανάνα",
       "wrongAnswers": ["ο γλυκός μπανάνα", "οι γλυκοί μπανάνα", "οι γλυκές μπανάνα"]
@@ -527,7 +527,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-058",
       "type": "single-choice",
       "prompt": "маленькие фундуки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φουντούκι\nМножественное число: τα φουντούκια\n\nРод: средний",
       "correctAnswer": "τα μικρά φουντούκια",
       "wrongAnswers": ["ο μικρός φουντούκια", "οι μικροί φουντούκια", "η μικρή φουντούκια"]
@@ -536,7 +536,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-059",
       "type": "single-choice",
       "prompt": "свежий шпинат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπανάκι\nМножественное число: τα σπανάκια\n\nРод: средний",
       "correctAnswer": "το φρέσκο σπανάκι",
       "wrongAnswers": ["ο φρέσκος σπανάκι", "οι φρέσκοι σπανάκι", "η φρέσκια σπανάκι"]
@@ -545,7 +545,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-060",
       "type": "single-choice",
       "prompt": "свежая фасоль",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φασόλι\nМножественное число: τα φασόλια\n\nРод: средний",
       "correctAnswer": "τα φρέσκα φασόλια",
       "wrongAnswers": ["ο φρέσκος φασόλια", "οι φρέσκοι φασόλια", "η φρέσκια φασόλια"]
@@ -554,7 +554,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-061",
       "type": "single-choice",
       "prompt": "вкусный фрукт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φρούτο\nМножественное число: τα φρούτα\n\nРод: средний",
       "correctAnswer": "το νόστιμο φρούτο",
       "wrongAnswers": ["ο νόστιμος φρούτο", "οι νόστιμοι φρούτο", "η νόστιμη φρούτο"]
@@ -563,7 +563,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-062",
       "type": "single-choice",
       "prompt": "сладкий виноград",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σταφύλι\nМножественное число: τα σταφύλια\n\nРод: средний",
       "correctAnswer": "το γλυκό σταφύλι",
       "wrongAnswers": ["ο γλυκός σταφύλι", "οι γλυκοί σταφύλι", "η γλυκιά σταφύλι"]
@@ -572,7 +572,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-063",
       "type": "single-choice",
       "prompt": "свежие помидоры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η ντομάτα\nМножественное число: οι ντομάτες\n\nРод: женский",
       "correctAnswer": "οι φρέσκες ντομάτες",
       "wrongAnswers": ["ο φρέσκος ντομάτες", "οι φρέσκοι ντομάτες", "η φρέσκια ντομάτες"]
@@ -581,7 +581,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-064",
       "type": "single-choice",
       "prompt": "зелёная капуста",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λάχανο\nМножественное число: τα λάχανα\n\nРод: средний",
       "correctAnswer": "το πράσινο λάχανο",
       "wrongAnswers": ["ο πράσινος λάχανο", "οι πράσινοι λάχανο", "η πράσινη λάχανο"]
@@ -590,7 +590,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-065",
       "type": "single-choice",
       "prompt": "хорошая кукуруза",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το καλαμπόκι\nМножественное число: τα καλαμπόκια\n\nРод: средний",
       "correctAnswer": "το καλό καλαμπόκι",
       "wrongAnswers": ["ο καλός καλαμπόκι", "οι καλοί καλαμπόκι", "η καλή καλαμπόκι"]
@@ -599,7 +599,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-066",
       "type": "single-choice",
       "prompt": "головки свежего чеснока",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σκόρδο\nМножественное число: τα σκόρδα\n\nРод: средний",
       "correctAnswer": "τα φρέσκα σκόρδα",
       "wrongAnswers": ["ο φρέσκος σκόρδα", "οι φρέσκοι σκόρδα", "η φρέσκια σκόρδα"]
@@ -608,7 +608,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-067",
       "type": "single-choice",
       "prompt": "красная вишня",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κεράσι\nМножественное число: τα κεράσια\n\nРод: средний",
       "correctAnswer": "το κόκκινο κεράσι",
       "wrongAnswers": ["ο κόκκινος κεράσι", "οι κόκκινοι κεράσι", "η κόκκινη κεράσι"]
@@ -617,7 +617,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-068",
       "type": "single-choice",
       "prompt": "свежая брокколи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μπρόκολο\nМножественное число: τα μπρόκολα\n\nРод: средний",
       "correctAnswer": "το φρέσκο μπρόκολο",
       "wrongAnswers": ["ο φρέσκος μπρόκολο", "οι φρέσκοι μπρόκολο", "η φρέσκια μπρόκολο"]
@@ -626,7 +626,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-069",
       "type": "single-choice",
       "prompt": "маленький фундук",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το φουντούκι\nМножественное число: τα φουντούκια\n\nРод: средний",
       "correctAnswer": "το μικρό φουντούκι",
       "wrongAnswers": ["ο μικρός φουντούκι", "οι μικροί φουντούκι", "η μικρή φουντούκι"]
@@ -635,7 +635,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-070",
       "type": "single-choice",
       "prompt": "сухой орех",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο καρπός\nМножественное число: οι καρποί\n\nРод: мужской",
       "correctAnswer": "ο ξηρός καρπός",
       "wrongAnswers": ["οι ξηροί καρπός", "η ξηρή καρπός", "οι ξηρές καρπός"]
@@ -644,7 +644,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-071",
       "type": "single-choice",
       "prompt": "смешанный салат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σαλάτα\nМножественное число: οι σαλάτες\n\nРод: женский",
       "correctAnswer": "η ανακατεμένη σαλάτα",
       "wrongAnswers": ["ο ανακατεμένος σαλάτα", "το ανακατεμένο σαλάτα", "οι ανακατεμένοι σαλάτα"]
@@ -653,7 +653,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-072",
       "type": "single-choice",
       "prompt": "сладкий виноград",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σταφύλι\nМножественное число: τα σταφύλια\n\nРод: средний",
       "correctAnswer": "τα γλυκά σταφύλια",
       "wrongAnswers": ["ο γλυκός σταφύλια", "οι γλυκοί σταφύλια", "η γλυκιά σταφύλια"]
@@ -662,7 +662,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-073",
       "type": "single-choice",
       "prompt": "свежие овощи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λαχανικό\nМножественное число: τα λαχανικά\n\nРод: средний",
       "correctAnswer": "τα φρέσκα λαχανικά",
       "wrongAnswers": ["ο φρέσκος λαχανικά", "οι φρέσκοι λαχανικά", "η φρέσκια λαχανικά"]
@@ -671,7 +671,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-074",
       "type": "single-choice",
       "prompt": "свежий овощ",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το λαχανικό\nМножественное число: τα λαχανικά\n\nРод: средний",
       "correctAnswer": "το φρέσκο λαχανικό",
       "wrongAnswers": ["ο φρέσκος λαχανικό", "οι φρέσκοι λαχανικό", "η φρέσκια λαχανικό"]
@@ -680,7 +680,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-075",
       "type": "single-choice",
       "prompt": "сладкий миндаль",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το αμύγδαλο\nМножественное число: τα αμύγδαλα\n\nРод: средний",
       "correctAnswer": "τα γλυκά αμύγδαλα",
       "wrongAnswers": ["ο γλυκός αμύγδαλα", "οι γλυκοί αμύγδαλα", "η γλυκιά αμύγδαλα"]
@@ -689,7 +689,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-076",
       "type": "single-choice",
       "prompt": "вкусные арбузы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το καρπούζι\nМножественное число: τα καρπούζια\n\nРод: средний",
       "correctAnswer": "τα νόστιμα καρπούζια",
       "wrongAnswers": ["ο νόστιμος καρπούζια", "οι νόστιμοι καρπούζια", "η νόστιμη καρπούζια"]
@@ -698,7 +698,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-077",
       "type": "single-choice",
       "prompt": "смешанные салаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σαλάτα\nМножественное число: οι σαλάτες\n\nРод: женский",
       "correctAnswer": "οι ανακατεμένες σαλάτες",
       "wrongAnswers": ["ο ανακατεμένος σαλάτες", "η ανακατεμένη σαλάτες", "το ανακατεμένο σαλάτες"]
@@ -707,7 +707,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-078",
       "type": "single-choice",
       "prompt": "свежий чеснок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σκόρδο\nМножественное число: τα σκόρδα\n\nРод: средний",
       "correctAnswer": "το φρέσκο σκόρδο",
       "wrongAnswers": ["ο φρέσκος σκόρδο", "οι φρέσκοι σκόρδο", "η φρέσκια σκόρδο"]
@@ -716,7 +716,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-079",
       "type": "single-choice",
       "prompt": "сладкая морковь",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το καρότο\nМножественное число: τα καρότα\n\nРод: средний",
       "correctAnswer": "το γλυκό καρότο",
       "wrongAnswers": ["ο γλυκός καρότο", "οι γλυκοί καρότο", "η γλυκιά καρότο"]
@@ -725,7 +725,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-080",
       "type": "single-choice",
       "prompt": "свежий горох",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο αρακάς\nМножественное число: οι None\n\nРод: мужской",
       "correctAnswer": "ο φρέσκος αρακάς",
       "wrongAnswers": ["οι φρέσκοι αρακάς", "η φρέσκια αρακάς", "οι φρέσκες αρακάς"]
@@ -734,7 +734,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-081",
       "type": "single-choice",
       "prompt": "зелёные яблоки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το μήλο\nМножественное число: τα μήλα\n\nРод: средний",
       "correctAnswer": "τα πράσινα μήλα",
       "wrongAnswers": ["ο πράσινος μήλα", "οι πράσινοι μήλα", "η πράσινη μήλα"]
@@ -743,7 +743,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-082",
       "type": "single-choice",
       "prompt": "сладкий лук",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το κρεμμύδι\nМножественное число: τα κρεμμύδια\n\nРод: средний",
       "correctAnswer": "το γλυκό κρεμμύδι",
       "wrongAnswers": ["ο γλυκός κρεμμύδι", "οι γλυκοί κρεμμύδι", "η γλυκιά κρεμμύδι"]
@@ -752,7 +752,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-083",
       "type": "single-choice",
       "prompt": "вкусный арбуз",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το καρπούζι\nМножественное число: τα καρπούζια\n\nРод: средний",
       "correctAnswer": "το νόστιμο καρπούζι",
       "wrongAnswers": ["ο νόστιμος καρπούζι", "οι νόστιμοι καρπούζι", "η νόστιμη καρπούζι"]
@@ -761,7 +761,7 @@
       "id": "nouns-adjectives-food-fruit-vegetables-plants-food-084",
       "type": "single-choice",
       "prompt": "сочная дыня",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το πεπόνι\nМножественное число: τα πεπόνια\n\nРод: средний",
       "correctAnswer": "το ζουμερό πεπόνι",
       "wrongAnswers": ["ο ζουμερός πεπόνι", "η ζουμερή πεπόνι", "οι ζουμεροί πεπόνι"]

@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-001",
       "type": "single-choice",
       "prompt": "естественный свет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το φυσικό φως",
       "wrongAnswers": ["ο φυσικός φως", "οι φυσικοί φως", "η φυσική φως"]
     },
@@ -14,7 +14,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-002",
       "type": "single-choice",
       "prompt": "твёрдые скалы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι σκληροί βράχοι",
       "wrongAnswers": ["ο σκληρός βράχοι", "η σκληρή βράχοι", "οι σκληρές βράχοι"]
     },
@@ -22,7 +22,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-003",
       "type": "single-choice",
       "prompt": "большие волны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα μεγάλα κύματα",
       "wrongAnswers": ["ο μεγάλος κύματα", "οι μεγάλοι κύματα", "η μεγάλη κύματα"]
     },
@@ -30,7 +30,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-004",
       "type": "single-choice",
       "prompt": "красивые виды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφες θέες",
       "wrongAnswers": ["ο όμορφος θέες", "οι όμορφοι θέες", "η όμορφη θέες"]
     },
@@ -38,7 +38,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-005",
       "type": "single-choice",
       "prompt": "высокая вершина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η ψηλή κορυφή",
       "wrongAnswers": ["ο ψηλός κορυφή", "οι ψηλοί κορυφή", "οι ψηλές κορυφή"]
     },
@@ -46,7 +46,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-006",
       "type": "single-choice",
       "prompt": "красивое место",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η όμορφη τοποθεσία",
       "wrongAnswers": ["ο όμορφος τοποθεσία", "οι όμορφοι τοποθεσία", "οι όμορφες τοποθεσία"]
     },
@@ -54,7 +54,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-007",
       "type": "single-choice",
       "prompt": "глубокие болота",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι βαθιοί βάλτοι",
       "wrongAnswers": ["ο βαθύς βάλτοι", "η βαθιά βάλτοι", "οι βαθιές βάλτοι"]
     },
@@ -62,7 +62,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-008",
       "type": "single-choice",
       "prompt": "чистый остров",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το καθαρό νησί",
       "wrongAnswers": ["ο καθαρός νησί", "οι καθαροί νησί", "η καθαρή νησί"]
     },
@@ -70,7 +70,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-009",
       "type": "single-choice",
       "prompt": "большие леса",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα μεγάλα δάση",
       "wrongAnswers": ["ο μεγάλος δάση", "οι μεγάλοι δάση", "η μεγάλη δάση"]
     },
@@ -78,7 +78,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-010",
       "type": "single-choice",
       "prompt": "маленькие планеты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι μικροί πλανήτες",
       "wrongAnswers": ["ο μικρός πλανήτες", "η μικρή πλανήτες", "οι μικρές πλανήτες"]
     },
@@ -86,7 +86,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-011",
       "type": "single-choice",
       "prompt": "холодная Арктика",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η κρύα Αρκτική",
       "wrongAnswers": ["ο κρύος Αρκτική", "οι κρύοι Αρκτική", "οι κρύες Αρκτική"]
     },
@@ -94,7 +94,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-012",
       "type": "single-choice",
       "prompt": "высокий Олимп",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο ψηλός Όλυμπος",
       "wrongAnswers": ["οι ψηλοί Όλυμπος", "η ψηλή Όλυμπος", "οι ψηλές Όλυμπος"]
     },
@@ -102,7 +102,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-013",
       "type": "single-choice",
       "prompt": "большие парки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα μεγάλα πάρκα",
       "wrongAnswers": ["ο μεγάλος πάρκα", "οι μεγάλοι πάρκα", "η μεγάλη πάρκα"]
     },
@@ -110,7 +110,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-014",
       "type": "single-choice",
       "prompt": "холодные льды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι κρύοι πάγοι",
       "wrongAnswers": ["ο κρύος πάγοι", "η κρύα πάγοι", "οι κρύες πάγοι"]
     },
@@ -118,7 +118,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-015",
       "type": "single-choice",
       "prompt": "глубокое море",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η βαθιά θάλασσα",
       "wrongAnswers": ["ο βαθύς θάλασσα", "οι βαθιοί θάλασσα", "οι βαθιές θάλασσα"]
     },
@@ -126,7 +126,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-016",
       "type": "single-choice",
       "prompt": "чистые воды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα αγνά νερά",
       "wrongAnswers": ["ο αγνός νερά", "οι αγνοί νερά", "η αγνή νερά"]
     },
@@ -134,7 +134,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-017",
       "type": "single-choice",
       "prompt": "большая волна",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το μεγάλο κύμα",
       "wrongAnswers": ["ο μεγάλος κύμα", "οι μεγάλοι κύμα", "η μεγάλη κύμα"]
     },
@@ -142,7 +142,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-018",
       "type": "single-choice",
       "prompt": "большая область",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η μεγάλη περιοχή",
       "wrongAnswers": ["ο μεγάλος περιοχή", "οι μεγάλοι περιοχή", "οι μεγάλες περιοχή"]
     },
@@ -150,7 +150,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-019",
       "type": "single-choice",
       "prompt": "спокойное озеро",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η ήρεμη λίμνη",
       "wrongAnswers": ["ο ήρεμος λίμνη", "οι ήρεμοι λίμνη", "οι ήρεμες λίμνη"]
     },
@@ -158,7 +158,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-020",
       "type": "single-choice",
       "prompt": "центральные парки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα κεντρικά πάρκα",
       "wrongAnswers": ["ο κεντρικός πάρκα", "οι κεντρικοί πάρκα", "η κεντρική πάρκα"]
     },
@@ -166,7 +166,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-021",
       "type": "single-choice",
       "prompt": "глубокие пещеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα βαθιά σπήλαια",
       "wrongAnswers": ["ο βαθύς σπήλαια", "οι βαθιοί σπήλαια", "οι βαθιές σπήλαια"]
     },
@@ -174,7 +174,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-022",
       "type": "single-choice",
       "prompt": "общественные сады",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι δημόσιοι κήποι",
       "wrongAnswers": ["ο δημόσιος κήποι", "η δημόσια κήποι", "οι δημόσιες κήποι"]
     },
@@ -182,7 +182,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-023",
       "type": "single-choice",
       "prompt": "красивый закат",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η όμορφη δύση",
       "wrongAnswers": ["ο όμορφος δύση", "οι όμορφοι δύση", "οι όμορφες δύση"]
     },
@@ -190,7 +190,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-024",
       "type": "single-choice",
       "prompt": "большой лес",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το μεγάλο δάσος",
       "wrongAnswers": ["ο μεγάλος δάσος", "οι μεγάλοι δάσος", "η μεγάλη δάσος"]
     },
@@ -198,7 +198,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-025",
       "type": "single-choice",
       "prompt": "природные красоты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι φυσικές ομορφιές",
       "wrongAnswers": ["ο φυσικός ομορφιές", "οι φυσικοί ομορφιές", "η φυσική ομορφιές"]
     },
@@ -206,7 +206,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-026",
       "type": "single-choice",
       "prompt": "островной воздух",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο νησιώτικος αέρας",
       "wrongAnswers": ["η νησιώτικη αέρας", "το νησιώτικο αέρας", "οι νησιώτικοι αέρας"]
     },
@@ -214,7 +214,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-027",
       "type": "single-choice",
       "prompt": "юго-восточные берега",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι νοτιοανατολικές ακτές",
       "wrongAnswers": [
         "ο νοτιοανατολικός ακτές",
@@ -226,7 +226,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-028",
       "type": "single-choice",
       "prompt": "лазурное море",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η γαλανή θάλασσα",
       "wrongAnswers": ["ο γαλανός θάλασσα", "οι γαλανοί θάλασσα", "οι γαλανές θάλασσα"]
     },
@@ -234,7 +234,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-029",
       "type": "single-choice",
       "prompt": "красивый пляж",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η όμορφη παραλία",
       "wrongAnswers": ["ο όμορφος παραλία", "οι όμορφοι παραλία", "οι όμορφες παραλία"]
     },
@@ -242,7 +242,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-030",
       "type": "single-choice",
       "prompt": "красивый берег",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο όμορφος γιαλός",
       "wrongAnswers": ["οι όμορφοι γιαλός", "η όμορφη γιαλός", "οι όμορφες γιαλός"]
     },
@@ -250,7 +250,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-031",
       "type": "single-choice",
       "prompt": "красивые пляжи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφες παραλίες",
       "wrongAnswers": ["ο όμορφος παραλίες", "οι όμορφοι παραλίες", "η όμορφη παραλίες"]
     },
@@ -258,7 +258,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-032",
       "type": "single-choice",
       "prompt": "южные стороны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι νότιες πλευρές",
       "wrongAnswers": ["ο νότιος πλευρές", "οι νότιοι πλευρές", "η νότια πλευρές"]
     },
@@ -266,7 +266,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-033",
       "type": "single-choice",
       "prompt": "яркое солнце",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο λαμπρός ήλιος",
       "wrongAnswers": ["η λαμπρή ήλιος", "το λαμπρό ήλιος", "οι λαμπροί ήλιος"]
     },
@@ -274,7 +274,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-034",
       "type": "single-choice",
       "prompt": "глубокие глубины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι βαθιοί βυθοί",
       "wrongAnswers": ["ο βαθύς βυθοί", "η βαθιά βυθοί", "οι βαθιές βυθοί"]
     },
@@ -282,7 +282,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-035",
       "type": "single-choice",
       "prompt": "твёрдая скала",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο σκληρός βράχος",
       "wrongAnswers": ["οι σκληροί βράχος", "η σκληρή βράχος", "οι σκληρές βράχος"]
     },
@@ -290,7 +290,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-036",
       "type": "single-choice",
       "prompt": "глубокая глубина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο βαθύς βυθός",
       "wrongAnswers": ["οι βαθιοί βυθός", "η βαθιά βυθός", "οι βαθιές βυθός"]
     },
@@ -298,7 +298,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-037",
       "type": "single-choice",
       "prompt": "тихие озёра",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι ήρεμες λίμνες",
       "wrongAnswers": ["ο ήρεμος λίμνες", "οι ήρεμοι λίμνες", "η ήρεμη λίμνες"]
     },
@@ -306,7 +306,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-038",
       "type": "single-choice",
       "prompt": "прекрасный сад",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο υπέροχος κήπος",
       "wrongAnswers": ["οι υπέροχοι κήπος", "η υπέροχη κήπος", "οι υπέροχες κήπος"]
     },
@@ -314,7 +314,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-039",
       "type": "single-choice",
       "prompt": "сухие земли",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι ξηρές γαίες",
       "wrongAnswers": ["ο ξηρός γαίες", "οι ξηροί γαίες", "η ξηρή γαίες"]
     },
@@ -322,7 +322,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-040",
       "type": "single-choice",
       "prompt": "дальний край",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η μακρινή άκρη",
       "wrongAnswers": ["ο μακρινός άκρη", "το μακρινό άκρη", "οι μακρινοί άκρη"]
     },
@@ -330,7 +330,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-041",
       "type": "single-choice",
       "prompt": "дальние края",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι μακρινές άκρες",
       "wrongAnswers": ["ο μακρινός άκρες", "η μακρινή άκρες", "το μακρινό άκρες"]
     },
@@ -338,7 +338,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-042",
       "type": "single-choice",
       "prompt": "глубокая река",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το βαθύ ποτάμι",
       "wrongAnswers": ["ο βαθύς ποτάμι", "οι βαθιοί ποτάμι", "η βαθιά ποτάμι"]
     },
@@ -346,7 +346,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-043",
       "type": "single-choice",
       "prompt": "тёмный лабиринт",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο σκοτεινός λαβύρινθος",
       "wrongAnswers": ["η σκοτεινή λαβύρινθος", "το σκοτεινό λαβύρινθος", "οι σκοτεινοί λαβύρινθος"]
     },
@@ -354,7 +354,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-044",
       "type": "single-choice",
       "prompt": "тёмная пещера",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η σκοτεινή σπηλιά",
       "wrongAnswers": ["ο σκοτεινός σπηλιά", "το σκοτεινό σπηλιά", "οι σκοτεινοί σπηλιά"]
     },
@@ -362,7 +362,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-045",
       "type": "single-choice",
       "prompt": "глубокое болото",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο βαθύς βάλτος",
       "wrongAnswers": ["οι βαθιοί βάλτος", "η βαθιά βάλτος", "οι βαθιές βάλτος"]
     },
@@ -370,7 +370,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-046",
       "type": "single-choice",
       "prompt": "природные среды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα φυσικά περιβάλλοντα",
       "wrongAnswers": ["ο φυσικός περιβάλλοντα", "οι φυσικοί περιβάλλοντα", "η φυσική περιβάλλοντα"]
     },
@@ -378,7 +378,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-047",
       "type": "single-choice",
       "prompt": "яркий свет",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το δυνατό φως",
       "wrongAnswers": ["ο δυνατός φως", "οι δυνατοί φως", "η δυνατή φως"]
     },
@@ -386,7 +386,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-048",
       "type": "single-choice",
       "prompt": "большой парк",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το μεγάλο πάρκο",
       "wrongAnswers": ["ο μεγάλος πάρκο", "οι μεγάλοι πάρκο", "η μεγάλη πάρκο"]
     },
@@ -394,7 +394,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-049",
       "type": "single-choice",
       "prompt": "большой сад",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο μεγάλος κήπος",
       "wrongAnswers": ["οι μεγάλοι κήπος", "η μεγάλη κήπος", "οι μεγάλες κήπος"]
     },
@@ -402,7 +402,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-050",
       "type": "single-choice",
       "prompt": "спокойное море",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η ήρεμη θάλασσα",
       "wrongAnswers": ["ο ήρεμος θάλασσα", "οι ήρεμοι θάλασσα", "οι ήρεμες θάλασσα"]
     },
@@ -410,7 +410,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-051",
       "type": "single-choice",
       "prompt": "глубокие моря",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι βαθιές θάλασσες",
       "wrongAnswers": ["ο βαθύς θάλασσες", "οι βαθιοί θάλασσες", "η βαθιά θάλασσες"]
     },
@@ -418,7 +418,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-052",
       "type": "single-choice",
       "prompt": "красивые сельские местности",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφες εξοχές",
       "wrongAnswers": ["ο όμορφος εξοχές", "οι όμορφοι εξοχές", "η όμορφη εξοχές"]
     },
@@ -426,7 +426,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-053",
       "type": "single-choice",
       "prompt": "юго-восточное побережье",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η νοτιοανατολική ακτή",
       "wrongAnswers": [
         "ο νοτιοανατολικός ακτή",
@@ -438,7 +438,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-054",
       "type": "single-choice",
       "prompt": "красивые берега",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφοι γιαλοί",
       "wrongAnswers": ["ο όμορφος γιαλοί", "η όμορφη γιαλοί", "οι όμορφες γιαλοί"]
     },
@@ -446,7 +446,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-055",
       "type": "single-choice",
       "prompt": "красивые сады",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφοι κήποι",
       "wrongAnswers": ["ο όμορφος κήποι", "η όμορφη κήποι", "οι όμορφες κήποι"]
     },
@@ -454,7 +454,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-056",
       "type": "single-choice",
       "prompt": "прекрасные сады",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι υπέροχοι κήποι",
       "wrongAnswers": ["ο υπέροχος κήποι", "η υπέροχη κήποι", "οι υπέροχες κήποι"]
     },
@@ -462,7 +462,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-057",
       "type": "single-choice",
       "prompt": "спокойные моря",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι ήρεμες θάλασσες",
       "wrongAnswers": ["ο ήρεμος θάλασσες", "οι ήρεμοι θάλασσες", "η ήρεμη θάλασσες"]
     },
@@ -470,7 +470,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-058",
       "type": "single-choice",
       "prompt": "маленькая планета",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο μικρός πλανήτης",
       "wrongAnswers": ["οι μικροί πλανήτης", "η μικρή πλανήτης", "οι μικρές πλανήτης"]
     },
@@ -478,7 +478,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-059",
       "type": "single-choice",
       "prompt": "тёплые воды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα θερμά νερά",
       "wrongAnswers": ["ο θερμός νερά", "οι θερμοί νερά", "η θερμή νερά"]
     },
@@ -486,7 +486,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-060",
       "type": "single-choice",
       "prompt": "тёмные пещеры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι σκοτεινές σπηλιές",
       "wrongAnswers": ["ο σκοτεινός σπηλιές", "η σκοτεινή σπηλιές", "το σκοτεινό σπηλιές"]
     },
@@ -494,7 +494,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-061",
       "type": "single-choice",
       "prompt": "глубокие реки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα βαθιά ποτάμια",
       "wrongAnswers": ["ο βαθύς ποτάμια", "οι βαθιοί ποτάμια", "οι βαθιές ποτάμια"]
     },
@@ -502,7 +502,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-062",
       "type": "single-choice",
       "prompt": "лазурные моря",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι γαλανές θάλασσες",
       "wrongAnswers": ["ο γαλανός θάλασσες", "οι γαλανοί θάλασσες", "η γαλανή θάλασσες"]
     },
@@ -510,7 +510,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-063",
       "type": "single-choice",
       "prompt": "большие сады",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι μεγάλοι κήποι",
       "wrongAnswers": ["ο μεγάλος κήποι", "η μεγάλη κήποι", "οι μεγάλες κήποι"]
     },
@@ -518,7 +518,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-064",
       "type": "single-choice",
       "prompt": "большие пожары",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι μεγάλες φωτιές",
       "wrongAnswers": ["ο μεγάλος φωτιές", "οι μεγάλοι φωτιές", "η μεγάλη φωτιές"]
     },
@@ -526,7 +526,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-065",
       "type": "single-choice",
       "prompt": "лазурное Эгейское море",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το γαλάζιο Αιγαίο πέλαγος",
       "wrongAnswers": [
         "ο γαλάζιος Αιγαίο πέλαγος",
@@ -538,7 +538,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-066",
       "type": "single-choice",
       "prompt": "великий Дунай",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο μεγάλος Δούναβης",
       "wrongAnswers": ["οι μεγάλοι Δούναβης", "η μεγάλη Δούναβης", "οι μεγάλες Δούναβης"]
     },
@@ -546,7 +546,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-067",
       "type": "single-choice",
       "prompt": "тёплые воды",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα ζεστά νερά",
       "wrongAnswers": ["ο ζεστός νερά", "οι ζεστοί νερά", "η ζεστή νερά"]
     },
@@ -554,7 +554,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-068",
       "type": "single-choice",
       "prompt": "электрические токи",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα ηλεκτρικά ρεύματα",
       "wrongAnswers": ["ο ηλεκτρικός ρεύματα", "οι ηλεκτρικοί ρεύματα", "η ηλεκτρική ρεύματα"]
     },
@@ -562,7 +562,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-069",
       "type": "single-choice",
       "prompt": "тяжёлые газы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα βαριά αέρια",
       "wrongAnswers": ["ο βαρύς αέρια", "το βαρύ αέρια", "οι βαριοί αέρια"]
     },
@@ -570,7 +570,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-070",
       "type": "single-choice",
       "prompt": "глубокие сады",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι βαθιοί κήποι",
       "wrongAnswers": ["ο βαθύς κήποι", "η βαθιά κήποι", "οι βαθιές κήποι"]
     },
@@ -578,7 +578,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-071",
       "type": "single-choice",
       "prompt": "белые снега",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "τα λευκά χιόνια",
       "wrongAnswers": ["ο λευκός χιόνια", "οι λευκοί χιόνια", "η λευκή χιόνια"]
     },
@@ -586,7 +586,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-072",
       "type": "single-choice",
       "prompt": "жёлтое солнце",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο κίτρινος ήλιος",
       "wrongAnswers": ["οι κίτρινοι ήλιος", "η κίτρινη ήλιος", "οι κίτρινες ήλιος"]
     },
@@ -594,7 +594,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-073",
       "type": "single-choice",
       "prompt": "глубокий сад",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο βαθύς κήπος",
       "wrongAnswers": ["οι βαθιοί κήπος", "η βαθιά κήπος", "οι βαθιές κήπος"]
     },
@@ -602,7 +602,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-074",
       "type": "single-choice",
       "prompt": "высокие вершины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι ψηλές κορυφές",
       "wrongAnswers": ["ο ψηλός κορυφές", "οι ψηλοί κορυφές", "η ψηλή κορυφές"]
     },
@@ -610,7 +610,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-075",
       "type": "single-choice",
       "prompt": "красивый вид",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η όμορφη θέα",
       "wrongAnswers": ["ο όμορφος θέα", "οι όμορφοι θέα", "οι όμορφες θέα"]
     },
@@ -618,7 +618,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-076",
       "type": "single-choice",
       "prompt": "красивый сад",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο όμορφος κήπος",
       "wrongAnswers": ["οι όμορφοι κήπος", "η όμορφη κήπος", "οι όμορφες κήπος"]
     },
@@ -626,7 +626,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-077",
       "type": "single-choice",
       "prompt": "красивое сельское местность",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η όμορφη εξοχή",
       "wrongAnswers": ["ο όμορφος εξοχή", "οι όμορφοι εξοχή", "οι όμορφες εξοχή"]
     },
@@ -634,7 +634,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-078",
       "type": "single-choice",
       "prompt": "красивые закаты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι όμορφες δύσεις",
       "wrongAnswers": ["ο όμορφος δύσεις", "οι όμορφοι δύσεις", "η όμορφη δύσεις"]
     },
@@ -642,7 +642,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-079",
       "type": "single-choice",
       "prompt": "сухая земля",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η ξηρή γη",
       "wrongAnswers": ["ο ξηρός γη", "οι ξηροί γη", "οι ξηρές γη"]
     },
@@ -650,7 +650,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-080",
       "type": "single-choice",
       "prompt": "глубокая пещера",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το βαθύ σπήλαιο",
       "wrongAnswers": ["ο βαθύς σπήλαιο", "οι βαθιοί σπήλαιο", "η βαθιά σπήλαιο"]
     },
@@ -658,7 +658,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-081",
       "type": "single-choice",
       "prompt": "чистый воздух",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "ο αγνός αέρας",
       "wrongAnswers": ["οι αγνοί αέρας", "η αγνή αέρας", "οι αγνές αέρας"]
     },
@@ -666,7 +666,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-082",
       "type": "single-choice",
       "prompt": "высокая гора",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το ψηλό βουνό",
       "wrongAnswers": ["ο ψηλός βουνό", "οι ψηλοί βουνό", "η ψηλή βουνό"]
     },
@@ -674,7 +674,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-083",
       "type": "single-choice",
       "prompt": "природный газ",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το φυσικό αέριο",
       "wrongAnswers": ["ο φυσικός αέριο", "οι φυσικοί αέριο", "η φυσική αέριο"]
     },
@@ -682,7 +682,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-084",
       "type": "single-choice",
       "prompt": "улучшенная переработка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "η βελτιωμένη ανακύκλωση",
       "wrongAnswers": [
         "ο βελτιωμένος ανακύκλωση",
@@ -694,7 +694,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-085",
       "type": "single-choice",
       "prompt": "улучшенные переработки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι βελτιωμένες ανακυκλώσεις",
       "wrongAnswers": [
         "ο βελτιωμένος ανακυκλώσεις",
@@ -706,7 +706,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-086",
       "type": "single-choice",
       "prompt": "природная среда",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "το φυσικό περιβάλλον",
       "wrongAnswers": ["ο φυσικός περιβάλλον", "οι φυσικοί περιβάλλον", "η φυσική περιβάλλον"]
     },
@@ -714,7 +714,7 @@
       "id": "nouns-adjectives-nature-nature-landscape-environment-087",
       "type": "single-choice",
       "prompt": "большие области",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "correctAnswer": "οι μεγάλες περιοχές",
       "wrongAnswers": ["ο μεγάλος περιοχές", "οι μεγάλοι περιοχές", "η μεγάλη περιοχές"]
     }

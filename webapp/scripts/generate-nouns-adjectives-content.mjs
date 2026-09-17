@@ -128,7 +128,7 @@ export function buildNounsAdjectivesContent(corpus, targetPartSize = 40) {
         id: `nouns-adjectives-${pairing.id}-${number}`,
         type: "single-choice",
         prompt: nounForm,
-        promptLanguage: "el",
+        speechTarget: "prompt",
         correctAnswer,
         wrongAnswers: buildWrongAnswers(adjective, noun.gender, number, correctAnswer),
         translation,

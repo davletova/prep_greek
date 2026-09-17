@@ -1,5 +1,5 @@
 export type ExerciseType = "single-choice" | "text-input" | "input" | "listening";
-export type PromptLanguage = "el" | "ru";
+export type SingleChoiceSpeechTarget = "prompt" | "options" | "correctAnswer";
 export type NonEmptyArray<T> = [T, ...T[]];
 export type ListeningAnswerMode = "audio-to-russian" | "audio-to-greek";
 
@@ -21,7 +21,6 @@ export interface BaseExercise {
   id: string;
   type: ExerciseType;
   prompt: string;
-  promptLanguage?: PromptLanguage | undefined;
   translation?: string | undefined;
   explanation?: string | undefined;
   hint?: string | undefined;
@@ -29,6 +28,7 @@ export interface BaseExercise {
 
 export interface SingleChoiceExercise extends BaseExercise {
   type: "single-choice";
+  speechTarget: SingleChoiceSpeechTarget;
   correctAnswer: string;
   wrongAnswers: NonEmptyArray<string>;
 }
@@ -36,7 +36,7 @@ export interface SingleChoiceExercise extends BaseExercise {
 export interface SingleChoiceRuntimeQuestion {
   id: string;
   prompt: string;
-  promptLanguage?: PromptLanguage | undefined;
+  speechTarget: SingleChoiceSpeechTarget;
   options: NonEmptyArray<string>;
   correctIndex: number;
   translation?: string | undefined;

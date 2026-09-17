@@ -30,9 +30,18 @@ export interface SingleChoicePracticeGroupDefinition {
   baseUrl?: string | undefined;
 }
 
+export interface SingleChoicePracticePlaceholderDefinition {
+  id: string;
+  title: string;
+  subtitle: string;
+  disabled: true;
+  baseUrl?: string | undefined;
+}
+
 export type SingleChoicePracticeIndexEntry =
   | SingleChoicePracticeTopicDefinition
-  | SingleChoicePracticeGroupDefinition;
+  | SingleChoicePracticeGroupDefinition
+  | SingleChoicePracticePlaceholderDefinition;
 
 export type ListeningPracticeTopicDefinition = SingleChoicePracticeTopicDefinition;
 
@@ -40,6 +49,12 @@ export function isSingleChoicePracticeGroupDefinition(
   entry: SingleChoicePracticeIndexEntry
 ): entry is SingleChoicePracticeGroupDefinition {
   return "indexFileName" in entry;
+}
+
+export function isSingleChoicePracticePlaceholderDefinition(
+  entry: SingleChoicePracticeIndexEntry
+): entry is SingleChoicePracticePlaceholderDefinition {
+  return "disabled" in entry && entry.disabled;
 }
 
 export interface SingleChoicePracticeTopic {

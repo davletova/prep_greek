@@ -12,6 +12,12 @@
     "fileName": "greek-pronouns.json"
   },
   {
+    "id": "verbs",
+    "title": "Глаголы",
+    "subtitle": "Выберите тему",
+    "indexFileName": "verbs/index.json"
+  },
+  {
     "id": "popular-greek-verbs",
     "title": "Популярные глаголы",
     "subtitle": "Выберите правильный перевод",

@@ -6,7 +6,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-001",
       "type": "single-choice",
       "prompt": "американский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η αμερικανική σημαία",
       "wrongAnswers": ["ο αμερικανικός σημαία", "οι αμερικανικοί σημαία", "οι αμερικανικές σημαία"]
@@ -15,7 +15,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-002",
       "type": "single-choice",
       "prompt": "болгарский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η βουλγαρική σημαία",
       "wrongAnswers": ["ο βουλγαρικός σημαία", "οι βουλγαρικοί σημαία", "οι βουλγαρικές σημαία"]
@@ -24,7 +24,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-003",
       "type": "single-choice",
       "prompt": "молодые шведы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Σουηδός\nМножественное число: οι Σουηδοί\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Σουηδοί",
       "wrongAnswers": ["ο νεαρός Σουηδοί", "η νεαρή Σουηδοί", "οι νεαρές Σουηδοί"]
@@ -33,7 +33,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-004",
       "type": "single-choice",
       "prompt": "дорогой канадец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Καναδός\nМножественное число: οι Καναδοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Καναδός",
       "wrongAnswers": ["οι αγαπητοί Καναδός", "η αγαπητή Καναδός", "οι αγαπητές Καναδός"]
@@ -42,7 +42,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-005",
       "type": "single-choice",
       "prompt": "дорогая исландка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ισλανδή\nМножественное число: οι Ισλανδές\n\nРод: женский",
       "correctAnswer": "η αγαπητή Ισλανδή",
       "wrongAnswers": ["ο αγαπητός Ισλανδή", "οι αγαπητοί Ισλανδή", "οι αγαπητές Ισλανδή"]
@@ -51,7 +51,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-006",
       "type": "single-choice",
       "prompt": "бельгийский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η βελγική σημαία",
       "wrongAnswers": ["ο βελγικός σημαία", "οι βελγικοί σημαία", "οι βελγικές σημαία"]
@@ -60,7 +60,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-007",
       "type": "single-choice",
       "prompt": "норвежские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι νορβηγικές σημαίες",
       "wrongAnswers": ["ο νορβηγικός σημαίες", "οι νορβηγικοί σημαίες", "η νορβηγική σημαίες"]
@@ -69,7 +69,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-008",
       "type": "single-choice",
       "prompt": "критский хлеб",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ψωμί\nМножественное число: τα ψωμιά\n\nРод: средний",
       "correctAnswer": "το κρητικό ψωμί",
       "wrongAnswers": ["ο κρητικός ψωμί", "η κρητική ψωμί", "οι κρητικοί ψωμί"]
@@ -78,7 +78,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-009",
       "type": "single-choice",
       "prompt": "нидерландские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι ολλανδικές σημαίες",
       "wrongAnswers": ["ο ολλανδικός σημαίες", "οι ολλανδικοί σημαίες", "η ολλανδική σημαίες"]
@@ -87,7 +87,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-010",
       "type": "single-choice",
       "prompt": "португальская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο πορτογαλικός χάρτης",
       "wrongAnswers": ["οι πορτογαλικοί χάρτης", "η πορτογαλική χάρτης", "οι πορτογαλικές χάρτης"]
@@ -96,7 +96,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-011",
       "type": "single-choice",
       "prompt": "ирландские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι ιρλανδικές σημαίες",
       "wrongAnswers": ["ο ιρλανδικός σημαίες", "οι ιρλανδικοί σημαίες", "η ιρλανδική σημαίες"]
@@ -105,7 +105,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-012",
       "type": "single-choice",
       "prompt": "ирландский дом",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
       "correctAnswer": "το ιρλανδικό σπίτι",
       "wrongAnswers": ["ο ιρλανδικός σπίτι", "οι ιρλανδικοί σπίτι", "η ιρλανδική σπίτι"]
@@ -114,7 +114,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-013",
       "type": "single-choice",
       "prompt": "дорогая испанка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ισπανίδα\nМножественное число: οι Ισπανίδες\n\nРод: женский",
       "correctAnswer": "η αγαπητή Ισπανίδα",
       "wrongAnswers": ["ο αγαπητός Ισπανίδα", "οι αγαπητοί Ισπανίδα", "οι αγαπητές Ισπανίδα"]
@@ -123,7 +123,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-014",
       "type": "single-choice",
       "prompt": "итальянский дом",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
       "correctAnswer": "το ιταλικό σπίτι",
       "wrongAnswers": ["ο ιταλικός σπίτι", "οι ιταλικοί σπίτι", "η ιταλική σπίτι"]
@@ -132,7 +132,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-015",
       "type": "single-choice",
       "prompt": "хорошие австрийцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αυστριακός\nМножественное число: οι Αυστριακοί\n\nРод: мужской",
       "correctAnswer": "οι καλοί Αυστριακοί",
       "wrongAnswers": ["ο καλός Αυστριακοί", "η καλή Αυστριακοί", "οι καλές Αυστριακοί"]
@@ -141,7 +141,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-016",
       "type": "single-choice",
       "prompt": "шведские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι σουηδικοί χάρτες",
       "wrongAnswers": ["ο σουηδικός χάρτες", "η σουηδική χάρτες", "οι σουηδικές χάρτες"]
@@ -150,7 +150,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-017",
       "type": "single-choice",
       "prompt": "критская традиция",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παράδοση\nМножественное число: οι παραδόσεις\n\nРод: женский",
       "correctAnswer": "η κρητική παράδοση",
       "wrongAnswers": ["ο κρητικός παράδοση", "το κρητικό παράδοση", "οι κρητικοί παράδοση"]
@@ -159,7 +159,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-018",
       "type": "single-choice",
       "prompt": "австралийский друг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "ο αυστραλιανός φίλος",
       "wrongAnswers": ["οι αυστραλιανοί φίλος", "η αυστραλιανή φίλος", "οι αυστραλιανές φίλος"]
@@ -168,7 +168,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-019",
       "type": "single-choice",
       "prompt": "канадские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι καναδικές σημαίες",
       "wrongAnswers": ["ο καναδικός σημαίες", "οι καναδικοί σημαίες", "η καναδική σημαίες"]
@@ -177,7 +177,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-020",
       "type": "single-choice",
       "prompt": "ирландские дома",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
       "correctAnswer": "τα ιρλανδικά σπίτια",
       "wrongAnswers": ["ο ιρλανδικός σπίτια", "οι ιρλανδικοί σπίτια", "η ιρλανδική σπίτια"]
@@ -186,7 +186,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-021",
       "type": "single-choice",
       "prompt": "большая Азия",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ασία\nМножественное число: οι Ασίες\n\nРод: женский",
       "correctAnswer": "η μεγάλη Ασία",
       "wrongAnswers": ["ο μεγάλος Ασία", "οι μεγάλοι Ασία", "οι μεγάλες Ασία"]
@@ -195,7 +195,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-022",
       "type": "single-choice",
       "prompt": "датский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η δανέζικη σημαία",
       "wrongAnswers": ["ο δανέζικος σημαία", "οι δανέζικοι σημαία", "οι δανέζικες σημαία"]
@@ -204,7 +204,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-023",
       "type": "single-choice",
       "prompt": "современная Европа",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ευρώπη\nМножественное число: οι Ευρώπες\n\nРод: женский",
       "correctAnswer": "η σύγχρονη Ευρώπη",
       "wrongAnswers": ["ο σύγχρονος Ευρώπη", "οι σύγχρονοι Ευρώπη", "οι σύγχρονες Ευρώπη"]
@@ -213,7 +213,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-024",
       "type": "single-choice",
       "prompt": "израильский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η ισραηλινή σημαία",
       "wrongAnswers": ["ο ισραηλινός σημαία", "οι ισραηλινοί σημαία", "οι ισραηλινές σημαία"]
@@ -222,7 +222,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-025",
       "type": "single-choice",
       "prompt": "бразильские песни",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το τραγούδι\nМножественное число: τα τραγούδια\n\nРод: средний",
       "correctAnswer": "τα βραζιλιανικά τραγούδια",
       "wrongAnswers": [
@@ -235,7 +235,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-026",
       "type": "single-choice",
       "prompt": "критские традиции",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η παράδοση\nМножественное число: οι παραδόσεις\n\nРод: женский",
       "correctAnswer": "οι κρητικές παραδόσεις",
       "wrongAnswers": ["ο κρητικός παραδόσεις", "η κρητική παραδόσεις", "το κρητικό παραδόσεις"]
@@ -244,7 +244,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-027",
       "type": "single-choice",
       "prompt": "любимые голландки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ολλανδή\nМножественное число: οι Ολλανδές\n\nРод: женский",
       "correctAnswer": "οι αγαπημένες Ολλανδές",
       "wrongAnswers": ["ο αγαπημένος Ολλανδές", "η αγαπημένη Ολλανδές", "το αγαπημένο Ολλανδές"]
@@ -253,7 +253,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-028",
       "type": "single-choice",
       "prompt": "австрийские друзья",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
       "correctAnswer": "οι αυστριακοί φίλοι",
       "wrongAnswers": ["ο αυστριακός φίλοι", "η αυστριακή φίλοι", "οι αυστριακές φίλοι"]
@@ -262,7 +262,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-029",
       "type": "single-choice",
       "prompt": "финские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι φινλανδικοί χάρτες",
       "wrongAnswers": ["ο φινλανδικός χάρτες", "η φινλανδική χάρτες", "οι φινλανδικές χάρτες"]
@@ -271,7 +271,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-030",
       "type": "single-choice",
       "prompt": "дорогой датчанин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Δανός\nМножественное число: οι Δανοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Δανός",
       "wrongAnswers": ["οι αγαπητοί Δανός", "η αγαπητή Δανός", "οι αγαπητές Δανός"]
@@ -280,7 +280,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-031",
       "type": "single-choice",
       "prompt": "немецкая сумка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
       "correctAnswer": "η γερμανική τσάντα",
       "wrongAnswers": ["ο γερμανικός τσάντα", "οι γερμανικοί τσάντα", "οι γερμανικές τσάντα"]
@@ -289,7 +289,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-032",
       "type": "single-choice",
       "prompt": "бельгийские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι βελγικοί χάρτες",
       "wrongAnswers": ["ο βελγικός χάρτες", "η βελγική χάρτες", "οι βελγικές χάρτες"]
@@ -298,7 +298,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-033",
       "type": "single-choice",
       "prompt": "молодые немцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Γερμανός\nМножественное число: οι Γερμανοί\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Γερμανοί",
       "wrongAnswers": ["ο νεαρός Γερμανοί", "η νεαρή Γερμανοί", "οι νεαρές Γερμανοί"]
@@ -307,7 +307,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-034",
       "type": "single-choice",
       "prompt": "чужие дома",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
       "correctAnswer": "τα ξένα σπίτια",
       "wrongAnswers": ["ο ξένος σπίτια", "οι ξένοι σπίτια", "η ξένη σπίτια"]
@@ -316,7 +316,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-035",
       "type": "single-choice",
       "prompt": "дорогой испанец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ισπανός\nМножественное число: οι Ισπανοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Ισπανός",
       "wrongAnswers": ["οι αγαπητοί Ισπανός", "η αγαπητή Ισπανός", "οι αγαπητές Ισπανός"]
@@ -325,7 +325,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-036",
       "type": "single-choice",
       "prompt": "армянка-армянка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αρμένισσα\nМножественное число: οι αρμένισσες\n\nРод: женский",
       "correctAnswer": "η αρμενική αρμένισσα",
       "wrongAnswers": ["ο αρμενικός αρμένισσα", "οι αρμενικοί αρμένισσα", "οι αρμενικές αρμένισσα"]
@@ -334,7 +334,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-037",
       "type": "single-choice",
       "prompt": "исландский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η ισλανδική σημαία",
       "wrongAnswers": ["ο ισλανδικός σημαία", "οι ισλανδικοί σημαία", "οι ισλανδικές σημαία"]
@@ -343,7 +343,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-038",
       "type": "single-choice",
       "prompt": "молодой албанец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αλβανός\nМножественное число: οι Αλβανοί\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Αλβανός",
       "wrongAnswers": ["οι νεαροί Αλβανός", "η νεαρή Αλβανός", "οι νεαρές Αλβανός"]
@@ -352,7 +352,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-039",
       "type": "single-choice",
       "prompt": "большая Африка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αφρική\nМножественное число: οι Αφρικές\n\nРод: женский",
       "correctAnswer": "η μεγάλη Αφρική",
       "wrongAnswers": ["ο μεγάλος Αφρική", "οι μεγάλοι Αφρική", "οι μεγάλες Αφρική"]
@@ -361,7 +361,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-040",
       "type": "single-choice",
       "prompt": "молодая португалка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Πορτογαλίδα\nМножественное число: οι Πορτογαλίδες\n\nРод: женский",
       "correctAnswer": "η νεαρή Πορτογαλίδα",
       "wrongAnswers": ["ο νεαρός Πορτογαλίδα", "οι νεαροί Πορτογαλίδα", "οι νεαρές Πορτογαλίδα"]
@@ -370,7 +370,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-041",
       "type": "single-choice",
       "prompt": "бельгийские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι βελγικές σημαίες",
       "wrongAnswers": ["ο βελγικός σημαίες", "οι βελγικοί σημαίες", "η βελγική σημαίες"]
@@ -379,7 +379,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-042",
       "type": "single-choice",
       "prompt": "молодой немец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Γερμανός\nМножественное число: οι Γερμανοί\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Γερμανός",
       "wrongAnswers": ["οι νεαροί Γερμανός", "η νεαρή Γερμανός", "οι νεαρές Γερμανός"]
@@ -388,7 +388,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-043",
       "type": "single-choice",
       "prompt": "молодая шведка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Σουηδή\nМножественное число: οι Σουηδές\n\nРод: женский",
       "correctAnswer": "η νεαρή Σουηδή",
       "wrongAnswers": ["ο νεαρός Σουηδή", "οι νεαροί Σουηδή", "οι νεαρές Σουηδή"]
@@ -397,7 +397,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-044",
       "type": "single-choice",
       "prompt": "хорошая австрийка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αυστριακή\nМножественное число: οι Αυστριακές\n\nРод: женский",
       "correctAnswer": "η καλή Αυστριακή",
       "wrongAnswers": ["ο καλός Αυστριακή", "οι καλοί Αυστριακή", "οι καλές Αυστριακή"]
@@ -406,7 +406,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-045",
       "type": "single-choice",
       "prompt": "хорошие турки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Τούρκος\nМножественное число: οι Τούρκοι\n\nРод: мужской",
       "correctAnswer": "οι καλοί Τούρκοι",
       "wrongAnswers": ["ο καλός Τούρκοι", "η καλή Τούρκοι", "οι καλές Τούρκοι"]
@@ -415,7 +415,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-046",
       "type": "single-choice",
       "prompt": "канадский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η καναδική σημαία",
       "wrongAnswers": ["ο καναδικός σημαία", "οι καναδικοί σημαία", "οι καναδικές σημαία"]
@@ -424,7 +424,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-047",
       "type": "single-choice",
       "prompt": "дорогие израильтяне",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ισραηλινός\nМножественное число: οι Ισραηλινοί\n\nРод: мужской",
       "correctAnswer": "οι αγαπητοί Ισραηλινοί",
       "wrongAnswers": ["ο αγαπητός Ισραηλινοί", "η αγαπητή Ισραηλινοί", "οι αγαπητές Ισραηλινοί"]
@@ -433,7 +433,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-048",
       "type": "single-choice",
       "prompt": "молодые англичане",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Άγγλος\nМножественное число: οι Άγγλοι\n\nРод: мужской",
       "correctAnswer": "οι νέοι Άγγλοι",
       "wrongAnswers": ["ο νέος Άγγλοι", "η νέα Άγγλοι", "οι νέες Άγγλοι"]
@@ -442,7 +442,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-049",
       "type": "single-choice",
       "prompt": "дорогой итальянец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ιταλός\nМножественное число: οι Ιταλοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Ιταλός",
       "wrongAnswers": ["οι αγαπητοί Ιταλός", "η αγαπητή Ιταλός", "οι αγαπητές Ιταλός"]
@@ -451,7 +451,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-050",
       "type": "single-choice",
       "prompt": "канадская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο καναδικός χάρτης",
       "wrongAnswers": ["οι καναδικοί χάρτης", "η καναδική χάρτης", "οι καναδικές χάρτης"]
@@ -460,7 +460,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-051",
       "type": "single-choice",
       "prompt": "любимый африканец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αφρικανός\nМножественное число: οι Αφρικανοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπημένος Αφρικανός",
       "wrongAnswers": ["η αγαπημένη Αφρικανός", "το αγαπημένο Αφρικανός", "οι αγαπημένοι Αφρικανός"]
@@ -469,7 +469,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-052",
       "type": "single-choice",
       "prompt": "известная русская",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ρωσίδα\nМножественное число: οι Ρωσίδες\n\nРод: женский",
       "correctAnswer": "η γνωστή Ρωσίδα",
       "wrongAnswers": ["ο γνωστός Ρωσίδα", "οι γνωστοί Ρωσίδα", "οι γνωστές Ρωσίδα"]
@@ -478,7 +478,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-053",
       "type": "single-choice",
       "prompt": "добрая турчанка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Τουρκάλα\nМножественное число: οι Τουρκάλες\n\nРод: женский",
       "correctAnswer": "η καλή Τουρκάλα",
       "wrongAnswers": ["ο καλός Τουρκάλα", "οι καλοί Τουρκάλα", "οι καλές Τουρκάλα"]
@@ -487,7 +487,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-054",
       "type": "single-choice",
       "prompt": "армянские армянки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η αρμένισσα\nМножественное число: οι αρμένισσες\n\nРод: женский",
       "correctAnswer": "οι αρμενικές αρμένισσες",
       "wrongAnswers": ["ο αρμενικός αρμένισσες", "οι αρμενικοί αρμένισσες", "η αρμενική αρμένισσες"]
@@ -496,7 +496,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-055",
       "type": "single-choice",
       "prompt": "молодая бельгийка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Βελγίδα\nМножественное число: οι Βελγίδες\n\nРод: женский",
       "correctAnswer": "η νέα Βελγίδα",
       "wrongAnswers": ["ο νέος Βελγίδα", "οι νέοι Βελγίδα", "οι νέες Βελγίδα"]
@@ -505,7 +505,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-056",
       "type": "single-choice",
       "prompt": "молодые шведские",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σουηδικό\nМножественное число: τα σουηδικά\n\nРод: средний",
       "correctAnswer": "τα νεαρά σουηδικά",
       "wrongAnswers": ["ο νεαρός σουηδικά", "οι νεαροί σουηδικά", "η νεαρή σουηδικά"]
@@ -514,7 +514,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-057",
       "type": "single-choice",
       "prompt": "молодая японка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Γιαπωνέζα\nМножественное число: οι Γιαπωνέζες\n\nРод: женский",
       "correctAnswer": "η νεαρή Γιαπωνέζα",
       "wrongAnswers": ["ο νεαρός Γιαπωνέζα", "οι νεαροί Γιαπωνέζα", "οι νεαρές Γιαπωνέζα"]
@@ -523,7 +523,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-058",
       "type": "single-choice",
       "prompt": "норвежский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η νορβηγική σημαία",
       "wrongAnswers": ["ο νορβηγικός σημαία", "οι νορβηγικοί σημαία", "οι νορβηγικές σημαία"]
@@ -532,7 +532,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-059",
       "type": "single-choice",
       "prompt": "русские мужчины",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "οι Ρώσοι άντρες",
       "wrongAnswers": ["ο Ρώσος άντρες", "η Ρωσίδα άντρες", "το Ρώσο άντρες"]
@@ -541,7 +541,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-060",
       "type": "single-choice",
       "prompt": "дорогой исландец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ισλανδός\nМножественное число: οι Ισλανδοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Ισλανδός",
       "wrongAnswers": ["οι αγαπητοί Ισλανδός", "η αγαπητή Ισλανδός", "οι αγαπητές Ισλανδός"]
@@ -550,7 +550,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-061",
       "type": "single-choice",
       "prompt": "молодые албанцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αλβανός\nМножественное число: οι Αλβανοί\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Αλβανοί",
       "wrongAnswers": ["ο νεαρός Αλβανοί", "η νεαρή Αλβανοί", "οι νεαρές Αλβανοί"]
@@ -559,7 +559,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-062",
       "type": "single-choice",
       "prompt": "любимые европейцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ευρωπαίος\nМножественное число: οι Ευρωπαίοι\n\nРод: мужской",
       "correctAnswer": "οι αγαπημένοι Ευρωπαίοι",
       "wrongAnswers": ["ο αγαπημένος Ευρωπαίοι", "η αγαπημένη Ευρωπαίοι", "το αγαπημένο Ευρωπαίοι"]
@@ -568,7 +568,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-063",
       "type": "single-choice",
       "prompt": "японские маски",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η μάσκα\nМножественное число: οι μάσκες\n\nРод: женский",
       "correctAnswer": "οι ιαπωνικές μάσκες",
       "wrongAnswers": ["ο ιαπωνικός μάσκες", "οι ιαπωνικοί μάσκες", "η ιαπωνική μάσκες"]
@@ -577,7 +577,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-064",
       "type": "single-choice",
       "prompt": "дорогие канадцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Καναδός\nМножественное число: οι Καναδοί\n\nРод: мужской",
       "correctAnswer": "οι αγαπητοί Καναδοί",
       "wrongAnswers": ["ο αγαπητός Καναδοί", "η αγαπητή Καναδοί", "οι αγαπητές Καναδοί"]
@@ -586,7 +586,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-065",
       "type": "single-choice",
       "prompt": "датские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι δανέζικες σημαίες",
       "wrongAnswers": ["ο δανέζικος σημαίες", "οι δανέζικοι σημαίες", "η δανέζικη σημαίες"]
@@ -595,7 +595,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-066",
       "type": "single-choice",
       "prompt": "любимый европеец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ευρωπαίος\nМножественное число: οι Ευρωπαίοι\n\nРод: мужской",
       "correctAnswer": "ο αγαπημένος Ευρωπαίος",
       "wrongAnswers": ["η αγαπημένη Ευρωπαίος", "το αγαπημένο Ευρωπαίος", "οι αγαπημένοι Ευρωπαίος"]
@@ -604,7 +604,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-067",
       "type": "single-choice",
       "prompt": "русский мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
       "correctAnswer": "ο Ρώσος άντρας",
       "wrongAnswers": ["η Ρωσίδα άντρας", "το Ρώσο άντρας", "οι Ρώσοι άντρας"]
@@ -613,7 +613,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-068",
       "type": "single-choice",
       "prompt": "болгарские карты",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "οι βουλγαρικοί χάρτες",
       "wrongAnswers": ["ο βουλγαρικός χάρτες", "η βουλγαρική χάρτες", "οι βουλγαρικές χάρτες"]
@@ -622,7 +622,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-069",
       "type": "single-choice",
       "prompt": "молодые ирландцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ιρλανδός\nМножественное число: οι Ιρλανδοί\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Ιρλανδοί",
       "wrongAnswers": ["ο νεαρός Ιρλανδοί", "η νεαρή Ιρλανδοί", "οι νεαρές Ιρλανδοί"]
@@ -631,7 +631,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-070",
       "type": "single-choice",
       "prompt": "молодые бразильцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Βραζιλιάνος\nМножественное число: οι Βραζιλιάνοι\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Βραζιλιάνοι",
       "wrongAnswers": ["ο νεαρός Βραζιλιάνοι", "η νεαρή Βραζιλιάνοι", "οι νεαρές Βραζιλιάνοι"]
@@ -640,7 +640,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-071",
       "type": "single-choice",
       "prompt": "молодой португалец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Πορτογάλος\nМножественное число: οι Πορτογάλοι\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Πορτογάλος",
       "wrongAnswers": ["οι νεαροί Πορτογάλος", "η νεαρή Πορτογάλος", "οι νεαρές Πορτογάλος"]
@@ -649,7 +649,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-072",
       "type": "single-choice",
       "prompt": "важные культуры",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πολιτισμός\nМножественное число: οι πολιτισμοί\n\nРод: мужской",
       "correctAnswer": "οι σημαντικοί πολιτισμοί",
       "wrongAnswers": [
@@ -662,7 +662,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-073",
       "type": "single-choice",
       "prompt": "большие страны",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η χώρα\nМножественное число: οι χώρες\n\nРод: женский",
       "correctAnswer": "οι μεγάλες χώρες",
       "wrongAnswers": ["ο μεγάλος χώρες", "οι μεγάλοι χώρες", "η μεγάλη χώρες"]
@@ -671,7 +671,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-074",
       "type": "single-choice",
       "prompt": "армянский танец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χορός\nМножественное число: οι χοροί\n\nРод: мужской",
       "correctAnswer": "ο αρμενικός χορός",
       "wrongAnswers": ["οι αρμενικοί χορός", "η αρμενική χορός", "οι αρμενικές χορός"]
@@ -680,7 +680,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-075",
       "type": "single-choice",
       "prompt": "хороший австралиец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αυστραλός\nМножественное число: οι Αυστραλοί\n\nРод: мужской",
       "correctAnswer": "ο καλός Αυστραλός",
       "wrongAnswers": ["οι καλοί Αυστραλός", "η καλή Αυστραλός", "οι καλές Αυστραλός"]
@@ -689,7 +689,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-076",
       "type": "single-choice",
       "prompt": "хорошие турчанки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Τουρκάλα\nМножественное число: οι Τουρκάλες\n\nРод: женский",
       "correctAnswer": "οι καλές Τουρκάλες",
       "wrongAnswers": ["ο καλός Τουρκάλες", "οι καλοί Τουρκάλες", "η καλή Τουρκάλες"]
@@ -698,7 +698,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-077",
       "type": "single-choice",
       "prompt": "болгарские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι βουλγαρικές σημαίες",
       "wrongAnswers": ["ο βουλγαρικός σημαίες", "οι βουλγαρικοί σημαίες", "η βουλγαρική σημαίες"]
@@ -707,7 +707,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-078",
       "type": "single-choice",
       "prompt": "испанские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι ισπανικές σημαίες",
       "wrongAnswers": ["ο ισπανικός σημαίες", "οι ισπανικοί σημαίες", "η ισπανική σημαίες"]
@@ -716,7 +716,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-079",
       "type": "single-choice",
       "prompt": "армянские танцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χορός\nМножественное число: οι χοροί\n\nРод: мужской",
       "correctAnswer": "οι αρμενικοί χοροί",
       "wrongAnswers": ["ο αρμενικός χοροί", "η αρμενική χοροί", "οι αρμενικές χοροί"]
@@ -725,7 +725,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-080",
       "type": "single-choice",
       "prompt": "дорогие итальянки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ιταλίδα\nМножественное число: οι Ιταλίδες\n\nРод: женский",
       "correctAnswer": "οι αγαπητές Ιταλίδες",
       "wrongAnswers": ["ο αγαπητός Ιταλίδες", "οι αγαπητοί Ιταλίδες", "η αγαπητή Ιταλίδες"]
@@ -734,7 +734,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-081",
       "type": "single-choice",
       "prompt": "молодые китаянки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Κινέζα\nМножественное число: οι Κινέζες\n\nРод: женский",
       "correctAnswer": "οι νέες Κινέζες",
       "wrongAnswers": ["ο νέος Κινέζες", "οι νέοι Κινέζες", "η νέα Κινέζες"]
@@ -743,7 +743,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-082",
       "type": "single-choice",
       "prompt": "вежливая датчанка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Δανή\nМножественное число: οι Δανές\n\nРод: женский",
       "correctAnswer": "η ευγενική Δανή",
       "wrongAnswers": ["ο ευγενικός Δανή", "οι ευγενικοί Δανή", "οι ευγενικές Δανή"]
@@ -752,7 +752,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-083",
       "type": "single-choice",
       "prompt": "китайская культура",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πολιτισμός\nМножественное число: οι πολιτισμοί\n\nРод: мужской",
       "correctAnswer": "ο κινεζικός πολιτισμός",
       "wrongAnswers": [
@@ -765,7 +765,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-084",
       "type": "single-choice",
       "prompt": "шведский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η σουηδική σημαία",
       "wrongAnswers": ["ο σουηδικός σημαία", "οι σουηδικοί σημαία", "οι σουηδικές σημαία"]
@@ -774,7 +774,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-085",
       "type": "single-choice",
       "prompt": "дорогие датчане",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Δανός\nМножественное число: οι Δανοί\n\nРод: мужской",
       "correctAnswer": "οι αγαπητοί Δανοί",
       "wrongAnswers": ["ο αγαπητός Δανοί", "η αγαπητή Δανοί", "οι αγαπητές Δανοί"]
@@ -783,7 +783,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-086",
       "type": "single-choice",
       "prompt": "европейская женщина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
       "correctAnswer": "η Ευρωπαία γυναίκα",
       "wrongAnswers": ["ο Ευρωπαίος γυναίκα", "το Ευρωπαίο γυναίκα", "οι Ευρωπαίοι γυναίκα"]
@@ -792,7 +792,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-087",
       "type": "single-choice",
       "prompt": "молодые португальцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Πορτογάλος\nМножественное число: οι Πορτογάλοι\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Πορτογάλοι",
       "wrongAnswers": ["ο νεαρός Πορτογάλοι", "η νεαρή Πορτογάλοι", "οι νεαρές Πορτογάλοι"]
@@ -801,7 +801,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-088",
       "type": "single-choice",
       "prompt": "молодой ирландец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ιρλανδός\nМножественное число: οι Ιρλανδοί\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Ιρλανδός",
       "wrongAnswers": ["οι νεαροί Ιρλανδός", "η νεαρή Ιρλανδός", "οι νεαρές Ιρλανδός"]
@@ -810,7 +810,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-089",
       "type": "single-choice",
       "prompt": "дорогие итальянцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ιταλός\nМножественное число: οι Ιταλοί\n\nРод: мужской",
       "correctAnswer": "οι αγαπητοί Ιταλοί",
       "wrongAnswers": ["ο αγαπητός Ιταλοί", "η αγαπητή Ιταλοί", "οι αγαπητές Ιταλοί"]
@@ -819,7 +819,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-090",
       "type": "single-choice",
       "prompt": "любимые африканцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αφρικανός\nМножественное число: οι Αφρικανοί\n\nРод: мужской",
       "correctAnswer": "οι αγαπημένοι Αφρικανοί",
       "wrongAnswers": ["ο αγαπημένος Αφρικανοί", "η αγαπημένη Αφρικανοί", "το αγαπημένο Αφρικανοί"]
@@ -828,7 +828,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-091",
       "type": "single-choice",
       "prompt": "хорошие австралийцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αυστραλός\nМножественное число: οι Αυστραλοί\n\nРод: мужской",
       "correctAnswer": "οι καλοί Αυστραλοί",
       "wrongAnswers": ["ο καλός Αυστραλοί", "η καλή Αυστραλοί", "οι καλές Αυστραλοί"]
@@ -837,7 +837,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-092",
       "type": "single-choice",
       "prompt": "американский мужчина",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο άνδρας\nМножественное число: οι άνδρες\n\nРод: мужской",
       "correctAnswer": "ο αμερικανός άνδρας",
       "wrongAnswers": ["η αμερικανίδα άνδρας", "το αμερικανό άνδρας", "οι αμερικανοί άνδρας"]
@@ -846,7 +846,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-093",
       "type": "single-choice",
       "prompt": "молодой японец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Γιαπωνέζος\nМножественное число: οι Γιαπωνέζοι\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Γιαπωνέζος",
       "wrongAnswers": ["οι νεαροί Γιαπωνέζος", "η νεαρή Γιαπωνέζος", "οι νεαρές Γιαπωνέζος"]
@@ -855,7 +855,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-094",
       "type": "single-choice",
       "prompt": "молодые норвежцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Νορβηγός\nМножественное число: οι Νορβηγοί\n\nРод: мужской",
       "correctAnswer": "οι νεαροί Νορβηγοί",
       "wrongAnswers": ["ο νεαρός Νορβηγοί", "η νεαρή Νορβηγοί", "οι νεαρές Νορβηγοί"]
@@ -864,7 +864,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-095",
       "type": "single-choice",
       "prompt": "албанские танцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χορός\nМножественное число: οι χοροί\n\nРод: мужской",
       "correctAnswer": "οι αλβανικοί χοροί",
       "wrongAnswers": ["ο αλβανικός χοροί", "η αλβανική χοροί", "οι αλβανικές χοροί"]
@@ -873,7 +873,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-096",
       "type": "single-choice",
       "prompt": "дорогой израильтянин",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ισραηλινός\nМножественное число: οι Ισραηλινοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Ισραηλινός",
       "wrongAnswers": ["οι αγαπητοί Ισραηλινός", "η αγαπητή Ισραηλινός", "οι αγαπητές Ισραηλινός"]
@@ -882,7 +882,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-097",
       "type": "single-choice",
       "prompt": "бразильские танцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χορός\nМножественное число: οι χοροί\n\nРод: мужской",
       "correctAnswer": "οι βραζιλιανικοί χοροί",
       "wrongAnswers": ["ο βραζιλιανικός χοροί", "η βραζιλιανική χοροί", "το βραζιλιανικό χοροί"]
@@ -891,7 +891,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-098",
       "type": "single-choice",
       "prompt": "дорогой новозеландец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ζηλανδός\nМножественное число: οι Ζηλανδοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπητός Ζηλανδός",
       "wrongAnswers": ["οι αγαπητοί Ζηλανδός", "η αγαπητή Ζηλανδός", "οι αγαπητές Ζηλανδός"]
@@ -900,7 +900,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-099",
       "type": "single-choice",
       "prompt": "греческое зарубежье",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το εξωτερικό\nМножественное число: τα εξωτερικά\n\nРод: средний",
       "correctAnswer": "το ελληνικό εξωτερικό",
       "wrongAnswers": ["ο ελληνικός εξωτερικό", "οι ελληνικοί εξωτερικό", "η ελληνική εξωτερικό"]
@@ -909,7 +909,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-100",
       "type": "single-choice",
       "prompt": "дорогая израильтянка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ισραηλινή\nМножественное число: οι Ισραηλινές\n\nРод: женский",
       "correctAnswer": "η αγαπητή Ισραηλινή",
       "wrongAnswers": ["ο αγαπητός Ισραηλινή", "οι αγαπητοί Ισραηλινή", "οι αγαπητές Ισραηλινή"]
@@ -918,7 +918,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-101",
       "type": "single-choice",
       "prompt": "любимые ирландские",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το ιρλανδικό\nМножественное число: τα ιρλανδικά\n\nРод: средний",
       "correctAnswer": "τα αγαπημένα ιρλανδικά",
       "wrongAnswers": ["ο αγαπημένος ιρλανδικά", "η αγαπημένη ιρλανδικά", "το αγαπημένο ιρλανδικά"]
@@ -927,7 +927,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-102",
       "type": "single-choice",
       "prompt": "канадские дома",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
       "correctAnswer": "τα καναδικά σπίτια",
       "wrongAnswers": ["ο καναδικός σπίτια", "οι καναδικοί σπίτια", "η καναδική σπίτια"]
@@ -936,7 +936,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-103",
       "type": "single-choice",
       "prompt": "дорогая новозеландка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ζηλανδή\nМножественное число: οι Ζηλανδές\n\nРод: женский",
       "correctAnswer": "η αγαπητή Ζηλανδή",
       "wrongAnswers": ["ο αγαπητός Ζηλανδή", "οι αγαπητοί Ζηλανδή", "οι αγαπητές Ζηλανδή"]
@@ -945,7 +945,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-104",
       "type": "single-choice",
       "prompt": "любимая ирландка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ιρλανδή\nМножественное число: οι Ιρλανδές\n\nРод: женский",
       "correctAnswer": "η αγαπημένη Ιρλανδή",
       "wrongAnswers": ["ο αγαπημένος Ιρλανδή", "το αγαπημένο Ιρλανδή", "οι αγαπημένοι Ιρλανδή"]
@@ -954,7 +954,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-105",
       "type": "single-choice",
       "prompt": "любимый голландец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Ολλανδός\nМножественное число: οι Ολλανδοί\n\nРод: мужской",
       "correctAnswer": "ο αγαπημένος Ολλανδός",
       "wrongAnswers": ["η αγαπημένη Ολλανδός", "το αγαπημένο Ολλανδός", "οι αγαπημένοι Ολλανδός"]
@@ -963,7 +963,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-106",
       "type": "single-choice",
       "prompt": "итальянские дома",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
       "correctAnswer": "τα ιταλικά σπίτια",
       "wrongAnswers": ["ο ιταλικός σπίτια", "οι ιταλικοί σπίτια", "η ιταλική σπίτια"]
@@ -972,7 +972,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-107",
       "type": "single-choice",
       "prompt": "молодой норвежец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Νορβηγός\nМножественное число: οι Νορβηγοί\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Νορβηγός",
       "wrongAnswers": ["οι νεαροί Νορβηγός", "η νεαρή Νορβηγός", "οι νεαρές Νορβηγός"]
@@ -981,7 +981,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-108",
       "type": "single-choice",
       "prompt": "греческая национальность",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εθνικότητα\nМножественное число: οι εθνικότητες\n\nРод: женский",
       "correctAnswer": "η ελληνική εθνικότητα",
       "wrongAnswers": [
@@ -994,7 +994,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-109",
       "type": "single-choice",
       "prompt": "американские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι αμερικανικές σημαίες",
       "wrongAnswers": ["ο αμερικανικός σημαίες", "οι αμερικανικοί σημαίες", "η αμερικανική σημαίες"]
@@ -1003,7 +1003,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-110",
       "type": "single-choice",
       "prompt": "дорогая канадка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Καναδή\nМножественное число: οι Καναδές\n\nРод: женский",
       "correctAnswer": "η αγαπητή Καναδή",
       "wrongAnswers": ["ο αγαπητός Καναδή", "οι αγαπητοί Καναδή", "οι αγαπητές Καναδή"]
@@ -1012,7 +1012,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-111",
       "type": "single-choice",
       "prompt": "молодой финн",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Φινλανδός\nМножественное число: οι Φινλανδοί\n\nРод: мужской",
       "correctAnswer": "ο νεαρός Φινλανδός",
       "wrongAnswers": ["οι νεαροί Φινλανδός", "η νεαρή Φινλανδός", "οι νεαρές Φινλανδός"]
@@ -1021,7 +1021,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-112",
       "type": "single-choice",
       "prompt": "молодой бельгиец",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Βέλγος\nМножественное число: οι Βέλγοι\n\nРод: мужской",
       "correctAnswer": "ο νέος Βέλγος",
       "wrongAnswers": ["οι νέοι Βέλγος", "η νέα Βέλγος", "οι νέες Βέλγος"]
@@ -1030,7 +1030,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-113",
       "type": "single-choice",
       "prompt": "русская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο ρωσικός χάρτης",
       "wrongAnswers": ["η ρωσική χάρτης", "το ρωσικό χάρτης", "οι ρωσικοί χάρτης"]
@@ -1039,7 +1039,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-114",
       "type": "single-choice",
       "prompt": "шведская карта",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
       "correctAnswer": "ο σουηδικός χάρτης",
       "wrongAnswers": ["οι σουηδικοί χάρτης", "η σουηδική χάρτης", "οι σουηδικές χάρτης"]
@@ -1048,7 +1048,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-115",
       "type": "single-choice",
       "prompt": "голландский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η ολλανδική σημαία",
       "wrongAnswers": ["ο ολλανδικός σημαία", "οι ολλανδικοί σημαία", "οι ολλανδικές σημαία"]
@@ -1057,7 +1057,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-116",
       "type": "single-choice",
       "prompt": "молодые албанки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αλβανίδα\nМножественное число: οι Αλβανίδες\n\nРод: женский",
       "correctAnswer": "οι νεαρές Αλβανίδες",
       "wrongAnswers": ["ο νεαρός Αλβανίδες", "οι νεαροί Αλβανίδες", "η νεαρή Αλβανίδες"]
@@ -1066,7 +1066,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-117",
       "type": "single-choice",
       "prompt": "ирландский флаг",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "η ιρλανδική σημαία",
       "wrongAnswers": ["ο ιρλανδικός σημαία", "οι ιρλανδικοί σημαία", "οι ιρλανδικές σημαία"]
@@ -1075,7 +1075,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-118",
       "type": "single-choice",
       "prompt": "молодая англичанка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αγγλίδα\nМножественное число: οι Αγγλίδες\n\nРод: женский",
       "correctAnswer": "η νέα Αγγλίδα",
       "wrongAnswers": ["ο νέος Αγγλίδα", "οι νέοι Αγγλίδα", "οι νέες Αγγλίδα"]
@@ -1084,7 +1084,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-119",
       "type": "single-choice",
       "prompt": "важная культура",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο πολιτισμός\nМножественное число: οι πολιτισμοί\n\nРод: мужской",
       "correctAnswer": "ο σημαντικός πολιτισμός",
       "wrongAnswers": [
@@ -1097,7 +1097,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-120",
       "type": "single-choice",
       "prompt": "молодые бельгийцы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Βέλγος\nМножественное число: οι Βέλγοι\n\nРод: мужской",
       "correctAnswer": "οι νέοι Βέλγοι",
       "wrongAnswers": ["ο νέος Βέλγοι", "η νέα Βέλγοι", "οι νέες Βέλγοι"]
@@ -1106,7 +1106,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-121",
       "type": "single-choice",
       "prompt": "молодая египтянка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Αιγύπτια\nМножественное число: οι Αιγύπτιες\n\nРод: женский",
       "correctAnswer": "η νεαρή Αιγύπτια",
       "wrongAnswers": ["ο νεαρός Αιγύπτια", "οι νεαροί Αιγύπτια", "οι νεαρές Αιγύπτια"]
@@ -1115,7 +1115,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-122",
       "type": "single-choice",
       "prompt": "шведские флаги",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
       "correctAnswer": "οι σουηδικές σημαίες",
       "wrongAnswers": ["ο σουηδικός σημαίες", "οι σουηδικοί σημαίες", "η σουηδική σημαίες"]
@@ -1124,7 +1124,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-123",
       "type": "single-choice",
       "prompt": "дорогие армяне",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Αρμένιος\nМножественное число: οι Αρμένιοι\n\nРод: мужской",
       "correctAnswer": "οι αγαπητοί Αρμένιοι",
       "wrongAnswers": ["ο αγαπητός Αρμένιοι", "η αγαπητή Αρμένιοι", "οι αγαπητές Αρμένιοι"]
@@ -1133,7 +1133,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-124",
       "type": "single-choice",
       "prompt": "дорогие французы",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Γάλλος\nМножественное число: οι Γάλλοι\n\nРод: мужской",
       "correctAnswer": "οι αγαπητοί Γάλλοι",
       "wrongAnswers": ["ο αγαπητός Γάλλοι", "η αγαπητή Γάλλοι", "οι αγαπητές Γάλλοι"]
@@ -1142,7 +1142,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-125",
       "type": "single-choice",
       "prompt": "новые бельгийки",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Βελγίδα\nМножественное число: οι Βελγίδες\n\nРод: женский",
       "correctAnswer": "οι νέες Βελγίδες",
       "wrongAnswers": ["ο νέος Βελγίδες", "οι νέοι Βελγίδες", "η νέα Βελγίδες"]
@@ -1151,7 +1151,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-126",
       "type": "single-choice",
       "prompt": "разные национальности",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η εθνικότητα\nМножественное число: οι εθνικότητες\n\nРод: женский",
       "correctAnswer": "οι διαφορετικές εθνικότητες",
       "wrongAnswers": [
@@ -1164,7 +1164,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-127",
       "type": "single-choice",
       "prompt": "дорогая итальянка",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: η Ιταλίδα\nМножественное число: οι Ιταλίδες\n\nРод: женский",
       "correctAnswer": "η αγαπητή Ιταλίδα",
       "wrongAnswers": ["ο αγαπητός Ιταλίδα", "οι αγαπητοί Ιταλίδα", "οι αγαπητές Ιταλίδα"]
@@ -1173,7 +1173,7 @@
       "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-128",
       "type": "single-choice",
       "prompt": "хороший турок",
-      "promptLanguage": "ru",
+      "speechTarget": "options",
       "hint": "Единственное число: ο Τούρκος\nМножественное число: οι Τούρκοι\n\nРод: мужской",
       "correctAnswer": "ο καλός Τούρκος",
       "wrongAnswers": ["οι καλοί Τούρκος", "η καλή Τούρκος", "οι καλές Τούρκος"]
