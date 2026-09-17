@@ -15,7 +15,7 @@
         "Εγώ ακολουθούμε τον οδηγό"
       ]
     },
-
+    {
       "id": "verbs-movement-travel-002",
       "type": "single-choice",
       "prompt": "Ты следуешь по маршруту на карте",

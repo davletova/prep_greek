@@ -8,8 +8,8 @@
   {
     "id": "verbs-home-daily-life",
     "title": "Дом, быт и повседневные действия",
-    "subtitle": "Домашние дела и ежедневные занятия",
-    "disabled": true
+    "subtitle": "Выберите правильную форму глагола",
+    "fileName": "home-daily-life.json"
   },
   {
     "id": "verbs-food-shopping",
