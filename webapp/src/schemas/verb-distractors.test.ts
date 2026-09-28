@@ -57,9 +57,13 @@ describe("verb exercise distractors", () => {
         if (!row) throw new Error(`Missing source at line ${index}`);
         const [form, personLabel] = row.split(" — ");
         const person = persons.indexOf(personLabel ?? "");
-        const lemma = item.hint?.match(/форма глагола \*\*(.*?)\*\*/u)?.[1];
-        if (!form || !lemma || person < 0) throw new Error(`Invalid source or hint: ${item.id}`);
-        expect(conjugations.get(lemma)?.[person]).toBe(form);
+        if (!form || person < 0) throw new Error(`Invalid source: ${item.id}`);
+        const matchingLemmas = [...conjugations].filter(
+          ([, paradigm]) => paradigm[person] === form
+        );
+        expect(matchingLemmas).toHaveLength(1);
+        const lemma = matchingLemmas[0]?.[0];
+        if (!lemma) throw new Error(`Unattested verb: ${item.id}`);
         expect(item.correctAnswer.split(" ")).toContain(form);
         const answer = item.correctAnswer.split(" ");
         const verbIndex = answer.indexOf(form);
@@ -96,7 +100,56 @@ describe("verb exercise distractors", () => {
       }
       expect(new Set(lemmas).size).toBe(4);
       expect(new Set(people).size).toBe(4);
-      expect(item.hint).toContain("не согласуются с этим подлежащим");
+      expect(item.hint).not.toContain("отдельно не переводится");
+      expect(item.hint).not.toContain("Во всех вариантах подлежащее одинаковое");
+      expect(item.hint).not.toMatch(/[123]-е лицо/u);
+
+      const wordSection = item.hint?.split("**Перевод каждого слова:**\n")[1]?.split("\n\n")[0];
+      const wordLines = wordSection?.split("\n") ?? [];
+      const greekWords = item.correctAnswer.split(" ");
+      expect(wordLines).toHaveLength(greekWords.length);
+      for (const [index, word] of greekWords.entries()) {
+        expect(wordLines[index]).toMatch(new RegExp(`^- \\*\\*${word}\\*\\* — .+\\.$`, "u"));
+        if (
+          [
+            "Ο",
+            "Η",
+            "Οι",
+            "Τα",
+            "το",
+            "τον",
+            "τη",
+            "την",
+            "του",
+            "της",
+            "τα",
+            "τις",
+            "ένα",
+            "έναν",
+            "μια",
+            "στο",
+            "στον",
+            "στη",
+            "στην",
+            "στα",
+            "στις",
+            "στους",
+          ].includes(word) &&
+          !["της", "τους"].includes(word)
+        ) {
+          expect(wordLines[index]).toContain("артикль");
+        }
+      }
+      const verbSection = item.hint
+        ?.split("**Глаголы в неверных ответах:**\n")[1]
+        ?.split("\n\n")[0];
+      const verbLines = verbSection?.split("\n") ?? [];
+      expect(verbLines).toHaveLength(3);
+      for (const [index, wrong] of item.wrongAnswers.entries()) {
+        const verb = wrong.split(" ")[subject.length];
+        expect(verbLines[index]).toBeDefined();
+        expect(verbLines[index]).toMatch(new RegExp(`^- \\*\\*${verb}\\*\\* — «[^»]+»\\.$`, "u"));
+      }
     }
     expect(exercises).toHaveLength(569);
   });
