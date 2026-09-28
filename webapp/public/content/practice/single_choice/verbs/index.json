@@ -15,37 +15,37 @@
     "id": "verbs-food-shopping",
     "title": "Еда, приготовление пищи и покупки",
     "subtitle": "Продукты, готовка, магазины и оплата",
-    "disabled": true
+    "fileName": "food-shopping.json"
   },
   {
     "id": "verbs-communication-information",
     "title": "Общение и передача информации",
     "subtitle": "Разговоры, вопросы и обмен информацией",
-    "disabled": true
+    "fileName": "communication-information.json"
   },
   {
     "id": "verbs-study-work",
     "title": "Учёба, работа и выполнение заданий",
     "subtitle": "Обучение, профессии и рабочие действия",
-    "disabled": true
+    "fileName": "study-work.json"
   },
   {
     "id": "verbs-thinking-decisions",
     "title": "Мысли, знания и принятие решений",
     "subtitle": "Понимание, выбор и размышления",
-    "disabled": true
+    "fileName": "thinking-decisions.json"
   },
   {
     "id": "verbs-feelings-relationships",
     "title": "Чувства, желания и отношения",
     "subtitle": "Эмоции и взаимодействие с людьми",
-    "disabled": true
+    "fileName": "feelings-relationships.json"
   },
   {
     "id": "verbs-health-rest-activity",
     "title": "Тело, здоровье, отдых и физическая активность",
     "subtitle": "Самочувствие, спорт и восстановление",
-    "disabled": true
+    "fileName": "health-rest-activity.json"
   },
   {
     "id": "verbs-changes-actions-with-objects",
@@ -57,12 +57,12 @@
     "id": "verbs-nature-environment",
     "title": "Природа, погода и окружающий мир",
     "subtitle": "Погодные явления и природные процессы",
-    "disabled": true
+    "fileName": "nature-environment.json"
   },
   {
     "id": "verbs-misc",
     "title": "Разное",
     "subtitle": "Глаголы общего употребления",
-    "disabled": true
+    "fileName": "misc.json"
   }
 ]
