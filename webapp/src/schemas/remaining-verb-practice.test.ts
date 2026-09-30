@@ -67,7 +67,10 @@ describe("remaining verb practice topics", () => {
       const collection = exerciseCollectionSchema.parse(content);
       expect(collection.items).toHaveLength(source.length);
       total += collection.items.length;
-      const predicates = new Set<string>();
+      // This removed exercise remains only as an intentionally incorrect distractor.
+      const predicates = new Set<string>(
+        theme === "nature-environment" ? ["διαρκώ περισσότερο από τους άλλους"] : []
+      );
       const exercises = [];
       for (const [index, item] of collection.items.entries()) {
         if (item.type !== "single-choice") throw new Error(`Wrong type: ${item.id}`);
@@ -136,6 +139,6 @@ describe("remaining verb practice topics", () => {
         }
       }
     }
-    expect(total).toBe(1197);
+    expect(total).toBe(1196);
   });
 });

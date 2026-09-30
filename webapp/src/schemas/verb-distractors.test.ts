@@ -151,6 +151,6 @@ describe("verb exercise distractors", () => {
         expect(verbLines[index]).toMatch(new RegExp(`^- \\*\\*${verb}\\*\\* — «[^»]+»\\.$`, "u"));
       }
     }
-    expect(exercises).toHaveLength(569);
+    expect(exercises).toHaveLength(568);
   });
 });
