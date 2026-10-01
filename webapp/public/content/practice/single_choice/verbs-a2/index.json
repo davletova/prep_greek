@@ -1,0 +1,68 @@
+[
+  {
+    "id": "verbs-a2-movement-travel",
+    "title": "Движение, направление и путешествия",
+    "subtitle": "Выберите правильную форму глагола",
+    "fileName": "movement-travel.json"
+  },
+  {
+    "id": "verbs-a2-home-daily-life",
+    "title": "Дом, быт и повседневные действия",
+    "subtitle": "Выберите правильную форму глагола",
+    "fileName": "home-daily-life.json"
+  },
+  {
+    "id": "verbs-a2-food-shopping",
+    "title": "Еда, приготовление пищи и покупки",
+    "subtitle": "Продукты, готовка, магазины и оплата",
+    "fileName": "food-shopping.json"
+  },
+  {
+    "id": "verbs-a2-communication-information",
+    "title": "Общение и передача информации",
+    "subtitle": "Разговоры, вопросы и обмен информацией",
+    "fileName": "communication-information.json"
+  },
+  {
+    "id": "verbs-a2-study-work",
+    "title": "Учёба, работа и выполнение заданий",
+    "subtitle": "Обучение, профессии и рабочие действия",
+    "fileName": "study-work.json"
+  },
+  {
+    "id": "verbs-a2-thinking-decisions",
+    "title": "Мысли, знания и принятие решений",
+    "subtitle": "Понимание, выбор и размышления",
+    "fileName": "thinking-decisions.json"
+  },
+  {
+    "id": "verbs-a2-feelings-relationships",
+    "title": "Чувства, желания и отношения",
+    "subtitle": "Эмоции и взаимодействие с людьми",
+    "fileName": "feelings-relationships.json"
+  },
+  {
+    "id": "verbs-a2-health-rest-activity",
+    "title": "Тело, здоровье, отдых и физическая активность",
+    "subtitle": "Самочувствие, спорт и восстановление",
+    "fileName": "health-rest-activity.json"
+  },
+  {
+    "id": "verbs-a2-changes-actions-with-objects",
+    "title": "Изменения, создание и действия с предметами",
+    "subtitle": "Выберите правильную форму глагола",
+    "fileName": "changes-actions-with-objects.json"
+  },
+  {
+    "id": "verbs-a2-nature-environment",
+    "title": "Природа, погода и окружающий мир",
+    "subtitle": "Погодные явления и природные процессы",
+    "fileName": "nature-environment.json"
+  },
+  {
+    "id": "verbs-a2-misc",
+    "title": "Разное",
+    "subtitle": "Глаголы общего употребления",
+    "fileName": "misc.json"
+  }
+]

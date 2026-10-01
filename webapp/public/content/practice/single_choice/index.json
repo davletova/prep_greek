@@ -12,10 +12,16 @@
     "fileName": "greek-pronouns.json"
   },
   {
-    "id": "verbs",
-    "title": "Глаголы",
+    "id": "verbs-a1",
+    "title": "Глаголы A1",
     "subtitle": "Выберите тему",
-    "indexFileName": "verbs/index.json"
+    "indexFileName": "verbs-a1/index.json"
+  },
+  {
+    "id": "verbs-a2",
+    "title": "Глаголы A2",
+    "subtitle": "Выберите тему",
+    "indexFileName": "verbs-a2/index.json"
   },
   {
     "id": "popular-greek-verbs",

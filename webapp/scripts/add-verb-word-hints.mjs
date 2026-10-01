@@ -4,8 +4,8 @@ import { fileURLToPath } from "node:url";
 
 const webappRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const themes = ["changes-actions-with-objects", "movement-travel", "home-daily-life"];
-const contentDir = resolve(webappRoot, "public/content/practice/single_choice/verbs");
 const sourceDir = resolve(webappRoot, "content-source/verbs");
+const contentDir = resolve(sourceDir, "practice");
 
 const glossary = new Map();
 for (const line of (await readFile(resolve(sourceDir, "word-glosses.tmp.txt"), "utf8"))

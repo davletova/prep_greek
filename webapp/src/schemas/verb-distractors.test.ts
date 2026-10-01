@@ -31,10 +31,9 @@ async function paradigms(): Promise<Map<string, string[]>> {
 }
 
 describe("verb exercise distractors", () => {
-  it("uses one subject with four different verbs and persons in every exercise", async () => {
+  it("changes only the target verb and translates every distractor", async () => {
     const conjugations = await paradigms();
     const exercises = [];
-    const attested = new Map<string, Array<{ lemma: string; person: number; prompt: string }>>();
 
     for (const topic of topics) {
       const source = (
@@ -43,10 +42,7 @@ describe("verb exercise distractors", () => {
         .trim()
         .split(/\r?\n/u);
       const content: unknown = JSON.parse(
-        await readFile(
-          resolve(root, `public/content/practice/single_choice/verbs/${topic}.json`),
-          "utf8"
-        )
+        await readFile(resolve(root, `content-source/verbs/practice/${topic}.json`), "utf8")
       );
       const collection = exerciseCollectionSchema.parse(content);
       expect(collection.items).toHaveLength(source.length);
@@ -68,38 +64,30 @@ describe("verb exercise distractors", () => {
         const answer = item.correctAnswer.split(" ");
         const verbIndex = answer.indexOf(form);
         expect(verbIndex).toBeGreaterThan(0);
-        const predicate = answer.slice(verbIndex).join(" ");
-        const group = attested.get(predicate) ?? [];
-        group.push({ lemma, person, prompt: item.prompt });
-        attested.set(predicate, group);
-        exercises.push({ item, lemma, person, subject: answer.slice(0, verbIndex) });
+        exercises.push({ item, lemma, person, verbIndex });
       }
     }
 
-    for (const { item, lemma, person, subject } of exercises) {
+    for (const { item, lemma, person, verbIndex } of exercises) {
       expect(item.wrongAnswers).toHaveLength(3);
       const answers = [item.correctAnswer, ...item.wrongAnswers];
       expect(new Set(answers).size).toBe(4);
-      const lemmas = [lemma];
-      const people = [person];
+      const correctWords = item.correctAnswer.split(" ");
       for (const wrong of item.wrongAnswers) {
         const words = wrong.split(" ");
-        expect(words.slice(0, subject.length)).toEqual(subject);
-        const predicate = words.slice(subject.length).join(" ");
-        // The predicate comes from a real Greek example in a different person;
-        // only its subject is replaced to make agreement incorrect.
-        const candidates = attested.get(predicate) ?? [];
-        expect(candidates).toHaveLength(1);
-        const candidate = candidates[0];
-        if (!candidate) throw new Error(`Unattested predicate: ${predicate}`);
-        expect(words[subject.length]).toBe(conjugations.get(candidate.lemma)?.[candidate.person]);
-        expect(candidate.person).not.toBe(person);
-        expect(candidate.prompt).not.toBe(item.prompt);
-        lemmas.push(candidate.lemma);
-        people.push(candidate.person);
+        expect(words).toHaveLength(correctWords.length);
+        expect(
+          words.flatMap((word, index) => (word !== correctWords[index] ? [index] : []))
+        ).toEqual([verbIndex]);
+        const candidates = [...conjugations].filter(([, paradigm]) =>
+          paradigm.includes(words[verbIndex] ?? "")
+        );
+        expect(candidates).not.toHaveLength(0);
+        // The same lemma is allowed only in an incorrect person/number.
+        if (conjugations.get(lemma)?.includes(words[verbIndex] ?? "")) {
+          expect(words[verbIndex]).not.toBe(conjugations.get(lemma)?.[person]);
+        }
       }
-      expect(new Set(lemmas).size).toBe(4);
-      expect(new Set(people).size).toBe(4);
       expect(item.hint).not.toContain("отдельно не переводится");
       expect(item.hint).not.toContain("Во всех вариантах подлежащее одинаковое");
       expect(item.hint).not.toMatch(/[123]-е лицо/u);
@@ -146,7 +134,7 @@ describe("verb exercise distractors", () => {
       const verbLines = verbSection?.split("\n") ?? [];
       expect(verbLines).toHaveLength(3);
       for (const [index, wrong] of item.wrongAnswers.entries()) {
-        const verb = wrong.split(" ")[subject.length];
+        const verb = wrong.split(" ")[verbIndex];
         expect(verbLines[index]).toBeDefined();
         expect(verbLines[index]).toMatch(new RegExp(`^- \\*\\*${verb}\\*\\* — «[^»]+»\\.$`, "u"));
       }

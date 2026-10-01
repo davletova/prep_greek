@@ -59,18 +59,11 @@ describe("remaining verb practice topics", () => {
         .trim()
         .split(/\r?\n/u);
       const content: unknown = JSON.parse(
-        await readFile(
-          resolve(root, `public/content/practice/single_choice/verbs/${theme}.json`),
-          "utf8"
-        )
+        await readFile(resolve(root, `content-source/verbs/practice/${theme}.json`), "utf8")
       );
       const collection = exerciseCollectionSchema.parse(content);
       expect(collection.items).toHaveLength(source.length);
       total += collection.items.length;
-      // This removed exercise remains only as an intentionally incorrect distractor.
-      const predicates = new Set<string>(
-        theme === "nature-environment" ? ["διαρκώ περισσότερο από τους άλλους"] : []
-      );
       const exercises = [];
       for (const [index, item] of collection.items.entries()) {
         if (item.type !== "single-choice") throw new Error(`Wrong type: ${item.id}`);
@@ -94,15 +87,19 @@ describe("remaining verb practice topics", () => {
         expect(item.correctAnswer).toContain(`${subject} `);
         expect(item.correctAnswer.split(" ")).toContain(form);
         expect(item.speechTarget).toBe("correctAnswer");
-        const predicate = item.correctAnswer.slice(subject.length + 1);
-        predicates.add(predicate);
-        exercises.push({ item, person, lemma, subject, predicate });
+        exercises.push({
+          item,
+          person,
+          lemma,
+          subject,
+          verbIndex: item.correctAnswer.split(" ").indexOf(form),
+        });
       }
-      for (const { item, person, lemma, subject } of exercises) {
+      for (const { item, person, lemma, subject, verbIndex } of exercises) {
         expect(item.wrongAnswers).toHaveLength(3);
         expect(new Set([item.correctAnswer, ...item.wrongAnswers]).size).toBe(4);
-        const lemmas = new Set([lemma]);
-        const usedPersons = new Set(person < 0 ? [] : [person]);
+        const correctWords = item.correctAnswer.split(" ");
+        const lemmaCounts = new Map<string, number>();
         const verbSection = item.hint
           ?.split("**Глаголы в неверных ответах:**\n")[1]
           ?.split("\n\n")[0];
@@ -110,23 +107,27 @@ describe("remaining verb practice topics", () => {
         expect(verbLines).toHaveLength(3);
         for (const [index, wrong] of item.wrongAnswers.entries()) {
           expect(wrong.startsWith(`${subject} `)).toBe(true);
-          const predicate = wrong.slice(subject.length + 1);
-          expect(predicates.has(predicate)).toBe(true);
-          const words = predicate.split(" ");
-          const form = words[0] === "τα" ? words[1] : words[0];
+          const words = wrong.split(" ");
+          expect(words).toHaveLength(correctWords.length);
+          expect(
+            words.flatMap((word, position) => (word !== correctWords[position] ? [position] : []))
+          ).toEqual([verbIndex]);
+          const form = words[verbIndex];
           if (!form) throw new Error(`No wrong verb in ${item.id}`);
           const candidates = forms.get(form) ?? [];
           expect(candidates).not.toHaveLength(0);
           const candidate = candidates[0];
           if (!candidate) throw new Error(`Unknown verb in ${item.id}`);
-          expect(lemmas.has(candidate.lemma)).toBe(false);
-          expect(usedPersons.has(candidate.person)).toBe(false);
+          if (candidate.lemma === lemma) {
+            expect(candidates.some((entry) => entry.person === person)).toBe(false);
+          }
+          const count = (lemmaCounts.get(candidate.lemma) ?? 0) + 1;
+          lemmaCounts.set(candidate.lemma, count);
+          // At most two forms of an alternative verb; all three may instead
+          // test agreement of the original verb in hard-to-replace expressions.
+          if (candidate.lemma !== lemma) expect(count).toBeLessThanOrEqual(2);
           expect(verbLines[index]).toMatch(new RegExp(`^- \\*\\*${form}\\*\\* — «[^»]+»\\.$`, "u"));
-          lemmas.add(candidate.lemma);
-          usedPersons.add(candidate.person);
         }
-        expect(lemmas.size).toBe(4);
-        if (person >= 0) expect(usedPersons.size).toBe(4);
         expect(item.hint).not.toContain("отдельно не переводится");
         expect(item.hint).not.toContain("Во всех вариантах подлежащее одинаковое");
         expect(item.hint).not.toMatch(/[123]-е лицо/u);

@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const sourceDir = resolve(root, "content-source/verbs");
-const contentDir = resolve(root, "public/content/practice/single_choice/verbs");
+const contentDir = resolve(sourceDir, "practice");
 const themes = [
   "food-shopping",
   "communication-information",
