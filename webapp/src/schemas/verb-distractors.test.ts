@@ -63,7 +63,7 @@ describe("verb exercise distractors", () => {
         expect(item.correctAnswer.split(" ")).toContain(form);
         const answer = item.correctAnswer.split(" ");
         const verbIndex = answer.indexOf(form);
-        expect(verbIndex).toBeGreaterThan(0);
+        expect(verbIndex).toBeGreaterThanOrEqual(0);
         exercises.push({ item, lemma, person, verbIndex });
       }
     }
@@ -94,7 +94,9 @@ describe("verb exercise distractors", () => {
 
       const wordSection = item.hint?.split("**Перевод каждого слова:**\n")[1]?.split("\n\n")[0];
       const wordLines = wordSection?.split("\n") ?? [];
-      const greekWords = item.correctAnswer.split(" ");
+      const greekWords = (
+        item.translation ? item.prompt.replace("_______", item.correctAnswer) : item.correctAnswer
+      ).split(" ");
       expect(wordLines).toHaveLength(greekWords.length);
       for (const [index, word] of greekWords.entries()) {
         expect(wordLines[index]).toMatch(new RegExp(`^- \\*\\*${word}\\*\\* — .+\\.$`, "u"));

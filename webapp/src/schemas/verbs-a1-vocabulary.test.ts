@@ -100,7 +100,13 @@ describe("A1 verb sentence vocabulary", () => {
         if (item.type !== "single-choice") throw new Error(`Unexpected type: ${item.id}`);
         const target = targetById.get(item.id);
         if (!target) throw new Error(`Missing original verb: ${item.id}`);
-        const words = item.correctAnswer.split(" ");
+        expect(item.correctAnswer, item.id).toBe(target);
+        expect(
+          item.prompt.split(" ").filter((word) => word === "_______"),
+          item.id
+        ).toHaveLength(1);
+        const sentence = item.prompt.replace("_______", item.correctAnswer);
+        const words = sentence.split(" ");
         expect(
           words.filter((word) => word === target),
           item.id
@@ -111,10 +117,10 @@ describe("A1 verb sentence vocabulary", () => {
           otherWords.filter((word) => replacedVocabulary.has(word)),
           item.id
         ).toEqual([]);
-        expect(
-          item.hint?.startsWith(`**${item.correctAnswer}** — «${item.prompt}».`),
-          item.id
-        ).toBe(true);
+        expect(item.translation, item.id).toBeTruthy();
+        expect(item.hint?.startsWith(`**${sentence}** — «${item.translation}».`), item.id).toBe(
+          true
+        );
         const wordHints = item.hint
           ?.split("**Перевод каждого слова:**\n")[1]
           ?.split("\n\n")[0]
@@ -127,16 +133,10 @@ describe("A1 verb sentence vocabulary", () => {
         );
         const verbHints = item.hint?.split("**Глаголы в неверных ответах:**\n")[1]?.split("\n");
         expect(verbHints, item.id).toHaveLength(3);
+        expect(new Set([item.correctAnswer, ...item.wrongAnswers]).size, item.id).toBe(4);
         item.wrongAnswers.forEach((answer, index) => {
-          const wrongWords = answer.split(" ");
-          expect(wrongWords, item.id).toHaveLength(words.length);
-          expect(
-            wrongWords.flatMap((word, wordIndex) => (word !== words[wordIndex] ? [wordIndex] : [])),
-            item.id
-          ).toEqual([position]);
-          expect(verbHints?.[index]?.startsWith(`- **${wrongWords[position]}** — `), item.id).toBe(
-            true
-          );
+          expect(answer, item.id).toMatch(/^\S+$/u);
+          expect(verbHints?.[index]?.startsWith(`- **${answer}** — `), item.id).toBe(true);
         });
         count++;
       }

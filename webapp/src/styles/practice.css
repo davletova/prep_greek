@@ -73,6 +73,16 @@
   font-weight: 600;
 }
 
+.practice-card__blank {
+  display: inline-block;
+  width: 3.5em;
+  height: 1em;
+  overflow: hidden;
+  vertical-align: baseline;
+  border-bottom: 2px solid currentColor;
+  text-indent: -9999px;
+}
+
 .practice-card__translation-hint {
   margin: 0;
   text-align: center;

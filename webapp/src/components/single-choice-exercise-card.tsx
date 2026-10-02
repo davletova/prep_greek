@@ -66,7 +66,19 @@ export default function SingleChoiceExerciseCard({
       ) : null}
 
       <div className="practice-card__prompt-block">
-        <p className="practice-card__question">{question.prompt}</p>
+        <p className="practice-card__question">
+          <span>
+            {question.prompt.split(/(_{7})/u).map((part, index) =>
+              part === "_______" ? (
+                <span key={index} className="practice-card__blank" aria-label="Пропуск">
+                  {part}
+                </span>
+              ) : (
+                part
+              )
+            )}
+          </span>
+        </p>
         {translationHint ? (
           <p className="practice-card__translation-hint" aria-label={`Перевод: ${translationHint}`}>
             {translationHint}

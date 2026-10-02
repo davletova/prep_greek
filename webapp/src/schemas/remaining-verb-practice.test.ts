@@ -84,7 +84,7 @@ describe("remaining verb practice topics", () => {
                 ? "Οι γυναίκες"
                 : greekSubjects[person];
         if (!subject) throw new Error(`Missing subject: ${item.id}`);
-        expect(item.correctAnswer).toContain(`${subject} `);
+        expect(item.translation ? item.prompt : item.correctAnswer).toContain(`${subject} `);
         expect(item.correctAnswer.split(" ")).toContain(form);
         expect(item.speechTarget).toBe("correctAnswer");
         exercises.push({
@@ -106,7 +106,7 @@ describe("remaining verb practice topics", () => {
         const verbLines = verbSection?.split("\n") ?? [];
         expect(verbLines).toHaveLength(3);
         for (const [index, wrong] of item.wrongAnswers.entries()) {
-          expect(wrong.startsWith(`${subject} `)).toBe(true);
+          if (!item.translation) expect(wrong.startsWith(`${subject} `)).toBe(true);
           const words = wrong.split(" ");
           expect(words).toHaveLength(correctWords.length);
           expect(
@@ -133,7 +133,9 @@ describe("remaining verb practice topics", () => {
         expect(item.hint).not.toMatch(/[123]-е лицо/u);
         const wordSection = item.hint?.split("**Перевод каждого слова:**\n")[1]?.split("\n\n")[0];
         const wordLines = wordSection?.split("\n") ?? [];
-        const greekWords = item.correctAnswer.split(" ");
+        const greekWords = (
+          item.translation ? item.prompt.replace("_______", item.correctAnswer) : item.correctAnswer
+        ).split(" ");
         expect(wordLines).toHaveLength(greekWords.length);
         for (const [index, word] of greekWords.entries()) {
           expect(wordLines[index]).toMatch(new RegExp(`^- \\*\\*${word}\\*\\* — .+\\.$`, "u"));
