@@ -1,0 +1,468 @@
+{
+  "title": "Учёба, уроки и задания",
+  "subtitle": "Закрепите род и число в учебной лексике",
+  "items": [
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-002",
+      "type": "single-choice",
+      "prompt": "правильные ответы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η απάντηση\nМножественное число: οι απαντήσεις\n\nРод: женский",
+      "correctAnswer": "οι σωστές απαντήσεις",
+      "wrongAnswers": [
+        "ο σωστός απαντήσεις",
+        "οι σωστοί απαντήσεις",
+        "η σωστή απαντήσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-005",
+      "type": "single-choice",
+      "prompt": "последний урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το τελευταίο μάθημα",
+      "wrongAnswers": [
+        "ο τελευταίος μάθημα",
+        "οι τελευταίοι μάθημα",
+        "η τελευταία μάθημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-006",
+      "type": "single-choice",
+      "prompt": "правильные примеры",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παράδειγμα\nМножественное число: τα παραδείγματα\n\nРод: средний",
+      "correctAnswer": "τα σωστά παραδείγματα",
+      "wrongAnswers": [
+        "ο σωστός παραδείγματα",
+        "οι σωστοί παραδείγματα",
+        "η σωστή παραδείγματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-007",
+      "type": "single-choice",
+      "prompt": "девятый урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το ένατο μάθημα",
+      "wrongAnswers": ["ο ένατος μάθημα", "η ένατη μάθημα", "οι ένατοι μάθημα"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-008",
+      "type": "single-choice",
+      "prompt": "первые уроки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα πρώτα μαθήματα",
+      "wrongAnswers": [
+        "ο πρώτος μαθήματα",
+        "οι πρώτοι μαθήματα",
+        "η πρώτη μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-012",
+      "type": "single-choice",
+      "prompt": "легкие вопросы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ερώτηση\nМножественное число: οι ερωτήσεις\n\nРод: женский",
+      "correctAnswer": "οι εύκολες ερωτήσεις",
+      "wrongAnswers": [
+        "ο εύκολος ερωτήσεις",
+        "οι εύκολοι ερωτήσεις",
+        "η εύκολη ερωτήσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-013",
+      "type": "single-choice",
+      "prompt": "вторые уроки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα δεύτερα μαθήματα",
+      "wrongAnswers": [
+        "ο δεύτερος μαθήματα",
+        "οι δεύτεροι μαθήματα",
+        "η δεύτερη μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-015",
+      "type": "single-choice",
+      "prompt": "хорошие уроки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα καλά μαθήματα",
+      "wrongAnswers": [
+        "ο καλός μαθήματα",
+        "οι καλοί μαθήματα",
+        "η καλή μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-017",
+      "type": "single-choice",
+      "prompt": "трудные занятия",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα δύσκολα μαθήματα",
+      "wrongAnswers": [
+        "ο δύσκολος μαθήματα",
+        "οι δύσκολοι μαθήματα",
+        "η δύσκολη μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-022",
+      "type": "single-choice",
+      "prompt": "простые примеры",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παράδειγμα\nМножественное число: τα παραδείγματα\n\nРод: средний",
+      "correctAnswer": "τα απλά παραδείγματα",
+      "wrongAnswers": [
+        "ο απλός παραδείγματα",
+        "οι απλοί παραδείγματα",
+        "η απλή παραδείγματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-024",
+      "type": "single-choice",
+      "prompt": "хорошая грамматика",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γραμματική\nМножественное число: οι None\n\nРод: женский",
+      "correctAnswer": "η καλή γραμματική",
+      "wrongAnswers": [
+        "ο καλός γραμματική",
+        "οι καλοί γραμματική",
+        "οι καλές γραμματική"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-029",
+      "type": "single-choice",
+      "prompt": "дневное занятие",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το απογευματινό μάθημα",
+      "wrongAnswers": [
+        "ο απογευματινός μάθημα",
+        "οι απογευματινοί μάθημα",
+        "η απογευματινή μάθημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-030",
+      "type": "single-choice",
+      "prompt": "новая программа",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πρόγραμμα\nМножественное число: τα προγράμματα\n\nРод: средний",
+      "correctAnswer": "το καινούριο πρόγραμμα",
+      "wrongAnswers": [
+        "ο καινούριος πρόγραμμα",
+        "οι καινούριοι πρόγραμμα",
+        "η καινούρια πρόγραμμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-034",
+      "type": "single-choice",
+      "prompt": "послеполуденные занятия",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα απογευματινά μαθήματα",
+      "wrongAnswers": [
+        "ο απογευματινός μαθήματα",
+        "οι απογευματινοί μαθήματα",
+        "η απογευματινή μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-038",
+      "type": "single-choice",
+      "prompt": "лёгкие упражнения",
+      "speechTarget": "options",
+      "hint": "Единственное число: η άσκηση\nМножественное число: οι ασκήσεις\n\nРод: женский",
+      "correctAnswer": "οι εύκολες ασκήσεις",
+      "wrongAnswers": [
+        "ο εύκολος ασκήσεις",
+        "οι εύκολοι ασκήσεις",
+        "η εύκολη ασκήσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-041",
+      "type": "single-choice",
+      "prompt": "какая книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "ποιο βιβλίο",
+      "wrongAnswers": ["ποιος βιβλίο", "ποια βιβλίο", "ποιοι βιβλίο"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-042",
+      "type": "single-choice",
+      "prompt": "новый ластик",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σβήστρα\nМножественное число: οι σβήστρες\n\nРод: женский",
+      "correctAnswer": "η καινούρια σβήστρα",
+      "wrongAnswers": [
+        "ο καινούριος σβήστρα",
+        "οι καινούριοι σβήστρα",
+        "οι καινούριες σβήστρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-045",
+      "type": "single-choice",
+      "prompt": "хорошие оценки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο βαθμός\nМножественное число: οι βαθμοί\n\nРод: мужской",
+      "correctAnswer": "οι καλοί βαθμοί",
+      "wrongAnswers": ["ο καλός βαθμοί", "η καλή βαθμοί", "οι καλές βαθμοί"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-048",
+      "type": "single-choice",
+      "prompt": "восьмой урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το όγδοο μάθημα",
+      "wrongAnswers": ["ο όγδοος μάθημα", "η όγδοη μάθημα", "οι όγδοοι μάθημα"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-050",
+      "type": "single-choice",
+      "prompt": "второй урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το δεύτερο μάθημα",
+      "wrongAnswers": [
+        "ο δεύτερος μάθημα",
+        "οι δεύτεροι μάθημα",
+        "η δεύτερη μάθημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-051",
+      "type": "single-choice",
+      "prompt": "хороший урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το καλό μάθημα",
+      "wrongAnswers": ["ο καλός μάθημα", "οι καλοί μάθημα", "η καλή μάθημα"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-053",
+      "type": "single-choice",
+      "prompt": "лёгкий вопрос",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ερώτηση\nМножественное число: οι ερωτήσεις\n\nРод: женский",
+      "correctAnswer": "η εύκολη ερώτηση",
+      "wrongAnswers": [
+        "ο εύκολος ερώτηση",
+        "οι εύκολοι ερώτηση",
+        "οι εύκολες ερώτηση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-056",
+      "type": "single-choice",
+      "prompt": "трудное упражнение",
+      "speechTarget": "options",
+      "hint": "Единственное число: η άσκηση\nМножественное число: οι ασκήσεις\n\nРод: женский",
+      "correctAnswer": "η δύσκολη άσκηση",
+      "wrongAnswers": [
+        "ο δύσκολος άσκηση",
+        "οι δύσκολοι άσκηση",
+        "οι δύσκολες άσκηση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-060",
+      "type": "single-choice",
+      "prompt": "восьмые уроки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα όγδοα μαθήματα",
+      "wrongAnswers": [
+        "ο όγδοος μαθήματα",
+        "η όγδοη μαθήματα",
+        "το όγδοο μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-061",
+      "type": "single-choice",
+      "prompt": "хорошее чтение",
+      "speechTarget": "options",
+      "hint": "Единственное число: το διάβασμα\nМножественное число: τα διαβάσματα\n\nРод: средний",
+      "correctAnswer": "το καλό διάβασμα",
+      "wrongAnswers": [
+        "ο καλός διάβασμα",
+        "οι καλοί διάβασμα",
+        "η καλή διάβασμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-062",
+      "type": "single-choice",
+      "prompt": "седьмой урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το έβδομο μάθημα",
+      "wrongAnswers": [
+        "ο έβδομος μάθημα",
+        "η έβδομη μάθημα",
+        "οι έβδομοι μάθημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-066",
+      "type": "single-choice",
+      "prompt": "простое упражнение",
+      "speechTarget": "options",
+      "hint": "Единственное число: η άσκηση\nМножественное число: οι ασκήσεις\n\nРод: женский",
+      "correctAnswer": "η εύκολη άσκηση",
+      "wrongAnswers": [
+        "ο εύκολος άσκηση",
+        "οι εύκολοι άσκηση",
+        "οι εύκολες άσκηση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-069",
+      "type": "single-choice",
+      "prompt": "трудный урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το δύσκολο μάθημα",
+      "wrongAnswers": [
+        "ο δύσκολος μάθημα",
+        "οι δύσκολοι μάθημα",
+        "η δύσκολη μάθημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-071",
+      "type": "single-choice",
+      "prompt": "последние уроки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα τελευταία μαθήματα",
+      "wrongAnswers": [
+        "ο τελευταίος μαθήματα",
+        "οι τελευταίοι μαθήματα",
+        "οι τελευταίες μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-074",
+      "type": "single-choice",
+      "prompt": "трудные упражнения",
+      "speechTarget": "options",
+      "hint": "Единственное число: η άσκηση\nМножественное число: οι ασκήσεις\n\nРод: женский",
+      "correctAnswer": "οι δύσκολες ασκήσεις",
+      "wrongAnswers": [
+        "ο δύσκολος ασκήσεις",
+        "οι δύσκολοι ασκήσεις",
+        "η δύσκολη ασκήσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-076",
+      "type": "single-choice",
+      "prompt": "четвёртые уроки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα τέταρτα μαθήματα",
+      "wrongAnswers": [
+        "ο τέταρτος μαθήματα",
+        "οι τέταρτοι μαθήματα",
+        "η τέταρτη μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-077",
+      "type": "single-choice",
+      "prompt": "лёгкие уроки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "τα εύκολα μαθήματα",
+      "wrongAnswers": [
+        "ο εύκολος μαθήματα",
+        "οι εύκολοι μαθήματα",
+        "η εύκολη μαθήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-081",
+      "type": "single-choice",
+      "prompt": "пятый урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το πέμπτο μάθημα",
+      "wrongAnswers": [
+        "ο πέμπτος μάθημα",
+        "οι πέμπτοι μάθημα",
+        "η πέμπτη μάθημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-083",
+      "type": "single-choice",
+      "prompt": "хорошая оценка",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο βαθμός\nМножественное число: οι βαθμοί\n\nРод: мужской",
+      "correctAnswer": "ο καλός βαθμός",
+      "wrongAnswers": ["οι καλοί βαθμός", "η καλή βαθμός", "οι καλές βαθμός"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-084",
+      "type": "single-choice",
+      "prompt": "частые ошибки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λάθος\nМножественное число: τα λάθη\n\nРод: средний",
+      "correctAnswer": "τα συχνά λάθη",
+      "wrongAnswers": ["ο συχνός λάθη", "οι συχνοί λάθη", "η συχνή λάθη"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-086",
+      "type": "single-choice",
+      "prompt": "лёгкий урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το εύκολο μάθημα",
+      "wrongAnswers": [
+        "ο εύκολος μάθημα",
+        "οι εύκολοι μάθημα",
+        "η εύκολη μάθημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-088",
+      "type": "single-choice",
+      "prompt": "частая ошибка",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λάθος\nМножественное число: τα λάθη\n\nРод: средний",
+      "correctAnswer": "το συχνό λάθος",
+      "wrongAnswers": ["ο συχνός λάθος", "οι συχνοί λάθος", "η συχνή λάθος"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-lessons-exercises-learning-089",
+      "type": "single-choice",
+      "prompt": "четвёртый урок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάθημα\nМножественное число: τα μαθήματα\n\nРод: средний",
+      "correctAnswer": "το τέταρτο μάθημα",
+      "wrongAnswers": [
+        "ο τέταρτος μάθημα",
+        "οι τέταρτοι μάθημα",
+        "η τέταρτη μάθημα"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "title": "Национальности, регионы и культуры",
+  "subtitle": "Согласуйте названия национальностей, регионов и культур",
+  "items": [
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-001",
+      "type": "single-choice",
+      "prompt": "американский флаг",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
+      "correctAnswer": "η αμερικανική σημαία",
+      "wrongAnswers": [
+        "ο αμερικανικός σημαία",
+        "οι αμερικανικοί σημαία",
+        "οι αμερικανικές σημαία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-014",
+      "type": "single-choice",
+      "prompt": "итальянский дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το ιταλικό σπίτι",
+      "wrongAnswers": [
+        "ο ιταλικός σπίτι",
+        "οι ιταλικοί σπίτι",
+        "η ιταλική σπίτι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-021",
+      "type": "single-choice",
+      "prompt": "большая Азия",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Ασία\nМножественное число: οι Ασίες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη Ασία",
+      "wrongAnswers": ["ο μεγάλος Ασία", "οι μεγάλοι Ασία", "οι μεγάλες Ασία"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-031",
+      "type": "single-choice",
+      "prompt": "немецкая сумка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "η γερμανική τσάντα",
+      "wrongAnswers": [
+        "ο γερμανικός τσάντα",
+        "οι γερμανικοί τσάντα",
+        "οι γερμανικές τσάντα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-034",
+      "type": "single-choice",
+      "prompt": "чужие дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα ξένα σπίτια",
+      "wrongAnswers": ["ο ξένος σπίτια", "οι ξένοι σπίτια", "η ξένη σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-039",
+      "type": "single-choice",
+      "prompt": "большая Африка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Αφρική\nМножественное число: οι Αφρικές\n\nРод: женский",
+      "correctAnswer": "η μεγάλη Αφρική",
+      "wrongAnswers": [
+        "ο μεγάλος Αφρική",
+        "οι μεγάλοι Αφρική",
+        "οι μεγάλες Αφρική"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-045",
+      "type": "single-choice",
+      "prompt": "хорошие турки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο Τούρκος\nМножественное число: οι Τούρκοι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί Τούρκοι",
+      "wrongAnswers": ["ο καλός Τούρκοι", "η καλή Τούρκοι", "οι καλές Τούρκοι"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-048",
+      "type": "single-choice",
+      "prompt": "молодые англичане",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο Άγγλος\nМножественное число: οι Άγγλοι\n\nРод: мужской",
+      "correctAnswer": "οι νέοι Άγγλοι",
+      "wrongAnswers": ["ο νέος Άγγλοι", "η νέα Άγγλοι", "οι νέες Άγγλοι"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-052",
+      "type": "single-choice",
+      "prompt": "известная русская",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Ρωσίδα\nМножественное число: οι Ρωσίδες\n\nРод: женский",
+      "correctAnswer": "η γνωστή Ρωσίδα",
+      "wrongAnswers": [
+        "ο γνωστός Ρωσίδα",
+        "οι γνωστοί Ρωσίδα",
+        "οι γνωστές Ρωσίδα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-053",
+      "type": "single-choice",
+      "prompt": "добрая турчанка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Τουρκάλα\nМножественное число: οι Τουρκάλες\n\nРод: женский",
+      "correctAnswer": "η καλή Τουρκάλα",
+      "wrongAnswers": [
+        "ο καλός Τουρκάλα",
+        "οι καλοί Τουρκάλα",
+        "οι καλές Τουρκάλα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-059",
+      "type": "single-choice",
+      "prompt": "русские мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι Ρώσοι άντρες",
+      "wrongAnswers": ["ο Ρώσος άντρες", "η Ρωσίδα άντρες", "το Ρώσο άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-067",
+      "type": "single-choice",
+      "prompt": "русский мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο Ρώσος άντρας",
+      "wrongAnswers": ["η Ρωσίδα άντρας", "το Ρώσο άντρας", "οι Ρώσοι άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-073",
+      "type": "single-choice",
+      "prompt": "большие страны",
+      "speechTarget": "options",
+      "hint": "Единственное число: η χώρα\nМножественное число: οι χώρες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες χώρες",
+      "wrongAnswers": ["ο μεγάλος χώρες", "οι μεγάλοι χώρες", "η μεγάλη χώρες"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-076",
+      "type": "single-choice",
+      "prompt": "хорошие турчанки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Τουρκάλα\nМножественное число: οι Τουρκάλες\n\nРод: женский",
+      "correctAnswer": "οι καλές Τουρκάλες",
+      "wrongAnswers": [
+        "ο καλός Τουρκάλες",
+        "οι καλοί Τουρκάλες",
+        "η καλή Τουρκάλες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-078",
+      "type": "single-choice",
+      "prompt": "испанские флаги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
+      "correctAnswer": "οι ισπανικές σημαίες",
+      "wrongAnswers": [
+        "ο ισπανικός σημαίες",
+        "οι ισπανικοί σημαίες",
+        "η ισπανική σημαίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-081",
+      "type": "single-choice",
+      "prompt": "молодые китаянки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Κινέζα\nМножественное число: οι Κινέζες\n\nРод: женский",
+      "correctAnswer": "οι νέες Κινέζες",
+      "wrongAnswers": ["ο νέος Κινέζες", "οι νέοι Κινέζες", "η νέα Κινέζες"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-092",
+      "type": "single-choice",
+      "prompt": "американский мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνδρας\nМножественное число: οι άνδρες\n\nРод: мужской",
+      "correctAnswer": "ο αμερικανός άνδρας",
+      "wrongAnswers": [
+        "η αμερικανίδα άνδρας",
+        "το αμερικανό άνδρας",
+        "οι αμερικανοί άνδρας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-106",
+      "type": "single-choice",
+      "prompt": "итальянские дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα ιταλικά σπίτια",
+      "wrongAnswers": [
+        "ο ιταλικός σπίτια",
+        "οι ιταλικοί σπίτια",
+        "η ιταλική σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-108",
+      "type": "single-choice",
+      "prompt": "греческая национальность",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εθνικότητα\nМножественное число: οι εθνικότητες\n\nРод: женский",
+      "correctAnswer": "η ελληνική εθνικότητα",
+      "wrongAnswers": [
+        "ο ελληνικός εθνικότητα",
+        "οι ελληνικοί εθνικότητα",
+        "οι ελληνικές εθνικότητα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-109",
+      "type": "single-choice",
+      "prompt": "американские флаги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σημαία\nМножественное число: οι σημαίες\n\nРод: женский",
+      "correctAnswer": "οι αμερικανικές σημαίες",
+      "wrongAnswers": [
+        "ο αμερικανικός σημαίες",
+        "οι αμερικανικοί σημαίες",
+        "η αμερικανική σημαίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-113",
+      "type": "single-choice",
+      "prompt": "русская карта",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "ο ρωσικός χάρτης",
+      "wrongAnswers": [
+        "η ρωσική χάρτης",
+        "το ρωσικό χάρτης",
+        "οι ρωσικοί χάρτης"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-118",
+      "type": "single-choice",
+      "prompt": "молодая англичанка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Αγγλίδα\nМножественное число: οι Αγγλίδες\n\nРод: женский",
+      "correctAnswer": "η νέα Αγγλίδα",
+      "wrongAnswers": ["ο νέος Αγγλίδα", "οι νέοι Αγγλίδα", "οι νέες Αγγλίδα"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-126",
+      "type": "single-choice",
+      "prompt": "разные национальности",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εθνικότητα\nМножественное число: οι εθνικότητες\n\nРод: женский",
+      "correctAnswer": "οι διαφορετικές εθνικότητες",
+      "wrongAnswers": [
+        "ο διαφορετικός εθνικότητες",
+        "οι διαφορετικοί εθνικότητες",
+        "η διαφορετική εθνικότητες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-nationalities-regions-cultures-128",
+      "type": "single-choice",
+      "prompt": "хороший турок",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο Τούρκος\nМножественное число: οι Τούρκοι\n\nРод: мужской",
+      "correctAnswer": "ο καλός Τούρκος",
+      "wrongAnswers": ["οι καλοί Τούρκος", "η καλή Τούρκος", "οι καλές Τούρκος"]
+    }
+  ]
+}

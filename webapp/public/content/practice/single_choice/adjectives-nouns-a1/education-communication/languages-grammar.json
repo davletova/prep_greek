@@ -1,0 +1,336 @@
+{
+  "title": "Языки, слова и грамматика",
+  "subtitle": "Выберите правильные формы слов о языках и грамматике",
+  "items": [
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-007",
+      "type": "single-choice",
+      "prompt": "русские языки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "οι ρωσικές γλώσσες",
+      "wrongAnswers": [
+        "ο ρωσικός γλώσσες",
+        "η ρωσική γλώσσες",
+        "το ρωσικό γλώσσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-008",
+      "type": "single-choice",
+      "prompt": "русский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "η ρωσική γλώσσα",
+      "wrongAnswers": [
+        "ο ρωσικός γλώσσα",
+        "το ρωσικό γλώσσα",
+        "οι ρωσικοί γλώσσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-016",
+      "type": "single-choice",
+      "prompt": "правильное слово",
+      "speechTarget": "options",
+      "hint": "Единственное число: η λέξη\nМножественное число: οι λέξεις\n\nРод: женский",
+      "correctAnswer": "η σωστή λέξη",
+      "wrongAnswers": ["ο σωστός λέξη", "οι σωστοί λέξη", "οι σωστές λέξη"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-021",
+      "type": "single-choice",
+      "prompt": "сколько вопросов",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ερώτηση\nМножественное число: οι ερωτήσεις\n\nРод: женский",
+      "correctAnswer": "οι πόσες ερωτήσεις",
+      "wrongAnswers": [
+        "ο πόσος ερωτήσεις",
+        "η πόση ερωτήσεις",
+        "το πόσο ερωτήσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-025",
+      "type": "single-choice",
+      "prompt": "красивый итальянский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα ιταλικά\n\nРод: средний",
+      "correctAnswer": "τα ωραία ιταλικά",
+      "wrongAnswers": [
+        "ο ωραίος ιταλικά",
+        "οι ωραίοι ιταλικά",
+        "οι ωραίες ιταλικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-029",
+      "type": "single-choice",
+      "prompt": "греческий алфавит",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αλφάβητο\nМножественное число: τα αλφάβητα\n\nРод: средний",
+      "correctAnswer": "το ελληνικό αλφάβητο",
+      "wrongAnswers": [
+        "ο ελληνικός αλφάβητο",
+        "οι ελληνικοί αλφάβητο",
+        "η ελληνική αλφάβητο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-031",
+      "type": "single-choice",
+      "prompt": "правильные произношения",
+      "speechTarget": "options",
+      "hint": "Единственное число: η προφορά\nМножественное число: οι προφορές\n\nРод: женский",
+      "correctAnswer": "οι σωστές προφορές",
+      "wrongAnswers": [
+        "ο σωστός προφορές",
+        "οι σωστοί προφορές",
+        "η σωστή προφορές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-037",
+      "type": "single-choice",
+      "prompt": "трудный русский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα ρωσικά\n\nРод: средний",
+      "correctAnswer": "τα δύσκολα ρωσικά",
+      "wrongAnswers": [
+        "ο δύσκολος ρωσικά",
+        "οι δύσκολοι ρωσικά",
+        "η δύσκολη ρωσικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-040",
+      "type": "single-choice",
+      "prompt": "греческий язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "η ελληνική γλώσσα",
+      "wrongAnswers": [
+        "ο ελληνικός γλώσσα",
+        "οι ελληνικοί γλώσσα",
+        "οι ελληνικές γλώσσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-041",
+      "type": "single-choice",
+      "prompt": "лёгкий английский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα αγγλικά\n\nРод: средний",
+      "correctAnswer": "τα εύκολα αγγλικά",
+      "wrongAnswers": [
+        "ο εύκολος αγγλικά",
+        "οι εύκολοι αγγλικά",
+        "η εύκολη αγγλικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-045",
+      "type": "single-choice",
+      "prompt": "английские языки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "οι αγγλικές γλώσσες",
+      "wrongAnswers": [
+        "ο αγγλικός γλώσσες",
+        "οι αγγλικοί γλώσσες",
+        "η αγγλική γλώσσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-048",
+      "type": "single-choice",
+      "prompt": "лёгкий испанский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα ισπανικά\n\nРод: средний",
+      "correctAnswer": "τα εύκολα ισπανικά",
+      "wrongAnswers": [
+        "ο εύκολος ισπανικά",
+        "οι εύκολοι ισπανικά",
+        "η εύκολη ισπανικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-052",
+      "type": "single-choice",
+      "prompt": "греческие алфавиты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αλφάβητο\nМножественное число: τα αλφάβητα\n\nРод: средний",
+      "correctAnswer": "τα ελληνικά αλφάβητα",
+      "wrongAnswers": [
+        "ο ελληνικός αλφάβητα",
+        "οι ελληνικοί αλφάβητα",
+        "η ελληνική αλφάβητα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-057",
+      "type": "single-choice",
+      "prompt": "сложный немецкий язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα γερμανικά\n\nРод: средний",
+      "correctAnswer": "τα δύσκολα γερμανικά",
+      "wrongAnswers": [
+        "ο δύσκολος γερμανικά",
+        "οι δύσκολοι γερμανικά",
+        "η δύσκολη γερμανικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-058",
+      "type": "single-choice",
+      "prompt": "лёгкий французский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα γαλλικά\n\nРод: средний",
+      "correctAnswer": "τα εύκολα γαλλικά",
+      "wrongAnswers": [
+        "ο εύκολος γαλλικά",
+        "οι εύκολοι γαλλικά",
+        "η εύκολη γαλλικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-062",
+      "type": "single-choice",
+      "prompt": "испанский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "η ισπανική γλώσσα",
+      "wrongAnswers": [
+        "ο ισπανικός γλώσσα",
+        "οι ισπανικοί γλώσσα",
+        "οι ισπανικές γλώσσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-063",
+      "type": "single-choice",
+      "prompt": "трудный немецкий язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "η δύσκολη γερμανική γλώσσα",
+      "wrongAnswers": [
+        "ο δύσκολος γερμανική γλώσσα",
+        "οι δύσκολοι γερμανική γλώσσα",
+        "οι δύσκολες γερμανική γλώσσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-069",
+      "type": "single-choice",
+      "prompt": "французские языки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "οι γαλλικές γλώσσες",
+      "wrongAnswers": [
+        "ο γαλλικός γλώσσες",
+        "οι γαλλικοί γλώσσες",
+        "η γαλλική γλώσσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-072",
+      "type": "single-choice",
+      "prompt": "греческие языки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "οι ελληνικές γλώσσες",
+      "wrongAnswers": [
+        "ο ελληνικός γλώσσες",
+        "οι ελληνικοί γλώσσες",
+        "η ελληνική γλώσσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-073",
+      "type": "single-choice",
+      "prompt": "английская книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το αγγλικό βιβλίο",
+      "wrongAnswers": [
+        "ο αγγλικός βιβλίο",
+        "οι αγγλικοί βιβλίο",
+        "η αγγλική βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-074",
+      "type": "single-choice",
+      "prompt": "английский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "η αγγλική γλώσσα",
+      "wrongAnswers": [
+        "ο αγγλικός γλώσσα",
+        "οι αγγλικοί γλώσσα",
+        "οι αγγλικές γλώσσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-076",
+      "type": "single-choice",
+      "prompt": "правильное произношение",
+      "speechTarget": "options",
+      "hint": "Единственное число: η προφορά\nМножественное число: οι προφορές\n\nРод: женский",
+      "correctAnswer": "η σωστή προφορά",
+      "wrongAnswers": [
+        "ο σωστός προφορά",
+        "οι σωστοί προφορά",
+        "οι σωστές προφορά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-084",
+      "type": "single-choice",
+      "prompt": "трудный греческий язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα ελληνικά\n\nРод: средний",
+      "correctAnswer": "τα δύσκολα ελληνικά",
+      "wrongAnswers": [
+        "ο δύσκολος ελληνικά",
+        "οι δύσκολοι ελληνικά",
+        "η δύσκολη ελληνικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-103",
+      "type": "single-choice",
+      "prompt": "французский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γλώσσα\nМножественное число: οι γλώσσες\n\nРод: женский",
+      "correctAnswer": "η γαλλική γλώσσα",
+      "wrongAnswers": [
+        "ο γαλλικός γλώσσα",
+        "οι γαλλικοί γλώσσα",
+        "οι γαλλικές γλώσσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-105",
+      "type": "single-choice",
+      "prompt": "трудный китайский язык",
+      "speechTarget": "options",
+      "hint": "Единственное число: —\nМножественное число: τα κινέζικα\n\nРод: средний",
+      "correctAnswer": "τα δύσκολα κινέζικα",
+      "wrongAnswers": [
+        "ο δύσκολος κινέζικα",
+        "οι δύσκολοι κινέζικα",
+        "η δύσκολη κινέζικα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-languages-grammar-106",
+      "type": "single-choice",
+      "prompt": "правильные слова",
+      "speechTarget": "options",
+      "hint": "Единственное число: η λέξη\nМножественное число: οι λέξεις\n\nРод: женский",
+      "correctAnswer": "οι σωστές λέξεις",
+      "wrongAnswers": ["ο σωστός λέξεις", "οι σωστοί λέξεις", "η σωστή λέξεις"]
+    }
+  ]
+}

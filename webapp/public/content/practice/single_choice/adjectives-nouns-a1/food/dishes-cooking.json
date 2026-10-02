@@ -1,0 +1,224 @@
+{
+  "title": "Блюда и приготовление пищи",
+  "subtitle": "Согласуйте названия блюд и способов приготовления с прилагательными",
+  "items": [
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-003",
+      "type": "single-choice",
+      "prompt": "вкусный обед",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γεύμα\nМножественное число: τα γεύματα\n\nРод: средний",
+      "correctAnswer": "το νόστιμο γεύμα",
+      "wrongAnswers": [
+        "ο νόστιμος γεύμα",
+        "οι νόστιμοι γεύμα",
+        "η νόστιμη γεύμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-005",
+      "type": "single-choice",
+      "prompt": "готовая еда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "το έτοιμο φαγητό",
+      "wrongAnswers": [
+        "ο έτοιμος φαγητό",
+        "οι έτοιμοι φαγητό",
+        "η έτοιμη φαγητό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-014",
+      "type": "single-choice",
+      "prompt": "лёгкий ужин",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βραδινό\nМножественное число: τα βραδινά\n\nРод: средний",
+      "correctAnswer": "το ελαφρύ βραδινό",
+      "wrongAnswers": [
+        "ο ελαφρύς βραδινό",
+        "οι ελαφριοί βραδινό",
+        "η ελαφριά βραδινό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-017",
+      "type": "single-choice",
+      "prompt": "горячий суп",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σούπα\nМножественное число: οι σούπες\n\nРод: женский",
+      "correctAnswer": "η ζεστή σούπα",
+      "wrongAnswers": ["ο ζεστός σούπα", "οι ζεστοί σούπα", "οι ζεστές σούπα"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-018",
+      "type": "single-choice",
+      "prompt": "вкусные сэндвичи",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σάντουιτς\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα σάντουιτς",
+      "wrongAnswers": [
+        "ο νόστιμος σάντουιτς",
+        "οι νόστιμοι σάντουιτς",
+        "η νόστιμη σάντουιτς"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-019",
+      "type": "single-choice",
+      "prompt": "вкусные блюда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γεύμα\nМножественное число: τα γεύματα\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα γεύματα",
+      "wrongAnswers": [
+        "ο νόστιμος γεύματα",
+        "οι νόστιμοι γεύματα",
+        "η νόστιμη γεύματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-022",
+      "type": "single-choice",
+      "prompt": "простые блюда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "τα απλά φαγητά",
+      "wrongAnswers": ["ο απλός φαγητά", "οι απλοί φαγητά", "η απλή φαγητά"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-025",
+      "type": "single-choice",
+      "prompt": "вкусная мусака",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μουσακάς\nМножественное число: οι μουσακάδες\n\nРод: мужской",
+      "correctAnswer": "ο νόστιμος μουσακάς",
+      "wrongAnswers": [
+        "οι νόστιμοι μουσακάς",
+        "η νόστιμη μουσακάς",
+        "οι νόστιμες μουσακάς"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-028",
+      "type": "single-choice",
+      "prompt": "готовые блюда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "τα έτοιμα φαγητά",
+      "wrongAnswers": [
+        "ο έτοιμος φαγητά",
+        "οι έτοιμοι φαγητά",
+        "η έτοιμη φαγητά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-030",
+      "type": "single-choice",
+      "prompt": "вкусные блюда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα φαγητά",
+      "wrongAnswers": [
+        "ο νόστιμος φαγητά",
+        "οι νόστιμοι φαγητά",
+        "η νόστιμη φαγητά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-035",
+      "type": "single-choice",
+      "prompt": "пустая тарелка",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πιάτο\nМножественное число: τα πιάτα\n\nРод: средний",
+      "correctAnswer": "το άδειο πιάτο",
+      "wrongAnswers": ["ο άδειος πιάτο", "οι άδειοι πιάτο", "η άδεια πιάτο"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-036",
+      "type": "single-choice",
+      "prompt": "вкусные мусаки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μουσακάς\nМножественное число: οι μουσακάδες\n\nРод: мужской",
+      "correctAnswer": "οι νόστιμοι μουσακάδες",
+      "wrongAnswers": [
+        "ο νόστιμος μουσακάδες",
+        "η νόστιμη μουσακάδες",
+        "οι νόστιμες μουσακάδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-038",
+      "type": "single-choice",
+      "prompt": "вкусный сувлаки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σουβλάκι\nМножественное число: τα σουβλάκια\n\nРод: средний",
+      "correctAnswer": "το νόστιμο σουβλάκι",
+      "wrongAnswers": [
+        "ο νόστιμος σουβλάκι",
+        "οι νόστιμοι σουβλάκι",
+        "η νόστιμη σουβλάκι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-039",
+      "type": "single-choice",
+      "prompt": "вкусная пицца",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πίτσα\nМножественное число: οι πίτσες\n\nРод: женский",
+      "correctAnswer": "η νόστιμη πίτσα",
+      "wrongAnswers": [
+        "ο νόστιμος πίτσα",
+        "οι νόστιμοι πίτσα",
+        "οι νόστιμες πίτσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-040",
+      "type": "single-choice",
+      "prompt": "вкусный кекс",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κέικ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το νόστιμο κέικ",
+      "wrongAnswers": ["ο νόστιμος κέικ", "οι νόστιμοι κέικ", "η νόστιμη κέικ"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-041",
+      "type": "single-choice",
+      "prompt": "красивые торты",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τούρτα\nМножественное число: οι τούρτες\n\nРод: женский",
+      "correctAnswer": "οι ωραίες τούρτες",
+      "wrongAnswers": [
+        "ο ωραίος τούρτες",
+        "οι ωραίοι τούρτες",
+        "η ωραία τούρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-045",
+      "type": "single-choice",
+      "prompt": "вкусные ужины",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βραδινό\nМножественное число: τα βραδινά\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα βραδινά",
+      "wrongAnswers": [
+        "ο νόστιμος βραδινά",
+        "οι νόστιμοι βραδινά",
+        "η νόστιμη βραδινά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-046",
+      "type": "single-choice",
+      "prompt": "вкусные сувлаки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σουβλάκι\nМножественное число: τα σουβλάκια\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα σουβλάκια",
+      "wrongAnswers": [
+        "ο νόστιμος σουβλάκια",
+        "οι νόστιμοι σουβλάκια",
+        "η νόστιμη σουβλάκια"
+      ]
+    }
+  ]
+}

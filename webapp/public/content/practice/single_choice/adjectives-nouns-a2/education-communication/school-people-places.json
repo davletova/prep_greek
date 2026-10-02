@@ -1,0 +1,1043 @@
+{
+  "title": "Люди и места образования",
+  "subtitle": "Согласуйте названия людей, учебных заведений и мест",
+  "items": [
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-002",
+      "type": "single-choice",
+      "prompt": "дошкольные программы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πρόγραμμα\nМножественное число: τα προγράμματα\n\nРод: средний",
+      "correctAnswer": "τα προσχολικά προγράμματα",
+      "wrongAnswers": [
+        "ο προσχολικός προγράμματα",
+        "η προσχολική προγράμματα",
+        "το προσχολικό προγράμματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-003",
+      "type": "single-choice",
+      "prompt": "государственные гимназии",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γυμνάσιο\nМножественное число: τα γυμνάσια\n\nРод: средний",
+      "correctAnswer": "τα δημόσια γυμνάσια",
+      "wrongAnswers": [
+        "ο δημόσιος γυμνάσια",
+        "οι δημόσιοι γυμνάσια",
+        "οι δημόσιες γυμνάσια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-004",
+      "type": "single-choice",
+      "prompt": "выдающиеся учителя",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "οι σπουδαίοι δάσκαλοι",
+      "wrongAnswers": [
+        "ο σπουδαίος δάσκαλοι",
+        "η σπουδαία δάσκαλοι",
+        "οι σπουδαίες δάσκαλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-006",
+      "type": "single-choice",
+      "prompt": "дорогие выпускники",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο απόφοιτος\nМножественное число: οι απόφοιτοι\n\nРод: мужской",
+      "correctAnswer": "οι αγαπητοί απόφοιτοι",
+      "wrongAnswers": [
+        "ο αγαπητός απόφοιτοι",
+        "η αγαπητή απόφοιτοι",
+        "οι αγαπητές απόφοιτοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-008",
+      "type": "single-choice",
+      "prompt": "чистый детский сад",
+      "speechTarget": "options",
+      "hint": "Единственное число: το νηπιαγωγείο\nМножественное число: τα νηπιαγωγεία\n\nРод: средний",
+      "correctAnswer": "το καθαρό νηπιαγωγείο",
+      "wrongAnswers": [
+        "ο καθαρός νηπιαγωγείο",
+        "οι καθαροί νηπιαγωγείο",
+        "η καθαρή νηπιαγωγείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-010",
+      "type": "single-choice",
+      "prompt": "хорошие сокурсницы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η συμφοιτήτρια\nМножественное число: οι συμφοιτήτριες\n\nРод: женский",
+      "correctAnswer": "οι καλές συμφοιτήτριες",
+      "wrongAnswers": [
+        "ο καλός συμφοιτήτριες",
+        "οι καλοί συμφοιτήτριες",
+        "η καλή συμφοιτήτριες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-012",
+      "type": "single-choice",
+      "prompt": "ученица, которая читает",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "η μαθήτρια η οποία διαβάζει",
+      "wrongAnswers": [
+        "η μαθήτρια ο οποίος διαβάζει",
+        "η μαθήτρια το οποίο διαβάζει",
+        "η μαθήτρια οι οποίοι διαβάζει"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-013",
+      "type": "single-choice",
+      "prompt": "хороший сокурсник",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο συμφοιτητής\nМножественное число: οι συμφοιτητές\n\nРод: мужской",
+      "correctAnswer": "ο καλός συμφοιτητής",
+      "wrongAnswers": [
+        "οι καλοί συμφοιτητής",
+        "η καλή συμφοιτητής",
+        "οι καλές συμφοιτητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-014",
+      "type": "single-choice",
+      "prompt": "ребёнок, который читает",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το παιδί το οποίο διαβάζει",
+      "wrongAnswers": [
+        "το παιδί ο οποίος διαβάζει",
+        "το παιδί η οποία διαβάζει",
+        "το παιδί οι οποίοι διαβάζει"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-015",
+      "type": "single-choice",
+      "prompt": "лучшие ученицы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "οι καλύτερες μαθήτριες",
+      "wrongAnswers": [
+        "ο καλύτερος μαθήτριες",
+        "οι καλύτεροι μαθήτριες",
+        "η καλύτερη μαθήτριες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-019",
+      "type": "single-choice",
+      "prompt": "ученик, который читает",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο μαθητής ο οποίος διαβάζει",
+      "wrongAnswers": [
+        "ο μαθητής η οποία διαβάζει",
+        "ο μαθητής το οποίο διαβάζει",
+        "ο μαθητής οι οποίοι διαβάζει"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-020",
+      "type": "single-choice",
+      "prompt": "необходимая точилка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ξύστρα\nМножественное число: οι None\n\nРод: женский",
+      "correctAnswer": "η απαραίτητη ξύστρα",
+      "wrongAnswers": [
+        "ο απαραίτητος ξύστρα",
+        "οι απαραίτητοι ξύστρα",
+        "οι απαραίτητες ξύστρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-021",
+      "type": "single-choice",
+      "prompt": "отличный ученик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο άριστος μαθητής",
+      "wrongAnswers": [
+        "οι άριστοι μαθητής",
+        "η άριστη μαθητής",
+        "οι άριστες μαθητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-022",
+      "type": "single-choice",
+      "prompt": "университетские помещения",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χώρος\nМножественное число: οι χώροι\n\nРод: мужской",
+      "correctAnswer": "οι πανεπιστημιακοί χώροι",
+      "wrongAnswers": [
+        "ο πανεπιστημιακός χώροι",
+        "η πανεπιστημιακή χώροι",
+        "οι πανεπιστημιακές χώροι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-023",
+      "type": "single-choice",
+      "prompt": "приглашённый ученик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο καλεσμένος μαθητής",
+      "wrongAnswers": [
+        "η καλεσμένη μαθητής",
+        "το καλεσμένο μαθητής",
+        "οι καλεσμένοι μαθητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-024",
+      "type": "single-choice",
+      "prompt": "современная лаборатория",
+      "speechTarget": "options",
+      "hint": "Единственное число: το εργαστήριο\nМножественное число: τα εργαστήρια\n\nРод: средний",
+      "correctAnswer": "το σύγχρονο εργαστήριο",
+      "wrongAnswers": [
+        "ο σύγχρονος εργαστήριο",
+        "οι σύγχρονοι εργαστήριο",
+        "η σύγχρονη εργαστήριο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-026",
+      "type": "single-choice",
+      "prompt": "государственное образование",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εκπαίδευση\nМножественное число: οι εκπαιδεύσεις\n\nРод: женский",
+      "correctAnswer": "η δημόσια εκπαίδευση",
+      "wrongAnswers": [
+        "ο δημόσιος εκπαίδευση",
+        "οι δημόσιοι εκπαίδευση",
+        "οι δημόσιες εκπαίδευση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-028",
+      "type": "single-choice",
+      "prompt": "школьная карта",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "ο σχολικός χάρτης",
+      "wrongAnswers": [
+        "οι σχολικοί χάρτης",
+        "η σχολική χάρτης",
+        "οι σχολικές χάρτης"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-029",
+      "type": "single-choice",
+      "prompt": "отличные ученики",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι άριστοι μαθητές",
+      "wrongAnswers": [
+        "ο άριστος μαθητές",
+        "η άριστη μαθητές",
+        "οι άριστες μαθητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-031",
+      "type": "single-choice",
+      "prompt": "учащиеся, которые читают",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι μαθητές οι οποίοι διαβάζουν",
+      "wrongAnswers": [
+        "οι μαθητές ο οποίος διαβάζουν",
+        "οι μαθητές η οποία διαβάζουν",
+        "οι μαθητές το οποίο διαβάζουν"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-032",
+      "type": "single-choice",
+      "prompt": "оживлённая ученица",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "η ζωηρή μαθήτρια",
+      "wrongAnswers": [
+        "ο ζωηρός μαθήτρια",
+        "οι ζωηροί μαθήτρια",
+        "οι ζωηρές μαθήτρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-038",
+      "type": "single-choice",
+      "prompt": "университетские здания",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κτίριο\nМножественное число: τα κτίρια\n\nРод: средний",
+      "correctAnswer": "τα πανεπιστημιακά κτίρια",
+      "wrongAnswers": [
+        "ο πανεπιστημιακός κτίρια",
+        "οι πανεπιστημιακοί κτίρια",
+        "η πανεπιστημιακή κτίρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-039",
+      "type": "single-choice",
+      "prompt": "отличные ученицы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "οι άριστες μαθήτριες",
+      "wrongAnswers": [
+        "ο άριστος μαθήτριες",
+        "οι άριστοι μαθήτριες",
+        "η άριστη μαθήτριες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-041",
+      "type": "single-choice",
+      "prompt": "дошкольные учреждения",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο σταθμός\nМножественное число: οι σταθμοί\n\nРод: мужской",
+      "correctAnswer": "οι προσχολικοί σταθμοί",
+      "wrongAnswers": [
+        "ο προσχολικός σταθμοί",
+        "η προσχολική σταθμοί",
+        "το προσχολικό σταθμοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-042",
+      "type": "single-choice",
+      "prompt": "государственная школа",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σχολή\nМножественное число: οι σχολές\n\nРод: женский",
+      "correctAnswer": "η δημόσια σχολή",
+      "wrongAnswers": [
+        "ο δημόσιος σχολή",
+        "οι δημόσιοι σχολή",
+        "οι δημόσιες σχολή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-043",
+      "type": "single-choice",
+      "prompt": "маленький лицей",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λύκειο\nМножественное число: τα λύκεια\n\nРод: средний",
+      "correctAnswer": "το μικρό λύκειο",
+      "wrongAnswers": ["ο μικρός λύκειο", "οι μικροί λύκειο", "η μικρή λύκειο"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-044",
+      "type": "single-choice",
+      "prompt": "новые пеналы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κασετίνα\nМножественное число: οι κασετίνες\n\nРод: женский",
+      "correctAnswer": "οι καινούριες κασετίνες",
+      "wrongAnswers": [
+        "ο καινούριος κασετίνες",
+        "οι καινούριοι κασετίνες",
+        "η καινούρια κασετίνες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-045",
+      "type": "single-choice",
+      "prompt": "оживлённые ученицы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "οι ζωηρές μαθήτριες",
+      "wrongAnswers": [
+        "ο ζωηρός μαθήτριες",
+        "οι ζωηροί μαθήτριες",
+        "η ζωηρή μαθήτριες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-046",
+      "type": "single-choice",
+      "prompt": "маленькие лицеи",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λύκειο\nМножественное число: τα λύκεια\n\nРод: средний",
+      "correctAnswer": "τα μικρά λύκεια",
+      "wrongAnswers": ["ο μικρός λύκεια", "οι μικροί λύκεια", "η μικρή λύκεια"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-050",
+      "type": "single-choice",
+      "prompt": "ясельный детский сад",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο σταθμός\nМножественное число: οι σταθμοί\n\nРод: мужской",
+      "correctAnswer": "ο βρεφονηπιακός σταθμός",
+      "wrongAnswers": [
+        "η βρεφονηπιακή σταθμός",
+        "το βρεφονηπιακό σταθμός",
+        "οι βρεφονηπιακοί σταθμός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-053",
+      "type": "single-choice",
+      "prompt": "государственные университеты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ΑΕΙ\nМножественное число: τα ΑΕΙ\n\nРод: средний",
+      "correctAnswer": "τα δημόσια ΑΕΙ",
+      "wrongAnswers": ["ο δημόσιος ΑΕΙ", "οι δημόσιοι ΑΕΙ", "οι δημόσιες ΑΕΙ"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-057",
+      "type": "single-choice",
+      "prompt": "ответственные ученики",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι υπεύθυνοι μαθητές",
+      "wrongAnswers": [
+        "ο υπεύθυνος μαθητές",
+        "η υπεύθυνη μαθητές",
+        "οι υπεύθυνες μαθητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-060",
+      "type": "single-choice",
+      "prompt": "школьные карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι σχολικοί χάρτες",
+      "wrongAnswers": [
+        "ο σχολικός χάρτες",
+        "η σχολική χάρτες",
+        "οι σχολικές χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-063",
+      "type": "single-choice",
+      "prompt": "помощники-учителя",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "οι βοηθητικοί δάσκαλοι",
+      "wrongAnswers": [
+        "ο βοηθητικός δάσκαλοι",
+        "η βοηθητική δάσκαλοι",
+        "οι βοηθητικές δάσκαλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-066",
+      "type": "single-choice",
+      "prompt": "африканская школа",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σχολείο\nМножественное число: τα σχολεία\n\nРод: средний",
+      "correctAnswer": "το αφρικανικό σχολείο",
+      "wrongAnswers": [
+        "ο αφρικανικός σχολείο",
+        "οι αφρικανικοί σχολείο",
+        "η αφρικανική σχολείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-068",
+      "type": "single-choice",
+      "prompt": "предыдущие ученики",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι προηγούμενοι μαθητές",
+      "wrongAnswers": [
+        "ο προηγούμενος μαθητές",
+        "η προηγούμενη μαθητές",
+        "το προηγούμενο μαθητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-069",
+      "type": "single-choice",
+      "prompt": "дети, которые читают",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα παιδιά τα οποία διαβάζουν",
+      "wrongAnswers": [
+        "τα παιδιά ο οποίος διαβάζουν",
+        "τα παιδιά το οποίο διαβάζουν",
+        "τα παιδιά οι οποίοι διαβάζουν"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-070",
+      "type": "single-choice",
+      "prompt": "лучшая ученица",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "η καλύτερη μαθήτρια",
+      "wrongAnswers": [
+        "ο καλύτερος μαθήτρια",
+        "οι καλύτεροι μαθήτρια",
+        "οι καλύτερες μαθήτρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-071",
+      "type": "single-choice",
+      "prompt": "приглашённые ученики",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι καλεσμένοι μαθητές",
+      "wrongAnswers": [
+        "ο καλεσμένος μαθητές",
+        "η καλεσμένη μαθητές",
+        "το καλεσμένο μαθητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-072",
+      "type": "single-choice",
+      "prompt": "хорошие сокурсники",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο συμφοιτητής\nМножественное число: οι συμφοιτητές\n\nРод: мужской",
+      "correctAnswer": "οι καλοί συμφοιτητές",
+      "wrongAnswers": [
+        "ο καλός συμφοιτητές",
+        "η καλή συμφοιτητές",
+        "οι καλές συμφοιτητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-074",
+      "type": "single-choice",
+      "prompt": "государственная гимназия",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γυμνάσιο\nМножественное число: τα γυμνάσια\n\nРод: средний",
+      "correctAnswer": "το δημόσιο γυμνάσιο",
+      "wrongAnswers": [
+        "ο δημόσιος γυμνάσιο",
+        "οι δημόσιοι γυμνάσιο",
+        "η δημόσια γυμνάσιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-075",
+      "type": "single-choice",
+      "prompt": "ответственные учительницы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η δασκάλα\nМножественное число: οι δασκάλες\n\nРод: женский",
+      "correctAnswer": "οι υπεύθυνες δασκάλες",
+      "wrongAnswers": [
+        "ο υπεύθυνος δασκάλες",
+        "οι υπεύθυνοι δασκάλες",
+        "η υπεύθυνη δασκάλες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-076",
+      "type": "single-choice",
+      "prompt": "спокойные учительницы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η δασκάλα\nМножественное число: οι δασκάλες\n\nРод: женский",
+      "correctAnswer": "οι ήρεμες δασκάλες",
+      "wrongAnswers": [
+        "ο ήρεμος δασκάλες",
+        "οι ήρεμοι δασκάλες",
+        "η ήρεμη δασκάλες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-077",
+      "type": "single-choice",
+      "prompt": "государственные консерватории",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ωδείο\nМножественное число: τα ωδεία\n\nРод: средний",
+      "correctAnswer": "τα δημόσια ωδεία",
+      "wrongAnswers": [
+        "ο δημόσιος ωδεία",
+        "οι δημόσιοι ωδεία",
+        "οι δημόσιες ωδεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-078",
+      "type": "single-choice",
+      "prompt": "начальные школы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σχολείο\nМножественное число: τα σχολεία\n\nРод: средний",
+      "correctAnswer": "τα δημοτικά σχολεία",
+      "wrongAnswers": [
+        "ο δημοτικός σχολεία",
+        "οι δημοτικοί σχολεία",
+        "η δημοτική σχολεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-082",
+      "type": "single-choice",
+      "prompt": "нынешний учебный год",
+      "speechTarget": "options",
+      "hint": "Единственное число: η χρονιά\nМножественное число: οι χρονιές\n\nРод: женский",
+      "correctAnswer": "η φετινή σχολική χρονιά",
+      "wrongAnswers": [
+        "ο φετινός σχολική χρονιά",
+        "οι φετινοί σχολική χρονιά",
+        "οι φετινές σχολική χρονιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-083",
+      "type": "single-choice",
+      "prompt": "государственная школа",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σχολείο\nМножественное число: τα σχολεία\n\nРод: средний",
+      "correctAnswer": "το κρατικό σχολείο",
+      "wrongAnswers": [
+        "ο κρατικός σχολείο",
+        "οι κρατικοί σχολείο",
+        "η κρατική σχολείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-084",
+      "type": "single-choice",
+      "prompt": "дошкольные возрасты",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ηλικία\nМножественное число: οι ηλικίες\n\nРод: женский",
+      "correctAnswer": "οι προσχολικές ηλικίες",
+      "wrongAnswers": [
+        "ο προσχολικός ηλικίες",
+        "η προσχολική ηλικίες",
+        "το προσχολικό ηλικίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-087",
+      "type": "single-choice",
+      "prompt": "африканские школы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σχολείο\nМножественное число: τα σχολεία\n\nРод: средний",
+      "correctAnswer": "τα αφρικανικά σχολεία",
+      "wrongAnswers": [
+        "ο αφρικανικός σχολεία",
+        "οι αφρικανικοί σχολεία",
+        "η αφρικανική σχολεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-089",
+      "type": "single-choice",
+      "prompt": "дошкольный центр",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο σταθμός\nМножественное число: οι σταθμοί\n\nРод: мужской",
+      "correctAnswer": "ο προσχολικός σταθμός",
+      "wrongAnswers": [
+        "η προσχολική σταθμός",
+        "το προσχολικό σταθμός",
+        "οι προσχολικοί σταθμός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-090",
+      "type": "single-choice",
+      "prompt": "предыдущий ученик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο προηγούμενος μαθητής",
+      "wrongAnswers": [
+        "η προηγούμενη μαθητής",
+        "το προηγούμενο μαθητής",
+        "οι προηγούμενοι μαθητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-094",
+      "type": "single-choice",
+      "prompt": "лучший ученик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο καλύτερος μαθητής",
+      "wrongAnswers": [
+        "οι καλύτεροι μαθητής",
+        "η καλύτερη μαθητής",
+        "οι καλύτερες μαθητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-097",
+      "type": "single-choice",
+      "prompt": "государственные школы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σχολείο\nМножественное число: τα σχολεία\n\nРод: средний",
+      "correctAnswer": "τα κρατικά σχολεία",
+      "wrongAnswers": [
+        "ο κρατικός σχολεία",
+        "οι κρατικοί σχολεία",
+        "η κρατική σχολεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-098",
+      "type": "single-choice",
+      "prompt": "отличная ученица",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "η άριστη μαθήτρια",
+      "wrongAnswers": [
+        "ο άριστος μαθήτρια",
+        "οι άριστοι μαθήτρια",
+        "οι άριστες μαθήτρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-100",
+      "type": "single-choice",
+      "prompt": "вспомогательный учитель",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο βοηθητικός δάσκαλος",
+      "wrongAnswers": [
+        "οι βοηθητικοί δάσκαλος",
+        "η βοηθητική δάσκαλος",
+        "οι βοηθητικές δάσκαλος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-101",
+      "type": "single-choice",
+      "prompt": "государственная консерватория",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ωδείο\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το δημόσιο ωδείο",
+      "wrongAnswers": [
+        "ο δημόσιος ωδείο",
+        "οι δημόσιοι ωδείο",
+        "η δημόσια ωδείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-102",
+      "type": "single-choice",
+      "prompt": "дорогая выпускница",
+      "speechTarget": "options",
+      "hint": "Единственное число: η απόφοιτη\nМножественное число: οι απόφοιτες\n\nРод: женский",
+      "correctAnswer": "η αγαπητή απόφοιτη",
+      "wrongAnswers": [
+        "ο αγαπητός απόφοιτη",
+        "οι αγαπητοί απόφοιτη",
+        "οι αγαπητές απόφοιτη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-105",
+      "type": "single-choice",
+      "prompt": "улыбающиеся ученицы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "οι γελαστές μαθήτριες",
+      "wrongAnswers": [
+        "ο γελαστός μαθήτριες",
+        "οι γελαστοί μαθήτριες",
+        "η γελαστή μαθήτριες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-106",
+      "type": "single-choice",
+      "prompt": "начальная школа",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σχολείο\nМножественное число: τα σχολεία\n\nРод: средний",
+      "correctAnswer": "το δημοτικό σχολείο",
+      "wrongAnswers": [
+        "ο δημοτικός σχολείο",
+        "οι δημοτικοί σχολείο",
+        "η δημοτική σχολείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-107",
+      "type": "single-choice",
+      "prompt": "хорошая сокурсница",
+      "speechTarget": "options",
+      "hint": "Единственное число: η συμφοιτήτρια\nМножественное число: οι συμφοιτήτριες\n\nРод: женский",
+      "correctAnswer": "η καλή συμφοιτήτρια",
+      "wrongAnswers": [
+        "ο καλός συμφοιτήτρια",
+        "οι καλοί συμφοιτήτρια",
+        "οι καλές συμφοιτήτρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-109",
+      "type": "single-choice",
+      "prompt": "ясли-сад",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο σταθμός\nМножественное число: οι σταθμοί\n\nРод: мужской",
+      "correctAnswer": "οι βρεφονηπιακοί σταθμοί",
+      "wrongAnswers": [
+        "ο βρεφονηπιακός σταθμοί",
+        "η βρεφονηπιακή σταθμοί",
+        "το βρεφονηπιακό σταθμοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-110",
+      "type": "single-choice",
+      "prompt": "улыбчивая ученица",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "η γελαστή μαθήτρια",
+      "wrongAnswers": [
+        "ο γελαστός μαθήτρια",
+        "οι γελαστοί μαθήτρια",
+        "οι γελαστές μαθήτρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-111",
+      "type": "single-choice",
+      "prompt": "лучшие ученики",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι καλύτεροι μαθητές",
+      "wrongAnswers": [
+        "ο καλύτερος μαθητές",
+        "η καλύτερη μαθητές",
+        "οι καλύτερες μαθητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-113",
+      "type": "single-choice",
+      "prompt": "государственные училища",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σχολή\nМножественное число: οι σχολές\n\nРод: женский",
+      "correctAnswer": "οι δημόσιες σχολές",
+      "wrongAnswers": [
+        "ο δημόσιος σχολές",
+        "οι δημόσιοι σχολές",
+        "η δημόσια σχολές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-115",
+      "type": "single-choice",
+      "prompt": "государственные системы образования",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εκπαίδευση\nМножественное число: οι εκπαιδεύσεις\n\nРод: женский",
+      "correctAnswer": "οι δημόσιες εκπαιδεύσεις",
+      "wrongAnswers": [
+        "ο δημόσιος εκπαιδεύσεις",
+        "οι δημόσιοι εκπαιδεύσεις",
+        "η δημόσια εκπαιδεύσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-116",
+      "type": "single-choice",
+      "prompt": "государственный вуз",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ΑΕΙ\nМножественное число: τα ΑΕΙ\n\nРод: средний",
+      "correctAnswer": "το δημόσιο ΑΕΙ",
+      "wrongAnswers": ["ο δημόσιος ΑΕΙ", "οι δημόσιοι ΑΕΙ", "η δημόσια ΑΕΙ"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-117",
+      "type": "single-choice",
+      "prompt": "каждый из учеников",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "καθένας από τους μαθητές",
+      "wrongAnswers": [
+        "καθεμία από τους μαθητές",
+        "καθένα από τους μαθητές",
+        "καθένας από τους μαθητή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-119",
+      "type": "single-choice",
+      "prompt": "школьные парты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το θρανίο\nМножественное число: τα θρανία\n\nРод: средний",
+      "correctAnswer": "τα σχολικά θρανία",
+      "wrongAnswers": [
+        "ο σχολικός θρανία",
+        "οι σχολικοί θρανία",
+        "η σχολική θρανία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-121",
+      "type": "single-choice",
+      "prompt": "современные лаборатории",
+      "speechTarget": "options",
+      "hint": "Единственное число: το εργαστήριο\nМножественное число: τα εργαστήρια\n\nРод: средний",
+      "correctAnswer": "τα σύγχρονα εργαστήρια",
+      "wrongAnswers": [
+        "ο σύγχρονος εργαστήρια",
+        "οι σύγχρονοι εργαστήρια",
+        "η σύγχρονη εργαστήρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-122",
+      "type": "single-choice",
+      "prompt": "любимый выпускник",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο απόφοιτος\nМножественное число: οι απόφοιτοι\n\nРод: мужской",
+      "correctAnswer": "ο αγαπητός απόφοιτος",
+      "wrongAnswers": [
+        "οι αγαπητοί απόφοιτος",
+        "η αγαπητή απόφοιτος",
+        "οι αγαπητές απόφοιτος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-123",
+      "type": "single-choice",
+      "prompt": "скучные учителя",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "οι βαρετοί δάσκαλοι",
+      "wrongAnswers": [
+        "ο βαρετός δάσκαλοι",
+        "η βαρετή δάσκαλοι",
+        "οι βαρετές δάσκαλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-125",
+      "type": "single-choice",
+      "prompt": "ученицы, которые читают",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαθήτρια\nМножественное число: οι μαθήτριες\n\nРод: женский",
+      "correctAnswer": "οι μαθήτριες οι οποίες διαβάζουν",
+      "wrongAnswers": [
+        "οι μαθήτριες ο οποίος διαβάζουν",
+        "οι μαθήτριες η οποία διαβάζουν",
+        "οι μαθήτριες το οποίο διαβάζουν"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-126",
+      "type": "single-choice",
+      "prompt": "жизнерадостный ученик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο ζωηρός μαθητής",
+      "wrongAnswers": [
+        "οι ζωηροί μαθητής",
+        "η ζωηρή μαθητής",
+        "οι ζωηρές μαθητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-128",
+      "type": "single-choice",
+      "prompt": "школьная парта",
+      "speechTarget": "options",
+      "hint": "Единственное число: το θρανίο\nМножественное число: τα θρανία\n\nРод: средний",
+      "correctAnswer": "το σχολικό θρανίο",
+      "wrongAnswers": [
+        "ο σχολικός θρανίο",
+        "οι σχολικοί θρανίο",
+        "η σχολική θρανίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-129",
+      "type": "single-choice",
+      "prompt": "большинство учеников",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι περισσότεροι μαθητές",
+      "wrongAnswers": [
+        "ο περισσότερος μαθητές",
+        "η περισσότερη μαθητές",
+        "οι περισσότερες μαθητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-131",
+      "type": "single-choice",
+      "prompt": "жизнерадостные ученики",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "οι ζωηροί μαθητές",
+      "wrongAnswers": [
+        "ο ζωηρός μαθητές",
+        "η ζωηρή μαθητές",
+        "οι ζωηρές μαθητές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-132",
+      "type": "single-choice",
+      "prompt": "университетские аудитории",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αίθουσα\nМножественное число: οι αίθουσες\n\nРод: женский",
+      "correctAnswer": "οι πανεπιστημιακές αίθουσες",
+      "wrongAnswers": [
+        "ο πανεπιστημιακός αίθουσες",
+        "οι πανεπιστημιακοί αίθουσες",
+        "η πανεπιστημιακή αίθουσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-133",
+      "type": "single-choice",
+      "prompt": "школьные сумки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι σχολικές τσάντες",
+      "wrongAnswers": [
+        "ο σχολικός τσάντες",
+        "οι σχολικοί τσάντες",
+        "η σχολική τσάντες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-134",
+      "type": "single-choice",
+      "prompt": "университетская библиотека",
+      "speechTarget": "options",
+      "hint": "Единственное число: η βιβλιοθήκη\nМножественное число: οι βιβλιοθήκες\n\nРод: женский",
+      "correctAnswer": "η πανεπιστημιακή βιβλιοθήκη",
+      "wrongAnswers": [
+        "ο πανεπιστημιακός βιβλιοθήκη",
+        "οι πανεπιστημιακοί βιβλιοθήκη",
+        "οι πανεπιστημιακές βιβλιοθήκη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-135",
+      "type": "single-choice",
+      "prompt": "улыбчивый ученик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο γελαστός μαθητής",
+      "wrongAnswers": [
+        "οι γελαστοί μαθητής",
+        "η γελαστή μαθητής",
+        "οι γελαστές μαθητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-school-people-places-136",
+      "type": "single-choice",
+      "prompt": "дружелюбные учителя",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "οι φιλικοί δάσκαλοι",
+      "wrongAnswers": [
+        "ο φιλικός δάσκαλοι",
+        "η φιλική δάσκαλοι",
+        "οι φιλικές δάσκαλοι"
+      ]
+    }
+  ]
+}

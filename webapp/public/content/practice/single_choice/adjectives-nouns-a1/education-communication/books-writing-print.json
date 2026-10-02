@@ -1,0 +1,582 @@
+{
+  "title": "Книги, письмо и печатные материалы",
+  "subtitle": "Практикуйте согласование в лексике книг, письма и печати",
+  "items": [
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-003",
+      "type": "single-choice",
+      "prompt": "новые журналы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το περιοδικό\nМножественное число: τα περιοδικά\n\nРод: средний",
+      "correctAnswer": "τα καινούρια περιοδικά",
+      "wrongAnswers": [
+        "ο καινούριος περιοδικά",
+        "οι καινούριοι περιοδικά",
+        "οι καινούριες περιοδικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-009",
+      "type": "single-choice",
+      "prompt": "американские книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα αμερικανικά βιβλία",
+      "wrongAnswers": [
+        "ο αμερικανικός βιβλία",
+        "οι αμερικανικοί βιβλία",
+        "η αμερικανική βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-010",
+      "type": "single-choice",
+      "prompt": "известные имена",
+      "speechTarget": "options",
+      "hint": "Единственное число: το όνομα\nМножественное число: τα ονόματα\n\nРод: средний",
+      "correctAnswer": "τα γνωστά ονόματα",
+      "wrongAnswers": [
+        "ο γνωστός ονόματα",
+        "οι γνωστοί ονόματα",
+        "η γνωστή ονόματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-011",
+      "type": "single-choice",
+      "prompt": "французские карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι γαλλικοί χάρτες",
+      "wrongAnswers": [
+        "ο γαλλικός χάρτες",
+        "η γαλλική χάρτες",
+        "οι γαλλικές χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-014",
+      "type": "single-choice",
+      "prompt": "греческая карта",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "ο ελληνικός χάρτης",
+      "wrongAnswers": [
+        "οι ελληνικοί χάρτης",
+        "η ελληνική χάρτης",
+        "οι ελληνικές χάρτης"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-018",
+      "type": "single-choice",
+      "prompt": "тяжёлые книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα βαριά βιβλία",
+      "wrongAnswers": ["ο βαρύς βιβλία", "το βαρύ βιβλία", "οι βαριοί βιβλία"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-021",
+      "type": "single-choice",
+      "prompt": "французские книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα γαλλικά βιβλία",
+      "wrongAnswers": [
+        "ο γαλλικός βιβλία",
+        "οι γαλλικοί βιβλία",
+        "η γαλλική βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-023",
+      "type": "single-choice",
+      "prompt": "русская книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το ρωσικό βιβλίο",
+      "wrongAnswers": [
+        "ο ρωσικός βιβλίο",
+        "η ρωσική βιβλίο",
+        "οι ρωσικοί βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-026",
+      "type": "single-choice",
+      "prompt": "много книг",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα πολλά βιβλία",
+      "wrongAnswers": ["ο πολύς βιβλία", "η πολλή βιβλία", "το πολύ βιβλία"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-027",
+      "type": "single-choice",
+      "prompt": "любимая книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το αγαπημένο βιβλίο",
+      "wrongAnswers": [
+        "ο αγαπημένος βιβλίο",
+        "η αγαπημένη βιβλίο",
+        "οι αγαπημένοι βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-029",
+      "type": "single-choice",
+      "prompt": "хорошие чтения",
+      "speechTarget": "options",
+      "hint": "Единственное число: το διάβασμα\nМножественное число: τα διαβάσματα\n\nРод: средний",
+      "correctAnswer": "τα καλά διαβάσματα",
+      "wrongAnswers": [
+        "ο καλός διαβάσματα",
+        "οι καλοί διαβάσματα",
+        "η καλή διαβάσματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-035",
+      "type": "single-choice",
+      "prompt": "французская книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το γαλλικό βιβλίο",
+      "wrongAnswers": [
+        "ο γαλλικός βιβλίο",
+        "οι γαλλικοί βιβλίο",
+        "η γαλλική βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-037",
+      "type": "single-choice",
+      "prompt": "немецкие книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα γερμανικά βιβλία",
+      "wrongAnswers": [
+        "ο γερμανικός βιβλία",
+        "οι γερμανικοί βιβλία",
+        "η γερμανική βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-039",
+      "type": "single-choice",
+      "prompt": "тонкие бумаги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το χαρτί\nМножественное число: τα χαρτιά\n\nРод: средний",
+      "correctAnswer": "τα λεπτά χαρτιά",
+      "wrongAnswers": ["ο λεπτός χαρτιά", "οι λεπτοί χαρτιά", "η λεπτή χαρτιά"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-043",
+      "type": "single-choice",
+      "prompt": "известное имя",
+      "speechTarget": "options",
+      "hint": "Единственное число: το όνομα\nМножественное число: τα ονόματα\n\nРод: средний",
+      "correctAnswer": "το γνωστό όνομα",
+      "wrongAnswers": ["ο γνωστός όνομα", "οι γνωστοί όνομα", "η γνωστή όνομα"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-044",
+      "type": "single-choice",
+      "prompt": "маленькие словари",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λεξικό\nМножественное число: τα λεξικά\n\nРод: средний",
+      "correctAnswer": "τα μικρά λεξικά",
+      "wrongAnswers": ["ο μικρός λεξικά", "οι μικροί λεξικά", "η μικρή λεξικά"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-046",
+      "type": "single-choice",
+      "prompt": "немецкие карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι γερμανικοί χάρτες",
+      "wrongAnswers": [
+        "ο γερμανικός χάρτες",
+        "η γερμανική χάρτες",
+        "οι γερμανικές χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-047",
+      "type": "single-choice",
+      "prompt": "хорошие списки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η λίστα\nМножественное число: οι λίστες\n\nРод: женский",
+      "correctAnswer": "οι καλές λίστες",
+      "wrongAnswers": ["ο καλός λίστες", "οι καλοί λίστες", "η καλή λίστες"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-048",
+      "type": "single-choice",
+      "prompt": "большая библиотека",
+      "speechTarget": "options",
+      "hint": "Единственное число: η βιβλιοθήκη\nМножественное число: οι βιβλιοθήκες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη βιβλιοθήκη",
+      "wrongAnswers": [
+        "ο μεγάλος βιβλιοθήκη",
+        "οι μεγάλοι βιβλιοθήκη",
+        "οι μεγάλες βιβλιοθήκη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-051",
+      "type": "single-choice",
+      "prompt": "американская книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το αμερικανικό βιβλίο",
+      "wrongAnswers": [
+        "ο αμερικανικός βιβλίο",
+        "οι αμερικανικοί βιβλίο",
+        "η αμερικανική βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-056",
+      "type": "single-choice",
+      "prompt": "красивая картинка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εικόνα\nМножественное число: οι εικόνες\n\nРод: женский",
+      "correctAnswer": "η όμορφη εικόνα",
+      "wrongAnswers": [
+        "ο όμορφος εικόνα",
+        "οι όμορφοι εικόνα",
+        "οι όμορφες εικόνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-057",
+      "type": "single-choice",
+      "prompt": "красивые картинки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εικόνα\nМножественное число: οι εικόνες\n\nРод: женский",
+      "correctAnswer": "οι όμορφες εικόνες",
+      "wrongAnswers": [
+        "ο όμορφος εικόνες",
+        "οι όμορφοι εικόνες",
+        "η όμορφη εικόνες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-064",
+      "type": "single-choice",
+      "prompt": "толстая книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το χοντρό βιβλίο",
+      "wrongAnswers": [
+        "ο χοντρός βιβλίο",
+        "οι χοντροί βιβλίο",
+        "η χοντρή βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-067",
+      "type": "single-choice",
+      "prompt": "маленький словарь",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λεξικό\nМножественное число: τα λεξικά\n\nРод: средний",
+      "correctAnswer": "το μικρό λεξικό",
+      "wrongAnswers": ["ο μικρός λεξικό", "οι μικροί λεξικό", "η μικρή λεξικό"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-069",
+      "type": "single-choice",
+      "prompt": "любимая фотография",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη φωτογραφία",
+      "wrongAnswers": [
+        "ο αγαπημένος φωτογραφία",
+        "το αγαπημένο φωτογραφία",
+        "οι αγαπημένοι φωτογραφία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-070",
+      "type": "single-choice",
+      "prompt": "толстые книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα χοντρά βιβλία",
+      "wrongAnswers": [
+        "ο χοντρός βιβλία",
+        "οι χοντροί βιβλία",
+        "η χοντρή βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-071",
+      "type": "single-choice",
+      "prompt": "дешёвая книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το φθηνό βιβλίο",
+      "wrongAnswers": ["ο φθηνός βιβλίο", "οι φθηνοί βιβλίο", "η φθηνή βιβλίο"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-074",
+      "type": "single-choice",
+      "prompt": "дорогие тексты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κείμενο\nМножественное число: τα κείμενα\n\nРод: средний",
+      "correctAnswer": "τα ακριβά κείμενα",
+      "wrongAnswers": [
+        "ο ακριβός κείμενα",
+        "οι ακριβοί κείμενα",
+        "η ακριβή κείμενα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-084",
+      "type": "single-choice",
+      "prompt": "хороший список",
+      "speechTarget": "options",
+      "hint": "Единственное число: η λίστα\nМножественное число: οι λίστες\n\nРод: женский",
+      "correctAnswer": "η καλή λίστα",
+      "wrongAnswers": ["ο καλός λίστα", "οι καλοί λίστα", "οι καλές λίστα"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-089",
+      "type": "single-choice",
+      "prompt": "английская карта",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "ο αγγλικός χάρτης",
+      "wrongAnswers": [
+        "οι αγγλικοί χάρτης",
+        "η αγγλική χάρτης",
+        "οι αγγλικές χάρτης"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-090",
+      "type": "single-choice",
+      "prompt": "новые книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα καινούρια βιβλία",
+      "wrongAnswers": [
+        "ο καινούριος βιβλία",
+        "οι καινούριοι βιβλία",
+        "οι καινούριες βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-092",
+      "type": "single-choice",
+      "prompt": "английские карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι αγγλικοί χάρτες",
+      "wrongAnswers": [
+        "ο αγγλικός χάρτες",
+        "η αγγλική χάρτες",
+        "οι αγγλικές χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-096",
+      "type": "single-choice",
+      "prompt": "какие книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "ποια βιβλία",
+      "wrongAnswers": ["ποιος βιβλία", "ποιο βιβλία", "ποιοι βιβλία"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-100",
+      "type": "single-choice",
+      "prompt": "большие карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι μεγάλοι χάρτες",
+      "wrongAnswers": [
+        "ο μεγάλος χάρτες",
+        "η μεγάλη χάρτες",
+        "οι μεγάλες χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-101",
+      "type": "single-choice",
+      "prompt": "большие таблицы",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πίνακας\nМножественное число: οι πίνακες\n\nРод: мужской",
+      "correctAnswer": "οι μεγάλοι πίνακες",
+      "wrongAnswers": [
+        "ο μεγάλος πίνακες",
+        "η μεγάλη πίνακες",
+        "οι μεγάλες πίνακες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-102",
+      "type": "single-choice",
+      "prompt": "русские книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα ρωσικά βιβλία",
+      "wrongAnswers": [
+        "ο ρωσικός βιβλία",
+        "η ρωσική βιβλία",
+        "το ρωσικό βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-113",
+      "type": "single-choice",
+      "prompt": "английские книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα αγγλικά βιβλία",
+      "wrongAnswers": [
+        "ο αγγλικός βιβλία",
+        "οι αγγλικοί βιβλία",
+        "η αγγλική βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-118",
+      "type": "single-choice",
+      "prompt": "греческие карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι ελληνικοί χάρτες",
+      "wrongAnswers": [
+        "ο ελληνικός χάρτες",
+        "η ελληνική χάρτες",
+        "οι ελληνικές χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-127",
+      "type": "single-choice",
+      "prompt": "любимые книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα αγαπημένα βιβλία",
+      "wrongAnswers": [
+        "ο αγαπημένος βιβλία",
+        "η αγαπημένη βιβλία",
+        "το αγαπημένο βιβλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-128",
+      "type": "single-choice",
+      "prompt": "немецкая карта",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "ο γερμανικός χάρτης",
+      "wrongAnswers": [
+        "οι γερμανικοί χάρτης",
+        "η γερμανική χάρτης",
+        "οι γερμανικές χάρτης"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-131",
+      "type": "single-choice",
+      "prompt": "новая книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το καινούριο βιβλίο",
+      "wrongAnswers": [
+        "ο καινούριος βιβλίο",
+        "οι καινούριοι βιβλίο",
+        "η καινούρια βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-135",
+      "type": "single-choice",
+      "prompt": "русские карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι ρωσικοί χάρτες",
+      "wrongAnswers": [
+        "ο ρωσικός χάρτες",
+        "η ρωσική χάρτες",
+        "το ρωσικό χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-136",
+      "type": "single-choice",
+      "prompt": "немецкая книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το γερμανικό βιβλίο",
+      "wrongAnswers": [
+        "ο γερμανικός βιβλίο",
+        "οι γερμανικοί βιβλίο",
+        "η γερμανική βιβλίο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-139",
+      "type": "single-choice",
+      "prompt": "любимые фотографии",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες φωτογραφίες",
+      "wrongAnswers": [
+        "ο αγαπημένος φωτογραφίες",
+        "η αγαπημένη φωτογραφίες",
+        "το αγαπημένο φωτογραφίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-142",
+      "type": "single-choice",
+      "prompt": "тяжёлая книга",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "το βαρύ βιβλίο",
+      "wrongAnswers": ["ο βαρύς βιβλίο", "η βαριά βιβλίο", "οι βαριοί βιβλίο"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-143",
+      "type": "single-choice",
+      "prompt": "новый журнал",
+      "speechTarget": "options",
+      "hint": "Единственное число: το περιοδικό\nМножественное число: τα περιοδικά\n\nРод: средний",
+      "correctAnswer": "το καινούριο περιοδικό",
+      "wrongAnswers": [
+        "ο καινούριος περιοδικό",
+        "οι καινούριοι περιοδικό",
+        "η καινούρια περιοδικό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-146",
+      "type": "single-choice",
+      "prompt": "дешёвые книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα φθηνά βιβλία",
+      "wrongAnswers": ["ο φθηνός βιβλία", "οι φθηνοί βιβλία", "η φθηνή βιβλία"]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-books-writing-print-147",
+      "type": "single-choice",
+      "prompt": "старые книги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βιβλίο\nМножественное число: τα βιβλία\n\nРод: средний",
+      "correctAnswer": "τα παλιά βιβλία",
+      "wrongAnswers": [
+        "ο παλιός βιβλία",
+        "οι παλιοί βιβλία",
+        "οι παλιές βιβλία"
+      ]
+    }
+  ]
+}

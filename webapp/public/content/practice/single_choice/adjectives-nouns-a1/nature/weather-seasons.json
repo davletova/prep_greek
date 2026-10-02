@@ -1,0 +1,222 @@
+{
+  "title": "Погода и времена года",
+  "subtitle": "Закрепите род и число в лексике погоды и времён года",
+  "items": [
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-004",
+      "type": "single-choice",
+      "prompt": "сильные дожди",
+      "speechTarget": "options",
+      "correctAnswer": "οι δυνατές βροχές",
+      "wrongAnswers": [
+        "ο δυνατός βροχές",
+        "οι δυνατοί βροχές",
+        "η δυνατή βροχές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-005",
+      "type": "single-choice",
+      "prompt": "холодные осени",
+      "speechTarget": "options",
+      "correctAnswer": "τα κρύα φθινόπωρα",
+      "wrongAnswers": [
+        "ο κρύος φθινόπωρα",
+        "οι κρύοι φθινόπωρα",
+        "οι κρύες φθινόπωρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-008",
+      "type": "single-choice",
+      "prompt": "красивая весна",
+      "speechTarget": "options",
+      "correctAnswer": "η όμορφη άνοιξη",
+      "wrongAnswers": [
+        "ο όμορφος άνοιξη",
+        "οι όμορφοι άνοιξη",
+        "οι όμορφες άνοιξη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-009",
+      "type": "single-choice",
+      "prompt": "холодные ночи",
+      "speechTarget": "options",
+      "correctAnswer": "οι κρύες νύχτες",
+      "wrongAnswers": ["ο κρύος νύχτες", "οι κρύοι νύχτες", "η κρύα νύχτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-010",
+      "type": "single-choice",
+      "prompt": "хорошая погода",
+      "speechTarget": "options",
+      "correctAnswer": "ο καλός καιρός",
+      "wrongAnswers": ["οι καλοί καιρός", "η καλή καιρός", "οι καλές καιρός"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-012",
+      "type": "single-choice",
+      "prompt": "красивый день",
+      "speechTarget": "options",
+      "correctAnswer": "η όμορφη ημέρα",
+      "wrongAnswers": [
+        "ο όμορφος ημέρα",
+        "οι όμορφοι ημέρα",
+        "οι όμορφες ημέρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-019",
+      "type": "single-choice",
+      "prompt": "сильный ветер",
+      "speechTarget": "options",
+      "correctAnswer": "ο δυνατός αέρας",
+      "wrongAnswers": ["οι δυνατοί αέρας", "η δυνατή αέρας", "οι δυνατές αέρας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-020",
+      "type": "single-choice",
+      "prompt": "сильный дождь",
+      "speechTarget": "options",
+      "correctAnswer": "η δυνατή βροχή",
+      "wrongAnswers": [
+        "ο δυνατός βροχή",
+        "οι δυνατοί βροχή",
+        "οι δυνατές βροχή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-024",
+      "type": "single-choice",
+      "prompt": "плохая погода",
+      "speechTarget": "options",
+      "correctAnswer": "ο άσχημος καιρός",
+      "wrongAnswers": [
+        "οι άσχημοι καιρός",
+        "η άσχημη καιρός",
+        "οι άσχημες καιρός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-025",
+      "type": "single-choice",
+      "prompt": "частый дождь",
+      "speechTarget": "options",
+      "correctAnswer": "η συχνή βροχή",
+      "wrongAnswers": ["ο συχνός βροχή", "οι συχνοί βροχή", "οι συχνές βροχή"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-026",
+      "type": "single-choice",
+      "prompt": "плохой день",
+      "speechTarget": "options",
+      "correctAnswer": "η άσχημη μέρα",
+      "wrongAnswers": ["ο άσχημος μέρα", "οι άσχημοι μέρα", "οι άσχημες μέρα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-027",
+      "type": "single-choice",
+      "prompt": "холодные ветры",
+      "speechTarget": "options",
+      "correctAnswer": "οι κρύοι άνεμοι",
+      "wrongAnswers": ["ο κρύος άνεμοι", "η κρύα άνεμοι", "οι κρύες άνεμοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-028",
+      "type": "single-choice",
+      "prompt": "сильные ветры",
+      "speechTarget": "options",
+      "correctAnswer": "οι δυνατοί άνεμοι",
+      "wrongAnswers": [
+        "ο δυνατός άνεμοι",
+        "η δυνατή άνεμοι",
+        "οι δυνατές άνεμοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-036",
+      "type": "single-choice",
+      "prompt": "сильные ветры",
+      "speechTarget": "options",
+      "correctAnswer": "οι δυνατοί αέρηδες",
+      "wrongAnswers": [
+        "ο δυνατός αέρηδες",
+        "η δυνατή αέρηδες",
+        "οι δυνατές αέρηδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-040",
+      "type": "single-choice",
+      "prompt": "сильный ветер",
+      "speechTarget": "options",
+      "correctAnswer": "ο δυνατός άνεμος",
+      "wrongAnswers": [
+        "οι δυνατοί άνεμος",
+        "η δυνατή άνεμος",
+        "οι δυνατές άνεμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-043",
+      "type": "single-choice",
+      "prompt": "холодный воздух",
+      "speechTarget": "options",
+      "correctAnswer": "ο κρύος αέρας",
+      "wrongAnswers": ["οι κρύοι αέρας", "η κρύα αέρας", "οι κρύες αέρας"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-047",
+      "type": "single-choice",
+      "prompt": "холодные зимы",
+      "speechTarget": "options",
+      "correctAnswer": "οι κρύοι χειμώνες",
+      "wrongAnswers": [
+        "ο κρύος χειμώνες",
+        "η κρύα χειμώνες",
+        "οι κρύες χειμώνες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-048",
+      "type": "single-choice",
+      "prompt": "частые дожди",
+      "speechTarget": "options",
+      "correctAnswer": "οι συχνές βροχές",
+      "wrongAnswers": ["ο συχνός βροχές", "οι συχνοί βροχές", "η συχνή βροχές"]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-050",
+      "type": "single-choice",
+      "prompt": "сильная жара",
+      "speechTarget": "options",
+      "correctAnswer": "η μεγάλη ζέστη",
+      "wrongAnswers": [
+        "ο μεγάλος ζέστη",
+        "οι μεγάλοι ζέστη",
+        "οι μεγάλες ζέστη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-054",
+      "type": "single-choice",
+      "prompt": "плохая погода",
+      "speechTarget": "options",
+      "correctAnswer": "οι άσχημοι καιροί",
+      "wrongAnswers": [
+        "ο άσχημος καιροί",
+        "η άσχημη καιροί",
+        "οι άσχημες καιροί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-weather-seasons-056",
+      "type": "single-choice",
+      "prompt": "сильный холод",
+      "speechTarget": "options",
+      "correctAnswer": "το μεγάλο κρύο",
+      "wrongAnswers": ["ο μεγάλος κρύο", "οι μεγάλοι κρύο", "η μεγάλη κρύο"]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Характер и поведение",
+  "subtitle": "Выберите правильную форму слов в описаниях характера и поведения",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-character-behavior-011",
+      "type": "single-choice",
+      "prompt": "вежливые дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα ευγενικά παιδιά",
+      "wrongAnswers": [
+        "ο ευγενικός παιδιά",
+        "οι ευγενικοί παιδιά",
+        "η ευγενική παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-026",
+      "type": "single-choice",
+      "prompt": "плохие женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι κακές γυναίκες",
+      "wrongAnswers": [
+        "ο κακός γυναίκες",
+        "οι κακοί γυναίκες",
+        "η κακή γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-030",
+      "type": "single-choice",
+      "prompt": "вежливый учитель",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δάσκαλος\nМножественное число: οι δάσκαλοι\n\nРод: мужской",
+      "correctAnswer": "ο ευγενικός δάσκαλος",
+      "wrongAnswers": [
+        "οι ευγενικοί δάσκαλος",
+        "η ευγενική δάσκαλος",
+        "οι ευγενικές δάσκαλος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-040",
+      "type": "single-choice",
+      "prompt": "плохие мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι κακοί άντρες",
+      "wrongAnswers": ["ο κακός άντρες", "η κακή άντρες", "οι κακές άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-046",
+      "type": "single-choice",
+      "prompt": "хорошие мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί άντρες",
+      "wrongAnswers": ["ο καλός άντρες", "η καλή άντρες", "οι καλές άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-050",
+      "type": "single-choice",
+      "prompt": "плохой ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το κακό παιδί",
+      "wrongAnswers": ["ο κακός παιδί", "οι κακοί παιδί", "η κακή παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-056",
+      "type": "single-choice",
+      "prompt": "плохой мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο κακός άντρας",
+      "wrongAnswers": ["οι κακοί άντρας", "η κακή άντρας", "οι κακές άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-063",
+      "type": "single-choice",
+      "prompt": "плохие дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα κακά παιδιά",
+      "wrongAnswers": ["ο κακός παιδιά", "οι κακοί παιδιά", "η κακή παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-070",
+      "type": "single-choice",
+      "prompt": "хорошая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η καλή γυναίκα",
+      "wrongAnswers": [
+        "ο καλός γυναίκα",
+        "οι καλοί γυναίκα",
+        "οι καλές γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-character-behavior-071",
+      "type": "single-choice",
+      "prompt": "плохая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η κακή γυναίκα",
+      "wrongAnswers": [
+        "ο κακός γυναίκα",
+        "οι κακοί γυναίκα",
+        "οι κακές γυναίκα"
+      ]
+    }
+  ]
+}

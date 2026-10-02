@@ -60,9 +60,15 @@
     "fileName": "greek-numerals-cardinal.json"
   },
   {
-    "id": "nouns-adjectives",
-    "title": "Существительные и прилагательные",
+    "id": "nouns-adjectives-a1",
+    "title": "Существительные и прилагательные A1",
     "subtitle": "Выберите раздел",
-    "indexFileName": "adjectives-nouns/index.json"
+    "indexFileName": "adjectives-nouns-a1/index.json"
+  },
+  {
+    "id": "nouns-adjectives-a2",
+    "title": "Существительные и прилагательные A2",
+    "subtitle": "Выберите раздел",
+    "indexFileName": "adjectives-nouns-a2/index.json"
   }
 ]

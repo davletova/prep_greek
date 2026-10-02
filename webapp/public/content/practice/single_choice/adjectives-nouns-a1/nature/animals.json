@@ -1,0 +1,162 @@
+{
+  "title": "Животные",
+  "subtitle": "Практикуйте согласование в названиях и описаниях животных",
+  "items": [
+    {
+      "id": "nouns-adjectives-nature-animals-009",
+      "type": "single-choice",
+      "prompt": "маленькие собаки",
+      "speechTarget": "options",
+      "correctAnswer": "οι μικροί σκύλοι",
+      "wrongAnswers": ["ο μικρός σκύλοι", "η μικρή σκύλοι", "οι μικρές σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-012",
+      "type": "single-choice",
+      "prompt": "красивые птицы",
+      "speechTarget": "options",
+      "correctAnswer": "τα όμορφα πουλιά",
+      "wrongAnswers": [
+        "ο όμορφος πουλιά",
+        "οι όμορφοι πουλιά",
+        "η όμορφη πουλιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-018",
+      "type": "single-choice",
+      "prompt": "маленький цыплёнок",
+      "speechTarget": "options",
+      "correctAnswer": "το μικρό κοτόπουλο",
+      "wrongAnswers": [
+        "ο μικρός κοτόπουλο",
+        "οι μικροί κοτόπουλο",
+        "η μικρή κοτόπουλο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-024",
+      "type": "single-choice",
+      "prompt": "хорошие собаки",
+      "speechTarget": "options",
+      "correctAnswer": "οι καλοί σκύλοι",
+      "wrongAnswers": ["ο καλός σκύλοι", "η καλή σκύλοι", "οι καλές σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-028",
+      "type": "single-choice",
+      "prompt": "маленькие цыплята",
+      "speechTarget": "options",
+      "correctAnswer": "τα μικρά κοτόπουλα",
+      "wrongAnswers": [
+        "ο μικρός κοτόπουλα",
+        "οι μικροί κοτόπουλα",
+        "η μικρή κοτόπουλα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-031",
+      "type": "single-choice",
+      "prompt": "красивые кошки",
+      "speechTarget": "options",
+      "correctAnswer": "οι όμορφες γάτες",
+      "wrongAnswers": ["ο όμορφος γάτες", "οι όμορφοι γάτες", "η όμορφη γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-036",
+      "type": "single-choice",
+      "prompt": "большая лошадь",
+      "speechTarget": "options",
+      "correctAnswer": "το μεγάλο άλογο",
+      "wrongAnswers": ["ο μεγάλος άλογο", "οι μεγάλοι άλογο", "η μεγάλη άλογο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-045",
+      "type": "single-choice",
+      "prompt": "большие лошади",
+      "speechTarget": "options",
+      "correctAnswer": "τα μεγάλα άλογα",
+      "wrongAnswers": ["ο μεγάλος άλογα", "οι μεγάλοι άλογα", "η μεγάλη άλογα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-046",
+      "type": "single-choice",
+      "prompt": "красивая кошка",
+      "speechTarget": "options",
+      "correctAnswer": "η όμορφη γάτα",
+      "wrongAnswers": ["ο όμορφος γάτα", "οι όμορφοι γάτα", "οι όμορφες γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-050",
+      "type": "single-choice",
+      "prompt": "маленькие кошки",
+      "speechTarget": "options",
+      "correctAnswer": "οι μικρές γάτες",
+      "wrongAnswers": ["ο μικρός γάτες", "οι μικροί γάτες", "η μικρή γάτες"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-053",
+      "type": "single-choice",
+      "prompt": "чёрная кошка",
+      "speechTarget": "options",
+      "correctAnswer": "η μαύρη γάτα",
+      "wrongAnswers": ["ο μαύρος γάτα", "οι μαύροι γάτα", "οι μαύρες γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-054",
+      "type": "single-choice",
+      "prompt": "хорошая собака",
+      "speechTarget": "options",
+      "correctAnswer": "ο καλός σκύλος",
+      "wrongAnswers": ["οι καλοί σκύλος", "η καλή σκύλος", "οι καλές σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-055",
+      "type": "single-choice",
+      "prompt": "маленькая собака",
+      "speechTarget": "options",
+      "correctAnswer": "ο μικρός σκύλος",
+      "wrongAnswers": ["οι μικροί σκύλος", "η μικρή σκύλος", "οι μικρές σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-062",
+      "type": "single-choice",
+      "prompt": "чёрные собаки",
+      "speechTarget": "options",
+      "correctAnswer": "οι μαύροι σκύλοι",
+      "wrongAnswers": ["ο μαύρος σκύλοι", "η μαύρη σκύλοι", "οι μαύρες σκύλοι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-067",
+      "type": "single-choice",
+      "prompt": "красивая птица",
+      "speechTarget": "options",
+      "correctAnswer": "το όμορφο πουλί",
+      "wrongAnswers": ["ο όμορφος πουλί", "οι όμορφοι πουλί", "η όμορφη πουλί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-068",
+      "type": "single-choice",
+      "prompt": "маленькая кошка",
+      "speechTarget": "options",
+      "correctAnswer": "η μικρή γάτα",
+      "wrongAnswers": ["ο μικρός γάτα", "οι μικροί γάτα", "οι μικρές γάτα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-070",
+      "type": "single-choice",
+      "prompt": "чёрная собака",
+      "speechTarget": "options",
+      "correctAnswer": "ο μαύρος σκύλος",
+      "wrongAnswers": ["οι μαύροι σκύλος", "η μαύρη σκύλος", "οι μαύρες σκύλος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-animals-071",
+      "type": "single-choice",
+      "prompt": "чёрные кошки",
+      "speechTarget": "options",
+      "correctAnswer": "οι μαύρες γάτες",
+      "wrongAnswers": ["ο μαύρος γάτες", "οι μαύροι γάτες", "η μαύρη γάτες"]
+    }
+  ]
+}

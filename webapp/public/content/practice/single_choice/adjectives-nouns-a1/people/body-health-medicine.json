@@ -1,0 +1,486 @@
+{
+  "title": "Тело, здоровье и медицина",
+  "subtitle": "Закрепите согласование в словосочетаниях о здоровье и теле",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-005",
+      "type": "single-choice",
+      "prompt": "маленькая рука",
+      "speechTarget": "options",
+      "hint": "Единственное число: το χέρι\nМножественное число: τα χέρια\n\nРод: средний",
+      "correctAnswer": "το μικρό χέρι",
+      "wrongAnswers": ["ο μικρός χέρι", "οι μικροί χέρι", "η μικρή χέρι"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-006",
+      "type": "single-choice",
+      "prompt": "больные люди",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "οι άρρωστοι άνθρωποι",
+      "wrongAnswers": [
+        "ο άρρωστος άνθρωποι",
+        "η άρρωστη άνθρωποι",
+        "οι άρρωστες άνθρωποι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-007",
+      "type": "single-choice",
+      "prompt": "левое ухо",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αυτί\nМножественное число: τα αυτιά\n\nРод: средний",
+      "correctAnswer": "το αριστερό αυτί",
+      "wrongAnswers": [
+        "ο αριστερός αυτί",
+        "οι αριστεροί αυτί",
+        "η αριστερή αυτί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-009",
+      "type": "single-choice",
+      "prompt": "сильная боль",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πόνος\nМножественное число: οι πόνοι\n\nРод: мужской",
+      "correctAnswer": "ο δυνατός πόνος",
+      "wrongAnswers": ["οι δυνατοί πόνος", "η δυνατή πόνος", "οι δυνατές πόνος"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-010",
+      "type": "single-choice",
+      "prompt": "маленькая голова",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κεφάλι\nМножественное число: τα κεφάλια\n\nРод: средний",
+      "correctAnswer": "το μικρό κεφάλι",
+      "wrongAnswers": ["ο μικρός κεφάλι", "οι μικροί κεφάλι", "η μικρή κεφάλι"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-011",
+      "type": "single-choice",
+      "prompt": "больная женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η άρρωστη γυναίκα",
+      "wrongAnswers": [
+        "ο άρρωστος γυναίκα",
+        "οι άρρωστοι γυναίκα",
+        "οι άρρωστες γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-012",
+      "type": "single-choice",
+      "prompt": "открытые глаза",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάτι\nМножественное число: τα μάτια\n\nРод: средний",
+      "correctAnswer": "τα ανοιχτά μάτια",
+      "wrongAnswers": [
+        "ο ανοιχτός μάτια",
+        "οι ανοιχτοί μάτια",
+        "η ανοιχτή μάτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-018",
+      "type": "single-choice",
+      "prompt": "хорошие медсестры",
+      "speechTarget": "options",
+      "hint": "Единственное число: η νοσοκόμα\nМножественное число: οι νοσοκόμες\n\nРод: женский",
+      "correctAnswer": "οι καλές νοσοκόμες",
+      "wrongAnswers": [
+        "ο καλός νοσοκόμες",
+        "οι καλοί νοσοκόμες",
+        "η καλή νοσοκόμες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-022",
+      "type": "single-choice",
+      "prompt": "любимые волосы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μαλλί\nМножественное число: τα μαλλιά\n\nРод: средний",
+      "correctAnswer": "το αγαπημένο μαλλί",
+      "wrongAnswers": [
+        "ο αγαπημένος μαλλί",
+        "η αγαπημένη μαλλί",
+        "οι αγαπημένοι μαλλί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-023",
+      "type": "single-choice",
+      "prompt": "хорошее здоровье",
+      "speechTarget": "options",
+      "hint": "Единственное число: η υγεία\nМножественное число: οι υγείες\n\nРод: женский",
+      "correctAnswer": "η καλή υγεία",
+      "wrongAnswers": ["ο καλός υγεία", "οι καλοί υγεία", "οι καλές υγεία"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-026",
+      "type": "single-choice",
+      "prompt": "левые руки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το χέρι\nМножественное число: τα χέρια\n\nРод: средний",
+      "correctAnswer": "τα αριστερά χέρια",
+      "wrongAnswers": [
+        "ο αριστερός χέρια",
+        "οι αριστεροί χέρια",
+        "η αριστερή χέρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-029",
+      "type": "single-choice",
+      "prompt": "хороший медбрат",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο νοσοκόμος\nМножественное число: οι νοσοκόμοι\n\nРод: мужской",
+      "correctAnswer": "ο καλός νοσοκόμος",
+      "wrongAnswers": [
+        "οι καλοί νοσοκόμος",
+        "η καλή νοσοκόμος",
+        "οι καλές νοσοκόμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-030",
+      "type": "single-choice",
+      "prompt": "женские голоса",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
+      "correctAnswer": "οι γυναικείες φωνές",
+      "wrongAnswers": [
+        "ο γυναικείος φωνές",
+        "οι γυναικείοι φωνές",
+        "τα γυναικεία φωνές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-031",
+      "type": "single-choice",
+      "prompt": "любимые носы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μύτη\nМножественное число: οι μύτες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες μύτες",
+      "wrongAnswers": [
+        "ο αγαπημένος μύτες",
+        "η αγαπημένη μύτες",
+        "το αγαπημένο μύτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-034",
+      "type": "single-choice",
+      "prompt": "женские тела",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σώμα\nМножественное число: τα σώματα\n\nРод: средний",
+      "correctAnswer": "τα γυναικεία σώματα",
+      "wrongAnswers": [
+        "ο γυναικείος σώματα",
+        "οι γυναικείοι σώματα",
+        "οι γυναικείες σώματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-037",
+      "type": "single-choice",
+      "prompt": "открытый рот",
+      "speechTarget": "options",
+      "hint": "Единственное число: το στόμα\nМножественное число: τα στόματα\n\nРод: средний",
+      "correctAnswer": "το ανοιχτό στόμα",
+      "wrongAnswers": [
+        "ο ανοιχτός στόμα",
+        "οι ανοιχτοί στόμα",
+        "η ανοιχτή στόμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-043",
+      "type": "single-choice",
+      "prompt": "пустые желудки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το στομάχι\nМножественное число: τα στομάχια\n\nРод: средний",
+      "correctAnswer": "τα άδεια στομάχια",
+      "wrongAnswers": [
+        "ο άδειος στομάχια",
+        "οι άδειοι στομάχια",
+        "οι άδειες στομάχια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-044",
+      "type": "single-choice",
+      "prompt": "любимый нос",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μύτη\nМножественное число: οι μύτες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη μύτη",
+      "wrongAnswers": [
+        "ο αγαπημένος μύτη",
+        "το αγαπημένο μύτη",
+        "οι αγαπημένοι μύτη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-046",
+      "type": "single-choice",
+      "prompt": "тёплая вода",
+      "speechTarget": "options",
+      "hint": "Единственное число: το νερό\nМножественное число: τα νερά\n\nРод: средний",
+      "correctAnswer": "το ζεστό νερό",
+      "wrongAnswers": ["ο ζεστός νερό", "οι ζεστοί νερό", "η ζεστή νερό"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-049",
+      "type": "single-choice",
+      "prompt": "сильные головные боли",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πονοκέφαλος\nМножественное число: οι πονοκέφαλοι\n\nРод: мужской",
+      "correctAnswer": "οι δυνατοί πονοκέφαλοι",
+      "wrongAnswers": [
+        "ο δυνατός πονοκέφαλοι",
+        "η δυνατή πονοκέφαλοι",
+        "οι δυνατές πονοκέφαλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-052",
+      "type": "single-choice",
+      "prompt": "сильные боли",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πόνος\nМножественное число: οι πόνοι\n\nРод: мужской",
+      "correctAnswer": "οι δυνατοί πόνοι",
+      "wrongAnswers": ["ο δυνατός πόνοι", "η δυνατή πόνοι", "οι δυνατές πόνοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-053",
+      "type": "single-choice",
+      "prompt": "больные дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα άρρωστα παιδιά",
+      "wrongAnswers": [
+        "ο άρρωστος παιδιά",
+        "οι άρρωστοι παιδιά",
+        "η άρρωστη παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-056",
+      "type": "single-choice",
+      "prompt": "больной человек",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "ο άρρωστος άνθρωπος",
+      "wrongAnswers": [
+        "οι άρρωστοι άνθρωπος",
+        "η άρρωστη άνθρωπος",
+        "οι άρρωστες άνθρωπος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-062",
+      "type": "single-choice",
+      "prompt": "открытые рты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το στόμα\nМножественное число: τα στόματα\n\nРод: средний",
+      "correctAnswer": "τα ανοιχτά στόματα",
+      "wrongAnswers": [
+        "ο ανοιχτός στόματα",
+        "οι ανοιχτοί στόματα",
+        "η ανοιχτή στόματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-064",
+      "type": "single-choice",
+      "prompt": "маленькие головы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κεφάλι\nМножественное число: τα κεφάλια\n\nРод: средний",
+      "correctAnswer": "τα μικρά κεφάλια",
+      "wrongAnswers": [
+        "ο μικρός κεφάλια",
+        "οι μικροί κεφάλια",
+        "η μικρή κεφάλια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-067",
+      "type": "single-choice",
+      "prompt": "левая рука",
+      "speechTarget": "options",
+      "hint": "Единственное число: το χέρι\nМножественное число: τα χέρια\n\nРод: средний",
+      "correctAnswer": "το αριστερό χέρι",
+      "wrongAnswers": [
+        "ο αριστερός χέρι",
+        "οι αριστεροί χέρι",
+        "η αριστερή χέρι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-069",
+      "type": "single-choice",
+      "prompt": "больные женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι άρρωστες γυναίκες",
+      "wrongAnswers": [
+        "ο άρρωστος γυναίκες",
+        "οι άρρωστοι γυναίκες",
+        "η άρρωστη γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-074",
+      "type": "single-choice",
+      "prompt": "женское тело",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σώμα\nМножественное число: τα σώματα\n\nРод: средний",
+      "correctAnswer": "το γυναικείο σώμα",
+      "wrongAnswers": [
+        "ο γυναικείος σώμα",
+        "οι γυναικείοι σώμα",
+        "η γυναικεία σώμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-078",
+      "type": "single-choice",
+      "prompt": "сильная головная боль",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πονοκέφαλος\nМножественное число: οι πονοκέφαλοι\n\nРод: мужской",
+      "correctAnswer": "ο δυνατός πονοκέφαλος",
+      "wrongAnswers": [
+        "οι δυνατοί πονοκέφαλος",
+        "η δυνατή πονοκέφαλος",
+        "οι δυνατές πονοκέφαλος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-080",
+      "type": "single-choice",
+      "prompt": "маленькие руки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το χέρι\nМножественное число: τα χέρια\n\nРод: средний",
+      "correctAnswer": "τα μικρά χέρια",
+      "wrongAnswers": ["ο μικρός χέρια", "οι μικροί χέρια", "η μικρή χέρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-081",
+      "type": "single-choice",
+      "prompt": "открытый глаз",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μάτι\nМножественное число: τα μάτια\n\nРод: средний",
+      "correctAnswer": "το ανοιχτό μάτι",
+      "wrongAnswers": ["ο ανοιχτός μάτι", "οι ανοιχτοί μάτι", "η ανοιχτή μάτι"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-082",
+      "type": "single-choice",
+      "prompt": "больной ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το άρρωστο παιδί",
+      "wrongAnswers": [
+        "ο άρρωστος παιδί",
+        "οι άρρωστοι παιδί",
+        "η άρρωστη παιδί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-083",
+      "type": "single-choice",
+      "prompt": "левая нога",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πόδι\nМножественное число: τα πόδια\n\nРод: средний",
+      "correctAnswer": "το αριστερό πόδι",
+      "wrongAnswers": [
+        "ο αριστερός πόδι",
+        "οι αριστεροί πόδι",
+        "η αριστερή πόδι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-084",
+      "type": "single-choice",
+      "prompt": "большие животы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κοιλιά\nМножественное число: οι κοιλιές\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες κοιλιές",
+      "wrongAnswers": [
+        "ο μεγάλος κοιλιές",
+        "οι μεγάλοι κοιλιές",
+        "η μεγάλη κοιλιές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-088",
+      "type": "single-choice",
+      "prompt": "левые уши",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αυτί\nМножественное число: τα αυτιά\n\nРод: средний",
+      "correctAnswer": "τα αριστερά αυτιά",
+      "wrongAnswers": [
+        "ο αριστερός αυτιά",
+        "οι αριστεροί αυτιά",
+        "η αριστερή αυτιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-091",
+      "type": "single-choice",
+      "prompt": "пустой желудок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το στομάχι\nМножественное число: τα στομάχια\n\nРод: средний",
+      "correctAnswer": "το άδειο στομάχι",
+      "wrongAnswers": [
+        "ο άδειος στομάχι",
+        "οι άδειοι στομάχι",
+        "η άδεια στομάχι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-096",
+      "type": "single-choice",
+      "prompt": "сильный голос",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
+      "correctAnswer": "η δυνατή φωνή",
+      "wrongAnswers": ["ο δυνατός φωνή", "οι δυνατοί φωνή", "οι δυνατές φωνή"]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-097",
+      "type": "single-choice",
+      "prompt": "большой живот",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κοιλιά\nМножественное число: οι κοιλιές\n\nРод: женский",
+      "correctAnswer": "η μεγάλη κοιλιά",
+      "wrongAnswers": [
+        "ο μεγάλος κοιλιά",
+        "οι μεγάλοι κοιλιά",
+        "οι μεγάλες κοιλιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-099",
+      "type": "single-choice",
+      "prompt": "левые ноги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πόδι\nМножественное число: τα πόδια\n\nРод: средний",
+      "correctAnswer": "τα αριστερά πόδια",
+      "wrongAnswers": [
+        "ο αριστερός πόδια",
+        "οι αριστεροί πόδια",
+        "η αριστερή πόδια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-body-health-medicine-102",
+      "type": "single-choice",
+      "prompt": "сладкий голос",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
+      "correctAnswer": "η γλυκιά φωνή",
+      "wrongAnswers": ["ο γλυκός φωνή", "οι γλυκοί φωνή", "οι γλυκές φωνή"]
+    }
+  ]
+}

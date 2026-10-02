@@ -1,0 +1,577 @@
+{
+  "title": "Городские места и учреждения",
+  "subtitle": "Практикуйте согласование в названиях городских мест и учреждений",
+  "items": [
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-002",
+      "type": "single-choice",
+      "prompt": "большие храмы",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ναός\nМножественное число: οι ναοί\n\nРод: мужской",
+      "correctAnswer": "οι μεγάλοι ναοί",
+      "wrongAnswers": ["ο μεγάλος ναοί", "η μεγάλη ναοί", "οι μεγάλες ναοί"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-003",
+      "type": "single-choice",
+      "prompt": "опасный район",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γειτονιά\nМножественное число: οι γειτονιές\n\nРод: женский",
+      "correctAnswer": "η επικίνδυνη γειτονιά",
+      "wrongAnswers": [
+        "ο επικίνδυνος γειτονιά",
+        "οι επικίνδυνοι γειτονιά",
+        "οι επικίνδυνες γειτονιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-007",
+      "type": "single-choice",
+      "prompt": "публичная библиотека",
+      "speechTarget": "options",
+      "hint": "Единственное число: η βιβλιοθήκη\nМножественное число: οι βιβλιοθήκες\n\nРод: женский",
+      "correctAnswer": "η δημόσια βιβλιοθήκη",
+      "wrongAnswers": [
+        "ο δημόσιος βιβλιοθήκη",
+        "οι δημόσιοι βιβλιοθήκη",
+        "οι δημόσιες βιβλιοθήκη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-009",
+      "type": "single-choice",
+      "prompt": "священная мечеть",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τζαμί\nМножественное число: τα τζαμιά\n\nРод: средний",
+      "correctAnswer": "το ιερό τζαμί",
+      "wrongAnswers": ["ο ιερός τζαμί", "οι ιεροί τζαμί", "η ιερή τζαμί"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-011",
+      "type": "single-choice",
+      "prompt": "центральная улица",
+      "speechTarget": "options",
+      "hint": "Единственное число: η οδός\nМножественное число: οι οδοί\n\nРод: женский",
+      "correctAnswer": "η κεντρική οδός",
+      "wrongAnswers": [
+        "ο κεντρικός οδός",
+        "οι κεντρικοί οδός",
+        "οι κεντρικές οδός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-012",
+      "type": "single-choice",
+      "prompt": "китайский ресторан",
+      "speechTarget": "options",
+      "hint": "Единственное число: το εστιατόριο\nМножественное число: τα εστιατόρια\n\nРод: средний",
+      "correctAnswer": "το κινεζικό εστιατόριο",
+      "wrongAnswers": [
+        "ο κινεζικός εστιατόριο",
+        "οι κινεζικοί εστιατόριο",
+        "η κινεζική εστιατόριο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-013",
+      "type": "single-choice",
+      "prompt": "старые замки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κάστρο\nМножественное число: τα κάστρα\n\nРод: средний",
+      "correctAnswer": "τα παλιά κάστρα",
+      "wrongAnswers": [
+        "ο παλιός κάστρα",
+        "οι παλιοί κάστρα",
+        "οι παλιές κάστρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-014",
+      "type": "single-choice",
+      "prompt": "огромные города",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόλη\nМножественное число: οι πόλεις\n\nРод: женский",
+      "correctAnswer": "οι τεράστιες πόλεις",
+      "wrongAnswers": [
+        "ο τεράστιος πόλεις",
+        "οι τεράστιοι πόλεις",
+        "η τεράστια πόλεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-015",
+      "type": "single-choice",
+      "prompt": "большой храм",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ναός\nМножественное число: οι ναοί\n\nРод: мужской",
+      "correctAnswer": "ο μεγάλος ναός",
+      "wrongAnswers": ["οι μεγάλοι ναός", "η μεγάλη ναός", "οι μεγάλες ναός"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-016",
+      "type": "single-choice",
+      "prompt": "египетские музеи",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μουσείο\nМножественное число: τα μουσεία\n\nРод: средний",
+      "correctAnswer": "τα αιγυπτιακά μουσεία",
+      "wrongAnswers": [
+        "ο αιγυπτιακός μουσεία",
+        "οι αιγυπτιακοί μουσεία",
+        "η αιγυπτιακή μουσεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-017",
+      "type": "single-choice",
+      "prompt": "опасные районы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γειτονιά\nМножественное число: οι γειτονιές\n\nРод: женский",
+      "correctAnswer": "οι επικίνδυνες γειτονιές",
+      "wrongAnswers": [
+        "ο επικίνδυνος γειτονιές",
+        "οι επικίνδυνοι γειτονιές",
+        "η επικίνδυνη γειτονιές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-019",
+      "type": "single-choice",
+      "prompt": "европейский город",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόλη\nМножественное число: οι πόλεις\n\nРод: женский",
+      "correctAnswer": "η ευρωπαϊκή πόλη",
+      "wrongAnswers": [
+        "ο ευρωπαϊκός πόλη",
+        "οι ευρωπαϊκοί πόλη",
+        "οι ευρωπαϊκές πόλη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-020",
+      "type": "single-choice",
+      "prompt": "священный храм",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ναός\nМножественное число: οι ναοί\n\nРод: мужской",
+      "correctAnswer": "ο ιερός ναός",
+      "wrongAnswers": ["οι ιεροί ναός", "η ιερή ναός", "οι ιερές ναός"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-021",
+      "type": "single-choice",
+      "prompt": "важное учреждение",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ίδρυμα\nМножественное число: τα ιδρύματα\n\nРод: средний",
+      "correctAnswer": "το σημαντικό ίδρυμα",
+      "wrongAnswers": [
+        "ο σημαντικός ίδρυμα",
+        "οι σημαντικοί ίδρυμα",
+        "η σημαντική ίδρυμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-024",
+      "type": "single-choice",
+      "prompt": "священные мечети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τζαμί\nМножественное число: τα τζαμιά\n\nРод: средний",
+      "correctAnswer": "τα ιερά τζαμιά",
+      "wrongAnswers": ["ο ιερός τζαμιά", "οι ιεροί τζαμιά", "η ιερή τζαμιά"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-025",
+      "type": "single-choice",
+      "prompt": "египетский музей",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μουσείο\nМножественное число: τα μουσεία\n\nРод: средний",
+      "correctAnswer": "το αιγυπτιακό μουσείο",
+      "wrongAnswers": [
+        "ο αιγυπτιακός μουσείο",
+        "οι αιγυπτιακοί μουσείο",
+        "η αιγυπτιακή μουσείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-026",
+      "type": "single-choice",
+      "prompt": "священные храмы",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ναός\nМножественное число: οι ναοί\n\nРод: мужской",
+      "correctAnswer": "οι ιεροί ναοί",
+      "wrongAnswers": ["ο ιερός ναοί", "η ιερή ναοί", "οι ιερές ναοί"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-027",
+      "type": "single-choice",
+      "prompt": "центральные кварталы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τετράγωνο\nМножественное число: τα τετράγωνα\n\nРод: средний",
+      "correctAnswer": "τα κεντρικά τετράγωνα",
+      "wrongAnswers": [
+        "ο κεντρικός τετράγωνα",
+        "οι κεντρικοί τετράγωνα",
+        "η κεντρική τετράγωνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-028",
+      "type": "single-choice",
+      "prompt": "священные церкви",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εκκλησία\nМножественное число: οι εκκλησίες\n\nРод: женский",
+      "correctAnswer": "οι ιερές εκκλησίες",
+      "wrongAnswers": [
+        "ο ιερός εκκλησίες",
+        "οι ιεροί εκκλησίες",
+        "η ιερή εκκλησίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-029",
+      "type": "single-choice",
+      "prompt": "островные деревни",
+      "speechTarget": "options",
+      "hint": "Единственное число: το χωριό\nМножественное число: τα χωριά\n\nРод: средний",
+      "correctAnswer": "τα νησιώτικα χωριά",
+      "wrongAnswers": [
+        "ο νησιώτικος χωριά",
+        "η νησιώτικη χωριά",
+        "το νησιώτικο χωριά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-031",
+      "type": "single-choice",
+      "prompt": "центральная ратуша",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δημαρχείο\nМножественное число: τα δημαρχεία\n\nРод: средний",
+      "correctAnswer": "το κεντρικό δημαρχείο",
+      "wrongAnswers": [
+        "ο κεντρικός δημαρχείο",
+        "οι κεντρικοί δημαρχείο",
+        "η κεντρική δημαρχείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-032",
+      "type": "single-choice",
+      "prompt": "культурный центр",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κέντρο\nМножественное число: τα κέντρα\n\nРод: средний",
+      "correctAnswer": "το πολιτιστικό κέντρο",
+      "wrongAnswers": [
+        "ο πολιτιστικός κέντρο",
+        "οι πολιτιστικοί κέντρο",
+        "η πολιτιστική κέντρο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-033",
+      "type": "single-choice",
+      "prompt": "маленький буфет",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κυλικείο\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το μικρό κυλικείο",
+      "wrongAnswers": [
+        "ο μικρός κυλικείο",
+        "οι μικροί κυλικείο",
+        "η μικρή κυλικείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-035",
+      "type": "single-choice",
+      "prompt": "большой канал",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κανάλι\nМножественное число: τα κανάλια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο κανάλι",
+      "wrongAnswers": [
+        "ο μεγάλος κανάλι",
+        "οι μεγάλοι κανάλι",
+        "η μεγάλη κανάλι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-036",
+      "type": "single-choice",
+      "prompt": "египетские карты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χάρτης\nМножественное число: οι χάρτες\n\nРод: мужской",
+      "correctAnswer": "οι αιγυπτιακοί χάρτες",
+      "wrongAnswers": [
+        "ο αιγυπτιακός χάρτες",
+        "η αιγυπτιακή χάρτες",
+        "οι αιγυπτιακές χάρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-037",
+      "type": "single-choice",
+      "prompt": "большие каналы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κανάλι\nМножественное число: τα κανάλια\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα κανάλια",
+      "wrongAnswers": [
+        "ο μεγάλος κανάλια",
+        "οι μεγάλοι κανάλια",
+        "η μεγάλη κανάλια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-039",
+      "type": "single-choice",
+      "prompt": "крупные муниципалитеты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δήμος\nМножественное число: οι δήμοι\n\nРод: мужской",
+      "correctAnswer": "οι μεγάλοι δήμοι",
+      "wrongAnswers": ["ο μεγάλος δήμοι", "η μεγάλη δήμοι", "οι μεγάλες δήμοι"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-040",
+      "type": "single-choice",
+      "prompt": "общественный сад",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο κήπος\nМножественное число: οι κήποι\n\nРод: мужской",
+      "correctAnswer": "ο δημόσιος κήπος",
+      "wrongAnswers": [
+        "οι δημόσιοι κήπος",
+        "η δημόσια κήπος",
+        "οι δημόσιες κήπος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-041",
+      "type": "single-choice",
+      "prompt": "муниципальный рынок",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αγορά\nМножественное число: οι αγορές\n\nРод: женский",
+      "correctAnswer": "η δημοτική αγορά",
+      "wrongAnswers": [
+        "ο δημοτικός αγορά",
+        "οι δημοτικοί αγορά",
+        "οι δημοτικές αγορά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-044",
+      "type": "single-choice",
+      "prompt": "огромный город",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόλη\nМножественное число: οι πόλεις\n\nРод: женский",
+      "correctAnswer": "η τεράστια πόλη",
+      "wrongAnswers": [
+        "ο τεράστιος πόλη",
+        "οι τεράστιοι πόλη",
+        "οι τεράστιες πόλη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-045",
+      "type": "single-choice",
+      "prompt": "важная достопримечательность",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αξιοθέατο\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το σημαντικό αξιοθέατο",
+      "wrongAnswers": [
+        "ο σημαντικός αξιοθέατο",
+        "οι σημαντικοί αξιοθέατο",
+        "η σημαντική αξιοθέατο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-047",
+      "type": "single-choice",
+      "prompt": "старый замок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κάστρο\nМножественное число: τα κάστρα\n\nРод: средний",
+      "correctAnswer": "το παλιό κάστρο",
+      "wrongAnswers": ["ο παλιός κάστρο", "οι παλιοί κάστρο", "η παλιά κάστρο"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-048",
+      "type": "single-choice",
+      "prompt": "важный памятник",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μνημείο\nМножественное число: τα μνημεία\n\nРод: средний",
+      "correctAnswer": "το σημαντικό μνημείο",
+      "wrongAnswers": [
+        "ο σημαντικός μνημείο",
+        "οι σημαντικοί μνημείο",
+        "η σημαντική μνημείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-050",
+      "type": "single-choice",
+      "prompt": "египетский город",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόλη\nМножественное число: οι πόλεις\n\nРод: женский",
+      "correctAnswer": "η αιγυπτιακή πόλη",
+      "wrongAnswers": [
+        "ο αιγυπτιακός πόλη",
+        "οι αιγυπτιακοί πόλη",
+        "οι αιγυπτιακές πόλη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-051",
+      "type": "single-choice",
+      "prompt": "полицейский участок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τμήμα\nМножественное число: τα τμήματα\n\nРод: средний",
+      "correctAnswer": "το αστυνομικό τμήμα",
+      "wrongAnswers": [
+        "ο αστυνομικός τμήμα",
+        "η αστυνομική τμήμα",
+        "οι αστυνομικοί τμήμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-054",
+      "type": "single-choice",
+      "prompt": "европейские города",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόλη\nМножественное число: οι πόλεις\n\nРод: женский",
+      "correctAnswer": "οι ευρωπαϊκές πόλεις",
+      "wrongAnswers": [
+        "ο ευρωπαϊκός πόλεις",
+        "οι ευρωπαϊκοί πόλεις",
+        "η ευρωπαϊκή πόλεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-055",
+      "type": "single-choice",
+      "prompt": "центральные стоянки такси",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ταξί\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "οι κεντρικές πιάτσες ταξί",
+      "wrongAnswers": [
+        "ο κεντρικός πιάτσες ταξί",
+        "οι κεντρικοί πιάτσες ταξί",
+        "η κεντρική πιάτσες ταξί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-056",
+      "type": "single-choice",
+      "prompt": "священная церковь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εκκλησία\nМножественное число: οι εκκλησίες\n\nРод: женский",
+      "correctAnswer": "η ιερή εκκλησία",
+      "wrongAnswers": [
+        "ο ιερός εκκλησία",
+        "οι ιεροί εκκλησία",
+        "οι ιερές εκκλησία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-057",
+      "type": "single-choice",
+      "prompt": "широкие тротуары",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πεζοδρόμιο\nМножественное число: τα πεζοδρόμια\n\nРод: средний",
+      "correctAnswer": "τα πλατιά πεζοδρόμια",
+      "wrongAnswers": [
+        "ο πλατύς πεζοδρόμια",
+        "το πλατύ πεζοδρόμια",
+        "οι πλατιοί πεζοδρόμια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-058",
+      "type": "single-choice",
+      "prompt": "культурные центры",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κέντρο\nМножественное число: τα κέντρα\n\nРод: средний",
+      "correctAnswer": "τα πολιτιστικά κέντρα",
+      "wrongAnswers": [
+        "ο πολιτιστικός κέντρα",
+        "οι πολιτιστικοί κέντρα",
+        "η πολιτιστική κέντρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-060",
+      "type": "single-choice",
+      "prompt": "египетские города",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόλη\nМножественное число: οι πόλεις\n\nРод: женский",
+      "correctAnswer": "οι αιγυπτιακές πόλεις",
+      "wrongAnswers": [
+        "ο αιγυπτιακός πόλεις",
+        "οι αιγυπτιακοί πόλεις",
+        "η αιγυπτιακή πόλεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-061",
+      "type": "single-choice",
+      "prompt": "важные памятники",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μνημείο\nМножественное число: τα μνημεία\n\nРод: средний",
+      "correctAnswer": "τα σημαντικά μνημεία",
+      "wrongAnswers": [
+        "ο σημαντικός μνημεία",
+        "οι σημαντικοί μνημεία",
+        "η σημαντική μνημεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-063",
+      "type": "single-choice",
+      "prompt": "полицейские участки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τμήμα\nМножественное число: τα τμήματα\n\nРод: средний",
+      "correctAnswer": "τα αστυνομικά τμήματα",
+      "wrongAnswers": [
+        "ο αστυνομικός τμήματα",
+        "η αστυνομική τμήματα",
+        "το αστυνομικό τμήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-068",
+      "type": "single-choice",
+      "prompt": "чистое хаммам",
+      "speechTarget": "options",
+      "hint": "Единственное число: το χαμάμ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το καθαρό χαμάμ",
+      "wrongAnswers": ["ο καθαρός χαμάμ", "οι καθαροί χαμάμ", "η καθαρή χαμάμ"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-071",
+      "type": "single-choice",
+      "prompt": "центральный квадрат",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τετράγωνο\nМножественное число: τα τετράγωνα\n\nРод: средний",
+      "correctAnswer": "το κεντρικό τετράγωνο",
+      "wrongAnswers": [
+        "ο κεντρικός τετράγωνο",
+        "οι κεντρικοί τετράγωνο",
+        "η κεντρική τετράγωνο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-072",
+      "type": "single-choice",
+      "prompt": "общественные библиотеки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η βιβλιοθήκη\nМножественное число: οι βιβλιοθήκες\n\nРод: женский",
+      "correctAnswer": "οι δημόσιες βιβλιοθήκες",
+      "wrongAnswers": [
+        "ο δημόσιος βιβλιοθήκες",
+        "οι δημόσιοι βιβλιοθήκες",
+        "η δημόσια βιβλιοθήκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-city-places-institutions-073",
+      "type": "single-choice",
+      "prompt": "большой муниципалитет",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δήμος\nМножественное число: οι δήμοι\n\nРод: мужской",
+      "correctAnswer": "ο μεγάλος δήμος",
+      "wrongAnswers": ["οι μεγάλοι δήμος", "η μεγάλη δήμος", "οι μεγάλες δήμος"]
+    }
+  ]
+}

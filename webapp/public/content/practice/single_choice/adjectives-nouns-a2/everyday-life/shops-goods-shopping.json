@@ -1,0 +1,288 @@
+{
+  "title": "Магазины, товары и покупки",
+  "subtitle": "Согласуйте существительные и прилагательные в лексике покупок",
+  "items": [
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-001",
+      "type": "single-choice",
+      "prompt": "хорошие товары",
+      "speechTarget": "options",
+      "hint": "Единственное число: το προϊόν\nМножественное число: τα προϊόντα\n\nРод: средний",
+      "correctAnswer": "τα καλά προϊόντα",
+      "wrongAnswers": [
+        "ο καλός προϊόντα",
+        "οι καλοί προϊόντα",
+        "η καλή προϊόντα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-002",
+      "type": "single-choice",
+      "prompt": "хороший товар",
+      "speechTarget": "options",
+      "hint": "Единственное число: το προϊόν\nМножественное число: τα προϊόντα\n\nРод: средний",
+      "correctAnswer": "το καλό προϊόν",
+      "wrongAnswers": ["ο καλός προϊόν", "οι καλοί προϊόν", "η καλή προϊόν"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-004",
+      "type": "single-choice",
+      "prompt": "особенные сумки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τσάντα\nМножественное число: οι τσάντες\n\nРод: женский",
+      "correctAnswer": "οι ιδιαίτερες τσάντες",
+      "wrongAnswers": [
+        "ο ιδιαίτερος τσάντες",
+        "οι ιδιαίτεροι τσάντες",
+        "η ιδιαίτερη τσάντες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-008",
+      "type": "single-choice",
+      "prompt": "маленькие буфеты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κυλικείο\nМножественное число: τα κυλικεία\n\nРод: средний",
+      "correctAnswer": "τα μικρά κυλικεία",
+      "wrongAnswers": [
+        "ο μικρός κυλικεία",
+        "οι μικροί κυλικεία",
+        "η μικρή κυλικεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-011",
+      "type": "single-choice",
+      "prompt": "маленькие мясные лавки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κρεοπωλείο\nМножественное число: τα κρεοπωλεία\n\nРод: средний",
+      "correctAnswer": "τα μικρά κρεοπωλεία",
+      "wrongAnswers": [
+        "ο μικρός κρεοπωλεία",
+        "οι μικροί κρεοπωλεία",
+        "η μικρή κρεοπωλεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-012",
+      "type": "single-choice",
+      "prompt": "красивое украшение",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κόσμημα\nМножественное число: τα κοσμήματα\n\nРод: средний",
+      "correctAnswer": "το όμορφο κόσμημα",
+      "wrongAnswers": [
+        "ο όμορφος κόσμημα",
+        "οι όμορφοι κόσμημα",
+        "η όμορφη κόσμημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-013",
+      "type": "single-choice",
+      "prompt": "большой универмаг",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πολυκατάστημα\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το μεγάλο πολυκατάστημα",
+      "wrongAnswers": [
+        "ο μεγάλος πολυκατάστημα",
+        "οι μεγάλοι πολυκατάστημα",
+        "η μεγάλη πολυκατάστημα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-021",
+      "type": "single-choice",
+      "prompt": "большие универмаги",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πολυκατάστημα\nМножественное число: τα πολυκαταστήματα\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα πολυκαταστήματα",
+      "wrongAnswers": [
+        "ο μεγάλος πολυκαταστήματα",
+        "οι μεγάλοι πολυκαταστήματα",
+        "η μεγάλη πολυκαταστήματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-022",
+      "type": "single-choice",
+      "prompt": "оживлённые рынки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αγορά\nМножественное число: οι αγορές\n\nРод: женский",
+      "correctAnswer": "οι πολυσύχναστες λαϊκές αγορές",
+      "wrongAnswers": [
+        "οι πολυσύχναστος λαϊκές αγορές",
+        "η πολυσύχναστη λαϊκές αγορές",
+        "οι πολυσύχναστο λαϊκές αγορές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-026",
+      "type": "single-choice",
+      "prompt": "дорогое косметическое средство",
+      "speechTarget": "options",
+      "hint": "Единственное число: το καλλυντικό\nМножественное число: τα καλλυντικά\n\nРод: средний",
+      "correctAnswer": "το ακριβό καλλυντικό",
+      "wrongAnswers": [
+        "ο ακριβός καλλυντικό",
+        "οι ακριβοί καλλυντικό",
+        "η ακριβή καλλυντικό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-027",
+      "type": "single-choice",
+      "prompt": "муниципальные рынки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αγορά\nМножественное число: οι αγορές\n\nРод: женский",
+      "correctAnswer": "οι δημοτικές αγορές",
+      "wrongAnswers": [
+        "ο δημοτικός αγορές",
+        "οι δημοτικοί αγορές",
+        "η δημοτική αγορές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-029",
+      "type": "single-choice",
+      "prompt": "довольные клиентки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πελάτισσα\nМножественное число: οι πελάτισσες\n\nРод: женский",
+      "correctAnswer": "οι ευχαριστημένες πελάτισσες",
+      "wrongAnswers": [
+        "ο ευχαριστημένος πελάτισσες",
+        "η ευχαριστημένη πελάτισσες",
+        "το ευχαριστημένο πελάτισσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-031",
+      "type": "single-choice",
+      "prompt": "большая витрина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η βιτρίνα\nМножественное число: οι βιτρίνες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη βιτρίνα",
+      "wrongAnswers": [
+        "ο μεγάλος βιτρίνα",
+        "οι μεγάλοι βιτρίνα",
+        "οι μεγάλες βιτρίνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-035",
+      "type": "single-choice",
+      "prompt": "маленькая мясная лавка",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κρεοπωλείο\nМножественное число: τα κρεοπωλεία\n\nРод: средний",
+      "correctAnswer": "το μικρό κρεοπωλείο",
+      "wrongAnswers": [
+        "ο μικρός κρεοπωλείο",
+        "οι μικροί κρεοπωλείο",
+        "η μικρή κρεοπωλείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-036",
+      "type": "single-choice",
+      "prompt": "рекламные щиты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πίνακας\nМножественное число: οι πίνακες\n\nРод: мужской",
+      "correctAnswer": "οι διαφημιστικοί πίνακες",
+      "wrongAnswers": [
+        "ο διαφημιστικός πίνακες",
+        "η διαφημιστική πίνακες",
+        "οι διαφημιστικές πίνακες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-038",
+      "type": "single-choice",
+      "prompt": "дорогие марки автомобилей",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μάρκα\nМножественное число: οι μάρκες\n\nРод: женский",
+      "correctAnswer": "οι ακριβές μάρκες αυτοκινήτου",
+      "wrongAnswers": [
+        "η ακριβής μάρκες αυτοκινήτου",
+        "οι ακριβείς μάρκες αυτοκινήτου",
+        "η ακριβή μάρκες αυτοκινήτου"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-039",
+      "type": "single-choice",
+      "prompt": "дорогие косметические средства",
+      "speechTarget": "options",
+      "hint": "Единственное число: το καλλυντικό\nМножественное число: τα καλλυντικά\n\nРод: средний",
+      "correctAnswer": "τα ακριβά καλλυντικά",
+      "wrongAnswers": [
+        "ο ακριβός καλλυντικά",
+        "οι ακριβοί καλλυντικά",
+        "η ακριβή καλλυντικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-041",
+      "type": "single-choice",
+      "prompt": "интернет-аптека",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαρμακείο\nМножественное число: τα φαρμακεία\n\nРод: средний",
+      "correctAnswer": "το ηλεκτρονικό φαρμακείο",
+      "wrongAnswers": [
+        "ο ηλεκτρονικός φαρμακείο",
+        "οι ηλεκτρονικοί φαρμακείο",
+        "η ηλεκτρονική φαρμακείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-043",
+      "type": "single-choice",
+      "prompt": "интернет-аптеки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαρμακείο\nМножественное число: τα φαρμακεία\n\nРод: средний",
+      "correctAnswer": "τα ηλεκτρονικά φαρμακεία",
+      "wrongAnswers": [
+        "ο ηλεκτρονικός φαρμακεία",
+        "οι ηλεκτρονικοί φαρμακεία",
+        "η ηλεκτρονική φαρμακεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-044",
+      "type": "single-choice",
+      "prompt": "хорошие косметические средства",
+      "speechTarget": "options",
+      "hint": "Единственное число: το καλλυντικό\nМножественное число: τα καλλυντικά\n\nРод: средний",
+      "correctAnswer": "τα καλά καλλυντικά",
+      "wrongAnswers": [
+        "ο καλός καλλυντικά",
+        "οι καλοί καλλυντικά",
+        "η καλή καλλυντικά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-050",
+      "type": "single-choice",
+      "prompt": "оживлённый рынок",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αγορά\nМножественное число: οι αγορές\n\nРод: женский",
+      "correctAnswer": "η πολυσύχναστη λαϊκή αγορά",
+      "wrongAnswers": [
+        "η πολυσύχναστος λαϊκή αγορά",
+        "η πολυσύχναστο λαϊκή αγορά",
+        "η πολυσύχναστοι λαϊκή αγορά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-shops-goods-shopping-055",
+      "type": "single-choice",
+      "prompt": "новые пакеты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πακέτο\nМножественное число: τα πακέτα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια πακέτα",
+      "wrongAnswers": [
+        "ο καινούριος πακέτα",
+        "οι καινούριοι πακέτα",
+        "οι καινούριες πακέτα"
+      ]
+    }
+  ]
+}

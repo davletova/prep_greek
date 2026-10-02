@@ -1,0 +1,445 @@
+{
+  "title": "Напитки, кафе и рестораны",
+  "subtitle": "Практикуйте согласование в лексике напитков и заведений",
+  "items": [
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-005",
+      "type": "single-choice",
+      "prompt": "хорошие рестораны",
+      "speechTarget": "options",
+      "hint": "Единственное число: το εστιατόριο\nМножественное число: τα εστιατόρια\n\nРод: средний",
+      "correctAnswer": "τα καλά εστιατόρια",
+      "wrongAnswers": [
+        "ο καλός εστιατόρια",
+        "οι καλοί εστιατόρια",
+        "η καλή εστιατόρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-006",
+      "type": "single-choice",
+      "prompt": "любимая кофейня",
+      "speechTarget": "options",
+      "hint": "Единственное число: η καφετέρια\nМножественное число: οι καφετέριες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη καφετέρια",
+      "wrongAnswers": [
+        "ο αγαπημένος καφετέρια",
+        "το αγαπημένο καφετέρια",
+        "οι αγαπημένοι καφετέρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-007",
+      "type": "single-choice",
+      "prompt": "любимые таверны",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ταβέρνα\nМножественное число: οι ταβέρνες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες ταβέρνες",
+      "wrongAnswers": [
+        "ο αγαπημένος ταβέρνες",
+        "η αγαπημένη ταβέρνες",
+        "το αγαπημένο ταβέρνες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-011",
+      "type": "single-choice",
+      "prompt": "порции хорошего узо",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ούζο\nМножественное число: τα ούζα\n\nРод: средний",
+      "correctAnswer": "τα καλά ούζα",
+      "wrongAnswers": ["ο καλός ούζα", "οι καλοί ούζα", "η καλή ούζα"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-012",
+      "type": "single-choice",
+      "prompt": "дешёвый кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο φθηνός καφές",
+      "wrongAnswers": ["οι φθηνοί καφές", "η φθηνή καφές", "οι φθηνές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-014",
+      "type": "single-choice",
+      "prompt": "тёплый кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο ζεστός καφές",
+      "wrongAnswers": ["οι ζεστοί καφές", "η ζεστή καφές", "οι ζεστές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-015",
+      "type": "single-choice",
+      "prompt": "дорогой кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο ακριβός καφές",
+      "wrongAnswers": ["οι ακριβοί καφές", "η ακριβή καφές", "οι ακριβές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-016",
+      "type": "single-choice",
+      "prompt": "любимая таверна",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ταβέρνα\nМножественное число: οι ταβέρνες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη ταβέρνα",
+      "wrongAnswers": [
+        "ο αγαπημένος ταβέρνα",
+        "το αγαπημένο ταβέρνα",
+        "οι αγαπημένοι ταβέρνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-017",
+      "type": "single-choice",
+      "prompt": "сладкий лимонад",
+      "speechTarget": "options",
+      "hint": "Единственное число: η λεμονάδα\nМножественное число: οι λεμονάδες\n\nРод: женский",
+      "correctAnswer": "η γλυκιά λεμονάδα",
+      "wrongAnswers": [
+        "ο γλυκός λεμονάδα",
+        "οι γλυκοί λεμονάδα",
+        "οι γλυκές λεμονάδα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-018",
+      "type": "single-choice",
+      "prompt": "порции вкусного кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι νόστιμοι καφέδες",
+      "wrongAnswers": [
+        "ο νόστιμος καφέδες",
+        "η νόστιμη καφέδες",
+        "οι νόστιμες καφέδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-021",
+      "type": "single-choice",
+      "prompt": "красное вино",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κρασί\nМножественное число: τα κρασιά\n\nРод: средний",
+      "correctAnswer": "το κόκκινο κρασί",
+      "wrongAnswers": [
+        "ο κόκκινος κρασί",
+        "οι κόκκινοι κρασί",
+        "η κόκκινη κρασί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-022",
+      "type": "single-choice",
+      "prompt": "бутылки холодного пива",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μπύρα\nМножественное число: οι μπύρες\n\nРод: женский",
+      "correctAnswer": "οι κρύες μπύρες",
+      "wrongAnswers": ["ο κρύος μπύρες", "οι κρύοι μπύρες", "η κρύα μπύρες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-023",
+      "type": "single-choice",
+      "prompt": "хороший кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο καλός καφές",
+      "wrongAnswers": ["οι καλοί καφές", "η καλή καφές", "οι καλές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-024",
+      "type": "single-choice",
+      "prompt": "холодная вода",
+      "speechTarget": "options",
+      "hint": "Единственное число: το νερό\nМножественное число: τα νερά\n\nРод: средний",
+      "correctAnswer": "το κρύο νερό",
+      "wrongAnswers": ["ο κρύος νερό", "οι κρύοι νερό", "η κρύα νερό"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-025",
+      "type": "single-choice",
+      "prompt": "холодный напиток",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ποτό\nМножественное число: τα ποτά\n\nРод: средний",
+      "correctAnswer": "το κρύο ποτό",
+      "wrongAnswers": ["ο κρύος ποτό", "οι κρύοι ποτό", "η κρύα ποτό"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-026",
+      "type": "single-choice",
+      "prompt": "порции горячего кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι ζεστοί καφέδες",
+      "wrongAnswers": [
+        "ο ζεστός καφέδες",
+        "η ζεστή καφέδες",
+        "οι ζεστές καφέδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-027",
+      "type": "single-choice",
+      "prompt": "тихие бары",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μπαρ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα ήσυχα μπαρ",
+      "wrongAnswers": ["ο ήσυχος μπαρ", "οι ήσυχοι μπαρ", "η ήσυχη μπαρ"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-029",
+      "type": "single-choice",
+      "prompt": "хорошее узо",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ούζο\nМножественное число: τα ούζα\n\nРод: средний",
+      "correctAnswer": "το καλό ούζο",
+      "wrongAnswers": ["ο καλός ούζο", "οι καλοί ούζο", "η καλή ούζο"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-030",
+      "type": "single-choice",
+      "prompt": "любимое пиво",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μπίρα\nМножественное число: οι μπίρες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη μπίρα",
+      "wrongAnswers": [
+        "ο αγαπημένος μπίρα",
+        "το αγαπημένο μπίρα",
+        "οι αγαπημένοι μπίρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-034",
+      "type": "single-choice",
+      "prompt": "испанские соки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
+      "correctAnswer": "οι ισπανικοί χυμοί",
+      "wrongAnswers": [
+        "ο ισπανικός χυμοί",
+        "η ισπανική χυμοί",
+        "οι ισπανικές χυμοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-035",
+      "type": "single-choice",
+      "prompt": "горячий чай",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τσάι\nМножественное число: τα τσάγια\n\nРод: средний",
+      "correctAnswer": "το ζεστό τσάι",
+      "wrongAnswers": ["ο ζεστός τσάι", "οι ζεστοί τσάι", "η ζεστή τσάι"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-036",
+      "type": "single-choice",
+      "prompt": "порции дорогого кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι ακριβοί καφέδες",
+      "wrongAnswers": [
+        "ο ακριβός καφέδες",
+        "η ακριβή καφέδες",
+        "οι ακριβές καφέδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-037",
+      "type": "single-choice",
+      "prompt": "сладкий сок",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
+      "correctAnswer": "ο γλυκός χυμός",
+      "wrongAnswers": ["οι γλυκοί χυμός", "η γλυκιά χυμός", "οι γλυκές χυμός"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-039",
+      "type": "single-choice",
+      "prompt": "итальянский кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο ιταλικός καφές",
+      "wrongAnswers": [
+        "οι ιταλικοί καφές",
+        "η ιταλική καφές",
+        "οι ιταλικές καφές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-040",
+      "type": "single-choice",
+      "prompt": "порции послеобеденного кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι απογευματινοί καφέδες",
+      "wrongAnswers": [
+        "ο απογευματινός καφέδες",
+        "η απογευματινή καφέδες",
+        "οι απογευματινές καφέδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-042",
+      "type": "single-choice",
+      "prompt": "свежий сок",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
+      "correctAnswer": "ο φρέσκος χυμός",
+      "wrongAnswers": [
+        "οι φρέσκοι χυμός",
+        "η φρέσκια χυμός",
+        "οι φρέσκες χυμός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-045",
+      "type": "single-choice",
+      "prompt": "свежие соки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
+      "correctAnswer": "οι φρέσκοι χυμοί",
+      "wrongAnswers": ["ο φρέσκος χυμοί", "η φρέσκια χυμοί", "οι φρέσκες χυμοί"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-049",
+      "type": "single-choice",
+      "prompt": "порции хорошего кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί καφέδες",
+      "wrongAnswers": ["ο καλός καφέδες", "η καλή καφέδες", "οι καλές καφέδες"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-050",
+      "type": "single-choice",
+      "prompt": "бутылки любимого пива",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μπίρα\nМножественное число: οι μπίρες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες μπίρες",
+      "wrongAnswers": [
+        "ο αγαπημένος μπίρες",
+        "η αγαπημένη μπίρες",
+        "το αγαπημένο μπίρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-051",
+      "type": "single-choice",
+      "prompt": "хороший ресторан",
+      "speechTarget": "options",
+      "hint": "Единственное число: το εστιατόριο\nМножественное число: τα εστιατόρια\n\nРод: средний",
+      "correctAnswer": "το καλό εστιατόριο",
+      "wrongAnswers": [
+        "ο καλός εστιατόριο",
+        "οι καλοί εστιατόριο",
+        "η καλή εστιατόριο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-052",
+      "type": "single-choice",
+      "prompt": "холодное пиво",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μπύρα\nМножественное число: οι μπύρες\n\nРод: женский",
+      "correctAnswer": "η κρύα μπύρα",
+      "wrongAnswers": ["ο κρύος μπύρα", "οι κρύοι μπύρα", "οι κρύες μπύρα"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-054",
+      "type": "single-choice",
+      "prompt": "холодные напитки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ποτό\nМножественное число: τα ποτά\n\nРод: средний",
+      "correctAnswer": "τα κρύα ποτά",
+      "wrongAnswers": ["ο κρύος ποτά", "οι κρύοι ποτά", "οι κρύες ποτά"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-056",
+      "type": "single-choice",
+      "prompt": "полный стакан",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ποτήρι\nМножественное число: τα ποτήρια\n\nРод: средний",
+      "correctAnswer": "το γεμάτο ποτήρι",
+      "wrongAnswers": [
+        "ο γεμάτος ποτήρι",
+        "οι γεμάτοι ποτήρι",
+        "η γεμάτη ποτήρι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-057",
+      "type": "single-choice",
+      "prompt": "вкусный кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο νόστιμος καφές",
+      "wrongAnswers": [
+        "οι νόστιμοι καφές",
+        "η νόστιμη καφές",
+        "οι νόστιμες καφές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-058",
+      "type": "single-choice",
+      "prompt": "утренний кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο πρωινός καφές",
+      "wrongAnswers": ["οι πρωινοί καφές", "η πρωινή καφές", "οι πρωινές καφές"]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-059",
+      "type": "single-choice",
+      "prompt": "порции итальянского кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι ιταλικοί καφέδες",
+      "wrongAnswers": [
+        "ο ιταλικός καφέδες",
+        "η ιταλική καφέδες",
+        "οι ιταλικές καφέδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-060",
+      "type": "single-choice",
+      "prompt": "послеполуденный кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "ο απογευματινός καφές",
+      "wrongAnswers": [
+        "οι απογευματινοί καφές",
+        "η απογευματινή καφές",
+        "οι απογευματινές καφές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-061",
+      "type": "single-choice",
+      "prompt": "порции дешёвого кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι φθηνοί καφέδες",
+      "wrongAnswers": [
+        "ο φθηνός καφέδες",
+        "η φθηνή καφέδες",
+        "οι φθηνές καφέδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-drinks-cafes-restaurants-063",
+      "type": "single-choice",
+      "prompt": "порции утреннего кофе",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο καφές\nМножественное число: οι καφέδες\n\nРод: мужской",
+      "correctAnswer": "οι πρωινοί καφέδες",
+      "wrongAnswers": [
+        "ο πρωινός καφέδες",
+        "η πρωινή καφέδες",
+        "οι πρωινές καφέδες"
+      ]
+    }
+  ]
+}

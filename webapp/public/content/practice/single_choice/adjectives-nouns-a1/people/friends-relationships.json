@@ -1,0 +1,463 @@
+{
+  "title": "Друзья и отношения",
+  "subtitle": "Выберите правильное согласование в словосочетаниях об отношениях",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-friends-relationships-001",
+      "type": "single-choice",
+      "prompt": "хорошие соседи",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί γείτονες",
+      "wrongAnswers": [
+        "ο καλός γείτονες",
+        "η καλή γείτονες",
+        "οι καλές γείτονες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-002",
+      "type": "single-choice",
+      "prompt": "красивый друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο ωραίος φίλος",
+      "wrongAnswers": ["οι ωραίοι φίλος", "η ωραία φίλος", "οι ωραίες φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-004",
+      "type": "single-choice",
+      "prompt": "любимая подруга",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη φίλη",
+      "wrongAnswers": [
+        "ο αγαπημένος φίλη",
+        "το αγαπημένο φίλη",
+        "οι αγαπημένοι φίλη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-007",
+      "type": "single-choice",
+      "prompt": "некоторые друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "κάποιοι φίλοι",
+      "wrongAnswers": ["κάποιος φίλοι", "κάποια φίλοι", "κάποιο φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-011",
+      "type": "single-choice",
+      "prompt": "иностранец-друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο ξένος φίλος",
+      "wrongAnswers": ["οι ξένοι φίλος", "η ξένη φίλος", "οι ξένες φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-013",
+      "type": "single-choice",
+      "prompt": "другая подруга",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "η άλλη φίλη",
+      "wrongAnswers": ["ο άλλος φίλη", "το άλλο φίλη", "οι άλλοι φίλη"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-014",
+      "type": "single-choice",
+      "prompt": "новые друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι καινούριοι φίλοι",
+      "wrongAnswers": [
+        "ο καινούριος φίλοι",
+        "τα καινούρια φίλοι",
+        "οι καινούριες φίλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-015",
+      "type": "single-choice",
+      "prompt": "любимый друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο αγαπημένος φίλος",
+      "wrongAnswers": [
+        "η αγαπημένη φίλος",
+        "το αγαπημένο φίλος",
+        "οι αγαπημένοι φίλος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-016",
+      "type": "single-choice",
+      "prompt": "какая-то подруга",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "κάποια φίλη",
+      "wrongAnswers": ["κάποιος φίλη", "κάποιο φίλη", "κάποιοι φίλη"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-018",
+      "type": "single-choice",
+      "prompt": "красивая подруга",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "η ωραία φίλη",
+      "wrongAnswers": ["ο ωραίος φίλη", "οι ωραίοι φίλη", "οι ωραίες φίλη"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-020",
+      "type": "single-choice",
+      "prompt": "мои друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι δικοί μου φίλοι",
+      "wrongAnswers": [
+        "ο δικός μου φίλοι",
+        "η δική μου φίλοι",
+        "το δικό μου φίλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-022",
+      "type": "single-choice",
+      "prompt": "хороший друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο καλός φίλος",
+      "wrongAnswers": ["οι καλοί φίλος", "η καλή φίλος", "οι καλές φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-025",
+      "type": "single-choice",
+      "prompt": "одна подруга",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "μία φίλη",
+      "wrongAnswers": ["ένας φίλη", "ένα φίλη", "μία φίλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-026",
+      "type": "single-choice",
+      "prompt": "радостный друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο χαρούμενος φίλος",
+      "wrongAnswers": [
+        "η χαρούμενη φίλος",
+        "το χαρούμενο φίλος",
+        "οι χαρούμενοι φίλος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-030",
+      "type": "single-choice",
+      "prompt": "эти подруги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "αυτές οι φίλες",
+      "wrongAnswers": ["αυτός ο φίλες", "αυτή η φίλες", "αυτό το φίλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-031",
+      "type": "single-choice",
+      "prompt": "несколько подруг",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "μερικές φίλες",
+      "wrongAnswers": ["μερικός φίλες", "μερική φίλες", "μερικό φίλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-032",
+      "type": "single-choice",
+      "prompt": "другой друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο άλλος φίλος",
+      "wrongAnswers": ["η άλλη φίλος", "το άλλο φίλος", "οι άλλοι φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-033",
+      "type": "single-choice",
+      "prompt": "новые друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι νέοι φίλοι",
+      "wrongAnswers": ["ο νέος φίλοι", "τα νέα φίλοι", "οι νέες φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-037",
+      "type": "single-choice",
+      "prompt": "хорошие друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι ωραίοι φίλοι",
+      "wrongAnswers": ["ο ωραίος φίλοι", "τα ωραία φίλοι", "οι ωραίες φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-040",
+      "type": "single-choice",
+      "prompt": "хорошие подруги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "οι ωραίες φίλες",
+      "wrongAnswers": ["ο ωραίος φίλες", "οι ωραίοι φίλες", "τα ωραία φίλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-041",
+      "type": "single-choice",
+      "prompt": "хорошие компании",
+      "speechTarget": "options",
+      "hint": "Единственное число: η παρέα\nМножественное число: οι παρέες\n\nРод: женский",
+      "correctAnswer": "οι καλές παρέες",
+      "wrongAnswers": ["ο καλός παρέες", "οι καλοί παρέες", "η καλή παρέες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-042",
+      "type": "single-choice",
+      "prompt": "какой-то друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "κάποιος φίλος",
+      "wrongAnswers": ["κάποια φίλος", "κάποιο φίλος", "κάποιοι φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-045",
+      "type": "single-choice",
+      "prompt": "все друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "όλοι οι φίλοι",
+      "wrongAnswers": ["όλος ο φίλοι", "όλη η φίλοι", "όλες οι φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-046",
+      "type": "single-choice",
+      "prompt": "другие друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι άλλοι φίλοι",
+      "wrongAnswers": ["ο άλλος φίλοι", "η άλλη φίλοι", "το άλλο φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-047",
+      "type": "single-choice",
+      "prompt": "несколько друзей",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "μερικοί φίλοι",
+      "wrongAnswers": ["μερικός φίλοι", "μερική φίλοι", "μερικό φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-048",
+      "type": "single-choice",
+      "prompt": "новый друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο καινούριος φίλος",
+      "wrongAnswers": [
+        "οι καινούριοι φίλος",
+        "η καινούρια φίλος",
+        "οι καινούριες φίλος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-049",
+      "type": "single-choice",
+      "prompt": "иностранные друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι ξένοι φίλοι",
+      "wrongAnswers": ["ο ξένος φίλοι", "η ξένη φίλοι", "οι ξένες φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-050",
+      "type": "single-choice",
+      "prompt": "хорошая компания",
+      "speechTarget": "options",
+      "hint": "Единственное число: η παρέα\nМножественное число: οι παρέες\n\nРод: женский",
+      "correctAnswer": "η καλή παρέα",
+      "wrongAnswers": ["ο καλός παρέα", "οι καλοί παρέα", "οι καλές παρέα"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-055",
+      "type": "single-choice",
+      "prompt": "хорошие подруги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "οι καλές φίλες",
+      "wrongAnswers": ["ο καλός φίλες", "οι καλοί φίλες", "η καλή φίλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-057",
+      "type": "single-choice",
+      "prompt": "хорошие друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί φίλοι",
+      "wrongAnswers": ["ο καλός φίλοι", "η καλή φίλοι", "οι καλές φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-058",
+      "type": "single-choice",
+      "prompt": "некоторые подруги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "κάποιες φίλες",
+      "wrongAnswers": ["κάποιος φίλες", "κάποια φίλες", "κάποιο φίλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-060",
+      "type": "single-choice",
+      "prompt": "хороший сосед",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
+      "correctAnswer": "ο καλός γείτονας",
+      "wrongAnswers": [
+        "οι καλοί γείτονας",
+        "η καλή γείτονας",
+        "οι καλές γείτονας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-063",
+      "type": "single-choice",
+      "prompt": "новый друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο νέος φίλος",
+      "wrongAnswers": ["οι νέοι φίλος", "η νέα φίλος", "οι νέες φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-066",
+      "type": "single-choice",
+      "prompt": "один друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ένας φίλος",
+      "wrongAnswers": ["μία φίλος", "ένα φίλος", "ένας φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-067",
+      "type": "single-choice",
+      "prompt": "хорошая подруга",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "η καλή φίλη",
+      "wrongAnswers": ["ο καλός φίλη", "οι καλοί φίλη", "οι καλές φίλη"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-068",
+      "type": "single-choice",
+      "prompt": "сосед рядом",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
+      "correctAnswer": "ο διπλανός γείτονας",
+      "wrongAnswers": [
+        "οι διπλανοί γείτονας",
+        "η διπλανή γείτονας",
+        "οι διπλανές γείτονας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-070",
+      "type": "single-choice",
+      "prompt": "этот друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "αυτός ο φίλος",
+      "wrongAnswers": ["αυτή η φίλος", "αυτό το φίλος", "αυτοί οι φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-074",
+      "type": "single-choice",
+      "prompt": "другие подруги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "οι άλλες φίλες",
+      "wrongAnswers": ["ο άλλος φίλες", "η άλλη φίλες", "το άλλο φίλες"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-075",
+      "type": "single-choice",
+      "prompt": "любимые подруги",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες φίλες",
+      "wrongAnswers": [
+        "ο αγαπημένος φίλες",
+        "η αγαπημένη φίλες",
+        "το αγαπημένο φίλες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-080",
+      "type": "single-choice",
+      "prompt": "любимые друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι φίλοι",
+      "wrongAnswers": [
+        "ο αγαπημένος φίλοι",
+        "η αγαπημένη φίλοι",
+        "το αγαπημένο φίλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-081",
+      "type": "single-choice",
+      "prompt": "старый друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο παλιός φίλος",
+      "wrongAnswers": ["οι παλιοί φίλος", "η παλιά φίλος", "οι παλιές φίλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-085",
+      "type": "single-choice",
+      "prompt": "эти друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "αυτοί οι φίλοι",
+      "wrongAnswers": ["αυτός ο φίλοι", "αυτή η φίλοι", "αυτό το φίλοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-087",
+      "type": "single-choice",
+      "prompt": "эта подруга",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φίλη\nМножественное число: οι φίλες\n\nРод: женский",
+      "correctAnswer": "αυτή η φίλη",
+      "wrongAnswers": ["αυτός ο φίλη", "αυτό το φίλη", "αυτοί οι φίλη"]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-089",
+      "type": "single-choice",
+      "prompt": "радостные друзья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "οι χαρούμενοι φίλοι",
+      "wrongAnswers": [
+        "ο χαρούμενος φίλοι",
+        "η χαρούμενη φίλοι",
+        "το χαρούμενο φίλοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-friends-relationships-090",
+      "type": "single-choice",
+      "prompt": "мой друг",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο φίλος\nМножественное число: οι φίλοι\n\nРод: мужской",
+      "correctAnswer": "ο δικός μου φίλος",
+      "wrongAnswers": [
+        "η δική μου φίλος",
+        "το δικό μου φίλος",
+        "οι δικοί μου φίλος"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "title": "Природа, ландшафт и окружающая среда",
+  "subtitle": "Согласуйте существительные и прилагательные в описаниях природы",
+  "items": [
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-008",
+      "type": "single-choice",
+      "prompt": "чистый остров",
+      "speechTarget": "options",
+      "correctAnswer": "το καθαρό νησί",
+      "wrongAnswers": ["ο καθαρός νησί", "οι καθαροί νησί", "η καθαρή νησί"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-013",
+      "type": "single-choice",
+      "prompt": "большие парки",
+      "speechTarget": "options",
+      "correctAnswer": "τα μεγάλα πάρκα",
+      "wrongAnswers": ["ο μεγάλος πάρκα", "οι μεγάλοι πάρκα", "η μεγάλη πάρκα"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-020",
+      "type": "single-choice",
+      "prompt": "центральные парки",
+      "speechTarget": "options",
+      "correctAnswer": "τα κεντρικά πάρκα",
+      "wrongAnswers": [
+        "ο κεντρικός πάρκα",
+        "οι κεντρικοί πάρκα",
+        "η κεντρική πάρκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-029",
+      "type": "single-choice",
+      "prompt": "красивый пляж",
+      "speechTarget": "options",
+      "correctAnswer": "η όμορφη παραλία",
+      "wrongAnswers": [
+        "ο όμορφος παραλία",
+        "οι όμορφοι παραλία",
+        "οι όμορφες παραλία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-031",
+      "type": "single-choice",
+      "prompt": "красивые пляжи",
+      "speechTarget": "options",
+      "correctAnswer": "οι όμορφες παραλίες",
+      "wrongAnswers": [
+        "ο όμορφος παραλίες",
+        "οι όμορφοι παραλίες",
+        "η όμορφη παραλίες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-047",
+      "type": "single-choice",
+      "prompt": "яркий свет",
+      "speechTarget": "options",
+      "correctAnswer": "το δυνατό φως",
+      "wrongAnswers": ["ο δυνατός φως", "οι δυνατοί φως", "η δυνατή φως"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-048",
+      "type": "single-choice",
+      "prompt": "большой парк",
+      "speechTarget": "options",
+      "correctAnswer": "το μεγάλο πάρκο",
+      "wrongAnswers": ["ο μεγάλος πάρκο", "οι μεγάλοι πάρκο", "η μεγάλη πάρκο"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-049",
+      "type": "single-choice",
+      "prompt": "большой сад",
+      "speechTarget": "options",
+      "correctAnswer": "ο μεγάλος κήπος",
+      "wrongAnswers": ["οι μεγάλοι κήπος", "η μεγάλη κήπος", "οι μεγάλες κήπος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-055",
+      "type": "single-choice",
+      "prompt": "красивые сады",
+      "speechTarget": "options",
+      "correctAnswer": "οι όμορφοι κήποι",
+      "wrongAnswers": ["ο όμορφος κήποι", "η όμορφη κήποι", "οι όμορφες κήποι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-063",
+      "type": "single-choice",
+      "prompt": "большие сады",
+      "speechTarget": "options",
+      "correctAnswer": "οι μεγάλοι κήποι",
+      "wrongAnswers": ["ο μεγάλος κήποι", "η μεγάλη κήποι", "οι μεγάλες κήποι"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-067",
+      "type": "single-choice",
+      "prompt": "тёплые воды",
+      "speechTarget": "options",
+      "correctAnswer": "τα ζεστά νερά",
+      "wrongAnswers": ["ο ζεστός νερά", "οι ζεστοί νερά", "η ζεστή νερά"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-072",
+      "type": "single-choice",
+      "prompt": "жёлтое солнце",
+      "speechTarget": "options",
+      "correctAnswer": "ο κίτρινος ήλιος",
+      "wrongAnswers": [
+        "οι κίτρινοι ήλιος",
+        "η κίτρινη ήλιος",
+        "οι κίτρινες ήλιος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-076",
+      "type": "single-choice",
+      "prompt": "красивый сад",
+      "speechTarget": "options",
+      "correctAnswer": "ο όμορφος κήπος",
+      "wrongAnswers": ["οι όμορφοι κήπος", "η όμορφη κήπος", "οι όμορφες κήπος"]
+    },
+    {
+      "id": "nouns-adjectives-nature-nature-landscape-environment-082",
+      "type": "single-choice",
+      "prompt": "высокая гора",
+      "speechTarget": "options",
+      "correctAnswer": "το ψηλό βουνό",
+      "wrongAnswers": ["ο ψηλός βουνό", "οι ψηλοί βουνό", "η ψηλή βουνό"]
+    }
+  ]
+}

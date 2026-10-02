@@ -1,0 +1,253 @@
+{
+  "title": "Технологии, медиа и связь",
+  "subtitle": "Практикуйте согласование в лексике технологий и коммуникации",
+  "items": [
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-001",
+      "type": "single-choice",
+      "prompt": "новая машина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
+      "correctAnswer": "η καινούρια μηχανή",
+      "wrongAnswers": [
+        "ο καινούριος μηχανή",
+        "οι καινούριοι μηχανή",
+        "οι καινούριες μηχανή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-003",
+      "type": "single-choice",
+      "prompt": "большой телевизор",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τηλεόραση\nМножественное число: οι τηλεοράσεις\n\nРод: женский",
+      "correctAnswer": "η μεγάλη τηλεόραση",
+      "wrongAnswers": [
+        "ο μεγάλος τηλεόραση",
+        "οι μεγάλοι τηλεόραση",
+        "οι μεγάλες τηλεόραση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-007",
+      "type": "single-choice",
+      "prompt": "новые мобильные телефоны",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τηλέφωνο\nМножественное число: τα τηλέφωνα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια κινητά τηλέφωνα",
+      "wrongAnswers": [
+        "ο καινούριος κινητά τηλέφωνα",
+        "οι καινούριοι κινητά τηλέφωνα",
+        "οι καινούριες κινητά τηλέφωνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-008",
+      "type": "single-choice",
+      "prompt": "новые компьютеры",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
+      "correctAnswer": "οι καινούριοι υπολογιστές",
+      "wrongAnswers": [
+        "ο καινούριος υπολογιστές",
+        "η καινούρια υπολογιστές",
+        "οι καινούριες υπολογιστές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-011",
+      "type": "single-choice",
+      "prompt": "новые лифты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ασανσέρ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "τα καινούρια ασανσέρ",
+      "wrongAnswers": [
+        "ο καινούριος ασανσέρ",
+        "οι καινούριοι ασανσέρ",
+        "οι καινούριες ασανσέρ"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-016",
+      "type": "single-choice",
+      "prompt": "любимые фотоаппараты",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες φωτογραφικές μηχανές",
+      "wrongAnswers": [
+        "ο αγαπημένος φωτογραφικές μηχανές",
+        "η αγαπημένη φωτογραφικές μηχανές",
+        "το αγαπημένο φωτογραφικές μηχανές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-017",
+      "type": "single-choice",
+      "prompt": "новые радиоприёмники",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ραδιόφωνο\nМножественное число: τα ραδιόφωνα\n\nРод: средний",
+      "correctAnswer": "τα νέα ραδιόφωνα",
+      "wrongAnswers": [
+        "ο νέος ραδιόφωνα",
+        "οι νέοι ραδιόφωνα",
+        "οι νέες ραδιόφωνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-019",
+      "type": "single-choice",
+      "prompt": "новые программы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πρόγραμμα\nМножественное число: τα προγράμματα\n\nРод: средний",
+      "correctAnswer": "τα καινούρια προγράμματα",
+      "wrongAnswers": [
+        "ο καινούριος προγράμματα",
+        "οι καινούριοι προγράμματα",
+        "οι καινούριες προγράμματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-022",
+      "type": "single-choice",
+      "prompt": "новый компьютер",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο υπολογιστής\nМножественное число: οι υπολογιστές\n\nРод: мужской",
+      "correctAnswer": "ο καινούριος υπολογιστής",
+      "wrongAnswers": [
+        "οι καινούριοι υπολογιστής",
+        "η καινούρια υπολογιστής",
+        "οι καινούριες υπολογιστής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-023",
+      "type": "single-choice",
+      "prompt": "новый радиоприёмник",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ραδιόφωνο\nМножественное число: τα ραδιόφωνα\n\nРод: средний",
+      "correctAnswer": "το νέο ραδιόφωνο",
+      "wrongAnswers": [
+        "ο νέος ραδιόφωνο",
+        "οι νέοι ραδιόφωνο",
+        "η νέα ραδιόφωνο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-025",
+      "type": "single-choice",
+      "prompt": "быстрый интернет",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ίντερνετ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το γρήγορο ίντερνετ",
+      "wrongAnswers": [
+        "ο γρήγορος ίντερνετ",
+        "οι γρήγοροι ίντερνετ",
+        "η γρήγορη ίντερνετ"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-027",
+      "type": "single-choice",
+      "prompt": "быстрые машины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
+      "correctAnswer": "οι γρήγορες μηχανές",
+      "wrongAnswers": [
+        "ο γρήγορος μηχανές",
+        "οι γρήγοροι μηχανές",
+        "η γρήγορη μηχανές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-028",
+      "type": "single-choice",
+      "prompt": "любимый фотоаппарат",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη φωτογραφική μηχανή",
+      "wrongAnswers": [
+        "ο αγαπημένος φωτογραφική μηχανή",
+        "το αγαπημένο φωτογραφική μηχανή",
+        "οι αγαπημένοι φωτογραφική μηχανή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-031",
+      "type": "single-choice",
+      "prompt": "быстрый интернет",
+      "speechTarget": "options",
+      "hint": "Единственное число: το διαδίκτυο\nМножественное число: τα διαδίκτυα\n\nРод: средний",
+      "correctAnswer": "το γρήγορο διαδίκτυο",
+      "wrongAnswers": [
+        "ο γρήγορος διαδίκτυο",
+        "οι γρήγοροι διαδίκτυο",
+        "η γρήγορη διαδίκτυο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-036",
+      "type": "single-choice",
+      "prompt": "быстрая машина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μηχανή\nМножественное число: οι μηχανές\n\nРод: женский",
+      "correctAnswer": "η γρήγορη μηχανή",
+      "wrongAnswers": [
+        "ο γρήγορος μηχανή",
+        "οι γρήγοροι μηχανή",
+        "οι γρήγορες μηχανή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-037",
+      "type": "single-choice",
+      "prompt": "новый мобильный телефон",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τηλέφωνο\nМножественное число: τα τηλέφωνα\n\nРод: средний",
+      "correctAnswer": "το καινούριο κινητό τηλέφωνο",
+      "wrongAnswers": [
+        "ο καινούριος κινητό τηλέφωνο",
+        "οι καινούριοι κινητό τηλέφωνο",
+        "η καινούρια κινητό τηλέφωνο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-043",
+      "type": "single-choice",
+      "prompt": "большие телевизоры",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τηλεόραση\nМножественное число: οι τηλεοράσεις\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες τηλεοράσεις",
+      "wrongAnswers": [
+        "ο μεγάλος τηλεοράσεις",
+        "οι μεγάλοι τηλεοράσεις",
+        "η μεγάλη τηλεοράσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-044",
+      "type": "single-choice",
+      "prompt": "быстрые интернеты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το διαδίκτυο\nМножественное число: τα διαδίκτυα\n\nРод: средний",
+      "correctAnswer": "τα γρήγορα διαδίκτυα",
+      "wrongAnswers": [
+        "ο γρήγορος διαδίκτυα",
+        "οι γρήγοροι διαδίκτυα",
+        "η γρήγορη διαδίκτυα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-education-communication-technology-media-communication-059",
+      "type": "single-choice",
+      "prompt": "старая фотография",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωτογραφία\nМножественное число: οι φωτογραφίες\n\nРод: женский",
+      "correctAnswer": "η παλιά φωτογραφία",
+      "wrongAnswers": [
+        "ο παλιός φωτογραφία",
+        "οι παλιοί φωτογραφία",
+        "οι παλιές φωτογραφία"
+      ]
+    }
+  ]
+}

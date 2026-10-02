@@ -11,6 +11,7 @@
     "test": "vitest run",
     "validate:content": "node scripts/validate-content.mjs",
     "generate:verb-levels": "node scripts/split-verb-levels.mjs",
+    "generate:nouns-adjectives-levels": "node scripts/split-nouns-adjectives-levels.mjs",
     "generate:nouns-adjectives": "node scripts/generate-nouns-adjectives-content.mjs",
     "import:nouns-adjectives": "node scripts/import-a1-a2-lexicon.mjs",
     "validate:nouns-adjectives": "node scripts/validate-nouns-adjectives-coverage.mjs",

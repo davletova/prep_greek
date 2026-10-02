@@ -1,0 +1,85 @@
+{
+  "title": "Эмоции и состояния",
+  "subtitle": "Практикуйте род и число в описаниях эмоций и состояний",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-emotions-states-003",
+      "type": "single-choice",
+      "prompt": "большая радость",
+      "speechTarget": "options",
+      "hint": "Единственное число: η χαρά\nМножественное число: οι χαρές\n\nРод: женский",
+      "correctAnswer": "η μεγάλη χαρά",
+      "wrongAnswers": ["ο μεγάλος χαρά", "οι μεγάλοι χαρά", "οι μεγάλες χαρά"]
+    },
+    {
+      "id": "nouns-adjectives-people-emotions-states-008",
+      "type": "single-choice",
+      "prompt": "большие радости",
+      "speechTarget": "options",
+      "hint": "Единственное число: η χαρά\nМножественное число: οι χαρές\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες χαρές",
+      "wrongAnswers": ["ο μεγάλος χαρές", "οι μεγάλοι χαρές", "η μεγάλη χαρές"]
+    },
+    {
+      "id": "nouns-adjectives-people-emotions-states-023",
+      "type": "single-choice",
+      "prompt": "счастливый ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το ευτυχισμένο παιδί",
+      "wrongAnswers": [
+        "ο ευτυχισμένος παιδί",
+        "οι ευτυχισμένοι παιδί",
+        "η ευτυχισμένη παιδί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-emotions-states-025",
+      "type": "single-choice",
+      "prompt": "большие любви",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αγάπη\nМножественное число: οι αγάπες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες αγάπες",
+      "wrongAnswers": [
+        "ο μεγάλος αγάπες",
+        "οι μεγάλοι αγάπες",
+        "η μεγάλη αγάπες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-emotions-states-033",
+      "type": "single-choice",
+      "prompt": "плохие дни",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μέρα\nМножественное число: οι μέρες\n\nРод: женский",
+      "correctAnswer": "οι άσχημες μέρες",
+      "wrongAnswers": ["ο άσχημος μέρες", "οι άσχημοι μέρες", "η άσχημη μέρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-emotions-states-036",
+      "type": "single-choice",
+      "prompt": "большая любовь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αγάπη\nМножественное число: οι αγάπες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη αγάπη",
+      "wrongAnswers": [
+        "ο μεγάλος αγάπη",
+        "οι μεγάλοι αγάπη",
+        "οι μεγάλες αγάπη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-emotions-states-045",
+      "type": "single-choice",
+      "prompt": "счастливые люди",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "οι ευτυχισμένοι άνθρωποι",
+      "wrongAnswers": [
+        "ο ευτυχισμένος άνθρωποι",
+        "η ευτυχισμένη άνθρωποι",
+        "οι ευτυχισμένες άνθρωποι"
+      ]
+    }
+  ]
+}

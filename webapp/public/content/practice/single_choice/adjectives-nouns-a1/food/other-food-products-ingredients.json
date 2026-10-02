@@ -1,0 +1,653 @@
+{
+  "title": "Другие продукты и ингредиенты",
+  "subtitle": "Закрепите род и число в названиях продуктов и ингредиентов",
+  "items": [
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-002",
+      "type": "single-choice",
+      "prompt": "вкусные салями",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σαλάμι\nМножественное число: τα σαλάμια\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα σαλάμια",
+      "wrongAnswers": [
+        "ο νόστιμος σαλάμια",
+        "οι νόστιμοι σαλάμια",
+        "η νόστιμη σαλάμια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-003",
+      "type": "single-choice",
+      "prompt": "свежее молоко",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γάλα\nМножественное число: τα γάλατα\n\nРод: средний",
+      "correctAnswer": "το φρέσκο γάλα",
+      "wrongAnswers": ["ο φρέσκος γάλα", "οι φρέσκοι γάλα", "η φρέσκια γάλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-005",
+      "type": "single-choice",
+      "prompt": "сладкий мёд",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μέλι\nМножественное число: τα μέλια\n\nРод: средний",
+      "correctAnswer": "το γλυκό μέλι",
+      "wrongAnswers": ["ο γλυκός μέλι", "οι γλυκοί μέλι", "η γλυκιά μέλι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-006",
+      "type": "single-choice",
+      "prompt": "утренние приёмы пищи",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γεύμα\nМножественное число: τα γεύματα\n\nРод: средний",
+      "correctAnswer": "τα πρωινά γεύματα",
+      "wrongAnswers": [
+        "ο πρωινός γεύματα",
+        "οι πρωινοί γεύματα",
+        "η πρωινή γεύματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-009",
+      "type": "single-choice",
+      "prompt": "вкусная котлета",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μπιφτέκι\nМножественное число: τα μπιφτέκια\n\nРод: средний",
+      "correctAnswer": "το νόστιμο μπιφτέκι",
+      "wrongAnswers": [
+        "ο νόστιμος μπιφτέκι",
+        "οι νόστιμοι μπιφτέκι",
+        "η νόστιμη μπιφτέκι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-010",
+      "type": "single-choice",
+      "prompt": "лёгкие ужины",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βραδινό\nМножественное число: τα βραδινά\n\nРод: средний",
+      "correctAnswer": "τα ελαφριά βραδινά",
+      "wrongAnswers": [
+        "ο ελαφρύς βραδινά",
+        "οι ελαφριοί βραδινά",
+        "οι ελαφριές βραδινά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-012",
+      "type": "single-choice",
+      "prompt": "вкусный завтрак",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πρωινό\nМножественное число: τα πρωινά\n\nРод: средний",
+      "correctAnswer": "το νόστιμο πρωινό",
+      "wrongAnswers": [
+        "ο νόστιμος πρωινό",
+        "οι νόστιμοι πρωινό",
+        "η νόστιμη πρωινό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-016",
+      "type": "single-choice",
+      "prompt": "свежий хлеб",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ψωμί\nМножественное число: τα ψωμιά\n\nРод: средний",
+      "correctAnswer": "το φρέσκο ψωμί",
+      "wrongAnswers": ["ο φρέσκος ψωμί", "οι φρέσκοι ψωμί", "η φρέσκια ψωμί"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-017",
+      "type": "single-choice",
+      "prompt": "чистая соль",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αλάτι\nМножественное число: τα αλάτια\n\nРод: средний",
+      "correctAnswer": "το καθαρό αλάτι",
+      "wrongAnswers": ["ο καθαρός αλάτι", "οι καθαροί αλάτι", "η καθαρή αλάτι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-018",
+      "type": "single-choice",
+      "prompt": "вкусные сладости",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γλυκό\nМножественное число: τα γλυκά\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα γλυκά",
+      "wrongAnswers": [
+        "ο νόστιμος γλυκά",
+        "οι νόστιμοι γλυκά",
+        "η νόστιμη γλυκά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-022",
+      "type": "single-choice",
+      "prompt": "лёгкий обед",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μεσημεριανό\nМножественное число: τα μεσημεριανά\n\nРод: средний",
+      "correctAnswer": "το ελαφρύ μεσημεριανό",
+      "wrongAnswers": [
+        "ο ελαφρύς μεσημεριανό",
+        "οι ελαφριοί μεσημεριανό",
+        "η ελαφριά μεσημεριανό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-023",
+      "type": "single-choice",
+      "prompt": "свежие буханки хлеба",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ψωμί\nМножественное число: τα ψωμιά\n\nРод: средний",
+      "correctAnswer": "τα φρέσκα ψωμιά",
+      "wrongAnswers": ["ο φρέσκος ψωμιά", "οι φρέσκοι ψωμιά", "η φρέσκια ψωμιά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-024",
+      "type": "single-choice",
+      "prompt": "вкусный сэндвич",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σάντουιτς\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το νόστιμο σάντουιτς",
+      "wrongAnswers": [
+        "ο νόστιμος σάντουιτς",
+        "οι νόστιμοι σάντουιτς",
+        "η νόστιμη σάντουιτς"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-025",
+      "type": "single-choice",
+      "prompt": "вкусный суп",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σούπα\nМножественное число: οι σούπες\n\nРод: женский",
+      "correctAnswer": "η νόστιμη σούπα",
+      "wrongAnswers": [
+        "ο νόστιμος σούπα",
+        "οι νόστιμοι σούπα",
+        "οι νόστιμες σούπα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-027",
+      "type": "single-choice",
+      "prompt": "простая еда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "το απλό φαγητό",
+      "wrongAnswers": ["ο απλός φαγητό", "οι απλοί φαγητό", "η απλή φαγητό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-028",
+      "type": "single-choice",
+      "prompt": "свежая рыба",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ψάρι\nМножественное число: τα ψάρια\n\nРод: средний",
+      "correctAnswer": "το φρέσκο ψάρι",
+      "wrongAnswers": ["ο φρέσκος ψάρι", "οι φρέσκοι ψάρι", "η φρέσκια ψάρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-031",
+      "type": "single-choice",
+      "prompt": "разные виды свежего молока",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γάλα\nМножественное число: τα γάλατα\n\nРод: средний",
+      "correctAnswer": "τα φρέσκα γάλατα",
+      "wrongAnswers": [
+        "ο φρέσκος γάλατα",
+        "οι φρέσκοι γάλατα",
+        "η φρέσκια γάλατα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-032",
+      "type": "single-choice",
+      "prompt": "маленькая шоколадная конфета",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σοκολατάκι\nМножественное число: τα σοκολατάκια\n\nРод: средний",
+      "correctAnswer": "το μικρό σοκολατάκι",
+      "wrongAnswers": [
+        "ο μικρός σοκολατάκι",
+        "οι μικροί σοκολατάκι",
+        "η μικρή σοκολατάκι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-033",
+      "type": "single-choice",
+      "prompt": "красивый торт",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τούρτα\nМножественное число: οι τούρτες\n\nРод: женский",
+      "correctAnswer": "η ωραία τούρτα",
+      "wrongAnswers": [
+        "ο ωραίος τούρτα",
+        "οι ωραίοι τούρτα",
+        "οι ωραίες τούρτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-034",
+      "type": "single-choice",
+      "prompt": "горячие супы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σούπα\nМножественное число: οι σούπες\n\nРод: женский",
+      "correctAnswer": "οι ζεστές σούπες",
+      "wrongAnswers": ["ο ζεστός σούπες", "οι ζεστοί σούπες", "η ζεστή σούπες"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-038",
+      "type": "single-choice",
+      "prompt": "завтрак",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γεύμα\nМножественное число: τα γεύματα\n\nРод: средний",
+      "correctAnswer": "το πρωινό γεύμα",
+      "wrongAnswers": ["ο πρωινός γεύμα", "οι πρωινοί γεύμα", "η πρωινή γεύμα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-044",
+      "type": "single-choice",
+      "prompt": "хорошие макароны",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μακαρόνι\nМножественное число: τα μακαρόνια\n\nРод: средний",
+      "correctAnswer": "τα καλά μακαρόνια",
+      "wrongAnswers": [
+        "ο καλός μακαρόνια",
+        "οι καλοί μακαρόνια",
+        "η καλή μακαρόνια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-046",
+      "type": "single-choice",
+      "prompt": "вкусная салями",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σαλάμι\nМножественное число: τα σαλάμια\n\nРод: средний",
+      "correctAnswer": "το νόστιμο σαλάμι",
+      "wrongAnswers": [
+        "ο νόστιμος σαλάμι",
+        "οι νόστιμοι σαλάμι",
+        "η νόστιμη σαλάμι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-051",
+      "type": "single-choice",
+      "prompt": "вкусное мороженое",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παγωτό\nМножественное число: τα παγωτά\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα παγωτά",
+      "wrongAnswers": [
+        "ο νόστιμος παγωτά",
+        "οι νόστιμοι παγωτά",
+        "η νόστιμη παγωτά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-054",
+      "type": "single-choice",
+      "prompt": "свежее масло",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βούτυρο\nМножественное число: τα βούτυρα\n\nРод: средний",
+      "correctAnswer": "το φρέσκο βούτυρο",
+      "wrongAnswers": [
+        "ο φρέσκος βούτυρο",
+        "οι φρέσκοι βούτυρο",
+        "η φρέσκια βούτυρο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-055",
+      "type": "single-choice",
+      "prompt": "красное мясо",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κρέας\nМножественное число: τα κρέατα\n\nРод: средний",
+      "correctAnswer": "το κόκκινο κρέας",
+      "wrongAnswers": [
+        "ο κόκκινος κρέας",
+        "οι κόκκινοι κρέας",
+        "η κόκκινη κρέας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-056",
+      "type": "single-choice",
+      "prompt": "разные виды белой муки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αλεύρι\nМножественное число: τα αλεύρια\n\nРод: средний",
+      "correctAnswer": "τα άσπρα αλεύρια",
+      "wrongAnswers": [
+        "ο άσπρος αλεύρια",
+        "οι άσπροι αλεύρια",
+        "η άσπρη αλεύρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-058",
+      "type": "single-choice",
+      "prompt": "белая мука",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αλεύρι\nМножественное число: τα αλεύρια\n\nРод: средний",
+      "correctAnswer": "το άσπρο αλεύρι",
+      "wrongAnswers": ["ο άσπρος αλεύρι", "οι άσπροι αλεύρι", "η άσπρη αλεύρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-059",
+      "type": "single-choice",
+      "prompt": "свежие йогурты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γιαούρτι\nМножественное число: τα γιαούρτια\n\nРод: средний",
+      "correctAnswer": "τα φρέσκα γιαούρτια",
+      "wrongAnswers": [
+        "ο φρέσκος γιαούρτια",
+        "οι φρέσκοι γιαούρτια",
+        "η φρέσκια γιαούρτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-060",
+      "type": "single-choice",
+      "prompt": "маленькая сигарета",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τσιγάρο\nМножественное число: τα τσιγάρα\n\nРод: средний",
+      "correctAnswer": "το μικρό τσιγάρο",
+      "wrongAnswers": [
+        "ο μικρός τσιγάρο",
+        "οι μικροί τσιγάρο",
+        "η μικρή τσιγάρο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-062",
+      "type": "single-choice",
+      "prompt": "сладкий сахар",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ζάχαρη\nМножественное число: οι ζάχαρες\n\nРод: женский",
+      "correctAnswer": "η γλυκιά ζάχαρη",
+      "wrongAnswers": [
+        "ο γλυκός ζάχαρη",
+        "οι γλυκοί ζάχαρη",
+        "οι γλυκές ζάχαρη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-066",
+      "type": "single-choice",
+      "prompt": "вкусный десерт",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γλυκό\nМножественное число: τα γλυκά\n\nРод: средний",
+      "correctAnswer": "το νόστιμο γλυκό",
+      "wrongAnswers": [
+        "ο νόστιμος γλυκό",
+        "οι νόστιμοι γλυκό",
+        "η νόστιμη γλυκό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-067",
+      "type": "single-choice",
+      "prompt": "вкусные пиццы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πίτσα\nМножественное число: οι πίτσες\n\nРод: женский",
+      "correctAnswer": "οι νόστιμες πίτσες",
+      "wrongAnswers": [
+        "ο νόστιμος πίτσες",
+        "οι νόστιμοι πίτσες",
+        "η νόστιμη πίτσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-070",
+      "type": "single-choice",
+      "prompt": "свежий йогурт",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γιαούρτι\nМножественное число: τα γιαούρτια\n\nРод: средний",
+      "correctAnswer": "το φρέσκο γιαούρτι",
+      "wrongAnswers": [
+        "ο φρέσκος γιαούρτι",
+        "οι φρέσκοι γιαούρτι",
+        "η φρέσκια γιαούρτι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-072",
+      "type": "single-choice",
+      "prompt": "сладкое молоко",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γάλα\nМножественное число: τα γάλατα\n\nРод: средний",
+      "correctAnswer": "το γλυκό γάλα",
+      "wrongAnswers": ["ο γλυκός γάλα", "οι γλυκοί γάλα", "η γλυκιά γάλα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-077",
+      "type": "single-choice",
+      "prompt": "холодные воды",
+      "speechTarget": "options",
+      "hint": "Единственное число: το νερό\nМножественное число: τα νερά\n\nРод: средний",
+      "correctAnswer": "τα κρύα νερά",
+      "wrongAnswers": ["ο κρύος νερά", "οι κρύοι νερά", "οι κρύες νερά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-081",
+      "type": "single-choice",
+      "prompt": "свежее оливковое масло",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ελαιόλαδο\nМножественное число: τα ελαιόλαδα\n\nРод: средний",
+      "correctAnswer": "το φρέσκο ελαιόλαδο",
+      "wrongAnswers": [
+        "ο φρέσκος ελαιόλαδο",
+        "οι φρέσκοι ελαιόλαδο",
+        "η φρέσκια ελαιόλαδο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-082",
+      "type": "single-choice",
+      "prompt": "вкусные завтраки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πρωί\nМножественное число: τα πρωινά\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα πρωινά",
+      "wrongAnswers": [
+        "ο νόστιμος πρωινά",
+        "οι νόστιμοι πρωινά",
+        "η νόστιμη πρωινά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-086",
+      "type": "single-choice",
+      "prompt": "сладкие шоколадки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σοκολάτα\nМножественное число: οι σοκολάτες\n\nРод: женский",
+      "correctAnswer": "οι γλυκές σοκολάτες",
+      "wrongAnswers": [
+        "ο γλυκός σοκολάτες",
+        "οι γλυκοί σοκολάτες",
+        "η γλυκιά σοκολάτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-090",
+      "type": "single-choice",
+      "prompt": "вкусные супы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σούπα\nМножественное число: οι σούπες\n\nРод: женский",
+      "correctAnswer": "οι νόστιμες σούπες",
+      "wrongAnswers": [
+        "ο νόστιμος σούπες",
+        "οι νόστιμοι σούπες",
+        "η νόστιμη σούπες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-091",
+      "type": "single-choice",
+      "prompt": "маленькие шоколадки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σοκολατάκι\nМножественное число: τα σοκολατάκια\n\nРод: средний",
+      "correctAnswer": "τα μικρά σοκολατάκια",
+      "wrongAnswers": [
+        "ο μικρός σοκολατάκια",
+        "οι μικροί σοκολατάκια",
+        "η μικρή σοκολατάκια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-093",
+      "type": "single-choice",
+      "prompt": "разные виды сладкого молока",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γάλα\nМножественное число: τα γάλατα\n\nРод: средний",
+      "correctAnswer": "τα γλυκά γάλατα",
+      "wrongAnswers": ["ο γλυκός γάλατα", "οι γλυκοί γάλατα", "η γλυκιά γάλατα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-099",
+      "type": "single-choice",
+      "prompt": "испанский сок",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο χυμός\nМножественное число: οι χυμοί\n\nРод: мужской",
+      "correctAnswer": "ο ισπανικός χυμός",
+      "wrongAnswers": [
+        "οι ισπανικοί χυμός",
+        "η ισπανική χυμός",
+        "οι ισπανικές χυμός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-100",
+      "type": "single-choice",
+      "prompt": "чистая вода",
+      "speechTarget": "options",
+      "hint": "Единственное число: το νερό\nМножественное число: τα νερά\n\nРод: средний",
+      "correctAnswer": "το καθαρό νερό",
+      "wrongAnswers": ["ο καθαρός νερό", "οι καθαροί νερό", "η καθαρή νερό"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-101",
+      "type": "single-choice",
+      "prompt": "вкусная ветчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ζαμπόν\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το νόστιμο ζαμπόν",
+      "wrongAnswers": [
+        "ο νόστιμος ζαμπόν",
+        "οι νόστιμοι ζαμπόν",
+        "η νόστιμη ζαμπόν"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-102",
+      "type": "single-choice",
+      "prompt": "известные сыры",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τυρί\nМножественное число: τα τυριά\n\nРод: средний",
+      "correctAnswer": "τα γνωστά τυριά",
+      "wrongAnswers": ["ο γνωστός τυριά", "οι γνωστοί τυριά", "η γνωστή τυριά"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-103",
+      "type": "single-choice",
+      "prompt": "свежая фета",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φέτα\nМножественное число: οι φέτες\n\nРод: женский",
+      "correctAnswer": "η φρέσκια φέτα",
+      "wrongAnswers": ["ο φρέσκος φέτα", "οι φρέσκοι φέτα", "οι φρέσκες φέτα"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-107",
+      "type": "single-choice",
+      "prompt": "свежие сливки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κρέμα\nМножественное число: οι κρέμες\n\nРод: женский",
+      "correctAnswer": "η φρέσκια κρέμα",
+      "wrongAnswers": [
+        "ο φρέσκος κρέμα",
+        "οι φρέσκοι κρέμα",
+        "οι φρέσκες κρέμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-109",
+      "type": "single-choice",
+      "prompt": "сладкий шоколад",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σοκολάτα\nМножественное число: οι σοκολάτες\n\nРод: женский",
+      "correctAnswer": "η γλυκιά σοκολάτα",
+      "wrongAnswers": [
+        "ο γλυκός σοκολάτα",
+        "οι γλυκοί σοκολάτα",
+        "οι γλυκές σοκολάτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-112",
+      "type": "single-choice",
+      "prompt": "сладкий джем",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαρμελάδα\nМножественное число: οι μαρμελάδες\n\nРод: женский",
+      "correctAnswer": "η γλυκιά μαρμελάδα",
+      "wrongAnswers": [
+        "ο γλυκός μαρμελάδα",
+        "οι γλυκοί μαρμελάδα",
+        "οι γλυκές μαρμελάδα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-114",
+      "type": "single-choice",
+      "prompt": "свежая рыба",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ψάρι\nМножественное число: τα ψάρια\n\nРод: средний",
+      "correctAnswer": "τα φρέσκα ψάρια",
+      "wrongAnswers": ["ο φρέσκος ψάρια", "οι φρέσκοι ψάρια", "η φρέσκια ψάρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-120",
+      "type": "single-choice",
+      "prompt": "вкусные котлеты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μπιφτέκι\nМножественное число: τα μπιφτέκια\n\nРод: средний",
+      "correctAnswer": "τα νόστιμα μπιφτέκια",
+      "wrongAnswers": [
+        "ο νόστιμος μπιφτέκια",
+        "οι νόστιμοι μπιφτέκια",
+        "η νόστιμη μπιφτέκια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-122",
+      "type": "single-choice",
+      "prompt": "вкусная еда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "το νόστιμο φαγητό",
+      "wrongAnswers": [
+        "ο νόστιμος φαγητό",
+        "οι νόστιμοι φαγητό",
+        "η νόστιμη φαγητό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-123",
+      "type": "single-choice",
+      "prompt": "сладкие джемы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαρμελάδα\nМножественное число: οι μαρμελάδες\n\nРод: женский",
+      "correctAnswer": "οι γλυκές μαρμελάδες",
+      "wrongAnswers": [
+        "ο γλυκός μαρμελάδες",
+        "οι γλυκοί μαρμελάδες",
+        "η γλυκιά μαρμελάδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-other-food-products-ingredients-136",
+      "type": "single-choice",
+      "prompt": "вкусное мороженое",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παγωτό\nМножественное число: τα παγωτά\n\nРод: средний",
+      "correctAnswer": "το νόστιμο παγωτό",
+      "wrongAnswers": [
+        "ο νόστιμος παγωτό",
+        "οι νόστιμοι παγωτό",
+        "η νόστιμη παγωτό"
+      ]
+    }
+  ]
+}

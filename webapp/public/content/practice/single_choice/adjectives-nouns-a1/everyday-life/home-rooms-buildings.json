@@ -1,0 +1,982 @@
+{
+  "title": "Дом, комнаты и здания",
+  "subtitle": "Закрепите род и число в названиях помещений и зданий",
+  "items": [
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-002",
+      "type": "single-choice",
+      "prompt": "узкая комната",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "το στενό δωμάτιο",
+      "wrongAnswers": [
+        "ο στενός δωμάτιο",
+        "οι στενοί δωμάτιο",
+        "η στενή δωμάτιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-003",
+      "type": "single-choice",
+      "prompt": "большая ванная",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μπάνιο\nМножественное число: τα μπάνια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο μπάνιο",
+      "wrongAnswers": [
+        "ο μεγάλος μπάνιο",
+        "οι μεγάλοι μπάνιο",
+        "η μεγάλη μπάνιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-004",
+      "type": "single-choice",
+      "prompt": "чистый пол",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πάτωμα\nМножественное число: τα πατώματα\n\nРод: средний",
+      "correctAnswer": "το καθαρό πάτωμα",
+      "wrongAnswers": [
+        "ο καθαρός πάτωμα",
+        "οι καθαροί πάτωμα",
+        "η καθαρή πάτωμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-005",
+      "type": "single-choice",
+      "prompt": "высокий дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το ψηλό σπίτι",
+      "wrongAnswers": ["ο ψηλός σπίτι", "οι ψηλοί σπίτι", "η ψηλή σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-007",
+      "type": "single-choice",
+      "prompt": "маленькая квартира",
+      "speechTarget": "options",
+      "hint": "Единственное число: το διαμέρισμα\nМножественное число: τα διαμερίσματα\n\nРод: средний",
+      "correctAnswer": "το μικρό διαμέρισμα",
+      "wrongAnswers": [
+        "ο μικρός διαμέρισμα",
+        "οι μικροί διαμέρισμα",
+        "η μικρή διαμέρισμα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-008",
+      "type": "single-choice",
+      "prompt": "маленькие квартиры",
+      "speechTarget": "options",
+      "hint": "Единственное число: το διαμέρισμα\nМножественное число: τα διαμερίσματα\n\nРод: средний",
+      "correctAnswer": "τα μικρά διαμερίσματα",
+      "wrongAnswers": [
+        "ο μικρός διαμερίσματα",
+        "οι μικροί διαμερίσματα",
+        "η μικρή διαμερίσματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-009",
+      "type": "single-choice",
+      "prompt": "новый лифт",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ασανσέρ\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "το καινούριο ασανσέρ",
+      "wrongAnswers": [
+        "ο καινούριος ασανσέρ",
+        "οι καινούριοι ασανσέρ",
+        "η καινούρια ασανσέρ"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-013",
+      "type": "single-choice",
+      "prompt": "хорошие дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα καλά σπίτια",
+      "wrongAnswers": ["ο καλός σπίτια", "οι καλοί σπίτια", "η καλή σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-015",
+      "type": "single-choice",
+      "prompt": "маленький дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το μικρό σπίτι",
+      "wrongAnswers": ["ο μικρός σπίτι", "οι μικροί σπίτι", "η μικρή σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-016",
+      "type": "single-choice",
+      "prompt": "высокий этаж",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο όροφος\nМножественное число: οι όροφοι\n\nРод: мужской",
+      "correctAnswer": "ο ψηλός όροφος",
+      "wrongAnswers": ["οι ψηλοί όροφος", "η ψηλή όροφος", "οι ψηλές όροφος"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-018",
+      "type": "single-choice",
+      "prompt": "новый дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το νέο σπίτι",
+      "wrongAnswers": ["ο νέος σπίτι", "οι νέοι σπίτι", "η νέα σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-020",
+      "type": "single-choice",
+      "prompt": "большие дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα σπίτια",
+      "wrongAnswers": [
+        "ο μεγάλος σπίτια",
+        "οι μεγάλοι σπίτια",
+        "η μεγάλη σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-024",
+      "type": "single-choice",
+      "prompt": "грязная кухня",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κουζίνα\nМножественное число: οι κουζίνες\n\nРод: женский",
+      "correctAnswer": "η βρόμικη κουζίνα",
+      "wrongAnswers": [
+        "ο βρόμικος κουζίνα",
+        "οι βρόμικοι κουζίνα",
+        "οι βρόμικες κουζίνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-025",
+      "type": "single-choice",
+      "prompt": "некрасивый дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το άσχημο σπίτι",
+      "wrongAnswers": ["ο άσχημος σπίτι", "οι άσχημοι σπίτι", "η άσχημη σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-026",
+      "type": "single-choice",
+      "prompt": "большие офисы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το γραφείο\nМножественное число: τα γραφεία\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα γραφεία",
+      "wrongAnswers": [
+        "ο μεγάλος γραφεία",
+        "οι μεγάλοι γραφεία",
+        "η μεγάλη γραφεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-030",
+      "type": "single-choice",
+      "prompt": "большие ванные комнаты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μπάνιο\nМножественное число: τα μπάνια\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα μπάνια",
+      "wrongAnswers": [
+        "ο μεγάλος μπάνια",
+        "οι μεγάλοι μπάνια",
+        "η μεγάλη μπάνια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-034",
+      "type": "single-choice",
+      "prompt": "чистые кухни",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κουζίνα\nМножественное число: οι κουζίνες\n\nРод: женский",
+      "correctAnswer": "οι καθαρές κουζίνες",
+      "wrongAnswers": [
+        "ο καθαρός κουζίνες",
+        "οι καθαροί κουζίνες",
+        "η καθαρή κουζίνες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-035",
+      "type": "single-choice",
+      "prompt": "чистая кухня",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κουζίνα\nМножественное число: οι κουζίνες\n\nРод: женский",
+      "correctAnswer": "η καθαρή κουζίνα",
+      "wrongAnswers": [
+        "ο καθαρός κουζίνα",
+        "οι καθαροί κουζίνα",
+        "οι καθαρές κουζίνα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-036",
+      "type": "single-choice",
+      "prompt": "большие лестницы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σκάλα\nМножественное число: οι σκάλες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες σκάλες",
+      "wrongAnswers": [
+        "ο μεγάλος σκάλες",
+        "οι μεγάλοι σκάλες",
+        "η μεγάλη σκάλες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-037",
+      "type": "single-choice",
+      "prompt": "грязные полы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πάτωμα\nМножественное число: τα πατώματα\n\nРод: средний",
+      "correctAnswer": "τα βρόμικα πατώματα",
+      "wrongAnswers": [
+        "ο βρόμικος πατώματα",
+        "οι βρόμικοι πατώματα",
+        "η βρόμικη πατώματα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-039",
+      "type": "single-choice",
+      "prompt": "соседняя комната",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "το διπλανό δωμάτιο",
+      "wrongAnswers": [
+        "ο διπλανός δωμάτιο",
+        "οι διπλανοί δωμάτιο",
+        "η διπλανή δωμάτιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-040",
+      "type": "single-choice",
+      "prompt": "чужой дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το ξένο σπίτι",
+      "wrongAnswers": ["ο ξένος σπίτι", "οι ξένοι σπίτι", "η ξένη σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-041",
+      "type": "single-choice",
+      "prompt": "любимая комната",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "το αγαπημένο δωμάτιο",
+      "wrongAnswers": [
+        "ο αγαπημένος δωμάτιο",
+        "η αγαπημένη δωμάτιο",
+        "οι αγαπημένοι δωμάτιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-042",
+      "type": "single-choice",
+      "prompt": "экстренные дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα έκτα σπίτια",
+      "wrongAnswers": ["ο έκτος σπίτια", "η έκτη σπίτια", "το έκτο σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-046",
+      "type": "single-choice",
+      "prompt": "большая гостиная",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σαλόνι\nМножественное число: τα σαλόνια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο σαλόνι",
+      "wrongAnswers": [
+        "ο μεγάλος σαλόνι",
+        "οι μεγάλοι σαλόνι",
+        "η μεγάλη σαλόνι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-048",
+      "type": "single-choice",
+      "prompt": "центральный вход",
+      "speechTarget": "options",
+      "hint": "Единственное число: η είσοδος\nМножественное число: οι είσοδοι\n\nРод: женский",
+      "correctAnswer": "η κεντρική είσοδος",
+      "wrongAnswers": [
+        "ο κεντρικός είσοδος",
+        "οι κεντρικοί είσοδος",
+        "οι κεντρικές είσοδος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-049",
+      "type": "single-choice",
+      "prompt": "некрасивые дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα άσχημα σπίτια",
+      "wrongAnswers": [
+        "ο άσχημος σπίτια",
+        "οι άσχημοι σπίτια",
+        "η άσχημη σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-050",
+      "type": "single-choice",
+      "prompt": "свободные комнаты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "τα ελεύθερα δωμάτια",
+      "wrongAnswers": [
+        "ο ελεύθερος δωμάτια",
+        "οι ελεύθεροι δωμάτια",
+        "η ελεύθερη δωμάτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-051",
+      "type": "single-choice",
+      "prompt": "большая парикмахерская",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κομμωτήριο\nМножественное число: τα κομμωτήρια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο κομμωτήριο",
+      "wrongAnswers": [
+        "ο μεγάλος κομμωτήριο",
+        "οι μεγάλοι κομμωτήριο",
+        "η μεγάλη κομμωτήριο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-052",
+      "type": "single-choice",
+      "prompt": "большой зал",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αίθουσα\nМножественное число: οι αίθουσες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη αίθουσα",
+      "wrongAnswers": [
+        "ο μεγάλος αίθουσα",
+        "οι μεγάλοι αίθουσα",
+        "οι μεγάλες αίθουσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-053",
+      "type": "single-choice",
+      "prompt": "узкие комнаты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "τα στενά δωμάτια",
+      "wrongAnswers": [
+        "ο στενός δωμάτια",
+        "οι στενοί δωμάτια",
+        "η στενή δωμάτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-054",
+      "type": "single-choice",
+      "prompt": "маленькие дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα μικρά σπίτια",
+      "wrongAnswers": ["ο μικρός σπίτια", "οι μικροί σπίτια", "η μικρή σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-055",
+      "type": "single-choice",
+      "prompt": "маленький балкон",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μπαλκόνι\nМножественное число: τα μπαλκόνια\n\nРод: средний",
+      "correctAnswer": "το μικρό μπαλκόνι",
+      "wrongAnswers": [
+        "ο μικρός μπαλκόνι",
+        "οι μικροί μπαλκόνι",
+        "η μικρή μπαλκόνι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-058",
+      "type": "single-choice",
+      "prompt": "низкие стены",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο τοίχος\nМножественное число: οι τοίχοι\n\nРод: мужской",
+      "correctAnswer": "οι χαμηλοί τοίχοι",
+      "wrongAnswers": [
+        "ο χαμηλός τοίχοι",
+        "η χαμηλή τοίχοι",
+        "οι χαμηλές τοίχοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-059",
+      "type": "single-choice",
+      "prompt": "белые дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα άσπρα σπίτια",
+      "wrongAnswers": ["ο άσπρος σπίτια", "οι άσπροι σπίτια", "η άσπρη σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-064",
+      "type": "single-choice",
+      "prompt": "высокие стены",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο τοίχος\nМножественное число: οι τοίχοι\n\nРод: мужской",
+      "correctAnswer": "οι ψηλοί τοίχοι",
+      "wrongAnswers": ["ο ψηλός τοίχοι", "η ψηλή τοίχοι", "οι ψηλές τοίχοι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-065",
+      "type": "single-choice",
+      "prompt": "большое здание",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κτίριο\nМножественное число: τα κτίρια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο κτίριο",
+      "wrongAnswers": [
+        "ο μεγάλος κτίριο",
+        "οι μεγάλοι κτίριο",
+        "η μεγάλη κτίριο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-066",
+      "type": "single-choice",
+      "prompt": "старый дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το παλιό σπίτι",
+      "wrongAnswers": ["ο παλιός σπίτι", "οι παλιοί σπίτι", "η παλιά σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-071",
+      "type": "single-choice",
+      "prompt": "чистый туалет",
+      "speechTarget": "options",
+      "hint": "Единственное число: η τουαλέτα\nМножественное число: οι τουαλέτες\n\nРод: женский",
+      "correctAnswer": "η καθαρή τουαλέτα",
+      "wrongAnswers": [
+        "ο καθαρός τουαλέτα",
+        "οι καθαροί τουαλέτα",
+        "οι καθαρές τουαλέτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-073",
+      "type": "single-choice",
+      "prompt": "новые дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα νέα σπίτια",
+      "wrongAnswers": ["ο νέος σπίτια", "οι νέοι σπίτια", "οι νέες σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-074",
+      "type": "single-choice",
+      "prompt": "большой дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο σπίτι",
+      "wrongAnswers": ["ο μεγάλος σπίτι", "οι μεγάλοι σπίτι", "η μεγάλη σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-075",
+      "type": "single-choice",
+      "prompt": "чистые стекла",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τζάμι\nМножественное число: τα τζάμια\n\nРод: средний",
+      "correctAnswer": "τα καθαρά τζάμια",
+      "wrongAnswers": [
+        "ο καθαρός τζάμια",
+        "οι καθαροί τζάμια",
+        "η καθαρή τζάμια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-077",
+      "type": "single-choice",
+      "prompt": "мой собственный дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το δικό μου σπίτι",
+      "wrongAnswers": [
+        "ο δικός μου σπίτι",
+        "η δική μου σπίτι",
+        "οι δικοί μου σπίτι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-079",
+      "type": "single-choice",
+      "prompt": "дальняя дверь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "η μακριά πόρτα",
+      "wrongAnswers": ["ο μακρύς πόρτα", "οι μακριοί πόρτα", "οι μακριές πόρτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-080",
+      "type": "single-choice",
+      "prompt": "большие гостиные",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σαλόνι\nМножественное число: τα σαλόνια\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα σαλόνια",
+      "wrongAnswers": [
+        "ο μεγάλος σαλόνια",
+        "οι μεγάλοι σαλόνια",
+        "η μεγάλη σαλόνια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-081",
+      "type": "single-choice",
+      "prompt": "соседние двери",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "οι διπλανές πόρτες",
+      "wrongAnswers": [
+        "ο διπλανός πόρτες",
+        "οι διπλανοί πόρτες",
+        "η διπλανή πόρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-082",
+      "type": "single-choice",
+      "prompt": "низкая стена",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο τοίχος\nМножественное число: οι τοίχοι\n\nРод: мужской",
+      "correctAnswer": "ο χαμηλός τοίχος",
+      "wrongAnswers": [
+        "οι χαμηλοί τοίχος",
+        "η χαμηλή τοίχος",
+        "οι χαμηλές τοίχος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-083",
+      "type": "single-choice",
+      "prompt": "большая школа",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σχολείο\nМножественное число: τα σχολεία\n\nРод: средний",
+      "correctAnswer": "το μεγάλο σχολείο",
+      "wrongAnswers": [
+        "ο μεγάλος σχολείο",
+        "οι μεγάλοι σχολείο",
+        "η μεγάλη σχολείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-084",
+      "type": "single-choice",
+      "prompt": "обычный дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το κανονικό σπίτι",
+      "wrongAnswers": [
+        "ο κανονικός σπίτι",
+        "οι κανονικοί σπίτι",
+        "η κανονική σπίτι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-085",
+      "type": "single-choice",
+      "prompt": "тихая комната",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "το ήσυχο δωμάτιο",
+      "wrongAnswers": [
+        "ο ήσυχος δωμάτιο",
+        "οι ήσυχοι δωμάτιο",
+        "η ήσυχη δωμάτιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-086",
+      "type": "single-choice",
+      "prompt": "красивые дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα ωραία σπίτια",
+      "wrongAnswers": [
+        "ο ωραίος σπίτια",
+        "οι ωραίοι σπίτια",
+        "οι ωραίες σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-088",
+      "type": "single-choice",
+      "prompt": "узкие двери",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "οι στενές πόρτες",
+      "wrongAnswers": ["ο στενός πόρτες", "οι στενοί πόρτες", "η στενή πόρτες"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-089",
+      "type": "single-choice",
+      "prompt": "большая спальня",
+      "speechTarget": "options",
+      "hint": "Единственное число: το υπνοδωμάτιο\nМножественное число: τα υπνοδωμάτια\n\nРод: средний",
+      "correctAnswer": "το μεγάλο υπνοδωμάτιο",
+      "wrongAnswers": [
+        "ο μεγάλος υπνοδωμάτιο",
+        "οι μεγάλοι υπνοδωμάτιο",
+        "η μεγάλη υπνοδωμάτιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-090",
+      "type": "single-choice",
+      "prompt": "красивые дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα όμορφα σπίτια",
+      "wrongAnswers": [
+        "ο όμορφος σπίτια",
+        "οι όμορφοι σπίτια",
+        "η όμορφη σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-093",
+      "type": "single-choice",
+      "prompt": "тихие дворы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αυλή\nМножественное число: οι αυλές\n\nРод: женский",
+      "correctAnswer": "οι ήσυχες αυλές",
+      "wrongAnswers": ["ο ήσυχος αυλές", "οι ήσυχοι αυλές", "η ήσυχη αυλές"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-094",
+      "type": "single-choice",
+      "prompt": "красивый дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το όμορφο σπίτι",
+      "wrongAnswers": ["ο όμορφος σπίτι", "οι όμορφοι σπίτι", "η όμορφη σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-098",
+      "type": "single-choice",
+      "prompt": "хороший дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το καλό σπίτι",
+      "wrongAnswers": ["ο καλός σπίτι", "οι καλοί σπίτι", "η καλή σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-100",
+      "type": "single-choice",
+      "prompt": "соседние комнаты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "τα διπλανά δωμάτια",
+      "wrongAnswers": [
+        "ο διπλανός δωμάτια",
+        "οι διπλανοί δωμάτια",
+        "η διπλανή δωμάτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-104",
+      "type": "single-choice",
+      "prompt": "высокие дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα ψηλά σπίτια",
+      "wrongAnswers": ["ο ψηλός σπίτια", "οι ψηλοί σπίτια", "η ψηλή σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-106",
+      "type": "single-choice",
+      "prompt": "открытые окна",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παράθυρο\nМножественное число: τα παράθυρα\n\nРод: средний",
+      "correctAnswer": "τα ανοιχτά παράθυρα",
+      "wrongAnswers": [
+        "ο ανοιχτός παράθυρα",
+        "οι ανοιχτοί παράθυρα",
+        "η ανοιχτή παράθυρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-107",
+      "type": "single-choice",
+      "prompt": "соседняя дверь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "η διπλανή πόρτα",
+      "wrongAnswers": [
+        "ο διπλανός πόρτα",
+        "οι διπλανοί πόρτα",
+        "οι διπλανές πόρτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-111",
+      "type": "single-choice",
+      "prompt": "обычные дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα κανονικά σπίτια",
+      "wrongAnswers": [
+        "ο κανονικός σπίτια",
+        "οι κανονικοί σπίτια",
+        "η κανονική σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-113",
+      "type": "single-choice",
+      "prompt": "чистые дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα καθαρά σπίτια",
+      "wrongAnswers": [
+        "ο καθαρός σπίτια",
+        "οι καθαροί σπίτια",
+        "η καθαρή σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-116",
+      "type": "single-choice",
+      "prompt": "испанский дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το ισπανικό σπίτι",
+      "wrongAnswers": [
+        "ο ισπανικός σπίτι",
+        "οι ισπανικοί σπίτι",
+        "η ισπανική σπίτι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-118",
+      "type": "single-choice",
+      "prompt": "любимые комнаты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "τα αγαπημένα δωμάτια",
+      "wrongAnswers": [
+        "ο αγαπημένος δωμάτια",
+        "η αγαπημένη δωμάτια",
+        "το αγαπημένο δωμάτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-119",
+      "type": "single-choice",
+      "prompt": "тихий двор",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αυλή\nМножественное число: οι αυλές\n\nРод: женский",
+      "correctAnswer": "η ήσυχη αυλή",
+      "wrongAnswers": ["ο ήσυχος αυλή", "οι ήσυχοι αυλή", "οι ήσυχες αυλή"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-120",
+      "type": "single-choice",
+      "prompt": "маленькие балконы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μπαλκόνι\nМножественное число: τα μπαλκόνια\n\nРод: средний",
+      "correctAnswer": "τα μικρά μπαλκόνια",
+      "wrongAnswers": [
+        "ο μικρός μπαλκόνια",
+        "οι μικροί μπαλκόνια",
+        "η μικρή μπαλκόνια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-124",
+      "type": "single-choice",
+      "prompt": "чистый дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το καθαρό σπίτι",
+      "wrongAnswers": ["ο καθαρός σπίτι", "οι καθαροί σπίτι", "η καθαρή σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-125",
+      "type": "single-choice",
+      "prompt": "свободная комната",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "το ελεύθερο δωμάτιο",
+      "wrongAnswers": [
+        "ο ελεύθερος δωμάτιο",
+        "οι ελεύθεροι δωμάτιο",
+        "η ελεύθερη δωμάτιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-129",
+      "type": "single-choice",
+      "prompt": "шестой дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το έκτο σπίτι",
+      "wrongAnswers": ["ο έκτος σπίτι", "η έκτη σπίτι", "οι έκτοι σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-133",
+      "type": "single-choice",
+      "prompt": "узкая дверь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "η στενή πόρτα",
+      "wrongAnswers": ["ο στενός πόρτα", "οι στενοί πόρτα", "οι στενές πόρτα"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-137",
+      "type": "single-choice",
+      "prompt": "высокая стена",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο τοίχος\nМножественное число: οι τοίχοι\n\nРод: мужской",
+      "correctAnswer": "ο ψηλός τοίχος",
+      "wrongAnswers": ["οι ψηλοί τοίχος", "η ψηλή τοίχος", "οι ψηλές τοίχος"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-139",
+      "type": "single-choice",
+      "prompt": "белый дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το άσπρο σπίτι",
+      "wrongAnswers": ["ο άσπρος σπίτι", "οι άσπροι σπίτι", "η άσπρη σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-140",
+      "type": "single-choice",
+      "prompt": "открытое окно",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παράθυρο\nМножественное число: τα παράθυρα\n\nРод: средний",
+      "correctAnswer": "το ανοιχτό παράθυρο",
+      "wrongAnswers": [
+        "ο ανοιχτός παράθυρο",
+        "οι ανοιχτοί παράθυρο",
+        "η ανοιχτή παράθυρο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-142",
+      "type": "single-choice",
+      "prompt": "открытая дверь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "η ανοιχτή πόρτα",
+      "wrongAnswers": [
+        "ο ανοιχτός πόρτα",
+        "οι ανοιχτοί πόρτα",
+        "οι ανοιχτές πόρτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-143",
+      "type": "single-choice",
+      "prompt": "тихие комнаты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δωμάτιο\nМножественное число: τα δωμάτια\n\nРод: средний",
+      "correctAnswer": "τα ήσυχα δωμάτια",
+      "wrongAnswers": [
+        "ο ήσυχος δωμάτια",
+        "οι ήσυχοι δωμάτια",
+        "η ήσυχη δωμάτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-144",
+      "type": "single-choice",
+      "prompt": "все дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "όλα τα σπίτια",
+      "wrongAnswers": ["όλος ο σπίτια", "όλοι οι σπίτια", "όλη η σπίτια"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-147",
+      "type": "single-choice",
+      "prompt": "большие залы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αίθουσα\nМножественное число: οι αίθουσες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες αίθουσες",
+      "wrongAnswers": [
+        "ο μεγάλος αίθουσες",
+        "οι μεγάλοι αίθουσες",
+        "η μεγάλη αίθουσες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-148",
+      "type": "single-choice",
+      "prompt": "большие двери",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες πόρτες",
+      "wrongAnswers": [
+        "ο μεγάλος πόρτες",
+        "οι μεγάλοι πόρτες",
+        "η μεγάλη πόρτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-149",
+      "type": "single-choice",
+      "prompt": "большие здания",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κτίριο\nМножественное число: τα κτίρια\n\nРод: средний",
+      "correctAnswer": "τα μεγάλα κτίρια",
+      "wrongAnswers": [
+        "ο μεγάλος κτίρια",
+        "οι μεγάλοι κτίρια",
+        "η μεγάλη κτίρια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-151",
+      "type": "single-choice",
+      "prompt": "весь дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "όλο το σπίτι",
+      "wrongAnswers": ["όλος ο σπίτι", "όλοι οι σπίτι", "όλη η σπίτι"]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-153",
+      "type": "single-choice",
+      "prompt": "испанские дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα ισπανικά σπίτια",
+      "wrongAnswers": [
+        "ο ισπανικός σπίτια",
+        "οι ισπανικοί σπίτια",
+        "η ισπανική σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-154",
+      "type": "single-choice",
+      "prompt": "большая дверь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πόρτα\nМножественное число: οι πόρτες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη πόρτα",
+      "wrongAnswers": [
+        "ο μεγάλος πόρτα",
+        "οι μεγάλοι πόρτα",
+        "οι μεγάλες πόρτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-everyday-life-home-rooms-buildings-155",
+      "type": "single-choice",
+      "prompt": "красивый дом",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "το ωραίο σπίτι",
+      "wrongAnswers": ["ο ωραίος σπίτι", "οι ωραίοι σπίτι", "η ωραία σπίτι"]
+    }
+  ]
+}

@@ -45,8 +45,21 @@ vocabulary of actions, communication, emotions and abstract reasoning. Some
 less frequent verbs are retained in the extended A2 set rather than discarded.
 Only the target verb in `correctAnswer` determines the level: every person,
 number and sense of a lemma stays in one level. The alternative spellings
-`παραγγέλλω` / `παραγγέλνω` share the same level. Sentence vocabulary, grammar and
-wrong-answer verbs have **not** yet been normalized to these levels.
+`παραγγέλλω` / `παραγγέλνω` share the same level.
+
+A separate editorial pass reviewed all 824 A1 sentences and simplified clearly
+advanced non-target vocabulary in 146 exercises (for example, `υδραυλικό` →
+`γιατρό`, `αποσκευές` → `βαλίτσες`). The original target verb and its exact form
+are preserved, including when its surrounding sentence is rewritten. Russian
+prompts, word-by-word hints and distractor sentence frames are updated together.
+The A2 collections are unchanged. This is a vocabulary pass, not a grammar or
+verb-sense normalization; secondary verbs and the distractor verbs are not
+reclassified. `verbs-a1-vocabulary.test.ts` guards the reviewed replacements and
+the source verb forms.
+
+The editable `practice/` files contain these revisions. Legacy template
+regeneration can overwrite them and is not part of the normal level-splitting
+workflow.
 
 After editing source exercises or the level map, run:
 
@@ -66,6 +79,24 @@ Legacy generation/hint tools now write to `content-source/verbs/practice/`.
 When regenerating the original templates, run
 `node webapp/scripts/repair-verb-distractors.mjs` before splitting by level to
 restore the verb-only distractor rule.
+
+## Noun/adjective levels (A1 / A2)
+
+The former `adjectives-nouns/` menu is replaced with
+**Существительные и прилагательные A1** and
+**Существительные и прилагательные A2**, retaining thematic groups and subtopics.
+The editable collections now live in
+`webapp/content-source/nouns-adjectives/practice/`; the explicit form-level map is
+`webapp/content-source/nouns-adjectives/practice-levels.json`.
+
+Only the noun and adjective/determiner in `correctAnswer` determine the level:
+both must be A1 for an A1 exercise. Otherwise the exercise is A2. Existing item
+content and IDs are unchanged; wrong answers do not influence classification.
+This is an editorial estimate, not an official CEFR certification.
+
+Regenerate with `npm run generate:nouns-adjectives-levels --prefix webapp`.
+See [the source README](../webapp/content-source/nouns-adjectives/README.md) for
+compound expressions, pronouns, noun-only answers and maintenance instructions.
 
 ## File shape
 

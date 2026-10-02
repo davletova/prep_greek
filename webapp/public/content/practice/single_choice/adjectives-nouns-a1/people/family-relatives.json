@@ -1,0 +1,595 @@
+{
+  "title": "Семья и родственники",
+  "subtitle": "Согласуйте существительные и прилагательные в семейной лексике",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-family-relatives-001",
+      "type": "single-choice",
+      "prompt": "любимый внук/внучка",
+      "speechTarget": "options",
+      "hint": "Единственное число: το εγγόνι\nМножественное число: τα εγγόνια\n\nРод: средний",
+      "correctAnswer": "το αγαπημένο εγγόνι",
+      "wrongAnswers": [
+        "ο αγαπημένος εγγόνι",
+        "η αγαπημένη εγγόνι",
+        "οι αγαπημένοι εγγόνι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-002",
+      "type": "single-choice",
+      "prompt": "другие дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα άλλα παιδιά",
+      "wrongAnswers": ["ο άλλος παιδιά", "η άλλη παιδιά", "το άλλο παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-003",
+      "type": "single-choice",
+      "prompt": "любимые родители",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γονέας\nМножественное число: οι γονείς\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι γονείς",
+      "wrongAnswers": [
+        "ο αγαπημένος γονείς",
+        "η αγαπημένη γονείς",
+        "το αγαπημένο γονείς"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-004",
+      "type": "single-choice",
+      "prompt": "хорошие папы",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μπαμπάς\nМножественное число: οι μπαμπάδες\n\nРод: мужской",
+      "correctAnswer": "οι καλοί μπαμπάδες",
+      "wrongAnswers": [
+        "ο καλός μπαμπάδες",
+        "η καλή μπαμπάδες",
+        "οι καλές μπαμπάδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-005",
+      "type": "single-choice",
+      "prompt": "любимый двоюродный брат",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ξάδερφος\nМножественное число: οι ξάδερφοι\n\nРод: мужской",
+      "correctAnswer": "ο αγαπημένος ξάδερφος",
+      "wrongAnswers": [
+        "η αγαπημένη ξάδερφος",
+        "το αγαπημένο ξάδερφος",
+        "οι αγαπημένοι ξάδερφος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-007",
+      "type": "single-choice",
+      "prompt": "любимые дяди",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο θείος\nМножественное число: οι θείοι\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι θείοι",
+      "wrongAnswers": [
+        "ο αγαπημένος θείοι",
+        "η αγαπημένη θείοι",
+        "το αγαπημένο θείοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-009",
+      "type": "single-choice",
+      "prompt": "иностранные двоюродные братья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ξάδερφος\nМножественное число: οι ξάδερφοι\n\nРод: мужской",
+      "correctAnswer": "οι ξένοι ξάδερφοι",
+      "wrongAnswers": [
+        "ο ξένος ξάδερφοι",
+        "η ξένη ξάδερφοι",
+        "οι ξένες ξάδερφοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-011",
+      "type": "single-choice",
+      "prompt": "хороший сын",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γιος\nМножественное число: οι γιοι\n\nРод: мужской",
+      "correctAnswer": "ο καλός γιος",
+      "wrongAnswers": ["οι καλοί γιος", "η καλή γιος", "οι καλές γιος"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-014",
+      "type": "single-choice",
+      "prompt": "любимые внучки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εγγονή\nМножественное число: οι εγγονές\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες εγγονές",
+      "wrongAnswers": [
+        "ο αγαπημένος εγγονές",
+        "η αγαπημένη εγγονές",
+        "το αγαπημένο εγγονές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-018",
+      "type": "single-choice",
+      "prompt": "любимый внук",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο εγγονός\nМножественное число: οι εγγονοί\n\nРод: мужской",
+      "correctAnswer": "ο αγαπημένος εγγονός",
+      "wrongAnswers": [
+        "η αγαπημένη εγγονός",
+        "το αγαπημένο εγγονός",
+        "οι αγαπημένοι εγγονός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-019",
+      "type": "single-choice",
+      "prompt": "любимый дедушка",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο παππούς\nМножественное число: οι παππούδες\n\nРод: мужской",
+      "correctAnswer": "ο αγαπημένος παππούς",
+      "wrongAnswers": [
+        "η αγαπημένη παππούς",
+        "το αγαπημένο παππούς",
+        "οι αγαπημένοι παππούς"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-020",
+      "type": "single-choice",
+      "prompt": "большие семьи",
+      "speechTarget": "options",
+      "hint": "Единственное число: η οικογένεια\nМножественное число: οι οικογένειες\n\nРод: женский",
+      "correctAnswer": "οι μεγάλες οικογένειες",
+      "wrongAnswers": [
+        "ο μεγάλος οικογένειες",
+        "οι μεγάλοι οικογένειες",
+        "η μεγάλη οικογένειες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-021",
+      "type": "single-choice",
+      "prompt": "любимый отец",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πατέρας\nМножественное число: οι πατέρες\n\nРод: мужской",
+      "correctAnswer": "ο αγαπημένος πατέρας",
+      "wrongAnswers": [
+        "η αγαπημένη πατέρας",
+        "το αγαπημένο πατέρας",
+        "οι αγαπημένοι πατέρας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-025",
+      "type": "single-choice",
+      "prompt": "любимая бабушка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γιαγιά\nМножественное число: οι γιαγιάδες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη γιαγιά",
+      "wrongAnswers": [
+        "ο αγαπημένος γιαγιά",
+        "το αγαπημένο γιαγιά",
+        "οι αγαπημένοι γιαγιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-026",
+      "type": "single-choice",
+      "prompt": "любимая мама",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαμά\nМножественное число: οι μαμάδες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη μαμά",
+      "wrongAnswers": [
+        "ο αγαπημένος μαμά",
+        "το αγαπημένο μαμά",
+        "οι αγαπημένοι μαμά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-027",
+      "type": "single-choice",
+      "prompt": "единственные дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα μόνα παιδιά",
+      "wrongAnswers": ["ο μόνος παιδιά", "οι μόνοι παιδιά", "η μόνη παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-029",
+      "type": "single-choice",
+      "prompt": "счастливые дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα ευτυχισμένα παιδιά",
+      "wrongAnswers": [
+        "ο ευτυχισμένος παιδιά",
+        "οι ευτυχισμένοι παιδιά",
+        "η ευτυχισμένη παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-032",
+      "type": "single-choice",
+      "prompt": "любимый дядя",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο θείος\nМножественное число: οι θείοι\n\nРод: мужской",
+      "correctAnswer": "ο αγαπημένος θείος",
+      "wrongAnswers": [
+        "η αγαπημένη θείος",
+        "το αγαπημένο θείος",
+        "οι αγαπημένοι θείος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-033",
+      "type": "single-choice",
+      "prompt": "чужой двоюродный брат",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ξάδερφος\nМножественное число: οι ξάδερφοι\n\nРод: мужской",
+      "correctAnswer": "ο ξένος ξάδερφος",
+      "wrongAnswers": [
+        "οι ξένοι ξάδερφος",
+        "η ξένη ξάδερφος",
+        "οι ξένες ξάδερφος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-034",
+      "type": "single-choice",
+      "prompt": "счастливая семья",
+      "speechTarget": "options",
+      "hint": "Единственное число: η οικογένεια\nМножественное число: οι οικογένειες\n\nРод: женский",
+      "correctAnswer": "η ευτυχισμένη οικογένεια",
+      "wrongAnswers": [
+        "ο ευτυχισμένος οικογένεια",
+        "οι ευτυχισμένοι οικογένεια",
+        "οι ευτυχισμένες οικογένεια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-035",
+      "type": "single-choice",
+      "prompt": "мои собственные дома",
+      "speechTarget": "options",
+      "hint": "Единственное число: το σπίτι\nМножественное число: τα σπίτια\n\nРод: средний",
+      "correctAnswer": "τα δικά μου σπίτια",
+      "wrongAnswers": [
+        "ο δικός μου σπίτια",
+        "η δική μου σπίτια",
+        "το δικό μου σπίτια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-040",
+      "type": "single-choice",
+      "prompt": "чужая двоюродная сестра",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ξαδέρφη\nМножественное число: οι ξαδέρφες\n\nРод: женский",
+      "correctAnswer": "η ξένη ξαδέρφη",
+      "wrongAnswers": [
+        "ο ξένος ξαδέρφη",
+        "οι ξένοι ξαδέρφη",
+        "οι ξένες ξαδέρφη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-042",
+      "type": "single-choice",
+      "prompt": "хорошие дочери",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κόρη\nМножественное число: οι κόρες\n\nРод: женский",
+      "correctAnswer": "οι καλές κόρες",
+      "wrongAnswers": ["ο καλός κόρες", "οι καλοί κόρες", "η καλή κόρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-043",
+      "type": "single-choice",
+      "prompt": "любимая мать",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μητέρα\nМножественное число: οι μητέρες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη μητέρα",
+      "wrongAnswers": [
+        "ο αγαπημένος μητέρα",
+        "το αγαπημένο μητέρα",
+        "οι αγαπημένοι μητέρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-045",
+      "type": "single-choice",
+      "prompt": "хорошая дочь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κόρη\nМножественное число: οι κόρες\n\nРод: женский",
+      "correctAnswer": "η καλή κόρη",
+      "wrongAnswers": ["ο καλός κόρη", "οι καλοί κόρη", "οι καλές κόρη"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-046",
+      "type": "single-choice",
+      "prompt": "любимые двоюродные сестры",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ξαδέρφη\nМножественное число: οι ξαδέρφες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες ξαδέρφες",
+      "wrongAnswers": [
+        "ο αγαπημένος ξαδέρφες",
+        "η αγαπημένη ξαδέρφες",
+        "το αγαπημένο ξαδέρφες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-048",
+      "type": "single-choice",
+      "prompt": "любимые внуки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο εγγονός\nМножественное число: οι εγγονοί\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι εγγονοί",
+      "wrongAnswers": [
+        "ο αγαπημένος εγγονοί",
+        "η αγαπημένη εγγονοί",
+        "το αγαπημένο εγγονοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-050",
+      "type": "single-choice",
+      "prompt": "счастливая замужняя женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η παντρεμένη\nМножественное число: οι παντρεμένες\n\nРод: женский",
+      "correctAnswer": "η ευτυχισμένη παντρεμένη",
+      "wrongAnswers": [
+        "ο ευτυχισμένος παντρεμένη",
+        "οι ευτυχισμένοι παντρεμένη",
+        "οι ευτυχισμένες παντρεμένη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-051",
+      "type": "single-choice",
+      "prompt": "любимые двоюродные братья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ξάδερφος\nМножественное число: οι ξάδερφοι\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι ξάδερφοι",
+      "wrongAnswers": [
+        "ο αγαπημένος ξάδερφοι",
+        "η αγαπημένη ξάδερφοι",
+        "το αγαπημένο ξάδερφοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-054",
+      "type": "single-choice",
+      "prompt": "любимые мамы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαμά\nМножественное число: οι μαμάδες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες μαμάδες",
+      "wrongAnswers": [
+        "ο αγαπημένος μαμάδες",
+        "η αγαπημένη μαμάδες",
+        "το αγαπημένο μαμάδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-056",
+      "type": "single-choice",
+      "prompt": "любимые отцы",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πατέρας\nМножественное число: οι πατέρες\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι πατέρες",
+      "wrongAnswers": [
+        "ο αγαπημένος πατέρες",
+        "η αγαπημένη πατέρες",
+        "το αγαπημένο πατέρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-057",
+      "type": "single-choice",
+      "prompt": "счастливые семьи",
+      "speechTarget": "options",
+      "hint": "Единственное число: η οικογένεια\nМножественное число: οι οικογένειες\n\nРод: женский",
+      "correctAnswer": "οι ευτυχισμένες οικογένειες",
+      "wrongAnswers": [
+        "ο ευτυχισμένος οικογένειες",
+        "οι ευτυχισμένοι οικογένειες",
+        "η ευτυχισμένη οικογένειες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-058",
+      "type": "single-choice",
+      "prompt": "хороший папа",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μπαμπάς\nМножественное число: οι μπαμπάδες\n\nРод: мужской",
+      "correctAnswer": "ο καλός μπαμπάς",
+      "wrongAnswers": ["οι καλοί μπαμπάς", "η καλή μπαμπάς", "οι καλές μπαμπάς"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-059",
+      "type": "single-choice",
+      "prompt": "хорошие браки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γάμος\nМножественное число: οι γάμοι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί γάμοι",
+      "wrongAnswers": ["ο καλός γάμοι", "η καλή γάμοι", "οι καλές γάμοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-060",
+      "type": "single-choice",
+      "prompt": "хороший брак",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γάμος\nМножественное число: οι γάμοι\n\nРод: мужской",
+      "correctAnswer": "ο καλός γάμος",
+      "wrongAnswers": ["οι καλοί γάμος", "η καλή γάμος", "οι καλές γάμος"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-062",
+      "type": "single-choice",
+      "prompt": "любимая внучка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η εγγονή\nМножественное число: οι εγγονές\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη εγγονή",
+      "wrongAnswers": [
+        "ο αγαπημένος εγγονή",
+        "το αγαπημένο εγγονή",
+        "οι αγαπημένοι εγγονή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-063",
+      "type": "single-choice",
+      "prompt": "любимая двоюродная сестра",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ξαδέρφη\nМножественное число: οι ξαδέρφες\n\nРод: женский",
+      "correctAnswer": "η αγαπημένη ξαδέρφη",
+      "wrongAnswers": [
+        "ο αγαπημένος ξαδέρφη",
+        "το αγαπημένο ξαδέρφη",
+        "οι αγαπημένοι ξαδέρφη"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-065",
+      "type": "single-choice",
+      "prompt": "иностранные двоюродные сестры",
+      "speechTarget": "options",
+      "hint": "Единственное число: η ξαδέρφη\nМножественное число: οι ξαδέρφες\n\nРод: женский",
+      "correctAnswer": "οι ξένες ξαδέρφες",
+      "wrongAnswers": [
+        "ο ξένος ξαδέρφες",
+        "οι ξένοι ξαδέρφες",
+        "η ξένη ξαδέρφες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-066",
+      "type": "single-choice",
+      "prompt": "счастливые женатые мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο παντρεμένος\nМножественное число: οι παντρεμένοι\n\nРод: мужской",
+      "correctAnswer": "οι ευτυχισμένοι παντρεμένοι",
+      "wrongAnswers": [
+        "ο ευτυχισμένος παντρεμένοι",
+        "η ευτυχισμένη παντρεμένοι",
+        "οι ευτυχισμένες παντρεμένοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-067",
+      "type": "single-choice",
+      "prompt": "любимое дитя",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το αγαπημένο παιδί",
+      "wrongAnswers": [
+        "ο αγαπημένος παιδί",
+        "η αγαπημένη παιδί",
+        "οι αγαπημένοι παιδί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-068",
+      "type": "single-choice",
+      "prompt": "единственный ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το μόνο παιδί",
+      "wrongAnswers": ["ο μόνος παιδί", "οι μόνοι παιδί", "η μόνη παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-072",
+      "type": "single-choice",
+      "prompt": "то же самое ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το ίδιο παιδί",
+      "wrongAnswers": ["ο ίδιος παιδί", "οι ίδιοι παιδί", "η ίδια παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-073",
+      "type": "single-choice",
+      "prompt": "никакой ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "κανένα παιδί",
+      "wrongAnswers": ["κανένας παιδί", "καμία παιδί", "κανένα παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-074",
+      "type": "single-choice",
+      "prompt": "любимые матери",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μητέρα\nМножественное число: οι μητέρες\n\nРод: женский",
+      "correctAnswer": "οι αγαπημένες μητέρες",
+      "wrongAnswers": [
+        "ο αγαπημένος μητέρες",
+        "η αγαπημένη μητέρες",
+        "το αγαπημένο μητέρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-075",
+      "type": "single-choice",
+      "prompt": "большая семья",
+      "speechTarget": "options",
+      "hint": "Единственное число: η οικογένεια\nМножественное число: οι οικογένειες\n\nРод: женский",
+      "correctAnswer": "η μεγάλη οικογένεια",
+      "wrongAnswers": [
+        "ο μεγάλος οικογένεια",
+        "οι μεγάλοι οικογένεια",
+        "οι μεγάλες οικογένεια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-077",
+      "type": "single-choice",
+      "prompt": "любимые внуки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το εγγόνι\nМножественное число: τα εγγόνια\n\nРод: средний",
+      "correctAnswer": "τα αγαπημένα εγγόνια",
+      "wrongAnswers": [
+        "ο αγαπημένος εγγόνια",
+        "η αγαπημένη εγγόνια",
+        "το αγαπημένο εγγόνια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-081",
+      "type": "single-choice",
+      "prompt": "любимые дедушки",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο παππούς\nМножественное число: οι παππούδες\n\nРод: мужской",
+      "correctAnswer": "οι αγαπημένοι παππούδες",
+      "wrongAnswers": [
+        "ο αγαπημένος παππούδες",
+        "η αγαπημένη παππούδες",
+        "το αγαπημένο παππούδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-082",
+      "type": "single-choice",
+      "prompt": "хорошие сыновья",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γιος\nМножественное число: οι γιοι\n\nРод: мужской",
+      "correctAnswer": "οι καλοί γιοι",
+      "wrongAnswers": ["ο καλός γιοι", "η καλή γιοι", "οι καλές γιοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-family-relatives-083",
+      "type": "single-choice",
+      "prompt": "счастливый женатый мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο παντρεμένος\nМножественное число: οι παντρεμένοι\n\nРод: мужской",
+      "correctAnswer": "ο ευτυχισμένος παντρεμένος",
+      "wrongAnswers": [
+        "οι ευτυχισμένοι παντρεμένος",
+        "η ευτυχισμένη παντρεμένος",
+        "οι ευτυχισμένες παντρεμένος"
+      ]
+    }
+  ]
+}

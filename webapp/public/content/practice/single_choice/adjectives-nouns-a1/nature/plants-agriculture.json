@@ -1,0 +1,114 @@
+{
+  "title": "Растения и сельское хозяйство",
+  "subtitle": "Выберите правильные формы слов о растениях и сельском хозяйстве",
+  "items": [
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-008",
+      "type": "single-choice",
+      "prompt": "новые растения",
+      "speechTarget": "options",
+      "correctAnswer": "τα καινούρια φυτά",
+      "wrongAnswers": [
+        "ο καινούριος φυτά",
+        "οι καινούριοι φυτά",
+        "οι καινούριες φυτά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-015",
+      "type": "single-choice",
+      "prompt": "большое дерево",
+      "speechTarget": "options",
+      "correctAnswer": "το μεγάλο δέντρο",
+      "wrongAnswers": [
+        "ο μεγάλος δέντρο",
+        "οι μεγάλοι δέντρο",
+        "η μεγάλη δέντρο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-016",
+      "type": "single-choice",
+      "prompt": "маленькие фасолинки",
+      "speechTarget": "options",
+      "correctAnswer": "τα μικρά φασολάκια",
+      "wrongAnswers": [
+        "ο μικρός φασολάκια",
+        "οι μικροί φασολάκια",
+        "η μικρή φασολάκια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-024",
+      "type": "single-choice",
+      "prompt": "новое растение",
+      "speechTarget": "options",
+      "correctAnswer": "το καινούριο φυτό",
+      "wrongAnswers": [
+        "ο καινούριος φυτό",
+        "οι καινούριοι φυτό",
+        "η καινούρια φυτό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-027",
+      "type": "single-choice",
+      "prompt": "зелёный сад",
+      "speechTarget": "options",
+      "correctAnswer": "ο πράσινος κήπος",
+      "wrongAnswers": [
+        "οι πράσινοι κήπος",
+        "η πράσινη κήπος",
+        "οι πράσινες κήπος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-028",
+      "type": "single-choice",
+      "prompt": "большие деревья",
+      "speechTarget": "options",
+      "correctAnswer": "τα μεγάλα δέντρα",
+      "wrongAnswers": [
+        "ο μεγάλος δέντρα",
+        "οι μεγάλοι δέντρα",
+        "η μεγάλη δέντρα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-029",
+      "type": "single-choice",
+      "prompt": "новые цветы",
+      "speechTarget": "options",
+      "correctAnswer": "τα καινούρια λουλούδια",
+      "wrongAnswers": [
+        "ο καινούριος λουλούδια",
+        "οι καινούριοι λουλούδια",
+        "οι καινούριες λουλούδια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-030",
+      "type": "single-choice",
+      "prompt": "свежая фасолина",
+      "speechTarget": "options",
+      "correctAnswer": "το φρέσκο φασόλι",
+      "wrongAnswers": [
+        "ο φρέσκος φασόλι",
+        "οι φρέσκοι φασόλι",
+        "η φρέσκια φασόλι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-nature-plants-agriculture-042",
+      "type": "single-choice",
+      "prompt": "зелёные капусты",
+      "speechTarget": "options",
+      "correctAnswer": "τα πράσινα λάχανα",
+      "wrongAnswers": [
+        "ο πράσινος λάχανα",
+        "οι πράσινοι λάχανα",
+        "η πράσινη λάχανα"
+      ]
+    }
+  ]
+}

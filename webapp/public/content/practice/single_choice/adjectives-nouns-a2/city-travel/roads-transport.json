@@ -1,0 +1,489 @@
+{
+  "title": "Дороги и транспорт",
+  "subtitle": "Выберите правильные формы слов о дорогах и транспорте",
+  "items": [
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-002",
+      "type": "single-choice",
+      "prompt": "большое движение",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κίνηση\nМножественное число: οι κινήσεις\n\nРод: женский",
+      "correctAnswer": "η μεγάλη κίνηση",
+      "wrongAnswers": [
+        "ο μεγάλος κίνηση",
+        "οι μεγάλοι κίνηση",
+        "οι μεγάλες κίνηση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-009",
+      "type": "single-choice",
+      "prompt": "северное направление",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κατεύθυνση\nМножественное число: οι κατευθύνσεις\n\nРод: женский",
+      "correctAnswer": "η βόρεια κατεύθυνση",
+      "wrongAnswers": [
+        "ο βόρειος κατεύθυνση",
+        "το βόρειο κατεύθυνση",
+        "οι βόρειοι κατεύθυνση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-011",
+      "type": "single-choice",
+      "prompt": "ночной автобус",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λεωφορείο\nМножественное число: τα λεωφορεία\n\nРод: средний",
+      "correctAnswer": "το νυχτερινό λεωφορείο",
+      "wrongAnswers": [
+        "ο νυχτερινός λεωφορείο",
+        "οι νυχτερινοί λεωφορείο",
+        "η νυχτερινή λεωφορείο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-012",
+      "type": "single-choice",
+      "prompt": "быстрая лодка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η βάρκα\nМножественное число: οι βάρκες\n\nРод: женский",
+      "correctAnswer": "η γοργή βάρκα",
+      "wrongAnswers": ["ο γοργός βάρκα", "το γοργό βάρκα", "οι γοργοί βάρκα"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-017",
+      "type": "single-choice",
+      "prompt": "быстрые лодки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η βάρκα\nМножественное число: οι βάρκες\n\nРод: женский",
+      "correctAnswer": "οι γοργές βάρκες",
+      "wrongAnswers": ["ο γοργός βάρκες", "η γοργή βάρκες", "το γοργό βάρκες"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-018",
+      "type": "single-choice",
+      "prompt": "широкий тротуар",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πεζοδρόμιο\nМножественное число: τα πεζοδρόμια\n\nРод: средний",
+      "correctAnswer": "το πλατύ πεζοδρόμιο",
+      "wrongAnswers": [
+        "ο πλατύς πεζοδρόμιο",
+        "η πλατιά πεζοδρόμιο",
+        "οι πλατιοί πεζοδρόμιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-020",
+      "type": "single-choice",
+      "prompt": "северные направления",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κατεύθυνση\nМножественное число: οι κατευθύνσεις\n\nРод: женский",
+      "correctAnswer": "οι βόρειες κατευθύνσεις",
+      "wrongAnswers": [
+        "ο βόρειος κατευθύνσεις",
+        "η βόρεια κατευθύνσεις",
+        "το βόρειο κατευθύνσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-028",
+      "type": "single-choice",
+      "prompt": "прямые дороги",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "οι ίσιοι δρόμοι",
+      "wrongAnswers": ["ο ίσιος δρόμοι", "η ίσια δρόμοι", "οι ίσιες δρόμοι"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-032",
+      "type": "single-choice",
+      "prompt": "короткая дорога",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "ο σύντομος δρόμος",
+      "wrongAnswers": [
+        "οι σύντομοι δρόμος",
+        "η σύντομη δρόμος",
+        "οι σύντομες δρόμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-033",
+      "type": "single-choice",
+      "prompt": "короткие рейсы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δρομολόγιο\nМножественное число: τα δρομολόγια\n\nРод: средний",
+      "correctAnswer": "τα σύντομα δρομολόγια",
+      "wrongAnswers": [
+        "ο σύντομος δρομολόγια",
+        "οι σύντομοι δρομολόγια",
+        "η σύντομη δρομολόγια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-035",
+      "type": "single-choice",
+      "prompt": "муниципальная дорога",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "ο δημοτικός δρόμος",
+      "wrongAnswers": [
+        "οι δημοτικοί δρόμος",
+        "η δημοτική δρόμος",
+        "οι δημοτικές δρόμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-039",
+      "type": "single-choice",
+      "prompt": "прямая дорога",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "ο ίσιος δρόμος",
+      "wrongAnswers": ["οι ίσιοι δρόμος", "η ίσια δρόμος", "οι ίσιες δρόμος"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-040",
+      "type": "single-choice",
+      "prompt": "общественное транспортное средство",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μέσο\nМножественное число: τα μέσα\n\nРод: средний",
+      "correctAnswer": "το δημόσιο μεταφορικό μέσο",
+      "wrongAnswers": [
+        "ο δημόσιος μεταφορικό μέσο",
+        "οι δημόσιοι μεταφορικό μέσο",
+        "η δημόσια μεταφορικό μέσο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-041",
+      "type": "single-choice",
+      "prompt": "противоположная дорога",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "ο αντίθετος δρόμος",
+      "wrongAnswers": [
+        "οι αντίθετοι δρόμος",
+        "η αντίθετη δρόμος",
+        "οι αντίθετες δρόμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-047",
+      "type": "single-choice",
+      "prompt": "открытые конечные остановки автобуса",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τέρμα\nМножественное число: τα τέρματα\n\nРод: средний",
+      "correctAnswer": "τα ανοιχτά τέρματα λεωφορείου",
+      "wrongAnswers": [
+        "ο ανοιχτός τέρματα λεωφορείου",
+        "οι ανοιχτοί τέρματα λεωφορείου",
+        "η ανοιχτή τέρματα λεωφορείου"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-048",
+      "type": "single-choice",
+      "prompt": "опасные дороги",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "οι επικίνδυνοι δρόμοι",
+      "wrongAnswers": [
+        "ο επικίνδυνος δρόμοι",
+        "η επικίνδυνη δρόμοι",
+        "οι επικίνδυνες δρόμοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-049",
+      "type": "single-choice",
+      "prompt": "медленное движение",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κίνηση\nМножественное число: οι κινήσεις\n\nРод: женский",
+      "correctAnswer": "η αργή κίνηση",
+      "wrongAnswers": ["ο αργός κίνηση", "οι αργοί κίνηση", "οι αργές κίνηση"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-053",
+      "type": "single-choice",
+      "prompt": "открытая конечная остановка автобуса",
+      "speechTarget": "options",
+      "hint": "Единственное число: το τέρμα\nМножественное число: τα τέρματα\n\nРод: средний",
+      "correctAnswer": "το ανοιχτό τέρμα λεωφορείου",
+      "wrongAnswers": [
+        "ο ανοιχτός τέρμα λεωφορείου",
+        "οι ανοιχτοί τέρμα λεωφορείου",
+        "η ανοιχτή τέρμα λεωφορείου"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-057",
+      "type": "single-choice",
+      "prompt": "центральные отправные остановки автобуса",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αφετηρία\nМножественное число: οι αφετηρίες\n\nРод: женский",
+      "correctAnswer": "οι κεντρικές αφετηρίες λεωφορείου",
+      "wrongAnswers": [
+        "ο κεντρικός αφετηρίες λεωφορείου",
+        "οι κεντρικοί αφετηρίες λεωφορείου",
+        "η κεντρική αφετηρίες λεωφορείου"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-058",
+      "type": "single-choice",
+      "prompt": "опасная дорога",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "ο επικίνδυνος δρόμος",
+      "wrongAnswers": [
+        "οι επικίνδυνοι δρόμος",
+        "η επικίνδυνη δρόμος",
+        "οι επικίνδυνες δρόμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-061",
+      "type": "single-choice",
+      "prompt": "далёкие маршруты",
+      "speechTarget": "options",
+      "hint": "Единственное число: η διαδρομή\nМножественное число: οι διαδρομές\n\nРод: женский",
+      "correctAnswer": "οι μακρινές διαδρομές",
+      "wrongAnswers": [
+        "ο μακρινός διαδρομές",
+        "η μακρινή διαδρομές",
+        "το μακρινό διαδρομές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-062",
+      "type": "single-choice",
+      "prompt": "противоположные дороги",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "οι αντίθετοι δρόμοι",
+      "wrongAnswers": [
+        "ο αντίθετος δρόμοι",
+        "η αντίθετη δρόμοι",
+        "οι αντίθετες δρόμοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-066",
+      "type": "single-choice",
+      "prompt": "центральные улицы",
+      "speechTarget": "options",
+      "hint": "Единственное число: η οδός\nМножественное число: οι οδοί\n\nРод: женский",
+      "correctAnswer": "οι κεντρικοί οδοί",
+      "wrongAnswers": [
+        "ο κεντρικός οδοί",
+        "η κεντρική οδοί",
+        "οι κεντρικές οδοί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-067",
+      "type": "single-choice",
+      "prompt": "короткие полёты",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πτήση\nМножественное число: οι πτήσεις\n\nРод: женский",
+      "correctAnswer": "οι σύντομες πτήσεις",
+      "wrongAnswers": [
+        "ο σύντομος πτήσεις",
+        "οι σύντομοι πτήσεις",
+        "η σύντομη πτήσεις"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-069",
+      "type": "single-choice",
+      "prompt": "общественный транспорт",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μέσο\nМножественное число: τα μέσα\n\nРод: средний",
+      "correctAnswer": "τα δημόσια μεταφορικά μέσα",
+      "wrongAnswers": [
+        "ο δημόσιος μεταφορικά μέσα",
+        "οι δημόσιοι μεταφορικά μέσα",
+        "οι δημόσιες μεταφορικά μέσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-070",
+      "type": "single-choice",
+      "prompt": "центральная стоянка такси",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ταξί\nМножественное число: τα None\n\nРод: средний",
+      "correctAnswer": "η κεντρική πιάτσα ταξί",
+      "wrongAnswers": [
+        "ο κεντρικός πιάτσα ταξί",
+        "οι κεντρικοί πιάτσα ταξί",
+        "οι κεντρικές πιάτσα ταξί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-071",
+      "type": "single-choice",
+      "prompt": "ночные автобусы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το λεωφορείο\nМножественное число: τα λεωφορεία\n\nРод: средний",
+      "correctAnswer": "τα νυχτερινά λεωφορεία",
+      "wrongAnswers": [
+        "ο νυχτερινός λεωφορεία",
+        "οι νυχτερινοί λεωφορεία",
+        "η νυχτερινή λεωφορεία"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-074",
+      "type": "single-choice",
+      "prompt": "старый пароход",
+      "speechTarget": "options",
+      "hint": "Единственное число: το βαπόρι\nМножественное число: τα βαπόρια\n\nРод: средний",
+      "correctAnswer": "το παλιό βαπόρι",
+      "wrongAnswers": ["ο παλιός βαπόρι", "οι παλιοί βαπόρι", "η παλιά βαπόρι"]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-076",
+      "type": "single-choice",
+      "prompt": "необходимое перемещение",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μετακίνηση\nМножественное число: οι μετακινήσεις\n\nРод: женский",
+      "correctAnswer": "η απαραίτητη μετακίνηση",
+      "wrongAnswers": [
+        "ο απαραίτητος μετακίνηση",
+        "οι απαραίτητοι μετακίνηση",
+        "οι απαραίτητες μετακίνηση"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-080",
+      "type": "single-choice",
+      "prompt": "центральная автобусная станция",
+      "speechTarget": "options",
+      "hint": "Единственное число: η αφετηρία\nМножественное число: οι αφετηρίες\n\nРод: женский",
+      "correctAnswer": "η κεντρική αφετηρία λεωφορείου",
+      "wrongAnswers": [
+        "ο κεντρικός αφετηρία λεωφορείου",
+        "οι κεντρικοί αφετηρία λεωφορείου",
+        "οι κεντρικές αφετηρία λεωφορείου"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-081",
+      "type": "single-choice",
+      "prompt": "доступная парковка",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πάρκινγκ\nМножественное число: τα πάρκινγκ\n\nРод: средний",
+      "correctAnswer": "το διαθέσιμο πάρκινγκ",
+      "wrongAnswers": [
+        "ο διαθέσιμος πάρκινγκ",
+        "οι διαθέσιμοι πάρκινγκ",
+        "η διαθέσιμη πάρκινγκ"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-082",
+      "type": "single-choice",
+      "prompt": "левая сторона",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πλευρά\nМножественное число: οι πλευρές\n\nРод: женский",
+      "correctAnswer": "η αριστερή πλευρά",
+      "wrongAnswers": [
+        "ο αριστερός πλευρά",
+        "οι αριστεροί πλευρά",
+        "οι αριστερές πλευρά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-086",
+      "type": "single-choice",
+      "prompt": "основные виды транспорта",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μέσο\nМножественное число: τα μέσα\n\nРод: средний",
+      "correctAnswer": "τα βασικά μέσα μεταφοράς",
+      "wrongAnswers": [
+        "ο βασικός μέσα μεταφοράς",
+        "οι βασικοί μέσα μεταφοράς",
+        "η βασική μέσα μεταφοράς"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-087",
+      "type": "single-choice",
+      "prompt": "короткий маршрут",
+      "speechTarget": "options",
+      "hint": "Единственное число: το δρομολόγιο\nМножественное число: τα δρομολόγια\n\nРод: средний",
+      "correctAnswer": "το σύντομο δρομολόγιο",
+      "wrongAnswers": [
+        "ο σύντομος δρομολόγιο",
+        "οι σύντομοι δρομολόγιο",
+        "η σύντομη δρομολόγιο"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-088",
+      "type": "single-choice",
+      "prompt": "доступные парковки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το πάρκινγκ\nМножественное число: τα πάρκινγκ\n\nРод: средний",
+      "correctAnswer": "τα διαθέσιμα πάρκινγκ",
+      "wrongAnswers": [
+        "ο διαθέσιμος πάρκινγκ",
+        "οι διαθέσιμοι πάρκινγκ",
+        "η διαθέσιμη πάρκινγκ"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-089",
+      "type": "single-choice",
+      "prompt": "дальний путь",
+      "speechTarget": "options",
+      "hint": "Единственное число: η διαδρομή\nМножественное число: οι διαδρομές\n\nРод: женский",
+      "correctAnswer": "η μακρινή διαδρομή",
+      "wrongAnswers": [
+        "ο μακρινός διαδρομή",
+        "το μακρινό διαδρομή",
+        "οι μακρινοί διαδρομή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-090",
+      "type": "single-choice",
+      "prompt": "короткие дороги",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "οι σύντομοι δρόμοι",
+      "wrongAnswers": [
+        "ο σύντομος δρόμοι",
+        "η σύντομη δρόμοι",
+        "οι σύντομες δρόμοι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-095",
+      "type": "single-choice",
+      "prompt": "международные аэропорты",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αεροδρόμιο\nМножественное число: τα αεροδρόμια\n\nРод: средний",
+      "correctAnswer": "τα διεθνή αεροδρόμια",
+      "wrongAnswers": [
+        "ο διεθνής αεροδρόμια",
+        "οι διεθνείς αεροδρόμια",
+        "η διεθνής αεροδρόμια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-city-travel-roads-transport-096",
+      "type": "single-choice",
+      "prompt": "муниципальные дороги",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο δρόμος\nМножественное число: οι δρόμοι\n\nРод: мужской",
+      "correctAnswer": "οι δημοτικοί δρόμοι",
+      "wrongAnswers": [
+        "ο δημοτικός δρόμοι",
+        "η δημοτική δρόμοι",
+        "οι δημοτικές δρόμοι"
+      ]
+    }
+  ]
+}

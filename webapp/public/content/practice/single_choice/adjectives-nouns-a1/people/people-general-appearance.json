@@ -1,0 +1,743 @@
+{
+  "title": "Люди и внешность",
+  "subtitle": "Практикуйте формы слов при описании людей и внешности",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-001",
+      "type": "single-choice",
+      "prompt": "вежливая клиентка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πελάτισσα\nМножественное число: οι πελάτισσες\n\nРод: женский",
+      "correctAnswer": "η ευγενική πελάτισσα",
+      "wrongAnswers": [
+        "ο ευγενικός πελάτισσα",
+        "οι ευγενικοί πελάτισσα",
+        "οι ευγενικές πελάτισσα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-015",
+      "type": "single-choice",
+      "prompt": "сильные голоса",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
+      "correctAnswer": "οι δυνατές φωνές",
+      "wrongAnswers": ["ο δυνατός φωνές", "οι δυνατοί φωνές", "η δυνατή φωνές"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-016",
+      "type": "single-choice",
+      "prompt": "темноволосый ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το μελαχρινό παιδί",
+      "wrongAnswers": [
+        "ο μελαχρινός παιδί",
+        "οι μελαχρινοί παιδί",
+        "η μελαχρινή παιδί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-018",
+      "type": "single-choice",
+      "prompt": "светловолосый мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο ξανθός άντρας",
+      "wrongAnswers": ["η ξανθιά άντρας", "το ξανθό άντρας", "οι ξανθοί άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-021",
+      "type": "single-choice",
+      "prompt": "немногие люди",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "οι λίγοι άνθρωποι",
+      "wrongAnswers": [
+        "ο λίγος άνθρωποι",
+        "η λίγη άνθρωποι",
+        "οι λίγες άνθρωποι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-022",
+      "type": "single-choice",
+      "prompt": "единственная женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η μόνη γυναίκα",
+      "wrongAnswers": [
+        "ο μόνος γυναίκα",
+        "οι μόνοι γυναίκα",
+        "οι μόνες γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-023",
+      "type": "single-choice",
+      "prompt": "высокий мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο ψηλός άντρας",
+      "wrongAnswers": ["οι ψηλοί άντρας", "η ψηλή άντρας", "οι ψηλές άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-025",
+      "type": "single-choice",
+      "prompt": "стройные женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι λεπτές γυναίκες",
+      "wrongAnswers": [
+        "ο λεπτός γυναίκες",
+        "οι λεπτοί γυναίκες",
+        "η λεπτή γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-026",
+      "type": "single-choice",
+      "prompt": "худые мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι αδύνατοι άντρες",
+      "wrongAnswers": [
+        "ο αδύνατος άντρες",
+        "η αδύνατη άντρες",
+        "οι αδύνατες άντρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-028",
+      "type": "single-choice",
+      "prompt": "известные русские женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Ρωσίδα\nМножественное число: οι Ρωσίδες\n\nРод: женский",
+      "correctAnswer": "οι γνωστές Ρωσίδες",
+      "wrongAnswers": [
+        "ο γνωστός Ρωσίδες",
+        "οι γνωστοί Ρωσίδες",
+        "η γνωστή Ρωσίδες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-029",
+      "type": "single-choice",
+      "prompt": "низкорослая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η κοντή γυναίκα",
+      "wrongAnswers": [
+        "ο κοντός γυναίκα",
+        "οι κοντοί γυναίκα",
+        "οι κοντές γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-032",
+      "type": "single-choice",
+      "prompt": "худая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η αδύνατη γυναίκα",
+      "wrongAnswers": [
+        "ο αδύνατος γυναίκα",
+        "οι αδύνατοι γυναίκα",
+        "οι αδύνατες γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-034",
+      "type": "single-choice",
+      "prompt": "тот мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "εκείνος ο άντρας",
+      "wrongAnswers": [
+        "εκείνη η άντρας",
+        "εκείνο το άντρας",
+        "εκείνοι οι άντρας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-037",
+      "type": "single-choice",
+      "prompt": "темноволосые дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα μελαχρινά παιδιά",
+      "wrongAnswers": [
+        "ο μελαχρινός παιδιά",
+        "οι μελαχρινοί παιδιά",
+        "η μελαχρινή παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-038",
+      "type": "single-choice",
+      "prompt": "светловолосые дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα ξανθά παιδιά",
+      "wrongAnswers": ["ο ξανθός παιδιά", "η ξανθιά παιδιά", "το ξανθό παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-039",
+      "type": "single-choice",
+      "prompt": "хорошие женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι καλές γυναίκες",
+      "wrongAnswers": [
+        "ο καλός γυναίκες",
+        "οι καλοί γυναίκες",
+        "η καλή γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-040",
+      "type": "single-choice",
+      "prompt": "большой мир",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο κόσμος\nМножественное число: οι κόσμοι\n\nРод: мужской",
+      "correctAnswer": "ο μεγάλος κόσμος",
+      "wrongAnswers": [
+        "οι μεγάλοι κόσμος",
+        "η μεγάλη κόσμος",
+        "οι μεγάλες κόσμος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-042",
+      "type": "single-choice",
+      "prompt": "простые люди",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "οι απλοί άνθρωποι",
+      "wrongAnswers": [
+        "ο απλός άνθρωποι",
+        "η απλή άνθρωποι",
+        "οι απλές άνθρωποι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-044",
+      "type": "single-choice",
+      "prompt": "вежливый клиент",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πελάτης\nМножественное число: οι πελάτες\n\nРод: мужской",
+      "correctAnswer": "ο ευγενικός πελάτης",
+      "wrongAnswers": [
+        "οι ευγενικοί πελάτης",
+        "η ευγενική πελάτης",
+        "οι ευγενικές πελάτης"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-047",
+      "type": "single-choice",
+      "prompt": "стройные мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι λεπτοί άντρες",
+      "wrongAnswers": ["ο λεπτός άντρες", "η λεπτή άντρες", "οι λεπτές άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-048",
+      "type": "single-choice",
+      "prompt": "женский голос",
+      "speechTarget": "options",
+      "hint": "Единственное число: η φωνή\nМножественное число: οι φωνές\n\nРод: женский",
+      "correctAnswer": "η γυναικεία φωνή",
+      "wrongAnswers": [
+        "ο γυναικείος φωνή",
+        "οι γυναικείοι φωνή",
+        "οι γυναικείες φωνή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-049",
+      "type": "single-choice",
+      "prompt": "те мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "εκείνοι οι άντρες",
+      "wrongAnswers": [
+        "εκείνος ο άντρες",
+        "εκείνη η άντρες",
+        "εκείνο το άντρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-051",
+      "type": "single-choice",
+      "prompt": "стройная женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η λεπτή γυναίκα",
+      "wrongAnswers": [
+        "ο λεπτός γυναίκα",
+        "οι λεπτοί γυναίκα",
+        "οι λεπτές γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-054",
+      "type": "single-choice",
+      "prompt": "американские женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι αμερικανίδες γυναίκες",
+      "wrongAnswers": [
+        "ο αμερικανός γυναίκες",
+        "η αμερικανίδα γυναίκες",
+        "οι αμερικανό γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-058",
+      "type": "single-choice",
+      "prompt": "белокурая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η ξανθιά γυναίκα",
+      "wrongAnswers": [
+        "ο ξανθός γυναίκα",
+        "το ξανθό γυναίκα",
+        "οι ξανθοί γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-059",
+      "type": "single-choice",
+      "prompt": "многие люди",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "οι πολλοί άνθρωποι",
+      "wrongAnswers": [
+        "οι πολύς άνθρωποι",
+        "η πολλή άνθρωποι",
+        "το πολύ άνθρωποι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-061",
+      "type": "single-choice",
+      "prompt": "брюнетки-женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι μελαχρινές γυναίκες",
+      "wrongAnswers": [
+        "ο μελαχρινός γυναίκες",
+        "οι μελαχρινοί γυναίκες",
+        "η μελαχρινή γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-064",
+      "type": "single-choice",
+      "prompt": "брюнеты-мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι μελαχρινοί άντρες",
+      "wrongAnswers": [
+        "ο μελαχρινός άντρες",
+        "η μελαχρινή άντρες",
+        "οι μελαχρινές άντρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-067",
+      "type": "single-choice",
+      "prompt": "хороший мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο καλός άντρας",
+      "wrongAnswers": ["οι καλοί άντρας", "η καλή άντρας", "οι καλές άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-071",
+      "type": "single-choice",
+      "prompt": "счастливый человек",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "ο ευτυχισμένος άνθρωπος",
+      "wrongAnswers": [
+        "οι ευτυχισμένοι άνθρωπος",
+        "η ευτυχισμένη άνθρωπος",
+        "οι ευτυχισμένες άνθρωπος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-083",
+      "type": "single-choice",
+      "prompt": "худой ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το αδύνατο παιδί",
+      "wrongAnswers": [
+        "ο αδύνατος παιδί",
+        "οι αδύνατοι παιδί",
+        "η αδύνατη παιδί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-084",
+      "type": "single-choice",
+      "prompt": "те же самые мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι ίδιοι άντρες",
+      "wrongAnswers": ["ο ίδιος άντρες", "τα ίδια άντρες", "οι ίδιες άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-085",
+      "type": "single-choice",
+      "prompt": "низкий мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο κοντός άντρας",
+      "wrongAnswers": ["οι κοντοί άντρας", "η κοντή άντρας", "οι κοντές άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-089",
+      "type": "single-choice",
+      "prompt": "простой человек",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνθρωπος\nМножественное число: οι άνθρωποι\n\nРод: мужской",
+      "correctAnswer": "ο απλός άνθρωπος",
+      "wrongAnswers": [
+        "οι απλοί άνθρωπος",
+        "η απλή άνθρωπος",
+        "οι απλές άνθρωπος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-090",
+      "type": "single-choice",
+      "prompt": "американка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η αμερικανίδα γυναίκα",
+      "wrongAnswers": [
+        "ο αμερικανός γυναίκα",
+        "η αμερικανό γυναίκα",
+        "οι αμερικανοί γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-093",
+      "type": "single-choice",
+      "prompt": "светловолосые мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι ξανθοί άντρες",
+      "wrongAnswers": ["ο ξανθός άντρες", "η ξανθιά άντρες", "το ξανθό άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-096",
+      "type": "single-choice",
+      "prompt": "худой мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο αδύνατος άντρας",
+      "wrongAnswers": [
+        "οι αδύνατοι άντρας",
+        "η αδύνατη άντρας",
+        "οι αδύνατες άντρας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-097",
+      "type": "single-choice",
+      "prompt": "стройный мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο λεπτός άντρας",
+      "wrongAnswers": ["οι λεπτοί άντρας", "η λεπτή άντρας", "οι λεπτές άντρας"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-098",
+      "type": "single-choice",
+      "prompt": "соседние соседи",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γείτονας\nМножественное число: οι γείτονες\n\nРод: мужской",
+      "correctAnswer": "οι διπλανοί γείτονες",
+      "wrongAnswers": [
+        "ο διπλανός γείτονες",
+        "η διπλανή γείτονες",
+        "οι διπλανές γείτονες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-100",
+      "type": "single-choice",
+      "prompt": "худые женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι αδύνατες γυναίκες",
+      "wrongAnswers": [
+        "ο αδύνατος γυναίκες",
+        "οι αδύνατοι γυναίκες",
+        "η αδύνατη γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-101",
+      "type": "single-choice",
+      "prompt": "одинокие женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι μόνες γυναίκες",
+      "wrongAnswers": [
+        "ο μόνος γυναίκες",
+        "οι μόνοι γυναίκες",
+        "η μόνη γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-102",
+      "type": "single-choice",
+      "prompt": "высокие женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι ψηλές γυναίκες",
+      "wrongAnswers": [
+        "ο ψηλός γυναίκες",
+        "οι ψηλοί γυναίκες",
+        "η ψηλή γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-107",
+      "type": "single-choice",
+      "prompt": "американские мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άνδρας\nМножественное число: οι άνδρες\n\nРод: мужской",
+      "correctAnswer": "οι αμερικανοί άνδρες",
+      "wrongAnswers": [
+        "ο αμερικανός άνδρες",
+        "η αμερικανίδα άνδρες",
+        "οι αμερικανό άνδρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-110",
+      "type": "single-choice",
+      "prompt": "та женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "εκείνη η γυναίκα",
+      "wrongAnswers": [
+        "εκείνος ο γυναίκα",
+        "εκείνο το γυναίκα",
+        "εκείνοι οι γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-111",
+      "type": "single-choice",
+      "prompt": "одинокие мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι μόνοι άντρες",
+      "wrongAnswers": ["ο μόνος άντρες", "η μόνη άντρες", "οι μόνες άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-116",
+      "type": "single-choice",
+      "prompt": "низкорослые мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι κοντοί άντρες",
+      "wrongAnswers": ["ο κοντός άντρες", "η κοντή άντρες", "οι κοντές άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-119",
+      "type": "single-choice",
+      "prompt": "высокая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η ψηλή γυναίκα",
+      "wrongAnswers": [
+        "ο ψηλός γυναίκα",
+        "οι ψηλοί γυναίκα",
+        "οι ψηλές γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-120",
+      "type": "single-choice",
+      "prompt": "длинные волосы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μαλλί\nМножественное число: τα μαλλιά\n\nРод: средний",
+      "correctAnswer": "τα μακριά μαλλιά",
+      "wrongAnswers": [
+        "ο μακρύς μαλλιά",
+        "οι μακριοί μαλλιά",
+        "οι μακριές μαλλιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-121",
+      "type": "single-choice",
+      "prompt": "брюнет-мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο μελαχρινός άντρας",
+      "wrongAnswers": [
+        "οι μελαχρινοί άντρας",
+        "η μελαχρινή άντρας",
+        "οι μελαχρινές άντρας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-123",
+      "type": "single-choice",
+      "prompt": "толстые мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι χοντροί άντρες",
+      "wrongAnswers": [
+        "ο χοντρός άντρες",
+        "η χοντρή άντρες",
+        "οι χοντρές άντρες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-124",
+      "type": "single-choice",
+      "prompt": "та же самая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η ίδια γυναίκα",
+      "wrongAnswers": [
+        "ο ίδιος γυναίκα",
+        "οι ίδιοι γυναίκα",
+        "οι ίδιες γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-126",
+      "type": "single-choice",
+      "prompt": "известный актёр",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο ηθοποιός\nМножественное число: οι None\n\nРод: мужской",
+      "correctAnswer": "ο γνωστός ηθοποιός",
+      "wrongAnswers": [
+        "οι γνωστοί ηθοποιός",
+        "η γνωστή ηθοποιός",
+        "οι γνωστές ηθοποιός"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-127",
+      "type": "single-choice",
+      "prompt": "низкие женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι κοντές γυναίκες",
+      "wrongAnswers": [
+        "ο κοντός γυναίκες",
+        "οι κοντοί γυναίκες",
+        "η κοντή γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-128",
+      "type": "single-choice",
+      "prompt": "толстый мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο χοντρός άντρας",
+      "wrongAnswers": [
+        "οι χοντροί άντρας",
+        "η χοντρή άντρας",
+        "οι χοντρές άντρας"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-132",
+      "type": "single-choice",
+      "prompt": "те женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "εκείνες οι γυναίκες",
+      "wrongAnswers": [
+        "εκείνος ο γυναίκες",
+        "εκείνη η γυναίκες",
+        "εκείνο το γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-133",
+      "type": "single-choice",
+      "prompt": "блондинки-женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι ξανθιές γυναίκες",
+      "wrongAnswers": [
+        "ο ξανθός γυναίκες",
+        "η ξανθιά γυναίκες",
+        "το ξανθό γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-134",
+      "type": "single-choice",
+      "prompt": "вежливые клиенты",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο πελάτης\nМножественное число: οι πελάτες\n\nРод: мужской",
+      "correctAnswer": "οι ευγενικοί πελάτες",
+      "wrongAnswers": [
+        "ο ευγενικός πελάτες",
+        "η ευγενική πελάτες",
+        "οι ευγενικές πελάτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-138",
+      "type": "single-choice",
+      "prompt": "те же самые женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "οι ίδιες γυναίκες",
+      "wrongAnswers": [
+        "ο ίδιος γυναίκες",
+        "οι ίδιοι γυναίκες",
+        "τα ίδια γυναίκες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-142",
+      "type": "single-choice",
+      "prompt": "высокие мужчины",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "οι ψηλοί άντρες",
+      "wrongAnswers": ["ο ψηλός άντρες", "η ψηλή άντρες", "οι ψηλές άντρες"]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-143",
+      "type": "single-choice",
+      "prompt": "темноволосая женщина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η γυναίκα\nМножественное число: οι γυναίκες\n\nРод: женский",
+      "correctAnswer": "η μελαχρινή γυναίκα",
+      "wrongAnswers": [
+        "ο μελαχρινός γυναίκα",
+        "οι μελαχρινοί γυναίκα",
+        "οι μελαχρινές γυναίκα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-people-general-appearance-144",
+      "type": "single-choice",
+      "prompt": "единственный мужчина",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο άντρας\nМножественное число: οι άντρες\n\nРод: мужской",
+      "correctAnswer": "ο μόνος άντρας",
+      "wrongAnswers": ["οι μόνοι άντρας", "η μόνη άντρας", "οι μόνες άντρας"]
+    }
+  ]
+}

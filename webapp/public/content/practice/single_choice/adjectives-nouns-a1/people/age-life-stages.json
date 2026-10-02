@@ -1,0 +1,390 @@
+{
+  "title": "Люди, возраст и внешность",
+  "subtitle": "Выберите словосочетание с правильным согласованием в роде и числе",
+  "items": [
+    {
+      "id": "nouns-adjectives-people-age-life-stages-001",
+      "type": "single-choice",
+      "prompt": "уставший старик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γέρος\nМножественное число: οι γέροι\n\nРод: мужской",
+      "correctAnswer": "ο κουρασμένος γέρος",
+      "wrongAnswers": [
+        "η κουρασμένη γέρος",
+        "το κουρασμένο γέρος",
+        "οι κουρασμένοι γέρος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-002",
+      "type": "single-choice",
+      "prompt": "молодые англичанки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Αγγλίδα\nМножественное число: οι Αγγλίδες\n\nРод: женский",
+      "correctAnswer": "οι νέες Αγγλίδες",
+      "wrongAnswers": ["ο νέος Αγγλίδες", "τα νέα Αγγλίδες", "το νέο Αγγλίδες"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-005",
+      "type": "single-choice",
+      "prompt": "уставший ученик",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μαθητής\nМножественное число: οι μαθητές\n\nРод: мужской",
+      "correctAnswer": "ο κουρασμένος μαθητής",
+      "wrongAnswers": [
+        "η κουρασμένη μαθητής",
+        "το κουρασμένο μαθητής",
+        "οι κουρασμένοι μαθητής"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-007",
+      "type": "single-choice",
+      "prompt": "уставшие дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα κουρασμένα παιδιά",
+      "wrongAnswers": [
+        "ο κουρασμένος παιδιά",
+        "η κουρασμένη παιδιά",
+        "το κουρασμένο παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-016",
+      "type": "single-choice",
+      "prompt": "маленький младенец",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μωρό\nМножественное число: τα μωρά\n\nРод: средний",
+      "correctAnswer": "το μικρό μωρό",
+      "wrongAnswers": ["ο μικρός μωρό", "η μικρή μωρό", "οι μικροί μωρό"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-020",
+      "type": "single-choice",
+      "prompt": "этот ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "αυτό το παιδί",
+      "wrongAnswers": ["αυτός ο παιδί", "αυτή η παιδί", "αυτοί οι παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-021",
+      "type": "single-choice",
+      "prompt": "вежливый ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το ευγενικό παιδί",
+      "wrongAnswers": [
+        "ο ευγενικός παιδί",
+        "η ευγενική παιδί",
+        "οι ευγενικοί παιδί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-023",
+      "type": "single-choice",
+      "prompt": "счастливые замужние женщины",
+      "speechTarget": "options",
+      "hint": "Единственное число: η παντρεμένη\nМножественное число: οι παντρεμένες\n\nРод: женский",
+      "correctAnswer": "οι ευτυχισμένες παντρεμένες",
+      "wrongAnswers": [
+        "ο ευτυχισμένος παντρεμένες",
+        "η ευτυχισμένη παντρεμένες",
+        "το ευτυχισμένο παντρεμένες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-025",
+      "type": "single-choice",
+      "prompt": "несколько детей",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "μερικά παιδιά",
+      "wrongAnswers": ["μερικός παιδιά", "μερική παιδιά", "μερικό παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-029",
+      "type": "single-choice",
+      "prompt": "маленький ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το μικρό παιδί",
+      "wrongAnswers": ["ο μικρός παιδί", "η μικρή παιδί", "οι μικροί παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-030",
+      "type": "single-choice",
+      "prompt": "одни и те же дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα ίδια παιδιά",
+      "wrongAnswers": ["ο ίδιος παιδιά", "το ίδιο παιδιά", "οι ίδιοι παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-036",
+      "type": "single-choice",
+      "prompt": "молодая китаянка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η Κινέζα\nМножественное число: οι Κινέζες\n\nРод: женский",
+      "correctAnswer": "η νέα Κινέζα",
+      "wrongAnswers": ["ο νέος Κινέζα", "το νέο Κινέζα", "οι νέοι Κινέζα"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-037",
+      "type": "single-choice",
+      "prompt": "маленькие дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα μικρά παιδιά",
+      "wrongAnswers": ["ο μικρός παιδιά", "η μικρή παιδιά", "το μικρό παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-040",
+      "type": "single-choice",
+      "prompt": "эти дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "αυτά τα παιδιά",
+      "wrongAnswers": ["αυτός ο παιδιά", "αυτή η παιδιά", "αυτό το παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-041",
+      "type": "single-choice",
+      "prompt": "маленькие мальчики",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αγόρι\nМножественное число: τα αγόρια\n\nРод: средний",
+      "correctAnswer": "τα μικρά αγόρια",
+      "wrongAnswers": ["ο μικρός αγόρια", "η μικρή αγόρια", "το μικρό αγόρια"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-042",
+      "type": "single-choice",
+      "prompt": "маленький мальчик",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αγόρι\nМножественное число: τα αγόρια\n\nРод: средний",
+      "correctAnswer": "το μικρό αγόρι",
+      "wrongAnswers": ["ο μικρός αγόρι", "η μικρή αγόρι", "οι μικροί αγόρι"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-043",
+      "type": "single-choice",
+      "prompt": "радостные дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα χαρούμενα παιδιά",
+      "wrongAnswers": [
+        "ο χαρούμενος παιδιά",
+        "η χαρούμενη παιδιά",
+        "το χαρούμενο παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-046",
+      "type": "single-choice",
+      "prompt": "радостный ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το χαρούμενο παιδί",
+      "wrongAnswers": [
+        "ο χαρούμενος παιδί",
+        "η χαρούμενη παιδί",
+        "οι χαρούμενοι παιδί"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-049",
+      "type": "single-choice",
+      "prompt": "тот ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "εκείνο το παιδί",
+      "wrongAnswers": ["εκείνος ο παιδί", "εκείνη η παιδί", "εκείνοι οι παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-052",
+      "type": "single-choice",
+      "prompt": "светловолосый ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το ξανθό παιδί",
+      "wrongAnswers": ["ο ξανθός παιδί", "η ξανθή παιδί", "οι ξανθοί παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-054",
+      "type": "single-choice",
+      "prompt": "молодые китайцы",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο Κινέζος\nМножественное число: οι Κινέζοι\n\nРод: мужской",
+      "correctAnswer": "οι νέοι Κινέζοι",
+      "wrongAnswers": ["ο νέος Κινέζοι", "τα νέα Κινέζοι", "το νέο Κινέζοι"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-056",
+      "type": "single-choice",
+      "prompt": "один ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "ένα παιδί",
+      "wrongAnswers": ["ένας παιδί", "μία παιδί", "ένα παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-058",
+      "type": "single-choice",
+      "prompt": "любимые дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα αγαπημένα παιδιά",
+      "wrongAnswers": [
+        "ο αγαπημένος παιδιά",
+        "η αγαπημένη παιδιά",
+        "το αγαπημένο παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-063",
+      "type": "single-choice",
+      "prompt": "те дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "εκείνα τα παιδιά",
+      "wrongAnswers": [
+        "εκείνος ο παιδιά",
+        "εκείνη η παιδιά",
+        "εκείνο το παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-065",
+      "type": "single-choice",
+      "prompt": "усталые старики",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γέρος\nМножественное число: οι γέροι\n\nРод: мужской",
+      "correctAnswer": "οι κουρασμένοι γέροι",
+      "wrongAnswers": [
+        "ο κουρασμένος γέροι",
+        "η κουρασμένη γέροι",
+        "το κουρασμένο γέροι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-068",
+      "type": "single-choice",
+      "prompt": "красивая девушка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κοπέλα\nМножественное число: οι κοπέλες\n\nРод: женский",
+      "correctAnswer": "η όμορφη κοπέλα",
+      "wrongAnswers": [
+        "ο όμορφος κοπέλα",
+        "το όμορφο κοπέλα",
+        "οι όμορφοι κοπέλα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-069",
+      "type": "single-choice",
+      "prompt": "какой-то ребёнок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "κάποιο παιδί",
+      "wrongAnswers": ["κάποιος παιδί", "κάποια παιδί", "κάποιοι παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-071",
+      "type": "single-choice",
+      "prompt": "маленькая девочка",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κορίτσι\nМножественное число: τα κορίτσια\n\nРод: средний",
+      "correctAnswer": "το μικρό κορίτσι",
+      "wrongAnswers": [
+        "ο μικρός κορίτσι",
+        "η μικρή κορίτσι",
+        "οι μικροί κορίτσι"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-072",
+      "type": "single-choice",
+      "prompt": "слабые дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα αδύνατα παιδιά",
+      "wrongAnswers": [
+        "ο αδύνατος παιδιά",
+        "η αδύνατη παιδιά",
+        "το αδύνατο παιδιά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-080",
+      "type": "single-choice",
+      "prompt": "маленькие младенцы",
+      "speechTarget": "options",
+      "hint": "Единственное число: το μωρό\nМножественное число: τα μωρά\n\nРод: средний",
+      "correctAnswer": "τα μικρά μωρά",
+      "wrongAnswers": ["ο μικρός μωρά", "η μικρή μωρά", "το μικρό μωρά"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-083",
+      "type": "single-choice",
+      "prompt": "молодой англичанин",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο Άγγλος\nМножественное число: οι Άγγλοι\n\nРод: мужской",
+      "correctAnswer": "ο νέος Άγγλος",
+      "wrongAnswers": ["η νέα Άγγλος", "το νέο Άγγλος", "οι νέοι Άγγλος"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-084",
+      "type": "single-choice",
+      "prompt": "молодой китаец",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο Κινέζος\nМножественное число: οι Κινέζοι\n\nРод: мужской",
+      "correctAnswer": "ο νέος Κινέζος",
+      "wrongAnswers": ["η νέα Κινέζος", "το νέο Κινέζος", "οι νέοι Κινέζος"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-085",
+      "type": "single-choice",
+      "prompt": "маленькие девочки",
+      "speechTarget": "options",
+      "hint": "Единственное число: το κορίτσι\nМножественное число: τα κορίτσια\n\nРод: средний",
+      "correctAnswer": "τα μικρά κορίτσια",
+      "wrongAnswers": [
+        "ο μικρός κορίτσια",
+        "η μικρή κορίτσια",
+        "το μικρό κορίτσια"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-093",
+      "type": "single-choice",
+      "prompt": "низкорослые дети",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "τα κοντά παιδιά",
+      "wrongAnswers": ["ο κοντός παιδιά", "η κοντή παιδιά", "το κοντό παιδιά"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-094",
+      "type": "single-choice",
+      "prompt": "невысокий ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το κοντό παιδί",
+      "wrongAnswers": ["ο κοντός παιδί", "η κοντή παιδί", "οι κοντοί παιδί"]
+    },
+    {
+      "id": "nouns-adjectives-people-age-life-stages-095",
+      "type": "single-choice",
+      "prompt": "уставший ребенок",
+      "speechTarget": "options",
+      "hint": "Единственное число: το παιδί\nМножественное число: τα παιδιά\n\nРод: средний",
+      "correctAnswer": "το κουρασμένο παιδί",
+      "wrongAnswers": [
+        "ο κουρασμένος παιδί",
+        "η κουρασμένη παιδί",
+        "οι κουρασμένοι παιδί"
+      ]
+    }
+  ]
+}

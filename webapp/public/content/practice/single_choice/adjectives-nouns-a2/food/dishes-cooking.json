@@ -1,0 +1,342 @@
+{
+  "title": "Блюда и приготовление пищи",
+  "subtitle": "Согласуйте названия блюд и способов приготовления с прилагательными",
+  "items": [
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-001",
+      "type": "single-choice",
+      "prompt": "сладкое пирожное",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πάστα\nМножественное число: οι None\n\nРод: женский",
+      "correctAnswer": "η γλυκιά πάστα",
+      "wrongAnswers": ["ο γλυκός πάστα", "οι γλυκοί πάστα", "οι γλυκές πάστα"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-002",
+      "type": "single-choice",
+      "prompt": "жареные стейки",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μπριζόλα\nМножественное число: οι μπριζόλες\n\nРод: женский",
+      "correctAnswer": "οι ψητές μπριζόλες",
+      "wrongAnswers": [
+        "ο ψητός μπριζόλες",
+        "οι ψητοί μπριζόλες",
+        "η ψητή μπριζόλες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-004",
+      "type": "single-choice",
+      "prompt": "домашняя еда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "το σπιτικό φαγητό",
+      "wrongAnswers": [
+        "ο σπιτικός φαγητό",
+        "οι σπιτικοί φαγητό",
+        "η σπιτική φαγητό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-006",
+      "type": "single-choice",
+      "prompt": "варёный картофель",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
+      "correctAnswer": "οι βραστές πατάτες",
+      "wrongAnswers": [
+        "ο βραστός πατάτες",
+        "οι βραστοί πατάτες",
+        "η βραστή πατάτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-007",
+      "type": "single-choice",
+      "prompt": "хорошая кухня",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μαγειρική\nМножественное число: οι μαγειρικές\n\nРод: женский",
+      "correctAnswer": "η καλή μαγειρική",
+      "wrongAnswers": [
+        "ο καλός μαγειρική",
+        "οι καλοί μαγειρική",
+        "οι καλές μαγειρική"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-008",
+      "type": "single-choice",
+      "prompt": "домашние блюда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "τα σπιτικά φαγητά",
+      "wrongAnswers": [
+        "ο σπιτικός φαγητά",
+        "οι σπιτικοί φαγητά",
+        "η σπιτική φαγητά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-009",
+      "type": "single-choice",
+      "prompt": "жареная картошка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
+      "correctAnswer": "η τηγανητή πατάτα",
+      "wrongAnswers": [
+        "ο τηγανητός πατάτα",
+        "οι τηγανητοί πατάτα",
+        "οι τηγανητές πατάτα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-010",
+      "type": "single-choice",
+      "prompt": "жареный треск",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μπακαλιάρος\nМножественное число: οι μπακαλιάροι\n\nРод: мужской",
+      "correctAnswer": "ο ψητός μπακαλιάρος",
+      "wrongAnswers": [
+        "οι ψητοί μπακαλιάρος",
+        "η ψητή μπακαλιάρος",
+        "οι ψητές μπακαλιάρος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-011",
+      "type": "single-choice",
+      "prompt": "жареный стейк",
+      "speechTarget": "options",
+      "hint": "Единственное число: η μπριζόλα\nМножественное число: οι μπριζόλες\n\nРод: женский",
+      "correctAnswer": "η ψητή μπριζόλα",
+      "wrongAnswers": [
+        "ο ψητός μπριζόλα",
+        "οι ψητοί μπριζόλα",
+        "οι ψητές μπριζόλα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-012",
+      "type": "single-choice",
+      "prompt": "смешанная еда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "το ανακατεμένο φαγητό",
+      "wrongAnswers": [
+        "ο ανακατεμένος φαγητό",
+        "η ανακατεμένη φαγητό",
+        "οι ανακατεμένοι φαγητό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-013",
+      "type": "single-choice",
+      "prompt": "вкусная закуска",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο μεζές\nМножественное число: οι μεζέδες\n\nРод: мужской",
+      "correctAnswer": "ο νόστιμος μεζές",
+      "wrongAnswers": [
+        "οι νόστιμοι μεζές",
+        "η νόστιμη μεζές",
+        "οι νόστιμες μεζές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-015",
+      "type": "single-choice",
+      "prompt": "домашний суп",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σούπα\nМножественное число: οι σούπες\n\nРод: женский",
+      "correctAnswer": "η σπιτική σούπα",
+      "wrongAnswers": [
+        "ο σπιτικός σούπα",
+        "οι σπιτικοί σούπα",
+        "οι σπιτικές σούπα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-016",
+      "type": "single-choice",
+      "prompt": "рыба на гриле",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ψάρι\nМножественное число: τα ψάρια\n\nРод: средний",
+      "correctAnswer": "τα ψητά ψάρια",
+      "wrongAnswers": ["ο ψητός ψάρια", "οι ψητοί ψάρια", "η ψητή ψάρια"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-020",
+      "type": "single-choice",
+      "prompt": "варёное яйцо",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αυγό\nМножественное число: τα αυγά\n\nРод: средний",
+      "correctAnswer": "το βραστό αυγό",
+      "wrongAnswers": ["ο βραστός αυγό", "οι βραστοί αυγό", "η βραστή αυγό"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-021",
+      "type": "single-choice",
+      "prompt": "тёплый суп",
+      "speechTarget": "options",
+      "hint": "Единственное число: η σούπα\nМножественное число: οι σούπες\n\nРод: женский",
+      "correctAnswer": "η χλιαρή σούπα",
+      "wrongAnswers": [
+        "ο χλιαρός σούπα",
+        "οι χλιαροί σούπα",
+        "οι χλιαρές σούπα"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-023",
+      "type": "single-choice",
+      "prompt": "турецкие кухни",
+      "speechTarget": "options",
+      "hint": "Единственное число: η κουζίνα\nМножественное число: οι κουζίνες\n\nРод: женский",
+      "correctAnswer": "οι τουρκικές κουζίνες",
+      "wrongAnswers": [
+        "ο τουρκικός κουζίνες",
+        "οι τουρκικοί κουζίνες",
+        "η τουρκική κουζίνες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-024",
+      "type": "single-choice",
+      "prompt": "хороший рецепт",
+      "speechTarget": "options",
+      "hint": "Единственное число: η συνταγή\nМножественное число: οι συνταγές\n\nРод: женский",
+      "correctAnswer": "η καλή συνταγή",
+      "wrongAnswers": [
+        "ο καλός συνταγή",
+        "οι καλοί συνταγή",
+        "οι καλές συνταγή"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-026",
+      "type": "single-choice",
+      "prompt": "вкусный гирос",
+      "speechTarget": "options",
+      "hint": "Единственное число: ο γύρος\nМножественное число: οι γύροι\n\nРод: мужской",
+      "correctAnswer": "ο νόστιμος γύρος",
+      "wrongAnswers": [
+        "οι νόστιμοι γύρος",
+        "η νόστιμη γύρος",
+        "οι νόστιμες γύρος"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-027",
+      "type": "single-choice",
+      "prompt": "хорошие рецепты",
+      "speechTarget": "options",
+      "hint": "Единственное число: η συνταγή\nМножественное число: οι συνταγές\n\nРод: женский",
+      "correctAnswer": "οι καλές συνταγές",
+      "wrongAnswers": [
+        "ο καλός συνταγές",
+        "οι καλοί συνταγές",
+        "η καλή συνταγές"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-029",
+      "type": "single-choice",
+      "prompt": "жареные яйца",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αυγό\nМножественное число: τα αυγά\n\nРод: средний",
+      "correctAnswer": "τα τηγανητά αυγά",
+      "wrongAnswers": [
+        "ο τηγανητός αυγά",
+        "οι τηγανητοί αυγά",
+        "η τηγανητή αυγά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-031",
+      "type": "single-choice",
+      "prompt": "варёные яйца",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αυγό\nМножественное число: τα αυγά\n\nРод: средний",
+      "correctAnswer": "τα βραστά αυγά",
+      "wrongAnswers": ["ο βραστός αυγά", "οι βραστοί αυγά", "η βραστή αυγά"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-032",
+      "type": "single-choice",
+      "prompt": "жареная картошка",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
+      "correctAnswer": "οι τηγανητές πατάτες",
+      "wrongAnswers": [
+        "ο τηγανητός πατάτες",
+        "οι τηγανητοί πατάτες",
+        "η τηγανητή πατάτες"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-033",
+      "type": "single-choice",
+      "prompt": "японские блюда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "τα ιαπωνικά φαγητά",
+      "wrongAnswers": [
+        "ο ιαπωνικός φαγητά",
+        "οι ιαπωνικοί φαγητά",
+        "η ιαπωνική φαγητά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-034",
+      "type": "single-choice",
+      "prompt": "варёный рис",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ρύζι\nМножественное число: τα ρύζια\n\nРод: средний",
+      "correctAnswer": "το βραστό ρύζι",
+      "wrongAnswers": ["ο βραστός ρύζι", "οι βραστοί ρύζι", "η βραστή ρύζι"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-037",
+      "type": "single-choice",
+      "prompt": "жареное яйцо",
+      "speechTarget": "options",
+      "hint": "Единственное число: το αυγό\nМножественное число: τα αυγά\n\nРод: средний",
+      "correctAnswer": "το τηγανητό αυγό",
+      "wrongAnswers": [
+        "ο τηγανητός αυγό",
+        "οι τηγανητοί αυγό",
+        "η τηγανητή αυγό"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-042",
+      "type": "single-choice",
+      "prompt": "потрясающие блюда",
+      "speechTarget": "options",
+      "hint": "Единственное число: το φαγητό\nМножественное число: τα φαγητά\n\nРод: средний",
+      "correctAnswer": "τα καταπληκτικά φαγητά",
+      "wrongAnswers": [
+        "ο καταπληκτικός φαγητά",
+        "οι καταπληκτικοί φαγητά",
+        "η καταπληκτική φαγητά"
+      ]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-043",
+      "type": "single-choice",
+      "prompt": "жареная рыба",
+      "speechTarget": "options",
+      "hint": "Единственное число: το ψάρι\nМножественное число: τα ψάρια\n\nРод: средний",
+      "correctAnswer": "το ψητό ψάρι",
+      "wrongAnswers": ["ο ψητός ψάρι", "οι ψητοί ψάρι", "η ψητή ψάρι"]
+    },
+    {
+      "id": "nouns-adjectives-food-dishes-cooking-044",
+      "type": "single-choice",
+      "prompt": "запечённая картофелина",
+      "speechTarget": "options",
+      "hint": "Единственное число: η πατάτα\nМножественное число: οι πατάτες\n\nРод: женский",
+      "correctAnswer": "η ψητή πατάτα",
+      "wrongAnswers": ["ο ψητός πατάτα", "οι ψητοί πατάτα", "οι ψητές πατάτα"]
+    }
+  ]
+}
