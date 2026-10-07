@@ -1094,5 +1094,8 @@
         "ψάχνεις"
       ]
     }
-  ]
+  ],
+  "settings": {
+    "showTranslationHint": true
+  }
 }

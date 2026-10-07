@@ -73,6 +73,17 @@
   font-weight: 600;
 }
 
+.practice-card__prompt-block--with-translation .practice-card__question {
+  font-size: 21px;
+}
+
+.practice-card__prompt-block--with-translation .practice-card__translation-hint {
+  color: var(--color-text-muted);
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
 .practice-card__blank {
   display: inline-block;
   width: 3.5em;

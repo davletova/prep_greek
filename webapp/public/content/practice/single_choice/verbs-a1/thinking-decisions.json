@@ -1234,5 +1234,8 @@
         "ψάχνει"
       ]
     }
-  ]
+  ],
+  "settings": {
+    "showTranslationHint": true
+  }
 }

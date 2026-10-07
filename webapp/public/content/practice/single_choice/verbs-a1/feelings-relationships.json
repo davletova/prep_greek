@@ -842,5 +842,8 @@
         "χαίρεται"
       ]
     }
-  ]
+  ],
+  "settings": {
+    "showTranslationHint": true
+  }
 }

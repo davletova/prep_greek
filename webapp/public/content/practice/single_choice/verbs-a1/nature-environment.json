@@ -184,5 +184,8 @@
         "φυσάει"
       ]
     }
-  ]
+  ],
+  "settings": {
+    "showTranslationHint": true
+  }
 }

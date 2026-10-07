@@ -1262,5 +1262,8 @@
         "εξυπηρετούν"
       ]
     }
-  ]
+  ],
+  "settings": {
+    "showTranslationHint": true
+  }
 }

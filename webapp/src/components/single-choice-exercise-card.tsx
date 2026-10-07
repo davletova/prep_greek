@@ -65,7 +65,9 @@ export default function SingleChoiceExerciseCard({
         </button>
       ) : null}
 
-      <div className="practice-card__prompt-block">
+      <div
+        className={`practice-card__prompt-block${translationHint ? " practice-card__prompt-block--with-translation" : ""}`}
+      >
         <p className="practice-card__question">
           <span>
             {question.prompt.split(/(_{7})/u).map((part, index) =>

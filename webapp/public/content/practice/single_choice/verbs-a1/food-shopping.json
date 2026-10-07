@@ -1178,5 +1178,8 @@
         "τρώει"
       ]
     }
-  ]
+  ],
+  "settings": {
+    "showTranslationHint": true
+  }
 }

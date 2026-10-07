@@ -69,7 +69,11 @@ export async function splitVerbLevels() {
         ...topic,
         id: topic.id.replace("verbs-", `verbs-${level.toLowerCase()}-`),
       });
-      output.push({ level, file: topic.fileName, content: { ...collection, items } });
+      const content = { ...collection, items };
+      if (level === "A1") {
+        content.settings = { ...collection.settings, showTranslationHint: true };
+      }
+      output.push({ level, file: topic.fileName, content });
       totals[level] += items.length;
     }
   }

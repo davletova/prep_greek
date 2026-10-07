@@ -82,6 +82,7 @@ describe("verb levels", () => {
         const collection = exerciseCollectionSchema.parse(
           await json(resolve(dirname(indexPath), topic.fileName))
         );
+        if (level === "A1") expect(collection.settings?.showTranslationHint).toBe(true);
         expect(collection.items.length).toBeGreaterThan(0);
         for (const item of collection.items) {
           expect(seen.has(item.id)).toBe(false);
