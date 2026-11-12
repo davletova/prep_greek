@@ -55,6 +55,20 @@
   cursor: pointer;
 }
 
+.practice-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 32px;
+}
+
+.practice-card__header .practice-card__progress,
+.practice-card__header .practice-card__hint-button {
+  position: static;
+  flex-shrink: 0;
+}
+
 .practice-card__prompt-block {
   min-height: 120px;
   display: grid;

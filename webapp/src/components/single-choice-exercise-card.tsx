@@ -47,23 +47,25 @@ export default function SingleChoiceExerciseCard({
 
   return (
     <section className="practice-card">
-      <span
-        className="practice-card__progress"
-        aria-label={`Вопрос ${currentPosition} из ${totalQuestions}`}
-      >
-        {currentPosition} / {totalQuestions}
-      </span>
-
-      {hint ? (
-        <button
-          className="practice-card__hint-button"
-          type="button"
-          aria-label="Открыть подсказку"
-          onClick={() => setIsHintOpen(true)}
+      <div className="practice-card__header">
+        <span
+          className="practice-card__progress"
+          aria-label={`Вопрос ${currentPosition} из ${totalQuestions}`}
         >
-          i
-        </button>
-      ) : null}
+          {currentPosition} / {totalQuestions}
+        </span>
+
+        {hint ? (
+          <button
+            className="practice-card__hint-button"
+            type="button"
+            aria-label="Открыть подсказку"
+            onClick={() => setIsHintOpen(true)}
+          >
+            i
+          </button>
+        ) : null}
+      </div>
 
       <div
         className={`practice-card__prompt-block${translationHint ? " practice-card__prompt-block--with-translation" : ""}`}
