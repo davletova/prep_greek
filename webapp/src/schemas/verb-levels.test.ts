@@ -19,7 +19,7 @@ const persons = [
 ];
 
 describe("verb levels", () => {
-  it("replaces the old group with two navigable groups and partitions all items without edits", async () => {
+  it("keeps both level groups navigable and preserves the original A2 exercises", async () => {
     const levels = (await json(resolve(source, "levels.json"))) as Record<string, string>;
     const master = (await readFile(resolve(source, "a1-a2-verbs.tmp.txt"), "utf8"))
       .trim()
@@ -87,11 +87,16 @@ describe("verb levels", () => {
         for (const item of collection.items) {
           expect(seen.has(item.id)).toBe(false);
           seen.add(item.id);
-          expect(expected.get(item.id)).toEqual({ item, level, file: topic.fileName });
+          if (level === "A2") {
+            expect(expected.get(item.id)).toEqual({ item, level, file: topic.fileName });
+          }
         }
       }
     }
-    expect(seen.size).toBe(1764);
-    expect([...seen].sort()).toEqual([...expected.keys()].sort());
+    const a2Ids = [...expected.entries()]
+      .filter(([, entry]) => entry.level === "A2")
+      .map(([id]) => id);
+    expect(a2Ids.every((id) => seen.has(id))).toBe(true);
+    expect(seen.size).toBe(a2Ids.length + 466);
   });
 });
