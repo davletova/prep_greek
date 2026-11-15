@@ -26,6 +26,7 @@ subjects.forEach((word, index) => words.set(word, `«${russianSubjects[index].to
 const topics = [];
 let current;
 const unknown = new Set();
+const usedContexts = new Set();
 const lines = (await readFile(resolve(source, "a1-reviewed.txt"), "utf8")).split(/\r?\n/u);
 for (const line of lines) {
   if (!line || line.startsWith("#")) continue;
@@ -41,11 +42,19 @@ for (const line of lines) {
   if (forms.length !== translations.length || ![2, 6].includes(forms.length)) {
     throw new Error(`Invalid paradigm: ${greek}`);
   }
-  current.verbs.push({
-    forms,
-    translations,
-    contexts: contexts.split(";").map((value) => value.split("~")),
-  });
+  const individualContexts = contexts.split(";").map((value) => value.split("~"));
+  if (individualContexts.length !== forms.length) {
+    throw new Error(`Provide one individual context per form: ${greek}`);
+  }
+  for (const context of individualContexts) {
+    if (context.length !== 2 || context.some((value) => !value.trim())) {
+      throw new Error(`Invalid context for ${greek}`);
+    }
+    const normalized = context[0].trim().toLocaleLowerCase("el").replace(/\s+/gu, " ");
+    if (usedContexts.has(normalized)) throw new Error(`Repeated lexical context: ${context[0]}`);
+    usedContexts.add(normalized);
+  }
+  current.verbs.push({ forms, translations, contexts: individualContexts });
 }
 const distractorLemmas = JSON.parse(
   await readFile(resolve(source, "a1-distractor-verbs.json"), "utf8")
@@ -60,7 +69,7 @@ for (const topic of topics) {
   for (const [verbIndex, verb] of topic.verbs.entries()) {
     const { forms, translations, contexts } = verb;
     forms.forEach((correctAnswer, person) => {
-      const [complement, russianComplement] = contexts[person % contexts.length];
+      const [complement, russianComplement] = contexts[person];
       const special = forms.length === 2;
       const prompt = special ? complement : `${subjects[person]} _______ ${complement}`;
       let translation = special
@@ -72,7 +81,9 @@ for (const topic of topics) {
       if (forms[0] === "λείπω") {
         translation = `${["Меня", "Тебя", "Её", "Нас", "Вас", "Их"][person]} нет ${russianComplement}`;
       }
-      const distractor = verbsByLemma.get(distractorLemmas[forms[0]]);
+      const contrast = distractorLemmas[forms[0]];
+      if (!contrast?.context?.trim()) throw new Error(`Missing semantic context for ${forms[0]}`);
+      const distractor = verbsByLemma.get(contrast.verb);
       if (!distractor || distractor === verb || distractor.forms.length !== 6) {
         throw new Error(`Invalid distractor verb for ${forms[0]}`);
       }

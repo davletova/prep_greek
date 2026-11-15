@@ -8,6 +8,65 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const contentDir = resolve(root, "public/content/practice/single_choice/verbs-a1");
 
 describe("reviewed A1 verbs", () => {
+  it("uses reviewed semantic contrasts rather than unrelated distractor verbs", async () => {
+    const contrasts = JSON.parse(
+      await readFile(resolve(root, "content-source/verbs/a1-distractor-verbs.json"), "utf8")
+    );
+    expect(contrasts).toMatchObject({
+      πίνω: { verb: "τρώω" },
+      αρχίζω: { verb: "τελειώνω" },
+      τελειώνω: { verb: "αρχίζω" },
+      ανεβαίνω: { verb: "κατεβαίνω" },
+      ψάχνω: { verb: "βρίσκω" },
+      βρίσκω: { verb: "ψάχνω" },
+      πεινάω: { verb: "διψάω" },
+      διψάω: { verb: "πεινάω" },
+      αγοράζω: { verb: "αλλάζω" },
+      αρέσει: { verb: "λείπω" },
+    });
+  });
+
+  it("uses 466 individual lexical contexts instead of cycling phrases across persons", async () => {
+    const rows = (await readFile(resolve(root, "content-source/verbs/a1-reviewed.txt"), "utf8"))
+      .split(/\r?\n/u)
+      .filter((line) => line && !/^[#@]/u.test(line));
+    const contexts = new Set<string>();
+    const vocabulary = new Set<string>();
+    const normalize = (text: string) => text.trim().toLocaleLowerCase("el").replace(/\s+/gu, " ");
+    for (const row of rows) {
+      const [forms, , complements] = row.split("|");
+      const entries = complements!.split(";").map((entry) => entry.split("~"));
+      expect(entries, forms).toHaveLength(forms!.split(" ").length);
+      for (const [greek, russian] of entries) {
+        expect(russian?.trim()).toBeTruthy();
+        const context = normalize(greek!);
+        expect(contexts.has(context), greek).toBe(false);
+        contexts.add(context);
+        context
+          .split(" ")
+          .filter((word) => word !== "_______")
+          .forEach((word) => vocabulary.add(word));
+      }
+    }
+    expect(contexts.size).toBe(466);
+    // Corpus word forms, not a count of lemmas or an automatic CEFR assessment.
+    expect(vocabulary.size).toBeGreaterThanOrEqual(600);
+    const published = [];
+    for (const file of await readdir(contentDir)) {
+      if (file === "index.json") continue;
+      const collection = exerciseCollectionSchema.parse(
+        JSON.parse(await readFile(resolve(contentDir, file), "utf8"))
+      );
+      for (const item of collection.items) {
+        if (item.type !== "single-choice") throw new Error(item.id);
+        published.push(
+          normalize(item.prompt.replace(/^(?:Εγώ|Εσύ|Αυτή|Εμείς|Εσείς|Αυτοί) _______ /u, ""))
+        );
+      }
+    }
+    expect(published.sort()).toEqual([...contexts].sort());
+  });
+
   it("covers exactly the requested 79 verbs in six ordered themes", async () => {
     const lines = (await readFile(resolve(root, "content-source/verbs/a1-reviewed.txt"), "utf8"))
       .split(/\r?\n/u)
@@ -29,7 +88,7 @@ describe("reviewed A1 verbs", () => {
     expect((await readdir(contentDir)).sort()).toEqual(
       ["index.json", ...topics.map((topic) => `${topic.id}.json`)].sort()
     );
-    const distractorLemmas: Record<string, string> = JSON.parse(
+    const distractorLemmas: Record<string, { verb: string; context: string }> = JSON.parse(
       await readFile(resolve(root, "content-source/verbs/a1-distractor-verbs.json"), "utf8")
     );
     const paradigms = new Map(
@@ -60,7 +119,11 @@ describe("reviewed A1 verbs", () => {
         const identity = /-(\d+)-(\d+)$/u.exec(item.id)!;
         const target = topic.forms[Number(identity[1]) - 1]!;
         const person = Number(identity[2]) - 1;
-        const distractor = paradigms.get(distractorLemmas[target[0]!]!)!;
+        const contrast = distractorLemmas[target[0]!]!;
+        expect(contrast.context.trim().length, item.id).toBeGreaterThan(0);
+        expect(item.translation, item.id).not.toMatch(/[()]/u);
+        expect(item.translation, item.id).not.toContain(contrast.context);
+        const distractor = paradigms.get(contrast.verb)!;
         expect(distractor).toBeDefined();
         expect(distractor).not.toEqual(target);
         // Each lemma occurs exactly twice, in matching grammatical forms.
@@ -92,6 +155,7 @@ describe("reviewed A1 verbs", () => {
           expect(wordHints?.[position]?.startsWith(`- **${word}** — `)).toBe(true);
         });
         expect(item.hint).not.toContain("MISSING");
+        expect(item.hint).not.toContain("undefined");
         item.wrongAnswers.forEach((answer) => {
           expect(item.hint).toContain(`- **${answer}** — `);
         });
