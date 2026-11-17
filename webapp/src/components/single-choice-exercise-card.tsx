@@ -75,7 +75,7 @@ export default function SingleChoiceExerciseCard({
             {question.prompt.split(/(_{7})/u).map((part, index) =>
               part === "_______" ? (
                 <span key={index} className="practice-card__blank" aria-label="Пропуск">
-                  {part}
+                  _____
                 </span>
               ) : (
                 part
@@ -98,7 +98,11 @@ export default function SingleChoiceExerciseCard({
             }`}
             type="button"
             aria-label={
-              shouldSpeakCorrectAnswer ? "Озвучить правильный ответ" : `Озвучить ${question.prompt}`
+              /_{2,}/u.test(question.prompt)
+                ? "Озвучить предложение с правильным ответом"
+                : shouldSpeakCorrectAnswer
+                  ? "Озвучить правильный ответ"
+                  : `Озвучить ${question.prompt}`
             }
             onClick={shouldSpeakCorrectAnswer ? onPlayCorrectAnswer : onPlayPrompt}
             disabled={isPromptSpeaking || isCorrectAnswerSpeaking}

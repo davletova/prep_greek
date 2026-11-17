@@ -9,6 +9,7 @@ import { useSingleChoicePracticeAnswer } from "../hooks/use-single-choice-practi
 import { useSingleChoiceRuntimeQuestion } from "../hooks/use-single-choice-runtime-question.ts";
 import { useSpeechPlayback } from "../hooks/use-speech-playback.ts";
 import { getSingleChoiceExercises } from "../lib/exercises/filter.ts";
+import { buildSingleChoiceSpeechText } from "../lib/exercises/build-single-choice-speech-text.ts";
 import type { ExerciseCollection } from "../types/exercises";
 import type { LoadableState, SpeakHandler, VoidHandler } from "../types/ui";
 
@@ -41,16 +42,16 @@ export default function SingleChoicePracticeTopicScreen({
       return;
     }
 
-    await speech.play("prompt", question.prompt);
+    await speech.play("prompt", buildSingleChoiceSpeechText(question, "prompt"));
   };
 
   const handlePlayCorrectAnswer = async () => {
-    const correctAnswer = question?.options[question.correctIndex];
-    if (!correctAnswer || speech.isSpeaking("correct-answer")) {
+    if (!question || speech.isSpeaking("correct-answer")) {
       return;
     }
 
-    await speech.play("correct-answer", correctAnswer);
+    const text = buildSingleChoiceSpeechText(question, "correctAnswer");
+    if (text) await speech.play("correct-answer", text);
   };
 
   const handlePlayOption = async (option: string, optionIndex: number) => {
